@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personalized Gift Planner"
+  short_description: "Plan personalized gift products"
+  default_prompt: "Use $personalized-gift-planner to create a production-ready MadamAllure deliverable."

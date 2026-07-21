@@ -1,0 +1,4 @@
+interface:
+  display_name: "Filament Material Advisor"
+  short_description: "Select suitable printing materials"
+  default_prompt: "Use $filament-material-advisor to create a production-ready MadamAllure deliverable."

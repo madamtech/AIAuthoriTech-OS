@@ -1,0 +1,4 @@
+interface:
+  display_name: "Storefront Merchandising Planner"
+  short_description: "Plan ecommerce merchandising"
+  default_prompt: "Use $storefront-merchandising-planner to create a production-ready MadamAllure deliverable."

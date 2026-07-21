@@ -1,0 +1,4 @@
+interface:
+  display_name: "NetExam Exam Import Formatter"
+  short_description: "Prepare NetExam exam imports"
+  default_prompt: "Use $netexam-exam-import-formatter to create an implementation-ready LMS deliverable."

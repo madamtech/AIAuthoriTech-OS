@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brand Voice Builder"
+  short_description: "Define a consistent brand voice"
+  default_prompt: "Use $brand-voice-builder to create a production-ready MadamAllure deliverable."

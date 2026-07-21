@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketplace Builder"
+  short_description: "Design trusted multi-sided marketplaces"
+  default_prompt: "Use $marketplace-builder to create a governed, build-ready marketplace specification for these buyers, sellers, and offerings."

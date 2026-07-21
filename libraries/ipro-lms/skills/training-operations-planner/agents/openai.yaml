@@ -1,0 +1,4 @@
+interface:
+  display_name: "Training Operations Planner"
+  short_description: "Plan governed training operations"
+  default_prompt: "Use $training-operations-planner to produce an implementation-ready training operations plan."

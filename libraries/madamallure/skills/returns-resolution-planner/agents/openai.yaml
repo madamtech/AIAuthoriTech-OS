@@ -1,0 +1,4 @@
+interface:
+  display_name: "Returns Resolution Planner"
+  short_description: "Resolve returns and replacements"
+  default_prompt: "Use $returns-resolution-planner to create a production-ready MadamAllure deliverable."

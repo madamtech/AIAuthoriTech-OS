@@ -1,0 +1,4 @@
+interface:
+  display_name: "Beauty Product Description Builder"
+  short_description: "Write accurate beauty product copy"
+  default_prompt: "Use $beauty-product-description-builder to create a production-ready MadamAllure deliverable."

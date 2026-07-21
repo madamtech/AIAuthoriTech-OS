@@ -1,0 +1,4 @@
+interface:
+  display_name: "n8n Workflow Planner"
+  short_description: "Plan production-ready n8n workflows"
+  default_prompt: "Use $n8n-workflow-planner to map this automation into a production-ready n8n workflow."

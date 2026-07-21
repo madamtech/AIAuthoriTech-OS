@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dashboard Designer"
+  short_description: "Design actionable trustworthy dashboards"
+  default_prompt: "Use $dashboard-designer to create an accessible, decision-focused dashboard specification from these metrics and user needs."

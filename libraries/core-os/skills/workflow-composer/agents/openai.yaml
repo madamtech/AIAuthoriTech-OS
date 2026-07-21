@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Composer"
+  short_description: "Compose skills into reliable workflows"
+  default_prompt: "Use $workflow-composer to design an end-to-end workflow from these capabilities."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Internal Operations App Builder"
+  short_description: "Design governed internal operations apps"
+  default_prompt: "Use $internal-operations-app-builder to turn this validated workflow into a secure, build-ready operations app specification."

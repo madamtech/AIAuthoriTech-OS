@@ -1,0 +1,4 @@
+interface:
+  display_name: "Database Designer"
+  short_description: "Design governed application data models"
+  default_prompt: "Use $database-designer to convert these app requirements into a secure, scalable, migration-ready database design."

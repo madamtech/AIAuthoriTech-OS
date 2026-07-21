@@ -1,0 +1,4 @@
+interface:
+  display_name: "Automation Opportunity Analysis"
+  short_description: "Rank viable automation opportunities"
+  default_prompt: "Use $automation-opportunity-analysis to evaluate and prioritize these workflow automation opportunities."

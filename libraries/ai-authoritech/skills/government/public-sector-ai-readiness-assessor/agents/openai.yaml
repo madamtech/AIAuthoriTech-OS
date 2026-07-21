@@ -1,0 +1,4 @@
+interface:
+  display_name: "Public Sector AI Readiness Assessor"
+  short_description: "Assess public-sector AI readiness"
+  default_prompt: "Use $public-sector-ai-readiness-assessor to create an evidence-based public-sector AI deliverable."

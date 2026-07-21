@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Procurement Requirements Builder"
+  short_description: "Define responsible AI procurement"
+  default_prompt: "Use $ai-procurement-requirements-builder to create an evidence-based public-sector AI deliverable."

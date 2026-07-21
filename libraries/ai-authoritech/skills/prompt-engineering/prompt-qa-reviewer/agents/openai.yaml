@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt QA Reviewer"
+  short_description: "Review prompt quality and release evidence"
+  default_prompt: "Use $prompt-qa-reviewer to independently assess this prompt package and issue a release verdict."

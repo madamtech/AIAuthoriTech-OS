@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Integration Monitor"
+  short_description: "Monitor learning data integrations"
+  default_prompt: "Use $learning-integration-monitor to produce an implementation-ready learning operations deliverable."

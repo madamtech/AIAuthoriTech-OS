@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exception Flow Designer"
+  short_description: "Design safe exception paths"
+  default_prompt: "Use $exception-flow-designer to design complete exception handling for this workflow."

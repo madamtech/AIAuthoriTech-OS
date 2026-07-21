@@ -1,0 +1,4 @@
+interface:
+  display_name: "Government Data Readiness Assessor"
+  short_description: "Assess government data readiness"
+  default_prompt: "Use $government-data-readiness-assessor to create an evidence-based public-sector AI deliverable."

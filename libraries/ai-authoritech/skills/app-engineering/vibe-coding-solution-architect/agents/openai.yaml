@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vibe Coding Solution Architect"
+  short_description: "Architect prompt-driven apps and websites"
+  default_prompt: "Use $vibe-coding-solution-architect to turn this app or website idea into a build-ready, platform-neutral architecture."

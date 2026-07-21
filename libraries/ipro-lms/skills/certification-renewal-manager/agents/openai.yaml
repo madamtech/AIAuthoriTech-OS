@@ -1,0 +1,4 @@
+interface:
+  display_name: "Certification Renewal Manager"
+  short_description: "Govern certification renewal cycles"
+  default_prompt: "Use $certification-renewal-manager to design and operate this certification renewal lifecycle."

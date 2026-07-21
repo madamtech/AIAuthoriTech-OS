@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Tester"
+  short_description: "Build reproducible prompt evaluation suites"
+  default_prompt: "Use $prompt-tester to create and execute a rigorous evaluation plan for this prompt contract."

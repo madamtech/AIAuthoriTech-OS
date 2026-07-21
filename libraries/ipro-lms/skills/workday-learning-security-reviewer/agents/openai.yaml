@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workday Learning Security Reviewer"
+  short_description: "Review Workday learning security"
+  default_prompt: "Use $workday-learning-security-reviewer to create an implementation-ready LMS deliverable."

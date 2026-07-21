@@ -1,0 +1,4 @@
+interface:
+  display_name: "3D Print Quality Reviewer"
+  short_description: "Review printed product quality"
+  default_prompt: "Use $three-d-print-quality-reviewer to create a production-ready MadamAllure deliverable."

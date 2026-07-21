@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website Messaging Auditor"
+  short_description: "Audit website messaging clarity"
+  default_prompt: "Use $website-messaging-auditor to create an evidence-based marketing deliverable."

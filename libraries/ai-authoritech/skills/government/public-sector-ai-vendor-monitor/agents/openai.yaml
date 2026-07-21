@@ -1,0 +1,4 @@
+interface:
+  display_name: "Public Sector AI Vendor Monitor"
+  short_description: "Monitor public-sector AI vendors"
+  default_prompt: "Use $public-sector-ai-vendor-monitor to create an evidence-based public-sector AI deliverable."

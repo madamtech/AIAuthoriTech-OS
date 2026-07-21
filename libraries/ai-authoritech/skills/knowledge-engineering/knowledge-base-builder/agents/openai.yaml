@@ -1,0 +1,4 @@
+interface:
+  display_name: "Knowledge Base Builder"
+  short_description: "Design governed retrieval-ready knowledge"
+  default_prompt: "Use $knowledge-base-builder to design a governed, retrieval-ready knowledge base for this agent or application."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Simulator"
+  short_description: "Simulate workflow capacity and behavior"
+  default_prompt: "Use $workflow-simulator to model this workflow under realistic demand and failure scenarios."

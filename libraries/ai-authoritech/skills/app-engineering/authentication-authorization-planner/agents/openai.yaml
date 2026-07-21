@@ -1,0 +1,4 @@
+interface:
+  display_name: "Authentication and Authorization Planner"
+  short_description: "Plan secure identity and access controls"
+  default_prompt: "Use $authentication-authorization-planner to design secure authentication, sessions, roles, and resource-level authorization for this application."

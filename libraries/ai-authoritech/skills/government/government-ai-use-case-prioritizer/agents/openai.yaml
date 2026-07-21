@@ -1,0 +1,4 @@
+interface:
+  display_name: "Government AI Use Case Prioritizer"
+  short_description: "Prioritize government AI use cases"
+  default_prompt: "Use $government-ai-use-case-prioritizer to create an evidence-based public-sector AI deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Supplier Sourcing Planner"
+  short_description: "Evaluate product suppliers"
+  default_prompt: "Use $supplier-sourcing-planner to create a production-ready MadamAllure deliverable."

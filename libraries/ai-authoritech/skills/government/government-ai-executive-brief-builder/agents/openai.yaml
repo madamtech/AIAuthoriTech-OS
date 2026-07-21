@@ -1,0 +1,4 @@
+interface:
+  display_name: "Government AI Executive Brief Builder"
+  short_description: "Build government AI executive briefs"
+  default_prompt: "Use $government-ai-executive-brief-builder to create an evidence-based public-sector AI deliverable."

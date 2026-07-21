@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Governance Review"
+  short_description: "Assess AI governance controls and evidence"
+  default_prompt: "Use $ai-governance-review to assess this AI governance program and produce a prioritized remediation plan."

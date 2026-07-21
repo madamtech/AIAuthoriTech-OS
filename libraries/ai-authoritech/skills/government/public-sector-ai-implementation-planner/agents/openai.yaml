@@ -1,0 +1,4 @@
+interface:
+  display_name: "Public Sector AI Implementation Planner"
+  short_description: "Plan public-sector AI implementation"
+  default_prompt: "Use $public-sector-ai-implementation-planner to create an evidence-based public-sector AI deliverable."

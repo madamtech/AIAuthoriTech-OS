@@ -1,0 +1,4 @@
+interface:
+  display_name: "Course Blueprint Builder"
+  short_description: "Design complete course blueprints"
+  default_prompt: "Use $course-blueprint-builder to create an instructionally aligned course blueprint."

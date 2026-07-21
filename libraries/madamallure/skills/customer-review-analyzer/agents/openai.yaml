@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Review Analyzer"
+  short_description: "Analyze customer review themes"
+  default_prompt: "Use $customer-review-analyzer to create a production-ready MadamAllure deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "CTA Optimizer"
+  short_description: "Optimize calls to action effectively"
+  default_prompt: "Use $cta-optimizer to create evidence-based call-to-action recommendations."

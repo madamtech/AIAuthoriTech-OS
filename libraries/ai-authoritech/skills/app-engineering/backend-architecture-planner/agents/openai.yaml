@@ -1,0 +1,4 @@
+interface:
+  display_name: "Backend Architecture Planner"
+  short_description: "Design secure resilient backend boundaries"
+  default_prompt: "Use $backend-architecture-planner to create a provider-neutral backend architecture for these approved requirements."

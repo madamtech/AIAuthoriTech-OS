@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workday Learning Assignment Planner"
+  short_description: "Plan Workday learning assignments"
+  default_prompt: "Use $workday-learning-assignment-planner to create an implementation-ready LMS deliverable."

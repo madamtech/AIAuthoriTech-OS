@@ -1,0 +1,4 @@
+interface:
+  display_name: "Public Sector AI Accessibility Reviewer"
+  short_description: "Review accessible public AI services"
+  default_prompt: "Use $public-sector-ai-accessibility-reviewer to create an evidence-based public-sector AI deliverable."

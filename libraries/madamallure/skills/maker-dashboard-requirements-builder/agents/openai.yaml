@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maker Dashboard Requirements Builder"
+  short_description: "Define maker dashboard requirements"
+  default_prompt: "Use $maker-dashboard-requirements-builder to create a production-ready MadamAllure deliverable."

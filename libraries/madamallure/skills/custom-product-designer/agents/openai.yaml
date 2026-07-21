@@ -1,0 +1,4 @@
+interface:
+  display_name: "Custom Product Designer"
+  short_description: "Design manufacturable custom products"
+  default_prompt: "Use $custom-product-designer to create a production-ready MadamAllure deliverable."

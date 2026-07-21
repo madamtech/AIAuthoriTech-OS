@@ -1,0 +1,4 @@
+interface:
+  display_name: "Inventory Replenishment Planner"
+  short_description: "Plan inventory replenishment"
+  default_prompt: "Use $inventory-replenishment-planner to create a production-ready MadamAllure deliverable."

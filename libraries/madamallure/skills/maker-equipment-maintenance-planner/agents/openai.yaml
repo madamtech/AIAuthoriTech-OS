@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maker Equipment Maintenance Planner"
+  short_description: "Plan equipment maintenance"
+  default_prompt: "Use $maker-equipment-maintenance-planner to create a production-ready MadamAllure deliverable."

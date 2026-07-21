@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Audit Evidence Builder"
+  short_description: "Assemble learning audit evidence"
+  default_prompt: "Use $learning-audit-evidence-builder to produce an implementation-ready learning operations deliverable."

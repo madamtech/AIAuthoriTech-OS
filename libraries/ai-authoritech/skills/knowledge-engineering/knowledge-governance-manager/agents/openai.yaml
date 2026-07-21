@@ -1,0 +1,4 @@
+interface:
+  display_name: "Knowledge Governance Manager"
+  short_description: "Govern knowledge ownership and access"
+  default_prompt: "Use $knowledge-governance-manager to define governance, access, retention, and accountability for this knowledge system."

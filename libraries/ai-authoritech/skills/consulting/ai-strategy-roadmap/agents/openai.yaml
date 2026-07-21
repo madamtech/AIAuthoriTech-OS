@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Strategy Roadmap"
+  short_description: "Turn evidence into an executable AI roadmap"
+  default_prompt: "Use $ai-strategy-roadmap to turn these findings into a phased, governed AI strategy roadmap."

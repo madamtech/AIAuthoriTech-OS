@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Automation Designer"
+  short_description: "Design executable workflow automations"
+  default_prompt: "Use $workflow-automation-designer to design an executable automation for this validated workflow."

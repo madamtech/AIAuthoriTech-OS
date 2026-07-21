@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exam Performance Analyzer"
+  short_description: "Analyze exam performance evidence"
+  default_prompt: "Use $exam-performance-analyzer to produce an implementation-ready learning operations deliverable."

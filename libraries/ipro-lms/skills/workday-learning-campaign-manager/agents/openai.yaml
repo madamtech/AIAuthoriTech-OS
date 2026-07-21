@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workday Learning Campaign Manager"
+  short_description: "Manage Workday learning campaigns"
+  default_prompt: "Use $workday-learning-campaign-manager to create an implementation-ready LMS deliverable."

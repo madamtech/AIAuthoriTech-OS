@@ -1,0 +1,4 @@
+interface:
+  display_name: "Supplier Performance Scorecard"
+  short_description: "Score supplier performance"
+  default_prompt: "Use $supplier-performance-scorecard to create a production-ready MadamAllure deliverable."

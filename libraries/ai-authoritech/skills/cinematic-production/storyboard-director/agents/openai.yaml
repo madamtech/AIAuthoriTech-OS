@@ -1,0 +1,4 @@
+interface:
+  display_name: "Storyboard Director"
+  short_description: "Direct coherent visual storyboards"
+  default_prompt: "Use $storyboard-director to create a production-ready cinematic deliverable."

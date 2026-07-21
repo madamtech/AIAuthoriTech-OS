@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi-Agent System Designer"
+  short_description: "Design bounded multi-agent systems"
+  default_prompt: "Use $multi-agent-system-designer to determine whether multiple agents are justified and design their controlled coordination."

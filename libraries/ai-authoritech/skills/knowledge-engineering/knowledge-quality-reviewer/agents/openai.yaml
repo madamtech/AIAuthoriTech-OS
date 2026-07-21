@@ -1,0 +1,4 @@
+interface:
+  display_name: "Knowledge Quality Reviewer"
+  short_description: "Review knowledge quality and evidence"
+  default_prompt: "Use $knowledge-quality-reviewer to assess this knowledge asset and issue an evidence-based verdict."

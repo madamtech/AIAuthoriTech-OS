@@ -1,0 +1,4 @@
+interface:
+  display_name: "Government AI Pilot Evaluator"
+  short_description: "Evaluate government AI pilots"
+  default_prompt: "Use $government-ai-pilot-evaluator to create an evidence-based public-sector AI deliverable."

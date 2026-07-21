@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personalization Layout Designer"
+  short_description: "Design accurate personalization layouts"
+  default_prompt: "Use $personalization-layout-designer to create a production-ready MadamAllure deliverable."

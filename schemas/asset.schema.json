@@ -1,0 +1,9 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"AI AuthoriTech Asset","type":"object","required":["sku","asset_id","name","asset_type","business","library","version","status","maturity","path"],"properties":{
+  "sku":{"type":"string","pattern":"^(AA|LMS|MA|CO)-[A-Z]{3}-[0-9]{6}$"},
+  "asset_id":{"type":"string","pattern":"^[a-z0-9-]+\\.[a-z0-9-]+\\.v[1-9][0-9]*$"},
+  "name":{"type":"string"},"asset_type":{"type":"string"},"business":{"enum":["AA","LMS","MA","CO"]},
+  "library":{"type":"string"},"version":{"type":"string","pattern":"^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+  "status":{"enum":["concept","draft","testing","approved","released","deprecated","archived"]},
+  "maturity":{"type":"integer","minimum":0,"maximum":5},"path":{"type":"string"},
+  "depends_on":{"type":"array","items":{"type":"string"}}
+},"additionalProperties":false}

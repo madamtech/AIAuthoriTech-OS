@@ -1,0 +1,4 @@
+interface:
+  display_name: "Knowledge Migration Planner"
+  short_description: "Migrate knowledge without losing integrity"
+  default_prompt: "Use $knowledge-migration-planner to plan a controlled migration of this knowledge system."

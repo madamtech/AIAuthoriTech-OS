@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Brand Voice Builder"
+  short_description: "Define reusable brand voice"
+  default_prompt: "Use $ai-brand-voice-builder to create an evidence-based marketing deliverable."

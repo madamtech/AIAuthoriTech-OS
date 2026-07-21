@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integration Planner"
+  short_description: "Plan governed system integrations"
+  default_prompt: "Use $integration-planner to plan this system integration and its data contracts."

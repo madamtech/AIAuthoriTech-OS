@@ -1,0 +1,4 @@
+interface:
+  display_name: "Custom Order Planner"
+  short_description: "Plan personalized customer orders"
+  default_prompt: "Use $custom-order-planner to create a production-ready MadamAllure deliverable."

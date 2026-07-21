@@ -1,0 +1,4 @@
+interface:
+  display_name: "Automation Architecture Designer"
+  short_description: "Design reliable automation architecture"
+  default_prompt: "Use $automation-architecture-designer to design the architecture for this automation."

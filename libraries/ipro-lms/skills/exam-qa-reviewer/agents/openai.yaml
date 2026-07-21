@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exam QA Reviewer"
+  short_description: "Review exam quality independently"
+  default_prompt: "Use $exam-qa-reviewer to independently review this exam and issue a release verdict."

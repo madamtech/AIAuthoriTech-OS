@@ -1,0 +1,4 @@
+interface:
+  display_name: "LMS Report Analyzer"
+  short_description: "Analyze LMS reporting evidence"
+  default_prompt: "Use $lms-report-analyzer to analyze this LMS report and return traceable findings."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gift Box Designer"
+  short_description: "Design curated luxury gift boxes"
+  default_prompt: "Use $gift-box-designer to create a production-ready MadamAllure deliverable."

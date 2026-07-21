@@ -1,0 +1,4 @@
+interface:
+  display_name: "Slicer Profile Builder"
+  short_description: "Build validated slicer profiles"
+  default_prompt: "Use $slicer-profile-builder to create a production-ready MadamAllure deliverable."

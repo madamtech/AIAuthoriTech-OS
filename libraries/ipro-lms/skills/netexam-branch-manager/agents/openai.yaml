@@ -1,0 +1,4 @@
+interface:
+  display_name: "NetExam Branch Manager"
+  short_description: "Govern NetExam branches and visibility"
+  default_prompt: "Use $netexam-branch-manager to produce an implementation-ready LMS deliverable."

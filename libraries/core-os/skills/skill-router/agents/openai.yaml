@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Router"
+  short_description: "Route requests to the right capabilities"
+  default_prompt: "Use $skill-router to select the best skill or workflow for this request."

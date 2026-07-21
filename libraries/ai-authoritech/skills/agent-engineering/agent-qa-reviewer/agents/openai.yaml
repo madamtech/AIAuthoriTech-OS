@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent QA Reviewer"
+  short_description: "Evaluate agent quality and release readiness"
+  default_prompt: "Use $agent-qa-reviewer to evaluate this agent system and produce an evidence-backed release verdict."

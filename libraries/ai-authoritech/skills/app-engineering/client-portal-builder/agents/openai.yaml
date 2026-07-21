@@ -1,0 +1,4 @@
+interface:
+  display_name: "Client Portal Builder"
+  short_description: "Design secure accessible client portals"
+  default_prompt: "Use $client-portal-builder to create a build-ready specification for this client portal."

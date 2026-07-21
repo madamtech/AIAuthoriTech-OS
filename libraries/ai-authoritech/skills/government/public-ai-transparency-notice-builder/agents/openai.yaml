@@ -1,0 +1,4 @@
+interface:
+  display_name: "Public AI Transparency Notice Builder"
+  short_description: "Draft public AI transparency notices"
+  default_prompt: "Use $public-ai-transparency-notice-builder to create an evidence-based public-sector AI deliverable."

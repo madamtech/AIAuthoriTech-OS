@@ -1,0 +1,4 @@
+interface:
+  display_name: "Order Fulfillment Planner"
+  short_description: "Plan reliable order fulfillment"
+  default_prompt: "Use $order-fulfillment-planner to create a production-ready MadamAllure deliverable."

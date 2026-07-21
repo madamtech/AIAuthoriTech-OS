@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learner User Lifecycle Manager"
+  short_description: "Manage learner identity and access lifecycle"
+  default_prompt: "Use $learner-user-lifecycle-manager to produce an implementation-ready LMS deliverable."

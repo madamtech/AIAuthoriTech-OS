@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Version Manager"
+  short_description: "Version and release prompt assets safely"
+  default_prompt: "Use $prompt-version-manager to classify this prompt change, plan the release, and protect compatibility and rollback."

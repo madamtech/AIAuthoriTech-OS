@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Memory Architect"
+  short_description: "Design safe, governed agent memory"
+  default_prompt: "Use $agent-memory-architect to determine what this agent should remember and design its memory controls."

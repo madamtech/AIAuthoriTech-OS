@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Page Builder"
+  short_description: "Build conversion-focused landing pages"
+  default_prompt: "Use $landing-page-builder to create an evidence-based marketing deliverable."

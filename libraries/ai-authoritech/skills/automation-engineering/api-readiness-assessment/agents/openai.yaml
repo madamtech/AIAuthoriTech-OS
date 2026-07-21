@@ -1,0 +1,4 @@
+interface:
+  display_name: "API Readiness Assessment"
+  short_description: "Assess APIs for automation readiness"
+  default_prompt: "Use $api-readiness-assessment to evaluate whether these APIs can support the proposed automation."

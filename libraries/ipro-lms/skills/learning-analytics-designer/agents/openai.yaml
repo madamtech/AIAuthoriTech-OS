@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Analytics Designer"
+  short_description: "Design reliable learning analytics"
+  default_prompt: "Use $learning-analytics-designer to produce an implementation-ready LMS deliverable."

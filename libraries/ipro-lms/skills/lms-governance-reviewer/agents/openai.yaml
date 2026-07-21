@@ -1,0 +1,4 @@
+interface:
+  display_name: "LMS Governance Reviewer"
+  short_description: "Review LMS governance controls"
+  default_prompt: "Use $lms-governance-reviewer to create an implementation-ready LMS deliverable."

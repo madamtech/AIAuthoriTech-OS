@@ -1,0 +1,4 @@
+interface:
+  display_name: "Front-End Generator"
+  short_description: "Generate bounded accessible front-end slices"
+  default_prompt: "Use $front-end-generator to turn these approved requirements into a verified front-end implementation packet."

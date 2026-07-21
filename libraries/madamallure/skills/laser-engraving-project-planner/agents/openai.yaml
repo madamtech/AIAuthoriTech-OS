@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laser Engraving Project Planner"
+  short_description: "Plan safe laser engraving projects"
+  default_prompt: "Use $laser-engraving-project-planner to create a production-ready MadamAllure deliverable."

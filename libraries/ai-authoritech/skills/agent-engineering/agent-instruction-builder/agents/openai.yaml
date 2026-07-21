@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Instruction Builder"
+  short_description: "Write precise, testable agent instructions"
+  default_prompt: "Use $agent-instruction-builder to convert this approved agent architecture into precise, testable instruction layers."

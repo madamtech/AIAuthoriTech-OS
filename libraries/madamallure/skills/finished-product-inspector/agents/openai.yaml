@@ -1,0 +1,4 @@
+interface:
+  display_name: "Finished Product Inspector"
+  short_description: "Inspect finished product quality"
+  default_prompt: "Use $finished-product-inspector to create a production-ready MadamAllure deliverable."

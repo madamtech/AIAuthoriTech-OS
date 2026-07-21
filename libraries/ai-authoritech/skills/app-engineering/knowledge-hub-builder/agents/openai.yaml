@@ -1,0 +1,4 @@
+interface:
+  display_name: "Knowledge Hub Builder"
+  short_description: "Design governed searchable knowledge hubs"
+  default_prompt: "Use $knowledge-hub-builder to create a governed, searchable knowledge hub specification for these audiences and sources."

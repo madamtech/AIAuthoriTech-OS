@@ -1,0 +1,4 @@
+interface:
+  display_name: "RAG Architect"
+  short_description: "Architect grounded retrieval systems"
+  default_prompt: "Use $rag-architect to design a grounded RAG system with measurable retrieval and answer quality."

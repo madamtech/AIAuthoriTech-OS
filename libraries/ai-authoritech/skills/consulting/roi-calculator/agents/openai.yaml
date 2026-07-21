@@ -1,0 +1,4 @@
+interface:
+  display_name: "ROI Calculator"
+  short_description: "Build risk-adjusted AI business cases"
+  default_prompt: "Use $roi-calculator to build a scenario-based ROI business case from these costs, benefits, and assumptions."

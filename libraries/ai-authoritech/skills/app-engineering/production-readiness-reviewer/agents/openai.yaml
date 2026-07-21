@@ -1,0 +1,4 @@
+interface:
+  display_name: "Production Readiness Reviewer"
+  short_description: "Review release readiness from evidence"
+  default_prompt: "Use $production-readiness-reviewer to assess this release and issue an evidence-backed readiness recommendation."

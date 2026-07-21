@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Campaign Brief Builder"
+  short_description: "Build aligned campaign briefs"
+  default_prompt: "Use $marketing-campaign-brief-builder to create an evidence-based marketing deliverable."

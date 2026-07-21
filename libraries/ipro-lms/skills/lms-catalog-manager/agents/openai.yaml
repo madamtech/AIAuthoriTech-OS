@@ -1,0 +1,4 @@
+interface:
+  display_name: "LMS Catalog Manager"
+  short_description: "Govern LMS catalog structure and publishing"
+  default_prompt: "Use $lms-catalog-manager to produce an implementation-ready LMS deliverable."

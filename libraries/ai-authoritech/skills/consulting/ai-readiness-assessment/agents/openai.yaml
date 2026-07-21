@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Readiness Assessment"
+  short_description: "Assess organizational readiness for AI"
+  default_prompt: "Use $ai-readiness-assessment to assess this organization and produce a prioritized readiness plan."

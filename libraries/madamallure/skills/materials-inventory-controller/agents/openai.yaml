@@ -1,0 +1,4 @@
+interface:
+  display_name: "Materials Inventory Controller"
+  short_description: "Control maker materials inventory"
+  default_prompt: "Use $materials-inventory-controller to create a production-ready MadamAllure deliverable."

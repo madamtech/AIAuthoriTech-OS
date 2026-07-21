@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transcript Auditor"
+  short_description: "Audit learning transcript integrity"
+  default_prompt: "Use $transcript-auditor to audit these transcript records and produce an evidence-linked exception report."

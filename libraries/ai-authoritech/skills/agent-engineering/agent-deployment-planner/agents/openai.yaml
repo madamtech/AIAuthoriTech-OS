@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Deployment Planner"
+  short_description: "Plan controlled agent releases and rollback"
+  default_prompt: "Use $agent-deployment-planner to create a controlled deployment, verification, and rollback plan for this agent."

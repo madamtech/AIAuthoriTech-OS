@@ -1,0 +1,4 @@
+interface:
+  display_name: "Error Log Analyzer"
+  short_description: "Correlate logs into actionable evidence"
+  default_prompt: "Use $error-log-analyzer to analyze these logs, correlate the failure sequence, and report evidence-backed findings."

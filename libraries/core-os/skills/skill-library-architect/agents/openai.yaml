@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Library Architect"
+  short_description: "Create governed, reusable skill packages"
+  default_prompt: "Use $skill-library-architect to turn this capability idea into a validated skill package."

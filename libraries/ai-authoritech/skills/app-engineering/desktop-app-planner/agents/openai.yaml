@@ -1,0 +1,4 @@
+interface:
+  display_name: "Desktop App Planner"
+  short_description: "Plan secure, maintainable desktop applications"
+  default_prompt: "Use $desktop-app-planner to create a build-ready plan for this desktop application."

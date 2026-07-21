@@ -1,0 +1,4 @@
+interface:
+  display_name: "Implementation Planner"
+  short_description: "Turn approved scope into an executable plan"
+  default_prompt: "Use $implementation-planner to convert this approved roadmap or SOW into an executable implementation plan."

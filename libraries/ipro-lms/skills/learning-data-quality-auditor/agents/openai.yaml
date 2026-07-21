@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Data Quality Auditor"
+  short_description: "Audit learning data quality"
+  default_prompt: "Use $learning-data-quality-auditor to create an implementation-ready LMS deliverable."

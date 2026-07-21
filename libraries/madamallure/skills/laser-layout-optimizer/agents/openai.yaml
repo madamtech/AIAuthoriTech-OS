@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laser Layout Optimizer"
+  short_description: "Optimize laser material layouts"
+  default_prompt: "Use $laser-layout-optimizer to create a production-ready MadamAllure deliverable."

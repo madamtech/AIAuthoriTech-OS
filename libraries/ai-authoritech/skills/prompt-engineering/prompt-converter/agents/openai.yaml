@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Converter"
+  short_description: "Convert prompts without semantic drift"
+  default_prompt: "Use $prompt-converter to adapt this canonical prompt to the target platform and verify behavioral equivalence."

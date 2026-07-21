@@ -1,0 +1,4 @@
+interface:
+  display_name: "Statement of Work Builder"
+  short_description: "Draft precise, review-ready SOWs"
+  default_prompt: "Use $statement-of-work-builder to convert this approved proposal into a precise, review-ready statement of work."

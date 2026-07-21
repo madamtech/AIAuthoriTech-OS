@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Sequence Builder"
+  short_description: "Build permission-based email sequences"
+  default_prompt: "Use $email-sequence-builder to create an evidence-based marketing deliverable."

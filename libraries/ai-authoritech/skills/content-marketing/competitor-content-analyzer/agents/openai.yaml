@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitor Content Analyzer"
+  short_description: "Analyze competitor content"
+  default_prompt: "Use $competitor-content-analyzer to create an evidence-based marketing deliverable."

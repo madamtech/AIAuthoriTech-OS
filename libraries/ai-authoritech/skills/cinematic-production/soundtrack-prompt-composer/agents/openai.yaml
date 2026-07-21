@@ -1,0 +1,4 @@
+interface:
+  display_name: "Soundtrack Prompt Composer"
+  short_description: "Compose production-ready soundtrack prompts"
+  default_prompt: "Use $soundtrack-prompt-composer to create a production-ready cinematic deliverable."

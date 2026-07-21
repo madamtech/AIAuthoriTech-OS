@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO Content Auditor"
+  short_description: "Audit search-focused content"
+  default_prompt: "Use $seo-content-auditor to create an evidence-based marketing deliverable."

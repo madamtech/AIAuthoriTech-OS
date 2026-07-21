@@ -1,0 +1,4 @@
+interface:
+  display_name: "Government AI Records Planner"
+  short_description: "Plan AI records management"
+  default_prompt: "Use $government-ai-records-planner to create an evidence-based public-sector AI deliverable."

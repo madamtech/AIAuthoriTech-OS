@@ -1,0 +1,4 @@
+interface:
+  display_name: "Certificate Generation Planner"
+  short_description: "Plan accurate learning certificates"
+  default_prompt: "Use $certificate-generation-planner to produce an implementation-ready LMS deliverable."

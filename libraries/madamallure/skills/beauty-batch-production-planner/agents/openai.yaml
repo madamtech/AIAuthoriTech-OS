@@ -1,0 +1,4 @@
+interface:
+  display_name: "Beauty Batch Production Planner"
+  short_description: "Plan controlled beauty batches"
+  default_prompt: "Use $beauty-batch-production-planner to create a production-ready MadamAllure deliverable."

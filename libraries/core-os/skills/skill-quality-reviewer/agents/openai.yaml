@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Quality Reviewer"
+  short_description: "Review skills against quality gates"
+  default_prompt: "Use $skill-quality-reviewer to evaluate this skill and prescribe precise revisions."

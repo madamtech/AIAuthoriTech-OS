@@ -1,0 +1,4 @@
+interface:
+  display_name: "Automation Risk Analyzer"
+  short_description: "Analyze automation failure and control risks"
+  default_prompt: "Use $automation-risk-analyzer to identify and control the risks in this automation."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Campaign Builder"
+  short_description: "Build branded email campaigns"
+  default_prompt: "Use $email-campaign-builder to create a production-ready MadamAllure deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Photography Planner"
+  short_description: "Plan luxury product photography"
+  default_prompt: "Use $product-photography-planner to create a production-ready MadamAllure deliverable."

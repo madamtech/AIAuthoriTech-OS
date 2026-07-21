@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt-to-App Converter"
+  short_description: "Turn app ideas into controlled build packets"
+  default_prompt: "Use $prompt-to-app-converter to convert this app idea into a traceable build packet."

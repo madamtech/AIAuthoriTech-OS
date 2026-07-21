@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Monitoring and Optimization"
+  short_description: "Monitor and improve production agents safely"
+  default_prompt: "Use $agent-monitoring-and-optimization to define production monitoring, incident, and controlled optimization for this agent."

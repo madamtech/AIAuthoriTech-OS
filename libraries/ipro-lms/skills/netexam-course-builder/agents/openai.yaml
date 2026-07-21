@@ -1,0 +1,4 @@
+interface:
+  display_name: "NetExam Course Builder"
+  short_description: "Plan and validate NetExam course builds"
+  default_prompt: "Use $netexam-course-builder to produce an implementation-ready LMS deliverable."

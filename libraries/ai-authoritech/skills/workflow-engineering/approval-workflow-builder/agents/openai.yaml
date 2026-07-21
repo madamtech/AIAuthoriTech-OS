@@ -1,0 +1,4 @@
+interface:
+  display_name: "Approval Workflow Builder"
+  short_description: "Build governed approval workflows"
+  default_prompt: "Use $approval-workflow-builder to design this approval process with clear authority and auditability."

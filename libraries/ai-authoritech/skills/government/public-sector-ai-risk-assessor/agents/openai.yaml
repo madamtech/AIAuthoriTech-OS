@@ -1,0 +1,4 @@
+interface:
+  display_name: "Public Sector AI Risk Assessor"
+  short_description: "Assess public-sector AI risks"
+  default_prompt: "Use $public-sector-ai-risk-assessor to create an evidence-based public-sector AI deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Content QA Reviewer"
+  short_description: "Review marketing content quality"
+  default_prompt: "Use $marketing-content-qa-reviewer to create an evidence-based marketing deliverable."

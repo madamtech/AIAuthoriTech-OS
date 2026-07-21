@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Governance Reviewer"
+  short_description: "Review workflow governance and controls"
+  default_prompt: "Use $workflow-governance-reviewer to assess governance, ownership, controls, and evidence for this workflow."

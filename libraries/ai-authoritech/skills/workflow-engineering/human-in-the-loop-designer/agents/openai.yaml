@@ -1,0 +1,4 @@
+interface:
+  display_name: "Human-in-the-Loop Designer"
+  short_description: "Design accountable human oversight"
+  default_prompt: "Use $human-in-the-loop-designer to define effective human review and intervention for this workflow."

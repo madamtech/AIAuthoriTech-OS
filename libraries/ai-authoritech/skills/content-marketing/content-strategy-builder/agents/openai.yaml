@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Strategy Builder"
+  short_description: "Build evidence-based content strategy"
+  default_prompt: "Use $content-strategy-builder to create an evidence-based marketing deliverable."

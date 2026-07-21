@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Launch Planner"
+  short_description: "Plan coordinated product launches"
+  default_prompt: "Use $product-launch-planner to create a production-ready MadamAllure deliverable."

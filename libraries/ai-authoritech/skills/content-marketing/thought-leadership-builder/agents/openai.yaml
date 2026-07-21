@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thought Leadership Builder"
+  short_description: "Build credible thought leadership"
+  default_prompt: "Use $thought-leadership-builder to create an evidence-based marketing deliverable."

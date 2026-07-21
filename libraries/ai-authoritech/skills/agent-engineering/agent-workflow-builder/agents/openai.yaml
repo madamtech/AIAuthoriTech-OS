@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Workflow Builder"
+  short_description: "Design durable agent execution workflows"
+  default_prompt: "Use $agent-workflow-builder to turn this approved agent architecture into a durable, recoverable execution workflow."

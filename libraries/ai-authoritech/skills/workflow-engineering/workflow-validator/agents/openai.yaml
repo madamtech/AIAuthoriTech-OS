@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Validator"
+  short_description: "Validate workflow logic and controls"
+  default_prompt: "Use $workflow-validator to independently validate this workflow specification."

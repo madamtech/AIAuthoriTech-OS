@@ -1,0 +1,4 @@
+interface:
+  display_name: "Automation Prioritization Matrix"
+  short_description: "Rank automation initiatives transparently"
+  default_prompt: "Use $automation-prioritization-matrix to rank these automation opportunities using evidence-based criteria."

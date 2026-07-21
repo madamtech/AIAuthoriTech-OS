@@ -1,0 +1,4 @@
+interface:
+  display_name: "LMS Release Manager"
+  short_description: "Manage controlled LMS releases"
+  default_prompt: "Use $lms-release-manager to produce an implementation-ready learning operations deliverable."

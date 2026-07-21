@@ -1,0 +1,4 @@
+interface:
+  display_name: "Print Failure Diagnoser"
+  short_description: "Diagnose 3D printing failures"
+  default_prompt: "Use $print-failure-diagnoser to create a production-ready MadamAllure deliverable."

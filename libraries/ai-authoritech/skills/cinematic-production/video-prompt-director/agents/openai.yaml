@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Prompt Director"
+  short_description: "Direct cinematic video generation prompts"
+  default_prompt: "Use $video-prompt-director to create a production-ready cinematic deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Promotion Pricing Planner"
+  short_description: "Plan profitable promotions"
+  default_prompt: "Use $promotion-pricing-planner to create a production-ready MadamAllure deliverable."

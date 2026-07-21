@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCP Integration Planner"
+  short_description: "Plan secure compatible MCP integrations"
+  default_prompt: "Use $mcp-integration-planner to design a secure, version-aware MCP integration for this capability."

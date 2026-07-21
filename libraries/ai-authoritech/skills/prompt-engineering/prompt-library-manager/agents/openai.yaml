@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Library Manager"
+  short_description: "Govern and organize reusable prompt assets"
+  default_prompt: "Use $prompt-library-manager to catalog, govern, deduplicate, and maintain this prompt library."

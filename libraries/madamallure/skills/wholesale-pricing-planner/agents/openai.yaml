@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wholesale Pricing Planner"
+  short_description: "Plan sustainable wholesale pricing"
+  default_prompt: "Use $wholesale-pricing-planner to create a production-ready MadamAllure deliverable."

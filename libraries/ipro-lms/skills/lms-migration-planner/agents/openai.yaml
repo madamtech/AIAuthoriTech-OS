@@ -1,0 +1,4 @@
+interface:
+  display_name: "LMS Migration Planner"
+  short_description: "Plan controlled LMS migrations"
+  default_prompt: "Use $lms-migration-planner to create an implementation-ready LMS deliverable."

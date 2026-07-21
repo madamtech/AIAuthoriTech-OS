@@ -1,0 +1,4 @@
+interface:
+  display_name: "NetExam Certification Builder"
+  short_description: "Plan NetExam certification configuration"
+  default_prompt: "Use $netexam-certification-builder to map this approved certification design into NetExam configuration."

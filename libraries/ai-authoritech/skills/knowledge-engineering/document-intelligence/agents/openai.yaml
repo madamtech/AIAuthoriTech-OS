@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document Intelligence"
+  short_description: "Analyze complex document collections"
+  default_prompt: "Use $document-intelligence to analyze these documents and return evidence-linked findings."

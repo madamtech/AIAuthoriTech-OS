@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luxury Collection Namer"
+  short_description: "Name luxury products and collections"
+  default_prompt: "Use $luxury-collection-namer to create a production-ready MadamAllure deliverable."

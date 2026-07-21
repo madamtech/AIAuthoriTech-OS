@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Architect"
+  short_description: "Design governed testable prompt contracts"
+  default_prompt: "Use $prompt-architect to design a traceable, testable prompt contract for this task."

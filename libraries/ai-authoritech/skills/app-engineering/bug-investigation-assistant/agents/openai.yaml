@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bug Investigation Assistant"
+  short_description: "Diagnose software defects with evidence"
+  default_prompt: "Use $bug-investigation-assistant to investigate this defect and report the most supported cause."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fragrance Concept Designer"
+  short_description: "Design fragrance product concepts"
+  default_prompt: "Use $fragrance-concept-designer to create a production-ready MadamAllure deliverable."

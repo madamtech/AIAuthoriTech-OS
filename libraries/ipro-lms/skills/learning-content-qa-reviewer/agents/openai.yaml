@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Content QA Reviewer"
+  short_description: "Review learning content quality"
+  default_prompt: "Use $learning-content-qa-reviewer to produce an implementation-ready learning operations deliverable."

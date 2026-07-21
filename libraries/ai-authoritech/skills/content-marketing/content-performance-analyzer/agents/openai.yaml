@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Performance Analyzer"
+  short_description: "Analyze content performance"
+  default_prompt: "Use $content-performance-analyzer to create an evidence-based marketing deliverable."

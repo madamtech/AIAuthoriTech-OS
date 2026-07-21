@@ -1,0 +1,4 @@
+interface:
+  display_name: "Camera Movement Designer"
+  short_description: "Design motivated cinematic camera movement"
+  default_prompt: "Use $camera-movement-designer to create a production-ready cinematic deliverable."

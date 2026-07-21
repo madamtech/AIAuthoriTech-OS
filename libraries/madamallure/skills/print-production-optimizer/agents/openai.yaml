@@ -1,0 +1,4 @@
+interface:
+  display_name: "Print Production Optimizer"
+  short_description: "Optimize repeatable print production"
+  default_prompt: "Use $print-production-optimizer to create a production-ready MadamAllure deliverable."

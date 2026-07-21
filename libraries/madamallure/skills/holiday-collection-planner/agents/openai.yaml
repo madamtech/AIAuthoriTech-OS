@@ -1,0 +1,4 @@
+interface:
+  display_name: "Holiday Collection Planner"
+  short_description: "Plan seasonal product collections"
+  default_prompt: "Use $holiday-collection-planner to create a production-ready MadamAllure deliverable."

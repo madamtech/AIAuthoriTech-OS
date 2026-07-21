@@ -1,0 +1,4 @@
+interface:
+  display_name: "Knowledge Extraction"
+  short_description: "Extract governed knowledge from sources"
+  default_prompt: "Use $knowledge-extraction to extract traceable knowledge from these sources."

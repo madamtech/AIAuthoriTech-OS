@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Care Response Builder"
+  short_description: "Draft helpful customer responses"
+  default_prompt: "Use $customer-care-response-builder to create a production-ready MadamAllure deliverable."

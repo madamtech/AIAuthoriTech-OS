@@ -1,0 +1,4 @@
+interface:
+  display_name: "Character Continuity Manager"
+  short_description: "Maintain visual character continuity"
+  default_prompt: "Use $character-continuity-manager to create a production-ready cinematic deliverable."

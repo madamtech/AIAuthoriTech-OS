@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exam Builder"
+  short_description: "Build valid and reliable exams"
+  default_prompt: "Use $exam-builder to create an aligned, defensible exam from these objectives."

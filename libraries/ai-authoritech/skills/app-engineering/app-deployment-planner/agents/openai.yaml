@@ -1,0 +1,4 @@
+interface:
+  display_name: "App Deployment Planner"
+  short_description: "Plan safe application releases and recovery"
+  default_prompt: "Use $app-deployment-planner to design a safe deployment, verification, and rollback plan for this application."

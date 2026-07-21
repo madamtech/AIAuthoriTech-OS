@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mobile App Planner"
+  short_description: "Plan resilient accessible mobile apps"
+  default_prompt: "Use $mobile-app-planner to create a build-ready mobile application plan for these users, journeys, and device requirements."

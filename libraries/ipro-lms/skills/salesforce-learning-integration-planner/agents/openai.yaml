@@ -1,0 +1,4 @@
+interface:
+  display_name: "Salesforce Learning Integration Planner"
+  short_description: "Plan Salesforce and LMS data integrations"
+  default_prompt: "Use $salesforce-learning-integration-planner to produce an implementation-ready LMS deliverable."

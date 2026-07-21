@@ -1,0 +1,4 @@
+interface:
+  display_name: "SCORM Validator"
+  short_description: "Validate SCORM packages and behavior"
+  default_prompt: "Use $scorm-validator to validate this SCORM package for structure, runtime behavior, and LMS compatibility."

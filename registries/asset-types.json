@@ -1,0 +1,10 @@
+{"asset_types":[
+  {"code":"SKL","name":"Skill"},{"code":"WFL","name":"Workflow"},
+  {"code":"AGT","name":"Agent"},{"code":"APP","name":"Application"},
+  {"code":"TMP","name":"Template"},{"code":"KNP","name":"Knowledge Pack"},
+  {"code":"PLY","name":"Playbook"},{"code":"SOL","name":"Solution Pack"},
+  {"code":"SOP","name":"Standard Operating Procedure"},
+  {"code":"DOC","name":"Documentation"},{"code":"API","name":"API Connector"},
+  {"code":"SCH","name":"Schema"},{"code":"CFG","name":"Configuration"},
+  {"code":"TST","name":"Test Suite"}
+]}

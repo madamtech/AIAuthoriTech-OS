@@ -1,0 +1,4 @@
+interface:
+  display_name: "Government AI Incident Response Planner"
+  short_description: "Plan government AI incident response"
+  default_prompt: "Use $government-ai-incident-response-planner to create an evidence-based public-sector AI deliverable."

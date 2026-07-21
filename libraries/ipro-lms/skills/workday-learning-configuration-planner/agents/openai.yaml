@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workday Learning Configuration Planner"
+  short_description: "Plan governed Workday Learning configurations"
+  default_prompt: "Use $workday-learning-configuration-planner to produce an implementation-ready LMS deliverable."

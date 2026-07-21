@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ontology Builder"
+  short_description: "Model concepts and relationships"
+  default_prompt: "Use $ontology-builder to model this domain as a governed ontology."

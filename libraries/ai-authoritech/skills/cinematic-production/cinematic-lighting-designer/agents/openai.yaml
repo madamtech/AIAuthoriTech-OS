@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematic Lighting Designer"
+  short_description: "Design coherent cinematic lighting plans"
+  default_prompt: "Use $cinematic-lighting-designer to create a production-ready cinematic deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skincare Concept Planner"
+  short_description: "Plan evidence-aware skincare concepts"
+  default_prompt: "Use $skincare-concept-planner to create a production-ready MadamAllure deliverable."

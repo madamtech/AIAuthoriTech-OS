@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Repurposing Engine"
+  short_description: "Repurpose source content accurately"
+  default_prompt: "Use $content-repurposing-engine to create an evidence-based marketing deliverable."

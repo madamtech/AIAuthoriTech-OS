@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Path Designer"
+  short_description: "Design governed learning pathways"
+  default_prompt: "Use $learning-path-designer to design an outcome-aligned learning path for this audience."

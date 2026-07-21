@@ -1,0 +1,4 @@
+interface:
+  display_name: "SVG Production Planner"
+  short_description: "Prepare production-ready SVG files"
+  default_prompt: "Use $svg-production-planner to create a production-ready MadamAllure deliverable."

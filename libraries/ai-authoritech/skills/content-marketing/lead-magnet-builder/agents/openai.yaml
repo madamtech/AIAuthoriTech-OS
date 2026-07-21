@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lead Magnet Builder"
+  short_description: "Build useful lead magnets"
+  default_prompt: "Use $lead-magnet-builder to create an evidence-based marketing deliverable."

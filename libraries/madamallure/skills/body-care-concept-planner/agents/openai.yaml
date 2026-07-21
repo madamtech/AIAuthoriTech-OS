@@ -1,0 +1,4 @@
+interface:
+  display_name: "Body Care Concept Planner"
+  short_description: "Plan body care product concepts"
+  default_prompt: "Use $body-care-concept-planner to create a production-ready MadamAllure deliverable."

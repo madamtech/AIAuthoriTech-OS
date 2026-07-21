@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cosmetic Labeling Brief Builder"
+  short_description: "Prepare cosmetic labeling briefs"
+  default_prompt: "Use $cosmetic-labeling-brief-builder to create a production-ready MadamAllure deliverable."

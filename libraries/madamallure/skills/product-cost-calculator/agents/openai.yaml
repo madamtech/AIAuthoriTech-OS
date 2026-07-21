@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Cost Calculator"
+  short_description: "Calculate complete product costs"
+  default_prompt: "Use $product-cost-calculator to create a production-ready MadamAllure deliverable."

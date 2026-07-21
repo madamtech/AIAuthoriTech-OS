@@ -1,0 +1,4 @@
+interface:
+  display_name: "LMS Notification Designer"
+  short_description: "Design governed learner notifications"
+  default_prompt: "Use $lms-notification-designer to produce an implementation-ready LMS deliverable."

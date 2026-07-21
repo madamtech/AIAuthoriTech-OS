@@ -1,0 +1,4 @@
+interface:
+  display_name: "Knowledge Refresh Manager"
+  short_description: "Keep knowledge current and traceable"
+  default_prompt: "Use $knowledge-refresh-manager to plan and control refresh, staleness, and revalidation for this knowledge base."

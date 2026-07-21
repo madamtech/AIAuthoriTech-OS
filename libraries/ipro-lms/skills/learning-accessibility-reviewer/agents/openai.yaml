@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Accessibility Reviewer"
+  short_description: "Review accessible learning experiences"
+  default_prompt: "Use $learning-accessibility-reviewer to produce an implementation-ready learning operations deliverable."

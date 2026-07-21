@@ -1,0 +1,4 @@
+interface:
+  display_name: "Packaging Designer"
+  short_description: "Plan protective branded packaging"
+  default_prompt: "Use $packaging-designer to create a production-ready MadamAllure deliverable."

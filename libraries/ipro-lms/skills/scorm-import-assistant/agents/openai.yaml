@@ -1,0 +1,4 @@
+interface:
+  display_name: "SCORM Import Assistant"
+  short_description: "Plan and verify SCORM imports"
+  default_prompt: "Use $scorm-import-assistant to create an implementation-ready LMS deliverable."

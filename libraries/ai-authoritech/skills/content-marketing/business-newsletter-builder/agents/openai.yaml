@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Newsletter Builder"
+  short_description: "Build valuable business newsletters"
+  default_prompt: "Use $business-newsletter-builder to create an evidence-based marketing deliverable."

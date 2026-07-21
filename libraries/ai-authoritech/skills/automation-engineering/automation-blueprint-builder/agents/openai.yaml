@@ -1,0 +1,4 @@
+interface:
+  display_name: "Automation Blueprint Builder"
+  short_description: "Define implementation-ready automation blueprints"
+  default_prompt: "Use $automation-blueprint-builder to turn this approved process into an implementation-ready automation blueprint."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Automation Cost Estimator"
+  short_description: "Estimate lifecycle automation costs"
+  default_prompt: "Use $automation-cost-estimator to estimate implementation and operating costs for this automation."

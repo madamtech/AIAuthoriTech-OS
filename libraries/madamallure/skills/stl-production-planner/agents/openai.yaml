@@ -1,0 +1,4 @@
+interface:
+  display_name: "STL Production Planner"
+  short_description: "Prepare printable STL production files"
+  default_prompt: "Use $stl-production-planner to create a production-ready MadamAllure deliverable."

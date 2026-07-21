@@ -1,0 +1,4 @@
+interface:
+  display_name: "Certification Health Monitor"
+  short_description: "Monitor certification operations"
+  default_prompt: "Use $certification-health-monitor to produce an implementation-ready learning operations deliverable."

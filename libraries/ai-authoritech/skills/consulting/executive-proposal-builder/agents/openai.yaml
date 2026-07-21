@@ -1,0 +1,4 @@
+interface:
+  display_name: "Executive Proposal Builder"
+  short_description: "Create evidence-backed executive proposals"
+  default_prompt: "Use $executive-proposal-builder to turn these approved findings into a decision-ready executive proposal."

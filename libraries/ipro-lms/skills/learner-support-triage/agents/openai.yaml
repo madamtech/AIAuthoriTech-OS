@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learner Support Triage"
+  short_description: "Triage learner support cases"
+  default_prompt: "Use $learner-support-triage to produce an implementation-ready learning operations deliverable."

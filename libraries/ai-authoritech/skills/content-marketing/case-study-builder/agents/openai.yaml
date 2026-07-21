@@ -1,0 +1,4 @@
+interface:
+  display_name: "Case Study Builder"
+  short_description: "Build evidence-based case studies"
+  default_prompt: "Use $case-study-builder to create an evidence-based marketing deliverable."

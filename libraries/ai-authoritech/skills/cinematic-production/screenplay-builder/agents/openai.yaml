@@ -1,0 +1,4 @@
+interface:
+  display_name: "Screenplay Builder"
+  short_description: "Build structured cinematic screenplays"
+  default_prompt: "Use $screenplay-builder to create a production-ready cinematic deliverable."

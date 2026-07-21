@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maker Production Scheduler"
+  short_description: "Schedule maker production work"
+  default_prompt: "Use $maker-production-scheduler to create a production-ready MadamAllure deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Localization Manager"
+  short_description: "Manage learning localization"
+  default_prompt: "Use $learning-localization-manager to produce an implementation-ready learning operations deliverable."

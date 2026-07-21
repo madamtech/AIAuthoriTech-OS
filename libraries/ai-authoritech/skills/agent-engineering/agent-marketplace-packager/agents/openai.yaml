@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Marketplace Packager"
+  short_description: "Package validated agents for distribution"
+  default_prompt: "Use $agent-marketplace-packager to turn this validated agent into a transparent, supportable marketplace package."

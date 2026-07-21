@@ -1,0 +1,4 @@
+interface:
+  display_name: "LMS Dashboard Designer"
+  short_description: "Design actionable LMS dashboards"
+  default_prompt: "Use $lms-dashboard-designer to create an implementation-ready LMS deliverable."

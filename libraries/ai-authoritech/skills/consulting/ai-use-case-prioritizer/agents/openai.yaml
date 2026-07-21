@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Use Case Prioritizer"
+  short_description: "Rank AI use cases with evidence and risk"
+  default_prompt: "Use $ai-use-case-prioritizer to compare and rank this portfolio of AI use cases."

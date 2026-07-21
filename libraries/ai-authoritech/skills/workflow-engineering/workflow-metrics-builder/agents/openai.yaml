@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Metrics Builder"
+  short_description: "Define actionable workflow metrics"
+  default_prompt: "Use $workflow-metrics-builder to define measurable performance and control metrics for this workflow."

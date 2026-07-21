@@ -1,0 +1,4 @@
+interface:
+  display_name: "App Requirements Generator"
+  short_description: "Create testable app requirements and backlog"
+  default_prompt: "Use $app-requirements-generator to convert this product idea or discovery material into testable requirements and a prioritized release backlog."

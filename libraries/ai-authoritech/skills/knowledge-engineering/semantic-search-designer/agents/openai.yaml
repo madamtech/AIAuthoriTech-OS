@@ -1,0 +1,4 @@
+interface:
+  display_name: "Semantic Search Designer"
+  short_description: "Design measurable semantic retrieval"
+  default_prompt: "Use $semantic-search-designer to design and evaluate semantic search for this corpus."

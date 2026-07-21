@@ -1,0 +1,4 @@
+interface:
+  display_name: "Automation Error Handling Designer"
+  short_description: "Design automation recovery and escalation"
+  default_prompt: "Use $automation-error-handling-designer to design failure handling, recovery, and escalation for this automation."

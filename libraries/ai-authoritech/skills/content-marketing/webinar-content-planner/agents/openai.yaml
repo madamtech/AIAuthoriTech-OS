@@ -1,0 +1,4 @@
+interface:
+  display_name: "Webinar Content Planner"
+  short_description: "Plan educational webinars"
+  default_prompt: "Use $webinar-content-planner to create an evidence-based marketing deliverable."

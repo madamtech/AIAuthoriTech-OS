@@ -1,0 +1,4 @@
+interface:
+  display_name: "SaaS Architecture Planner"
+  short_description: "Design secure scalable SaaS foundations"
+  default_prompt: "Use $saas-architecture-planner to design a provider-neutral SaaS architecture for this product."

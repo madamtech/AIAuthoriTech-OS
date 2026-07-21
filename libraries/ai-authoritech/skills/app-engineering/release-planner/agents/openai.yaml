@@ -1,0 +1,4 @@
+interface:
+  display_name: "Release Planner"
+  short_description: "Plan outcome-based product releases"
+  default_prompt: "Use $release-planner to turn this prioritized backlog into a governed, outcome-based release plan."

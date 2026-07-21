@@ -1,0 +1,4 @@
+interface:
+  display_name: "App Maintenance Planner"
+  short_description: "Plan sustainable application operations"
+  default_prompt: "Use $app-maintenance-planner to create an evidence-driven maintenance and lifecycle plan for this application."

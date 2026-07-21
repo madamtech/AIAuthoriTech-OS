@@ -1,0 +1,4 @@
+interface:
+  display_name: "Government AI System Inventory Builder"
+  short_description: "Build government AI inventories"
+  default_prompt: "Use $government-ai-system-inventory-builder to create an evidence-based public-sector AI deliverable."

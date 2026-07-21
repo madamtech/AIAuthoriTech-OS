@@ -1,0 +1,4 @@
+interface:
+  display_name: "Taxonomy Builder"
+  short_description: "Build governed classification taxonomies"
+  default_prompt: "Use $taxonomy-builder to design a governed taxonomy for this knowledge domain."

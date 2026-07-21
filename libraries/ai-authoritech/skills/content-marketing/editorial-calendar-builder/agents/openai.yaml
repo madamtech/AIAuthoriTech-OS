@@ -1,0 +1,4 @@
+interface:
+  display_name: "Editorial Calendar Builder"
+  short_description: "Build governed editorial calendars"
+  default_prompt: "Use $editorial-calendar-builder to create an evidence-based marketing deliverable."

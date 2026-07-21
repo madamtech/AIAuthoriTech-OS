@@ -1,0 +1,4 @@
+interface:
+  display_name: "Process Standardization Reviewer"
+  short_description: "Assess safe process standardization"
+  default_prompt: "Use $process-standardization-reviewer to determine what should be standardized and what variation must remain."

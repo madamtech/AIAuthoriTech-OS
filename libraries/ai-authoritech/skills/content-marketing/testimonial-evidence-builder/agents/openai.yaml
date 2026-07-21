@@ -1,0 +1,4 @@
+interface:
+  display_name: "Testimonial Evidence Builder"
+  short_description: "Build authorized testimonials"
+  default_prompt: "Use $testimonial-evidence-builder to create an evidence-based marketing deliverable."

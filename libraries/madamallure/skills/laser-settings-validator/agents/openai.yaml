@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laser Settings Validator"
+  short_description: "Validate laser production settings"
+  default_prompt: "Use $laser-settings-validator to create a production-ready MadamAllure deliverable."

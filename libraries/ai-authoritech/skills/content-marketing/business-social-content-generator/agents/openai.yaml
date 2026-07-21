@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Social Content Generator"
+  short_description: "Create business social content"
+  default_prompt: "Use $business-social-content-generator to create an evidence-based marketing deliverable."

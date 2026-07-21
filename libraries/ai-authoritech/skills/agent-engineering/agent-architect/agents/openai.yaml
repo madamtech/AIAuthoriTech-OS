@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Architect"
+  short_description: "Design governed, testable AI agents"
+  default_prompt: "Use $agent-architect to design a governed AI agent for this outcome and operating context."

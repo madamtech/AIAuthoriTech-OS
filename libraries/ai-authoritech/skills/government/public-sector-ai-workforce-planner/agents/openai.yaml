@@ -1,0 +1,4 @@
+interface:
+  display_name: "Public Sector AI Workforce Planner"
+  short_description: "Plan public-sector AI workforce needs"
+  default_prompt: "Use $public-sector-ai-workforce-planner to create an evidence-based public-sector AI deliverable."

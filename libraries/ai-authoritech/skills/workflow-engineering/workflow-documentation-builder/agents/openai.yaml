@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Documentation Builder"
+  short_description: "Create controlled workflow documentation"
+  default_prompt: "Use $workflow-documentation-builder to create complete controlled documentation for this workflow."

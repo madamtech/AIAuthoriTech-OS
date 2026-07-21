@@ -1,0 +1,4 @@
+interface:
+  display_name: "Certification Program Designer"
+  short_description: "Design governed certification programs"
+  default_prompt: "Use $certification-program-designer to design this certification program and lifecycle."

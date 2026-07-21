@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ecommerce Listing Builder"
+  short_description: "Create accurate ecommerce listings"
+  default_prompt: "Use $ecommerce-listing-builder to create a production-ready MadamAllure deliverable."

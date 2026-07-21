@@ -1,0 +1,4 @@
+interface:
+  display_name: "Membership Platform Builder"
+  short_description: "Design governed membership platforms"
+  default_prompt: "Use $membership-platform-builder to create a secure, build-ready membership platform specification."

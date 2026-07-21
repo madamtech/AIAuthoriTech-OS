@@ -1,0 +1,4 @@
+interface:
+  display_name: "NetExam Reporting Specialist"
+  short_description: "Design reliable NetExam reports"
+  default_prompt: "Use $netexam-reporting-specialist to create an implementation-ready LMS deliverable."

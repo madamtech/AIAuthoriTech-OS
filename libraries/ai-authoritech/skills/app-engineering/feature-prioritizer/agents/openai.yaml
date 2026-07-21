@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feature Prioritizer"
+  short_description: "Prioritize product features with evidence"
+  default_prompt: "Use $feature-prioritizer to rank this product backlog and recommend the next evidence-based release slice."

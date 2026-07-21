@@ -1,0 +1,4 @@
+interface:
+  display_name: "3D Print Project Planner"
+  short_description: "Plan reliable 3D printing projects"
+  default_prompt: "Use $three-d-print-project-planner to create a production-ready MadamAllure deliverable."

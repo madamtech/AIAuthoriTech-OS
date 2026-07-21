@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image Prompt Director"
+  short_description: "Direct consistent cinematic image prompts"
+  default_prompt: "Use $image-prompt-director to create a production-ready cinematic deliverable."

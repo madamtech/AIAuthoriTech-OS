@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Optimizer"
+  short_description: "Improve workflows with measured evidence"
+  default_prompt: "Use $workflow-optimizer to redesign this validated workflow and quantify the expected improvement."

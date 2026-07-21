@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luxury Collection Planner"
+  short_description: "Plan cohesive luxury collections"
+  default_prompt: "Use $luxury-collection-planner to create a production-ready MadamAllure deliverable."

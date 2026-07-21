@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Retention Campaign Planner"
+  short_description: "Plan customer retention campaigns"
+  default_prompt: "Use $customer-retention-campaign-planner to create a production-ready MadamAllure deliverable."

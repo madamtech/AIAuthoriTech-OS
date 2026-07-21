@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refactoring Advisor"
+  short_description: "Plan safe, behavior-preserving refactors"
+  default_prompt: "Use $refactoring-advisor to assess this code and produce a staged, behavior-preserving refactoring plan."

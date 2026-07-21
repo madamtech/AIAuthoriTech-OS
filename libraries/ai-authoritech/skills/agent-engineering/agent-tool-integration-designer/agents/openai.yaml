@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Tool Integration Designer"
+  short_description: "Design safe agent tool contracts"
+  default_prompt: "Use $agent-tool-integration-designer to design safe, verifiable tool integrations for this agent."

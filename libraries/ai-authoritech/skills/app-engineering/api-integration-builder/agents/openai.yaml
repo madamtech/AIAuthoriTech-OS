@@ -1,0 +1,4 @@
+interface:
+  display_name: "API Integration Builder"
+  short_description: "Design reliable application integrations"
+  default_prompt: "Use $api-integration-builder to design a secure, recoverable integration contract between these systems."

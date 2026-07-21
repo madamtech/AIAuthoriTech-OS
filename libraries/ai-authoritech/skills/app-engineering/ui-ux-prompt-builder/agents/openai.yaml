@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI/UX Prompt Builder"
+  short_description: "Create precise prompts for product interfaces"
+  default_prompt: "Use $ui-ux-prompt-builder to turn these approved requirements and brand inputs into a precise UI/UX generation prompt."

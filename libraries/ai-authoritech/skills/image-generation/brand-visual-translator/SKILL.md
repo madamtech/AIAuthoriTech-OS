@@ -1,0 +1,28 @@
+---
+sku: AA-SKL-000142
+asset_id: image-generation.brand-visual-translator.v1
+version: 1.0.0
+status: testing
+---
+# Brand Visual Translator
+
+## Purpose
+Translate brand strategy, voice, audience, colors, and positioning into concrete image-generation decisions.
+
+## Inputs
+Brand name, values, audience, offers, visual identity, color specifications, typography, logo assets, preferred styles, prohibited motifs, and channel.
+
+## Procedure
+Map brand attributes to composition, subject treatment, wardrobe, environment, palette balance, material choices, lighting, text density, and emotional tone. Define primary, secondary, and accent color use. Establish logo clear space, typography hierarchy, and when brand elements should be subtle versus dominant.
+
+## Output contract
+Brand visual brief, palette ratios, image style route, composition guidance, logo/text rules, prohibited cross-brand elements, and channel adaptations.
+
+## Rules
+Use exact approved colors and assets where provided. Do not replace a logo with generated approximations. Do not import another business's visual language without explicit controlled fusion.
+
+## QA
+The image should be identifiable as the intended brand without relying only on a logo. Validate audience fit, tone, color balance, and commercial purpose.
+
+## Recovery
+When an output feels generic, strengthen unique brand signals rather than adding random decoration.

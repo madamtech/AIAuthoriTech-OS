@@ -17,6 +17,7 @@
   {"code":"BEAUTY","name":"Beauty and Fragrance"},
   {"code":"ECOM","name":"Ecommerce and Retail"},
   {"code":"GOV","name":"Government and Public Sector"},
-  {"code":"OPS","name":"Business Operations"}
-  ,{"code":"VIDEO","name":"Cinematic and Video Production"}
+  {"code":"OPS","name":"Business Operations"},
+  {"code":"VIDEO","name":"Cinematic and Video Production"},
+  {"code":"IMG","name":"AI Image Generation and Visual Production"}
 ]}

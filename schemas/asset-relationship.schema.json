@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "asset-relationship.schema.json",
+  "title": "Asset Relationship Graph",
+  "type": "object",
+  "required": ["schema_version", "relationships"],
+  "properties": {
+    "schema_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "relationship", "target"],
+        "properties": {
+          "source": {"type": "string"},
+          "relationship": {"enum": ["depends_on", "uses", "calls", "produces", "consumed_by", "supersedes", "related_to", "included_in"]},
+          "target": {"type": "string"},
+          "required": {"type": "boolean"},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

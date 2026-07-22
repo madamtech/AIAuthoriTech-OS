@@ -6,9 +6,79 @@ ROOT = Path(__file__).resolve().parents[1]
 SKU = re.compile(r"^(AA|LMS|MA|CO)-([A-Z]{3})-[0-9]{6}$")
 AID = re.compile(r"^[a-z0-9-]+\.[a-z0-9-]+\.v[1-9][0-9]*$")
 SEMVER = re.compile(r"^[0-9]+\.[0-9]+\.[0-9]+$")
+FIRST_CLASS_MANIFESTS = {
+    "WFL": ("workflow.json", "workflow.schema.json", {"trigger", "stages", "state", "completion_criteria", "failure_policy"}),
+    "AGT": ("agent.json", "agent.schema.json", {"mission", "instructions", "capabilities", "tools", "workflows", "memory_policy", "guardrails", "evaluation_suite"}),
+    "APP": ("app.json", "app.schema.json", {"product_outcome", "users", "interfaces", "runtime", "data_classification", "capabilities", "deployment", "test_plan"}),
+    "TMP": ("template.json", "template.schema.json", {"format", "source_file", "variables", "usage_rules", "produces"}),
+    "KNP": ("knowledge-pack.json", "knowledge-pack.schema.json", {"topics", "sources", "retrieval_guidance", "refresh_policy", "quality_owner"}),
+    "PLY": ("playbook.json", "playbook.schema.json", {"business_problem", "audience", "entry_criteria", "phases", "included_assets", "exit_criteria"}),
+    "SOL": ("solution-pack.json", "solution-pack.schema.json", {"business_outcome", "target_customers", "included_assets", "implementation_model", "success_measures", "support_model"}),
+}
+COMMON_MANIFEST_FIELDS = {
+    "sku", "asset_id", "name", "asset_type", "business", "library", "version",
+    "status", "maturity", "description", "owners", "inputs", "outputs", "dependencies",
+}
+REQUIRED_SCHEMAS = {
+    "asset.schema.json", "asset-manifest.schema.json", "workflow.schema.json",
+    "agent.schema.json", "app.schema.json", "template.schema.json",
+    "knowledge-pack.schema.json", "playbook.schema.json", "solution-pack.schema.json",
+    "evaluation-evidence.schema.json", "asset-relationship.schema.json",
+    "maturity-promotion.schema.json",
+}
 
 def load(path):
     return json.loads((ROOT / path).read_text(encoding="utf-8"))
+
+def read_json(path, errors, label):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"{label}: invalid JSON ({exc})")
+        return None
+
+def validate_manifest(item, path, errors):
+    manifest_name, schema_name, specialized = FIRST_CLASS_MANIFESTS[item["asset_type"]]
+    manifest_path = path / manifest_name
+    if not manifest_path.is_file():
+        errors.append(f"{item['sku']}: missing {manifest_name}")
+        return
+    manifest = read_json(manifest_path, errors, item["sku"])
+    if manifest is None:
+        return
+    missing = sorted((COMMON_MANIFEST_FIELDS | specialized) - set(manifest))
+    if missing:
+        errors.append(f"{item['sku']}: manifest missing {', '.join(missing)}")
+    for field in ("sku", "asset_id", "name", "asset_type", "business", "library", "version", "status", "maturity"):
+        if manifest.get(field) != item.get(field):
+            errors.append(f"{item['sku']}: manifest {field} mismatch")
+    if not isinstance(manifest.get("owners"), list) or not manifest.get("owners"):
+        errors.append(f"{item['sku']}: manifest owners must be a non-empty array")
+    for field in ("inputs", "outputs", "dependencies"):
+        if not isinstance(manifest.get(field), list):
+            errors.append(f"{item['sku']}: manifest {field} must be an array")
+    if not (ROOT / "schemas" / schema_name).is_file():
+        errors.append(f"{item['sku']}: missing governing schema {schema_name}")
+
+def validate_evaluations(known, errors):
+    count = 0
+    evaluation_root = ROOT / "evaluations"
+    if not evaluation_root.is_dir():
+        return count
+    for path in evaluation_root.rglob("*.json"):
+        count += 1
+        doc = read_json(path, errors, path.relative_to(ROOT))
+        if doc is None:
+            continue
+        required = {"evaluation_id", "target_sku", "target_version", "executed_at", "evaluator", "test_cases", "result", "critical_failures"}
+        missing = sorted(required - set(doc))
+        if missing:
+            errors.append(f"{path.relative_to(ROOT)}: missing {', '.join(missing)}")
+        if doc.get("target_sku") not in known:
+            errors.append(f"{path.relative_to(ROOT)}: unknown target SKU {doc.get('target_sku')}")
+        if not isinstance(doc.get("test_cases"), list) or len(doc.get("test_cases", [])) < 3:
+            errors.append(f"{path.relative_to(ROOT)}: requires at least three test cases")
+    return count
 
 def main():
     errors = []
@@ -21,6 +91,12 @@ def main():
     if len(skus) != len(set(skus)): errors.append("duplicate SKU")
     if len(ids) != len(set(ids)): errors.append("duplicate asset_id")
     known = set(skus)
+    for schema_name in sorted(REQUIRED_SCHEMAS):
+        schema_path = ROOT / "schemas" / schema_name
+        if not schema_path.is_file():
+            errors.append(f"missing schema {schema_name}")
+        else:
+            read_json(schema_path, errors, schema_name)
     for item in assets:
         match = SKU.fullmatch(item["sku"])
         if not match: errors.append(f"{item['sku']}: invalid SKU"); continue
@@ -35,13 +111,16 @@ def main():
         if not path.is_dir(): errors.append(f"{item['sku']}: missing path")
         if item["asset_type"] == "SKL" and not (path / "SKILL.md").is_file():
             errors.append(f"{item['sku']}: missing SKILL.md")
+        if item["asset_type"] in FIRST_CLASS_MANIFESTS:
+            validate_manifest(item, path, errors)
         for target in item["depends_on"]:
             if target not in known: errors.append(f"{item['sku']}: unknown dependency {target}")
+    evaluation_count = validate_evaluations(known, errors)
     if errors:
         print("VALIDATION FAILED")
         for error in errors: print(f"- {error}")
         return 1
-    print(f"VALIDATION PASSED: {len(assets)} cataloged assets")
+    print(f"VALIDATION PASSED: {len(assets)} cataloged assets, {len(REQUIRED_SCHEMAS)} schemas, {evaluation_count} evaluations")
     return 0
 
 if __name__ == "__main__": sys.exit(main())

@@ -1,0 +1,971 @@
+{
+  "schema_version": "1.0.0",
+  "asset_count": 230,
+  "business_counts": {
+    "AA": 136,
+    "CO": 4,
+    "LMS": 40,
+    "MA": 50
+  },
+  "library_counts": {
+    "AGNT": 10,
+    "APP": 29,
+    "AUTO": 10,
+    "BEAUTY": 6,
+    "BRAND": 31,
+    "CONS": 10,
+    "CORE": 4,
+    "CRM": 2,
+    "ECOM": 9,
+    "FLOW": 10,
+    "GOV": 20,
+    "KNOW": 11,
+    "LASER": 4,
+    "LMS": 28,
+    "NET": 5,
+    "OPS": 13,
+    "PRINT": 7,
+    "PROMPT": 7,
+    "VIDEO": 10,
+    "WDAY": 4
+  },
+  "resource_counts": {
+    "agent_metadata": 230,
+    "references": 70,
+    "assets": 66,
+    "scripts": 0
+  },
+  "finding_counts": {
+    "no-bundled-resources": 160
+  },
+  "findings": [
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000067",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000068",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000069",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000070",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000071",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000072",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000073",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000074",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000075",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000076",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000077",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000078",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000079",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000080",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000081",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000082",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000083",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000084",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000085",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000086",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000001",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000002",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000003",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000004",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000005",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000006",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000007",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000008",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000009",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000010",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000011",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000012",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000013",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000014",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000015",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000016",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000017",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000018",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000019",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000020",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000021",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000022",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000023",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000024",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000025",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000026",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000027",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000028",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000029",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000030",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000031",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000032",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000033",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000034",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000035",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000036",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000037",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000038",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000039",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "LMS-SKL-000040",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000001",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000002",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000003",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000004",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000005",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000006",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000007",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000008",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000009",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000010",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000011",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000012",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000013",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000014",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000015",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000016",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000017",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000018",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000019",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000020",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000021",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000022",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000023",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000024",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000025",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000026",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000027",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000028",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000029",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000030",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000031",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000032",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000033",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000034",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000035",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000036",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000037",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000038",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000039",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000040",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000041",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000042",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000043",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000044",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000045",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000046",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000047",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000048",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000049",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "MA-SKL-000050",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000087",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000088",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000089",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000090",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000091",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000092",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000093",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000094",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000095",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000096",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000097",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000098",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000099",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000100",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000101",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000102",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000103",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000104",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000105",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000106",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000107",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000108",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000109",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000110",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000111",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000112",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000113",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000114",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000115",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000116",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000117",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000118",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000119",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000120",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000121",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000122",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000123",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000124",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000125",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000126",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000127",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000128",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000129",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000130",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000131",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000132",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000133",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000134",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000135",
+      "code": "no-bundled-resources"
+    },
+    {
+      "severity": "low",
+      "sku": "AA-SKL-000136",
+      "code": "no-bundled-resources"
+    }
+  ],
+  "overlap_candidates": [
+    {
+      "left": "MA-SKL-000020",
+      "right": "AA-SKL-000112",
+      "score": 0.7206,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000005",
+      "right": "AA-SKL-000093",
+      "score": 0.7059,
+      "same_library": false,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000087",
+      "right": "AA-SKL-000090",
+      "score": 0.6779,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "MA-SKL-000015",
+      "right": "AA-SKL-000111",
+      "score": 0.6507,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000011",
+      "right": "AA-SKL-000019",
+      "score": 0.6268,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "MA-SKL-000011",
+      "right": "MA-SKL-000016",
+      "score": 0.6183,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000088",
+      "right": "AA-SKL-000092",
+      "score": 0.61,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000092",
+      "right": "AA-SKL-000094",
+      "score": 0.61,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000088",
+      "right": "AA-SKL-000094",
+      "score": 0.5921,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000087",
+      "right": "AA-SKL-000092",
+      "score": 0.568,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "LMS-SKL-000005",
+      "right": "LMS-SKL-000006",
+      "score": 0.566,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000101",
+      "right": "AA-SKL-000103",
+      "score": 0.5618,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000088",
+      "right": "AA-SKL-000090",
+      "score": 0.5606,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000090",
+      "right": "AA-SKL-000092",
+      "score": 0.5563,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000088",
+      "right": "AA-SKL-000101",
+      "score": 0.5506,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000087",
+      "right": "AA-SKL-000088",
+      "score": 0.5501,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000087",
+      "right": "AA-SKL-000094",
+      "score": 0.5501,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000090",
+      "right": "AA-SKL-000094",
+      "score": 0.54,
+      "same_library": true,
+      "disposition": "review"
+    }
+  ]
+}

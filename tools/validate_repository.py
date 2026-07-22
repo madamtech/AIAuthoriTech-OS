@@ -80,6 +80,47 @@ def validate_evaluations(known, errors):
             errors.append(f"{path.relative_to(ROOT)}: requires at least three test cases")
     return count
 
+def validate_relationships(assets, known, errors):
+    relationship_path = ROOT / "catalog" / "relationships.json"
+    if not relationship_path.is_file():
+        errors.append("missing catalog/relationships.json")
+        return 0
+    doc = read_json(relationship_path, errors, "catalog/relationships.json")
+    if doc is None:
+        return 0
+    edges = doc.get("relationships")
+    if not isinstance(edges, list):
+        errors.append("catalog/relationships.json: relationships must be an array")
+        return 0
+    seen = set()
+    actual_dependencies = set()
+    for index, edge in enumerate(edges):
+        if not isinstance(edge, dict):
+            errors.append(f"catalog/relationships.json: edge {index} must be an object")
+            continue
+        key = (edge.get("source"), edge.get("relationship"), edge.get("target"))
+        if key in seen:
+            errors.append(f"catalog/relationships.json: duplicate edge {key}")
+        seen.add(key)
+        if edge.get("source") not in known:
+            errors.append(f"catalog/relationships.json: unknown source {edge.get('source')}")
+        if edge.get("target") not in known:
+            errors.append(f"catalog/relationships.json: unknown target {edge.get('target')}")
+        if edge.get("relationship") == "depends_on":
+            actual_dependencies.add((edge.get("source"), edge.get("target")))
+    expected_dependencies = {
+        (asset["sku"], dependency)
+        for asset in assets
+        for dependency in asset.get("depends_on", [])
+    }
+    missing = expected_dependencies - actual_dependencies
+    unexpected = actual_dependencies - expected_dependencies
+    for source, target in sorted(missing):
+        errors.append(f"catalog/relationships.json: missing dependency edge {source} -> {target}")
+    for source, target in sorted(unexpected):
+        errors.append(f"catalog/relationships.json: unexpected dependency edge {source} -> {target}")
+    return len(edges)
+
 def main():
     errors = []
     businesses = {x["code"] for x in load("registries/businesses.json")["businesses"]}
@@ -115,12 +156,13 @@ def main():
             validate_manifest(item, path, errors)
         for target in item["depends_on"]:
             if target not in known: errors.append(f"{item['sku']}: unknown dependency {target}")
+    relationship_count = validate_relationships(assets, known, errors)
     evaluation_count = validate_evaluations(known, errors)
     if errors:
         print("VALIDATION FAILED")
         for error in errors: print(f"- {error}")
         return 1
-    print(f"VALIDATION PASSED: {len(assets)} cataloged assets, {len(REQUIRED_SCHEMAS)} schemas, {evaluation_count} evaluations")
+    print(f"VALIDATION PASSED: {len(assets)} assets, {len(REQUIRED_SCHEMAS)} schemas, {relationship_count} relationships, {evaluation_count} evaluations")
     return 0
 
 if __name__ == "__main__": sys.exit(main())

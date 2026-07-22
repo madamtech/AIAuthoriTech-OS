@@ -46,6 +46,11 @@ def similarity(left, right):
     return round((jaccard * 0.6) + (containment * 0.4), 4)
 
 
+def has_resource_files(folder, resource_type):
+    resource = folder / resource_type
+    return resource.is_dir() and any(path.is_file() for path in resource.rglob("*"))
+
+
 def relationship_document(assets):
     relationships = []
     for asset in assets:
@@ -82,9 +87,9 @@ def audit_document(assets, root=ROOT):
             "frontmatter_name": meta.get("name"),
             "description": meta.get("description", ""),
             "has_agent_metadata": (folder / "agents" / "openai.yaml").is_file(),
-            "has_references": (folder / "references").is_dir(),
-            "has_assets": (folder / "assets").is_dir(),
-            "has_scripts": (folder / "scripts").is_dir(),
+            "has_references": has_resource_files(folder, "references"),
+            "has_assets": has_resource_files(folder, "assets"),
+            "has_scripts": has_resource_files(folder, "scripts"),
             "dependency_count": len(asset.get("depends_on", [])),
         }
         records.append(record)

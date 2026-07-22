@@ -62,9 +62,10 @@ def validate_manifest(item, path, errors):
 
 def validate_evaluations(known, errors):
     count = 0
+    evaluation_ids = set()
     evaluation_root = ROOT / "evaluations"
     if not evaluation_root.is_dir():
-        return count
+        return count, evaluation_ids
     for path in evaluation_root.rglob("*.json"):
         count += 1
         doc = read_json(path, errors, path.relative_to(ROOT))
@@ -76,8 +77,51 @@ def validate_evaluations(known, errors):
             errors.append(f"{path.relative_to(ROOT)}: missing {', '.join(missing)}")
         if doc.get("target_sku") not in known:
             errors.append(f"{path.relative_to(ROOT)}: unknown target SKU {doc.get('target_sku')}")
+        if doc.get("evaluation_id") in evaluation_ids:
+            errors.append(f"{path.relative_to(ROOT)}: duplicate evaluation ID {doc.get('evaluation_id')}")
+        elif doc.get("evaluation_id"):
+            evaluation_ids.add(doc["evaluation_id"])
         if not isinstance(doc.get("test_cases"), list) or len(doc.get("test_cases", [])) < 3:
             errors.append(f"{path.relative_to(ROOT)}: requires at least three test cases")
+    return count, evaluation_ids
+
+def validate_maturity_decisions(assets, evaluation_ids, errors):
+    count = 0
+    by_sku = {asset["sku"]: asset for asset in assets}
+    maturity_root = ROOT / "catalog" / "maturity"
+    if not maturity_root.is_dir():
+        return count
+    for path in maturity_root.glob("*.json"):
+        count += 1
+        doc = read_json(path, errors, path.relative_to(ROOT))
+        if doc is None:
+            continue
+        required = {"target_sku", "target_version", "from_level", "to_level", "requested_at", "evidence", "quality_gate", "approvals", "decision"}
+        missing = sorted(required - set(doc))
+        if missing:
+            errors.append(f"{path.relative_to(ROOT)}: missing {', '.join(missing)}")
+            continue
+        asset = by_sku.get(doc["target_sku"])
+        if asset is None:
+            errors.append(f"{path.relative_to(ROOT)}: unknown target SKU {doc['target_sku']}")
+            continue
+        if doc["target_version"] != asset["version"]:
+            errors.append(f"{path.relative_to(ROOT)}: target version mismatch")
+        if doc["from_level"] != asset["maturity"]:
+            errors.append(f"{path.relative_to(ROOT)}: from_level does not match catalog maturity")
+        if doc["to_level"] != doc["from_level"] + 1:
+            errors.append(f"{path.relative_to(ROOT)}: promotions must advance exactly one level")
+        for evidence_id in doc["evidence"]:
+            if evidence_id not in evaluation_ids:
+                errors.append(f"{path.relative_to(ROOT)}: unknown evaluation evidence {evidence_id}")
+        gate = doc.get("quality_gate", {})
+        if doc["decision"] == "approved":
+            if not gate.get("structural_validation") or not gate.get("behavioral_validation"):
+                errors.append(f"{path.relative_to(ROOT)}: approved promotion lacks required validation")
+            if gate.get("critical_failures") != 0:
+                errors.append(f"{path.relative_to(ROOT)}: approved promotion has critical failures")
+            if not doc.get("approvals"):
+                errors.append(f"{path.relative_to(ROOT)}: approved promotion lacks approvals")
     return count
 
 def validate_relationships(assets, known, errors):
@@ -157,12 +201,13 @@ def main():
         for target in item["depends_on"]:
             if target not in known: errors.append(f"{item['sku']}: unknown dependency {target}")
     relationship_count = validate_relationships(assets, known, errors)
-    evaluation_count = validate_evaluations(known, errors)
+    evaluation_count, evaluation_ids = validate_evaluations(known, errors)
+    maturity_count = validate_maturity_decisions(assets, evaluation_ids, errors)
     if errors:
         print("VALIDATION FAILED")
         for error in errors: print(f"- {error}")
         return 1
-    print(f"VALIDATION PASSED: {len(assets)} assets, {len(REQUIRED_SCHEMAS)} schemas, {relationship_count} relationships, {evaluation_count} evaluations")
+    print(f"VALIDATION PASSED: {len(assets)} assets, {len(REQUIRED_SCHEMAS)} schemas, {relationship_count} relationships, {evaluation_count} evaluations, {maturity_count} maturity decisions")
     return 0
 
 if __name__ == "__main__": sys.exit(main())

@@ -1,0 +1,16 @@
+{
+  "evaluation_id": "EV-20260722-0003",
+  "target_sku": "CO-SKL-000003",
+  "target_version": "1.0.0",
+  "executed_at": "2026-07-22T12:00:00-05:00",
+  "evaluator": "Codex static validation",
+  "test_cases": [
+    {"id": "structure", "scenario": "Inspect package structure and metadata.", "expected": "Required skill and agent metadata exist.", "observed": "SKILL.md and agents/openai.yaml passed repository checks.", "status": "pass"},
+    {"id": "route-types", "scenario": "Inspect route taxonomy and thresholds.", "expected": "All supported outcomes and confidence rules are explicit.", "observed": "Ten route types, scoring, tie-breakers, and thresholds are defined.", "status": "pass"},
+    {"id": "authorization", "scenario": "Inspect external-action routing safety.", "expected": "Connection is not treated as action authority.", "observed": "Guardrails explicitly preserve authorization boundaries.", "status": "pass"}
+  ],
+  "result": "conditional-pass",
+  "critical_failures": [],
+  "evidence_files": ["tests/test_core_os_hardening.py", "libraries/core-os/skills/skill-router/references/routing-standard.md"],
+  "notes": "Static hardening passed. Independent behavioral forward tests remain required before maturity 3."
+}

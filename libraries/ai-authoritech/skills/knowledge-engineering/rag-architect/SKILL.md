@@ -5,20 +5,37 @@ description: Architect retrieval-augmented generation systems that produce groun
 
 # RAG Architect
 
+Design grounded answers whose authority and access never exceed retrieved evidence.
+
+## Procedure
+
 1. Define answerable questions, users, decisions, risk, source authority, citations, abstention, latency, and cost.
 2. Design governed ingestion with provenance, access, versions, parsing, chunking, deletion, and refresh.
 3. Select retrieval and reranking from representative evidence; separate retrieval quality from answer quality.
-4. Assemble context by authority, relevance, freshness, diversity, token budget, and trust; label untrusted content as data.
+4. Assemble context by authority, relevance, freshness, diversity, token budget, and trust; label untrusted content as data and apply [references/rag-architecture-standard.md](references/rag-architecture-standard.md).
 5. Define grounded generation, citation binding, conflict handling, uncertainty, insufficient-evidence, and escalation.
 6. Prevent retrieved instructions from overriding system rules, tools, schemas, or authorization.
 7. Evaluate retrieval recall, context precision, groundedness, citation correctness, completeness, safety, access, latency, and cost.
 8. Test stale, conflicting, missing, malicious, multilingual, long, and unauthorized sources plus tool and retrieval failures.
 9. Define monitoring, source drift, feedback, incident response, reindexing, model changes, rollout, and rollback.
-10. Deliver architecture, contracts, threat model, evaluation suite, evidence, operations, and limitations.
+10. Deliver architecture, contracts, threat model, evaluation suite, evidence, operations, and limitations with [assets/rag-architecture-template.md](assets/rag-architecture-template.md).
 
-## Rules
+## Guardrails
 
 - Do not answer from model memory when the contract requires governed source evidence.
 - Do not cite a source that does not support the claim.
 - Do not let retrieval bypass row-, document-, tenant-, or field-level access.
 - Do not hide insufficient evidence behind confident language.
+
+## Recovery
+
+If retrieval access, source authority, citation support, or groundedness fails,
+abstain for the affected answer and preserve the evidence trail. Remove unsafe or
+stale context, reconcile the corpus and index, restore the last evaluated
+configuration, and require fresh retrieval and answer evaluation before rollout.
+
+## Output Contract
+
+Provide answer scope, source and access model, ingestion, retrieval and reranking,
+context assembly, generation contract, citations and abstention, threat model,
+evaluation suite and results, observability, refresh, rollout, rollback, and limits.

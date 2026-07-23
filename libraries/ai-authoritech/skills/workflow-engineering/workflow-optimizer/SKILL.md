@@ -5,6 +5,10 @@ description: Redesign validated workflows to improve customer value, quality, cy
 
 # Workflow Optimizer
 
+Use the [workflow optimization standard](references/workflow-optimization-standard.md) and record options in the [workflow optimization plan template](assets/workflow-optimization-plan-template.md).
+
+## Procedure
+
 1. Confirm validated scope, demand, users, outcomes, baseline metrics, constraints, risks, and owners.
 2. Separate value work, required controls, delays, handoffs, rework, duplication, queues, and failure demand.
 3. Trace bottlenecks and pain points to root causes rather than automating symptoms.
@@ -14,8 +18,16 @@ description: Redesign validated workflows to improve customer value, quality, cy
 7. Define measurable pilots, acceptance, monitoring, rollback, and stakeholder validation.
 8. Deliver baseline, root causes, future-state map, changes, evidence, benefits, risks, and implementation sequence.
 
-## Rules
+## Guardrails
 - Do not treat headcount reduction as the only measure of value.
 - Do not remove controls without documented risk acceptance and replacement.
 - Do not hide displaced work, new queues, or exception burden.
 - Do not label an assumed future state as validated.
+
+## Recovery
+
+If baseline evidence, root cause, required controls, or displaced work is unresolved, stop recommendation approval and retain the validated current state. Mark the option provisional, assign evidence owners, and pilot reversibly before treating benefits as achieved.
+
+## Output Contract
+
+Deliver baseline evidence, root causes, future-state options, control impacts, benefit and effort estimates, risks, displaced work, pilot design, acceptance metrics, rollback, owners, sequence, and validation status.

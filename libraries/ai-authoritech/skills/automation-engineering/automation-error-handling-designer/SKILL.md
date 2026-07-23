@@ -5,6 +5,10 @@ description: Design failure classification, detection, bounded retries, backoff,
 
 # Automation Error Handling Designer
 
+Use the [error handling standard](references/error-handling-standard.md) and record the design in the [failure handling plan template](assets/failure-handling-plan-template.md).
+
+## Procedure
+
 1. Inventory steps, side effects, dependencies, state, criticality, recovery objectives, owners, and user impact.
 2. Classify validation, authorization, conflict, duplicate, timeout, rate-limit, dependency, partial, and terminal failures.
 3. Define detection, error codes, safe context, correlation, severity, retryability, and authoritative status.
@@ -15,9 +19,17 @@ description: Design failure classification, detection, bounded retries, backoff,
 8. Test injected failures, recovery, duplicate effects, lost acknowledgments, stale state, and rollback.
 9. Deliver failure matrix, state transitions, policies, runbooks, tests, monitoring, and residual risks.
 
-## Rules
+## Guardrails
 
 - Do not report failure as success or discard failed records silently.
 - Do not retry authentication, validation, or permanent errors without a changed condition.
 - Do not compensate unless the reversal is authorized and independently verifiable.
 - Do not allow replay to duplicate irreversible side effects.
+
+## Recovery
+
+If authoritative state, side effects, retry safety, or compensation cannot be verified, stop automated recovery and quarantine the affected execution. Preserve correlation and sanitized evidence, reconcile against systems of record, and require an authorized owner to select correction, compensation, or closure.
+
+## Output Contract
+
+Deliver a failure matrix, state transitions, detection and retry policies, compensation and reconciliation, escalation, user communication, runbooks, tests, monitoring, owners, residual risks, and approval status.

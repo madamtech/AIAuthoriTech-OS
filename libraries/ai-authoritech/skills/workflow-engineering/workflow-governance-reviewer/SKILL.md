@@ -5,6 +5,10 @@ description: Independently review workflow governance for purpose, ownership, de
 
 # Workflow Governance Reviewer
 
+Use the [workflow governance review standard](references/workflow-governance-review-standard.md) and record independent findings in the [workflow governance review template](assets/workflow-governance-review-template.md).
+
+## Procedure
+
 1. Freeze scope, workflow version, owners, obligations, evidence cutoff, risk, and review independence.
 2. Verify purpose, accountability, roles, authority, segregation, approvals, exceptions, and escalation.
 3. Review data minimization, access, privacy, retention, deletion, audit, third parties, and records.
@@ -14,8 +18,16 @@ description: Independently review workflow governance for purpose, ownership, de
 7. Record evidence-linked defects with severity, owner, deadline, retest, and residual risk.
 8. Issue approve, conditional, reject, or inconclusive limited to exact reviewed conditions.
 
-## Rules
+## Guardrails
 - Do not accept control descriptions without operating evidence.
 - Do not allow critical authority, privacy, safety, or audit gaps to average out.
 - Do not close findings based on planned remediation.
 - Do not expand approval beyond reviewed versions, locations, vendors, or populations.
+
+## Recovery
+
+If independence, evidence, scope stability, or a critical control claim cannot be established, issue an inconclusive or reject verdict rather than approval. Preserve the frozen review record, assign findings, and require corrected operating evidence plus retest.
+
+## Output Contract
+
+Deliver frozen scope, evidence inventory, control tests, sampled transactions, findings, severity, owners, deadlines, retest, residual risk, exceptions, limitations, and an approve, conditional, reject, or inconclusive verdict.

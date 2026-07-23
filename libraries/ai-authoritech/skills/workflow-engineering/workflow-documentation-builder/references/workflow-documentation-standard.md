@@ -1,0 +1,3 @@
+# Workflow Documentation Standard
+
+Document only an identified workflow version and state its validation status. Separate policy, procedure, implementation, runbook, training, and quick reference by audience and authority. Align written steps with process, swimlane, state, or sequence diagrams. Include trigger, preconditions, roles, decisions, systems, data, controls, exceptions, escalation, recovery, authoritative completion, metrics, tests, and ownership. Link controlled sources, remove secrets, minimize sensitive examples, validate with operators and owners, and manage effective date, review cadence, history, distribution, and obsolete copies.

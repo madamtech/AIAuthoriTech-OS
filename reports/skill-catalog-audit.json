@@ -31,39 +31,14 @@
   },
   "resource_counts": {
     "agent_metadata": 236,
-    "references": 91,
-    "assets": 91,
+    "references": 97,
+    "assets": 97,
     "scripts": 0
   },
   "finding_counts": {
-    "no-bundled-resources": 145
+    "no-bundled-resources": 139
   },
   "findings": [
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000082",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000083",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000084",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000085",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000086",
-      "code": "no-bundled-resources"
-    },
     {
       "severity": "low",
       "sku": "LMS-SKL-000001",
@@ -516,11 +491,6 @@
     },
     {
       "severity": "low",
-      "sku": "AA-SKL-000087",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
       "sku": "AA-SKL-000088",
       "code": "no-bundled-resources"
     },
@@ -781,13 +751,6 @@
       "disposition": "review"
     },
     {
-      "left": "AA-SKL-000087",
-      "right": "AA-SKL-000090",
-      "score": 0.6779,
-      "same_library": true,
-      "disposition": "review"
-    },
-    {
       "left": "MA-SKL-000015",
       "right": "AA-SKL-000111",
       "score": 0.6507,
@@ -823,16 +786,16 @@
       "disposition": "review"
     },
     {
-      "left": "AA-SKL-000088",
-      "right": "AA-SKL-000094",
-      "score": 0.5921,
+      "left": "AA-SKL-000087",
+      "right": "AA-SKL-000090",
+      "score": 0.5994,
       "same_library": true,
       "disposition": "review"
     },
     {
-      "left": "AA-SKL-000087",
-      "right": "AA-SKL-000092",
-      "score": 0.568,
+      "left": "AA-SKL-000088",
+      "right": "AA-SKL-000094",
+      "score": 0.5921,
       "same_library": true,
       "disposition": "review"
     },
@@ -868,20 +831,6 @@
       "left": "AA-SKL-000088",
       "right": "AA-SKL-000101",
       "score": 0.5506,
-      "same_library": true,
-      "disposition": "review"
-    },
-    {
-      "left": "AA-SKL-000087",
-      "right": "AA-SKL-000088",
-      "score": 0.5501,
-      "same_library": true,
-      "disposition": "review"
-    },
-    {
-      "left": "AA-SKL-000087",
-      "right": "AA-SKL-000094",
-      "score": 0.5501,
       "same_library": true,
       "disposition": "review"
     },

@@ -1,0 +1,3 @@
+# Process Standardization Standard
+
+Compare outcomes, triggers, roles, decisions, data, controls, systems, metrics, service levels, exceptions, costs, jurisdictions, products, languages, accessibility, and populations. Separate accidental variation, preference, legacy constraint, and defects from necessary regulatory, customer, product, risk, or access variation. Standardize principles, interfaces, terminology, data, metrics, controls, and core flow only when evidence supports it. Define governed variants with eligibility, boundaries, owner, evidence, expiry or review. Pilot across material segments and compare outcomes, quality, cycle time, exception burden, and access.

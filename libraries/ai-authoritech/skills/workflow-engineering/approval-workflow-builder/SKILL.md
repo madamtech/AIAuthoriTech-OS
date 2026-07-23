@@ -5,6 +5,10 @@ description: Build governed approval workflows with clear decision rights, crite
 
 # Approval Workflow Builder
 
+Use the [approval workflow standard](references/approval-workflow-standard.md) and record authority and states in the [approval workflow specification template](assets/approval-workflow-specification-template.md).
+
+## Procedure
+
 1. Define decision, authority source, requester, subject, approvers, thresholds, risk, and required evidence.
 2. Map single, sequential, parallel, quorum, conditional, and escalation patterns with conflict rules.
 3. Enforce identity, least privilege, segregation, delegation limits, absence coverage, and conflict disclosure.
@@ -14,8 +18,16 @@ description: Build governed approval workflows with clear decision rights, crite
 7. Test unauthorized, self-approval, stale evidence, changed request, timeout, split decision, and revocation.
 8. Deliver authority matrix, flow, criteria, states, controls, notifications, tests, and audit requirements.
 
-## Rules
+## Guardrails
 - Do not allow self-approval where segregation is required.
 - Do not reuse approval after material request changes.
 - Do not infer approval from timeout or lack of response.
 - Do not expose evidence beyond approvers' authorized need.
+
+## Recovery
+
+If authority, identity, segregation, evidence currency, or request version cannot be verified, suspend the request without inferring approval. Preserve the immutable record, prevent downstream effects, and route it to an authorized owner for correction, withdrawal, or restart.
+
+## Output Contract
+
+Deliver the authority matrix, criteria, states, routing, delegation, expiry, escalation, appeal, revocation, notifications, service levels, audit events, tests, owners, and approval status.

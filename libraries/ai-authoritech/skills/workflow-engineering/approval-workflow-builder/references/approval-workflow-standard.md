@@ -1,0 +1,3 @@
+# Approval Workflow Standard
+
+Establish the authoritative source of decision rights, thresholds, approvers, delegation, segregation, evidence, and downstream effects. Preserve request identity and version. Define approve, reject, change, defer, expire, withdraw, appeal, revoke, emergency, absence, quorum, split-decision, and escalation behavior. Require authenticated identity, least privilege, conflict disclosure, service levels, immutable audit, and authoritative status verification. Never infer approval from silence or reuse an approval after a material change. Test self-approval, stale evidence, timeout, duplicate requests, revocation, and unauthorized access.

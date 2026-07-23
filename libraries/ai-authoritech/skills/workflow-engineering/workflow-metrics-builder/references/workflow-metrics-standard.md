@@ -1,0 +1,3 @@
+# Workflow Metrics Standard
+
+Link each metric to a business outcome, decision, workflow boundary, controllable action, and named owner. Specify numerator, denominator, timestamps, exclusions, units, segments, source, lineage, latency, reconciliation, target, threshold, and action. Balance outcome, process, quality, control, capacity, experience, cost, equity, and risk. Distinguish touch, wait, cycle, queue, throughput, work in progress, first-pass yield, rework, and failure demand. Test completeness, duplicates, clock logic, bias, small samples, and incentives. Do not let speed, volume, or automation rate hide degraded outcomes or harm.

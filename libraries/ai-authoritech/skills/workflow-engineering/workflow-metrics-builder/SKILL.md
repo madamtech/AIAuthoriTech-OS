@@ -5,6 +5,10 @@ description: Define decision-ready workflow metrics for outcomes, demand, qualit
 
 # Workflow Metrics Builder
 
+Use the [workflow metrics standard](references/workflow-metrics-standard.md) and record formulas and action rules in the [workflow metric dictionary template](assets/workflow-metric-dictionary-template.md).
+
+## Procedure
+
 1. Define business outcome, decisions, users, workflow boundaries, baseline, and controllable actions.
 2. Select balanced outcome, process, quality, control, capacity, experience, cost, and risk measures.
 3. Specify numerator, denominator, timestamps, exclusions, units, segments, source, latency, and owner.
@@ -14,8 +18,16 @@ description: Define decision-ready workflow metrics for outcomes, demand, qualit
 7. Review incentives and guardrails to prevent speed, volume, or automation rate from degrading outcomes.
 8. Deliver metric dictionary, lineage, baseline, targets, segments, controls, dashboard requirements, and caveats.
 
-## Rules
+## Guardrails
 - Do not report averages without tails and meaningful segments where harm can hide.
 - Do not count reopened or reworked items as new successful throughput.
 - Do not use proxy measures without validating their relationship to the outcome.
 - Do not expose individual performance or sensitive attributes without authorization.
+
+## Recovery
+
+If lineage, completeness, clock logic, reconciliation, sample size, or outcome validity fails, withdraw the affected metric from decision use. Preserve the raw evidence, label historical displays, correct and backfill only with owner approval, and revalidate incentives before reinstatement.
+
+## Output Contract
+
+Deliver a metric dictionary with exact formulas, timestamps, exclusions, units, segments, lineage, owners, baselines, targets, thresholds, actions, quality tests, incentive guardrails, dashboard requirements, and caveats.

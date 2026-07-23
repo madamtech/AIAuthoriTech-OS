@@ -1,0 +1,3 @@
+# Workflow Governance Review Standard
+
+Freeze the workflow version, scope, obligations, locations, vendors, populations, evidence cutoff, and reviewer independence. Verify purpose, accountability, authority, segregation, exceptions, data minimization, access, privacy, retention, audit, third parties, validation, documentation, metrics, change control, continuity, training, incidents, and lifecycle. Trace controls to implementation, operating evidence, tests, monitoring, owners, and remediation. Sample transactions where feasible. Treat critical authority, safety, privacy, or audit gaps as hard failures and never close findings from plans alone.

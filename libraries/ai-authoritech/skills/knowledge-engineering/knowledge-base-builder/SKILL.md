@@ -1,11 +1,13 @@
 ---
 name: knowledge-base-builder
-description: Design governed, retrieval-ready knowledge bases for AI agents and applications by defining scope, source authority, ownership, permissions, provenance, taxonomy, metadata, content transformation, chunking, indexing, retrieval, citation, freshness, conflict resolution, evaluation, monitoring, and retirement. Use for RAG knowledge planning, agent knowledge packs, enterprise search collections, or migration from document dumps—not for agent instructions, unauthorized ingestion, or claiming source accuracy without validation.
+description: Design governed, retrieval-ready knowledge bases for AI agents and applications by defining scope, source authority, ownership, permissions, provenance, taxonomy, metadata, content transformation, chunking, indexing, retrieval, citation, freshness, conflict resolution, evaluation, monitoring, and retirement. Use for RAG knowledge planning, agent knowledge packs, enterprise search collections, or migration from document dumps - not for agent instructions, unauthorized ingestion, or claiming source accuracy without validation.
 ---
 
 # Knowledge Base Builder
 
 Build a trustworthy retrieval system, not a folder of uploaded files.
+
+## Procedure
 
 1. Define supported users, questions, decisions, exclusions, risk, latency, citation,
    and freshness requirements.
@@ -29,7 +31,7 @@ Build a trustworthy retrieval system, not a folder of uploaded files.
     feedback triage, incident response, ownership, and retirement.
 11. Deliver with [assets/knowledge-base-design-template.md](assets/knowledge-base-design-template.md).
 
-## Rules
+## Guardrails
 
 - Do not ingest content without authority, provenance, ownership, and permissions.
 - Do not treat embedding similarity as evidence of truth or authority.
@@ -40,8 +42,15 @@ Build a trustworthy retrieval system, not a folder of uploaded files.
 - Do not claim a knowledge base is complete; report coverage and known gaps.
 - Keep platform-specific ingestion and index settings in adapters.
 
-## Handoff
+## Output Contract
 
 Provide source registry, authority hierarchy, information model, ingestion and
 retrieval design, permission model, evaluation set, operations plan, risks, and
 implementation tasks for extraction, indexing, application, security, and QA.
+
+## Recovery
+
+Quarantine sources with missing authority, ownership, provenance, or permissions.
+When authoritative sources conflict, preserve both with effective dates and route
+the conflict to the owner. When retrieval cannot support a grounded answer, require
+abstention, a cited fallback, or an explicit coverage-gap response.

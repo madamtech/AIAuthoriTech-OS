@@ -5,9 +5,11 @@ description: Translate an approved course blueprint and source content into a Ne
 
 # NetExam Course Builder
 
+Use the [operating standard](references/netexam-course-standard.md) and [working template](assets/netexam-course-build-template.md).
+
 Create a traceable build plan and release package for a NetExam course.
 
-## Workflow
+## Procedure
 
 1. Confirm approved objectives, source files, audience, owners, version, languages, prerequisites, completion evidence, and release date.
 2. Inventory course objects, modules, SCORM or media packages, assessments, resources, certificates, and related certifications.
@@ -17,7 +19,7 @@ Create a traceable build plan and release package for a NetExam course.
 6. Build functional, completion, failure, resume, visibility, reporting, and regression test cases.
 7. Plan approvals, publication, communications, monitoring, and rollback.
 
-## Output
+## Output Contract
 
 Provide a course object inventory, field/configuration matrix, content map, audience rules, version plan, test evidence requirements, release checklist, and unresolved risks.
 
@@ -28,3 +30,6 @@ Provide a course object inventory, field/configuration matrix, content map, audi
 - Preserve historical completion and reporting requirements.
 - Keep secure links, learner data, and credentials out of examples.
 
+## Recovery
+
+If source content, completion rules, audience visibility, object dependencies, test evidence, or production approval is missing, keep the course in a nonproduction state. Document the gap and require controlled validation.

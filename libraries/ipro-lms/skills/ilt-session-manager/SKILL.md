@@ -5,9 +5,11 @@ description: Plan and operate instructor-led training sessions, including offeri
 
 # ILT Session Manager
 
+Use the [operating standard](references/ilt-operations-standard.md) and [working template](assets/ilt-session-control-template.md).
+
 Coordinate an auditable learner journey from offering creation through attendance reconciliation.
 
-## Workflow
+## Procedure
 
 1. Confirm course, modality, timezone, capacity, duration, instructors, facilities or meeting platform, audience, and completion policy.
 2. Define session dates, registration window, approvals, prerequisites, waitlist behavior, cancellations, substitutions, and no-show rules.
@@ -17,7 +19,7 @@ Coordinate an auditable learner journey from offering creation through attendanc
 6. Reconcile cancellations, no-shows, partial attendance, transfers, duplicates, and late updates.
 7. Close the offering, issue completion evidence, retain records, and report operational metrics.
 
-## Output
+## Output Contract
 
 Provide an offering setup sheet, schedule, responsibility matrix, roster controls, communication timeline, exception rules, attendance reconciliation, closure checklist, and metrics.
 
@@ -28,3 +30,6 @@ Provide an offering setup sheet, schedule, responsibility matrix, roster control
 - Protect learner contact and accommodation information.
 - Preserve audit history when correcting attendance.
 
+## Recovery
+
+If instructor, capacity, location, timezone, roster authority, attendance evidence, or cancellation policy is unresolved, pause affected communications or record changes. Preserve attendance evidence and escalate to the session owner.

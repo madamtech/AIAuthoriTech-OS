@@ -5,9 +5,11 @@ description: Design governed LMS notifications for enrollment, reminders, due da
 
 # LMS Notification Designer
 
+Use the [operating standard](references/notification-governance-standard.md) and [working template](assets/lms-notification-template.md).
+
 Create useful communications without duplication, message fatigue, privacy leakage, or ambiguous timing.
 
-## Workflow
+## Procedure
 
 1. Identify the learner event, business purpose, owner, audience, channel, urgency, timezone, and desired action.
 2. Define trigger conditions, timing, recurrence, stop conditions, suppression, escalation, and exception behavior.
@@ -17,7 +19,7 @@ Create useful communications without duplication, message fatigue, privacy leaka
 6. Test eligible and ineligible recipients, date boundaries, completed learners, failed deliveries, duplicates, and privacy.
 7. Define monitoring, ownership, change control, and retirement criteria.
 
-## Output
+## Output Contract
 
 Provide a notification inventory, trigger matrix, audience logic, approved copy, merge-field dictionary, test cases, escalation flow, and monitoring measures.
 
@@ -28,3 +30,6 @@ Provide a notification inventory, trigger matrix, audience logic, approved copy,
 - Stop reminders promptly after the qualifying event.
 - Require owner approval before enabling production sends.
 
+## Recovery
+
+If the trigger, audience, timezone, data fields, localization, suppression, escalation, or owner approval is unresolved, keep the notification disabled. Test with controlled recipients and document the remaining decision.

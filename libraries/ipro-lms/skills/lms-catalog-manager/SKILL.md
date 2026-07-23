@@ -5,9 +5,11 @@ description: Govern LMS catalog taxonomy, metadata, ownership, audience visibili
 
 # LMS Catalog Manager
 
+Use the [operating standard](references/catalog-governance-standard.md) and [working template](assets/lms-catalog-template.md).
+
 Maintain a discoverable, accurate catalog without disrupting assignments or historical records.
 
-## Workflow
+## Procedure
 
 1. Define catalog audiences, business goals, scope, owners, publishing authority, and quality standards.
 2. Inventory content, types, versions, languages, categories, tags, owners, visibility, dependencies, and usage.
@@ -17,7 +19,7 @@ Maintain a discoverable, accurate catalog without disrupting assignments or hist
 6. Test search, filters, audience access, mobile display, accessibility, and deprecated-content behavior.
 7. Establish review cadence, stale-content alerts, exception handling, and catalog measures.
 
-## Output
+## Output Contract
 
 Provide a catalog governance model, taxonomy, metadata dictionary, naming rules, ownership matrix, lifecycle workflow, cleanup backlog, migration plan, test cases, and health metrics.
 
@@ -28,3 +30,6 @@ Provide a catalog governance model, taxonomy, metadata dictionary, naming rules,
 - Preserve stable identifiers where integrations rely on them.
 - Require content-owner approval for material changes.
 
+## Recovery
+
+If ownership, version, audience, publication status, prerequisites, retirement, equivalency, or downstream impact is unresolved, hold publication or retirement. Preserve the current catalog record and request accountable approval.

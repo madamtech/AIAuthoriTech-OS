@@ -1,0 +1,3 @@
+# Public-Sector AI Procurement Standard
+
+Translate mission need and affected-person impacts into vendor-neutral, testable requirements. Cover functional performance, accessibility, security, privacy, data rights, records, model and system documentation, transparency, human oversight, testing, incident reporting, subcontractors, changes, audit, support, service levels, portability, continuity, intellectual property, acceptance, remedies, termination, data return, deletion, and exit. Define evaluation evidence and scoring before receipt where required. Separate vendor assertions from verified results, protect source-selection information, disclose conflicts, and require authorized procurement and legal interpretation.

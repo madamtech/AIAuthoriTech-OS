@@ -1,0 +1,3 @@
+# Government AI Use-Case Prioritization Standard
+
+Normalize each use case by mission outcome, authority, users, affected populations, decision role, current baseline, non-AI alternatives, data, vendors, costs, capacity, dependencies, oversight, and measurement. Define public-value criteria, evidence anchors, weights, uncertainty, and mandatory gates before scoring. Apply hard gates for authority, safety, civil rights, equity, accessibility, privacy, security, records, procurement, data readiness, human accountability, contestability, and redress outside the weighted total. Missing evidence is not low risk. Run sensitivity and capacity analysis, then classify pilot, research, redesign, defer, or reject.

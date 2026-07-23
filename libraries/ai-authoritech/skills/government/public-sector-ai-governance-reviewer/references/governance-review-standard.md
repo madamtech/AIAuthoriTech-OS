@@ -1,0 +1,3 @@
+# Public-Sector AI Governance Review Standard
+
+Freeze jurisdiction, agency, system version, locations, vendors, populations, policies, evidence cutoff, and reviewer independence. Verify authority, accountable owners, AI inventory, risk tiers, lifecycle gates, civil-rights and accessibility review, records, privacy, security, procurement, vendor controls, transparency, oversight, incidents, monitoring, appeals, redress, retirement, and public reporting. Trace every claimed control to implementation, operating evidence, tests, owners, and remediation. Treat critical authority, rights, safety, security, or recourse gaps as hard failures and limit the verdict to reviewed conditions.

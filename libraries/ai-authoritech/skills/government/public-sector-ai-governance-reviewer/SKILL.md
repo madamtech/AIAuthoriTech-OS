@@ -1,17 +1,19 @@
 ---
 name: public-sector-ai-governance-reviewer
-description: Review public-sector AI governance covering authority, accountability, inventory, risk tiers, oversight, transparency, records, vendors, monitoring, and public recourse. Use when advising government agencies or other public institutions on responsible AI decisions.
+description: Independently review public-sector AI governance covering authority, accountability, inventories, risk tiers, oversight, transparency, records, vendors, monitoring, incidents, lifecycle, and public recourse. Use for government governance design, predeployment review, or recertification. Do not claim legal compliance or operating effectiveness without qualified interpretation and tested evidence.
 ---
 
-# Public Sector Ai Governance Reviewer
+# Public Sector AI Governance Reviewer
 
-## Workflow
+Use the [governance review standard](references/governance-review-standard.md) and the [governance review template](assets/governance-review-template.md).
+
+## Procedure
 
 1. Inventory applicable policies, decision rights, AI uses, data, vendors, controls, review bodies, and evidence.
 2. Test governance design and operating effectiveness across the AI lifecycle.
 3. Prioritize gaps by public impact, rights, mission, security, compliance-review need, and evidence confidence.
 
-## Output
+## Output Contract
 
 Provide scope, evidence, assumptions, findings, risks, options, recommendations, owners, decisions, and validation or monitoring requirements.
 
@@ -22,3 +24,6 @@ Provide scope, evidence, assumptions, findings, risks, options, recommendations,
 - Protect sensitive, personal, procurement, security, and deliberative information.
 - Do not claim compliance, authorization, public consensus, or completed government action without evidence.
 
+## Recovery
+
+If authority, reviewer independence, scope, protected-information handling, or operating evidence is unresolved, issue reject or inconclusive. Preserve the frozen review record, restrict disclosure, assign findings, and require corrected evidence plus retest.

@@ -1,0 +1,3 @@
+# Public-Sector AI Workforce Standard
+
+Plan from mission services, target AI portfolio, delivery model, accountable decisions, existing roles, capacity, workforce rules, labor obligations, accessibility, and continuity needs. Map competencies for leaders, program staff, frontline users, data, technology, security, privacy, records, procurement, legal, civil rights, oversight, audit, and support. Distinguish government authority from vendor work. Address hiring, upskilling, workload, human review, change support, job impacts, knowledge transfer, succession, emergency coverage, and retention. Validate training through performance and scenario evidence rather than attendance alone.

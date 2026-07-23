@@ -31,12 +31,12 @@
   },
   "resource_counts": {
     "agent_metadata": 236,
-    "references": 97,
-    "assets": 97,
+    "references": 103,
+    "assets": 103,
     "scripts": 0
   },
   "finding_counts": {
-    "no-bundled-resources": 139
+    "no-bundled-resources": 133
   },
   "findings": [
     {
@@ -491,36 +491,6 @@
     },
     {
       "severity": "low",
-      "sku": "AA-SKL-000088",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000089",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000090",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000091",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000092",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000093",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
       "sku": "AA-SKL-000094",
       "code": "no-bundled-resources"
     },
@@ -746,7 +716,7 @@
     {
       "left": "AA-SKL-000005",
       "right": "AA-SKL-000093",
-      "score": 0.7059,
+      "score": 0.6783,
       "same_library": false,
       "disposition": "review"
     },
@@ -772,30 +742,9 @@
       "disposition": "review"
     },
     {
-      "left": "AA-SKL-000088",
-      "right": "AA-SKL-000092",
-      "score": 0.61,
-      "same_library": true,
-      "disposition": "review"
-    },
-    {
-      "left": "AA-SKL-000092",
-      "right": "AA-SKL-000094",
-      "score": 0.61,
-      "same_library": true,
-      "disposition": "review"
-    },
-    {
       "left": "AA-SKL-000087",
       "right": "AA-SKL-000090",
-      "score": 0.5994,
-      "same_library": true,
-      "disposition": "review"
-    },
-    {
-      "left": "AA-SKL-000088",
-      "right": "AA-SKL-000094",
-      "score": 0.5921,
+      "score": 0.6177,
       "same_library": true,
       "disposition": "review"
     },
@@ -815,29 +764,8 @@
     },
     {
       "left": "AA-SKL-000088",
-      "right": "AA-SKL-000090",
-      "score": 0.5606,
-      "same_library": true,
-      "disposition": "review"
-    },
-    {
-      "left": "AA-SKL-000090",
-      "right": "AA-SKL-000092",
-      "score": 0.5563,
-      "same_library": true,
-      "disposition": "review"
-    },
-    {
-      "left": "AA-SKL-000088",
       "right": "AA-SKL-000101",
-      "score": 0.5506,
-      "same_library": true,
-      "disposition": "review"
-    },
-    {
-      "left": "AA-SKL-000090",
-      "right": "AA-SKL-000094",
-      "score": 0.54,
+      "score": 0.5428,
       "same_library": true,
       "disposition": "review"
     }

@@ -7,6 +7,8 @@ description: Assess whether an organization has effective, evidenced governance 
 
 Assess both control design and operating evidence.
 
+## Procedure
+
 1. Confirm scope, jurisdictions, industries, AI systems, lifecycle stages, risk
    tolerance, policies, and review audience.
 2. Build an inventory of in-scope systems, owners, purposes, users, data, vendors,
@@ -24,7 +26,7 @@ Assess both control design and operating evidence.
    time sensitivity.
 9. Deliver with [assets/governance-review-template.md](assets/governance-review-template.md).
 
-## Rules
+## Guardrails
 
 - Do not equate a policy document with an operating control.
 - Do not claim compliance, certification, or legal sufficiency.
@@ -36,8 +38,15 @@ Assess both control design and operating evidence.
 - Treat missing ownership, inventory, incident response, or deployment authority
   as potentially systemic gaps.
 
-## Handoff
+## Output Contract
 
 Provide risk-tiered findings, control evidence, blockers, remediation owners,
 target dates, residual-risk decisions, and inputs for policy drafting, implementation
 planning, roadmap changes, vendor review, or qualified specialist assessment.
+
+## Recovery
+
+If the system inventory is incomplete, report coverage and issue provisional
+findings. If current jurisdiction-specific requirements cannot be verified from
+primary authorities, flag the gap and require qualified review. Never infer an
+operating control from policy language alone.

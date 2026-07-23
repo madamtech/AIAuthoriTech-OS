@@ -8,6 +8,8 @@ description: Convert AI readiness findings, validated workflows, prioritized opp
 Build a decision instrument that connects investment to measurable business
 outcomes.
 
+## Procedure
+
 1. Confirm strategic horizon, executive audience, business objectives, constraints,
    risk tolerance, decision rights, and available evidence.
 2. Reconcile readiness blockers, workflow findings, and opportunity priorities.
@@ -30,7 +32,7 @@ outcomes.
    constraints, and unresolved executive decisions.
 10. Deliver with [assets/strategy-roadmap-template.md](assets/strategy-roadmap-template.md).
 
-## Decision rules
+## Guardrails
 
 - Trace every initiative to a stated outcome and source evidence.
 - Do not convert weak evidence into precise dates, costs, or benefits.
@@ -42,8 +44,14 @@ outcomes.
 - Keep product selection out of the strategy unless a product constraint is already
   approved and material.
 
-## Handoff
+## Output Contract
 
 Provide an executive roadmap, initiative register, dependency sequence, capability
 plan, measurement framework, governance cadence, assumptions, and decisions needed
 for implementation planning, ROI analysis, governance review, and proposals.
+
+## Recovery
+
+If foundational inputs are provisional, produce a scenario roadmap with explicit
+decision gates rather than false dates. If priorities exceed capacity, expose the
+tradeoff and sequence by dependencies, risk reduction, and measurable outcomes.

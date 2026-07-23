@@ -1,0 +1,3 @@
+# Public-Sector AI Accessibility Review Standard
+
+Review the end-to-end service across web, mobile, documents, conversational interfaces, kiosks, telephone, in-person, and non-digital alternatives. Identify disability needs, assistive technologies, languages, cognitive load, timing, authentication, errors, support, procurement, and continuity obligations. Test keyboard, focus, semantics, names, contrast, reflow, zoom, forms, errors, media, speech, generated content, notifications, and escalation with qualified methods and users where authorized. Automated scans are evidence inputs, not conformance proof. Preserve an equivalent accessible route while critical barriers are remediated and retested.

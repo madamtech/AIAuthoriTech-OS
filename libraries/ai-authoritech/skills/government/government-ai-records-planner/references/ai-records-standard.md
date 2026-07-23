@@ -1,0 +1,3 @@
+# Government AI Records Standard
+
+Identify authoritative schedules and obligations with qualified records, legal, privacy, security, procurement, and program officials. Map record classes for inputs, outputs, prompts, decisions, approvals, models, configurations, tests, incidents, monitoring, contracts, notices, and communications. Define owners, systems, metadata, formats, integrity, access, classification, retention, legal holds, disposition, redaction, retrieval, export, audit, migration, vendor responsibilities, backups, and retirement. Preserve context needed to reconstruct consequential decisions. Do not invent schedules or dispose of records while authority, holds, investigations, or export completeness are unresolved.

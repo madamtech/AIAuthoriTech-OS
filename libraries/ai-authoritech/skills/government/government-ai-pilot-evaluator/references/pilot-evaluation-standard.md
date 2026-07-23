@@ -1,0 +1,3 @@
+# Government AI Pilot Evaluation Standard
+
+Freeze the approved hypothesis, use case, baseline, population, duration, sample, metrics, controls, oversight, stop rules, vendor version, and evidence plan before evaluation. Measure mission outcomes, harms, rights, equity, accessibility, privacy, security, reliability, data quality, human workload, failure modes, user feedback, subgroup effects, incidents, lifecycle costs, and vendor performance. Report uncertainty, missing data, selection effects, operational drift, and conditions not tested. Apply stop rules despite sunk cost. Limit conclusions to the pilot conditions and require new evidence before scaling to other populations, services, vendors, or operating environments.

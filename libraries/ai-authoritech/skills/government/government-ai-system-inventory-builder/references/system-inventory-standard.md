@@ -1,0 +1,3 @@
+# Government AI System Inventory Standard
+
+Define inventory scope, inclusion threshold, taxonomy, authoritative sources, accountable owners, publication rules, evidence confidence, update cadence, and reconciliation. Capture system and use-case identity, purpose, authority, users, affected populations, decision role, data, model, vendor, contracts, deployment locations, interfaces, human oversight, risk tier, impact assessments, controls, incidents, monitoring, status, review date, changes, and retirement. Discover shadow, embedded, pilot, vendor-provided, and legacy uses. Separate internal protected records from public inventory fields and never claim completeness without coverage evidence.

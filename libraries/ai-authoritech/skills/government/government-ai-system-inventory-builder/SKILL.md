@@ -1,17 +1,19 @@
 ---
 name: government-ai-system-inventory-builder
-description: Build a governed inventory of government AI systems, uses, owners, vendors, data, decisions, populations, risks, controls, status, and lifecycle evidence. Use for authorized government or public-institution AI governance and oversight work.
+description: Build and maintain a governed inventory of government AI systems and uses, including authority, owners, vendors, data, decisions, affected populations, risk tiers, controls, incidents, contracts, status, and lifecycle evidence. Use for authorized oversight, reporting, discovery, or recertification. Do not publish sensitive entries, infer completeness, or silently exclude shadow or vendor-provided uses.
 ---
 
-# Government Ai System Inventory Builder
+# Government AI System Inventory Builder
 
-## Workflow
+Use the [system inventory standard](references/system-inventory-standard.md) and the [system inventory template](assets/system-inventory-template.md).
+
+## Procedure
 
 1. Define scope, inventory threshold, accountable owners, authoritative sources, taxonomy, cadence, and publication rules.
 2. Collect system purpose, users, affected populations, decision role, data, model/vendor, deployment, oversight, incidents, contracts, and status.
 3. Validate completeness, assign risk tier and review dates, reconcile duplicates, and establish update and retirement controls.
 
-## Output
+## Output Contract
 
 Provide scope, authority, evidence, assumptions, findings, risks, controls, owners, decisions, and validation or monitoring requirements.
 
@@ -22,3 +24,6 @@ Provide scope, authority, evidence, assumptions, findings, risks, controls, owne
 - Separate observed evidence from assumptions and label confidence.
 - Do not claim compliance, authorization, public consensus, or completed action without evidence.
 
+## Recovery
+
+If ownership, scope, duplicate identity, risk tier, publication sensitivity, or lifecycle status cannot be reconciled, quarantine the entry from public reporting. Preserve source evidence, assign a steward, and resolve before certification or retirement.

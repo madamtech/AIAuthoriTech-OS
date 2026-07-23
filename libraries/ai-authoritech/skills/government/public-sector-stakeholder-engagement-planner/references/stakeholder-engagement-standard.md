@@ -1,0 +1,3 @@
+# Public-Sector Stakeholder Engagement Standard
+
+Map decision authority, affected populations, employees, labor representatives, oversight bodies, communities, advocates, vendors, and the public, including interests, impacts, trust history, accessibility, language, digital access, safety, privacy, and legal engagement obligations. Match inform, consult, co-design, deliberate, test, or approve methods to actual influence. Explain how input will be used, protect participants, maintain records, compensate where authorized, publish response commitments, and report disagreements without claiming consensus. Test representation and accessibility; reopen engagement when defects could materially change the decision.

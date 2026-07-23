@@ -1,0 +1,3 @@
+# Government AI Executive Brief Standard
+
+Define the executive audience, decision, authority, deadline, scope, evidence cutoff, classification, and distribution. Present mission need, current baseline, non-AI alternatives, options, benefits, affected populations, rights and accessibility impacts, risks, data readiness, lifecycle cost, procurement, workforce, governance, dependencies, reversibility, stakeholder input, and uncertainty. Distinguish verified facts, estimates, assumptions, and dissent. Make the requested decision, conditions, owners, milestones, blockers, and next evidence explicit. Keep protected details in controlled annexes and never frame a recommendation as authorization.

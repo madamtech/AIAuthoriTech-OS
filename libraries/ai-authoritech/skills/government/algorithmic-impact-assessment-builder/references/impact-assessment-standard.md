@@ -1,0 +1,3 @@
+# Algorithmic Impact Assessment Standard
+
+Assess a defined system version, lifecycle stage, authority, purpose, alternatives, boundaries, users, affected populations, decision role, data, model, vendor, and deployment. Evaluate mission impacts, civil rights, discrimination, equity, accessibility, privacy, security, safety, reliability, records, transparency, human oversight, contestability, recourse, workforce, procurement, environment, and public trust. Include affected stakeholder input and evidence confidence. Test controls, distinguish inherent and residual impact, assign independent acceptance authority, and reassess after material changes, incidents, population shifts, or evidence drift.

@@ -1,11 +1,13 @@
 ---
 name: app-testing-planner
-description: Create risk-based application test strategies, traceability matrices, environment and test-data plans, functional and nonfunctional coverage, automation boundaries, defect triage rules, release gates, and evidence requirements. Use when planning quality assurance for web, mobile, SaaS, internal, API-driven, AI-enabled, or vibe-coded applications before implementation, acceptance, migration, or release—not as proof that unexecuted tests passed or as a substitute for security, accessibility, privacy, or compliance specialists.
+description: Create risk-based application test strategies, traceability matrices, environment and test-data plans, functional and nonfunctional coverage, automation boundaries, defect triage rules, release gates, and evidence requirements. Use when planning quality assurance for web, mobile, SaaS, internal, API-driven, AI-enabled, or vibe-coded applications before implementation, acceptance, migration, or release - not as proof that unexecuted tests passed or as a substitute for security, accessibility, privacy, or compliance specialists.
 ---
 
 # App Testing Planner
 
 Turn requirements and architecture into testable claims and release evidence.
+
+## Procedure
 
 1. Confirm the product outcome, users, critical journeys, platforms, environments,
    integrations, data classes, regulatory constraints, release model, risk
@@ -51,7 +53,7 @@ Turn requirements and architecture into testable claims and release evidence.
     distinguishing planned, implemented, executed, passed, failed, blocked, and
     waived tests.
 
-## Rules
+## Guardrails
 
 - Do not claim coverage without requirement-to-test traceability.
 - Do not mark a planned or automated test as executed.
@@ -66,7 +68,15 @@ Turn requirements and architecture into testable claims and release evidence.
 - Keep test cases independent, deterministic, observable, and reproducible where
   feasible.
 
-## Handoff
+## Recovery
+
+If requirements, environments, or build provenance cannot be reconciled, mark the
+affected coverage blocked and identify the evidence needed to resume. If a test
+could alter production or expose sensitive data, stop that test path until an
+authorized isolated method exists. Never convert missing or contradictory
+evidence into a pass.
+
+## Output Contract
 
 Provide scope and assumptions, risk register, test-level strategy, coverage matrix,
 environment and data plan, automation plan, defect workflow, entry and exit gates,

@@ -1,11 +1,13 @@
 ---
 name: release-planner
-description: Convert a prioritized product backlog into governed, outcome-based releases with explicit scope, dependencies, capacity, forecasts, readiness gates, launch cohorts, communications, enablement, adoption, support, benefit measurement, contingency, and review decisions. Use for MVP planning, product increments, coordinated launches, beta or phased releases, roadmap commitments, and release replanning—not technical deployment commands, detailed requirements, effort guarantees, or claiming benefits before measurement.
+description: Convert a prioritized product backlog into governed, outcome-based releases with explicit scope, dependencies, capacity, forecasts, readiness gates, launch cohorts, communications, enablement, adoption, support, benefit measurement, contingency, and review decisions. Use for MVP planning, product increments, coordinated launches, beta or phased releases, roadmap commitments, and release replanning - not technical deployment commands, detailed requirements, effort guarantees, or claiming benefits before measurement.
 ---
 
 # Release Planner
 
 Plan a release as a controlled product outcome, not a date-shaped feature list.
+
+## Procedure
 
 1. Confirm the release outcome, target users, strategic objective, success
    measures, desired window, decision owner, risk tolerance, fixed obligations,
@@ -15,7 +17,7 @@ Plan a release as a controlled product outcome, not a date-shaped feature list.
    who is eligible, what promises apply, and how feedback changes the plan.
 3. Create the smallest coherent scope that delivers an end-to-end outcome.
    Include required controls, data, permissions, integrations, accessibility,
-   observability, support, documentation, recovery, and maintenance—not only
+   observability, support, documentation, recovery, and maintenance, not only
    visible features.
 4. Separate committed scope, conditional scope, discovery, and explicitly excluded
    work. Give every item an identifier, owner, acceptance evidence, dependency,
@@ -59,7 +61,7 @@ Plan a release as a controlled product outcome, not a date-shaped feature list.
 16. Deliver with
     [assets/release-plan-template.md](assets/release-plan-template.md).
 
-## Rules
+## Guardrails
 
 - Do not call a feature list a release plan without a measurable user or business
   outcome.
@@ -74,7 +76,14 @@ Plan a release as a controlled product outcome, not a date-shaped feature list.
 - Do not claim causal impact when the measurement design supports only
   association.
 
-## Handoff
+## Recovery
+
+If dependencies, capacity, required evidence, or a readiness gate cannot support
+the planned scope and window, revise the sequence, cohort, scope, or forecast and
+record an explicit go, hold, remediate, or withdraw decision. Do not promote a
+release or rewrite success thresholds to conceal a failed gate.
+
+## Output Contract
 
 Provide the release charter, maturity and audience, committed and conditional
 scope, exclusions, dependency and capacity plan, forecast and confidence,

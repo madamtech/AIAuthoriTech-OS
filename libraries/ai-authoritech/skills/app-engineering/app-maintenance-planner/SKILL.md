@@ -1,12 +1,14 @@
 ---
 name: app-maintenance-planner
-description: Create sustainable application maintenance and lifecycle plans covering service ownership, support, observability, incidents, problems, vulnerabilities, dependencies, backups, data retention, capacity, cost, accessibility, reliability, technical debt, change management, continuity, vendor risk, documentation, and retirement. Use after an application is released or when stabilizing an inherited web, mobile, SaaS, internal, API-driven, AI-enabled, or vibe-coded product—not to perform unapproved production changes or replace security, privacy, legal, compliance, or incident-response authorities.
+description: Create sustainable application maintenance and lifecycle plans covering service ownership, support, observability, incidents, problems, vulnerabilities, dependencies, backups, data retention, capacity, cost, accessibility, reliability, technical debt, change management, continuity, vendor risk, documentation, and retirement. Use after an application is released or when stabilizing an inherited web, mobile, SaaS, internal, API-driven, AI-enabled, or vibe-coded product - not to perform unapproved production changes or replace security, privacy, legal, compliance, or incident-response authorities.
 ---
 
 # App Maintenance Planner
 
 Keep the application supportable, secure, economical, and recoverable throughout
 its useful life.
+
+## Procedure
 
 1. Confirm the product outcome, service tier, users, business owner, technical
    owner, support hours, environments, architecture, dependencies, data classes,
@@ -62,7 +64,7 @@ its useful life.
 17. Deliver with
     [assets/app-maintenance-plan-template.md](assets/app-maintenance-plan-template.md).
 
-## Rules
+## Guardrails
 
 - Do not interpret absence of alerts as evidence of service health.
 - Do not close an incident before the business outcome and authoritative state are
@@ -76,7 +78,15 @@ its useful life.
   recovery requirements.
 - Do not retire a service by merely turning off its user interface.
 
-## Handoff
+## Recovery
+
+If a security incident, unsupported dependency, recovery failure, or data risk is
+discovered, prioritize containment and the accountable incident or risk process
+over routine maintenance. Preserve evidence and the last known-good baseline,
+apply change controls, and do not restore normal service claims until the business
+outcome and authoritative state are verified.
+
+## Output Contract
 
 Provide the service inventory and ownership model, support and incident process,
 SLIs and SLOs, observability, maintenance calendar, vulnerability and dependency

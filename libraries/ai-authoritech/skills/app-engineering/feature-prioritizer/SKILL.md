@@ -1,12 +1,14 @@
 ---
 name: feature-prioritizer
-description: Normalize, compare, sequence, and recommend product features using evidence-backed user and business value, strategic alignment, necessity, risk reduction, learning value, reach, confidence, effort, time criticality, dependencies, operational burden, and portfolio capacity. Use for product backlogs, MVP definition, release slicing, roadmap tradeoffs, inherited feature lists, or reprioritization—not detailed requirements, estimation commitments, architecture, or final investment approval.
+description: Normalize, compare, sequence, and recommend product features using evidence-backed user and business value, strategic alignment, necessity, risk reduction, learning value, reach, confidence, effort, time criticality, dependencies, operational burden, and portfolio capacity. Use for product backlogs, MVP definition, release slicing, roadmap tradeoffs, inherited feature lists, or reprioritization - not detailed requirements, estimation commitments, architecture, or final investment approval.
 ---
 
 # Feature Prioritizer
 
 Prioritize validated problems and outcomes, not stakeholder volume or polished
 feature pitches.
+
+## Procedure
 
 1. Confirm the product outcome, strategy, target users, release horizon, available
    capacity, fixed commitments, risk tolerance, decision owner, and evidence
@@ -53,7 +55,7 @@ feature pitches.
 15. Deliver with
     [assets/feature-prioritization-template.md](assets/feature-prioritization-template.md).
 
-## Rules
+## Guardrails
 
 - Do not equate the loudest stakeholder, largest customer, or highest executive
   title with the highest product value.
@@ -67,7 +69,15 @@ feature pitches.
 - Do not present ranking as objective when weights and judgments are subjective.
 - Do not commit more work than the constrained delivery system can absorb.
 
-## Handoff
+## Recovery
+
+If candidates are bundled, incomparable, unsupported, or constrained by unresolved
+dependencies, normalize or separate them and mark insufficient evidence before
+ranking. If a mandatory safety, legal, privacy, accessibility, security, or
+continuity gate applies, route it outside discretionary scoring and surface the
+decision owner and required action.
+
+## Output Contract
 
 Provide the normalized backlog, evidence inventory, mandatory-work register,
 method and assumptions, scored comparison, dependency graph, capacity constraints,

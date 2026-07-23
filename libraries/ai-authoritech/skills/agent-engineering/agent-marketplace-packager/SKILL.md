@@ -1,11 +1,13 @@
 ---
 name: agent-marketplace-packager
-description: Convert a validated AI agent into a transparent, installable, supportable marketplace package with audience positioning, evidence-backed capability claims, prerequisites, dependencies, permissions, data and privacy disclosures, configuration, onboarding, evaluation evidence, licensing, pricing inputs, support, compatibility, release channels, updates, deprecation, and retirement. Use for internal catalogs, commercial marketplaces, client distribution, white-label packages, or solution bundles—not agent design, QA, deployment, legal approval, pricing authorization, or publishing without explicit permission.
+description: Convert a validated AI agent into a transparent, installable, supportable marketplace package with audience positioning, evidence-backed capability claims, prerequisites, dependencies, permissions, data and privacy disclosures, configuration, onboarding, evaluation evidence, licensing, pricing inputs, support, compatibility, release channels, updates, deprecation, and retirement. Use for internal catalogs, commercial marketplaces, client distribution, white-label packages, or solution bundles - not agent design, QA, deployment, legal approval, pricing authorization, or publishing without explicit permission.
 ---
 
 # Agent Marketplace Packager
 
 Package the validated product that exists, not the product marketing wishes existed.
+
+## Procedure
 
 1. Identify the exact approved agent artifact, configuration fingerprint, business
    owner, target marketplace, distribution model, audience, geography, release
@@ -44,7 +46,7 @@ Package the validated product that exists, not the product marketing wishes exis
 13. Deliver with
     [assets/agent-marketplace-package-template.md](assets/agent-marketplace-package-template.md).
 
-## Rules
+## Guardrails
 
 - Do not publish, list, price, license, or sell without explicit authorization.
 - Do not claim certification, compliance, safety, accuracy, ROI, compatibility, or
@@ -59,10 +61,17 @@ Package the validated product that exists, not the product marketing wishes exis
   behavior through an update.
 - Keep marketplace-specific listing fields in adapters.
 
-## Handoff
+## Output Contract
 
 Provide the readiness decision, package manifest, positioning and evidence-backed
 claims, prerequisites and dependencies, permission and data disclosures,
 installation and removal guides, evaluation evidence, pricing and legal review
 inputs, support and service model, compatibility and lifecycle policy, publication
 checklist, risks, and required approvals.
+
+## Recovery
+
+If QA, ownership, permissions, licensing, or privacy evidence is missing, return a
+blocked readiness decision and remediation list. If a claim exceeds evidence,
+remove or qualify it. If publication authority is absent, prepare the package and
+approval checklist only; do not list, price, license, sell, or publish it.

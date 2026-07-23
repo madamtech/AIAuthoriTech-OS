@@ -1,11 +1,13 @@
 ---
 name: agent-tool-integration-designer
-description: Design safe, verifiable AI agent tool integrations with explicit capabilities, schemas, identity, least-privilege credentials, authorization, approvals, validation, idempotency, effect verification, rate and spend limits, failure recovery, auditability, testing, monitoring, and platform adapters. Use for APIs, MCP servers, SaaS connectors, databases, messaging, file systems, code execution, or physical-device tools—not agent architecture, workflow design, credential provisioning, or executing live integrations without authorization.
+description: Design safe, verifiable AI agent tool integrations with explicit capabilities, schemas, identity, least-privilege credentials, authorization, approvals, validation, idempotency, effect verification, rate and spend limits, failure recovery, auditability, testing, monitoring, and platform adapters. Use for APIs, MCP servers, SaaS connectors, databases, messaging, file systems, code execution, or physical-device tools - not agent architecture, workflow design, credential provisioning, or executing live integrations without authorization.
 ---
 
 # Agent Tool Integration Designer
 
 Expose the smallest capability surface that completes the approved job.
+
+## Procedure
 
 1. Confirm the agent purpose, users, autonomy and risk tier, authority matrix,
    workflow steps, data classifications, environments, service objectives, and
@@ -43,7 +45,7 @@ Expose the smallest capability surface that completes the approved job.
 13. Deliver with
     [assets/agent-tool-integration-template.md](assets/agent-tool-integration-template.md).
 
-## Rules
+## Guardrails
 
 - Do not grant broad credentials because the downstream service supports them.
 - Do not pass untrusted content into interpreters, queries, paths, URLs, or
@@ -56,9 +58,16 @@ Expose the smallest capability surface that completes the approved job.
 - Do not bundle read and consequential write actions into one opaque tool.
 - Keep provider-specific endpoints and configuration in adapters.
 
-## Handoff
+## Output Contract
 
 Provide the capability inventory, risk classification, tool contracts, schemas,
 identity and credential model, authorization and approval rules, validation,
 idempotency and effect verification, failure handling, test plan, observability,
 versioning, risks, and adapter implementation tasks.
+
+## Recovery
+
+If caller identity, authority, approval, or arguments cannot be validated, do not
+invoke the tool. If an effect is uncertain, reconcile against the authoritative
+system before retrying. If safe compensation is unavailable after a consequential
+partial failure, preserve evidence, stop further effects, and escalate.

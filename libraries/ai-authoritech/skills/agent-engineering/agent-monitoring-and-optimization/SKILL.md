@@ -1,12 +1,14 @@
 ---
 name: agent-monitoring-and-optimization
-description: Design and operate evidence-driven production monitoring and controlled optimization for AI agents across business outcomes, task quality, safety, security, permissions, tool effects, workflows, knowledge, reliability, latency, cost, adoption, incidents, drift, and lifecycle health. Use for observability plans, service-level objectives, production reviews, incident follow-up, drift detection, experiment design, cost optimization, or continuous improvement—not initial architecture, deployment execution, or untested autonomous self-modification.
+description: Design and operate evidence-driven production monitoring and controlled optimization for AI agents across business outcomes, task quality, safety, security, permissions, tool effects, workflows, knowledge, reliability, latency, cost, adoption, incidents, drift, and lifecycle health. Use for observability plans, service-level objectives, production reviews, incident follow-up, drift detection, experiment design, cost optimization, or continuous improvement - not initial architecture, deployment execution, or untested autonomous self-modification.
 ---
 
 # Agent Monitoring and Optimization
 
 Monitor outcomes and controls end to end, then improve one attributable variable at
 a time.
+
+## Procedure
 
 1. Identify the production version and configuration fingerprint, business outcome,
    risk and autonomy tier, users, traffic, operating hours, owners, dependencies,
@@ -47,7 +49,7 @@ a time.
 13. Deliver with
     [assets/agent-operations-review-template.md](assets/agent-operations-review-template.md).
 
-## Rules
+## Guardrails
 
 - Do not optimize proxy metrics at the expense of user outcomes or control
   effectiveness.
@@ -65,9 +67,16 @@ a time.
 - Separate provider-specific observability implementation from the
   platform-independent monitoring contract.
 
-## Handoff
+## Output Contract
 
 Provide the production fingerprint, journey and signal map, SLI/SLO and error-budget
 definitions, telemetry and privacy design, dashboards and alerts, drift and
 incident model, current findings, improvement backlog, experiment plans, regression
 gates, ownership, residual risks, and review cadence.
+
+## Recovery
+
+If telemetry quality is insufficient, repair measurement before claiming drift or
+improvement. If a safety, privacy, security, or authority guardrail fails, contain
+exposure and route incident handling before optimization. If causality is unclear,
+return competing hypotheses and the smallest controlled experiment.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Natural Cosmetic Formula Architect"
+  short_description: "Design governed natural cosmetic formulas"
+  default_prompt: "Use $natural-cosmetic-formula-architect to design a percentage-based cosmetic formula brief."

@@ -1,0 +1,1 @@
+{"target_sku":"MA-SKL-000052","target_version":"1.0.0","from_level":2,"to_level":3,"requested_at":"2026-07-23T14:00:00-05:00","evidence":["EV-20260723-0033"],"quality_gate":{"structural_validation":true,"behavioral_validation":false,"critical_failures":0},"approvals":[],"decision":"changes-required"}

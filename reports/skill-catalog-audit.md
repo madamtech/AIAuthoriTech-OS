@@ -1,14 +1,14 @@
 # Skill Catalog Audit
 
-Cataloged skills: 230
+Cataloged skills: 236
 
 ## Resource Coverage
 
 | Resource | Skills | Coverage |
 |---|---:|---:|
-| Agent Metadata | 230 | 100.0% |
-| References | 60 | 26.1% |
-| Assets | 60 | 26.1% |
+| Agent Metadata | 236 | 100.0% |
+| References | 66 | 28.0% |
+| Assets | 66 | 28.0% |
 | Scripts | 0 | 0.0% |
 
 ## Finding Counts

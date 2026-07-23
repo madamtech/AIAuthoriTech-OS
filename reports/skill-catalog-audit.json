@@ -1,17 +1,17 @@
 {
   "schema_version": "1.0.0",
-  "asset_count": 230,
+  "asset_count": 236,
   "business_counts": {
     "AA": 136,
     "CO": 4,
     "LMS": 40,
-    "MA": 50
+    "MA": 56
   },
   "library_counts": {
     "AGNT": 10,
     "APP": 29,
     "AUTO": 10,
-    "BEAUTY": 6,
+    "BEAUTY": 12,
     "BRAND": 31,
     "CONS": 10,
     "CORE": 4,
@@ -30,9 +30,9 @@
     "WDAY": 4
   },
   "resource_counts": {
-    "agent_metadata": 230,
-    "references": 60,
-    "assets": 60,
+    "agent_metadata": 236,
+    "references": 66,
+    "assets": 66,
     "scripts": 0
   },
   "finding_counts": {

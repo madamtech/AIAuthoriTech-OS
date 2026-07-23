@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fragrance Oil Formulator"
+  short_description: "Formulate roll-ons and dry body oils"
+  default_prompt: "Use $fragrance-oil-formulator to design a fragrance roll-on or dry body oil."

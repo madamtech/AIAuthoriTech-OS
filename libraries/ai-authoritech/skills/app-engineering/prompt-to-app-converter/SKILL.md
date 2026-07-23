@@ -1,11 +1,13 @@
 ---
 name: prompt-to-app-converter
-description: Convert an informal app request, product concept, copied prompt, notes, or prototype description into a traceable, platform-neutral app build packet with clarified outcomes, evidence, assumptions, scope, user journeys, requirements, data, access, interfaces, architecture constraints, vertical slices, bounded coding prompts, acceptance tests, verification gates, and change controls. Use before giving an idea to Lovable, Bolt, Replit, v0, Firebase Studio, Cursor, Windsurf, Claude Code, Codex, or another AI coding system—not to infer material business rules, credentials, production authority, or guaranteed feasibility from a vague prompt.
+description: Convert an informal app request, product concept, copied prompt, notes, or prototype description into a traceable, platform-neutral app build packet with clarified outcomes, evidence, assumptions, scope, user journeys, requirements, data, access, interfaces, architecture constraints, vertical slices, bounded coding prompts, acceptance tests, verification gates, and change controls. Use before giving an idea to Lovable, Bolt, Replit, v0, Firebase Studio, Cursor, Windsurf, Claude Code, Codex, or another AI coding system - not to infer material business rules, credentials, production authority, or guaranteed feasibility from a vague prompt.
 ---
 
 # Prompt-to-App Converter
 
 Turn conversational intent into small, testable implementation contracts.
+
+## Procedure
 
 1. Preserve the source prompt verbatim. Record its origin, author, date, referenced
    artifacts, intended platform, and any prior decisions so later changes remain
@@ -68,7 +70,7 @@ Turn conversational intent into small, testable implementation contracts.
 18. Deliver with
     [assets/prompt-to-app-build-packet.md](assets/prompt-to-app-build-packet.md).
 
-## Rules
+## Guardrails
 
 - Do not treat the original prompt as complete or approved requirements.
 - Do not invent users, business rules, permissions, integrations, pricing, legal
@@ -86,7 +88,15 @@ Turn conversational intent into small, testable implementation contracts.
 - Do not claim feasibility, completion, security, or production readiness without
   evidence proportionate to that claim.
 
-## Handoff
+## Recovery
+
+If material scope, business rules, access, data, integrations, or protected
+decisions remain contradictory, stop the affected slice and preserve the source
+prompt plus decision history. Separate reversible assumptions from approval
+gates, update canonical requirements and tests first, and issue a revised bounded
+prompt rather than silently changing prior behavior.
+
+## Output Contract
 
 Provide the preserved source prompt, evidence and assumption inventory,
 classification and routing, clarification gates, product brief, scope and

@@ -1,11 +1,13 @@
 ---
 name: refactoring-advisor
-description: Assess code and architecture for behavior-preserving refactoring opportunities, establish measurable baselines and characterization tests, identify coupling and ownership problems, rank changes by value and risk, define safe seams and migration stages, protect public contracts and data, and specify verification, rollout, rollback, and completion evidence. Use for web, mobile, desktop, API, data, automation, AI-enabled, legacy, or vibe-coded systems—not to rewrite working software for style alone, mix feature work into a refactor, or modify code when only advice or review was requested.
+description: Assess code and architecture for behavior-preserving refactoring opportunities, establish measurable baselines and characterization tests, identify coupling and ownership problems, rank changes by value and risk, define safe seams and migration stages, protect public contracts and data, and specify verification, rollout, rollback, and completion evidence. Use for web, mobile, desktop, API, data, automation, AI-enabled, legacy, or vibe-coded systems - not to rewrite working software for style alone, mix feature work into a refactor, or modify code when only advice or review was requested.
 ---
 
 # Refactoring Advisor
 
 Improve internal structure without silently changing observable behavior.
+
+## Procedure
 
 1. Confirm whether the request authorizes analysis, a plan, or implementation.
    For advice-only work, inspect and report without editing files, dependencies,
@@ -60,7 +62,7 @@ Improve internal structure without silently changing observable behavior.
 17. Deliver with
     [assets/refactoring-advice-template.md](assets/refactoring-advice-template.md).
 
-## Rules
+## Guardrails
 
 - Do not change code when the user requested only advice, diagnosis, or review.
 - Do not describe a behavior change as a refactor.
@@ -77,7 +79,15 @@ Improve internal structure without silently changing observable behavior.
 - Do not claim success from green unit tests alone when external contracts,
   accessibility, performance, data, or operations can change.
 
-## Handoff
+## Recovery
+
+If characterization, compatibility, data migration, or a stage verification gate
+fails, stop the refactor at the last runnable boundary and preserve the old path.
+Reconcile stored state, isolate any behavior change as separate authorized work,
+and use the approved rollback or forward-fix before removing adapters, flags,
+schemas, or tests.
+
+## Output Contract
 
 Provide the authority and scope, business reason and measures, current inventory,
 observable contracts, evidence-backed findings, characterization gaps, target

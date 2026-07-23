@@ -1,12 +1,14 @@
 ---
 name: desktop-app-planner
-description: Create build-ready plans for Windows, macOS, Linux, or cross-platform desktop applications covering architecture, native integration, windows and navigation, accessibility, local files and databases, offline behavior, IPC, privileged operations, security, performance, packaging, code signing, installation, updates, enterprise distribution, testing, telemetry, support, and retirement. Use for productivity, creative, internal, companion, tray, kiosk, or device-integrated desktop software—not to run untrusted code with elevated privileges, ship unsigned artifacts, or claim OS compatibility without representative-device evidence.
+description: Create build-ready plans for Windows, macOS, Linux, or cross-platform desktop applications covering architecture, native integration, windows and navigation, accessibility, local files and databases, offline behavior, IPC, privileged operations, security, performance, packaging, code signing, installation, updates, enterprise distribution, testing, telemetry, support, and retirement. Use for productivity, creative, internal, companion, tray, kiosk, or device-integrated desktop software - not to run untrusted code with elevated privileges, ship unsigned artifacts, or claim OS compatibility without representative-device evidence.
 ---
 
 # Desktop App Planner
 
 Design for long-lived processes, local authority, operating-system differences,
 and recoverable installation and updates.
+
+## Procedure
 
 1. Confirm the outcome, users, workflows, supported operating systems and
    versions, device classes, peripherals, environments, accessibility, data
@@ -69,7 +71,7 @@ and recoverable installation and updates.
 18. Deliver with
     [assets/desktop-app-plan-template.md](assets/desktop-app-plan-template.md).
 
-## Rules
+## Guardrails
 
 - Do not run the primary application with administrator or root privileges.
 - Do not expose a privileged helper without a narrow, authenticated, authorized,
@@ -84,7 +86,15 @@ and recoverable installation and updates.
 - Do not silently overwrite user files or remove user data during uninstall.
 - Do not claim desktop readiness from one OS, one display scale, or one machine.
 
-## Handoff
+## Recovery
+
+If local data, IPC, signing, installation, or update verification fails, isolate
+the affected process or artifact and preserve user files and the last known-good
+version. Do not elevate or execute untrusted content to recover. Use an approved
+repair, rollback, or forward-fix path and verify compatibility on representative
+hardware before resuming rollout.
+
+## Output Contract
 
 Provide the desktop charter, platform decision, process and trust-boundary model,
 journeys and window behavior, accessibility, local files and data, OS integration,

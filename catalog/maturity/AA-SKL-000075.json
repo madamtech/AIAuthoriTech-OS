@@ -1,0 +1,1 @@
+{"target_sku":"AA-SKL-000075","target_version":"1.0.0","from_level":2,"to_level":3,"requested_at":"2026-07-23T23:50:00-05:00","evidence":["EV-20260723-0091"],"quality_gate":{"structural_validation":true,"behavioral_validation":false,"critical_failures":0},"approvals":[],"decision":"changes-required"}

@@ -31,19 +31,14 @@
   },
   "resource_counts": {
     "agent_metadata": 236,
-    "references": 66,
-    "assets": 66,
+    "references": 67,
+    "assets": 67,
     "scripts": 0
   },
   "finding_counts": {
-    "no-bundled-resources": 170
+    "no-bundled-resources": 169
   },
   "findings": [
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000057",
-      "code": "no-bundled-resources"
-    },
     {
       "severity": "low",
       "sku": "AA-SKL-000058",

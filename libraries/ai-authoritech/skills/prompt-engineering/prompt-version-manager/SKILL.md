@@ -7,6 +7,8 @@ description: Govern immutable prompt and adapter versions through semantic chang
 
 Make every behavioral release identifiable, testable, reversible, and traceable.
 
+## Procedure
+
 1. Obtain the stable prompt identity and SKU, current immutable version, canonical
    artifact, adapters, owners, approval policy, consumers, dependencies, test and
    QA evidence, deployment states, release channels, and support commitments.
@@ -15,7 +17,7 @@ Make every behavioral release identifiable, testable, reversible, and traceable.
    Separate behavioral changes from documentation-only corrections.
 3. Classify impact using
    [references/prompt-versioning-standard.md](references/prompt-versioning-standard.md).
-   Choose patch, minor, or major based on observable contract compatibility—not
+   Choose patch, minor, or major based on observable contract compatibility, not
    line count, effort, urgency, or author preference.
 4. Treat changes to task scope, authority, prohibited actions, required inputs,
    output schema, tool side effects, data handling, failure behavior, or removed
@@ -49,7 +51,7 @@ Make every behavioral release identifiable, testable, reversible, and traceable.
     deadline, exception handling, retention, restoration, and archive rules.
 15. Deliver with [assets/prompt-release-record-template.md](assets/prompt-release-record-template.md).
 
-## Rules
+## Guardrails
 
 - Do not mutate or delete a released prompt, adapter, schema, test suite, or
   runtime configuration in place.
@@ -66,7 +68,14 @@ Make every behavioral release identifiable, testable, reversible, and traceable.
 - Do not recycle version numbers, SKUs, system IDs, release tags, or deprecated
   aliases.
 
-## Handoff
+## Recovery
+
+If evidence, compatibility, approval, rollout monitoring, or rollback verification
+fails, halt promotion and route consumers to the last tested immutable release.
+Preserve the failed artifact and incident evidence, reconcile caches and adapters,
+and never overwrite or reuse its version, SKU, tag, or release history.
+
+## Output Contract
 
 Provide identity and current state, exact proposed diff, semantic version decision,
 release unit manifest, dependency and consumer impact, compatibility ranges,

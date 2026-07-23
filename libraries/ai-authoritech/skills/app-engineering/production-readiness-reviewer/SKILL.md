@@ -1,11 +1,13 @@
 ---
 name: production-readiness-reviewer
-description: Review whether a web, mobile, desktop, SaaS, internal, API, data, automation, AI-enabled, or vibe-coded application is ready for a bounded production release by verifying scope, ownership, test evidence, security, privacy, accessibility, performance, reliability, data migration, dependencies, observability, support, deployment, rollback, incident response, compliance, and approvals. Use before launch, major rollout, migration, or material change—not to deploy, waive risk, certify compliance, or call a release ready from plans, checklists, deadlines, or unexecuted tests.
+description: Review whether a web, mobile, desktop, SaaS, internal, API, data, automation, AI-enabled, or vibe-coded application is ready for a bounded production release by verifying scope, ownership, test evidence, security, privacy, accessibility, performance, reliability, data migration, dependencies, observability, support, deployment, rollback, incident response, compliance, and approvals. Use before launch, major rollout, migration, or material change - not to deploy, waive risk, certify compliance, or call a release ready from plans, checklists, deadlines, or unexecuted tests.
 ---
 
 # Production Readiness Reviewer
 
 Issue a recommendation whose strength never exceeds the evidence.
+
+## Procedure
 
 1. Confirm the release candidate, exact source revision and artifact, scope,
    environments, users, criticality, rollout window, dependencies, data classes,
@@ -58,7 +60,7 @@ Issue a recommendation whose strength never exceeds the evidence.
 16. Deliver with
     [assets/production-readiness-review-template.md](assets/production-readiness-review-template.md).
 
-## Rules
+## Guardrails
 
 - Do not treat a completed checklist as proof that its controls work.
 - Do not mark planned, implemented, automated, or previously passed evidence as
@@ -74,7 +76,15 @@ Issue a recommendation whose strength never exceeds the evidence.
   executable, and tested proportionate to risk.
 - Do not perform the deployment as part of a readiness review.
 
-## Handoff
+## Recovery
+
+If artifact identity, evidence freshness, required approvals, rollback readiness,
+or a critical control cannot be verified, issue not ready or unable to determine
+for the affected scope. Preserve blockers and the evidence cutoff, identify the
+owner and proof needed to resume, and never convert an unknown or failed control
+into an accepted risk without authorized review.
+
+## Output Contract
 
 Provide the release and evidence scope, evidence-quality inventory, requirements
 and journey traceability, domain findings, blockers and conditions, exceptions

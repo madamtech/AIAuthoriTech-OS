@@ -1,11 +1,13 @@
 ---
 name: front-end-generator
-description: Convert approved application requirements, user journeys, design contracts, content, data contracts, and authorization rules into bounded front-end implementation packets and code changes covering semantic structure, components, routes, state, forms, responsive behavior, accessibility, localization, performance, security, analytics, tests, and verification. Use when implementing or planning a web, mobile-web, desktop-webview, portal, dashboard, SaaS, or vibe-coded interface—not to invent material product rules, enforce authorization only in the client, expose secrets, overwrite approved design, or claim production readiness from a visual preview.
+description: Convert approved application requirements, user journeys, design contracts, content, data contracts, and authorization rules into bounded front-end implementation packets and code changes covering semantic structure, components, routes, state, forms, responsive behavior, accessibility, localization, performance, security, analytics, tests, and verification. Use when implementing or planning a web, mobile-web, desktop-webview, portal, dashboard, SaaS, or vibe-coded interface - not to invent material product rules, enforce authorization only in the client, expose secrets, overwrite approved design, or claim production readiness from a visual preview.
 ---
 
 # Front-End Generator
 
 Build one verified user-facing slice at a time.
+
+## Procedure
 
 1. Confirm whether the request authorizes a plan, generated implementation packet,
    or edits to an existing codebase. Preserve unrelated user changes and approved
@@ -61,7 +63,7 @@ Build one verified user-facing slice at a time.
 17. Deliver with
     [assets/front-end-implementation-packet.md](assets/front-end-implementation-packet.md).
 
-## Rules
+## Guardrails
 
 - Do not begin implementation from a visual reference when behavior, data, access,
   and acceptance requirements are materially unknown.
@@ -78,7 +80,15 @@ Build one verified user-facing slice at a time.
 - Do not claim completion from a screenshot, rendered page, HTTP success, or green
   unit tests without verifying the acceptance outcome and authoritative state.
 
-## Handoff
+## Recovery
+
+If requirements, access rules, protected design decisions, or authoritative data
+behavior conflict, stop the affected slice and preserve unrelated user changes.
+Reconcile source contracts before editing, restore the last verified UI and data
+state after a failed optimistic action, and report any unverified acceptance
+claim rather than hiding it behind a visual result.
+
+## Output Contract
 
 Provide the authority and source contracts, slice scope, page and component map,
 state and data model, access behavior, responsive and accessibility contract,

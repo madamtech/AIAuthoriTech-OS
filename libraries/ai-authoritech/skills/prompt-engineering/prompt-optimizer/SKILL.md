@@ -7,6 +7,8 @@ description: Diagnose and improve existing production prompts through baseline m
 
 Improve measured behavior while preserving the approved contract.
 
+## Procedure
+
 1. Obtain the canonical prompt, version, owner, task contract, instruction layers,
    variables, tools, output schema, adapters, parameters, and current evaluation
    evidence. Route missing architecture to Prompt Architect.
@@ -48,9 +50,9 @@ Improve measured behavior while preserving the approved contract.
     Use [references/prompt-optimization-standard.md](references/prompt-optimization-standard.md)
     for failure classes, experiment design, and promotion rules.
 
-## Rules
+## Guardrails
 
-- Do not define “better” without measurable acceptance and regression criteria.
+- Do not define "better" without measurable acceptance and regression criteria.
 - Do not compare candidates across different datasets, parameters, tools, or
   knowledge snapshots unless the experiment explicitly controls that variable.
 - Do not optimize from one example, one run, synthetic happy paths, or reviewer
@@ -63,7 +65,15 @@ Improve measured behavior while preserving the approved contract.
   improve superficial task scores.
 - Do not deploy silently. Preserve the baseline and provide a tested rollback.
 
-## Handoff
+## Recovery
+
+If the baseline cannot be reproduced, a candidate violates a hard guardrail, or
+results do not distinguish improvement from variance, reject promotion and keep
+the validated baseline. Preserve failed trials, isolate non-prompt causes, and
+roll back any staged candidate whose monitored behavior crosses a defined
+threshold.
+
+## Output Contract
 
 Provide the baseline specification, target metrics and guardrails, failure
 taxonomy, hypotheses, candidate diffs, evaluation dataset and scoring method,

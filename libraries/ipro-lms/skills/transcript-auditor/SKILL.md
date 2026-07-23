@@ -1,13 +1,13 @@
 ---
 name: transcript-auditor
-description: Audit learner transcript records across LMS and connected systems for identity, course/version, enrollment, status, dates, scores, credits, certification links, and source consistency. Use when records are disputed, missing, duplicated, stale, or migration-affected.
+description: Audit learner transcript records across authorized LMS and connected systems for identity, course and version, enrollment, attempts, status, dates, timezone, scores, credits, certificates, integrations, overrides, and source consistency. Use when records are disputed, missing, duplicated, stale, or migration-affected. Do not alter official records without approval, evidence preservation, and an audit trail.
 ---
 
 # Transcript Auditor
 
-Trace each disputed learning record to authoritative evidence while preserving privacy and auditability.
+Use the [transcript audit standard](references/transcript-audit-standard.md) and [transcript exception template](assets/transcript-exception-template.md).
 
-## Workflow
+## Procedure
 
 1. Define the learner population, disputed records, systems, date range, business rules, and authorized data access.
 2. Normalize learner identifiers, course IDs, versions, status vocabulary, timestamps, timezones, and source-system keys.
@@ -17,7 +17,7 @@ Trace each disputed learning record to authoritative evidence while preserving p
 6. Recommend correction, owner, approval, evidence retention, learner communication, and recurrence prevention.
 7. Reconcile corrected records and record validation results.
 
-## Output
+## Output Contract
 
 Provide audit scope, control rules, exception register, evidence trail, root-cause summary, correction plan, approval needs, reconciliation results, privacy notes, and closure status.
 
@@ -28,3 +28,6 @@ Provide audit scope, control rules, exception register, evidence trail, root-cau
 - Preserve source evidence before correction.
 - Label unresolved conflicts rather than choosing a convenient source.
 
+## Recovery
+
+If identity, source authority, record lineage, privacy authorization, correction ownership, or reconciliation evidence is unresolved, preserve the record and mark the exception open. Do not overwrite competing evidence; escalate through the approved data-correction process.

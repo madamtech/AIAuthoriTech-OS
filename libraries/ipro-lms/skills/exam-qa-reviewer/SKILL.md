@@ -1,13 +1,13 @@
 ---
 name: exam-qa-reviewer
-description: Independently review an exam for blueprint alignment, answer validity, clarity, fairness, accessibility, security, scoring, and platform readiness. Use after item development and before pilot or production release.
+description: Independently review an exam for blueprint coverage, answer validity, rationale and source support, clarity, cognitive alignment, fairness, accessibility, security, scoring, configuration, and platform readiness. Use after item development and before pilot or production release. Do not approve unsupported keys, conceal conflicts, or expose secure assessment content.
 ---
 
 # Exam QA Reviewer
 
-Evaluate the exam independently from its author and record evidence for every finding.
+Use the [exam QA standard](references/exam-qa-standard.md) and [exam QA report template](assets/exam-qa-report-template.md).
 
-## Workflow
+## Procedure
 
 1. Confirm the approved blueprint, source material, audience, delivery rules, and review standard.
 2. Verify coverage, item counts, cognitive levels, scoring, form balance, and passing-rule configuration.
@@ -16,7 +16,7 @@ Evaluate the exam independently from its author and record evidence for every fi
 5. Classify findings as blocker, major, minor, or suggestion and recommend precise corrections.
 6. Recheck corrected items and issue a release recommendation.
 
-## Output
+## Output Contract
 
 Provide an executive decision, coverage results, item-level findings, severity summary, security/accessibility findings, configuration checks, remediation list, retest results, and release status.
 
@@ -27,3 +27,6 @@ Provide an executive decision, coverage results, item-level findings, severity s
 - Do not rewrite approved meaning silently.
 - Protect exam content and learner information.
 
+## Recovery
+
+If source evidence, reviewer independence, blueprint authority, accessibility review, scoring configuration, or secure handling cannot be established, return a changes-required decision. Quarantine disputed items and require documented retest before release.

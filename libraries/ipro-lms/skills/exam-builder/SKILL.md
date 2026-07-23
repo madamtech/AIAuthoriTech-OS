@@ -1,13 +1,13 @@
 ---
 name: exam-builder
-description: Build a blueprint-aligned exam package with defensible items, keys, rationales, metadata, scoring rules, and review requirements. Use after objectives and assessment specifications are approved and before independent exam QA or LMS import.
+description: Build a secure, blueprint-aligned exam package with defensible items, answer keys, rationales, objective and cognitive-level metadata, scoring configuration, source support, accessibility checks, and independent review requirements. Use after objectives and assessment specifications are approved. Do not invent facts, expose secure content, or set unapproved passing standards.
 ---
 
 # Exam Builder
 
-Create assessment content that measures the intended competencies at the specified cognitive level.
+Use the [exam development standard](references/exam-development-standard.md) and [exam item template](assets/exam-item-template.md).
 
-## Workflow
+## Procedure
 
 1. Confirm the exam blueprint, objectives, audience, item formats, difficulty targets, passing policy, and platform constraints.
 2. Allocate items across objectives and cognitive levels.
@@ -16,7 +16,7 @@ Create assessment content that measures the intended competencies at the specifi
 5. Review for ambiguity, cueing, trick wording, bias, accessibility, duplication, and content leakage.
 6. Produce a balanced form and identify items requiring subject-matter or psychometric review.
 
-## Output
+## Output Contract
 
 Provide the blueprint coverage table, item bank in the required format, keys and rationales, metadata, scoring/configuration notes, source list, review flags, and import handoff.
 
@@ -27,3 +27,6 @@ Provide the blueprint coverage table, item bank in the required format, keys and
 - Do not set a passing score without approved policy or standard-setting evidence.
 - Require independent review before release.
 
+## Recovery
+
+If the blueprint, source authority, key, rationale, security classification, accommodation requirement, or passing policy is unresolved, quarantine the affected item or configuration. Continue only with independently supportable content and flag the package as not release-ready.

@@ -1,11 +1,13 @@
 ---
 name: api-integration-builder
-description: Design secure, reliable application-to-application integrations with explicit source-of-truth ownership, API and event contracts, authentication, authorization, field mapping, validation, idempotency, pagination, webhooks, ordering, rate limits, retries, partial success, reconciliation, observability, testing, versioning, migration, and recovery. Use for REST, GraphQL, webhooks, event streams, SaaS connectors, internal APIs, and data synchronization—not undocumented screen scraping, credential provisioning, production execution, or assuming third-party behavior without current documentation and tests.
+description: Design secure, reliable application-to-application integrations with explicit source-of-truth ownership, API and event contracts, authentication, authorization, field mapping, validation, idempotency, pagination, webhooks, ordering, rate limits, retries, partial success, reconciliation, observability, testing, versioning, migration, and recovery. Use for REST, GraphQL, webhooks, event streams, SaaS connectors, internal APIs, and data synchronization - not undocumented screen scraping, credential provisioning, production execution, or assuming third-party behavior without current documentation and tests.
 ---
 
 # API Integration Builder
 
 Design for duplicate, delayed, missing, reordered, and partially successful work.
+
+## Procedure
 
 1. Confirm the business outcome, systems, owners, environments, data classes,
    volumes, latency, consistency, recovery, audit, and support requirements.
@@ -44,7 +46,7 @@ Design for duplicate, delayed, missing, reordered, and partially successful work
     rollback or forward-fix, credential rotation, support, and retirement.
 14. Deliver with [assets/api-integration-design-template.md](assets/api-integration-design-template.md).
 
-## Rules
+## Guardrails
 
 - Do not integrate a field without an agreed source of truth and conflict rule.
 - Do not place secrets or sensitive payloads in URLs, prompts, logs, fixtures, or
@@ -56,9 +58,16 @@ Design for duplicate, delayed, missing, reordered, and partially successful work
 - Do not claim synchronization until authoritative state is reconciled.
 - Keep provider-specific endpoints and credentials in adapters.
 
-## Handoff
+## Output Contract
 
 Provide the context and ownership map, integration pattern, contracts and schemas,
 mapping rules, identity and security model, delivery and idempotency semantics,
 failure and reconciliation design, observability, test plan, lifecycle and
 migration plan, provider adapters, risks, and open decisions.
+
+## Recovery
+
+If source-of-truth ownership or mapping is disputed, hold affected synchronization
+and route the conflict to its owner. If an effect times out or partially succeeds,
+reconcile authoritative state before retrying. Quarantine invalid or unmapped data
+with provenance instead of silently discarding or coercing it.

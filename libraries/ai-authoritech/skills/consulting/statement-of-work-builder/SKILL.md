@@ -1,11 +1,13 @@
 ---
 name: statement-of-work-builder
-description: Convert an approved proposal, delivery approach, commercial inputs, and governing agreement into a precise review-ready statement of work defining objectives, scope, deliverables, acceptance, milestones, responsibilities, dependencies, assumptions, fees, change control, governance, and completion. Use for consulting or implementation SOW drafting and redlining preparation—not legal advice, contract approval, or invention of binding terms, pricing, warranties, service levels, remedies, or intellectual-property provisions.
+description: Convert an approved proposal, delivery approach, commercial inputs, and governing agreement into a precise review-ready statement of work defining objectives, scope, deliverables, acceptance, milestones, responsibilities, dependencies, assumptions, fees, change control, governance, and completion. Use for consulting or implementation SOW drafting and redlining preparation - not legal advice, contract approval, or invention of binding terms, pricing, warranties, service levels, remedies, or intellectual-property provisions.
 ---
 
 # Statement of Work Builder
 
 Draft operational clarity; require qualified review for legal effect.
+
+## Procedure
 
 1. Confirm parties, governing agreement, order of precedence, jurisdictional review
    needs, approved proposal, pricing, delivery model, and authorized approvers.
@@ -26,11 +28,11 @@ Draft operational clarity; require qualified review for legal effect.
    training, support, transition, and completion requirements in scope.
 10. Deliver with [assets/statement-of-work-template.md](assets/statement-of-work-template.md).
 
-## Rules
+## Guardrails
 
 - Do not invent or modify legal clauses, liability, indemnity, warranty, IP,
   confidentiality, termination, service-level, or dispute terms.
-- Do not use subjective acceptance criteria such as “satisfactory” without an
+- Do not use subjective acceptance criteria such as "satisfactory" without an
   authorized definition.
 - Do not make provider dates unconditional when client or third-party dependencies
   control the schedule.
@@ -39,8 +41,15 @@ Draft operational clarity; require qualified review for legal effect.
 - Require legal, procurement, finance, security, privacy, and authorized-signatory
   review as applicable before execution.
 
-## Handoff
+## Output Contract
 
 Provide the draft SOW, source reconciliation, unresolved-term register, review
 matrix, and items requiring legal or commercial approval. Never represent a draft
 as executed or accepted.
+
+## Recovery
+
+If the governing agreement, commercial authorization, or acceptance authority is
+missing, return a review draft and unresolved-term register. If proposal and
+contract sources conflict, stop affected commitments and route the conflict to
+authorized commercial and legal reviewers rather than selecting a term.

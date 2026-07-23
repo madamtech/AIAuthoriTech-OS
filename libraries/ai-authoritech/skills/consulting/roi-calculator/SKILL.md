@@ -1,11 +1,13 @@
 ---
 name: roi-calculator
-description: Build evidence-backed, scenario-based business cases for AI, automation, and digital initiatives by modeling baseline economics, implementation and operating costs, adoption-adjusted benefits, cash-flow timing, risk, payback, ROI, NPV, break-even, and sensitivity. Use for investment comparisons, roadmap funding, pilot-to-production decisions, proposals, or benefits tracking—not accounting certification, tax advice, securities advice, or fabricated financial precision.
+description: Build evidence-backed, scenario-based business cases for AI, automation, and digital initiatives by modeling baseline economics, implementation and operating costs, adoption-adjusted benefits, cash-flow timing, risk, payback, ROI, NPV, break-even, and sensitivity. Use for investment comparisons, roadmap funding, pilot-to-production decisions, proposals, or benefits tracking - not accounting certification, tax advice, securities advice, or fabricated financial precision.
 ---
 
 # ROI Calculator
 
 Model transparent economics that decision-makers can challenge.
+
+## Procedure
 
 1. Confirm decision, currency, analysis horizon, comparison baseline, discount rate,
    tax treatment if supplied, and stakeholder-approved calculation policy.
@@ -26,7 +28,7 @@ Model transparent economics that decision-makers can challenge.
    benchmarked, and unknown values.
 10. Deliver with [assets/roi-business-case-template.md](assets/roi-business-case-template.md).
 
-## Rules
+## Guardrails
 
 - Do not turn hours saved into cash savings unless a credible realization mechanism
   exists.
@@ -37,8 +39,16 @@ Model transparent economics that decision-makers can challenge.
   strategic fit, capacity, and alternatives.
 - Require finance or accountable leadership approval for decision-grade assumptions.
 
-## Handoff
+## Output Contract
 
 Provide input ledger, scenarios, cash flows, ROI, payback, NPV when appropriate,
 break-even thresholds, sensitivity drivers, nonfinancial benefits, exclusions,
 confidence, and assumptions requiring approval.
+
+## Recovery
+
+If baseline, adoption, realization, or cost evidence is incomplete, return bounded
+scenarios and a missing-input ledger rather than a single decision-grade result.
+If benefits cannot be realized as cash, classify them as capacity or nonfinancial
+value. If the calculation policy is disputed, show each approved scenario without
+silently choosing one.

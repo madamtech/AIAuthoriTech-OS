@@ -1,11 +1,13 @@
 ---
 name: dashboard-designer
-description: Create decision-focused dashboard specifications covering audiences, decisions, metric contracts, sources, freshness, targets, comparisons, filters, segments, visual encodings, drill paths, actions, alerts, permissions, accessibility, responsive behavior, data quality, performance, testing, and governance. Use for executive, operational, client, product, analytics, monitoring, or AI dashboards—not to invent metrics, conceal uncertainty, replace source-system reconciliation, or claim a visualized number is correct without validated lineage.
+description: Create decision-focused dashboard specifications covering audiences, decisions, metric contracts, sources, freshness, targets, comparisons, filters, segments, visual encodings, drill paths, actions, alerts, permissions, accessibility, responsive behavior, data quality, performance, testing, and governance. Use for executive, operational, client, product, analytics, monitoring, or AI dashboards - not to invent metrics, conceal uncertainty, replace source-system reconciliation, or claim a visualized number is correct without validated lineage.
 ---
 
 # Dashboard Designer
 
 Design from the user's decision backward to verified data and action.
+
+## Procedure
 
 1. Confirm the dashboard outcome, audiences, decisions, actions, review cadence,
    devices, accessibility target, data sensitivity, latency needs, and owners.
@@ -55,7 +57,7 @@ Design from the user's decision backward to verified data and action.
 16. Deliver with
     [assets/dashboard-design-template.md](assets/dashboard-design-template.md).
 
-## Rules
+## Guardrails
 
 - Do not add a metric without a named decision, definition, source, and owner.
 - Do not display missing, delayed, suppressed, or inapplicable data as zero.
@@ -71,7 +73,15 @@ Design from the user's decision backward to verified data and action.
 - Do not call a dashboard successful based on views alone; measure decision and
   action outcomes.
 
-## Handoff
+## Recovery
+
+If lineage, freshness, metric definition, permissions, or reconciliation fails,
+mark the affected value stale, unavailable, disputed, or restricted rather than
+rendering a substitute. Disable dependent write actions, preserve the last
+verified baseline with its timestamp, and route definition conflicts to the
+named metric owner.
+
+## Output Contract
 
 Provide the audience and decision map, metric catalog and lineage, information
 hierarchy, visualization rationale, filter and drill contracts, state matrix,

@@ -1,11 +1,13 @@
 ---
 name: membership-platform-builder
-description: Create build-ready specifications for secure, accessible membership platforms covering audiences, member lifecycle, plans, entitlements, subscriptions, trials, onboarding, profiles, content, learning, events, community, moderation, notifications, support, analytics, retention, privacy, integrations, testing, deployment, and operations. Use for associations, paid communities, subscription content, professional networks, coaching programs, alumni groups, clubs, or hybrid memberships—not to invent policies, process raw payment credentials, provide tax advice, or deploy without authorization and verification.
+description: Create build-ready specifications for secure, accessible membership platforms covering audiences, member lifecycle, plans, entitlements, subscriptions, trials, onboarding, profiles, content, learning, events, community, moderation, notifications, support, analytics, retention, privacy, integrations, testing, deployment, and operations. Use for associations, paid communities, subscription content, professional networks, coaching programs, alumni groups, clubs, or hybrid memberships - not to invent policies, process raw payment credentials, provide tax advice, or deploy without authorization and verification.
 ---
 
 # Membership Platform Builder
 
 Design membership as a governed lifecycle and entitlement system, not a paywall.
+
+## Procedure
 
 1. Confirm the member outcome, segments, value proposition, business model,
    governance, brand, devices, languages, accessibility, data sensitivity,
@@ -51,7 +53,7 @@ Design membership as a governed lifecycle and entitlement system, not a paywall.
 15. Deliver with
     [assets/membership-platform-template.md](assets/membership-platform-template.md).
 
-## Rules
+## Guardrails
 
 - Do not make payment status the sole authorization decision; resolve effective
   membership and entitlements.
@@ -67,7 +69,15 @@ Design membership as a governed lifecycle and entitlement system, not a paywall.
   required human review and appeal path.
 - Preserve export, cancellation, deletion, and offboarding paths.
 
-## Handoff
+## Recovery
+
+If membership, entitlement, payment, eligibility, consent, or moderation state is
+contradictory, preserve the last verified access state and place consequential
+changes in review. Reconcile provider events idempotently, notify the accountable
+owner of stranded work, and retain appeal, cancellation, export, and deletion
+paths throughout recovery.
+
+## Output Contract
 
 Provide the platform charter, member and organization model, lifecycle state
 machine, plans and entitlements, journeys, permissions, content and learning,

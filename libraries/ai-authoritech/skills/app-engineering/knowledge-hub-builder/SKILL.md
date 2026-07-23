@@ -1,11 +1,13 @@
 ---
 name: knowledge-hub-builder
-description: Create build-ready specifications for governed, searchable knowledge hubs covering audiences, information architecture, source authority, content types, taxonomy, metadata, publishing workflow, permissions, search, navigation, AI-assisted answers, citations, feedback, accessibility, analytics, freshness, localization, integrations, migration, testing, deployment, and operations. Use for help centers, documentation portals, internal knowledge sites, policy hubs, resource libraries, partner centers, or RAG-enabled discovery—not unauthorized ingestion, replacing source governance, or presenting generated answers without traceable evidence.
+description: Create build-ready specifications for governed, searchable knowledge hubs covering audiences, information architecture, source authority, content types, taxonomy, metadata, publishing workflow, permissions, search, navigation, AI-assisted answers, citations, feedback, accessibility, analytics, freshness, localization, integrations, migration, testing, deployment, and operations. Use for help centers, documentation portals, internal knowledge sites, policy hubs, resource libraries, partner centers, or RAG-enabled discovery - not unauthorized ingestion, replacing source governance, or presenting generated answers without traceable evidence.
 ---
 
 # Knowledge Hub Builder
 
 Design discovery, trust, and stewardship before choosing a search interface.
+
+## Procedure
 
 1. Confirm audiences, supported questions and tasks, exclusions, public or private
    boundaries, brand, devices, languages, accessibility, freshness, risk,
@@ -58,7 +60,7 @@ Design discovery, trust, and stewardship before choosing a search interface.
 16. Deliver with
     [assets/knowledge-hub-plan-template.md](assets/knowledge-hub-plan-template.md).
 
-## Rules
+## Guardrails
 
 - Do not publish or ingest content without authority, ownership, rights, and
   audience classification.
@@ -71,7 +73,15 @@ Design discovery, trust, and stewardship before choosing a search interface.
 - Do not claim completeness; report coverage, freshness, and known gaps.
 - Do not measure success only by traffic, searches, or answer-generation volume.
 
-## Handoff
+## Recovery
+
+If authority, effective version, rights, permissions, or citations cannot be
+verified, withhold the affected content or answer and identify the missing source
+evidence. Preserve conflicting authoritative statements, roll back failed
+migrations to the reconciled index and content state, and route corrections to
+the named owner rather than silently rewriting source material.
+
+## Output Contract
 
 Provide the hub charter, source registry and authority hierarchy, content model,
 taxonomy and metadata, permissions, publishing workflow, information architecture,

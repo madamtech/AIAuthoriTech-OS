@@ -1,11 +1,13 @@
 ---
 name: internal-operations-app-builder
-description: Convert validated internal workflows into build-ready operations-app specifications covering actors, work items, queues, states, assignments, approvals, service levels, exceptions, data ownership, integrations, automation, permissions, audit, dashboards, notifications, accessibility, migration, testing, deployment, and support. Use for case management, request intake, review queues, fulfillment, back-office administration, compliance operations, inventory workflows, or internal command centers—not to automate an unvalidated process, erase necessary controls, monitor employees covertly, or deploy without authorization.
+description: Convert validated internal workflows into build-ready operations-app specifications covering actors, work items, queues, states, assignments, approvals, service levels, exceptions, data ownership, integrations, automation, permissions, audit, dashboards, notifications, accessibility, migration, testing, deployment, and support. Use for case management, request intake, review queues, fulfillment, back-office administration, compliance operations, inventory workflows, or internal command centers - not to automate an unvalidated process, erase necessary controls, monitor employees covertly, or deploy without authorization.
 ---
 
 # Internal Operations App Builder
 
 Build the operating model and exception paths before generating screens.
+
+## Procedure
 
 1. Confirm the validated current-state workflow, intended outcome, process owner,
    participants, volume, variants, service expectations, pain points, controls,
@@ -57,7 +59,7 @@ Build the operating model and exception paths before generating screens.
 17. Deliver with
     [assets/internal-operations-app-template.md](assets/internal-operations-app-template.md).
 
-## Rules
+## Guardrails
 
 - Do not automate a disputed or unvalidated workflow as though it were approved.
 - Do not encode policy only in UI visibility; enforce rules server-side and at the
@@ -73,7 +75,15 @@ Build the operating model and exception paths before generating screens.
   performance judgments.
 - Do not allow automation to approve its own consequential exceptions.
 
-## Handoff
+## Recovery
+
+If a work item, approval, integration effect, or source-of-truth state is
+ambiguous, prevent duplicate or consequential processing and move it to an owned
+exception queue. Preserve audit history, reconcile external effects before
+retrying, support authorized manual recovery, and never let automation approve
+its own exception.
+
+## Output Contract
 
 Provide the current and future-state boundaries, actor and work-item model, state
 machines, intake and queues, assignments and service clocks, approvals, exceptions,

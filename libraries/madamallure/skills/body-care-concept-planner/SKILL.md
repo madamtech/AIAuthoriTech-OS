@@ -1,17 +1,19 @@
 ---
 name: body-care-concept-planner
-description: Plan body-care product concepts across format, sensory profile, ingredient direction, packaging, use, claims, testing, and launch requirements.
+description: Plan evidence-aware body-care product concepts across format, audience, sensory profile, ingredient direction, packaging, intended use, claims boundaries, testing, and qualified formulation handoff. Use for early product development before creating or approving a production formula.
 ---
 
 # Body Care Concept Planner
 
-## Workflow
+Use the [operating standard](references/body-care-concept-standard.md) and [working template](assets/body-care-concept-template.md).
+
+## Procedure
 
 1. Define audience, body area, routine, format, texture, scent, size, price, and constraints.
 2. Build an evidence-aware concept and supplier/formulator brief without inventing a formula.
 3. Plan packaging compatibility, stability, safety, labeling, claims review, sampling, and evaluation.
 
-## Output
+## Output Contract
 
 Provide verified inputs, specifications, assumptions, risks, approvals, owners, implementation actions, and validation criteria.
 
@@ -22,3 +24,6 @@ Provide verified inputs, specifications, assumptions, risks, approvals, owners, 
 - Do not make unsupported cosmetic, health, safety, compliance, or financial claims.
 - Require qualified review and authorization before regulated, production, pricing, or customer-impacting action.
 
+## Recovery
+
+If product use, ingredient identity, usage limits, allergy risks, preservation need, packaging compatibility, or safety evidence is unresolved, keep the output at concept stage. Do not infer that natural ingredients are automatically safe.

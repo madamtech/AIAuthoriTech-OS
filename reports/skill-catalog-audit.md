@@ -7,13 +7,13 @@ Cataloged skills: 236
 | Resource | Skills | Coverage |
 |---|---:|---:|
 | Agent Metadata | 236 | 100.0% |
-| References | 195 | 82.6% |
-| Assets | 195 | 82.6% |
+| References | 205 | 86.9% |
+| Assets | 205 | 86.9% |
 | Scripts | 0 | 0.0% |
 
 ## Finding Counts
 
-- no-bundled-resources: 41
+- no-bundled-resources: 31
 
 ## Highest-Scoring Scope Overlaps
 

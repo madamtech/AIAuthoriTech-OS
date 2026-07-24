@@ -5,14 +5,16 @@ description: Plan manufacturable 3D-print projects from requirements through sli
 
 # Three D Print Project Planner
 
-## Workflow
+Use the [operating standard](references/three-d-print-standard.md) and [working template](assets/three-d-print-plan-template.md).
+
+## Procedure
 
 1. Confirm use, dimensions, loads, environment, finish, quantity, deadline, printer, and constraints.
 2. Assess geometry, tolerances, assembly, orientation, supports, layer height, walls, infill, and material.
 3. Define prototype tests for fit, strength, surface, time, and repeatability.
 4. Document slicer assumptions, post-processing, inspection, failure recovery, and approved production settings.
 
-## Output
+## Output Contract
 
 Provide requirements, design constraints, material and printer choice, slicing plan, test matrix, inspection criteria, risks, and production handoff.
 
@@ -22,3 +24,6 @@ Provide requirements, design constraints, material and printer choice, slicing p
 - Never treat estimated settings as validated production settings.
 - Respect intellectual-property and licensed-model restrictions.
 
+## Recovery
+
+If use requirements, model rights, dimensions, loads, printer capability, material safety, tolerance, test method, or customer approval is unresolved, label the plan provisional. Do not produce safety-critical claims; require a prototype and validated fit before release.

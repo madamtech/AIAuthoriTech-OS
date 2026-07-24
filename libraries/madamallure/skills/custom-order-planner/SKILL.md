@@ -5,7 +5,9 @@ description: Plan personalized customer orders from intake and proof approval th
 
 # Custom Order Planner
 
-## Workflow
+Use the [operating standard](references/custom-order-standard.md) and [working template](assets/custom-order-template.md).
+
+## Procedure
 
 1. Capture customer-approved spelling, artwork rights, specifications, quantity, delivery date, budget, and contact channel.
 2. Assess feasibility, lead time, dependencies, rush risk, and change cutoff.
@@ -13,7 +15,7 @@ description: Plan personalized customer orders from intake and proof approval th
 4. Schedule materials, machine or craft steps, inspection, packaging, and shipping.
 5. Document exceptions, customer communication, and final closure.
 
-## Output
+## Output Contract
 
 Provide an order brief, feasibility decision, proof record, production plan, quality checklist, communication timeline, and fulfillment handoff.
 
@@ -23,3 +25,6 @@ Provide an order brief, feasibility decision, proof record, production plan, qua
 - Protect customer images and personal data.
 - Document changes to price or schedule before proceeding.
 
+## Recovery
+
+If scope, personalization, dimensions, materials, rights, proof, price, deposit, schedule, shipping, cancellation, or customer approval is unresolved, pause production. Record changes and obtain explicit approval before consuming custom materials or irreversible labor.

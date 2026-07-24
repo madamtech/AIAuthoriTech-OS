@@ -5,7 +5,9 @@ description: Create accurate, persuasive ecommerce listings for MadamAllure prod
 
 # Ecommerce Listing Builder
 
-## Workflow
+Use the [operating standard](references/ecommerce-listing-standard.md) and [working template](assets/ecommerce-listing-template.md).
+
+## Procedure
 
 1. Confirm product record, audience, channel rules, brand voice, price, inventory model, variants, images, claims, and fulfillment terms.
 2. Write a clear title, opening value statement, feature-to-benefit copy, specifications, personalization steps, care, lead time, and policy notes.
@@ -13,7 +15,7 @@ description: Create accurate, persuasive ecommerce listings for MadamAllure prod
 4. Check variant consistency, mobile readability, prohibited claims, and customer expectation risks.
 5. Return missing facts rather than inventing them.
 
-## Output
+## Output Contract
 
 Provide channel-ready copy, structured specifications, variant table, personalization instructions, SEO fields, image/alt-text plan, policy disclosures, and publication checklist.
 
@@ -23,3 +25,6 @@ Provide channel-ready copy, structured specifications, variant table, personaliz
 - Avoid unsupported luxury, health, or performance claims.
 - State handmade variation and personalization limits clearly.
 
+## Recovery
+
+If product facts, materials, dimensions, claims, variations, personalization, price, inventory, lead time, shipping, returns, images, or platform rules are unresolved, keep the listing unpublished. Never invent claims or imply guarantees unsupported by production evidence.

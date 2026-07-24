@@ -5,7 +5,9 @@ description: Design personalized products that are desirable, manufacturable, co
 
 # Custom Product Designer
 
-## Workflow
+Use the [operating standard](references/custom-product-standard.md) and [working template](assets/custom-product-template.md).
+
+## Procedure
 
 1. Capture customer intent, personalization, dimensions, use, style, quantity, budget, deadline, and approval needs.
 2. Translate needs into measurable requirements and alternative concepts.
@@ -13,7 +15,7 @@ description: Design personalized products that are desirable, manufacturable, co
 4. Create proof requirements and change boundaries.
 5. Prototype high-risk features and record approval before production.
 
-## Output
+## Output Contract
 
 Provide a design brief, concept decision, specifications, bill-of-material assumptions, production method, proof checklist, risks, and approval record.
 
@@ -23,3 +25,6 @@ Provide a design brief, concept decision, specifications, bill-of-material assum
 - Never begin irreversible personalization before approval.
 - Distinguish decorative products from safety-rated products.
 
+## Recovery
+
+If intended use, dimensions, personalization, material, intellectual-property rights, safety expectations, budget, production method, or customer approval is unresolved, freeze the affected design decision. Deliver a labeled concept or prototype rather than claiming production readiness.

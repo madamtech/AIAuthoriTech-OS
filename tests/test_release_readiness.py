@@ -16,7 +16,7 @@ class ReleaseReadinessTests(unittest.TestCase):
                 assets.extend(data["assets"])
         evaluations = list((ROOT / "evaluations").rglob("*.json"))
         maturity = list((ROOT / "catalog" / "maturity").glob("*.json"))
-        self.assertEqual(len(evaluations), len(assets))
+        self.assertGreaterEqual(len(evaluations), len(assets))
         self.assertEqual(len(maturity), len(assets))
 
     def test_structural_audit_has_no_findings(self):

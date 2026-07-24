@@ -1,0 +1,1 @@
+{"target_sku":"AA-APP-000001","target_version":"1.0.0","from_level":1,"to_level":2,"requested_at":"2026-07-24T15:15:00-05:00","evidence":["EV-20260724-0290","EV-20260724-0293"],"quality_gate":{"structural_validation":true,"behavioral_validation":true,"critical_failures":0},"approvals":[],"decision":"changes-required"}

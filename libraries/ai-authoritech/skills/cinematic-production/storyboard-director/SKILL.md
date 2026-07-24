@@ -5,7 +5,9 @@ description: Translate an approved screenplay or scene treatment into a coherent
 
 # Storyboard Director
 
-## Workflow
+Use the [operating standard](references/storyboard-standard.md) and [working template](assets/storyboard-template.md).
+
+## Procedure
 
 1. Confirm the approved source, aspect ratio, delivery platform, visual language, panel density, and locked characters, props, wardrobe, and locations.
 2. Break each scene into visual beats; create a new panel only when composition, action, information, or emotional emphasis materially changes.
@@ -14,11 +16,11 @@ description: Translate an approved screenplay or scene treatment into a coherent
 5. Review coverage, rhythm, clarity, continuity, feasibility, and generation dependencies.
 6. Deliver a panel table plus continuity and downstream-production handoffs.
 
-## Output
+## Output Contract
 
 Include: storyboard overview, ordered panel table, character and environment locks, continuity notes, transition notes, audio cues, generation dependencies, assumptions, and approval points. Generate actual images only when the user requests them and an image tool is available.
 
-## Rules
+## Guardrails
 
 - Do not silently alter the screenplay or approved design language.
 - Keep one stable identifier for every scene, shot, panel, character, location, and recurring prop.
@@ -28,3 +30,7 @@ Include: storyboard overview, ordered panel table, character and environment loc
 ## Validation
 
 Confirm that the panels tell the story without hidden assumptions, preserve spatial and character continuity, cover essential action and reactions, and provide enough information for the next production stage.
+
+## Recovery
+
+If screenplay version, aspect ratio, geography, blocking, continuity, safety, or production feasibility is unresolved, mark the affected panels provisional and do not lock the storyboard.

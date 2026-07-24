@@ -21,7 +21,7 @@ def harden_skill(item: dict, config: dict) -> tuple[str, list[str]]:
     link = f'Use the [operating standard](references/{item["reference_file"]}) and [working template](assets/{item["asset_file"]}).'
     if link not in text:
         text = re.sub(r"(^# .+$)", rf"\1\n\n{link}", text, count=1, flags=re.MULTILINE)
-    text = text.replace("## Workflow", "## Procedure").replace("## Output\n", "## Output Contract\n")
+    text = text.replace("## Workflow", "## Procedure").replace("## Output\n", "## Output Contract\n").replace("## Rules", "## Guardrails")
     if "## Recovery" not in text:
         text = text.rstrip() + f'\n\n## Recovery\n\n{item["recovery"]}\n'
     skill_path.write_text(text, encoding="utf-8")

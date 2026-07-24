@@ -31,70 +31,12 @@
   },
   "resource_counts": {
     "agent_metadata": 236,
-    "references": 225,
-    "assets": 225,
+    "references": 236,
+    "assets": 236,
     "scripts": 0
   },
-  "finding_counts": {
-    "no-bundled-resources": 11
-  },
-  "findings": [
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000126",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000127",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000128",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000129",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000130",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000131",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000132",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000133",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000134",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000135",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "AA-SKL-000136",
-      "code": "no-bundled-resources"
-    }
-  ],
+  "finding_counts": {},
+  "findings": [],
   "overlap_candidates": [
     {
       "left": "MA-SKL-000020",

@@ -5,14 +5,16 @@ description: Evaluate suppliers for materials, packaging, components, finished g
 
 # Supplier Sourcing Planner
 
-## Workflow
+Use the [operating standard](references/supplier-sourcing-standard.md) and [working template](assets/supplier-sourcing-template.md).
+
+## Procedure
 
 1. Define specifications, volumes, budget, lead time, quality, compliance, service, and contingency needs.
 2. Build comparable requests and normalize price, freight, minimums, tooling, payment, and landed-cost assumptions.
 3. Evaluate samples, consistency, capacity, communication, traceability, policies, and concentration risk.
 4. Score candidates, document due diligence, negotiate terms, and plan trial orders and backups.
 
-## Output
+## Output Contract
 
 Provide specifications, assumptions, evidence, risks, decisions, implementation steps, owners, and a validation checklist.
 
@@ -23,3 +25,6 @@ Provide specifications, assumptions, evidence, risks, decisions, implementation 
 - Do not claim safety, compliance, authorization, or completion without evidence.
 - Require approval before irreversible production, financial, or customer-impacting action.
 
+## Recovery
+
+If specification, documentation, sample quality, total landed cost, capacity, terms, ownership, or continuity risk is unresolved, do not issue a purchase commitment. Use a controlled sample or trial order and retain comparison evidence.

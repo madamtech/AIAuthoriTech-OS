@@ -5,14 +5,16 @@ description: Draft empathetic, accurate MadamAllure customer responses for order
 
 # Customer Care Response Builder
 
-## Workflow
+Use the [operating standard](references/customer-care-standard.md) and [working template](assets/customer-care-template.md).
+
+## Procedure
 
 1. Identify the customer's concern, desired resolution, order evidence, urgency, prior contacts, and policy.
 2. Acknowledge clearly, state verified facts, offer authorized options, give timing, and specify the next action.
 3. Match the brand voice without overpromising or blaming.
 4. Review privacy, tone, accuracy, escalation needs, and closure criteria.
 
-## Output
+## Output Contract
 
 Provide specifications, assumptions, evidence, risks, decisions, implementation steps, owners, and a validation checklist.
 
@@ -23,3 +25,6 @@ Provide specifications, assumptions, evidence, risks, decisions, implementation 
 - Do not claim safety, compliance, authorization, or completion without evidence.
 - Require approval before irreversible production, financial, or customer-impacting action.
 
+## Recovery
+
+If identity, order facts, policy, safety impact, compensation authority, or shipment evidence is unresolved, acknowledge the issue without promising an outcome. Protect the customer record and escalate to the authorized owner.

@@ -5,14 +5,16 @@ description: Plan luxury product photography with accurate representation, brand
 
 # Product Photography Planner
 
-## Workflow
+Use the [operating standard](references/product-photography-standard.md) and [working template](assets/product-photography-template.md).
+
+## Procedure
 
 1. Confirm products, variants, audience, channels, brand direction, claims, deadlines, and image specifications.
 2. Create a shot list covering hero, scale, detail, personalization, packaging, lifestyle, and variant evidence.
 3. Plan background, lighting, composition, props, hands/models, color reference, file naming, and retouch limits.
 4. Define prep, capture, selection, alt text, export sizes, approvals, and asset storage.
 
-## Output
+## Output Contract
 
 Provide specifications, assumptions, evidence, risks, decisions, implementation steps, owners, and a validation checklist.
 
@@ -23,3 +25,6 @@ Provide specifications, assumptions, evidence, risks, decisions, implementation 
 - Do not claim safety, compliance, authorization, or completion without evidence.
 - Require approval before irreversible production, financial, or customer-impacting action.
 
+## Recovery
+
+If product version, variant coverage, image rights, releases, color reference, editing limits, or channel requirements are unresolved, keep the images internal. Do not publish misleading edits or unapproved customer and property content.

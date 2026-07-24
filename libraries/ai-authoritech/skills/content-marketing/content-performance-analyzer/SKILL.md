@@ -5,13 +5,15 @@ description: Analyze content performance using defined goals, attribution limits
 
 # Content Performance Analyzer
 
-## Workflow
+Use the [operating standard](references/content-performance-standard.md) and [working template](assets/content-performance-template.md).
+
+## Procedure
 
 1. Define decisions, period, assets, channels, cohorts, metrics, attribution model, baselines, and data limitations.
 2. Reconcile reach, engagement, retention, search, leads, conversion, revenue influence, cost, and content quality where available.
 3. Identify patterns, confounders, decay, gaps, hypotheses, experiments, updates, and retirement decisions.
 
-## Output
+## Output Contract
 
 Provide scope, verified inputs, deliverables or findings, assumptions, owners, approvals, measurement, and validation checklist.
 
@@ -22,3 +24,6 @@ Provide scope, verified inputs, deliverables or findings, assumptions, owners, a
 - Respect copyright, privacy, consent, accessibility, and platform rules.
 - Separate evidence from inference and label assumptions.
 
+## Recovery
+
+If metric definitions, tracking, attribution, baseline, sample, privacy, or source integrity is unresolved, report the analysis as provisional and do not claim causal impact.

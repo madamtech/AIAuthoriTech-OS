@@ -5,13 +5,15 @@ description: Build useful lead magnets that solve a focused audience problem and
 
 # Lead Magnet Builder
 
-## Workflow
+Use the [operating standard](references/lead-magnet-standard.md) and [working template](assets/lead-magnet-template.md).
+
+## Procedure
 
 1. Define audience, urgent problem, promised outcome, expertise, format, funnel role, source evidence, and CTA.
 2. Create scope, outline, examples, tool or template, instructions, accessibility, and branded presentation requirements.
 3. Check usefulness, originality, claims, data capture, delivery, follow-up, measurement, and update ownership.
 
-## Output
+## Output Contract
 
 Provide scope, verified inputs, deliverables or findings, assumptions, owners, approvals, measurement, and validation checklist.
 
@@ -22,3 +24,6 @@ Provide scope, verified inputs, deliverables or findings, assumptions, owners, a
 - Respect copyright, privacy, consent, accessibility, and platform rules.
 - Separate evidence from inference and label assumptions.
 
+## Recovery
+
+If the value promise, supporting evidence, rights, consent context, delivery path, or update owner is unresolved, do not publish the asset or collect leads through it.

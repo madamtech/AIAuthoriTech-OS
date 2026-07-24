@@ -5,13 +5,15 @@ description: Build conversion-focused landing-page messaging and structure from 
 
 # Landing Page Builder
 
-## Workflow
+Use the [operating standard](references/landing-page-standard.md) and [working template](assets/landing-page-template.md).
+
+## Procedure
 
 1. Define audience intent, offer, promise, traffic source, objections, proof, CTA, destination, constraints, and baseline.
 2. Design message hierarchy covering headline, value, outcomes, mechanism, proof, objections, risk, CTA, and FAQ.
 3. Draft page copy, mobile priorities, accessibility notes, analytics events, test hypotheses, and approval checklist.
 
-## Output
+## Output Contract
 
 Provide scope, verified inputs, deliverables or findings, assumptions, owners, approvals, measurement, and validation checklist.
 
@@ -22,3 +24,6 @@ Provide scope, verified inputs, deliverables or findings, assumptions, owners, a
 - Respect copyright, privacy, consent, accessibility, and platform rules.
 - Separate evidence from inference and label assumptions.
 
+## Recovery
+
+If offer terms, claims evidence, proof rights, form purpose, consent, privacy, destination, or approval is unresolved, keep the page in preview and retain the last approved version.

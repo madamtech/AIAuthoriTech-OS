@@ -5,13 +5,15 @@ description: Create authorized testimonials from verified customer feedback whil
 
 # Testimonial Evidence Builder
 
-## Workflow
+Use the [operating standard](references/testimonial-evidence-standard.md) and [working template](assets/testimonial-evidence-template.md).
+
+## Procedure
 
 1. Confirm source, speaker identity, relationship, context, exact words, outcome evidence, consent scope, channels, and expiration.
 2. Select or lightly edit for clarity without changing meaning; document any composite or anonymization rules.
 3. Obtain approval for quote, name, title, company, imagery, claims, placement, and future reuse.
 
-## Output
+## Output Contract
 
 Provide scope, verified inputs, deliverables or findings, assumptions, owners, approvals, measurement, and validation checklist.
 
@@ -22,3 +24,6 @@ Provide scope, verified inputs, deliverables or findings, assumptions, owners, a
 - Respect copyright, privacy, consent, accessibility, and platform rules.
 - Separate evidence from inference and label assumptions.
 
+## Recovery
+
+If authenticity, permission, relationship disclosure, context, claim support, privacy, or expiration is unresolved, do not publish the testimonial and retain the original evidence securely.

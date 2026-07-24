@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lighting, Lens, and Color Grade Director"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $lighting-lens-color-grade to create and validate this visual deliverable."

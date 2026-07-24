@@ -14,10 +14,11 @@ The catalog audit identified eight similarity candidates. None is a duplicate re
 | AA-SKL-000087 / AA-SKL-000090 | Retain with sequence | Public Sector AI Readiness Assessor evaluates organizational capability; Public Sector AI Risk Assessor evaluates risk scenarios and controls. Use both when readiness findings expose material risk. |
 | LMS-SKL-000005 / LMS-SKL-000006 | Retain with quality gate | Exam Builder authors the assessment; Exam QA Reviewer independently checks alignment, accuracy, fairness, answer integrity, and release readiness. Do not merge creation and approval. |
 | AA-SKL-000094 / AA-SKL-000101 | Retain and cross-route | Public Sector AI Implementation Planner owns the full implementation plan; Public Sector AI Accessibility Reviewer provides the specialist accessibility gate and remediation evidence. |
+| AA-SKL-000147 / AA-SKL-000148 | Retain and narrow | Professional Editorial Realism owns general photographic editorial realism; Pixar-Inspired Editorial Realism is a narrower stylized-realism variant and must use general attribute language without copying protected expression. |
 
 ## Conclusion
 
 - Merge decisions: 0
-- Retained specialist or business-specific pairs: 8
+- Retained specialist or business-specific pairs: 9
 - Unresolved overlap candidates: 0
 - Required routing action: preserve the distinctions above in future router or workflow changes.

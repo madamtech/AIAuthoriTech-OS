@@ -1,0 +1,4 @@
+interface:
+  display_name: "Character Bible and Reference Sheet Designer"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $character-bible-reference-sheet to create and validate this visual deliverable."

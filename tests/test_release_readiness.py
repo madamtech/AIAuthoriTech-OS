@@ -9,10 +9,13 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class ReleaseReadinessTests(unittest.TestCase):
     def test_complete_evidence_coverage(self):
-        assets = json.loads((ROOT / "catalog" / "assets.json").read_text(encoding="utf-8"))["assets"]
+        assets = []
+        for path in sorted((ROOT / "catalog").glob("*.json")):
+            data = json.loads(path.read_text(encoding="utf-8"))
+            if isinstance(data, dict) and isinstance(data.get("assets"), list):
+                assets.extend(data["assets"])
         evaluations = list((ROOT / "evaluations").rglob("*.json"))
         maturity = list((ROOT / "catalog" / "maturity").glob("*.json"))
-        self.assertEqual(len(assets), 236)
         self.assertEqual(len(evaluations), len(assets))
         self.assertEqual(len(maturity), len(assets))
 

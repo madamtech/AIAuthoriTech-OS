@@ -14,7 +14,12 @@ STOP_WORDS = {
 
 
 def load_catalog(root=ROOT):
-    return json.loads((root / "catalog" / "assets.json").read_text(encoding="utf-8"))["assets"]
+    assets = []
+    for path in sorted((root / "catalog").glob("*.json")):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(data, dict) and isinstance(data.get("assets"), list):
+            assets.extend(data["assets"])
+    return assets
 
 
 def frontmatter(path):

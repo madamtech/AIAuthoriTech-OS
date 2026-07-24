@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "asset_count": 236,
+  "asset_count": 272,
   "business_counts": {
-    "AA": 136,
+    "AA": 172,
     "CO": 4,
     "LMS": 40,
     "MA": 56
@@ -19,6 +19,7 @@
     "ECOM": 9,
     "FLOW": 10,
     "GOV": 20,
+    "IMG": 36,
     "KNOW": 11,
     "LASER": 4,
     "LMS": 28,
@@ -30,9 +31,9 @@
     "WDAY": 4
   },
   "resource_counts": {
-    "agent_metadata": 236,
-    "references": 236,
-    "assets": 236,
+    "agent_metadata": 272,
+    "references": 272,
+    "assets": 272,
     "scripts": 0
   },
   "finding_counts": {},
@@ -84,6 +85,13 @@
       "left": "LMS-SKL-000005",
       "right": "LMS-SKL-000006",
       "score": 0.608,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000147",
+      "right": "AA-SKL-000148",
+      "score": 0.5976,
       "same_library": true,
       "disposition": "review"
     },

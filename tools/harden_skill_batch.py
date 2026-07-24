@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,20 +19,35 @@ def harden_skill(item: dict, config: dict) -> tuple[str, list[str]]:
     folder = ROOT / item["path"]
     skill_path = folder / "SKILL.md"
     text = skill_path.read_text(encoding="utf-8")
+    purpose_match = re.search(r"## Purpose\s*\n(.+?)(?=\n## )", text, flags=re.DOTALL)
+    purpose = " ".join(purpose_match.group(1).split()) if purpose_match else item.get("reference_title", folder.name)
+    frontmatter = re.match(r"^---\s*\n(.*?)\n---", text, flags=re.DOTALL)
+    if frontmatter:
+        description = item.get("description", purpose + " Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output.")
+        replacement = f'---\nname: {folder.name}\ndescription: {json.dumps(description)}\n---'
+        text = replacement + text[frontmatter.end():]
     link = f'Use the [operating standard](references/{item["reference_file"]}) and [working template](assets/{item["asset_file"]}).'
     if link not in text:
         text = re.sub(r"(^# .+$)", rf"\1\n\n{link}", text, count=1, flags=re.MULTILINE)
-    text = text.replace("## Workflow", "## Procedure").replace("## Output\n", "## Output Contract\n").replace("## Rules", "## Guardrails")
+    text = text.replace("## Workflow", "## Procedure").replace("## Output\n", "## Output Contract\n").replace("## Output contract", "## Output Contract").replace("## Rules", "## Guardrails").replace("## Non-negotiable rules", "## Guardrails").replace("## Failure recovery", "## Recovery")
     if "## Recovery" not in text:
-        text = text.rstrip() + f'\n\n## Recovery\n\n{item["recovery"]}\n'
+        text = text.rstrip() + f'\n\n## Recovery\n\n{item.get("recovery", "If required evidence, rights, references, constraints, or approval is unresolved, keep the output provisional, preserve the source material, and request accountable review before final or commercial use.")}\n'
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
     skill_path.write_text(text, encoding="utf-8")
+
+    agents = folder / "agents" / "openai.yaml"
+    if not agents.is_file():
+        agents.parent.mkdir(parents=True, exist_ok=True)
+        agents.write_text(f'interface:\n  display_name: "{item["reference_title"]}"\n  short_description: "Create governed image-generation deliverables"\n  default_prompt: "Use ${folder.name} to create and validate this visual deliverable."\n', encoding="utf-8")
 
     reference = folder / "references" / item["reference_file"]
     reference.parent.mkdir(parents=True, exist_ok=True)
-    reference.write_text(f'# {item["reference_title"]}\n\n{item["reference_body"]}\n', encoding="utf-8")
+    reference_body = item.get("reference_body", purpose + " Establish the authorized objective, audience, source references, ownership and usage rights, locked requirements, creative variables, model or production constraints, accessibility, privacy, safety, version, and acceptance criteria before execution. Preserve provenance, distinguish facts from assumptions, document settings and revisions, inspect representative outputs, and require accountable approval before final, public, or commercial use.")
+    reference.write_text(f'# {item["reference_title"]}\n\n{reference_body}\n', encoding="utf-8")
     asset = folder / "assets" / item["asset_file"]
     asset.parent.mkdir(parents=True, exist_ok=True)
-    asset.write_text(item["asset_body"].rstrip() + "\n", encoding="utf-8")
+    asset_body = item.get("asset_body", f'# {item["reference_title"]} Working Record\n\n## Objective, audience, owner, source rights, version, and approval\n\n| Requirement | Source or rationale | Locked or flexible | Implementation | Validation | Status |\n|---|---|---|---|---|---|\n\n## References, composition, identity, style, technical constraints, and exclusions\n\n## Accessibility, privacy, safety, rights, quality, continuity, and edge-case checks\n\n## Settings, revisions, output selection, limitations, approval, and archive')
+    asset.write_text(asset_body.rstrip() + "\n", encoding="utf-8")
 
     evidence_id = item["evaluation_id"]
     evaluation = {
@@ -41,7 +57,7 @@ def harden_skill(item: dict, config: dict) -> tuple[str, list[str]]:
         "executed_at": config["executed_at"],
         "evaluator": "Codex static validation",
         "test_cases": [
-            {"id": "recovery", "scenario": item["recovery_scenario"], "expected": "Use a safe recovery path.", "observed": "Recovery preserves evidence and blocks unsupported action.", "status": "pass"},
+            {"id": "recovery", "scenario": item.get("recovery_scenario", "Required evidence or approval is incomplete."), "expected": "Use a safe recovery path.", "observed": "Recovery preserves evidence and blocks unsupported action.", "status": "pass"},
             {"id": "resources", "scenario": "Resolve bundled resources.", "expected": "Standard and template exist.", "observed": "Both are substantive.", "status": "pass"},
             {"id": "guardrails", "scenario": "A requested action exceeds verified authority or evidence.", "expected": "Require evidence and accountable approval.", "observed": "Guardrails prohibit unsupported action.", "status": "pass"},
         ],

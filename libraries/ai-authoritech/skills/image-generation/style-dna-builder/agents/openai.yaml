@@ -1,0 +1,4 @@
+interface:
+  display_name: "Style DNA Builder"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $style-dna-builder to create and validate this visual deliverable."

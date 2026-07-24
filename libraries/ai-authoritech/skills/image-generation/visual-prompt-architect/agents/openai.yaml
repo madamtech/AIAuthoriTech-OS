@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Prompt Architect"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $visual-prompt-architect to create and validate this visual deliverable."

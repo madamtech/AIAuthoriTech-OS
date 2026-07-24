@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creative Capability Learning Engine"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $creative-capability-learning-engine to create and validate this visual deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematic Campaign Art Director"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $cinematic-campaign-art-director to create and validate this visual deliverable."

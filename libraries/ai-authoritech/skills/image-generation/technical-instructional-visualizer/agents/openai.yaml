@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical and Instructional Visualizer"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $technical-instructional-visualizer to create and validate this visual deliverable."

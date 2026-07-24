@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Accessibility and Inclusive Representation"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $visual-accessibility-inclusive-representation to create and validate this visual deliverable."

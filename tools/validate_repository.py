@@ -30,6 +30,14 @@ REQUIRED_SCHEMAS = {
 def load(path):
     return json.loads((ROOT / path).read_text(encoding="utf-8"))
 
+def load_assets():
+    assets = []
+    for path in sorted((ROOT / "catalog").glob("*.json")):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(data, dict) and isinstance(data.get("assets"), list):
+            assets.extend(data["assets"])
+    return assets
+
 def read_json(path, errors, label):
     try:
         return json.loads(path.read_text(encoding="utf-8"))
@@ -170,7 +178,7 @@ def main():
     businesses = {x["code"] for x in load("registries/businesses.json")["businesses"]}
     libraries = {x["code"] for x in load("registries/libraries.json")["libraries"]}
     types = {x["code"] for x in load("registries/asset-types.json")["asset_types"]}
-    assets = load("catalog/assets.json")["assets"]
+    assets = load_assets()
     skus = [x["sku"] for x in assets]
     ids = [x["asset_id"] for x in assets]
     if len(skus) != len(set(skus)): errors.append("duplicate SKU")

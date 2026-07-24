@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reference-Preserving Image Editor"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $reference-preserving-image-editor to create and validate this visual deliverable."

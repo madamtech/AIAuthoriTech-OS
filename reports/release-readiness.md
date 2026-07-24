@@ -4,13 +4,13 @@ Assessment date: 2026-07-23
 
 ## Verified Inventory
 
-- Cataloged skills: 236
-- Skills with bundled resources: 236
-- Evaluation records: 236
-- Maturity decisions: 236
-- Catalog relationships: 1,188
+- Cataloged skills: 272
+- Skills with bundled resources: 272
+- Evaluation records: 272
+- Maturity decisions: 272
+- Catalog relationships: 1,328
 - Registered schemas: 12
-- Automated tests: 70 passing
+- Automated tests: 75 passing
 - Unresolved structural audit findings: 0
 - Unresolved overlap candidates after human review: 0
 

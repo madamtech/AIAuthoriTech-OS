@@ -5,13 +5,15 @@ description: Plan seasonal and holiday MadamAllure collections across theme, ass
 
 # Holiday Collection Planner
 
-## Workflow
+Use the [operating standard](references/holiday-collection-standard.md) and [working template](assets/holiday-collection-template.md).
+
+## Procedure
 
 1. Define holiday, audience, story, launch and order deadlines, budget, capacity, and revenue goals.
 2. Select a coherent assortment and bundles; validate costs, materials, packaging, lead times, inventory, and personalization limits.
 3. Build readiness, content, promotion, fulfillment, cutoff, contingency, and post-season inventory plans.
 
-## Output
+## Output Contract
 
 Provide verified inputs, specifications, assumptions, risks, approvals, execution steps, owners, and validation criteria.
 
@@ -22,3 +24,6 @@ Provide verified inputs, specifications, assumptions, risks, approvals, executio
 - Require approval before irreversible production, pricing, or customer communication.
 - Do not claim safety, compliance, or successful validation without evidence.
 
+## Recovery
+
+If product readiness, lead time, material supply, claim support, inventory, fulfillment capacity, shipping cutoff, or approval is unresolved, reduce scope or move the launch. Do not accept holiday commitments that cannot be produced and delivered reliably.

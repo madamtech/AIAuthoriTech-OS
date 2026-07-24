@@ -5,9 +5,11 @@ description: Review LMS governance across ownership, access, content, assignment
 
 # LMS Governance Reviewer
 
+Use the [operating standard](references/lms-governance-standard.md) and [working template](assets/governance-review-template.md).
+
 Evaluate documented controls and operating evidence rather than policy statements alone.
 
-## Workflow
+## Procedure
 
 1. Define systems, business units, regulatory context, stakeholders, review period, and evidence standard.
 2. Inventory decision rights, roles, policies, procedures, access, content lifecycle, data flows, reports, vendors, and change processes.
@@ -17,7 +19,7 @@ Evaluate documented controls and operating evidence rather than policy statement
 6. Recommend proportionate remediation with owner, target date, dependency, and validation evidence.
 7. Summarize residual risk and decisions requiring leadership approval.
 
-## Output
+## Output Contract
 
 Provide an executive assessment, governance-domain scores, evidence inventory, findings register, risk heat map, prioritized remediation roadmap, ownership matrix, and reassessment plan.
 
@@ -28,3 +30,6 @@ Provide an executive assessment, governance-domain scores, evidence inventory, f
 - Protect security and personnel evidence.
 - Avoid recommending controls that exceed the stated risk and operating context.
 
+## Recovery
+
+If ownership, decision rights, policy authority, evidence, risk tolerance, control operation, exception handling, or approval is unresolved, issue a provisional finding. Prioritize proportionate controls and route decisions to accountable governance owners.

@@ -5,9 +5,11 @@ description: Audit learning data for completeness, validity, uniqueness, consist
 
 # Learning Data Quality Auditor
 
+Use the [operating standard](references/learning-data-quality-standard.md) and [working template](assets/data-quality-audit-template.md).
+
 Measure data defects against explicit rules and trace them to actionable causes.
 
-## Workflow
+## Procedure
 
 1. Define business-critical datasets, owners, systems, time period, populations, privacy limits, and acceptance thresholds.
 2. Create a field-level data dictionary and authoritative-source matrix.
@@ -17,7 +19,7 @@ Measure data defects against explicit rules and trace them to actionable causes.
 6. Trace defects to source entry, configuration, mapping, timing, identity, content runtime, or manual correction.
 7. Prioritize remediation, prevention, ownership, monitoring, and retesting.
 
-## Output
+## Output Contract
 
 Provide a scope and rule catalog, profiling results, exception register, reconciliation summary, root-cause analysis, risk-ranked remediation plan, monitoring controls, and residual limitations.
 
@@ -28,3 +30,6 @@ Provide a scope and rule catalog, profiling results, exception register, reconci
 - Use least-privilege access and masked samples.
 - Preserve reproducible query, filter, and snapshot details.
 
+## Recovery
+
+If source ownership, field definitions, lineage, population, grain, security, reconciliation, or correction authority is unresolved, preserve the snapshot and label findings provisional. Do not correct authoritative records without approval and an audit trail.

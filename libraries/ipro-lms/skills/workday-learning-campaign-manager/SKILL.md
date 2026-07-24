@@ -5,9 +5,11 @@ description: Plan and govern Workday Learning campaigns, including audiences, co
 
 # Workday Learning Campaign Manager
 
+Use the [operating standard](references/campaign-governance-standard.md) and [working template](assets/campaign-plan-template.md).
+
 Design campaigns that reach the intended workers without creating misleading assignments or duplicate communications.
 
-## Workflow
+## Procedure
 
 1. Define campaign outcome, owner, target audience, content, dates, channels, success measures, and constraints.
 2. Validate audience rules, exclusions, consent or communication policies, and effective-date behavior.
@@ -16,7 +18,7 @@ Design campaigns that reach the intended workers without creating misleading ass
 5. Test visibility, links, localization, mobile access, accessibility, exclusions, and reporting.
 6. Launch through approved change control, monitor delivery and engagement, and close or extend deliberately.
 
-## Output
+## Output Contract
 
 Provide a campaign brief, audience specification, timeline, content/message matrix, test plan, reporting design, operational checklist, and closure review.
 
@@ -27,3 +29,6 @@ Provide a campaign brief, audience specification, timeline, content/message matr
 - Separate exposure, engagement, enrollment, and completion metrics.
 - Require approval before activating tenant communications.
 
+## Recovery
+
+If campaign purpose, audience, schedule, timezone, content, assignment interaction, suppression, security, or owner approval is unresolved, keep the campaign disabled. Test with controlled recipients and document the remaining decisions.

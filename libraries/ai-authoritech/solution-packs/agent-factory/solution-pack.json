@@ -1,0 +1,15 @@
+{
+  "sku":"AA-SOL-000002","asset_id":"agent-engineering.agent-factory.v1","name":"Agent Factory Solution Pack","asset_type":"SOL","business":"AA","library":"AGNT","version":"1.0.0","status":"testing","maturity":1,
+  "description":"A governed, reusable delivery package for designing, testing, deploying, monitoring, and packaging custom AI agents with workflows.",
+  "owners":["AI AuthoriTech"],
+  "inputs":["authorized agent objective","users and owner","knowledge sources","workflow and tool needs","risk boundaries","deployment target","success measures"],
+  "outputs":["agent specification","orchestrator configuration","instruction and knowledge package","workflow, memory, and tool designs","evaluation evidence","deployment gate","monitoring plan"],
+  "dependencies":["AA-AGT-000001","AA-WFL-000002","AA-SKL-000011","AA-SKL-000012","AA-SKL-000013","AA-SKL-000014","AA-SKL-000015","AA-SKL-000016","AA-SKL-000017","AA-SKL-000018","AA-SKL-000019","AA-SKL-000020","AA-SKL-000021"],
+  "tags":["solution-pack","agent-factory","custom-agents","agent-workflows","deployment"],"sensitivity":"confidential",
+  "business_outcome":"Turn an authorized agent opportunity into a controlled, testable implementation package whose capabilities, authority, evidence, deployment conditions, and operating responsibilities are explicit.",
+  "target_customers":["businesses commissioning custom agents","enterprise departments","consulting clients","internal product teams"],
+  "included_assets":["AA-AGT-000001","AA-WFL-000002","AA-SKL-000011","AA-SKL-000012","AA-SKL-000013","AA-SKL-000014","AA-SKL-000015","AA-SKL-000016","AA-SKL-000017","AA-SKL-000018","AA-SKL-000019","AA-SKL-000020","AA-SKL-000021"],
+  "implementation_model":"A gated engagement spanning authorization, architecture, instructions and knowledge, workflows and tools, evaluation, controlled deployment planning, monitoring, and optional marketplace packaging.",
+  "success_measures":["agent mission and authority are unambiguous","critical scenarios pass controlled evaluation","knowledge and tool behavior are traceable","deployment has approval and rollback gates","monitoring detects quality, safety, cost, and drift issues"],
+  "support_model":"AI AuthoriTech maintains the governed build package and offers separately authorized implementation, platform adaptation, monitoring, optimization, and release support."
+}

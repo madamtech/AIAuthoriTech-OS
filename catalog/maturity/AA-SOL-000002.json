@@ -1,0 +1,1 @@
+{"target_sku":"AA-SOL-000002","target_version":"1.0.0","from_level":1,"to_level":2,"requested_at":"2026-07-24T12:00:00-05:00","evidence":["EV-20260724-0285","EV-20260724-0288"],"quality_gate":{"structural_validation":true,"behavioral_validation":true,"critical_failures":0},"approvals":[],"decision":"changes-required"}

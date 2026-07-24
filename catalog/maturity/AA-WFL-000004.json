@@ -1,0 +1,1 @@
+{"target_sku":"AA-WFL-000004","target_version":"1.0.0","from_level":1,"to_level":2,"requested_at":"2026-07-24T17:15:00-05:00","evidence":["EV-20260724-0295","EV-20260724-0298"],"quality_gate":{"structural_validation":true,"behavioral_validation":true,"critical_failures":0},"approvals":[],"decision":"changes-required"}

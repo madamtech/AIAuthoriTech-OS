@@ -5,14 +5,16 @@ description: Plan coordinated MadamAllure product launches across readiness, pro
 
 # Product Launch Planner
 
-## Workflow
+Use the [operating standard](references/launch-standard.md) and [working template](assets/launch-plan-template.md).
+
+## Procedure
 
 1. Define objectives, audience, offer, channels, launch date, budget, owners, success measures, and go/no-go criteria.
 2. Build dependencies for product approval, supply, packaging, costing, pricing, photography, listings, inventory, testing, and support.
 3. Sequence teaser, launch, follow-up, fulfillment, and contingency activities.
 4. Run readiness reviews, document risks, monitor results, and capture post-launch improvements.
 
-## Output
+## Output Contract
 
 Provide the decision-ready brief, assumptions, required specifications, risks, approvals, implementation actions, and validation checklist.
 
@@ -23,3 +25,6 @@ Provide the decision-ready brief, assumptions, required specifications, risks, a
 - Protect customer data, licensed content, and confidential business information.
 - Do not present regulated, legal, safety, or trademark conclusions as approved without qualified review.
 
+## Recovery
+
+If product readiness, cost, price, inventory, claims, images, channels, fulfillment, support, schedule, or approval is unresolved, move the launch gate rather than conceal the dependency. Protect customer experience and rollback capacity.

@@ -5,14 +5,16 @@ description: Write accurate, luxurious beauty product descriptions using verifie
 
 # Beauty Product Description Builder
 
-## Workflow
+Use the [operating standard](references/beauty-copy-standard.md) and [working template](assets/beauty-copy-template.md).
+
+## Procedure
 
 1. Confirm approved product facts, audience, channel, claims, ingredients, size, usage, warnings, and testing evidence.
 2. Write a concise value proposition, sensory description, verified benefits, directions, specifications, and care or warning information.
 3. Adapt length and structure to the target channel while preserving meaning.
 4. Flag missing support and remove medical, therapeutic, comparative, or guaranteed claims that lack approval.
 
-## Output
+## Output Contract
 
 Provide the decision-ready brief, assumptions, required specifications, risks, approvals, implementation actions, and validation checklist.
 
@@ -23,3 +25,6 @@ Provide the decision-ready brief, assumptions, required specifications, risks, a
 - Protect customer data, licensed content, and confidential business information.
 - Do not present regulated, legal, safety, or trademark conclusions as approved without qualified review.
 
+## Recovery
+
+If the formula version, ingredient declaration, usage, warnings, substantiation, audience, packaging, or platform rules are unresolved, keep the description in draft. Remove unsupported therapeutic, safety, natural, or performance claims.

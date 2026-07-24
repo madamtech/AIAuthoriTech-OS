@@ -5,14 +5,16 @@ description: Design fragrance product concepts with a clear audience, mood, note
 
 # Fragrance Concept Designer
 
-## Workflow
+Use the [operating standard](references/fragrance-concept-standard.md) and [working template](assets/fragrance-concept-template.md).
+
+## Procedure
 
 1. Define wearer, occasion, emotional promise, format, price point, constraints, and competitive space.
 2. Create an olfactive direction using top, heart, and base-note families without claiming a finished formula.
 3. Develop name territory, story, visual cues, packaging direction, and evaluation criteria.
 4. Prepare a perfumer or supplier brief, sample-review scorecard, iteration plan, and required safety/regulatory handoff.
 
-## Output
+## Output Contract
 
 Provide the decision-ready brief, assumptions, required specifications, risks, approvals, implementation actions, and validation checklist.
 
@@ -23,3 +25,6 @@ Provide the decision-ready brief, assumptions, required specifications, risks, a
 - Protect customer data, licensed content, and confidential business information.
 - Do not present regulated, legal, safety, or trademark conclusions as approved without qualified review.
 
+## Recovery
+
+If intended use, customer preferences, allergens or sensitivities, material documentation, concentration, carrier compatibility, IFRA or supplier limits, naming rights, or testing is unresolved, issue a creative brief only. Do not present the concept as a safe finished formula.

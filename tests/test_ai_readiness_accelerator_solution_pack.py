@@ -28,6 +28,18 @@ class AIReadinessAcceleratorTests(unittest.TestCase):
             self.assertTrue(path.is_file())
             self.assertGreater(len(path.read_text(encoding="utf-8")), 500)
 
+    def test_controlled_execution_preserves_maturity_gate(self):
+        example = (PACK.parent / "examples" / "synthetic-professional-services-firm.md").read_text(encoding="utf-8")
+        workflow_maturity = json.loads((ROOT / "catalog" / "maturity" / "AA-WFL-000001.json").read_text(encoding="utf-8"))
+        pack_maturity = json.loads((ROOT / "catalog" / "maturity" / "AA-SOL-000001.json").read_text(encoding="utf-8"))
+        self.assertIn("conditional pass", example.lower())
+        self.assertTrue(workflow_maturity["quality_gate"]["behavioral_validation"])
+        self.assertTrue(pack_maturity["quality_gate"]["behavioral_validation"])
+        self.assertEqual(workflow_maturity["decision"], "changes-required")
+        self.assertEqual(pack_maturity["decision"], "changes-required")
+        self.assertEqual(workflow_maturity["approvals"], [])
+        self.assertEqual(pack_maturity["approvals"], [])
+
 
 if __name__ == "__main__":
     unittest.main()

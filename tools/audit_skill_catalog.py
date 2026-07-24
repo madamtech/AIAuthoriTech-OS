@@ -80,6 +80,8 @@ def audit_document(assets, root=ROOT):
     findings = []
     records = []
     for asset in assets:
+        if asset.get("asset_type") != "SKL":
+            continue
         folder = root / asset["path"]
         skill_file = folder / "SKILL.md"
         meta = frontmatter(skill_file) if skill_file.is_file() else {}

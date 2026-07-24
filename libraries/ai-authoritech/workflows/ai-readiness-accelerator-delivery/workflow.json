@@ -1,0 +1,31 @@
+{
+  "sku": "AA-WFL-000001",
+  "asset_id": "ai-consulting.ai-readiness-accelerator-delivery.v1",
+  "name": "AI Readiness Accelerator Delivery Workflow",
+  "asset_type": "WFL",
+  "business": "AA",
+  "library": "CONS",
+  "version": "1.0.0",
+  "status": "testing",
+  "maturity": 1,
+  "description": "Coordinate an evidence-based AI readiness consulting engagement from authorization and discovery through assessment, opportunity prioritization, roadmap, proposal, statement of work, and implementation handoff.",
+  "owners": ["AI AuthoriTech"],
+  "inputs": ["signed engagement authority", "client objectives", "stakeholder list", "available process and system evidence", "constraints", "delivery dates"],
+  "outputs": ["validated readiness report", "workflow inventory", "ranked opportunity portfolio", "governance findings", "ROI scenarios", "AI roadmap", "executive proposal", "statement of work", "implementation plan"],
+  "dependencies": ["AA-SKL-000001", "AA-SKL-000002", "AA-SKL-000003", "AA-SKL-000004", "AA-SKL-000005", "AA-SKL-000006", "AA-SKL-000007", "AA-SKL-000008", "AA-SKL-000009", "AA-SKL-000010"],
+  "tags": ["ai-readiness", "consulting", "discovery", "roadmap", "proposal"],
+  "sensitivity": "confidential",
+  "trigger": "An authorized client or internal sponsor requests an evidence-based AI readiness assessment and actionable implementation roadmap.",
+  "stages": [
+    {"id": "intake", "name": "Authorize and scope", "action": "Confirm authority, stakeholders, objectives, data boundaries, schedule, and evidence plan.", "on_success": "discovery", "on_failure": "hold_for_authority"},
+    {"id": "discovery", "name": "Discover current state", "action": "Run AA-SKL-000001 and AA-SKL-000002; reconcile evidence, contradictions, and confidence.", "on_success": "analysis", "on_failure": "request_evidence"},
+    {"id": "analysis", "name": "Analyze opportunities and controls", "action": "Run AA-SKL-000003, AA-SKL-000005, AA-SKL-000006, and AA-SKL-000007 using common assumptions and evidence IDs.", "on_success": "strategy", "on_failure": "revise_analysis"},
+    {"id": "strategy", "name": "Build roadmap", "action": "Run AA-SKL-000004 and establish initiatives, gates, owners, dependencies, measures, and sequencing.", "on_success": "client_validation", "on_failure": "revise_strategy"},
+    {"id": "client_validation", "name": "Validate decisions", "action": "Present findings, distinguish facts from assumptions, record sponsor decisions, and obtain approval for commercial scoping.", "on_success": "commercialization", "on_failure": "return_to_strategy"},
+    {"id": "commercialization", "name": "Prepare engagement package", "action": "Run AA-SKL-000008, AA-SKL-000009, and AA-SKL-000010 with aligned scope, price assumptions, acceptance, and change control.", "on_success": "quality_gate", "on_failure": "revise_commercials"},
+    {"id": "quality_gate", "name": "Independent quality gate", "action": "Verify traceability, arithmetic, scope consistency, risks, permissions, deliverable completeness, and approval evidence.", "on_success": "complete", "on_failure": "return_to_owner"}
+  ],
+  "state": ["engagement_id", "authority", "client_profile", "evidence_inventory", "assumption_register", "decision_log", "readiness_results", "workflow_inventory", "opportunity_portfolio", "risk_register", "roi_scenarios", "roadmap", "commercial_scope", "approvals"],
+  "completion_criteria": ["Every material finding has evidence and confidence", "Client decisions and unresolved assumptions are recorded", "Roadmap, proposal, statement of work, and implementation plan use consistent scope", "Required approvals are captured", "Final deliverables pass the quality gate"],
+  "failure_policy": {"retry_limit": 2, "escalation": "Stop the affected stage, preserve evidence and the last approved state, and escalate authority, privacy, safety, legal, financial, or irreconcilable scope issues to the accountable owner."}
+}

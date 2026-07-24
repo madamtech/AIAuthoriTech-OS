@@ -260,6 +260,84 @@
       "required": true
     },
     {
+      "source": "AA-KNP-000001",
+      "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-KNP-000001",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-KNP-000001",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000057",
+      "required": true
+    },
+    {
+      "source": "AA-KNP-000001",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000058",
+      "required": true
+    },
+    {
+      "source": "AA-KNP-000001",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000059",
+      "required": true
+    },
+    {
+      "source": "AA-KNP-000001",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000060",
+      "required": true
+    },
+    {
+      "source": "AA-KNP-000001",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000061",
+      "required": true
+    },
+    {
+      "source": "AA-KNP-000001",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000062",
+      "required": true
+    },
+    {
+      "source": "AA-KNP-000001",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-KNP-000001",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000064",
+      "required": true
+    },
+    {
+      "source": "AA-KNP-000001",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000065",
+      "required": true
+    },
+    {
+      "source": "AA-KNP-000001",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000066",
+      "required": true
+    },
+    {
+      "source": "AA-KNP-000001",
+      "relationship": "depends_on",
+      "target": "AA-WFL-000004",
+      "required": true
+    },
+    {
       "source": "AA-SKL-000001",
       "relationship": "consumed_by",
       "target": "AA-SKL-000004",
@@ -742,6 +820,12 @@
     {
       "source": "AA-SKL-000013",
       "relationship": "consumed_by",
+      "target": "AA-KNP-000001",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000013",
+      "relationship": "consumed_by",
       "target": "AA-SKL-000015",
       "required": true
     },
@@ -796,7 +880,19 @@
     {
       "source": "AA-SKL-000013",
       "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000013",
+      "relationship": "consumed_by",
       "target": "AA-WFL-000002",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "AA-WFL-000004",
       "required": true
     },
     {
@@ -3244,6 +3340,12 @@
     {
       "source": "AA-SKL-000057",
       "relationship": "consumed_by",
+      "target": "AA-KNP-000001",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000057",
+      "relationship": "consumed_by",
       "target": "AA-SKL-000058",
       "required": true
     },
@@ -3273,8 +3375,26 @@
     },
     {
       "source": "AA-SKL-000057",
+      "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000057",
+      "relationship": "consumed_by",
+      "target": "AA-WFL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000057",
       "relationship": "depends_on",
       "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000058",
+      "relationship": "consumed_by",
+      "target": "AA-KNP-000001",
       "required": true
     },
     {
@@ -3285,8 +3405,26 @@
     },
     {
       "source": "AA-SKL-000058",
+      "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000058",
+      "relationship": "consumed_by",
+      "target": "AA-WFL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000058",
       "relationship": "depends_on",
       "target": "AA-SKL-000057",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000059",
+      "relationship": "consumed_by",
+      "target": "AA-KNP-000001",
       "required": true
     },
     {
@@ -3309,8 +3447,26 @@
     },
     {
       "source": "AA-SKL-000059",
+      "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000059",
+      "relationship": "consumed_by",
+      "target": "AA-WFL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000059",
       "relationship": "depends_on",
       "target": "AA-SKL-000057",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000060",
+      "relationship": "consumed_by",
+      "target": "AA-KNP-000001",
       "required": true
     },
     {
@@ -3321,8 +3477,26 @@
     },
     {
       "source": "AA-SKL-000060",
+      "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000060",
+      "relationship": "consumed_by",
+      "target": "AA-WFL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000060",
       "relationship": "depends_on",
       "target": "AA-SKL-000059",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000061",
+      "relationship": "consumed_by",
+      "target": "AA-KNP-000001",
       "required": true
     },
     {
@@ -3339,6 +3513,18 @@
     },
     {
       "source": "AA-SKL-000061",
+      "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000061",
+      "relationship": "consumed_by",
+      "target": "AA-WFL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000061",
       "relationship": "depends_on",
       "target": "AA-SKL-000013",
       "required": true
@@ -3358,7 +3544,25 @@
     {
       "source": "AA-SKL-000062",
       "relationship": "consumed_by",
+      "target": "AA-KNP-000001",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000062",
+      "relationship": "consumed_by",
       "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000062",
+      "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000062",
+      "relationship": "consumed_by",
+      "target": "AA-WFL-000004",
       "required": true
     },
     {
@@ -3371,6 +3575,12 @@
       "source": "AA-SKL-000062",
       "relationship": "depends_on",
       "target": "AA-SKL-000061",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000063",
+      "relationship": "consumed_by",
+      "target": "AA-KNP-000001",
       "required": true
     },
     {
@@ -3389,6 +3599,18 @@
       "source": "AA-SKL-000063",
       "relationship": "consumed_by",
       "target": "AA-SKL-000066",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000063",
+      "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000063",
+      "relationship": "consumed_by",
+      "target": "AA-WFL-000004",
       "required": true
     },
     {
@@ -3430,6 +3652,12 @@
     {
       "source": "AA-SKL-000064",
       "relationship": "consumed_by",
+      "target": "AA-KNP-000001",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000064",
+      "relationship": "consumed_by",
       "target": "AA-SKL-000065",
       "required": true
     },
@@ -3447,6 +3675,18 @@
     },
     {
       "source": "AA-SKL-000064",
+      "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000064",
+      "relationship": "consumed_by",
+      "target": "AA-WFL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000064",
       "relationship": "depends_on",
       "target": "AA-SKL-000013",
       "required": true
@@ -3460,7 +3700,25 @@
     {
       "source": "AA-SKL-000065",
       "relationship": "consumed_by",
+      "target": "AA-KNP-000001",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000065",
+      "relationship": "consumed_by",
       "target": "AA-SKL-000066",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000065",
+      "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000065",
+      "relationship": "consumed_by",
+      "target": "AA-WFL-000004",
       "required": true
     },
     {
@@ -3473,6 +3731,24 @@
       "source": "AA-SKL-000065",
       "relationship": "depends_on",
       "target": "AA-SKL-000064",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000066",
+      "relationship": "consumed_by",
+      "target": "AA-KNP-000001",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000066",
+      "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000066",
+      "relationship": "consumed_by",
+      "target": "AA-WFL-000004",
       "required": true
     },
     {
@@ -6656,6 +6932,84 @@
       "required": true
     },
     {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-KNP-000001",
+      "required": true
+    },
+    {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000057",
+      "required": true
+    },
+    {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000058",
+      "required": true
+    },
+    {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000059",
+      "required": true
+    },
+    {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000060",
+      "required": true
+    },
+    {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000061",
+      "required": true
+    },
+    {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000062",
+      "required": true
+    },
+    {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000064",
+      "required": true
+    },
+    {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000065",
+      "required": true
+    },
+    {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000066",
+      "required": true
+    },
+    {
+      "source": "AA-SOL-000004",
+      "relationship": "depends_on",
+      "target": "AA-WFL-000004",
+      "required": true
+    },
+    {
       "source": "AA-WFL-000001",
       "relationship": "consumed_by",
       "target": "AA-SOL-000001",
@@ -6977,6 +7331,84 @@
       "source": "AA-WFL-000003",
       "relationship": "depends_on",
       "target": "AA-SKL-000049",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "consumed_by",
+      "target": "AA-KNP-000001",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "consumed_by",
+      "target": "AA-SOL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000057",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000058",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000059",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000060",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000061",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000062",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000064",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000065",
+      "required": true
+    },
+    {
+      "source": "AA-WFL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000066",
       "required": true
     },
     {

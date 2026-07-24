@@ -5,13 +5,15 @@ description: Audit website content for search intent, topical coverage, quality,
 
 # Seo Content Auditor
 
-## Workflow
+Use the [operating standard](references/seo-content-audit-standard.md) and [working template](assets/seo-content-audit-template.md).
+
+## Procedure
 
 1. Define site scope, audience, markets, goals, known queries, analytics period, and technical limitations.
 2. Map pages to intent and assess titles, headings, copy, entities, depth, originality, links, media, schema opportunities, and cannibalization.
 3. Separate content issues from technical SEO, prioritize updates, consolidation, creation, and measurement.
 
-## Output
+## Output Contract
 
 Provide scope, verified inputs, analysis, recommendations or deliverables, assumptions, owners, approvals, measurement, and validation checklist.
 
@@ -22,3 +24,6 @@ Provide scope, verified inputs, analysis, recommendations or deliverables, assum
 - Respect copyright, trademarks, privacy, permissions, and platform rules.
 - Separate observation from inference and label assumptions.
 
+## Recovery
+
+If crawl scope, ownership, analytics, search-demand evidence, or redirect dependencies are incomplete, make only reversible recommendations. Do not promise rankings or remove content based solely on automated scores.

@@ -58,7 +58,8 @@ def harden_skill(item: dict, config: dict) -> tuple[str, list[str]]:
         "approvals": [], "decision": "changes-required",
     }
     write_json(ROOT / "catalog" / "maturity" / f'{item["sku"]}.json', maturity)
-    return folder.name, [f'references/{item["reference_file"]}', f'assets/{item["asset_file"]}']
+    relative_folder = folder.relative_to(ROOT / config["skill_base"]).as_posix()
+    return relative_folder, [f'references/{item["reference_file"]}', f'assets/{item["asset_file"]}']
 
 
 def write_test(config: dict, expected: dict[str, list[str]]) -> None:

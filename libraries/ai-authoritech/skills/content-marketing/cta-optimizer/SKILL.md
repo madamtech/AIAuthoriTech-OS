@@ -5,13 +5,15 @@ description: Optimize calls to action by aligning user intent, value, friction, 
 
 # Cta Optimizer
 
-## Workflow
+Use the [operating standard](references/cta-optimization-standard.md) and [working template](assets/cta-optimization-template.md).
+
+## Procedure
 
 1. Define page or message goal, audience state, traffic source, offer, current CTA, destination, constraints, and baseline.
 2. Diagnose clarity, relevance, risk, hierarchy, visual context, competing actions, form friction, and post-click continuity.
 3. Create prioritized CTA hypotheses, variants, placement guidance, experiment design, success metric, and guardrails.
 
-## Output
+## Output Contract
 
 Provide scope, verified inputs, analysis, recommendations or deliverables, assumptions, owners, approvals, measurement, and validation checklist.
 
@@ -22,3 +24,6 @@ Provide scope, verified inputs, analysis, recommendations or deliverables, assum
 - Respect copyright, trademarks, privacy, permissions, and platform rules.
 - Separate observation from inference and label assumptions.
 
+## Recovery
+
+If the destination, value exchange, baseline, traffic, consent effect, claims, or experiment authority is unresolved, recommend a reversible draft only. Never introduce deceptive pressure or report invented uplift.

@@ -5,13 +5,13 @@ Assessment date: 2026-07-23
 ## Verified Inventory
 
 - Cataloged skills: 272
-- Governed first-class assets: 274 total (272 skills, 1 workflow, 1 solution pack)
+- Governed first-class assets: 277 total (272 skills, 2 workflows, 1 agent, 2 solution packs)
 - Skills with bundled resources: 272
-- Evaluation records: 276
-- Maturity decisions: 274
-- Catalog relationships: 1,370
+- Evaluation records: 282
+- Maturity decisions: 277
+- Catalog relationships: 1,442
 - Registered schemas: 12
-- Automated tests: 79 passing
+- Automated tests: 83 passing
 - Unresolved structural audit findings: 0
 - Unresolved overlap candidates after human review: 0
 

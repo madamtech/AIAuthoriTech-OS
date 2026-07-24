@@ -1,0 +1,23 @@
+{
+  "sku":"AA-WFL-000002","asset_id":"agent-engineering.agent-factory-delivery.v1","name":"Agent Factory Delivery Workflow","asset_type":"WFL","business":"AA","library":"AGNT","version":"1.0.0","status":"testing","maturity":1,
+  "description":"Coordinate the governed design, construction, evaluation, deployment planning, monitoring, and packaging of a custom AI agent without granting unverified authority or overstating readiness.",
+  "owners":["AI AuthoriTech"],
+  "inputs":["authorized agent objective","users and stakeholders","process and decision boundaries","knowledge sources","tool requirements","risk classification","deployment target","success measures"],
+  "outputs":["agent architecture","instruction package","knowledge design","workflow and memory design","tool contracts","evaluation suite","deployment plan","monitoring plan","release decision","marketplace package when authorized"],
+  "dependencies":["AA-SKL-000011","AA-SKL-000012","AA-SKL-000013","AA-SKL-000014","AA-SKL-000015","AA-SKL-000016","AA-SKL-000017","AA-SKL-000018","AA-SKL-000019","AA-SKL-000020","AA-SKL-000021"],
+  "tags":["agent-factory","custom-agents","workflow","qa","deployment"],"sensitivity":"confidential",
+  "trigger":"An authorized sponsor requests a custom AI agent with defined users, business outcome, operating boundaries, and accountable ownership.",
+  "stages":[
+    {"id":"intake","name":"Authorize and classify","action":"Confirm mission, users, owner, data, decisions, prohibited actions, deployment target, risk, and success measures.","on_success":"architecture","on_failure":"hold_for_authority"},
+    {"id":"architecture","name":"Design agent architecture","action":"Use AA-SKL-000011 and select single-agent or multi-agent design only when justified.","on_success":"instructions_knowledge","on_failure":"revise_scope"},
+    {"id":"instructions_knowledge","name":"Build instructions and knowledge","action":"Use AA-SKL-000012 and AA-SKL-000013 with source, freshness, access, citation, and conflict rules.","on_success":"workflow_memory_tools","on_failure":"request_sources"},
+    {"id":"workflow_memory_tools","name":"Design workflows, memory, and tools","action":"Use AA-SKL-000014, AA-SKL-000019, and AA-SKL-000020; define authority, schemas, side effects, retention, approvals, reconciliation, and recovery.","on_success":"qa","on_failure":"narrow_capability"},
+    {"id":"qa","name":"Evaluate behavior","action":"Use AA-SKL-000015 with normal, missing-information, conflict, unsafe, privacy, tool-failure, recovery, and adversarial cases.","on_success":"deployment","on_failure":"return_to_owner"},
+    {"id":"deployment","name":"Plan controlled deployment","action":"Use AA-SKL-000016; define environments, access, rollout, monitoring, incident response, rollback, and human approval.","on_success":"operations","on_failure":"hold_release"},
+    {"id":"operations","name":"Define monitoring and optimization","action":"Use AA-SKL-000017; establish quality, safety, cost, latency, adoption, drift, incident, and change-control measures.","on_success":"packaging","on_failure":"revise_observability"},
+    {"id":"packaging","name":"Package authorized release","action":"Use AA-SKL-000021 only when evaluation, rights, documentation, support, and publication authority are complete.","on_success":"complete","on_failure":"internal_release_only"}
+  ],
+  "state":["agent_id","mission","owner","users","risk_class","authority_matrix","data_classification","architecture","instructions","knowledge_sources","workflow_state","memory_policy","tool_contracts","evaluation_results","deployment_plan","monitoring_plan","decision_log","approvals"],
+  "completion_criteria":["Mission and prohibited actions are explicit","Knowledge, memory, tools, and workflows have authority and recovery rules","Evaluation evidence covers critical behavior and failures","Deployment and monitoring plans are approved for the target environment","Release status is accurately labeled"],
+  "failure_policy":{"retry_limit":2,"escalation":"Stop the affected capability, preserve the last validated configuration and evidence, reconcile uncertain external effects, and escalate authority, safety, privacy, security, legal, or unresolved quality failures to the accountable owner."}
+}

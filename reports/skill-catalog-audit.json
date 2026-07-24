@@ -31,64 +31,14 @@
   },
   "resource_counts": {
     "agent_metadata": 236,
-    "references": 145,
-    "assets": 145,
+    "references": 155,
+    "assets": 155,
     "scripts": 0
   },
   "finding_counts": {
-    "no-bundled-resources": 91
+    "no-bundled-resources": 81
   },
   "findings": [
-    {
-      "severity": "low",
-      "sku": "LMS-SKL-000031",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "LMS-SKL-000032",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "LMS-SKL-000033",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "LMS-SKL-000034",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "LMS-SKL-000035",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "LMS-SKL-000036",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "LMS-SKL-000037",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "LMS-SKL-000038",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "LMS-SKL-000039",
-      "code": "no-bundled-resources"
-    },
-    {
-      "severity": "low",
-      "sku": "LMS-SKL-000040",
-      "code": "no-bundled-resources"
-    },
     {
       "severity": "low",
       "sku": "MA-SKL-000001",

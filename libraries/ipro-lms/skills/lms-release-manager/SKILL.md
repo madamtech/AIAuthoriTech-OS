@@ -5,9 +5,11 @@ description: Coordinate controlled LMS releases for configuration, content, inte
 
 # LMS Release Manager
 
+Use the [operating standard](references/lms-release-standard.md) and [working template](assets/release-control-template.md).
+
 Turn approved changes into a traceable release with explicit go/no-go criteria.
 
-## Workflow
+## Procedure
 
 1. Define release scope, owners, environments, dependencies, affected populations, window, freeze periods, and success criteria.
 2. Confirm requirements, approvals, build artifacts, version labels, test evidence, security, accessibility, privacy, and support readiness.
@@ -17,7 +19,7 @@ Turn approved changes into a traceable release with explicit go/no-go criteria.
 6. Execute only when authorized, capture timestamps and results, run smoke tests, monitor, and reconcile.
 7. Close with known issues, evidence, support handoff, and retrospective actions.
 
-## Output
+## Output Contract
 
 Provide a release plan, dependency map, readiness checklist, runbook, go/no-go record, rollback plan, communication matrix, validation results, and closure report.
 
@@ -28,3 +30,6 @@ Provide a release plan, dependency map, readiness checklist, runbook, go/no-go r
 - Preserve configuration and data evidence before release.
 - Stop when critical validation fails.
 
+## Recovery
+
+If scope, dependencies, approvals, test evidence, learner impact, communications, backup, rollback, monitoring, or support readiness is unresolved, stop the release. Preserve the last known-good state and require an accountable go or no-go decision.

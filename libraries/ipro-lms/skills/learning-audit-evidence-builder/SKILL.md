@@ -5,9 +5,11 @@ description: Assemble traceable evidence for learning, certification, assignment
 
 # Learning Audit Evidence Builder
 
+Use the [operating standard](references/audit-evidence-standard.md) and [working template](assets/audit-evidence-template.md).
+
 Build a scoped, reproducible evidence package tied to each request and control.
 
-## Workflow
+## Procedure
 
 1. Confirm requestor authority, scope, period, population, control, systems, deadline, format, and privacy constraints.
 2. Create an evidence-request matrix linking each question to owner, source, extraction method, snapshot time, and acceptance criteria.
@@ -16,7 +18,7 @@ Build a scoped, reproducible evidence package tied to each request and control.
 5. Redact unrelated personal, security, and proprietary data while preserving evidentiary meaning.
 6. Index files, explain limitations, obtain owner review, and retain or dispose according to policy.
 
-## Output
+## Output Contract
 
 Provide an evidence index, request-to-evidence matrix, methodology, reconciliations, redaction log, gaps, owner attestations, and delivery manifest.
 
@@ -27,3 +29,6 @@ Provide an evidence index, request-to-evidence matrix, methodology, reconciliati
 - Share only with authorized recipients.
 - Distinguish unavailable evidence from failed controls.
 
+## Recovery
+
+If request scope, authority, control criteria, source owner, evidence period, completeness, chain of custody, privacy, or retention is unresolved, label the evidence package incomplete. Preserve originals and do not infer control failure from unavailable records.

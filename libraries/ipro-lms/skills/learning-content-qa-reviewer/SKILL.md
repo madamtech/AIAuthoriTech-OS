@@ -5,9 +5,11 @@ description: Review digital and instructor-led learning content for objective al
 
 # Learning Content QA Reviewer
 
+Use the [operating standard](references/content-qa-standard.md) and [working template](assets/content-qa-template.md).
+
 Review against approved objectives, source material, specifications, and acceptance criteria.
 
-## Workflow
+## Procedure
 
 1. Confirm audience, objectives, content version, sources, delivery mode, platform, and release criteria.
 2. Verify coverage, sequence, practice, assessment alignment, instructions, terminology, links, media, and downloadable resources.
@@ -16,7 +18,7 @@ Review against approved objectives, source material, specifications, and accepta
 5. Record evidence, severity, reproduction steps, expected behavior, owner, and recommended correction.
 6. Retest resolved blockers and issue a release recommendation.
 
-## Output
+## Output Contract
 
 Provide a scope summary, traceability results, findings register, functional test results, content and accessibility risks, remediation priorities, retest status, and release decision.
 
@@ -27,3 +29,6 @@ Provide a scope summary, traceability results, findings register, functional tes
 - Keep accessibility review distinct from formal conformance certification.
 - Protect proprietary and secure content.
 
+## Recovery
+
+If approved source content, version, owner, functional behavior, assessment alignment, accessibility, security, or correction authority is unresolved, return a changes-required decision. Quarantine affected content and require documented retest before release.

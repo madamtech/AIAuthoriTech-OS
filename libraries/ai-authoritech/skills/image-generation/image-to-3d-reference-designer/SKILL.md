@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000153
-asset_id: image-generation.image-to-3d-reference-designer.v1
-version: 1.0.0
-status: testing
+name: image-to-3d-reference-designer
+description: "Create images that are useful as modeling references for MakerLab, CAD, sculpting, or mesh generation rather than merely attractive concept art. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Image-to-3D Reference Designer
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Create images that are useful as modeling references for MakerLab, CAD, sculpting, or mesh generation rather than merely attractive concept art.
@@ -15,10 +15,10 @@ Object purpose, desired dimensions, print process, viewing angles, symmetry, mov
 ## Procedure
 Define clean silhouette, complete unobstructed geometry, neutral pose, orthographic-style front/side/back/three-quarter views, consistent scale, closed surfaces, and clear separation between parts. Avoid hidden intersections and perspective distortion.
 
-## Output contract
+## Output Contract
 Reference-view plan, geometry notes, dimension assumptions, part breakdown, symmetry guidance, print-aware constraints, and modeler checklist.
 
-## Rules
+## Guardrails
 State clearly that an image is not an STL. Do not imply watertight geometry, tolerances, or print readiness from an image alone.
 
 ## QA

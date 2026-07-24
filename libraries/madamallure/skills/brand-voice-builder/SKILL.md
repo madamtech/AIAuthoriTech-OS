@@ -5,14 +5,16 @@ description: Define a reusable MadamAllure brand voice with personality, princip
 
 # Brand Voice Builder
 
-## Workflow
+Use the [operating standard](references/brand-voice-standard.md) and [working template](assets/brand-voice-template.md).
+
+## Procedure
 
 1. Clarify brand promise, audience, values, positioning, emotional territory, and channel needs.
 2. Define voice traits with observable do and do-not behaviors.
 3. Create vocabulary, sentence, rhythm, inclusivity, luxury, claims, and personalization rules.
 4. Demonstrate the voice across product copy, social, email, packaging, and service scenarios, then establish review criteria.
 
-## Output
+## Output Contract
 
 Provide the decision-ready brief, assumptions, required specifications, risks, approvals, implementation actions, and validation checklist.
 
@@ -23,3 +25,6 @@ Provide the decision-ready brief, assumptions, required specifications, risks, a
 - Protect customer data, licensed content, and confidential business information.
 - Do not present regulated, legal, safety, or trademark conclusions as approved without qualified review.
 
+## Recovery
+
+If audience, positioning, values, prohibited claims, channel, examples, or approval authority is unresolved, label the voice guide provisional. Do not overwrite approved brand language or extend it into regulated claims.

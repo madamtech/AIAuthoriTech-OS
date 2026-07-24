@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anhydrous Body Care Formulator"
+  short_description: "Formulate butters, scrubs, and body oils"
+  default_prompt: "Use $anhydrous-body-care-formulator to design an anhydrous body care formula."

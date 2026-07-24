@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "knowledge-pack.schema.json",
+  "title": "Knowledge Pack",
+  "allOf": [
+    {"$ref": "asset-manifest.schema.json"},
+    {
+      "type": "object",
+      "required": ["topics", "sources", "retrieval_guidance", "refresh_policy", "quality_owner"],
+      "properties": {
+        "asset_type": {"const": "KNP"},
+        "topics": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "sources": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["id", "location", "authority", "reviewed_at"]}},
+        "retrieval_guidance": {"type": "string", "minLength": 1},
+        "refresh_policy": {"type": "object", "required": ["cadence", "stale_after_days"]},
+        "quality_owner": {"type": "string", "minLength": 1}
+      }
+    }
+  ]
+}

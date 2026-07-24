@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000148
-asset_id: image-generation.pixar-inspired-editorial-realism.v1
-version: 1.0.0
-status: testing
+name: pixar-inspired-editorial-realism
+description: "Direct the user's primary stylized realism: cinematic editorial rendering with subtle animated refinement, expressive eyes, dimensional lighting, and believable human identity. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Pixar-Inspired Editorial Realism Director
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Direct the user's primary stylized realism: cinematic editorial rendering with subtle animated refinement, expressive eyes, dimensional lighting, and believable human identity.
@@ -15,10 +15,10 @@ Identity lock, Style DNA, scene, wardrobe, brand, emotion, realism target, and c
 ## Procedure
 Maintain realistic anatomy and materials while applying controlled facial expressiveness, softly refined forms, cinematic depth, luminous eyes, clean but natural skin, and premium editorial lighting. Keep stylization below the point where identity or professional credibility is lost.
 
-## Output contract
+## Output Contract
 Style block, stylization limits, facial treatment, lighting and material guidance, negative constraints, and comparison tests.
 
-## Rules
+## Guardrails
 Do not turn the subject into a generic animated character. Do not exaggerate head size, eyes, smile, or body proportions beyond the approved reference. Preserve skin tone, hair construction, teeth, and facial geometry.
 
 ## QA

@@ -1,11 +1,13 @@
 ---
 name: bug-investigation-assistant
-description: Investigate reproducible or intermittent software defects by preserving evidence, defining expected and observed behavior, assessing impact, reproducing safely, narrowing the failing layer, comparing changes and environments, testing competing hypotheses, identifying the most supported causal chain, and specifying regression and verification needs. Use for web, mobile, desktop, API, data, integration, automation, AI-enabled, or vibe-coded application bugs—not to make unrequested fixes, experiment destructively in production, expose sensitive data, or present correlation as proven root cause.
+description: Investigate reproducible or intermittent software defects by preserving evidence, defining expected and observed behavior, assessing impact, reproducing safely, narrowing the failing layer, comparing changes and environments, testing competing hypotheses, identifying the most supported causal chain, and specifying regression and verification needs. Use for web, mobile, desktop, API, data, integration, automation, AI-enabled, or vibe-coded application bugs - not to make unrequested fixes, experiment destructively in production, expose sensitive data, or present correlation as proven root cause.
 ---
 
 # Bug Investigation Assistant
 
 Move from symptom to supported causal explanation.
+
+## Procedure
 
 1. Confirm whether the request is diagnosis only or also authorizes a fix. For
    diagnosis-only work, inspect and report without changing source, configuration,
@@ -58,7 +60,7 @@ Move from symptom to supported causal explanation.
 16. Deliver with
     [assets/bug-investigation-report-template.md](assets/bug-investigation-report-template.md).
 
-## Rules
+## Guardrails
 
 - Do not modify the system when the user asked only for diagnosis.
 - Do not reproduce a defect destructively in production.
@@ -73,7 +75,15 @@ Move from symptom to supported causal explanation.
 - Do not close the investigation without stating confidence, evidence gaps, and
   how recurrence will be detected.
 
-## Handoff
+## Recovery
+
+If reproduction risks production effects, sensitive data, or irreversible state,
+stop and construct an isolated test or collect read-only evidence instead. When
+hypotheses remain unresolved, report confidence and discriminating evidence
+needed; do not modify the system or promote correlation to root cause without
+explicit authority and support.
+
+## Output Contract
 
 Provide the investigation scope and authority, defect and impact statement,
 evidence inventory, reproduction, timeline, first divergence, working-versus-

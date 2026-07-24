@@ -1,0 +1,3 @@
+# Workflow Simulation Standard
+
+Define the decision, model boundary, entities, demand, resources, calendars, branches, queues, priorities, batching, failures, rework, and metrics. Use evidence-backed distributions instead of averages when variability matters. Calibrate against historical throughput, cycle time, queue, and service levels. Run repeated baseline, peak, capacity, policy, failure, and future-state trials. Report distributions, confidence, sensitivity, utilization, bottlenecks, tail risk, randomization settings, and limitations. Validate surprising results and never generalize beyond calibrated conditions or present exploratory output as a forecast.

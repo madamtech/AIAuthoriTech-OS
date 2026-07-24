@@ -1,11 +1,13 @@
 ---
 name: marketplace-builder
-description: Create build-ready specifications for trusted multi-sided marketplaces covering participants, onboarding, verification, listings, catalog, search, matching, pricing, availability, transactions, fulfillment, payments and payouts, fees, refunds, disputes, reviews, moderation, fraud controls, support, analytics, compliance boundaries, integrations, testing, deployment, and operations. Use for product, service, talent, digital-asset, agent, app, skill, or B2B marketplaces—not to determine legal classification, custody funds directly, guarantee provider quality, or deploy without authorization and specialist review.
+description: Create build-ready specifications for trusted multi-sided marketplaces covering participants, onboarding, verification, listings, catalog, search, matching, pricing, availability, transactions, fulfillment, payments and payouts, fees, refunds, disputes, reviews, moderation, fraud controls, support, analytics, compliance boundaries, integrations, testing, deployment, and operations. Use for product, service, talent, digital-asset, agent, app, skill, or B2B marketplaces - not to determine legal classification, custody funds directly, guarantee provider quality, or deploy without authorization and specialist review.
 ---
 
 # Marketplace Builder
 
 Design trust, transaction states, and accountability before discovery features.
+
+## Procedure
 
 1. Confirm the marketplace outcome, buyer and supplier segments, offering types,
    geography, business model, platform role, regulated activities, risk,
@@ -61,7 +63,7 @@ Design trust, transaction states, and accountability before discovery features.
 16. Deliver with
     [assets/marketplace-plan-template.md](assets/marketplace-plan-template.md).
 
-## Rules
+## Guardrails
 
 - Do not assume the platform is the merchant, employer, agent, broker, custodian,
   or guarantor; document and review the intended role.
@@ -76,7 +78,15 @@ Design trust, transaction states, and accountability before discovery features.
 - Preserve evidence and recovery for duplicate, delayed, partial, reversed, and
   disputed transactions.
 
-## Handoff
+## Recovery
+
+If participant identity, transaction, fulfillment, payment, payout, or dispute
+state diverges, freeze the affected consequential transition and reconcile the
+authoritative provider and ledger evidence. Preserve duplicate and reversal
+history, protect participant access and appeal rights, and escalate regulated,
+fraud, custody, or safety decisions to qualified owners.
+
+## Output Contract
 
 Provide the marketplace charter and platform role, participant model, onboarding
 and verification, listing governance, discovery and ranking, transaction and

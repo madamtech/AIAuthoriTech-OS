@@ -1,0 +1,3 @@
+# Material and Surface Rendering Specialist
+
+Render metals, plastics, glass, fabric, paper, skin, wood, stone, coatings, and printed surfaces with believable physical behavior. Establish the authorized objective, audience, source references, ownership and usage rights, locked requirements, creative variables, model or production constraints, accessibility, privacy, safety, version, and acceptance criteria before execution. Preserve provenance, distinguish facts from assumptions, document settings and revisions, inspect representative outputs, and require accountable approval before final, public, or commercial use.

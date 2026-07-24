@@ -7,6 +7,8 @@ description: Design, execute, and report reproducible evaluations for canonical 
 
 Produce decision-grade evidence about observable prompt behavior.
 
+## Procedure
+
 1. Obtain the canonical prompt and version, task and authority contract, variables,
    output schema, tools, adapters, parameters, knowledge snapshot, risk class,
    supported users, and intended release decision. Route missing architecture to
@@ -39,7 +41,7 @@ Produce decision-grade evidence about observable prompt behavior.
    selectively to replace an unfavorable result.
 10. Calculate case, requirement, segment, and overall results. Report numerator,
     denominator, exclusions, confidence or variance, cost, latency, failure
-    severity, and sample limitations—not only a single aggregate score.
+    severity, and sample limitations, not only a single aggregate score.
 11. Compare versions with paired cases and equivalent runtime conditions. Mark
     regressions explicitly and apply predefined hard gates before weighted gains.
 12. Investigate grader disagreement, flaky cases, suspiciously perfect results,
@@ -53,7 +55,7 @@ Produce decision-grade evidence about observable prompt behavior.
     including exact artifacts, failures, coverage gaps, rerun instructions, and
     the next authorized action.
 
-## Rules
+## Guardrails
 
 - Do not use live secrets, personal records, confidential payloads, or destructive
   tool actions in fixtures. Sanitize data and use isolated test environments.
@@ -70,7 +72,15 @@ Produce decision-grade evidence about observable prompt behavior.
 - Do not call an evaluation independent when its author also generated the test
   cases, candidate, expected results, and final judgment without review.
 
-## Handoff
+## Recovery
+
+If environment drift, leakage, invalid cases, grader disagreement, or missing raw
+evidence prevents a fair decision, quarantine the affected results without
+deleting history and classify the outcome inconclusive. Restore the pinned
+baseline, correct the evaluation design, and rerun every affected comparison
+under equivalent conditions.
+
+## Output Contract
 
 Provide scope and decision, environment manifest, requirement traceability,
 versioned case inventory and split policy, deterministic checks, rubric and

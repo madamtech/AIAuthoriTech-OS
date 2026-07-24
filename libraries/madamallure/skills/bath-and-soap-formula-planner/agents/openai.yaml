@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bath and Soap Formula Planner"
+  short_description: "Plan bath bombs, truffles, and soap formulas"
+  default_prompt: "Use $bath-and-soap-formula-planner to plan a safe bath or soap formulation."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lotion and Facial Care Formulator"
+  short_description: "Formulate emulsified skin and facial care"
+  default_prompt: "Use $lotion-and-facial-care-formulator to create a lotion or facial-care formulation brief."

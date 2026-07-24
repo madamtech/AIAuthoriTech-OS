@@ -5,9 +5,11 @@ description: Govern NetExam branches, organizational hierarchies, audiences, vis
 
 # NetExam Branch Manager
 
+Use the [operating standard](references/netexam-branch-standard.md) and [working template](assets/netexam-branch-template.md).
+
 Manage branch changes as controlled access and data-governance changes.
 
-## Workflow
+## Procedure
 
 1. Confirm the business structure, branch purpose, owners, administrators, learner populations, and reporting needs.
 2. Inventory current hierarchy, memberships, inherited settings, content visibility, assignments, integrations, and exceptions.
@@ -17,7 +19,7 @@ Manage branch changes as controlled access and data-governance changes.
 6. Test representative learners and administrators for permitted and prohibited access.
 7. Reconcile memberships and monitor unexpected visibility after release.
 
-## Output
+## Output Contract
 
 Provide current and target branch maps, ownership matrix, membership rules, access matrix, impact assessment, migration steps, test cases, rollback plan, and audit results.
 
@@ -28,3 +30,6 @@ Provide current and target branch maps, ownership matrix, membership rules, acce
 - Verify both learner and administrator experiences.
 - Protect organizational and learner data in exports.
 
+## Recovery
+
+If branch ownership, hierarchy, audience rules, inherited visibility, transfers, integrations, or production authorization is unresolved, do not restructure the branch. Model changes in a safe environment and preserve current assignments.

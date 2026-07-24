@@ -5,6 +5,10 @@ description: Create controlled, audience-appropriate workflow documentation from
 
 # Workflow Documentation Builder
 
+Use the [workflow documentation standard](references/workflow-documentation-standard.md) and produce the controlled package with the [workflow documentation template](assets/workflow-documentation-template.md).
+
+## Procedure
+
 1. Confirm exact workflow version, validation status, audiences, purpose, access, owner, and source evidence.
 2. Separate policy, procedure, implementation, runbook, training, and quick-reference content by authority.
 3. Document trigger, preconditions, steps, decisions, roles, inputs, outputs, systems, controls, and completion.
@@ -14,8 +18,16 @@ description: Create controlled, audience-appropriate workflow documentation from
 7. Validate with operators, owners, control functions, and representative scenarios.
 8. Assign version, effective date, review cadence, change history, distribution, and obsolete-copy handling.
 
-## Rules
+## Guardrails
 - Do not let documentation become a second conflicting source of truth.
 - Do not publish unvalidated future-state steps as current procedure.
 - Do not omit difficult exceptions merely to keep documentation simple.
 - Do not include live credentials or protected production examples.
+
+## Recovery
+
+If source authority, version, validation status, or diagram-to-text consistency is uncertain, stop publication and retain the last approved documentation. Mark the draft clearly, reconcile against controlled sources, and replace obsolete copies only after owner approval.
+
+## Output Contract
+
+Deliver audience-appropriate controlled documentation containing purpose, scope, roles, procedure, decisions, systems, controls, exceptions, recovery, metrics, diagrams, tests, ownership, effective date, review cadence, history, distribution, and status.

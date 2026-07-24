@@ -5,9 +5,11 @@ description: Review Workday Learning security roles, domains, business-process a
 
 # Workday Learning Security Reviewer
 
+Use the [operating standard](references/learning-security-standard.md) and [working template](assets/security-review-template.md).
+
 Evaluate security using approved tenant evidence and representative user tests.
 
-## Workflow
+## Procedure
 
 1. Define scope, environments, users, roles, learning processes, data classifications, and expected access.
 2. Inventory security groups, domain permissions, business-process policies, administrative roles, integrations, and reporting access.
@@ -16,7 +18,7 @@ Evaluate security using approved tenant evidence and representative user tests.
 5. Test permitted and prohibited actions with representative personas.
 6. Classify findings, propose least-privilege remediation, assess operational impact, and define retesting.
 
-## Output
+## Output Contract
 
 Provide a scope statement, role-to-permission matrix, persona test results, findings by severity, segregation-of-duties analysis, remediation plan, approval needs, and residual risks.
 
@@ -27,3 +29,6 @@ Provide a scope statement, role-to-permission matrix, persona test results, find
 - Treat screenshots and exports as sensitive.
 - Distinguish observed tenant evidence from assumptions.
 
+## Recovery
+
+If role authority, domain access, population scope, segregation of duties, worker-data exposure, tenant evidence, or remediation approval is unresolved, do not grant or revoke access. Preserve evidence and escalate to authorized Workday security owners.

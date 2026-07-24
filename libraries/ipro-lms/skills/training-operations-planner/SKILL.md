@@ -5,9 +5,11 @@ description: Plan recurring training operations across demand, calendars, instru
 
 # Training Operations Planner
 
+Use the [operating standard](references/training-operations-standard.md) and [working template](assets/training-operations-template.md).
+
 Create a capacity-aware operating plan with clear ownership, controls, and measures.
 
-## Workflow
+## Procedure
 
 1. Define planning period, business priorities, audiences, required programs, demand assumptions, service levels, budgets, systems, and constraints.
 2. Inventory course launches, assignments, certifications, ILT sessions, campaigns, content updates, integrations, reports, and audit commitments.
@@ -16,7 +18,7 @@ Create a capacity-aware operating plan with clear ownership, controls, and measu
 5. Define learner support, escalation, continuity, backup staffing, and incident response.
 6. Establish operational metrics, review cadence, risk tracking, backlog priorities, and improvement actions.
 
-## Output
+## Output Contract
 
 Provide an operations charter, demand and capacity plan, integrated calendar, responsibility matrix, risk register, support model, KPI cadence, decision log, and improvement backlog.
 
@@ -27,3 +29,6 @@ Provide an operations charter, demand and capacity plan, integrated calendar, re
 - Distinguish committed work from proposed work.
 - Escalate resource conflicts that threaten mandatory or high-risk training.
 
+## Recovery
+
+If demand, priority, instructor, facility, technology, accessibility, audience, budget, schedule, contingency, or completion reporting is unresolved, identify the affected commitment and escalate. Protect mandatory and high-risk training capacity first.

@@ -5,6 +5,10 @@ description: Design complete exception paths for business and technical workflow
 
 # Exception Flow Designer
 
+Use the [exception flow standard](references/exception-flow-standard.md) and record cases in the [exception flow register template](assets/exception-flow-register-template.md).
+
+## Procedure
+
 1. Inventory exceptions from evidence, incidents, staff experience, controls, and boundary analysis.
 2. Classify business, data, authorization, dependency, timing, duplicate, dispute, safety, and terminal cases.
 3. Define detection, severity, required evidence, owner, queue, service level, and containment.
@@ -14,8 +18,16 @@ description: Design complete exception paths for business and technical workflow
 7. Test recurrence, overload, missing owner, stale case, partial completion, and failed recovery.
 8. Deliver exception register, flows, state transitions, responsibilities, tests, metrics, and improvement loop.
 
-## Rules
+## Guardrails
 - Do not create an exception queue without ownership and capacity.
 - Do not silently discard or indefinitely park unresolved cases.
 - Do not retry irreversible actions without idempotency or reconciliation.
 - Do not expose sensitive error details to unauthorized users.
+
+## Recovery
+
+If an exception lacks ownership, capacity, authoritative state, safe correction, or closure criteria, contain and quarantine the case rather than retrying or parking it silently. Escalate with preserved evidence and reconcile all partial effects before closure.
+
+## Output Contract
+
+Deliver an exception register, detection and severity, state transitions, owners and queues, service levels, containment, correction, compensation, escalation, communication, reconciliation, closure evidence, tests, metrics, and improvement triggers.

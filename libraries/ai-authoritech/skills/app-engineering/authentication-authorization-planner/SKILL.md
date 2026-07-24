@@ -1,11 +1,13 @@
 ---
 name: authentication-authorization-planner
-description: Design secure, usable, provider-neutral application identity and access controls covering identity providers, registration, verification, sign-in, MFA, sessions, recovery, invitations, organizations, roles, resource-level authorization, service identities, privileged administration, tenant isolation, audit, abuse controls, testing, migration, and incident response. Use for websites, SaaS products, portals, internal tools, APIs, and AI-enabled apps—not credential provisioning, legal identity proofing decisions, production configuration, or relying on client-side visibility as authorization.
+description: Design secure, usable, provider-neutral application identity and access controls covering identity providers, registration, verification, sign-in, MFA, sessions, recovery, invitations, organizations, roles, resource-level authorization, service identities, privileged administration, tenant isolation, audit, abuse controls, testing, migration, and incident response. Use for websites, SaaS products, portals, internal tools, APIs, and AI-enabled apps - not credential provisioning, legal identity proofing decisions, production configuration, or relying on client-side visibility as authorization.
 ---
 
 # Authentication and Authorization Planner
 
 Authenticate identities, then authorize every resource action in current context.
+
+## Procedure
 
 1. Confirm users, organizations, tenants, resources, actions, risk, data classes,
    environments, regulatory constraints, recovery needs, and business owners.
@@ -42,7 +44,7 @@ Authenticate identities, then authorize every resource action in current context
     retirement.
 14. Deliver with [assets/identity-access-plan-template.md](assets/identity-access-plan-template.md).
 
-## Rules
+## Guardrails
 
 - Do not trust role, tenant, user, or ownership identifiers supplied by the client
   without binding them to authenticated server context.
@@ -57,10 +59,17 @@ Authenticate identities, then authorize every resource action in current context
   factors.
 - Keep provider-specific configuration in adapters.
 
-## Handoff
+## Output Contract
 
 Provide the identity inventory, assurance and authentication model, lifecycle
 journeys, session contract, resource-action authorization matrix, tenant and
 administrative controls, service-identity design, abuse and audit controls, test
 plan, migration and incident model, provider-adapter requirements, risks, and open
 decisions.
+
+## Recovery
+
+If identity, tenant, resource ownership, or policy context is missing, deny the
+action by default without revealing protected details. If account recovery or
+administrative access cannot meet the target assurance level, block that journey
+and require a stronger reviewed control rather than weakening the protected account.

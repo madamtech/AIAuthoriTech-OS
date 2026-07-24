@@ -5,7 +5,9 @@ description: Design story-motivated camera movement for cinematic shots, includi
 
 # Camera Movement Designer
 
-## Workflow
+Use the [operating standard](references/camera-movement-standard.md) and [working template](assets/camera-movement-template.md).
+
+## Procedure
 
 1. Identify narrative purpose, emotional shift, blocking, geography, duration, format, production method, and constraints.
 2. Decide whether movement is justified; prefer a locked frame when motion adds no value.
@@ -14,11 +16,11 @@ description: Design story-motivated camera movement for cinematic shots, includi
 5. Provide a feasible primary design and a simpler fallback.
 6. Document safety, stabilization, rigging, rehearsal, or generative-model risks without asserting approval.
 
-## Output
+## Output Contract
 
 Include shot ID, dramatic purpose, movement rationale, start frame, path, timing, speed and easing, blocking, focus, end frame, continuity, execution method, fallback, risks, and assumptions.
 
-## Rules
+## Guardrails
 
 - Movement must reveal, follow, intensify, disorient, connect, or resolve something intentional.
 - Avoid incompatible moves and unconfirmed equipment.
@@ -28,3 +30,7 @@ Include shot ID, dramatic purpose, movement rationale, start frame, path, timing
 ## Validation
 
 Check motivation, spatial logic, start and end composition, timing, subject coordination, focus feasibility, continuity, editability, safety flags, and a lower-complexity alternative.
+
+## Recovery
+
+If narrative purpose, path, blocking, clearance, equipment rating, operator qualification, permit, or safety review is unresolved, replace the move with a safe static or simpler option.

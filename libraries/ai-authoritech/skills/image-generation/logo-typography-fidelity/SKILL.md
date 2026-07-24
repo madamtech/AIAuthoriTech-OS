@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000158
-asset_id: image-generation.logo-typography-fidelity.v1
-version: 1.0.0
-status: testing
+name: logo-typography-fidelity
+description: "Protect exact logos, lettering, wordmarks, monograms, spelling, capitalization, and signature letterforms in generated or edited visuals. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Logo and Typography Fidelity Controller
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Protect exact logos, lettering, wordmarks, monograms, spelling, capitalization, and signature letterforms in generated or edited visuals.
@@ -15,10 +15,10 @@ Canonical logo/wordmark, exact text, font reference, letterform notes, placement
 ## Procedure
 Create an exact-text lock, identify distinctive glyphs and tails, define spacing, baseline, scale, clear space, material, and orientation. Prefer compositing supplied vector/raster assets when generation cannot guarantee fidelity. Verify each character visually.
 
-## Output contract
+## Output Contract
 Typography lock sheet, exact text, glyph notes, logo placement, production method recommendation, and QA checklist.
 
-## Rules
+## Guardrails
 No invented approximations of logos. No spelling changes. Matching one letter means matching its repeated instances unless the reference intentionally differs.
 
 ## QA

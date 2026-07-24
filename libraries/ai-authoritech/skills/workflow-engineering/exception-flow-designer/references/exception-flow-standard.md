@@ -1,0 +1,3 @@
+# Exception Flow Standard
+
+Inventory foreseeable exceptions from incidents, evidence, controls, staff experience, and boundary analysis. Classify business, data, authorization, dependency, timing, duplicate, dispute, safety, partial, and terminal cases. Define detection, severity, evidence, owner, queue, capacity, service level, containment, correction, retry, compensation, alternate path, appeal, escalation, communication, authoritative reconciliation, and closure. Preserve state, correlation, audit, least privilege, and sensitive-data boundaries. Test recurrence, overload, stale cases, missing ownership, failed recovery, and partial effects. Recurring work belongs in the designed workflow.

@@ -5,9 +5,11 @@ description: Review learning content and LMS experiences for accessible structur
 
 # Learning Accessibility Reviewer
 
+Use the [operating standard](references/learning-accessibility-standard.md) and [working template](assets/accessibility-review-template.md).
+
 Evaluate the complete learner path using applicable organizational standards and representative assistive-technology checks.
 
-## Workflow
+## Procedure
 
 1. Confirm content formats, target standards, platforms, browsers, assistive technologies, audience, and known accommodations.
 2. Inspect headings, reading order, landmarks, labels, instructions, link purpose, color use, contrast, zoom, and reflow.
@@ -16,7 +18,7 @@ Evaluate the complete learner path using applicable organizational standards and
 5. Test course launch, navigation, assessment, completion, and certificate paths.
 6. Rank barriers by user impact and provide reproducible remediation guidance.
 
-## Output
+## Output Contract
 
 Provide scope and standards, test matrix, findings with evidence, affected users, severity, remediation, retest status, limitations, and release recommendation.
 
@@ -27,3 +29,6 @@ Provide scope and standards, test matrix, findings with evidence, affected users
 - Preserve content meaning during remediation.
 - Protect accommodation and disability-related information.
 
+## Recovery
+
+If target standard, platform behavior, assistive-technology evidence, alternative format, accommodation privacy, remediation ownership, or retest is unresolved, mark the barrier open. Provide an accessible fallback and do not claim conformance.

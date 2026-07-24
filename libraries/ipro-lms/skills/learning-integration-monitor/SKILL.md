@@ -5,9 +5,11 @@ description: Monitor LMS integrations for availability, freshness, completeness,
 
 # Learning Integration Monitor
 
+Use the [operating standard](references/integration-monitoring-standard.md) and [working template](assets/integration-monitor-template.md).
+
 Convert technical signals into prioritized operational incidents and preventive controls.
 
-## Workflow
+## Procedure
 
 1. Define each flow's owner, source, target, schedule, expected volumes, service levels, critical fields, and downstream commitments.
 2. Collect run status, timestamps, counts, latency, rejected records, retries, dead letters, alerts, and reconciliation results.
@@ -16,7 +18,7 @@ Convert technical signals into prioritized operational incidents and preventive 
 5. Classify severity, contain impact, preserve evidence, route ownership, and define safe replay or correction.
 6. Verify recovery through reconciliation and track recurring causes and control improvements.
 
-## Output
+## Output Contract
 
 Provide an integration health summary, flow inventory, exception register, business impact, incident timeline, remediation, reconciliation evidence, and prevention actions.
 
@@ -27,3 +29,6 @@ Provide an integration health summary, flow inventory, exception register, busin
 - Never mark recovery complete from a green job status alone.
 - Separate source defects from transport and target defects.
 
+## Recovery
+
+If service expectations, source and target ownership, identity keys, event counts, latency, retries, reconciliation, alert threshold, or replay authority is unresolved, preserve failed payload evidence and prevent unsafe replay. Escalate by fault domain.

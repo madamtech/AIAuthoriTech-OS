@@ -1,0 +1,3 @@
+# Government Data Readiness Standard
+
+Assess data only for a defined mission purpose, decision, authority, population, and minimum need. Verify source ownership, provenance, permissions, consent where applicable, records schedules, legal holds, privacy, security classification, access, retention, deletion, sharing, localization, and vendor terms. Profile availability, completeness, accuracy, timeliness, consistency, coverage, representativeness, historical bias, labels, missingness, drift, interoperability, and lineage across derivatives. Availability is not authorization. Block AI use when rights, provenance, protected-data controls, material representation, or fitness cannot be demonstrated.

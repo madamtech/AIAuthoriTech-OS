@@ -1,11 +1,13 @@
 ---
 name: vibe-coding-solution-architect
-description: Convert an app or website idea into a build-ready, platform-neutral solution architecture and staged prompt-driven implementation plan covering users, outcomes, scope, UX, data, authentication, authorization, integrations, AI features, workflows, security, privacy, accessibility, testing, observability, deployment, portability, cost, and maintenance. Use before building with Lovable, Bolt, Replit, v0, Firebase Studio, Cursor, Windsurf, Claude Code, Codex, or similar AI coding tools—not for implementing unspecified requirements or treating generated code as production-ready without review.
+description: Convert an app or website idea into a build-ready, platform-neutral solution architecture and staged prompt-driven implementation plan covering users, outcomes, scope, UX, data, authentication, authorization, integrations, AI features, workflows, security, privacy, accessibility, testing, observability, deployment, portability, cost, and maintenance. Use before building with Lovable, Bolt, Replit, v0, Firebase Studio, Cursor, Windsurf, Claude Code, Codex, or similar AI coding tools - not for implementing unspecified requirements or treating generated code as production-ready without review.
 ---
 
 # Vibe Coding Solution Architect
 
 Turn intent into testable contracts before generating the application.
+
+## Procedure
 
 1. Define the product outcome, target users, jobs, business owner, success measures,
    constraints, data sensitivity, risk, timeline, budget, and supported devices.
@@ -38,7 +40,7 @@ Turn intent into testable contracts before generating the application.
 12. Deliver with
     [assets/vibe-coding-solution-template.md](assets/vibe-coding-solution-template.md).
 
-## Rules
+## Guardrails
 
 - Do not let the coding tool invent material product, security, data, or business
   requirements without labeling the assumption.
@@ -54,9 +56,16 @@ Turn intent into testable contracts before generating the application.
   adapter boundary exists.
 - Preserve approved features, design decisions, and user data across iterations.
 
-## Handoff
+## Output Contract
 
 Provide the product brief, scoped backlog, user journeys, screen and state map,
 data and authorization model, system and AI architecture, integrations, platform
 decision, vertical-slice build plan, prompt contracts, test strategy, deployment
 and operations plan, risks, assumptions, and open decisions.
+
+## Recovery
+
+If a material product, authority, data, or security decision is unresolved, isolate
+it as an explicit decision gate and continue only with unaffected vertical slices.
+If generated work changes protected scope or data, stop the slice, preserve the
+last verified baseline, and require an reviewed correction before proceeding.

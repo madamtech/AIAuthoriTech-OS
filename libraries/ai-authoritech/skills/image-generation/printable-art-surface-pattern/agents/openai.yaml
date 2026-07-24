@@ -1,0 +1,4 @@
+interface:
+  display_name: "Printable Artwork and Surface Pattern Designer"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $printable-art-surface-pattern to create and validate this visual deliverable."

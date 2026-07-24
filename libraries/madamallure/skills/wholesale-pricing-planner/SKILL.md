@@ -1,17 +1,19 @@
 ---
 name: wholesale-pricing-planner
-description: Plan sustainable wholesale pricing using verified unit costs, retailer margin expectations, order terms, volume, freight, discounts, and production capacity.
+description: Plan sustainable wholesale pricing using verified unit costs, labor, overhead, spoilage, fees, target and retailer margins, minimum orders, case packs, payment and freight terms, discounts, returns, lead times, and production capacity. Use before issuing wholesale price lists or binding quotes.
 ---
 
 # Wholesale Pricing Planner
 
-## Workflow
+Use the [operating standard](references/wholesale-pricing-standard.md) and [working template](assets/wholesale-pricing-template.md).
+
+## Procedure
 
 1. Confirm costs, retail price, minimums, case packs, payment, freight, returns, lead time, territory, and channel constraints.
 2. Model wholesale price, gross margin, contribution, volume tiers, samples, promotions, and break-even scenarios.
 3. Define price list, terms, approval thresholds, capacity risks, and review triggers.
 
-## Output
+## Output Contract
 
 Provide verified inputs, specifications, assumptions, risks, approvals, owners, implementation actions, and validation criteria.
 
@@ -22,3 +24,6 @@ Provide verified inputs, specifications, assumptions, risks, approvals, owners, 
 - Do not make unsupported cosmetic, health, safety, compliance, or financial claims.
 - Require qualified review and authorization before regulated, production, pricing, or customer-impacting action.
 
+## Recovery
+
+If unit cost, margin target, capacity, freight responsibility, payment terms, taxes, or approval is unresolved, do not issue a binding quote. Mark estimates and expiration dates clearly and preserve the last approved price list.

@@ -5,13 +5,15 @@ description: Assemble traceable evidence for authorized audits or reviews of gov
 
 # Government Ai Audit Evidence Builder
 
-## Workflow
+Use the [operating standard](references/audit-evidence-standard.md) and [working template](assets/audit-evidence-index-template.md).
+
+## Procedure
 
 1. Confirm authority, scope, controls, period, systems, custodians, deadline, sensitivity, privilege, records, and delivery requirements.
 2. Build a request-to-evidence matrix; collect immutable policies, approvals, tests, logs, reports, contracts, incidents, and monitoring evidence.
 3. Validate provenance, completeness, filters, timestamps, reconciliation, redaction, chain of custody, gaps, and owner attestation.
 
-## Output
+## Output Contract
 
 Provide scope, authority, evidence, assumptions, findings, risks, controls, owners, decisions, and validation or monitoring requirements.
 
@@ -22,3 +24,6 @@ Provide scope, authority, evidence, assumptions, findings, risks, controls, owne
 - Separate observed evidence from assumptions and label confidence.
 - Do not claim compliance, authorization, public consensus, or completed action without evidence.
 
+## Recovery
+
+If authority, scope, provenance, integrity, access, retention, or control mapping is unresolved, quarantine the evidence package and report the gap. Never create substitute evidence or imply audit assurance beyond the verified record.

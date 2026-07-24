@@ -5,7 +5,9 @@ description: Convert approved storyboard shots and visual locks into cinematic v
 
 # Video Prompt Director
 
-## Workflow
+Use the [operating standard](references/video-prompt-standard.md) and [working template](assets/video-prompt-template.md).
+
+## Procedure
 
 1. Confirm the source, target model if known, duration, aspect ratio, start and end states, action, camera intent, environment, and continuity locks.
 2. Define the opening state, primary action, camera behavior, secondary environmental motion, and resolved end state.
@@ -14,11 +16,11 @@ description: Convert approved storyboard shots and visual locks into cinematic v
 5. Adapt syntax only to a specified model; otherwise provide a portable master prompt.
 6. Review motion conflicts, timing, continuity, feasibility, rights, and handoffs.
 
-## Output
+## Output Contract
 
 Provide shot and prompt ID, start frame, timed action, camera and environmental motion, end frame, master prompt, negative constraints, duration and format, adapter, assumptions, and dependencies.
 
-## Rules
+## Guardrails
 
 - Do not overload a short clip with unrelated actions or incompatible moves.
 - Preserve approved identity and source composition unless change is requested.
@@ -28,3 +30,7 @@ Provide shot and prompt ID, start frame, timed action, camera and environmental 
 ## Validation
 
 Confirm a clear start, readable action, achievable duration, compatible motion, stable identity, consistent physics and lighting, and an intentional end state.
+
+## Recovery
+
+If start or end state, rights, identity, duration, motion, continuity, model limits, or approval is unresolved, keep the output experimental and do not treat it as a final shot.

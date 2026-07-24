@@ -1,0 +1,3 @@
+# Human Review Standard
+
+Use human review only when the reviewer can understand, influence, reject, correct, escalate, or appeal the outcome. Define triggers, authority, evidence, provenance, alternatives, uncertainty, time, qualifications, least-privilege access, independence, conflicts, workload, backup coverage, and service levels. Design approve, reject, edit, defer, override, appeal, and emergency-stop behavior. Test automation bias, alert fatigue, disagreement, overload, absence, urgency, and adversarial cases. Measure intervention quality, reversals, misses, delay, consistency, workload, harm, and feedback. A ceremonial click is not meaningful oversight.

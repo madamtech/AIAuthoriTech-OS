@@ -5,14 +5,16 @@ description: Review finished 3D prints for dimensional accuracy, strength indica
 
 # Three D Print Quality Reviewer
 
-## Workflow
+Use the [operating standard](references/print-quality-standard.md) and [working template](assets/print-quality-template.md).
+
+## Procedure
 
 1. Confirm approved model, revision, material, slicer profile, intended use, tolerances, and acceptance criteria.
 2. Inspect dimensions, first layer, walls, seams, supports, bridges, warping, layer shifts, stringing, and defects.
 3. Test fit, assembly, moving features, stability, and required functional loads safely.
 4. Classify defects, disposition units, trace root causes, and define corrective tests.
 
-## Output
+## Output Contract
 
 Provide specifications, assumptions, evidence, risks, decisions, implementation steps, owners, and a validation checklist.
 
@@ -23,3 +25,6 @@ Provide specifications, assumptions, evidence, risks, decisions, implementation 
 - Do not claim safety, compliance, authorization, or completion without evidence.
 - Require approval before irreversible production, financial, or customer-impacting action.
 
+## Recovery
+
+If the approved model, specification, measurement method, tool calibration, intended use, or acceptance authority is unresolved, quarantine the part. Do not represent cosmetic inspection as functional or safety certification.

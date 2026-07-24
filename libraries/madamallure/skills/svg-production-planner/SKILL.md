@@ -5,14 +5,16 @@ description: Prepare production-ready SVG files for cutting, engraving, printing
 
 # Svg Production Planner
 
-## Workflow
+Use the [operating standard](references/svg-production-standard.md) and [working template](assets/svg-production-template.md).
+
+## Procedure
 
 1. Confirm device, material, dimensions, units, colors, layers, fonts, stroke behavior, and output constraints.
 2. Convert text as required, remove duplicates and hidden objects, close paths, simplify safely, and separate operations.
 3. Validate scale, viewBox, line weights, fills, kerf assumptions, nesting, and import behavior.
 4. Produce a versioned master, production copy, preview, and test-cut checklist.
 
-## Output
+## Output Contract
 
 Provide specifications, assumptions, evidence, risks, decisions, implementation steps, owners, and a validation checklist.
 
@@ -23,3 +25,6 @@ Provide specifications, assumptions, evidence, risks, decisions, implementation 
 - Do not claim safety, compliance, authorization, or completion without evidence.
 - Require approval before irreversible production, financial, or customer-impacting action.
 
+## Recovery
+
+If dimensions, process, artwork rights, machine interpretation, fonts, geometry, or acceptance evidence is unresolved, keep the SVG as a draft. Do not release it for irreversible cutting, engraving, or printing until a representative output is verified.

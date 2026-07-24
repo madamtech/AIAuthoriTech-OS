@@ -1,0 +1,22 @@
+{
+  "request_summary": "<requested outcome>",
+  "route_type": "single_skill",
+  "primary_assets": ["<SKU>"],
+  "confidence": 0,
+  "rationale": ["<evidence-backed reason>"],
+  "required_inputs": [],
+  "dependencies": [],
+  "authorization_requirements": [],
+  "assumptions": [],
+  "fallback": {
+    "route_type": "human_escalation",
+    "assets": [],
+    "condition": "<condition that activates fallback>"
+  },
+  "rejected_candidates": [
+    {
+      "sku": "<SKU>",
+      "reason": "<why rejected>"
+    }
+  ]
+}

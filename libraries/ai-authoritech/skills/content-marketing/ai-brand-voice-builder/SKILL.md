@@ -5,13 +5,15 @@ description: Define a reusable business brand voice with positioning, personalit
 
 # Ai Brand Voice Builder
 
-## Workflow
+Use the [operating standard](references/brand-voice-standard.md) and [working template](assets/brand-voice-template.md).
+
+## Procedure
 
 1. Clarify audience, promise, values, differentiation, trust needs, channels, and existing examples.
 2. Define observable voice traits, do and do-not rules, vocabulary, sentence patterns, inclusivity, technical-depth, and claims boundaries.
 3. Demonstrate the voice across web, proposals, social, email, education, and support; create a review rubric.
 
-## Output
+## Output Contract
 
 Provide scope, verified inputs, analysis, recommendations or deliverables, assumptions, owners, approvals, measurement, and validation checklist.
 
@@ -22,3 +24,6 @@ Provide scope, verified inputs, analysis, recommendations or deliverables, assum
 - Respect copyright, trademarks, privacy, permissions, and platform rules.
 - Separate observation from inference and label assumptions.
 
+## Recovery
+
+If approved brand evidence, audience, claims boundaries, representative examples, or accountable review is missing, label the guide provisional. Do not imitate a specific person or invent brand values.

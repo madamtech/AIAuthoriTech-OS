@@ -5,7 +5,9 @@ description: Convert an approved screenplay and storyboard into a production-rea
 
 # Cinematic Shot List Builder
 
-## Workflow
+Use the [operating standard](references/shot-list-standard.md) and [working template](assets/shot-list-template.md).
+
+## Procedure
 
 1. Review the screenplay, storyboard, character locks, format, aspect ratio, locations, production method, schedule, and constraints.
 2. Assign stable scene and shot IDs, then define each shot's story purpose, subject, action, size, angle, composition, lens intent, movement, focus, lighting, audio, duration, and transition.
@@ -14,11 +16,11 @@ description: Convert an approved screenplay and storyboard into a production-rea
 5. Flag complex setups, safety needs, dependencies, alternatives, and priority shots.
 6. Deliver the ordered list and a coverage audit.
 
-## Output
+## Output Contract
 
 Use a table with: shot ID, scene, priority, purpose, subject/action, size, angle, lens intent, movement, lighting, audio, estimated duration, continuity, dependencies, and notes. Add coverage gaps, setup groupings, assumptions, and approval points.
 
-## Rules
+## Guardrails
 
 - Every shot must serve story, clarity, emotion, continuity, or editability.
 - Distinguish creative lens intent from exact equipment settings when equipment is unknown.
@@ -29,3 +31,6 @@ Use a table with: shot ID, scene, priority, purpose, subject/action, size, angle
 
 Confirm complete story coverage, spatial coherence, editorial continuity, feasible durations, consistent identifiers, manageable setup changes, and explicit handling of high-risk or high-dependency shots.
 
+## Recovery
+
+If source versions, coverage, equipment, location authority, schedule, or safety requirements are unresolved, keep the shot provisional and do not authorize hazardous capture.

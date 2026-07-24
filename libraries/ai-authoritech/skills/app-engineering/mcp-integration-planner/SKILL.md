@@ -1,11 +1,13 @@
 ---
 name: mcp-integration-planner
-description: Design secure, version-aware Model Context Protocol integrations between AI hosts, clients, and servers covering capability selection, tools, resources, prompts, client features, lifecycle, transports, authorization, consent, schemas, identity, least privilege, data boundaries, side effects, progress, cancellation, errors, testing, observability, deployment, compatibility, and retirement. Use when exposing APIs, files, knowledge, workflows, or actions through MCP or connecting an application or agent to MCP servers—not to provision credentials, deploy unreviewed servers, expose generic privileged access, or assume draft protocol behavior is stable.
+description: Design secure, version-aware Model Context Protocol integrations between AI hosts, clients, and servers covering capability selection, tools, resources, prompts, client features, lifecycle, transports, authorization, consent, schemas, identity, least privilege, data boundaries, side effects, progress, cancellation, errors, testing, observability, deployment, compatibility, and retirement. Use when exposing APIs, files, knowledge, workflows, or actions through MCP or connecting an application or agent to MCP servers - not to provision credentials, deploy unreviewed servers, expose generic privileged access, or assume draft protocol behavior is stable.
 ---
 
 # MCP Integration Planner
 
 Expose the smallest protocol surface that completes the approved job.
+
+## Procedure
 
 1. Confirm the business outcome, host and users, server owner, deployment model,
    approved operations, data classes, environments, trust boundaries, risk,
@@ -62,7 +64,7 @@ Expose the smallest protocol surface that completes the approved job.
 17. Deliver with
     [assets/mcp-integration-plan-template.md](assets/mcp-integration-plan-template.md).
 
-## Rules
+## Guardrails
 
 - Do not use draft or experimental MCP behavior without labeling, pinning,
   compatibility controls, and an approved fallback.
@@ -79,7 +81,15 @@ Expose the smallest protocol surface that completes the approved job.
 - Do not treat protocol conformance as proof of application security, privacy,
   correctness, or production readiness.
 
-## Handoff
+## Recovery
+
+If protocol negotiation, identity, consent, authorization, or effect verification
+fails, deny the affected capability and preserve the host's policy boundary.
+Reconcile consequential effects before retry, revoke or rotate exposed
+credentials, fall back from unsupported draft behavior, and record the exact
+specification and SDK versions involved.
+
+## Output Contract
 
 Provide the outcome and trust map, pinned specification and SDK compatibility,
 capability matrix, tool/resource/prompt contracts, client-feature boundaries,

@@ -1,12 +1,14 @@
 ---
 name: ui-ux-prompt-builder
-description: Translate approved product requirements, user journeys, brand guidance, content, and technical constraints into precise UI/UX prompts for AI design and coding tools, covering information architecture, layout, components, content hierarchy, interaction, responsive behavior, accessibility, realistic data, system states, validation, protected design decisions, and review criteria. Use for generating or revising websites, dashboards, portals, SaaS interfaces, mobile views, prototypes, or design systems—not requirements discovery, brand invention, production implementation, or replacing usability and accessibility validation.
+description: Translate approved product requirements, user journeys, brand guidance, content, and technical constraints into precise UI/UX prompts for AI design and coding tools, covering information architecture, layout, components, content hierarchy, interaction, responsive behavior, accessibility, realistic data, system states, validation, protected design decisions, and review criteria. Use for generating or revising websites, dashboards, portals, SaaS interfaces, mobile views, prototypes, or design systems - not requirements discovery, brand invention, production implementation, or replacing usability and accessibility validation.
 ---
 
 # UI/UX Prompt Builder
 
 Create a bounded design contract that a generation tool can implement and a reviewer
 can verify.
+
+## Procedure
 
 1. Confirm the approved requirements, target users, primary journey, page or feature
    scope, brand assets, content, data model, platform, device targets,
@@ -42,7 +44,7 @@ can verify.
     state completeness, content realism, and regression.
 13. Deliver with [assets/ui-ux-prompt-template.md](assets/ui-ux-prompt-template.md).
 
-## Rules
+## Guardrails
 
 - Do not rely on style adjectives alone; translate them into observable design
   choices.
@@ -55,9 +57,16 @@ can verify.
   without explicit scope.
 - Do not claim usability or accessibility based only on generated appearance.
 
-## Handoff
+## Output Contract
 
 Provide the source requirements and assumptions, platform-neutral design contract,
 page and component scope, content and realistic data, interaction and state matrix,
 responsive and accessibility behavior, protected constraints, tool adapter prompt,
 and review checklist.
+
+## Recovery
+
+If material content, permission, or brand inputs are absent, produce a bounded
+wireframe prompt with labeled assumptions instead of inventing them. If generated
+output removes approved features or protected design, reject the revision and
+restore the last approved baseline before issuing a narrower correction prompt.

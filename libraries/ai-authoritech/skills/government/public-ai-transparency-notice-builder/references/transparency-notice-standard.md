@@ -1,0 +1,3 @@
+# Public AI Transparency Notice Standard
+
+Verify every statement against the current authorized operation. Explain in plain, accessible language the responsible office, purpose, authority, when and where AI is used, decision role, data categories and sources, human involvement, known limitations, affected people, safeguards, retention, sharing, oversight, contact, correction, appeal, complaint, and other recourse. Provide translations and accessible formats appropriate to the audience. Exclude protected security, personal, procurement, and deliberative details without making the notice misleading. Assign a version, effective date, owner, review cadence, and material-change update trigger.

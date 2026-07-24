@@ -7,6 +7,8 @@ description: Normalize, screen, compare, and rank a portfolio of AI use cases us
 
 Prioritize comparable use cases, not persuasive pitch quality.
 
+## Procedure
+
 1. Normalize every submission into problem, user, decision or task, current
    baseline, proposed AI role, data, expected outcome, owner, and evidence.
 2. Merge duplicates and split proposals containing independently valuable jobs.
@@ -29,7 +31,7 @@ Prioritize comparable use cases, not persuasive pitch quality.
 9. Define the smallest evidence-generating next step and a measurable exit criterion.
 10. Deliver with [assets/use-case-portfolio-template.md](assets/use-case-portfolio-template.md).
 
-## Rules
+## Guardrails
 
 - Trace claimed value to a baseline and named beneficiary.
 - Penalize unclear AI roles, not unfamiliar technology.
@@ -39,8 +41,15 @@ Prioritize comparable use cases, not persuasive pitch quality.
   ideas.
 - Re-score when material evidence, controls, cost, or capacity changes.
 
-## Handoff
+## Output Contract
 
 Provide ranked and gated portfolios, score evidence, shared prerequisites,
 recommended next tests, exit criteria, assumptions, and cases requiring automation
 analysis, governance review, ROI modeling, architecture, or roadmap updates.
+
+## Recovery
+
+If submissions are not comparable, normalize or split them before scoring. If
+evidence is missing, recommend the smallest discovery test that can resolve it.
+If a use case fails a safety or authority gate, do not offset the failure with a
+high value score.

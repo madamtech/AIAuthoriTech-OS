@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0.0",
+  "asset_count": 272,
+  "business_counts": {
+    "AA": 172,
+    "CO": 4,
+    "LMS": 40,
+    "MA": 56
+  },
+  "library_counts": {
+    "AGNT": 10,
+    "APP": 29,
+    "AUTO": 10,
+    "BEAUTY": 12,
+    "BRAND": 31,
+    "CONS": 10,
+    "CORE": 4,
+    "CRM": 2,
+    "ECOM": 9,
+    "FLOW": 10,
+    "GOV": 20,
+    "IMG": 36,
+    "KNOW": 11,
+    "LASER": 4,
+    "LMS": 28,
+    "NET": 5,
+    "OPS": 13,
+    "PRINT": 7,
+    "PROMPT": 7,
+    "VIDEO": 10,
+    "WDAY": 4
+  },
+  "resource_counts": {
+    "agent_metadata": 272,
+    "references": 272,
+    "assets": 272,
+    "scripts": 0
+  },
+  "finding_counts": {},
+  "findings": [],
+  "overlap_candidates": [
+    {
+      "left": "MA-SKL-000020",
+      "right": "AA-SKL-000112",
+      "score": 0.7206,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000005",
+      "right": "AA-SKL-000093",
+      "score": 0.6783,
+      "same_library": false,
+      "disposition": "review"
+    },
+    {
+      "left": "MA-SKL-000015",
+      "right": "AA-SKL-000111",
+      "score": 0.6507,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000011",
+      "right": "AA-SKL-000019",
+      "score": 0.6268,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "MA-SKL-000011",
+      "right": "MA-SKL-000016",
+      "score": 0.6183,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000087",
+      "right": "AA-SKL-000090",
+      "score": 0.6177,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "LMS-SKL-000005",
+      "right": "LMS-SKL-000006",
+      "score": 0.608,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000147",
+      "right": "AA-SKL-000148",
+      "score": 0.5976,
+      "same_library": true,
+      "disposition": "review"
+    },
+    {
+      "left": "AA-SKL-000094",
+      "right": "AA-SKL-000101",
+      "score": 0.5497,
+      "same_library": true,
+      "disposition": "review"
+    }
+  ]
+}

@@ -5,9 +5,11 @@ description: Design accurate, controlled learning certificate generation using a
 
 # Certificate Generation Planner
 
+Use the [operating standard](references/certificate-control-standard.md) and [working template](assets/certificate-generation-template.md).
+
 Define how certificates are generated, validated, delivered, corrected, and retained.
 
-## Workflow
+## Procedure
 
 1. Confirm credential owner, eligible completion event, certificate purpose, required wording, branding, signatures, identifiers, and legal or accreditation review.
 2. Define authoritative data sources for learner name, course or credential, issue date, expiration, credits, locale, and verification code.
@@ -16,7 +18,7 @@ Define how certificates are generated, validated, delivered, corrected, and reta
 5. Define correction, reissue, historical version, and revoked-certificate handling.
 6. Test long names, special characters, localization, missing fields, date boundaries, duplicate events, and unauthorized access.
 
-## Output
+## Output Contract
 
 Provide a certificate data dictionary, eligibility logic, content/layout specification, generation flow, security controls, test matrix, reissue procedure, and approval checklist.
 
@@ -27,3 +29,6 @@ Provide a certificate data dictionary, eligibility logic, content/layout specifi
 - Protect certificate identifiers and personal data.
 - Preserve the original issuance audit trail during corrections.
 
+## Recovery
+
+If issuance authority, recipient identity, credential status, template version, signer, data mapping, or correction policy is unresolved, block certificate generation or reissue. Preserve prior evidence and require owner approval.

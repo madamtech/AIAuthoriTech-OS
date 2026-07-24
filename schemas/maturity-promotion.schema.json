@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "maturity-promotion.schema.json",
+  "title": "Maturity Promotion Decision",
+  "type": "object",
+  "required": ["target_sku", "target_version", "from_level", "to_level", "requested_at", "evidence", "quality_gate", "approvals", "decision"],
+  "properties": {
+    "target_sku": {"type": "string", "pattern": "^(AA|LMS|MA|CO)-[A-Z]{3}-[0-9]{6}$"},
+    "target_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "from_level": {"type": "integer", "minimum": 0, "maximum": 4},
+    "to_level": {"type": "integer", "minimum": 1, "maximum": 5},
+    "requested_at": {"type": "string", "format": "date-time"},
+    "evidence": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "quality_gate": {"type": "object", "required": ["structural_validation", "behavioral_validation", "critical_failures"]},
+    "approvals": {"type": "array", "items": {"type": "object", "required": ["role", "name", "decision", "decided_at"]}},
+    "decision": {"enum": ["approved", "rejected", "changes-required"]}
+  },
+  "additionalProperties": false
+}

@@ -5,9 +5,11 @@ description: Design role-based LMS dashboards with governed KPIs, filters, thres
 
 # LMS Dashboard Designer
 
+Use the [operating standard](references/dashboard-design-standard.md) and [working template](assets/dashboard-design-template.md).
+
 Create a dashboard specification that connects each visual to a decision and accountable action.
 
-## Workflow
+## Procedure
 
 1. Define audience, decisions, questions, cadence, scope, and permitted data access.
 2. Select metrics from approved definitions and document grain, denominator, date basis, timezone, source, owner, and refresh.
@@ -17,7 +19,7 @@ Create a dashboard specification that connects each visual to a decision and acc
 6. Test accessibility, small cohorts, role security, mobile behavior, stale data, and reconciliation.
 7. Establish review cadence and action ownership.
 
-## Output
+## Output Contract
 
 Provide dashboard goals, user roles, KPI dictionary, wireframe description, visual specifications, filter/drilldown rules, security model, validation plan, and governance.
 
@@ -28,3 +30,6 @@ Provide dashboard goals, user roles, KPI dictionary, wireframe description, visu
 - Label refresh time and limitations.
 - Avoid implying causation from operational trends.
 
+## Recovery
+
+If audience, decision question, metric definition, grain, source lineage, privacy threshold, refresh, accessibility, or reconciliation is unresolved, publish a prototype with clear limitations. Do not present unreconciled metrics as authoritative.

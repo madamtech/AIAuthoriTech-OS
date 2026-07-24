@@ -5,13 +5,15 @@ description: Build an aligned marketing campaign brief connecting audience insig
 
 # Marketing Campaign Brief Builder
 
-## Workflow
+Use the [operating standard](references/campaign-brief-standard.md) and [working template](assets/campaign-brief-template.md).
+
+## Procedure
 
 1. Define business objective, audience, problem, offer, positioning, proof, journey stage, constraints, budget, dates, and KPIs.
 2. Create message architecture, channel roles, asset list, content requirements, CTA, landing experience, handoffs, and dependencies.
 3. Document approvals, risks, tracking, test plan, readiness gates, and post-campaign review.
 
-## Output
+## Output Contract
 
 Provide scope, verified inputs, deliverables or findings, assumptions, owners, approvals, measurement, and validation checklist.
 
@@ -22,3 +24,6 @@ Provide scope, verified inputs, deliverables or findings, assumptions, owners, a
 - Respect copyright, privacy, consent, accessibility, and platform rules.
 - Separate evidence from inference and label assumptions.
 
+## Recovery
+
+If objective, audience, offer, claims, budget, capacity, consent, measurement, ownership, or approval is unresolved, keep the campaign in planning and mark assumptions explicitly.

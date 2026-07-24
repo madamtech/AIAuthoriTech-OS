@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Camera Use-Case Visualizer"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $security-camera-use-case-visualizer to create and validate this visual deliverable."

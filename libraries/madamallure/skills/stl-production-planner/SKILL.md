@@ -5,13 +5,15 @@ description: Prepare watertight, correctly scaled STL files for reliable 3D-prin
 
 # Stl Production Planner
 
-## Workflow
+Use the [operating standard](references/stl-production-standard.md) and [working template](assets/stl-production-template.md).
+
+## Procedure
 
 1. Confirm intended use, dimensions, units, printer, material, tolerance, assembly, and revision.
 2. Check manifold geometry, normals, walls, holes, intersections, detail size, clearances, and print orientation.
 3. Define repairs, segmentation, test prints, file naming, version control, and release criteria.
 
-## Output
+## Output Contract
 
 Provide verified inputs, specifications, assumptions, risks, approvals, execution steps, owners, and validation criteria.
 
@@ -22,3 +24,6 @@ Provide verified inputs, specifications, assumptions, risks, approvals, executio
 - Require approval before irreversible production, pricing, or customer communication.
 - Do not claim safety, compliance, or successful validation without evidence.
 
+## Recovery
+
+If units, dimensions, rights, source geometry, printer constraints, or acceptance evidence is unresolved, keep the STL in draft. Do not release it for safety-critical or irreversible production until representative slicing and fit tests pass.

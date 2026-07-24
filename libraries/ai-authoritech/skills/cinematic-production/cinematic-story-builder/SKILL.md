@@ -5,7 +5,9 @@ description: Develop an original cinematic concept into a production-aware story
 
 # Cinematic Story Builder
 
-## Workflow
+Use the [operating standard](references/cinematic-story-standard.md) and [working template](assets/cinematic-story-template.md).
+
+## Procedure
 
 1. Establish the audience, genre, tone, runtime, release format, visual ambition, and production constraints. Reuse supplied context and label non-material assumptions.
 2. Define the dramatic engine: protagonist, goal, opposition, stakes, urgency, internal need, and transformation.
@@ -14,11 +16,11 @@ description: Develop an original cinematic concept into a production-aware story
 5. Check causality, motivation, emotional progression, originality, continuity, pacing, and production feasibility.
 6. Deliver a story package ready for screenplay development.
 
-## Output
+## Output Contract
 
 Include: creative brief, logline, one-paragraph premise, theme, audience promise, character table, world rules, beat sheet, emotional arc, continuity locks, production considerations, assumptions, and unresolved decisions.
 
-## Rules
+## Guardrails
 
 - Preserve approved story elements and distinguish requested changes from recommendations.
 - Do not closely reproduce a protected franchise, character, plot, or living creator's signature style; translate references into general cinematic traits.
@@ -29,3 +31,7 @@ Include: creative brief, logline, one-paragraph premise, theme, audience promise
 ## Validation
 
 Confirm that every major beat changes the situation, character choices drive the plot, the climax resolves the central conflict, the ending addresses the theme, and the scope fits the intended runtime and production method.
+
+## Recovery
+
+If premise ownership, audience, format, world rules, character motivation, content boundaries, or production constraints are unresolved, keep the story in development and label assumptions rather than forcing continuity.

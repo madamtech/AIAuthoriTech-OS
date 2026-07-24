@@ -7,6 +7,8 @@ description: Independently review a prompt package for contract completeness, in
 
 Review the package independently and make evidence traceable.
 
+## Procedure
+
 1. Confirm the review scope, requested release decision, risk class, owner,
    approver, independence requirements, applicable policies, supported adapters,
    and evidence cutoff. Disclose conflicts of interest.
@@ -46,7 +48,7 @@ Review the package independently and make evidence traceable.
     evidence; require a new review when those boundaries change.
 14. Deliver with [assets/prompt-qa-review-template.md](assets/prompt-qa-review-template.md).
 
-## Rules
+## Guardrails
 
 - Do not edit the reviewed prompt or evidence in place. Return defects and route
   remediation to Prompt Architect, Prompt Optimizer, or Prompt Tester.
@@ -62,7 +64,14 @@ Review the package independently and make evidence traceable.
   when the risk or governance policy requires separation of duties.
 - Do not mark remediation complete until affected tests and regressions pass.
 
-## Handoff
+## Recovery
+
+If artifact identity, independence, raw evidence, or a critical gate cannot be
+verified, return reject or inconclusive for the exact affected scope. Preserve
+the reviewed artifacts unchanged, issue evidence-linked defects, define retest
+scope, and route remediation to the responsible architect, optimizer, or tester.
+
+## Output Contract
 
 Provide scope and independence statement, artifact manifest, requirement-to-
 evidence matrix, architecture and authority findings, test-integrity findings,

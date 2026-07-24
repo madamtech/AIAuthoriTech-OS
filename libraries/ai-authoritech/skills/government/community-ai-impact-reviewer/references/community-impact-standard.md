@@ -1,0 +1,3 @@
+# Community AI Impact Review Standard
+
+Define the decision, authority, service pathways, affected communities, historical conditions, prior burdens, engagement obligations, and protected participation. Assess benefits, costs, errors, exclusion, surveillance, stigma, accessibility, language, digital access, service displacement, appeals, remedies, trust, and cumulative impacts across intersecting groups. Use community evidence without claiming any participant represents an entire population. Compare non-AI alternatives and distribution of benefits and burdens. Require accountable responses, measures, and follow-up. Mark review incomplete when materially affected groups lack a safe, accessible opportunity to influence the analysis.

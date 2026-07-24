@@ -1,11 +1,13 @@
 ---
 name: database-designer
-description: Convert approved application requirements into a secure, governed, migration-ready database design covering entities, relationships, keys, constraints, tenancy, row-level authorization, transactions, concurrency, indexes, query patterns, audit history, retention, deletion, migrations, backups, recovery, performance, observability, testing, and provider-neutral implementation contracts. Use for new application schemas, SaaS multitenancy, database redesigns, migration planning, or AI-generated app backends—not executing production migrations, replacing data governance, or selecting a database without workload evidence.
+description: Convert approved application requirements into a secure, governed, migration-ready database design covering entities, relationships, keys, constraints, tenancy, row-level authorization, transactions, concurrency, indexes, query patterns, audit history, retention, deletion, migrations, backups, recovery, performance, observability, testing, and provider-neutral implementation contracts. Use for new application schemas, SaaS multitenancy, database redesigns, migration planning, or AI-generated app backends - not executing production migrations, replacing data governance, or selecting a database without workload evidence.
 ---
 
 # Database Designer
 
 Model business truth and authorization before optimizing storage.
+
+## Procedure
 
 1. Confirm requirement IDs, business rules, users and roles, source systems,
    workloads, data volume and growth, sensitivity, tenancy, retention, recovery,
@@ -43,7 +45,7 @@ Model business truth and authorization before optimizing storage.
     performance, and observability before production use.
 13. Deliver with [assets/database-design-template.md](assets/database-design-template.md).
 
-## Rules
+## Guardrails
 
 - Do not rely on client-side filtering or hidden UI for data authorization.
 - Do not use generic JSON storage to avoid modeling stable, queryable business data.
@@ -55,9 +57,16 @@ Model business truth and authorization before optimizing storage.
 - Do not put secrets in database schemas, fixtures, migrations, or documentation.
 - Keep provider-specific SQL, policies, and tuning in adapters.
 
-## Handoff
+## Output Contract
 
 Provide the conceptual and logical model, entity dictionary, constraints,
 authorization and tenancy matrix, query and index plan, transaction and concurrency
 contracts, audit and lifecycle controls, migration and recovery plan, test plan,
 provider-adapter requirements, risks, assumptions, and open decisions.
+
+## Recovery
+
+If ownership, tenancy, retention, or authorization is unresolved, block the affected
+schema and expose the decision. If a migration validation fails, stop cutover and
+use the approved rollback or forward-fix path. Never repair production data through
+an unreviewed generated migration.

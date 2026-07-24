@@ -1,0 +1,3 @@
+# Public-Sector AI Readiness Standard
+
+Assess mission fit, statutory and policy authority, leadership, services, process stability, data rights and quality, technology, security, privacy, records, accessibility, civil rights, procurement, vendor dependency, workforce, labor impacts, public notice, oversight, contestability, redress, continuity, public trust, and measurement. Separate agency readiness from use-case readiness. Rate evidence confidence and mark missing evidence explicitly. Apply hard gates to unauthorized, unsafe, discriminatory, inaccessible, insecure, or unsupported uses. Verify current requirements with qualified officials; do not claim legal compliance, public consensus, procurement approval, or deployment authorization.

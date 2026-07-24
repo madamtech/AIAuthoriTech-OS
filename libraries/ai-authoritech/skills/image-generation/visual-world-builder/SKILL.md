@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000162
-asset_id: image-generation.visual-world-builder.v1
-version: 1.0.0
-status: testing
+name: visual-world-builder
+description: "Create repeatable environments with consistent architecture, culture, technology, geography, palette, and physical rules. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Visual World Builder
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Create repeatable environments with consistent architecture, culture, technology, geography, palette, and physical rules.
@@ -15,10 +15,10 @@ World premise, era, location, culture, climate, technology level, brand/story to
 ## Procedure
 Define world thesis, environmental rules, architecture, materials, signage, transportation, vegetation, weather, lighting cycles, socioeconomic cues, technology, and recurring landmarks. Separate universal world rules from location-specific variations.
 
-## Output contract
+## Output Contract
 World Bible, location cards, material/palette system, environmental rules, recurring props, signage rules, and continuity checklist.
 
-## Rules
+## Guardrails
 Avoid random visual mashups. Cultural details must be respectful, purposeful, and internally consistent.
 
 ## QA

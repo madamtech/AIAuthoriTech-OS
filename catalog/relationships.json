@@ -1,0 +1,7973 @@
+{
+  "schema_version": "1.0.0",
+  "relationships": [
+    {
+      "source": "AA-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000087",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000067",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000077",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000078",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000079",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000083",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000067",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000073",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000003",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000004",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000004",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000004",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000093",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000004",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000005",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000088",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000005",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000005",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000006",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000007",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000007",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000092",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000007",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000094",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000007",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000008",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000008",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000089",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000008",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000008",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000009",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000009",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000090",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000009",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000010",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000010",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000012",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000014",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000016",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000020",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000168",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000011",
+      "relationship": "depends_on",
+      "target": "CO-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000011",
+      "relationship": "depends_on",
+      "target": "CO-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000012",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000012",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000012",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000057",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000061",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000062",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000064",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000088",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000013",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000014",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000014",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000014",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000020",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000014",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000168",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000014",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000014",
+      "relationship": "depends_on",
+      "target": "CO-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000015",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000016",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000015",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000015",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000021",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000015",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000015",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000012",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000015",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000015",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000014",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000016",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000016",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000021",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000016",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000016",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000017",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000021",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000017",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000017",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000016",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000018",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000018",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000014",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000019",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000019",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000020",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000049",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000020",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000020",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000014",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000021",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000021",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000016",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000021",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000022",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000022",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000022",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000022",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000041",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000022",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000034",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000035",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000041",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000047",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000048",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000023",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000022",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000034",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000035",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000041",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000047",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000024",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000025",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000025",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000025",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000025",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000025",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000035",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000025",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000025",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000048",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000025",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000034",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000041",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000047",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000048",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000049",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000026",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000034",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000041",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000047",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000048",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000049",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000069",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000027",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000032",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000041",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000043",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000045",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000046",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000047",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000048",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000049",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000028",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000032",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000041",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000046",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000048",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000049",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000029",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000032",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000041",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000043",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000044",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000045",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000046",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000048",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000049",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000030",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000030",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000031",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000032",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000031",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000031",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000031",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000032",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000032",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000046",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000032",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000032",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000032",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000032",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000033",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000034",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000033",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000033",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000033",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000048",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000033",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000022",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000033",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000033",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000033",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000033",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000034",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000035",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000034",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000034",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000034",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000034",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000034",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000035",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000035",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000035",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000035",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000034",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000036",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000036",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000036",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000036",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000036",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000037",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000037",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000037",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000037",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000037",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000038",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000038",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000038",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000038",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000038",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000039",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000039",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000039",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000039",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000039",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000040",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000022",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000040",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000040",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000040",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000040",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000040",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000040",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000041",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000022",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000041",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000041",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000041",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000041",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000041",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000041",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000041",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000042",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000047",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000042",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000022",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000042",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000042",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000042",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000042",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000042",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000042",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000042",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000042",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000042",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000042",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000032",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000043",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000044",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000043",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000045",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000043",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000043",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000044",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000044",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000043",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000045",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000045",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000045",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000043",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000046",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000046",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000046",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000046",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000032",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000047",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000047",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000047",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000047",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000047",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000047",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000048",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000049",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000048",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000048",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000048",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000048",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000048",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000048",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000048",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000048",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000049",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000020",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000049",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000049",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000049",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000049",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000049",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000049",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000048",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000050",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000050",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000052",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000050",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000053",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000050",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000054",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000050",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000055",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000050",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000137",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000050",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000050",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000012",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000051",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000052",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000051",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000053",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000051",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000167",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000051",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000052",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000053",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000052",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000054",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000052",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000056",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000052",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000052",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000053",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000054",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000053",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000055",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000053",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000056",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000053",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000053",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000053",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000052",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000054",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000055",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000054",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000056",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000054",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000054",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000052",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000054",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000053",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000055",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000056",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000055",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000055",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000053",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000055",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000054",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000056",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000052",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000056",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000053",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000056",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000054",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000056",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000055",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000057",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000058",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000057",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000059",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000057",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000061",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000057",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000057",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000091",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000057",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000058",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000058",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000057",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000059",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000060",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000059",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000061",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000059",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000059",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000057",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000060",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000060",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000059",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000061",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000062",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000061",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000061",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000061",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000057",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000061",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000059",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000062",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000062",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000062",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000061",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000063",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000064",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000063",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000065",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000063",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000066",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000063",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000057",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000063",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000058",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000063",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000059",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000063",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000060",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000063",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000061",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000063",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000062",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000064",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000065",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000064",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000066",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000064",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000169",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000064",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000064",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000065",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000066",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000065",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000065",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000064",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000066",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000063",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000066",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000064",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000066",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000065",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000067",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000068",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000067",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000071",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000067",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000072",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000067",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000074",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000067",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000067",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000068",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000069",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000068",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000071",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000068",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000072",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000068",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000074",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000068",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000076",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000068",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000067",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000069",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000070",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000069",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000071",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000069",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000072",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000069",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000074",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000069",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000069",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000068",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000070",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000073",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000070",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000069",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000071",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000073",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000071",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000074",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000071",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000067",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000071",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000068",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000071",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000069",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000072",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000073",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000072",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000067",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000072",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000068",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000072",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000069",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000073",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000073",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000070",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000073",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000071",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000073",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000072",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000074",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000075",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000074",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000076",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000074",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000067",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000074",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000068",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000074",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000069",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000074",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000071",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000075",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000076",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000075",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000074",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000076",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000068",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000076",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000074",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000076",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000075",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000077",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000078",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000077",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000079",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000077",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000083",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000077",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000086",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000077",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000078",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000079",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000078",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000078",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000077",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000079",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000080",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000079",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000081",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000079",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000084",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000079",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000085",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000079",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000086",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000079",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000079",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000077",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000079",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000078",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000080",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000081",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000080",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000082",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000080",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000085",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000080",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000079",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000081",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000082",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000081",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000084",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000081",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000085",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000081",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000079",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000081",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000080",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000082",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000084",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000082",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000085",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000082",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000080",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000082",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000081",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000083",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000084",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000083",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000085",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000083",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000086",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000083",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000083",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000077",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000084",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000085",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000084",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000079",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000084",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000081",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000084",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000082",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000084",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000083",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000085",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000086",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000085",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000079",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000085",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000080",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000085",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000081",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000085",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000082",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000085",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000083",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000085",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000084",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000086",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000077",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000086",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000079",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000086",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000083",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000086",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000085",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000087",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000088",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000087",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000091",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000087",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000092",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000087",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000095",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000087",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000096",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000087",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000088",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000089",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000088",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000090",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000088",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000097",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000088",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000100",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000088",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000102",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000088",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000088",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000088",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000087",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000089",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000094",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000089",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000103",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000089",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000089",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000088",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000090",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000091",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000090",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000093",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000090",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000094",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000090",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000095",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000090",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000096",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000090",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000098",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000090",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000100",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000090",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000103",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000090",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000090",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000088",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000091",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000093",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000091",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000098",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000091",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000057",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000091",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000087",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000091",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000090",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000092",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000092",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000087",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000093",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000094",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000093",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000096",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000093",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000104",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000093",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000093",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000090",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000093",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000091",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000094",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000095",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000094",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000096",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000094",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000100",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000094",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000101",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000094",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000104",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000094",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000094",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000089",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000094",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000090",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000094",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000093",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000095",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000098",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000095",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000099",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000095",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000101",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000095",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000105",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000095",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000087",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000095",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000090",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000095",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000094",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000096",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000087",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000096",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000090",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000096",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000093",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000096",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000094",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000097",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000098",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000097",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000099",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000097",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000102",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000097",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000106",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000097",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000088",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000098",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000099",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000098",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000101",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000098",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000104",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000098",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000105",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000098",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000106",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000098",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000090",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000098",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000091",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000098",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000095",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000098",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000097",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000099",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000095",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000099",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000097",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000099",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000098",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000100",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000102",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000100",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000103",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000100",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000106",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000100",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000088",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000100",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000090",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000100",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000094",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000101",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000104",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000101",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000105",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000101",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000171",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000101",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000094",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000101",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000095",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000101",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000098",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000102",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000106",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000102",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000088",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000102",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000097",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000102",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000100",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000103",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000106",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000103",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000089",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000103",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000090",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000103",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000100",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000104",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000093",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000104",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000094",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000104",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000098",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000104",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000101",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000105",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000095",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000105",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000098",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000105",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000101",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000106",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000097",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000106",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000098",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000106",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000100",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000106",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000102",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000106",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000103",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000108",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000109",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000110",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000112",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000114",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000115",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000116",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000118",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000119",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000120",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000121",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000122",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000124",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000107",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000125",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000108",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000112",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000108",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000115",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000108",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000122",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000108",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000109",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000110",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000109",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000113",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000109",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000114",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000109",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000117",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000109",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000110",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000114",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000110",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000124",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000110",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000110",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000109",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000112",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000113",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000116",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000117",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000118",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000119",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000120",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000121",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000122",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000123",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000125",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000126",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000142",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000111",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000112",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000115",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000112",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000112",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000108",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000112",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000113",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000117",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000113",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000118",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000113",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000109",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000113",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000114",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000121",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000114",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000114",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000109",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000114",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000110",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000115",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000124",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000115",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000125",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000115",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000115",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000108",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000115",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000112",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000116",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000123",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000116",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000116",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000117",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000119",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000117",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000109",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000117",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000117",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000113",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000118",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000118",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000118",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000113",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000119",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000120",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000119",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000119",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000119",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000117",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000120",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000120",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000120",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000119",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000121",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000121",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000121",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000114",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000122",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000122",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000108",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000122",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000123",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000123",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000116",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000124",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000125",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000124",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000124",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000110",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000124",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000115",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000125",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000126",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000125",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000146",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000125",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000107",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000125",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000125",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000115",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000125",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000124",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000126",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000126",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000125",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000127",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000128",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000127",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000130",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000127",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000136",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000127",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000145",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000128",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000129",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000128",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000130",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000128",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000131",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000128",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000136",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000128",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000127",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000129",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000130",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000129",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000131",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000129",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000132",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000129",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000133",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000129",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000134",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000129",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000135",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000129",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000136",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000129",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000163",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000129",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000128",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000130",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000131",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000130",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000132",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000130",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000133",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000130",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000127",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000130",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000128",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000130",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000129",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000131",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000132",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000131",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000133",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000131",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000134",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000131",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000135",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000131",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000128",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000131",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000129",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000131",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000130",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000132",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000133",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000132",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000129",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000132",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000130",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000132",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000131",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000133",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000129",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000133",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000130",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000133",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000131",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000133",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000132",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000134",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000135",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000134",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000164",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000134",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000129",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000134",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000131",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000135",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000146",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000135",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000164",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000135",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000129",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000135",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000131",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000135",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000134",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000136",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000127",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000136",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000128",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000136",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000129",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000137",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000137",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000168",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000137",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000172",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000137",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000137",
+      "relationship": "depends_on",
+      "target": "CO-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000139",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000140",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000142",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000144",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000145",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000147",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000150",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000152",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000155",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000164",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000167",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000138",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000137",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000139",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000140",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000139",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000141",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000139",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000148",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000139",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000162",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000139",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000166",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000139",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000140",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000141",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000140",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000159",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000140",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000161",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000140",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000140",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000139",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000141",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000139",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000141",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000140",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000142",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000143",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000142",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000149",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000142",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000157",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000142",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000158",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000142",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000111",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000142",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000143",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000169",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000143",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000142",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000144",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000145",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000144",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000147",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000144",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000149",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000144",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000152",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000144",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000156",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000144",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000145",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000146",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000145",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000162",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000145",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000163",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000145",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000127",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000145",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000145",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000144",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000146",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000125",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000146",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000135",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000146",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000145",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000147",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000148",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000147",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000147",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000144",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000148",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000139",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000148",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000147",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000149",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000142",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000149",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000144",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000150",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000151",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000150",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000151",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000150",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000152",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000153",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000152",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000156",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000152",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000165",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000152",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000152",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000144",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000153",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000154",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000153",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000152",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000153",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000154",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000153",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000154",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000155",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000157",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000155",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000155",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000021",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000156",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000144",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000156",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000152",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000157",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000142",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000157",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000155",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000158",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000159",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000158",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000142",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000159",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000160",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000159",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000140",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000159",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000158",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000160",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000161",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000160",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000166",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000160",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000171",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000160",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000172",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000160",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000159",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000161",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000140",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000161",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000160",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000162",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000163",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000162",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000139",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000162",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000145",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000163",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000129",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000163",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000145",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000163",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000162",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000164",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000165",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000164",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000134",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000164",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000135",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000164",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000165",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000152",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000165",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000164",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000166",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000139",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000166",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000160",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000167",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000167",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000138",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000168",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000168",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000014",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000168",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000137",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000169",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000170",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000169",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000172",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000169",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000064",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000169",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000143",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000170",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000169",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000171",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000101",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000171",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000160",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000172",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000137",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000172",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000160",
+      "required": true
+    },
+    {
+      "source": "AA-SKL-000172",
+      "relationship": "depends_on",
+      "target": "AA-SKL-000169",
+      "required": true
+    },
+    {
+      "source": "CO-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "CO-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000137",
+      "required": true
+    },
+    {
+      "source": "CO-SKL-000004",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "CO-SKL-000004",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000014",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000012",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000014",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000035",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000002",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000003",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000004",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000014",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000004",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000004",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000035",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000004",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000004",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000005",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000005",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000005",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000034",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000005",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000005",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000006",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000006",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000034",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000006",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000007",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000012",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000007",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000007",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000007",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000008",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000008",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000008",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000008",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000009",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000009",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000016",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000009",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000020",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000009",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000009",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000009",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000034",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000010",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000016",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000010",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000010",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000020",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000010",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000010",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000010",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000010",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000010",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000021",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000022",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000011",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000011",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000012",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000012",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000012",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000012",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000012",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000013",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000014",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000014",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000015",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000022",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000015",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000015",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000016",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000016",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000016",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000016",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000016",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000016",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000017",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000017",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000017",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000017",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000012",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000018",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000021",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000018",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000018",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000018",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000018",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000018",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000018",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000016",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000018",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000019",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000019",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000019",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000019",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000019",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000019",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000012",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000020",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000020",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000035",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000020",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000020",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000021",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000022",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000021",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000021",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000022",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000022",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000022",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000021",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000023",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000023",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000024",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000024",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000025",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000025",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000025",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000026",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000026",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000012",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000027",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000027",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000016",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000027",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000027",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000028",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000020",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000028",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000029",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000029",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000029",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000029",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000029",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000029",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000030",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000030",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000030",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000016",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000030",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000031",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000032",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000031",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000031",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000031",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000031",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000032",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000032",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000033",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000033",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000032",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000034",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000034",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000034",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000035",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000035",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000035",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000020",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000036",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000036",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000036",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000037",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000037",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000037",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000037",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000038",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000038",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000016",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000038",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000038",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000039",
+      "relationship": "consumed_by",
+      "target": "LMS-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000039",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000039",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000039",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000039",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000040",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000040",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000040",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000040",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "LMS-SKL-000040",
+      "relationship": "depends_on",
+      "target": "LMS-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000154",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000001",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000021",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000002",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000022",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000003",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000035",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000003",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000003",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000004",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000004",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000032",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000004",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000005",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000005",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000005",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000005",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000005",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000032",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000005",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000005",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000006",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000006",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000006",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000006",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000006",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000006",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000006",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000006",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000046",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000006",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000006",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000007",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000007",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000007",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000007",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000007",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000007",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000007",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000008",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000014",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000008",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000008",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000008",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000035",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000008",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000056",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000008",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000008",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000009",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000009",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000014",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000009",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000009",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000045",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000009",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000009",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000010",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000010",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000010",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000010",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000010",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000012",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000016",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000011",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000011",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000011",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000011",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000012",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000012",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000055",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000012",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000020",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000041",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000013",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000043",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000013",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000013",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000012",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000014",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000045",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000014",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000014",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000015",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000016",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000015",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000020",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000015",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000015",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000015",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000016",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000016",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000017",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000017",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000017",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000017",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000017",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000017",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000017",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000017",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000046",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000017",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000017",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000017",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000018",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000018",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000018",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000018",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000018",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000018",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000018",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000018",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000019",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000020",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000019",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000019",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000019",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000019",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000019",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000019",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000020",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000020",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000020",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000021",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000155",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000021",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000022",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000021",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000034",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000021",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000035",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000021",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000022",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000022",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000034",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000022",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000002",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000022",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000021",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000023",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000023",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000023",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000024",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000024",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000024",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000022",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000025",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000025",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000044",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000025",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000046",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000025",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000047",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000025",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000025",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000026",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000026",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000026",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000027",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000027",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000007",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000027",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000010",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000027",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000027",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000026",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000028",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000048",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000028",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000028",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000029",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000048",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000029",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000029",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000040",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000030",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000030",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000030",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000030",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000030",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000031",
+      "relationship": "consumed_by",
+      "target": "AA-SKL-000153",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000031",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000032",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000031",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000001",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000031",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000032",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000033",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000032",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000004",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000032",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000005",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000032",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000031",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000033",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000033",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000024",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000033",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000032",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000034",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000021",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000034",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000022",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000035",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000035",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000003",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000035",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000035",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000021",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000036",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000044",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000036",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000047",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000036",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000036",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000036",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000037",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000045",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000037",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000050",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000037",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000023",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000037",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000035",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000038",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000038",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000038",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000038",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000027",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000039",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000049",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000039",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000015",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000039",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000039",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000038",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000040",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000011",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000040",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000040",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000019",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000040",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000041",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000043",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000041",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000041",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000053",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000041",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000042",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000043",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000042",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000042",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000052",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000042",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000054",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000042",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000043",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000044",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000043",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000043",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000053",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000043",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000054",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000043",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000055",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000043",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000013",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000043",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000041",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000043",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000044",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000044",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000052",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000044",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000053",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000044",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000054",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000044",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000055",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000044",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000044",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000044",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000043",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000045",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000009",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000045",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000014",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000045",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000046",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000006",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000046",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000046",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000047",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000025",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000047",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000048",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000049",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000048",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000028",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000048",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000029",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000049",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000039",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000049",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000048",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000050",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000017",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000050",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000018",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000050",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000030",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000050",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000036",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000050",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000037",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000051",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000052",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000051",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000053",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000051",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000054",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000051",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000055",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000051",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000056",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000051",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000041",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000051",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000051",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000043",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000051",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000044",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000052",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000056",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000052",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000052",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000044",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000052",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000053",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000056",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000053",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000041",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000053",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000043",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000053",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000044",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000053",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000054",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000056",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000054",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000042",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000054",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000043",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000054",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000044",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000054",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000055",
+      "relationship": "consumed_by",
+      "target": "MA-SKL-000056",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000055",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000012",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000055",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000043",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000055",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000044",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000055",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000056",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000008",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000056",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000051",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000056",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000052",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000056",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000053",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000056",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000054",
+      "required": true
+    },
+    {
+      "source": "MA-SKL-000056",
+      "relationship": "depends_on",
+      "target": "MA-SKL-000055",
+      "required": true
+    }
+  ]
+}

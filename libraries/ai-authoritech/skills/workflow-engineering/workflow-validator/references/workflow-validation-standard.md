@@ -1,0 +1,3 @@
+# Workflow Validation Standard
+
+Freeze the exact version, scope, requirements, evidence, and review boundary. Trace every trigger through all branches to explicit completion, failure, cancellation, compensation, or escalation. Verify ownership, authority, segregation, handoffs, data, systems of record, exceptions, retries, timing, concurrency, controls, accessibility, audit, retention, and recovery. Walk normal, boundary, failure, duplicate, partial, and unauthorized scenarios with authorized stakeholders. Record defects with severity, evidence, owner, remediation, and retest scope. Limit the verdict to the frozen version and never infer agreement from silence.

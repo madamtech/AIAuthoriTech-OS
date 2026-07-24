@@ -5,7 +5,9 @@ description: Build a governed MadamAllure product catalog with stable SKUs, vari
 
 # Product Catalog Builder
 
-## Workflow
+Use the [operating standard](references/catalog-content-standard.md) and [working template](assets/product-catalog-template.md).
+
+## Procedure
 
 1. Define catalog scope, channels, taxonomy, naming, owners, and required fields.
 2. Assign stable product and variant identifiers without reusing retired SKUs.
@@ -13,7 +15,7 @@ description: Build a governed MadamAllure product catalog with stable SKUs, vari
 4. Validate variant combinations, search terms, accessibility text, claims, and channel constraints.
 5. Establish draft, active, seasonal, retired, and archived lifecycle controls.
 
-## Output
+## Output Contract
 
 Provide taxonomy, data dictionary, SKU rules, product records, variant matrix, missing-data report, publication checklist, and maintenance cadence.
 
@@ -23,3 +25,6 @@ Provide taxonomy, data dictionary, SKU rules, product records, variant matrix, m
 - Preserve historical identifiers.
 - Keep internal cost data separate from customer-facing content.
 
+## Recovery
+
+If product identity, version, materials, variations, personalization, images, claims, price, inventory status, lead time, or approval is unresolved, keep the item in draft. Separate internal production data from customer-facing content and retire superseded versions safely.

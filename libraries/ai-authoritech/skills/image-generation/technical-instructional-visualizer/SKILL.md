@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000150
-asset_id: image-generation.technical-instructional-visualizer.v1
-version: 1.0.0
-status: testing
+name: technical-instructional-visualizer
+description: "Create accurate visuals for training, procedures, interfaces, equipment, process explanation, and technical communication. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Technical and Instructional Visualizer
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Create accurate visuals for training, procedures, interfaces, equipment, process explanation, and technical communication.
@@ -15,10 +15,10 @@ Learning objective, source documentation, equipment/interface references, audien
 ## Procedure
 Identify the exact instructional decision, simplify only nonessential detail, preserve equipment geometry and interface hierarchy, define viewpoint, callouts, sequence state, and safety/context cues. Separate decorative art from factual diagrams.
 
-## Output contract
+## Output Contract
 Instructional visual brief, accuracy checklist, callout plan, sequence or state definition, labels, accessibility notes, and source traceability.
 
-## Rules
+## Guardrails
 Never invent controls, ports, screens, product capabilities, or placement. Use screenshots or supplied references as authority. Flag uncertain technical details.
 
 ## QA

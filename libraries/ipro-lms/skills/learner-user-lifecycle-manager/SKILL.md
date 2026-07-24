@@ -5,9 +5,11 @@ description: Design and audit learner identity and access lifecycle across hirin
 
 # Learner User Lifecycle Manager
 
+Use the [operating standard](references/learner-lifecycle-standard.md) and [working template](assets/learner-lifecycle-template.md).
+
 Keep access current while preserving authoritative learning history.
 
-## Workflow
+## Procedure
 
 1. Identify user populations, identity sources, unique keys, account owners, authentication, and data-classification requirements.
 2. Map lifecycle events from creation through activation, updates, leave, transfer, rehire, separation, deactivation, and archival.
@@ -17,7 +19,7 @@ Keep access current while preserving authoritative learning history.
 6. Define failed-provisioning, stale-account, orphan, shared-email, contractor, and retroactive-correction handling.
 7. Test normal and boundary events, reconcile populations, and establish operational monitoring.
 
-## Output
+## Output Contract
 
 Provide lifecycle state model, system-of-record matrix, identity rules, access matrix, event mappings, exception procedures, reconciliation controls, retention requirements, and test plan.
 
@@ -28,3 +30,6 @@ Provide lifecycle state model, system-of-record matrix, identity rules, access m
 - Do not erase required learning records when access ends.
 - Require authorization for account merges and manual overrides.
 
+## Recovery
+
+If identity authority, joiner or mover rules, deactivation timing, transcript retention, merge evidence, privacy, or override approval is unresolved, preserve the account and learning record. Escalate through the authorized identity process.

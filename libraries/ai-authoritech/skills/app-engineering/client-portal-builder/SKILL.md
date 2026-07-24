@@ -1,11 +1,13 @@
 ---
 name: client-portal-builder
-description: Create build-ready specifications and staged implementation plans for secure, accessible client portals covering tenant boundaries, onboarding, identity, permissions, dashboards, projects, tasks, documents, messages, approvals, billing views, support, notifications, integrations, audit, data lifecycle, responsive UX, testing, deployment, and operations. Use for consulting, agency, professional-services, customer-success, partner, or account portals—not to invent business processes, expose internal-only data, process live payments, or deploy without authorization and verification.
+description: Create build-ready specifications and staged implementation plans for secure, accessible client portals covering tenant boundaries, onboarding, identity, permissions, dashboards, projects, tasks, documents, messages, approvals, billing views, support, notifications, integrations, audit, data lifecycle, responsive UX, testing, deployment, and operations. Use for consulting, agency, professional-services, customer-success, partner, or account portals - not to invent business processes, expose internal-only data, process live payments, or deploy without authorization and verification.
 ---
 
 # Client Portal Builder
 
 Design the client relationship and authorization model before the dashboard.
+
+## Procedure
 
 1. Confirm the portal outcome, client types, internal teams, current service
    workflow, systems of record, brand, devices, languages, accessibility target,
@@ -60,7 +62,7 @@ Design the client relationship and authorization model before the dashboard.
 16. Deliver with
     [assets/client-portal-plan-template.md](assets/client-portal-plan-template.md).
 
-## Rules
+## Guardrails
 
 - Do not trust organization or project identifiers supplied by the browser without
   authorized server-side resolution.
@@ -76,7 +78,15 @@ Design the client relationship and authorization model before the dashboard.
   audit requirements.
 - Preserve an export and offboarding path for client-owned information.
 
-## Handoff
+## Recovery
+
+If tenant ownership, resource authorization, source-of-truth state, or document
+classification cannot be verified, deny the affected action and preserve the
+client's last verified view. Reconcile upstream state before retrying writes,
+record partial failures, and route legally binding, payment, privacy, or security
+decisions to the authorized specialist or system.
+
+## Output Contract
 
 Provide the portal charter, tenant and role model, journey map, information
 architecture, page and state inventory, source-of-truth map, documents,

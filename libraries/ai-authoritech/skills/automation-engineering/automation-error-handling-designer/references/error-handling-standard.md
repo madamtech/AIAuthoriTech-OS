@@ -1,0 +1,3 @@
+# Error Handling Standard
+
+Classify validation, authorization, conflict, duplicate, timeout, throttling, dependency, partial, and terminal failures. Define authoritative state, detection, safe diagnostic context, correlation, severity, retryability, bounded retries, backoff, jitter, retry budget, idempotency, circuit breaking, compensation, dead letters, replay, reconciliation, quarantine, manual correction, escalation, and user communication. Never report partial completion as success. Test lost acknowledgments, duplicate effects, stale state, dependency loss, failed compensation, and recovery. Require named operational and incident owners.

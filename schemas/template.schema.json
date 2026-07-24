@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "template.schema.json",
+  "title": "Template Package",
+  "allOf": [
+    {"$ref": "asset-manifest.schema.json"},
+    {
+      "type": "object",
+      "required": ["format", "source_file", "variables", "usage_rules", "produces"],
+      "properties": {
+        "asset_type": {"const": "TMP"},
+        "format": {"type": "string", "minLength": 1},
+        "source_file": {"type": "string", "minLength": 1},
+        "variables": {"type": "array", "items": {"type": "object", "required": ["name", "required"]}},
+        "usage_rules": {"type": "array", "items": {"type": "string"}},
+        "produces": {"type": "string", "minLength": 1}
+      }
+    }
+  ]
+}

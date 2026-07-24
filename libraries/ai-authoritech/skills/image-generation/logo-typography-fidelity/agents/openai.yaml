@@ -1,0 +1,4 @@
+interface:
+  display_name: "Logo and Typography Fidelity Controller"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $logo-typography-fidelity to create and validate this visual deliverable."

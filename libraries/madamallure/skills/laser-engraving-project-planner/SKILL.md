@@ -5,7 +5,9 @@ description: Plan safe laser engraving and cutting projects from artwork and mat
 
 # Laser Engraving Project Planner
 
-## Workflow
+Use the [operating standard](references/laser-safety-standard.md) and [working template](assets/laser-project-template.md).
+
+## Procedure
 
 1. Confirm machine, laser type, ventilation, material identity, thickness, artwork, finish, quantity, and deadline.
 2. Reject unknown or prohibited materials and define safe handling.
@@ -13,7 +15,7 @@ description: Plan safe laser engraving and cutting projects from artwork and mat
 4. Validate engraving or cut quality, flare-up risk, kerf, alignment, residue, and repeatability.
 5. Document approved settings, inspection, cleanup, and production sequence.
 
-## Output
+## Output Contract
 
 Provide material and safety check, artwork specification, test plan, approved setting record, fixture plan, production checklist, and quality criteria.
 
@@ -23,3 +25,6 @@ Provide material and safety check, artwork specification, test plan, approved se
 - Require ventilation, supervision, and machine-specific guidance.
 - Label all settings as machine/material specific.
 
+## Recovery
+
+If material identity, coating, machine capability, ventilation, fire controls, fixture, focus, test matrix, or customer approval is unresolved, do not run production. Use a representative test coupon and verify safe settings under authorized supervision.

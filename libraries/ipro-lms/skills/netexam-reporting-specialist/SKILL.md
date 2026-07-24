@@ -5,9 +5,11 @@ description: Design, troubleshoot, and validate NetExam reports for learners, co
 
 # NetExam Reporting Specialist
 
+Use the [operating standard](references/netexam-reporting-standard.md) and [working template](assets/netexam-report-template.md).
+
 Build reproducible reports whose fields and populations answer a defined business question.
 
-## Workflow
+## Procedure
 
 1. Clarify the decision, population, date basis, grain, required fields, owner, cadence, and access scope.
 2. Identify NetExam objects, relationships, branch constraints, status semantics, and authoritative timestamps.
@@ -16,7 +18,7 @@ Build reproducible reports whose fields and populations answer a defined busines
 5. Reconcile representative records and totals against trusted detail.
 6. Document export, scheduling, delivery, privacy, retention, and monitoring controls.
 
-## Output
+## Output Contract
 
 Provide a report specification, field dictionary, filter and join logic, reconciliation evidence, exception findings, security requirements, schedule, and interpretation notes.
 
@@ -27,3 +29,6 @@ Provide a report specification, field dictionary, filter and join logic, reconci
 - State whether dates represent enrollment, attempt, completion, issuance, or expiration.
 - Do not combine grains without explicit aggregation logic.
 
+## Recovery
+
+If report grain, field semantics, filters, timezone, joins, security scope, refresh, or reconciliation control is unresolved, publish qualified results only. Do not use unreconciled output for credential, compliance, or learner decisions.

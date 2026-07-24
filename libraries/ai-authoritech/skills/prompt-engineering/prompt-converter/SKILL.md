@@ -7,6 +7,8 @@ description: Convert an approved canonical prompt contract into versioned model-
 
 Create a target adapter, not an ungoverned rewrite.
 
+## Procedure
+
 1. Obtain the approved canonical prompt contract, version, owner, task and
    non-goals, instruction layers, precedence, variables, knowledge interfaces,
    tool contracts, output schema, safety rules, test suite, and baseline evidence.
@@ -49,7 +51,7 @@ Create a target adapter, not an ungoverned rewrite.
     release boundary, monitoring, re-evaluation triggers, and rollback artifact.
 14. Deliver with [assets/prompt-conversion-package-template.md](assets/prompt-conversion-package-template.md).
 
-## Rules
+## Guardrails
 
 - Do not use provider names, model labels, or platform marketing as evidence of
   capability; verify the exact target version and surface.
@@ -66,7 +68,15 @@ Create a target adapter, not an ungoverned rewrite.
 - Do not overwrite the canonical prompt; adapters depend on it and remain
   separately versioned.
 
-## Handoff
+## Recovery
+
+If the target cannot preserve instruction authority, tool enforcement, protected
+semantics, or required output behavior, mark the adapter partial, blocked, or
+inconclusive and preserve the canonical prompt. Revert to the last tested adapter,
+record unsupported capabilities, and require owner approval and equivalence tests
+before accepting intentional drift.
+
+## Output Contract
 
 Provide source and target manifests, capability matrix, protected semantics,
 instruction and variable mappings, tool and schema mappings, converted adapter,

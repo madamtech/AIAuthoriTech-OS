@@ -1,0 +1,3 @@
+# Workflow Optimization Standard
+
+Optimize only a validated current state with baseline demand, quality, effort, cycle time, queues, controls, and ownership. Separate value work, required controls, delay, rework, duplication, handoffs, and failure demand. Trace root causes before proposing elimination, simplification, standardization, parallel work, rebalancing, self-service, or automation. Compare options by benefit, effort, risk, adoption, capacity, dependencies, reversibility, and displaced work. Preserve safety, privacy, authority, accessibility, and exception handling. Treat benefits as hypotheses until a measurable reversible pilot validates them.

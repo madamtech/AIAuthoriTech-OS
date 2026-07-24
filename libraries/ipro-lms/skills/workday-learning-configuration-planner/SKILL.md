@@ -5,9 +5,11 @@ description: Plan governed Workday Learning configurations for content, campaign
 
 # Workday Learning Configuration Planner
 
+Use the [operating standard](references/workday-configuration-standard.md) and [working template](assets/workday-configuration-template.md).
+
 Create a configuration-ready design without claiming unverified tenant features or making unauthorized changes.
 
-## Workflow
+## Procedure
 
 1. Confirm the business requirement, learner population, owner, tenant/environment, security roles, integrations, and release constraints.
 2. Inventory required learning content, offerings, lessons, campaigns, audiences, prerequisites, equivalencies, and completion evidence.
@@ -17,7 +19,7 @@ Create a configuration-ready design without claiming unverified tenant features 
 6. Prepare positive, negative, boundary, role-security, reporting, and regression tests.
 7. Specify approvals, migration order, production promotion, monitoring, and rollback.
 
-## Output
+## Output Contract
 
 Provide a requirements matrix, object/configuration inventory, security and audience rules, integration impacts, test plan, deployment checklist, rollback plan, open decisions, and validation status.
 
@@ -28,3 +30,6 @@ Provide a requirements matrix, object/configuration inventory, security and audi
 - Do not expose worker data or production credentials.
 - Do not execute tenant changes without explicit authorization.
 
+## Recovery
+
+If tenant capability, security roles, effective dates, integration ownership, test access, migration order, or authorization is unresolved, stop the affected deployment stage. Record the gap, preserve tenant evidence, and provide a sandbox validation plan.

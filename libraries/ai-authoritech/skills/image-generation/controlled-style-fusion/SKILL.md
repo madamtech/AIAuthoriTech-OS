@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000166
-asset_id: image-generation.controlled-style-fusion.v1
-version: 1.0.0
-status: testing
+name: controlled-style-fusion
+description: "Combine approved visual styles intentionally while preserving identity, brand, readability, and a clear dominant style. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Controlled Style Fusion Director
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Combine approved visual styles intentionally while preserving identity, brand, readability, and a clear dominant style.
@@ -15,10 +15,10 @@ Primary style, secondary style(s), fusion purpose, percentage emphasis, locked t
 ## Procedure
 Define the dominant style, assign each secondary style to specific attributes such as lighting, texture, shape language, or color grade, and prohibit uncontrolled blending. Establish fusion ratios and visual tests.
 
-## Output contract
+## Output Contract
 Fusion map, dominant/secondary roles, retained traits, excluded traits, prompt block, and QA scorecard.
 
-## Rules
+## Guardrails
 Never fuse styles merely because multiple references are present. Identity and brand locks outrank stylistic effects.
 
 ## QA

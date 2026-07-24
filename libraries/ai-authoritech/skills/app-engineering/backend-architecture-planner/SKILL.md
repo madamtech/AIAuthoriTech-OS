@@ -1,12 +1,14 @@
 ---
 name: backend-architecture-planner
-description: Convert approved product requirements, business rules, data models, access policies, integrations, workloads, and service objectives into a provider-neutral backend architecture covering domain and service boundaries, APIs, events, jobs, data authority, transactions, identity, authorization, idempotency, consistency, resilience, scaling, security, privacy, observability, testing, deployment, migration, cost, and operations. Use before implementing or redesigning application backends, APIs, services, workers, or serverless systems—not to invent material requirements, provision production resources, or default to microservices without organizational and workload evidence.
+description: Convert approved product requirements, business rules, data models, access policies, integrations, workloads, and service objectives into a provider-neutral backend architecture covering domain and service boundaries, APIs, events, jobs, data authority, transactions, identity, authorization, idempotency, consistency, resilience, scaling, security, privacy, observability, testing, deployment, migration, cost, and operations. Use before implementing or redesigning application backends, APIs, services, workers, or serverless systems - not to invent material requirements, provision production resources, or default to microservices without organizational and workload evidence.
 ---
 
 # Backend Architecture Planner
 
 Make ownership, authority, and failure behavior explicit before choosing runtime
 topology.
+
+## Procedure
 
 1. Confirm requirements, actors, business rules, critical journeys, workloads,
    volumes, growth, latency, consistency, availability, recovery, data classes,
@@ -65,7 +67,7 @@ topology.
 18. Deliver with
     [assets/backend-architecture-template.md](assets/backend-architecture-template.md).
 
-## Rules
+## Guardrails
 
 - Do not choose microservices merely for scale, fashion, or future possibility.
 - Do not split a boundary without an owner, contract, failure model, deployment
@@ -82,7 +84,15 @@ topology.
 - Do not optimize availability, performance, or cost by weakening correctness,
   security, privacy, recovery, or required auditability.
 
-## Handoff
+## Recovery
+
+If ownership, authorization, consistency, external effects, or migration safety
+cannot be resolved, keep the affected boundary provisional and block production
+implementation. Preserve authoritative state, prevent unsafe retries, reconcile
+partial effects, and require an explicit owner and recovery model before splitting
+or promoting the service boundary.
+
+## Output Contract
 
 Provide the scope and assumptions, domain and ownership map, topology decision,
 module and service boundaries, contracts, data and consistency model, identity and

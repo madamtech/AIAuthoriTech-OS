@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fashion Product Collage Director"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $fashion-product-collage-director to create and validate this visual deliverable."

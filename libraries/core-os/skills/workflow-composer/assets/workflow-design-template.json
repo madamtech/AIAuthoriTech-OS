@@ -1,0 +1,32 @@
+{
+  "sku": "<BUSINESS>-WFL-<SEQUENCE>",
+  "asset_id": "<domain>.<workflow-name>.v1",
+  "name": "<workflow name>",
+  "asset_type": "WFL",
+  "business": "<business>",
+  "library": "<library>",
+  "version": "1.0.0",
+  "status": "draft",
+  "maturity": 1,
+  "description": "<business outcome and activation context>",
+  "owners": ["<owner>"],
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "trigger": "<trigger>",
+  "state": [],
+  "stages": [
+    {
+      "id": "stage-1",
+      "name": "<stage name>",
+      "action": "<one action>",
+      "on_success": "complete",
+      "on_failure": "escalate"
+    }
+  ],
+  "completion_criteria": ["<validated outcome>"],
+  "failure_policy": {
+    "retry_limit": 0,
+    "escalation": "<owner or route>"
+  }
+}

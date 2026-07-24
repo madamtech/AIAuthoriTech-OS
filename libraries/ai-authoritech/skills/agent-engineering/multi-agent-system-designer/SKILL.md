@@ -1,12 +1,14 @@
 ---
 name: multi-agent-system-designer
-description: Determine whether multiple AI agents are justified and design a bounded multi-agent system with explicit roles, authority, routing, coordination, shared state, message contracts, handoffs, conflict resolution, human approvals, failure containment, evaluation, deployment, monitoring, and ownership. Use for orchestrator-worker systems, specialist agent teams, parallel agent workflows, reviewer patterns, or cross-domain coordination—not decorative agent personas, simple sequential workflows, or implementation on an unspecified platform.
+description: Determine whether multiple AI agents are justified and design a bounded multi-agent system with explicit roles, authority, routing, coordination, shared state, message contracts, handoffs, conflict resolution, human approvals, failure containment, evaluation, deployment, monitoring, and ownership. Use for orchestrator-worker systems, specialist agent teams, parallel agent workflows, reviewer patterns, or cross-domain coordination - not decorative agent personas, simple sequential workflows, or implementation on an unspecified platform.
 ---
 
 # Multi-Agent System Designer
 
 Use the fewest independently operating agents needed to achieve a measurable
 benefit.
+
+## Procedure
 
 1. Define the outcome, tasks, dependencies, consequence, volume, latency, privacy,
    specialization needs, and success measures.
@@ -42,7 +44,7 @@ benefit.
 13. Deliver with
     [assets/multi-agent-system-template.md](assets/multi-agent-system-template.md).
 
-## Rules
+## Guardrails
 
 - Do not create an agent for a role that can be a deterministic function, policy,
   tool, queue, or workflow step.
@@ -57,9 +59,16 @@ benefit.
   without evidence and an accountable decision rule.
 - Keep platform-specific runtime configuration in adapters.
 
-## Handoff
+## Output Contract
 
 Provide the necessity decision, topology, agent cards, authority matrix, routing
 rules, communication and state contracts, handoff and conflict policies, failure
 containment, human gates, evaluation plan, operating model, cost and latency model,
 risks, and implementation tasks.
+
+## Recovery
+
+If multi-agent benefit is not demonstrated, collapse the design to one agent or a
+deterministic workflow. If agents disagree, apply evidence and the accountable
+decision rule rather than repeated debate. If identity, shared state, or authority
+cannot be validated, reject the handoff and contain the affected branch.

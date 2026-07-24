@@ -1,12 +1,14 @@
 ---
 name: agent-deployment-planner
-description: Convert an approved AI agent release candidate into a controlled, platform-aware deployment plan covering artifacts, environments, configuration, secrets, data migration, access, rollout, verification, monitoring, incident response, rollback, ownership, and post-release review. Use for first releases, upgrades, migrations, staged rollouts, production cutovers, or deployment-readiness reviews—not agent architecture, implementation, QA execution, or production deployment without explicit authorization.
+description: Convert an approved AI agent release candidate into a controlled, platform-aware deployment plan covering artifacts, environments, configuration, secrets, data migration, access, rollout, verification, monitoring, incident response, rollback, ownership, and post-release review. Use for first releases, upgrades, migrations, staged rollouts, production cutovers, or deployment-readiness reviews - not agent architecture, implementation, QA execution, or production deployment without explicit authorization.
 ---
 
 # Agent Deployment Planner
 
 Plan a reversible release whose exact artifact, authority, and effects can be
 verified.
+
+## Procedure
 
 1. Confirm the approved architecture, QA verdict, unresolved conditions, release
    artifact, configuration fingerprint, platform, risk tier, autonomy tier,
@@ -39,7 +41,7 @@ verified.
 12. Deliver with
     [assets/agent-deployment-plan-template.md](assets/agent-deployment-plan-template.md).
 
-## Rules
+## Guardrails
 
 - Do not treat a QA recommendation as production authorization.
 - Do not deploy or change live infrastructure unless the user explicitly requests
@@ -55,9 +57,16 @@ verified.
   deployment window changes.
 - Separate platform-independent release controls from provider-specific commands.
 
-## Handoff
+## Output Contract
 
 Provide the release fingerprint, readiness decision, component and dependency
 inventory, environment matrix, rollout runbook, approval gates, verification
 matrix, guardrails, rollback and recovery plan, observability and incident model,
 communications, ownership, residual risks, and closure criteria.
+
+## Recovery
+
+If the release fingerprint differs from the tested candidate, stop promotion and
+require renewed QA. If a rollout guardrail fails, pause exposure, preserve evidence,
+and execute the authorized rollback or escalation path. Do not close recovery until
+traffic, state, data, permissions, queues, and external effects reconcile.

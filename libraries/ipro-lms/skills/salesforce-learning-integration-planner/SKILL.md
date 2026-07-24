@@ -5,9 +5,11 @@ description: Plan Salesforce-to-LMS learning integrations by defining system own
 
 # Salesforce Learning Integration Planner
 
+Use the [operating standard](references/learning-integration-standard.md) and [working template](assets/salesforce-integration-template.md).
+
 Design an auditable integration contract before implementation.
 
-## Workflow
+## Procedure
 
 1. Define the business outcome, source and target systems, integration direction, frequency, environments, owners, and service levels.
 2. Identify learner, account, contact, product, enrollment, course, completion, score, certification, and status objects in scope.
@@ -18,7 +20,7 @@ Design an auditable integration contract before implementation.
 7. Create normal, duplicate, missing, late, invalid, revoked-access, partial-failure, and volume tests.
 8. Plan cutover, backfill, rollback, monitoring, and support ownership.
 
-## Output
+## Output Contract
 
 Provide a context diagram, system-of-record matrix, object/field mapping, event contract, security controls, error strategy, reconciliation plan, test matrix, deployment plan, and open decisions.
 
@@ -29,3 +31,6 @@ Provide a context diagram, system-of-record matrix, object/field mapping, event 
 - Preserve source history and prevent duplicate side effects.
 - Require security and data-owner approval before production.
 
+## Recovery
+
+If source ownership, identity keys, field mappings, consent, security, error handling, reconciliation, rollback, or production authority is unresolved, stop the affected data flow. Preserve trace evidence and route the decision to system owners.

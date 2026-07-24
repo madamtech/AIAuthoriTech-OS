@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000154
-asset_id: image-generation.three-d-print-concept-art-director.v1
-version: 1.0.0
-status: testing
+name: three-d-print-concept-art-director
+description: "Design printable-object concepts that respect manufacturing constraints before CAD or sculpting begins. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # 3D Print Concept Art Director
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Design printable-object concepts that respect manufacturing constraints before CAD or sculpting begins.
@@ -15,10 +15,10 @@ Printer, nozzle, material, target dimensions, use, assembly, color count, suppor
 ## Procedure
 Translate the concept into printable masses, stable stance, minimum feature sizes, wall-thickness intent, support strategy, part orientation, color separations, connection methods, and post-processing plan. Identify features that require engineering validation.
 
-## Output contract
+## Output Contract
 Concept brief, printable part breakdown, risk list, support/overhang guidance, color plan, dimension assumptions, and handoff to STL production.
 
-## Rules
+## Guardrails
 Never label concept art as print-ready geometry. Avoid fragile floating details, impossible cavities, unsupported thin elements, and inaccessible NFC/tag placements.
 
 ## QA

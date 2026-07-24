@@ -5,13 +5,15 @@ description: Diagnose 3D-print failures using evidence from the model, slicer, m
 
 # Print Failure Diagnoser
 
-## Workflow
+Use the [operating standard](references/print-diagnosis-standard.md) and [working template](assets/print-diagnosis-template.md).
+
+## Procedure
 
 1. Capture photos, failure layer, printer, profile, material condition, environment, maintenance, and recent changes.
 2. Classify the symptom and rank causes across model, slicing, material, mechanics, temperature, motion, and workflow.
 3. Test one controlled change at a time, verify recovery with repeat runs, and document prevention.
 
-## Output
+## Output Contract
 
 Provide verified inputs, specifications, assumptions, risks, approvals, execution steps, owners, and validation criteria.
 
@@ -22,3 +24,6 @@ Provide verified inputs, specifications, assumptions, risks, approvals, executio
 - Require approval before irreversible production, pricing, or customer communication.
 - Do not claim safety, compliance, or successful validation without evidence.
 
+## Recovery
+
+If the machine has unsafe motion, overheating, electrical, ventilation, damaged hardware, or unknown-material indicators, stop and remove it from service. Preserve evidence and escalate to qualified maintenance rather than continuing diagnostic prints.

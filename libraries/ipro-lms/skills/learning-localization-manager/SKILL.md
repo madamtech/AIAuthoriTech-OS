@@ -5,9 +5,11 @@ description: Plan and govern localization of learning content, assessments, meta
 
 # Learning Localization Manager
 
+Use the [operating standard](references/localization-control-standard.md) and [working template](assets/localization-plan-template.md).
+
 Coordinate accurate localization while preserving instructional meaning, functionality, and version traceability.
 
-## Workflow
+## Procedure
 
 1. Define locales, audiences, source version, content types, owners, regulatory constraints, dates, and acceptance criteria.
 2. Inventory translatable text, media, captions, documents, graphics, variables, metadata, assessments, certificates, and notifications.
@@ -16,7 +18,7 @@ Coordinate accurate localization while preserving instructional meaning, functio
 5. Test expansion, truncation, encoding, fonts, reading direction, links, narration, timing, scoring, tracking, and search.
 6. Control version changes, translation memory, approvals, release parity, and retirement.
 
-## Output
+## Output Contract
 
 Provide a localization inventory, locale matrix, terminology rules, workflow and responsibilities, QA plan, defect log, release checklist, and version-status report.
 
@@ -27,3 +29,6 @@ Provide a localization inventory, locale matrix, terminology rules, workflow and
 - Protect secure assessment content.
 - Distinguish translation from cultural or regulatory adaptation.
 
+## Recovery
+
+If source version, locale, terminology, reviewer authority, cultural adaptation, legal requirement, layout behavior, accessibility, or approval is unresolved, hold publication for that locale. Preserve source-to-target traceability and route decisions to qualified reviewers.

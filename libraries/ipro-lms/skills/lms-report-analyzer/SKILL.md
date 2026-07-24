@@ -1,13 +1,13 @@
 ---
 name: lms-report-analyzer
-description: Analyze LMS reports by validating definitions, filters, status semantics, joins, dates, populations, and reconciliation evidence before interpreting trends. Use for completion, enrollment, certification, exam, transcript, adoption, or exception reporting.
+description: Analyze LMS reports by validating the business question, population, grain, definitions, security scope, filters, status semantics, joins, dates, timezones, refresh timing, data quality, and reconciliation evidence before interpreting metrics. Use for learning, certification, exam, transcript, adoption, or exception reporting. Do not infer causation or treat missing data as zero without evidence.
 ---
 
 # LMS Report Analyzer
 
-Produce decisions from LMS data without overstating what the report proves.
+Use the [LMS reporting standard](references/lms-reporting-standard.md) and [LMS analysis template](assets/lms-analysis-template.md).
 
-## Workflow
+## Procedure
 
 1. Clarify the business question, decision owner, population, period, grain, and expected source of truth.
 2. Inventory fields, filters, joins, refresh time, timezone, security scope, and export limitations.
@@ -17,7 +17,7 @@ Produce decisions from LMS data without overstating what the report proves.
 6. Calculate only metrics supported by the data and separate facts, interpretations, and hypotheses.
 7. Prioritize anomalies and recommended follow-up actions.
 
-## Output
+## Output Contract
 
 Provide question and scope, data dictionary, quality findings, reconciled totals, metrics, segmented observations, anomalies, likely causes, action recommendations, limitations, and reproducible calculation notes.
 
@@ -28,3 +28,6 @@ Provide question and scope, data dictionary, quality findings, reconciled totals
 - State timezone, snapshot date, and filter logic.
 - Do not claim causation from descriptive reports alone.
 
+## Recovery
+
+If definitions, source-of-truth ownership, security scope, reconciliation controls, refresh time, or joins are unresolved, publish only qualified observations. Label unreconciled totals and do not use them for compliance, performance, or credential decisions.

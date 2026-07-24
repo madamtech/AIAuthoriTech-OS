@@ -5,13 +5,15 @@ description: Plan profitable promotions using product costs, margins, inventory,
 
 # Promotion Pricing Planner
 
-## Workflow
+Use the [operating standard](references/promotion-pricing-standard.md) and [working template](assets/promotion-pricing-template.md).
+
+## Procedure
 
 1. Confirm goal, eligible items, cost and margin, inventory, dates, audience, channel fees, exclusions, and capacity.
 2. Model percentage, fixed, bundle, gift, threshold, and limited-quantity scenarios including cannibalization and fulfillment cost.
 3. Set guardrails, approval, customer terms, measurement, stop conditions, and post-promotion review.
 
-## Output
+## Output Contract
 
 Provide verified inputs, specifications, assumptions, risks, approvals, execution steps, owners, and validation criteria.
 
@@ -22,3 +24,6 @@ Provide verified inputs, specifications, assumptions, risks, approvals, executio
 - Require approval before irreversible production, pricing, or customer communication.
 - Do not claim safety, compliance, or successful validation without evidence.
 
+## Recovery
+
+If cost, margin, reference price, inventory, capacity, terms, platform behavior, or approval is unresolved, do not activate the promotion. Preserve the normal price and publish no urgency or savings claim without evidence.

@@ -1,11 +1,13 @@
 ---
 name: error-log-analyzer
-description: Analyze application, infrastructure, device, database, integration, security, job, and AI-system logs by preserving provenance, redacting sensitive data, normalizing timestamps and fields, grouping event signatures, correlating requests and state transitions, establishing baselines, detecting anomalies, reconstructing failure sequences, and producing evidence-backed findings and next queries. Use for incident triage, defect investigation, operational review, and observability improvement—not to treat logs as complete truth, infer causality from proximity alone, expose credentials or personal data, or change live systems without authorization.
+description: Analyze application, infrastructure, device, database, integration, security, job, and AI-system logs by preserving provenance, redacting sensitive data, normalizing timestamps and fields, grouping event signatures, correlating requests and state transitions, establishing baselines, detecting anomalies, reconstructing failure sequences, and producing evidence-backed findings and next queries. Use for incident triage, defect investigation, operational review, and observability improvement - not to treat logs as complete truth, infer causality from proximity alone, expose credentials or personal data, or change live systems without authorization.
 ---
 
 # Error Log Analyzer
 
 Turn noisy log records into a bounded evidence trail.
+
+## Procedure
 
 1. Confirm the question, time window, systems, environments, tenants, versions,
    releases, time zones, user impact, urgency, and whether the work is read-only.
@@ -40,7 +42,7 @@ Turn noisy log records into a bounded evidence trail.
     expected control flow, warning noise, and recovery events. Account for one
     incident producing many records.
 11. Rank clusters by affected outcomes, unique operations, rate change, breadth,
-    duration, severity, recurrence, data or security exposure, and recovery—not
+    duration, severity, recurrence, data or security exposure, and recovery, not
     merely by log level or line count.
 12. Compare working and failing cohorts across input, identity, tenant, data,
     region, device, version, dependency, configuration, flag, deployment, load,
@@ -57,7 +59,7 @@ Turn noisy log records into a bounded evidence trail.
 16. Deliver with
     [assets/error-log-analysis-report-template.md](assets/error-log-analysis-report-template.md).
 
-## Rules
+## Guardrails
 
 - Do not expose or repeat sensitive fields merely because they appeared in logs.
 - Do not alter or delete source logs during analysis.
@@ -71,7 +73,15 @@ Turn noisy log records into a bounded evidence trail.
 - Do not run expensive, unbounded, or production-impacting queries without scope,
   limits, and authorization.
 
-## Handoff
+## Recovery
+
+If timestamps, sampling, retention, identifiers, or source integrity cannot
+support the requested sequence, narrow the claim and identify the missing
+collection needed. Stop or bound queries that threaten production, preserve raw
+evidence, redact sensitive fields, and route causal testing to a controlled bug
+investigation.
+
+## Output Contract
 
 Provide the analysis question and scope, source and quality inventory, redaction
 record, normalized schema, baseline, signature clusters, correlated timeline,

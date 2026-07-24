@@ -1,11 +1,13 @@
 ---
 name: agent-memory-architect
-description: Design safe, governed AI agent memory by determining whether durable memory is necessary and defining memory types, schemas, consent, provenance, identity and tenant isolation, write and retrieval policies, confidence, retention, correction, deletion, security, evaluation, monitoring, migration, and retirement. Use for personalized agents, persistent assistants, long-running case context, episodic learning, or shared agent memory—not ordinary workflow state, authoritative knowledge bases, conversation summarization alone, or unrestricted storage of user data.
+description: Design safe, governed AI agent memory by determining whether durable memory is necessary and defining memory types, schemas, consent, provenance, identity and tenant isolation, write and retrieval policies, confidence, retention, correction, deletion, security, evaluation, monitoring, migration, and retirement. Use for personalized agents, persistent assistants, long-running case context, episodic learning, or shared agent memory - not ordinary workflow state, authoritative knowledge bases, conversation summarization alone, or unrestricted storage of user data.
 ---
 
 # Agent Memory Architect
 
 Store the minimum durable information that creates justified value.
+
+## Procedure
 
 1. Define the user outcome, continuity requirement, decision supported, risk, data
    subjects, jurisdictions, owners, and success measures.
@@ -41,7 +43,7 @@ Store the minimum durable information that creates justified value.
 12. Deliver with
     [assets/agent-memory-design-template.md](assets/agent-memory-design-template.md).
 
-## Rules
+## Guardrails
 
 - Do not store data merely because it may be useful later.
 - Do not store secrets, credentials, sensitive traits, inferred attributes, or
@@ -56,9 +58,16 @@ Store the minimum durable information that creates justified value.
 - Do not promise deletion without defining propagation and verification.
 - Keep provider-specific storage and retrieval settings in adapters.
 
-## Handoff
+## Output Contract
 
 Provide the necessity decision, memory taxonomy, schemas, identity and isolation
 model, consent and authority basis, write and retrieval policies, lifecycle and
 deletion controls, threat model, evaluation plan, operations model, risks, and
 implementation tasks.
+
+## Recovery
+
+If identity, tenant, purpose, authority, or provenance is uncertain, do not write
+or retrieve durable memory. If memory conflicts with current evidence or a user
+correction, preserve provenance, supersede safely, and propagate the correction.
+If deletion cannot be verified, report the residual locations and escalate.

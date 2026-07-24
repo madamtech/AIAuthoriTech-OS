@@ -7,6 +7,8 @@ description: Evaluate and prioritize automation opportunities from validated cur
 
 Evaluate outcomes, not technology novelty.
 
+## Procedure
+
 1. Confirm process scope, current-state validation status, baseline volume, timing,
    errors, costs, service impact, systems, data, controls, and accountable owner.
 2. Decompose broad ideas into independently deliverable opportunities.
@@ -28,7 +30,7 @@ Evaluate outcomes, not technology novelty.
 9. Deliver the portfolio using
    [assets/opportunity-portfolio-template.md](assets/opportunity-portfolio-template.md).
 
-## Decision rules
+## Guardrails
 
 - Prefer elimination or simplification when it achieves the outcome more safely.
 - Do not equate high manual effort with high automation suitability.
@@ -39,8 +41,15 @@ Evaluate outcomes, not technology novelty.
 - Keep benefits as ranges when baseline evidence is uncertain.
 - Separate AI-assisted, rules-based, integration, and fully automated approaches.
 
-## Handoff
+## Output Contract
 
 Provide the ranked backlog, rationale, assumptions, prerequisites, recommended
 automation pattern, expected outcome measures, and candidates requiring deeper
 architecture, ROI modeling, governance review, or process redesign.
+
+## Recovery
+
+When the workflow is unvalidated, return a discovery requirement instead of a
+ranking. When baselines are incomplete, use bounded scenarios and label confidence.
+When a critical control is missing, classify the candidate as foundation first or
+do not pursue regardless of its numeric score.

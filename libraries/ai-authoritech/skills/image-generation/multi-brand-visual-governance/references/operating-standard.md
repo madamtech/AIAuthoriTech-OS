@@ -1,0 +1,3 @@
+# Multi-Brand Visual Governance
+
+Prevent visual contamination across AI AuthoriTech, i-PRO, MadamAllure, client brands, and personal projects while allowing approved shared systems. Establish the authorized objective, audience, source references, ownership and usage rights, locked requirements, creative variables, model or production constraints, accessibility, privacy, safety, version, and acceptance criteria before execution. Preserve provenance, distinguish facts from assumptions, document settings and revisions, inspect representative outputs, and require accountable approval before final, public, or commercial use.

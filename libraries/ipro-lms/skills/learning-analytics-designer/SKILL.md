@@ -5,9 +5,11 @@ description: Design trustworthy learning analytics that connect operational lear
 
 # Learning Analytics Designer
 
+Use the [operating standard](references/learning-analytics-standard.md) and [working template](assets/learning-analytics-template.md).
+
 Design measures that support decisions rather than dashboards that merely display available data.
 
-## Workflow
+## Procedure
 
 1. Define the decision, stakeholders, intended actions, target outcomes, learner populations, and reporting cadence.
 2. Create a measurement model spanning activity, reach, completion, quality, learning, application, and business outcomes as evidence permits.
@@ -17,7 +19,7 @@ Design measures that support decisions rather than dashboards that merely displa
 6. Design dashboard hierarchy, thresholds, annotations, drilldowns, alerts, and action ownership.
 7. Validate calculations against known cases and document limitations and interpretation rules.
 
-## Output
+## Output Contract
 
 Provide a decision-to-metric map, KPI dictionary, source/lineage matrix, dashboard specification, privacy controls, validation plan, interpretation guidance, and governance cadence.
 
@@ -28,3 +30,6 @@ Provide a decision-to-metric map, KPI dictionary, source/lineage matrix, dashboa
 - Suppress or aggregate sensitive small cohorts.
 - Keep operational completion measures distinct from performance outcomes.
 
+## Recovery
+
+If the decision question, population, metric definition, source lineage, privacy threshold, benchmark, reconciliation, or causal limitation is unresolved, publish only qualified descriptive results. Do not use them for individual performance decisions.

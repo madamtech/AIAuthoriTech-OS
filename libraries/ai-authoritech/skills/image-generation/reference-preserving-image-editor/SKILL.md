@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000159
-asset_id: image-generation.reference-preserving-image-editor.v1
-version: 1.0.0
-status: testing
+name: reference-preserving-image-editor
+description: "Modify only requested elements while protecting every approved feature of the source image. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Reference-Preserving Image Editor
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Modify only requested elements while protecting every approved feature of the source image.
@@ -13,12 +13,12 @@ Modify only requested elements while protecting every approved feature of the so
 Source image, explicit change list, unchanged-elements list, reference assets for replacements, output dimensions, and quality target.
 
 ## Procedure
-Confirm the target image, create a preservation mask concept, list requested edits, identify dependencies, perform the smallest viable edit, and compare before/after. Treat “do not make any other changes” as a hard lock.
+Confirm the target image, create a preservation mask concept, list requested edits, identify dependencies, perform the smallest viable edit, and compare before/after. Treat do not make any other changes as a hard lock.
 
-## Output contract
+## Output Contract
 Edit specification, changed elements, protected elements, replacement references, comparison checklist, and final edit prompt.
 
-## Rules
+## Guardrails
 Never edit an image that is not actually available. Do not regenerate the entire scene for a localized change unless the user approves. Preserve crop, lighting, identity, product count, and layout when locked.
 
 ## QA

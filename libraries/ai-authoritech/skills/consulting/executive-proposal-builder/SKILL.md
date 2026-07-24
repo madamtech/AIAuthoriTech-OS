@@ -1,11 +1,13 @@
 ---
 name: executive-proposal-builder
-description: Create decision-ready executive proposals from approved discovery evidence, strategic priorities, solution scope, governance requirements, business-case assumptions, delivery options, and commercial inputs. Use for consulting proposals, internal investment proposals, phased engagement options, or executive approval packages—not binding legal terms, a detailed statement of work, or invented client facts, pricing, results, credentials, or commitments.
+description: Create decision-ready executive proposals from approved discovery evidence, strategic priorities, solution scope, governance requirements, business-case assumptions, delivery options, and commercial inputs. Use for consulting proposals, internal investment proposals, phased engagement options, or executive approval packages - not binding legal terms, a detailed statement of work, or invented client facts, pricing, results, credentials, or commitments.
 ---
 
 # Executive Proposal Builder
 
 Make the decision, value, scope, and obligations easy to evaluate.
+
+## Procedure
 
 1. Confirm proposal owner, recipient, decision requested, validity period, brand
    requirements, approved commercial inputs, and source evidence.
@@ -26,7 +28,7 @@ Make the decision, value, scope, and obligations easy to evaluate.
    approved inputs. Mark missing commercial decisions clearly.
 10. Deliver with [assets/executive-proposal-template.md](assets/executive-proposal-template.md).
 
-## Rules
+## Guardrails
 
 - Do not invent testimonials, credentials, case studies, partners, certifications,
   legal terms, client facts, or pricing.
@@ -38,8 +40,15 @@ Make the decision, value, scope, and obligations easy to evaluate.
 - Require explicit approval before sending, publishing, or representing the proposal
   as accepted.
 
-## Handoff
+## Output Contract
 
 Provide the proposal, claim ledger, unresolved inputs, approval checklist, and
 items requiring SOW drafting, legal review, financial approval, security review,
 or implementation planning.
+
+## Recovery
+
+If approved evidence or commercial inputs are missing, produce a clearly marked
+draft with an unresolved-input register instead of inventing them. If sources
+conflict, retain the conflict and identify the accountable approver. Never send,
+publish, or represent the draft as approved without explicit authorization.

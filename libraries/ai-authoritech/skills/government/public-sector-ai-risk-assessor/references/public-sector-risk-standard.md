@@ -1,0 +1,3 @@
+# Public-Sector AI Risk Standard
+
+Define system purpose, authority, boundaries, decisions, users, affected populations, data, models, tools, vendors, and deployment conditions. Build evidence-linked scenarios for mission failure, safety, civil rights, discrimination, accessibility, privacy, security, reliability, records, transparency, contestability, misuse, abuse, automation bias, operations, vendor dependency, workforce, and public trust. Evaluate severity, scale, duration, reversibility, likelihood evidence, detectability, and affected groups. Distinguish inherent and residual risk, verify controls, require owners and redress, and block severe unmitigated or unauthorized risks.

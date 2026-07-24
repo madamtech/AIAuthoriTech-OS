@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000156
-asset_id: image-generation.fashion-product-collage-director.v1
-version: 1.0.0
-status: testing
+name: fashion-product-collage-director
+description: "Arrange supplied fashion products and outfits into clean advertisement-style collages without altering, duplicating, or omitting source items. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Fashion Product Collage Director
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Arrange supplied fashion products and outfits into clean advertisement-style collages without altering, duplicating, or omitting source items.
@@ -15,10 +15,10 @@ All source images, product groupings, required order, poster dimensions, backgro
 ## Procedure
 Inventory every image, identify duplicates and variants, group matching products, remove backgrounds only when authorized, establish a balanced grid or editorial layout, preserve product scale relationships, and reserve text space.
 
-## Output contract
+## Output Contract
 Asset inventory, grouping map, layout plan, placement list, unchanged-elements lock, and final QA count.
 
-## Rules
+## Guardrails
 Use the actual supplied images when requested. Never regenerate product details, double a shoe, omit an item, or alter logos/colors without approval.
 
 ## QA

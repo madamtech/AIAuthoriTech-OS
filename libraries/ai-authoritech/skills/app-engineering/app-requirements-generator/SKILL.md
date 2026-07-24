@@ -1,12 +1,14 @@
 ---
 name: app-requirements-generator
-description: Convert product ideas, discovery notes, workflows, stakeholder interviews, or existing-system evidence into testable application requirements, user stories, business rules, data and permission requirements, interface states, integrations, nonfunctional requirements, edge cases, acceptance criteria, traceability, dependencies, assumptions, and a prioritized release backlog. Use for websites, SaaS products, portals, dashboards, internal tools, mobile or desktop apps, and AI-enabled products—not solution architecture, UI design, implementation, or inventing material requirements without stakeholder validation.
+description: Convert product ideas, discovery notes, workflows, stakeholder interviews, or existing-system evidence into testable application requirements, user stories, business rules, data and permission requirements, interface states, integrations, nonfunctional requirements, edge cases, acceptance criteria, traceability, dependencies, assumptions, and a prioritized release backlog. Use for websites, SaaS products, portals, dashboards, internal tools, mobile or desktop apps, and AI-enabled products - not solution architecture, UI design, implementation, or inventing material requirements without stakeholder validation.
 ---
 
 # App Requirements Generator
 
 Write requirements that describe observable value and behavior without prematurely
 dictating implementation.
+
+## Procedure
 
 1. Identify the product outcome, users, buyers, operators, owners, current process,
    pain points, constraints, success measures, risk, and decision authority.
@@ -41,7 +43,7 @@ dictating implementation.
 15. Deliver with
     [assets/app-requirements-specification-template.md](assets/app-requirements-specification-template.md).
 
-## Rules
+## Guardrails
 
 - Do not treat stakeholder preference as a verified user need or business rule.
 - Do not use vague terms such as fast, intuitive, secure, scalable, or seamless
@@ -53,10 +55,17 @@ dictating implementation.
 - Do not mark an assumption as approved scope.
 - Keep future ideas outside the committed release backlog.
 
-## Handoff
+## Output Contract
 
 Provide the evidence inventory, product and system context, scope, actor and journey
 maps, functional and nonfunctional requirements, business rules, data and
 authorization requirements, integrations, state and edge-case matrix, acceptance
 criteria, traceability, prioritized backlog, assumptions, conflicts, and open
 decisions.
+
+## Recovery
+
+If evidence conflicts, retain each source, mark affected requirements disputed,
+and identify the decision owner. If a requirement cannot be observed or tested,
+rewrite it or return it as unresolved. Keep assumptions outside committed scope
+until an accountable stakeholder validates them.

@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000144
-asset_id: image-generation.commercial-composition-director.v1
-version: 1.0.0
-status: testing
+name: commercial-composition-director
+description: "Design image hierarchy and spatial organization for advertisements, social posts, product listings, presentations, thumbnails, and campaigns. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Commercial Composition Director
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Design image hierarchy and spatial organization for advertisements, social posts, product listings, presentations, thumbnails, and campaigns.
@@ -15,10 +15,10 @@ Primary message, product/subject, format, crop zones, copy length, CTA, platform
 ## Procedure
 Choose focal hierarchy, grid, subject scale, visual flow, negative space, text zone, logo zone, and crop-safe boundaries. Balance commercial clarity with visual interest. Define foreground, midground, background, and depth cues. Create alternate crops only when required.
 
-## Output contract
+## Output Contract
 Composition map, placement instructions, scale relationships, text-safe area, crop plan, and acceptance criteria.
 
-## Rules
+## Guardrails
 Do not let decoration compete with the product or message. Do not generate unreadable embedded copy when post-production typography is more reliable. Preserve all supplied products without duplication or omission.
 
 ## QA

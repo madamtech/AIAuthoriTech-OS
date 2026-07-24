@@ -1,11 +1,13 @@
 ---
 name: agent-architect
-description: Design platform-agnostic AI agents with a justified purpose, bounded autonomy, explicit authority, workflows, tools, knowledge, memory, state, human approvals, safety controls, evaluation, deployment, monitoring, incident handling, versioning, and retirement. Use for custom-agent architecture, agent workflow design, single-versus-multi-agent decisions, agent requirements, or production-readiness planning—not prompt polishing alone or implementation on an unspecified platform.
+description: Design platform-agnostic AI agents with a justified purpose, bounded autonomy, explicit authority, workflows, tools, knowledge, memory, state, human approvals, safety controls, evaluation, deployment, monitoring, incident handling, versioning, and retirement. Use for custom-agent architecture, agent workflow design, single-versus-multi-agent decisions, agent requirements, or production-readiness planning - not prompt polishing alone or implementation on an unspecified platform.
 ---
 
 # Agent Architect
 
 Design the smallest controllable system that achieves the outcome.
+
+## Procedure
 
 1. Define the user, job, trigger, terminal outcome, operating environment, volume,
    consequence, latency, and success measures.
@@ -30,7 +32,7 @@ Design the smallest controllable system that achieves the outcome.
     ownership, service support, and retirement.
 11. Deliver with [assets/agent-architecture-template.md](assets/agent-architecture-template.md).
 
-## Rules
+## Guardrails
 
 - Do not grant a tool permission merely because a tool is available.
 - Do not rely on persona language as a safety control.
@@ -41,8 +43,15 @@ Design the smallest controllable system that achieves the outcome.
 - Do not claim production readiness without evaluation evidence and operating owners.
 - Keep platform adapters separate from the platform-agnostic agent contract.
 
-## Handoff
+## Output Contract
 
 Provide the architecture, authority matrix, workflow and state contracts, tool and
 data boundaries, human gates, evaluation plan, operational model, unresolved risks,
 and implementation tasks for prompts, knowledge, integrations, QA, and deployment.
+
+## Recovery
+
+If purpose, authority, consequence, or accountable ownership is unresolved, return
+a provisional architecture and decision register instead of granting autonomy. If
+agent necessity is not demonstrated, recommend the simpler deterministic pattern.
+If a critical control cannot be designed, reduce authority or stop the design.

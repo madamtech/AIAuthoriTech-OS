@@ -5,7 +5,9 @@ description: Convert an approved story, treatment, or beat sheet into a structur
 
 # Screenplay Builder
 
-## Workflow
+Use the [operating standard](references/screenplay-standard.md) and [working template](assets/screenplay-template.md).
+
+## Procedure
 
 1. Confirm the source story, format, target runtime, audience, tone, rating, dialogue needs, and locked creative decisions.
 2. Convert beats into scenes, assigning each an objective, conflict, turn, entry state, and exit state.
@@ -14,11 +16,11 @@ description: Convert an approved story, treatment, or beat sheet into a structur
 5. Estimate timing, then revise for pace, continuity, setup/payoff, emotional escalation, and feasible production.
 6. Deliver the screenplay with a concise revision and dependency note.
 
-## Output
+## Output Contract
 
 Provide: screenplay header, formatted scenes, optional timing by scene, locked continuity facts, production flags, assumptions, open decisions, and revision notes. When the requested platform requires a particular syntax, state and apply it consistently.
 
-## Rules
+## Guardrails
 
 - Preserve approved plot, characterization, branding, and runtime constraints.
 - Do not invent factual claims, clearances, locations, or resources as confirmed.
@@ -29,3 +31,7 @@ Provide: screenplay header, formatted scenes, optional timing by scene, locked c
 ## Validation
 
 Check scene purpose, causal flow, character voice, continuity, dialogue economy, visual clarity, runtime plausibility, and whether every setup that matters receives an intentional payoff.
+
+## Recovery
+
+If source story, rights, scene logic, character continuity, content boundary, or production safety requirement is unresolved, keep the screenplay unlocked and route the affected scene for review.

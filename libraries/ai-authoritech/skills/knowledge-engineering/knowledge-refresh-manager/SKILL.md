@@ -5,6 +5,10 @@ description: Plan and control knowledge freshness through source monitoring, cha
 
 # Knowledge Refresh Manager
 
+Use the [knowledge refresh standard](references/knowledge-refresh-standard.md) to set risk-based freshness controls. Capture schedules, triggers, evidence, and rollback in the [knowledge refresh plan template](assets/knowledge-refresh-plan-template.md).
+
+## Procedure
+
 1. Inventory sources, owners, authority, update mechanisms, validity rules, consumers, dependencies, and risk.
 2. Define freshness service levels by knowledge type, not one arbitrary schedule for the whole corpus.
 3. Detect source additions, changes, removals, access shifts, expirations, and upstream version events.
@@ -15,9 +19,17 @@ description: Plan and control knowledge freshness through source monitoring, cha
 8. Monitor lag, failures, stale answers, orphan records, refresh cost, and consumer version exposure.
 9. Deliver source schedule, triggers, impact map, runbook, evidence, rollout, rollback, and stale-content register.
 
-## Rules
+## Guardrails
 
 - Do not equate a recent ingestion timestamp with current or authoritative knowledge.
 - Do not refresh from a lower-authority source over a controlling source silently.
 - Do not leave deleted or restricted content in embeddings, caches, or backups beyond policy.
 - Do not hide refresh failures; mark affected knowledge and consumers explicitly.
+
+## Recovery
+
+If source authority, version, change impact, or deletion propagation cannot be verified, retain the last verified version and block promotion or reindexing of the affected content. Label exposed consumers, preserve the failed run evidence, and route the discrepancy to the source owner before retrying.
+
+## Output Contract
+
+Deliver a completed refresh plan containing source inventory, freshness tiers, triggers, impact rules, validation gates, consumer notifications, failure handling, rollout, rollback, stale-content register, owners, metrics, and approval status. Distinguish verified freshness from assumed freshness.

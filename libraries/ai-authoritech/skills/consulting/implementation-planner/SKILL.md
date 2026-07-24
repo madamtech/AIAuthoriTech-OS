@@ -1,11 +1,13 @@
 ---
 name: implementation-planner
-description: Convert an approved roadmap, initiative charter, proposal, or statement of work into an executable implementation plan covering workstreams, deliverables, dependencies, resources, environments, governance, testing, controls, adoption, cutover, rollback, support, and benefits realization. Use for delivery mobilization, pilot planning, production implementation, or phased rollout—not for inventing scope, changing contractual commitments, or replacing detailed specialist engineering plans.
+description: Convert an approved roadmap, initiative charter, proposal, or statement of work into an executable implementation plan covering workstreams, deliverables, dependencies, resources, environments, governance, testing, controls, adoption, cutover, rollback, support, and benefits realization. Use for delivery mobilization, pilot planning, production implementation, or phased rollout - not for inventing scope, changing contractual commitments, or replacing detailed specialist engineering plans.
 ---
 
 # Implementation Planner
 
 Create a traceable plan that can be governed and safely executed.
+
+## Procedure
 
 1. Confirm the authoritative scope, outcomes, constraints, acceptance criteria,
    owners, funding, target range, and change-control authority.
@@ -26,7 +28,7 @@ Create a traceable plan that can be governed and safely executed.
    and stop or redesign triggers.
 10. Deliver with [assets/implementation-plan-template.md](assets/implementation-plan-template.md).
 
-## Rules
+## Guardrails
 
 - Do not turn planning ranges into committed dates without dependency and capacity
   evidence.
@@ -37,8 +39,15 @@ Create a traceable plan that can be governed and safely executed.
 - Use one focused question only when missing authority or scope prevents a valid plan;
   otherwise mark assumptions and produce a provisional plan.
 
-## Handoff
+## Output Contract
 
 Provide the integrated plan, workstream plans, critical path, RACI, RAID and decision
 logs, quality gates, cutover and rollback plan, adoption plan, benefits plan, and
 open items requiring specialist design or change approval.
+
+## Recovery
+
+If scope or authority is unresolved, isolate the affected workstream and return a
+provisional plan with a decision deadline. If capacity or dependencies cannot
+support the target range, show a feasible scenario and escalation path. If a
+required production gate fails, hold deployment and preserve rollback readiness.

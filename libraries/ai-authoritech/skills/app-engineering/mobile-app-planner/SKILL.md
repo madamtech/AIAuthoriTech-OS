@@ -1,11 +1,13 @@
 ---
 name: mobile-app-planner
-description: Create build-ready plans for native, cross-platform, or installable mobile applications covering device journeys, platform choice, navigation, responsive and adaptive UX, accessibility, local storage, offline behavior, synchronization, permissions, sensors, notifications, deep links, security, privacy, performance, battery, testing, signing, store delivery, phased rollout, telemetry, updates, and support. Use for consumer, workforce, field, companion, or mobile-first apps—not to claim store approval, collect unnecessary device data, or deploy unsigned or unverified builds.
+description: Create build-ready plans for native, cross-platform, or installable mobile applications covering device journeys, platform choice, navigation, responsive and adaptive UX, accessibility, local storage, offline behavior, synchronization, permissions, sensors, notifications, deep links, security, privacy, performance, battery, testing, signing, store delivery, phased rollout, telemetry, updates, and support. Use for consumer, workforce, field, companion, or mobile-first apps - not to claim store approval, collect unnecessary device data, or deploy unsigned or unverified builds.
 ---
 
 # Mobile App Planner
 
 Design for interruption, constrained devices, denied permissions, and old clients.
+
+## Procedure
 
 1. Confirm the mobile outcome, users, contexts, supported devices and operating
    systems, environments, accessibility, connectivity, regions, data sensitivity,
@@ -60,7 +62,7 @@ Design for interruption, constrained devices, denied permissions, and old client
 16. Deliver with
     [assets/mobile-app-plan-template.md](assets/mobile-app-plan-template.md).
 
-## Rules
+## Guardrails
 
 - Do not request a device permission before explaining and demonstrating its
   immediate value.
@@ -74,7 +76,15 @@ Design for interruption, constrained devices, denied permissions, and old client
   identifiers.
 - Do not claim mobile readiness from emulator or simulator testing alone.
 
-## Handoff
+## Recovery
+
+If offline operations, permissions, client versions, or remote state conflict,
+preserve local work with stable operation IDs and prevent duplicate external
+effects. Reconcile against the authoritative source, expose stale or blocked
+state to the user, and retain a supported recovery path for denied permissions,
+failed updates, and interrupted migrations.
+
+## Output Contract
 
 Provide the mobile charter, platform decision, journey and interruption map,
 navigation and accessibility, local data and offline synchronization, device

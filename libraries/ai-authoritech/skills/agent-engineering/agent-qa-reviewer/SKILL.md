@@ -1,11 +1,13 @@
 ---
 name: agent-qa-reviewer
-description: Independently evaluate an AI agent system against its approved architecture, instructions, knowledge, memory, tools, workflows, permissions, approvals, safety, security, reliability, performance, cost, observability, and operational controls. Use for pre-release QA, regression reviews, deployment gates, incident follow-up, or maturity assessment—not architecture design, implementation, or production approval without representative evidence.
+description: Independently evaluate an AI agent system against its approved architecture, instructions, knowledge, memory, tools, workflows, permissions, approvals, safety, security, reliability, performance, cost, observability, and operational controls. Use for pre-release QA, regression reviews, deployment gates, incident follow-up, or maturity assessment - not architecture design, implementation, or production approval without representative evidence.
 ---
 
 # Agent QA Reviewer
 
 Evaluate demonstrated behavior and control effectiveness, not design intentions.
+
+## Procedure
 
 1. Identify the exact agent version, environment, approved architecture, risk tier,
    autonomy tier, acceptance thresholds, release target, and accountable owner.
@@ -48,7 +50,7 @@ Evaluate demonstrated behavior and control effectiveness, not design intentions.
 - **Release candidate:** Every mandatory gate passes with representative evidence;
   accountable owners still make the production authorization decision.
 
-## Rules
+## Guardrails
 
 - Keep QA independent from implementation where practical.
 - Do not repair the agent unless the user also requests remediation.
@@ -63,9 +65,16 @@ Evaluate demonstrated behavior and control effectiveness, not design intentions.
 - Do not approve production release. Provide evidence and a recommendation to the
   accountable human decision-maker.
 
-## Handoff
+## Output Contract
 
 Provide the tested system fingerprint, evidence inventory, coverage matrix, test
 results, metrics against thresholds, defects with severity and reproduction
 evidence, release blockers, remediation owners, retest scope, residual risks,
 limitations, and final verdict.
+
+## Recovery
+
+If the tested build differs from the release candidate, evidence is missing, or a
+mandatory test is inconclusive, do not issue a release-candidate verdict. Contain
+unsafe behavior, preserve sanitized reproduction evidence, identify the responsible
+layer, and define the smallest valid retest after remediation.

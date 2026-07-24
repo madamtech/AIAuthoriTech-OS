@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000167
-asset_id: image-generation.model-specific-prompt-adapter.v1
-version: 1.0.0
-status: testing
+name: model-specific-prompt-adapter
+description: "Translate a model-neutral visual specification into the syntax, structure, constraints, and iteration strategy best suited to a specific generation or editing model. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Model-Specific Prompt Adapter
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Translate a model-neutral visual specification into the syntax, structure, constraints, and iteration strategy best suited to a specific generation or editing model.
@@ -15,10 +15,10 @@ Master visual brief, target model/tool, reference capabilities, aspect ratio, ed
 ## Procedure
 Preserve meaning while adapting prompt order, detail density, reference handling, negative prompting, parameter use, text strategy, and edit granularity. Maintain a model capability table and version notes.
 
-## Output contract
+## Output Contract
 Model-ready prompt, parameters, reference instructions, limitations, fallback method, and expected QA risks.
 
-## Rules
+## Guardrails
 Do not remove locked requirements to shorten a prompt. Do not claim unsupported tool capabilities. Treat product and text fidelity as higher-risk areas.
 
 ## QA

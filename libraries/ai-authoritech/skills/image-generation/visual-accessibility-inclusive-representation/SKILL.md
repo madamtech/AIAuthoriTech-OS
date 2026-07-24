@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000171
-asset_id: image-generation.visual-accessibility-inclusive-representation.v1
-version: 1.0.0
-status: testing
+name: visual-accessibility-inclusive-representation
+description: "Ensure visuals are perceivable, understandable, respectful, and representative across audiences and delivery contexts. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Visual Accessibility and Inclusive Representation
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Ensure visuals are perceivable, understandable, respectful, and representative across audiences and delivery contexts.
@@ -15,10 +15,10 @@ Audience, channel, visual, text, color palette, instructional purpose, represent
 ## Procedure
 Review contrast, text size, color dependence, clutter, reading order, alt-text needs, caption/callout clarity, culturally respectful representation, body diversity, age, disability visibility, and stereotype risk. Preserve identity and authenticity rather than token inclusion.
 
-## Output contract
+## Output Contract
 Accessibility findings, representation findings, required corrections, alt-text brief, contrast/text guidance, and pass criteria.
 
-## Rules
+## Guardrails
 Do not infer or label sensitive characteristics unnecessarily. Avoid stereotypical roles, exaggerated features, or disability-as-decoration.
 
 ## QA

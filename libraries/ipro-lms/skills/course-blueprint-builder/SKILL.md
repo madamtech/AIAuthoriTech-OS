@@ -1,13 +1,13 @@
 ---
 name: course-blueprint-builder
-description: Design an implementation-ready course blueprint that aligns business needs, learner outcomes, assessments, content, delivery, accessibility, and LMS requirements. Use when creating or redesigning structured training before content production begins.
+description: Design an implementation-ready course blueprint that aligns verified business needs, learner profiles, measurable outcomes, assessment evidence, content sequence, delivery, accessibility, and LMS configuration. Use before course production or when redesigning training. Do not invent policy, technical content, platform capabilities, or stakeholder approval.
 ---
 
 # Course Blueprint Builder
 
-Build the instructional architecture for a course without inventing policy, technical facts, or platform capabilities.
+Use the [course design standard](references/course-design-standard.md) and [course blueprint template](assets/course-blueprint-template.md).
 
-## Workflow
+## Procedure
 
 1. Identify the business need, target learners, prerequisites, constraints, delivery mode, and required completion evidence.
 2. Convert the need into observable, measurable learning objectives.
@@ -17,7 +17,7 @@ Build the instructional architecture for a course without inventing policy, tech
 6. Document LMS configuration needs, including enrollment, completion, credit, due dates, audiences, and reporting fields.
 7. Check alignment across needs, objectives, content, practice, and assessment.
 
-## Output
+## Output Contract
 
 Provide a course summary, audience and prerequisites, objective-to-assessment matrix, module table, delivery plan, LMS configuration requirements, accessibility considerations, dependencies, assumptions, open decisions, and readiness status.
 
@@ -29,3 +29,6 @@ Provide a course summary, audience and prerequisites, objective-to-assessment ma
 - Flag objectives that lack assessment evidence or content coverage.
 - Require stakeholder validation when policy, compliance, or technical accuracy is material.
 
+## Recovery
+
+If the business need, audience, source content, objectives, assessment evidence, accessibility needs, or LMS rules are unresolved, issue a provisional blueprint. Identify the accountable owner and block content production only where the missing decision would cause rework or invalid learning evidence.

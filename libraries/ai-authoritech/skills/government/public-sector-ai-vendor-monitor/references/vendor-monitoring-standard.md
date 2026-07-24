@@ -1,0 +1,3 @@
+# Public-Sector AI Vendor Monitoring Standard
+
+Translate contracts into measurable evidence, thresholds, owners, cadence, escalation, remedies, and renewal or exit decisions. Monitor service levels, security, privacy, accessibility, records, model and data changes, performance, transparency, incidents, complaints, defects, support, subcontractors, audit artifacts, corrective actions, portability, data return, deletion, continuity, concentration, and transition readiness. Validate material assertions independently where feasible. Preserve protected procurement and security information. Do not close findings from vendor promises, accept unapproved changes, or allow renewal decisions to proceed without unresolved-risk visibility.

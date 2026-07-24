@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000146
-asset_id: image-generation.cinematic-campaign-art-director.v1
-version: 1.0.0
-status: testing
+name: cinematic-campaign-art-director
+description: "Build high-impact campaign visuals with cinematic scale, controlled storytelling, and brand consistency. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Cinematic Campaign Art Director
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Build high-impact campaign visuals with cinematic scale, controlled storytelling, and brand consistency.
@@ -15,10 +15,10 @@ Campaign brief, audience, promise, brand, hero subject, channel set, narrative a
 ## Procedure
 Define campaign visual thesis, hero frame, supporting frames, recurring motifs, lighting system, lens language, color grade, environmental scale, typography relationship, and channel crops. Coordinate with storyboard, continuity, and rights review.
 
-## Output contract
+## Output Contract
 Campaign art-direction deck in text form: thesis, hero concept, shot family, visual motifs, grade, composition rules, copy zones, continuity rules, and QA scorecard.
 
-## Rules
+## Guardrails
 Campaign style is activated only when the request warrants cinematic brand treatment. Do not use campaign intensity for routine instructional or administrative graphics.
 
 ## QA

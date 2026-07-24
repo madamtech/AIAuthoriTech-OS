@@ -5,7 +5,9 @@ description: Turn approved storyboard panels and visual locks into clear, consis
 
 # Image Prompt Director
 
-## Workflow
+Use the [operating standard](references/image-prompt-standard.md) and [working template](assets/image-prompt-template.md).
+
+## Procedure
 
 1. Collect the approved panel, continuity locks, visual language, target model if known, aspect ratio, output purpose, and reference permissions.
 2. Separate immutable facts from panel-specific action, expression, wardrobe state, and conditions.
@@ -14,11 +16,11 @@ description: Turn approved storyboard panels and visual locks into clear, consis
 5. Use model-specific syntax only when the model is named; otherwise produce a portable master prompt.
 6. Audit clarity, conflicts, continuity, safety, rights, and usability.
 
-## Output
+## Output Contract
 
 Provide prompt ID, purpose, master prompt, continuity block, negative constraints, aspect and output settings, optional adapter notes, assumptions, and editable variables.
 
-## Rules
+## Guardrails
 
 - Do not claim an image was generated unless an image tool was actually used.
 - Preserve natural features and approved identity; never silently alter ethnicity, age, body type, disability, or distinctive traits.
@@ -28,3 +30,7 @@ Provide prompt ID, purpose, master prompt, continuity block, negative constraint
 ## Validation
 
 Confirm one readable hierarchy, unambiguous subject count and placement, compatible lighting and time, stable character locks, explicit output needs, and no positive-negative contradictions.
+
+## Recovery
+
+If reference rights, character identity, shot purpose, continuity anchors, model constraints, or approval is unresolved, do not generate final-use imagery; create only a labeled exploration or request missing inputs.

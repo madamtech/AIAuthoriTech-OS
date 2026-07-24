@@ -1,0 +1,4 @@
+interface:
+  display_name: "Custom Cosmetic Order Formulator"
+  short_description: "Translate custom orders into formula briefs"
+  default_prompt: "Use $custom-cosmetic-order-formulator to convert a customer request into a controlled custom formula brief."

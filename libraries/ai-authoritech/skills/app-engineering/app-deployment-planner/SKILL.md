@@ -1,11 +1,13 @@
 ---
 name: app-deployment-planner
-description: Design safe, repeatable application deployment and release plans covering environments, immutable artifacts, configuration and secrets, infrastructure and database changes, rollout strategy, approvals, observability, verification, rollback or forward-fix, incident response, audit evidence, and ownership. Use before releasing web, mobile, SaaS, internal, API-driven, AI-enabled, or vibe-coded applications—not to perform an unapproved production change, expose credentials, or claim a deployment succeeded without authoritative verification.
+description: Design safe, repeatable application deployment and release plans covering environments, immutable artifacts, configuration and secrets, infrastructure and database changes, rollout strategy, approvals, observability, verification, rollback or forward-fix, incident response, audit evidence, and ownership. Use before releasing web, mobile, SaaS, internal, API-driven, AI-enabled, or vibe-coded applications - not to perform an unapproved production change, expose credentials, or claim a deployment succeeded without authoritative verification.
 ---
 
 # App Deployment Planner
 
 Design releases that can be verified, contained, and recovered.
+
+## Procedure
 
 1. Confirm the release outcome, scope, users, service criticality, environments,
    hosting model, dependencies, data sensitivity, maintenance constraints,
@@ -53,7 +55,7 @@ Design releases that can be verified, contained, and recovered.
 15. Deliver with
     [assets/app-deployment-plan-template.md](assets/app-deployment-plan-template.md).
 
-## Rules
+## Guardrails
 
 - Do not deploy or mutate production without explicit authorization.
 - Do not place secrets in source control, command history, logs, screenshots,
@@ -67,7 +69,15 @@ Design releases that can be verified, contained, and recovered.
 - Do not delete the previous working artifact until the recovery window closes.
 - Do not bypass a failed gate because the release window is ending.
 
-## Handoff
+## Recovery
+
+If artifact provenance, configuration, migration compatibility, approval, or a
+release gate cannot be verified, stop promotion and preserve the last known-good
+state. On failed verification, contain traffic or work, execute the approved
+rollback or forward-fix decision, reconcile authoritative data, and record the
+actual outcome before resuming.
+
+## Output Contract
 
 Provide release scope, architecture and dependency inventory, artifact provenance,
 environment and secret model, rollout sequence, compatibility plan, gates and

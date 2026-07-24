@@ -1,12 +1,14 @@
 ---
 name: saas-architecture-planner
-description: Design provider-neutral SaaS architectures covering tenant and identity boundaries, isolation, provisioning, entitlements, plans, metering, billing interfaces, quotas, data lifecycle, integrations, extensibility, reliability, scaling, observability, support, compliance, unit economics, portability, and tenant retirement. Use for new multi-tenant products, SaaS migrations, enterprise-ready redesigns, platform reviews, or vibe-coded SaaS foundations—not detailed implementation, production provisioning, tax or accounting advice, or assuming shared infrastructure is safe without enforced isolation.
+description: Design provider-neutral SaaS architectures covering tenant and identity boundaries, isolation, provisioning, entitlements, plans, metering, billing interfaces, quotas, data lifecycle, integrations, extensibility, reliability, scaling, observability, support, compliance, unit economics, portability, and tenant retirement. Use for new multi-tenant products, SaaS migrations, enterprise-ready redesigns, platform reviews, or vibe-coded SaaS foundations - not detailed implementation, production provisioning, tax or accounting advice, or assuming shared infrastructure is safe without enforced isolation.
 ---
 
 # SaaS Architecture Planner
 
 Design the tenant lifecycle, control plane, and economic boundaries before choosing
 providers.
+
+## Procedure
 
 1. Confirm the product outcome, customer types, tenant model, users and
    administrators, regulated or enterprise needs, regions, scale assumptions,
@@ -63,7 +65,7 @@ providers.
 17. Deliver with
     [assets/saas-architecture-template.md](assets/saas-architecture-template.md).
 
-## Rules
+## Guardrails
 
 - Do not trust a client-supplied tenant identifier without authorized server-side
   resolution.
@@ -81,7 +83,15 @@ providers.
 - Do not couple core product contracts to one provider without documenting the
   business reason and exit path.
 
-## Handoff
+## Recovery
+
+If tenant identity, authorization, isolation, billing state, or data lifecycle
+cannot be verified, mark the affected architecture provisional and block that
+capability from production design approval. Default to stronger isolation and
+least privilege, preserve unresolved decisions, and require specialist review
+where legal, financial, privacy, or security obligations control the answer.
+
+## Output Contract
 
 Provide the context and tenant model, isolation matrix, identity and authorization,
 tenant lifecycle, entitlements and billing boundary, metering and quotas, control

@@ -1,0 +1,3 @@
+# Public-Sector AI Implementation Standard
+
+Implement only an approved use case with documented authority, accountable owners, outcomes, risk tier, affected populations, data, acquisition path, architecture, and oversight. Sequence requirements, impact assessment, procurement, security, privacy, records, accessibility, civil-rights review, vendor work, testing, workforce readiness, communication, pilot, acceptance, monitoring, incident response, change control, rollback, continuity, and retirement. Define evidence and human approval at every gate. Preserve a reversible last-approved state and never treat plans, vendor delivery, or test activity as deployment authorization.

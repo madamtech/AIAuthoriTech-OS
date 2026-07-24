@@ -1,10 +1,10 @@
 ---
-sku: AA-SKL-000172
-asset_id: image-generation.creative-capability-learning-engine.v1
-version: 1.0.0
-status: testing
+name: creative-capability-learning-engine
+description: "Continuously improve the image-generation system by capturing approved patterns, rejected patterns, model behavior, revision language, and reusable production knowledge. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
 ---
 # Creative Capability Learning Engine
+
+Use the [operating standard](references/operating-standard.md) and [working template](assets/working-record.md).
 
 ## Purpose
 Continuously improve the image-generation system by capturing approved patterns, rejected patterns, model behavior, revision language, and reusable production knowledge.
@@ -15,10 +15,10 @@ Request, selected skills, prompts, references, generated outputs, revision histo
 ## Procedure
 Record what worked, what failed, why, and under which conditions. Extract reusable preferences only from repeated or explicit evidence. Update model adaptation notes, Style DNA, identity locks, brand rules, routing confidence, QA tests, and failure playbooks. Keep personal and business contexts separated.
 
-## Output contract
+## Output Contract
 Learning record, proposed updates, confidence level, affected assets, evidence links, regression tests, and approval requirement.
 
-## Rules
+## Guardrails
 Do not convert one-off feedback into a permanent rule without evidence. Never overwrite a direct current instruction with historical learning. Preserve version history and allow rollback.
 
 ## QA

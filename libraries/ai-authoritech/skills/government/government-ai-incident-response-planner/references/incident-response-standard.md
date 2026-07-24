@@ -1,0 +1,3 @@
+# Government AI Incident Response Standard
+
+Define incident categories for harmful outputs, discrimination, accessibility, privacy, security, records, outage, drift, misuse, vendor failure, and control breakdown. Establish severity, detection, reporting, decision authority, affected services and people, evidence preservation, legal and policy notifications, containment, human fallback, continuity, investigation, vendor escalation, public communication, correction, remedy, recovery, and return-to-service gates. Protect sensitive evidence while enabling accountable oversight. Exercise lost evidence, unavailable vendors, widespread impact, conflicting authority, and failed recovery. Reopen incidents when new harm or affected populations are identified.

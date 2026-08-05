@@ -1,0 +1,20 @@
+{
+  "registry_version": "1.0.0",
+  "updated_at": "2026-08-05",
+  "purpose": "Record GPT and agent configurations that consume reusable AIAuthoriTech-OS skills.",
+  "source_of_truth_policy": "Only add a GPT after its current name, owner, purpose, instructions source, enabled tools, knowledge sources, and deployment location have been verified. Do not infer live GPT configuration from conversation history alone.",
+  "default_enhancements": [
+    {
+      "skill": "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md",
+      "status": "available",
+      "installation": "explicit-mapping-required",
+      "notes": "Repository presence does not automatically modify a live ChatGPT Custom GPT. Each GPT must be mapped and its deployment package updated."
+    }
+  ],
+  "gpts": [],
+  "inventory_status": {
+    "state": "not-yet-imported",
+    "reason": "No verified live Custom GPT configuration manifests were present in the repository during the 2026-08-05 audit.",
+    "required_next_input": "Export or verify each live GPT configuration before adding authoritative registry records."
+  }
+}

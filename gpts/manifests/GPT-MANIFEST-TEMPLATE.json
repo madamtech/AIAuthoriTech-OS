@@ -1,0 +1,47 @@
+{
+  "gpt_id": "AA-GPT-000000",
+  "name": "REPLACE WITH EXACT GPT NAME",
+  "owner": "Tanika Crawford",
+  "status": "captured",
+  "purpose": "REPLACE WITH VERIFIED PURPOSE",
+  "business": "REPLACE WITH VERIFIED BUSINESS OR BRAND",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": null,
+    "live_gpt_url": null
+  },
+  "configuration": {
+    "description": null,
+    "instructions": null,
+    "conversation_starters": [],
+    "capabilities": [],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": null,
+    "verified_by": null,
+    "evidence": []
+  },
+  "version": "1.0.0",
+  "change_log": []
+}

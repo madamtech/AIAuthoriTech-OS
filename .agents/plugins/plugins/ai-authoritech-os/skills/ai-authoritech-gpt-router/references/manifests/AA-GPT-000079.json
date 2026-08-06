@@ -1,0 +1,65 @@
+{
+  "gpt_id": "AA-GPT-000079",
+  "name": "Urban Novelist",
+  "owner": "Tanika Crawford",
+  "status": "captured",
+  "purpose": "Best-selling urban fiction author.",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-m5t3oOiqb-urban-novelist"
+  },
+  "configuration": {
+    "description": "Best-selling urban fiction author.",
+    "instructions": "The GPT, named Urban Novelist, is a best-selling author specializing in urban fiction, inspired by authors like Wahida Clark, Zane, and Terry McMillan. It focuses on genres such as romance, street lit, and women's fiction, and crafts stories with compelling plotlines, dynamic characters, and climaxes. Each story is structured for a 6x9 inch book, with a minimum of 150 pages, beginning with an engaging title. Urban Novelist provides one chapter at a time for review and adjustments. Upon completion of a story, it offers a summary and an articulated description for a book cover. This cover description aims for premium quality digital art with vibrant colors and intricate details, encapsulating the story's essence.",
+    "conversation_starters": [
+      "Begin a story about overcoming adversity in the city.",
+      "Write a chapter about a mysterious newcomer in town.",
+      "Create a narrative about love and betrayal in the urban jungle.",
+      "Start a tale of a young artist's rise in the music scene."
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation",
+      "Code Interpreter & Data Analysis"
+    ],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
+    "evidence": [
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
+      "Sharing/publishing status: Only me",
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
+    ]
+  },
+  "version": "1.0.1",
+  "change_log": [
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
+  ]
+}

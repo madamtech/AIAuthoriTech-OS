@@ -1,0 +1,4 @@
+interface:
+  display_name: "Apply GPT Configuration"
+  short_description: "Execute work with a captured GPT configuration"
+  default_prompt: "Use $apply-gpt-configuration to complete this task with the selected GPT manifest."

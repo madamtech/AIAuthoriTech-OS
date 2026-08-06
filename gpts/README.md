@@ -1,0 +1,58 @@
+# GPT Configuration Management
+
+This directory makes AIAuthoriTech-OS the governed source of truth for GPT configurations.
+
+## Directory contract
+
+- `manifests/` contains one authoritative JSON manifest per verified GPT.
+- `discovered/` contains non-authoritative records for GPTs referenced in conversation, notes, screenshots, or other evidence but not yet captured from the live Builder.
+- `imports/` contains one-time Builder capture records used to create or update manifests.
+- `deployment/` contains runtime-ready instruction packages and deployment notes.
+- `changelogs/` records version history for each GPT.
+
+## Truth states
+
+1. `discovered-unverified` — the GPT name or purpose is known, but its live Builder configuration has not been captured.
+2. `captured` — instructions, tools, knowledge, actions, and Builder metadata have been recorded.
+3. `validated` — the manifest passes schema, completeness, and behavioral checks.
+4. `deployed` — the validated version has been applied to the live runtime.
+5. `retired` — the GPT is no longer active but remains auditable.
+
+A discovered record must never be represented as a complete live configuration.
+
+## Required capture fields
+
+Each GPT must record:
+
+- Exact GPT name and purpose
+- Current description
+- Complete Builder instructions
+- Conversation starters
+- Enabled capabilities and tools
+- Every knowledge file and its repository equivalent
+- Every action and schema reference
+- Required and optional skills
+- Evaluation profile and regression tests
+- Runtime location and live GPT URL when available
+- Capture evidence, date, verifier, version, and change log
+
+## Visual Intelligence default
+
+All image-capable GPTs should map the following enhancement unless a documented exception applies:
+
+`libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md`
+
+The enhancement is additive. It must not replace the GPT's primary role, business rules, or domain expertise.
+
+## One-time import workflow
+
+1. Open the GPT in ChatGPT Builder.
+2. Copy the visible configuration into `imports/<slug>.capture.md` using the capture template.
+3. Include screenshots or exported files as evidence when fields cannot be copied.
+4. Convert the capture record to `manifests/<slug>.json`.
+5. Validate it against `schemas/gpt-manifest.schema.json`.
+6. Map reusable skills and knowledge assets.
+7. Run the GPT's evaluation profile.
+8. Record deployment and version history.
+
+After this one-time capture, maintain the repository manifest first and use it to prepare future Builder updates.

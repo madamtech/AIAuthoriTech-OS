@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/madamtech/AIAuthoriTech-OS/schemas/gpt-manifest.schema.json",
+  "title": "AIAuthoriTech GPT Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["gpt_id", "name", "owner", "status", "purpose", "business", "runtime", "configuration", "skills", "evaluation", "provenance", "version"],
+  "properties": {
+    "gpt_id": {"type": "string", "pattern": "^AA-GPT-[0-9]{6}$"},
+    "name": {"type": "string", "minLength": 1},
+    "owner": {"type": "string", "minLength": 1},
+    "status": {"enum": ["discovered-unverified", "captured", "validated", "deployed", "retired"]},
+    "purpose": {"type": "string", "minLength": 1},
+    "business": {"type": "string", "minLength": 1},
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["platform", "deployment_location"],
+      "properties": {
+        "platform": {"enum": ["chatgpt-custom-gpt", "chatgpt-project", "openai-api", "codex", "other"]},
+        "deployment_location": {"type": ["string", "null"]},
+        "live_gpt_url": {"type": ["string", "null"]}
+      }
+    },
+    "configuration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["description", "instructions", "conversation_starters", "capabilities", "knowledge_files", "actions"],
+      "properties": {
+        "description": {"type": ["string", "null"]},
+        "instructions": {"type": ["string", "null"]},
+        "conversation_starters": {"type": "array", "items": {"type": "string"}},
+        "capabilities": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "knowledge_files": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "repository_reference", "verification_status"],
+            "properties": {
+              "name": {"type": "string"},
+              "repository_reference": {"type": ["string", "null"]},
+              "verification_status": {"enum": ["unverified", "verified", "missing", "retired"]}
+            }
+          }
+        },
+        "actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "type", "verification_status"],
+            "properties": {
+              "name": {"type": "string"},
+              "type": {"type": "string"},
+              "schema_reference": {"type": ["string", "null"]},
+              "verification_status": {"enum": ["unverified", "verified", "missing", "retired"]}
+            }
+          }
+        }
+      }
+    },
+    "skills": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required", "optional", "default_enhancements"],
+      "properties": {
+        "required": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "optional": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "default_enhancements": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      }
+    },
+    "evaluation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["profile", "required_tests", "last_result"],
+      "properties": {
+        "profile": {"type": ["string", "null"]},
+        "required_tests": {"type": "array", "items": {"type": "string"}},
+        "last_result": {"enum": ["not-tested", "fail", "conditional-pass", "pass"]}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["capture_method", "captured_at", "verified_by", "evidence"],
+      "properties": {
+        "capture_method": {"enum": ["builder-copy", "builder-screenshots", "manual-export", "repository-native", "conversation-reference"]},
+        "captured_at": {"type": ["string", "null"], "format": "date-time"},
+        "verified_by": {"type": ["string", "null"]},
+        "evidence": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "change_log": {"type": "array", "items": {"type": "string"}}
+  }
+}

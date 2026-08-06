@@ -1,20 +1,64 @@
 {
-  "registry_version": "1.0.0",
+  "registry_version": "2.0.0",
   "updated_at": "2026-08-05",
-  "purpose": "Record GPT and agent configurations that consume reusable AIAuthoriTech-OS skills.",
-  "source_of_truth_policy": "Only add a GPT after its current name, owner, purpose, instructions source, enabled tools, knowledge sources, and deployment location have been verified. Do not infer live GPT configuration from conversation history alone.",
+  "purpose": "Record verified GPT configurations, discovered GPT references, deployment mappings, and reusable AIAuthoriTech-OS skill dependencies.",
+  "source_of_truth_policy": "A GPT becomes authoritative only after its current live Builder configuration has been captured and verified. Conversation history may establish a discovered record, but it must not be represented as the complete live configuration.",
+  "manifest_schema": "schemas/gpt-manifest.schema.json",
+  "capture_template": "gpts/imports/GPT-BUILDER-CAPTURE-TEMPLATE.md",
   "default_enhancements": [
     {
       "skill": "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md",
       "status": "available",
       "installation": "explicit-mapping-required",
-      "notes": "Repository presence does not automatically modify a live ChatGPT Custom GPT. Each GPT must be mapped and its deployment package updated."
+      "applies_when": "The GPT creates, edits, evaluates, prepares, or advises on visual assets.",
+      "notes": "Repository presence does not automatically modify a live ChatGPT Custom GPT. Each GPT requires a verified manifest, deployment mapping, and runtime update."
     }
   ],
-  "gpts": [],
+  "authoritative_gpts": [],
+  "discovered_gpts": [
+    {
+      "discovery_id": "DISC-GPT-000001",
+      "working_name": "AI AuthoriTech GPT",
+      "business": "AI AuthoriTech",
+      "known_purpose": "AI consulting, automation strategy, business systems, and reusable AI operating guidance.",
+      "status": "discovered-unverified",
+      "evidence_source": "user conversation reference",
+      "required_next_action": "Capture the exact live Builder configuration."
+    },
+    {
+      "discovery_id": "DISC-GPT-000002",
+      "working_name": "LMS Administrator GPT",
+      "business": "i-PRO Americas / professional practice",
+      "known_purpose": "LMS administration, NetExam, Docebo, Workday Learning, reporting, course operations, and training communications.",
+      "status": "discovered-unverified",
+      "evidence_source": "user conversation reference",
+      "required_next_action": "Verify the exact GPT name and capture the live Builder configuration."
+    },
+    {
+      "discovery_id": "DISC-GPT-000003",
+      "working_name": "MadamAllure GPT",
+      "business": "MadamAllure",
+      "known_purpose": "Beauty branding, custom products, creative design, product development, and marketing support.",
+      "status": "discovered-unverified",
+      "evidence_source": "user conversation reference",
+      "required_next_action": "Verify the exact GPT name and capture the live Builder configuration."
+    },
+    {
+      "discovery_id": "DISC-GPT-000004",
+      "working_name": "Creator Command Center GPT",
+      "business": "AI AuthoriTech / creative production",
+      "known_purpose": "Cinematic video production, creator workflows, storyboarding, visual prompting, and content command-center operations.",
+      "status": "discovered-unverified",
+      "evidence_source": "user conversation reference",
+      "required_next_action": "Verify whether this is a live Custom GPT, app, or both, then capture its current configuration."
+    }
+  ],
   "inventory_status": {
-    "state": "not-yet-imported",
-    "reason": "No verified live Custom GPT configuration manifests were present in the repository during the 2026-08-05 audit.",
-    "required_next_input": "Export or verify each live GPT configuration before adding authoritative registry records."
+    "state": "discovery-in-progress",
+    "authoritative_count": 0,
+    "discovered_count": 4,
+    "completeness": "not-claimed",
+    "reason": "The platform connection does not expose the owner's Custom GPT Builder inventory or internal configurations to the GitHub-connected agent.",
+    "completion_rule": "The inventory is complete only after the owner-provided Builder list has been reconciled and every active GPT has a validated manifest."
   }
 }

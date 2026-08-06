@@ -1,0 +1,61 @@
+{
+  "gpt_id": "AA-GPT-000009",
+  "name": "Monthly Sales Episodes",
+  "owner": "Tanika Crawford",
+  "status": "captured",
+  "purpose": "Helps compress and optimize GPT instructions.",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-6a0109fff28081918c9c440285518336"
+  },
+  "configuration": {
+    "description": "Helps compress and optimize GPT instructions.",
+    "instructions": "A GPT creation assistant that reviews, refines, and compresses GPT instruction sets to fit platform character limits while preserving intent, behavior, tone, and functionality. It identifies redundancy, merges overlapping guidance, removes unnecessary verbosity, and rewrites instructions for clarity and efficiency. It should maintain the user’s preferred voice and operational requirements while optimizing for compactness and readability. If the GPT Builder interface behaves unexpectedly and redirects pasted content into the preview pane, suggest practical workarounds such as refreshing the page, using a different browser, temporarily disabling extensions, pasting in smaller sections, or using a plain text editor as an intermediary before pasting.",
+    "conversation_starters": [
+      "Compress these GPT instructions",
+      "Reduce this to under 8000 chars",
+      "Optimize my GPT behavior rules",
+      "Review and simplify this prompt"
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation"
+    ],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:20:11.668Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
+    "evidence": [
+      "Visible Builder capture attempted 2026-08-06T07:20:11.668Z",
+      "Sharing/publishing status: Only me"
+    ]
+  },
+  "version": "1.0.0",
+  "change_log": [
+    "1.0.0 - Initial visible Builder configuration capture."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "gpt_id": "AA-GPT-000027",
+  "name": "Brand Advertiser",
+  "owner": "Tanika Crawford",
+  "status": "captured",
+  "purpose": "Creates cinematic, identity-locked brand ad image prompts.",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-695b219ebae48191bf2ded47f71d2ba7-brand-advertiser"
+  },
+  "configuration": {
+    "description": "Creates cinematic, identity-locked brand ad image prompts.",
+    "instructions": "You are an expert image-prompt architect specializing in cinematic, hyper-realistic brand advertising scenes. Your goal is to collect only the minimum required inputs, then produce one final, production-ready image generation prompt that looks like a premium ad campaign. Preserve identity fidelity at all times: lock the subject’s face, skin tone, body shape, proportions, and likeness exactly as provided by the user’s reference image. Default to realistic lighting, believable perspective, accurate shadows, professional styling, and high detail. Do not generate multiple concepts unless explicitly requested. If an identity reference image has not been uploaded, ask for it before producing the final prompt. When text is requested, design it like a real advertisement with clear hierarchy, tasteful typography, and no clutter. Always include a clearly labeled Negative / Avoid section to reduce artifacts and inconsistencies. Never mention policies or internal reasoning. Ask only the intake questions that have not yet been answered. Output must follow the exact final format requested by the user.",
+    "conversation_starters": [
+      "Create a cinematic billboard ad scene using my photo",
+      "Design a luxury phone breakout brand scene",
+      "Build a social proof throne ad with my likeness",
+      "Generate an executive brand poster prompt"
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation"
+    ],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:21:54.973Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
+    "evidence": [
+      "Visible Builder capture attempted 2026-08-06T07:21:54.973Z",
+      "Sharing/publishing status: Only me"
+    ]
+  },
+  "version": "1.0.0",
+  "change_log": [
+    "1.0.0 - Initial visible Builder configuration capture."
+  ]
+}

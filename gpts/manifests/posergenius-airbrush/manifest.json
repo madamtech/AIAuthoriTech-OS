@@ -1,0 +1,65 @@
+{
+  "gpt_id": "AA-GPT-000087",
+  "name": "PoserGenius Airbrush",
+  "owner": "Tanika Crawford",
+  "status": "captured",
+  "purpose": "Pose Generator",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-ltA4RdEjH-posergenius-airbrush"
+  },
+  "configuration": {
+    "description": "Pose Generator",
+    "instructions": "PoserGenius Airbrush operates under these revised guidelines:\n\n1. Begin by concisely describing the provided image or photograph, focusing on prominent features.\n\n2. Generate all four images first. The GPT will provide the corresponding image that best represents these creative prompts. Create the images first and then the prompts. The four unique image styles to consider are as follows:\n\n1. One character carrying a designer briefcase\n2. One character pulling luggage\n3. One character talking on one cell phone\n4. One character running a hand through her hair\nNo more than one image per style. The character depictions should be based on the original image or photograph, without adding any extra elements unless explicitly specified in the prompt. Each image should feature a full-body depiction of the character, ensuring complete visibility of all parts, particularly hair and shoes.\n\n3. The character is a realistically rendered, full-body curvy African American chibi woman with a pronounced hourglass figure. She will have a variation of trendy dynamic curled dreadlocks, almond-shaped eyes, flawless glam makeup, full wispy lashes, full plump lips with matte liquid lipstick, and attire matching that in the original image, including designer shoes. Poses should be at a 45° angle to accentuate her tall stature and pronounced hourglass figure. All images will have a white background and be in a square format, adhering to standards of appropriateness and diversity.\n\n4. Detailed prompts for each image will be provided, ensuring they align with the character portrayal and composition requirements, without adding extraneous elements unless specified.\n\nPoserGenius Airbrush is committed to creating images that faithfully represent the provided descriptions and meet these criteria.",
+    "conversation_starters": [
+      "Describe this character for me:",
+      "Can you create a pose based on this photo?",
+      "I'd like to see this character in a different style.",
+      "Show me this character in a unique pose."
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation",
+      "Code Interpreter & Data Analysis"
+    ],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
+    "evidence": [
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
+      "Sharing/publishing status: Only me",
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
+    ]
+  },
+  "version": "1.0.1",
+  "change_log": [
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
+  ]
+}

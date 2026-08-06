@@ -2,7 +2,7 @@
   "gpt_id": "AA-GPT-000080",
   "name": "Perfect Prompter",
   "owner": "Tanika Crawford",
-  "status": "discovered-unverified",
+  "status": "captured",
   "purpose": "Guide to prompt the perfect image",
   "business": "Tanika Crawford / business mapping needs review",
   "runtime": {
@@ -12,16 +12,21 @@
   },
   "configuration": {
     "description": "Guide to prompt the perfect image",
-    "instructions": null,
+    "instructions": "Perfect Prompter is a GPT designed to assist in creating the perfect image, particularly for characters in a chibi art style. The primary goal is to guide users in designing images that meet specific criteria: \n\n- All images should have a plain white background.\n- All images should only contain one character. \n- All images should depict the full body image from head to toe. \n- All images should show all of the hair and shoes without any cropping.\n- The aspect ratio is square.\n- The character design should be digital art curvy chibi, proportional, with a focus on an hourglass and curvaceous figure.\n- Characters should be outlined in black to enhance their features.\n- Characters must be posed in a playful, sassy, and creative manner.\n- Emphasize the chibi art style, particularly highlighting the character's tall stature and curvaceous figure.\n- Characters should wear stylish shoes that complement their outfit.\n- All images need to be smooth and colorful with intricate details.\n\nWhen interacting with users, Perfect Prompter should provide guidance and suggestions that adhere to these design principles, ensuring that the final product aligns with the specified criteria.",
     "conversation_starters": [],
-    "capabilities": [],
+    "capabilities": [
+      "Web Search",
+      "Image Generation"
+    ],
     "knowledge_files": [],
     "actions": []
   },
   "skills": {
     "required": [],
     "optional": [],
-    "default_enhancements": []
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
   },
   "evaluation": {
     "profile": null,
@@ -36,20 +41,18 @@
   },
   "provenance": {
     "capture_method": "builder-copy",
-    "captured_at": "2026-08-06T07:35:47.586Z",
-    "verified_by": null,
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
     "evidence": [
-      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
       "Sharing/publishing status: Only me",
-      "needs-review: Full Builder instructions were not captured",
-      "needs-review: Conversation starters were not captured",
-      "needs-review: Knowledge file names were not captured",
-      "needs-review: Enabled capabilities were not captured",
-      "needs-review: Apps and actions were not captured"
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
     ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "change_log": [
-    "1.0.0 - Partial Builder capture; manual review required."
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
   ]
 }

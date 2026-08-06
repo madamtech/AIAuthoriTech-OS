@@ -166,6 +166,24 @@
       "needs_review": false
     },
     {
+      "gpt_id": "AA-GPT-000018",
+      "name": "Ethan- Creative Production Director",
+      "manifest": "gpts/manifests/ethan-creative-production-director/manifest.json",
+      "live_gpt_url": "https://chatgpt.com/g/g-69eba60fbff88191acfbb4051aeda705-ethan-creative-production-director",
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
+    },
+    {
+      "gpt_id": "AA-GPT-000019",
+      "name": "Urban Romance Lyrical Studio",
+      "manifest": "gpts/manifests/urban-romance-lyrical-studio/manifest.json",
+      "live_gpt_url": "https://chatgpt.com/g/g-69e3228243ac81918fc68f8ffc181f57-urban-romance-lyrical-studio",
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
+    },
+    {
       "gpt_id": "AA-GPT-000020",
       "name": "Urban Romance Studio",
       "manifest": "gpts/manifests/urban-romance-studio/manifest.json",
@@ -197,6 +215,15 @@
       "name": "LuxGlam Director",
       "manifest": "gpts/manifests/luxglam-director/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-69b64a78c9448191b7459a245e480d56-luxglam-director",
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
+    },
+    {
+      "gpt_id": "AA-GPT-000024",
+      "name": "i-PRO Sales Intelligence",
+      "manifest": "gpts/manifests/i-pro-sales-intelligence-024/manifest.json",
+      "live_gpt_url": "https://chatgpt.com/g/g-69ab3505fe548191ab871cb41da2ae56",
       "status": "captured",
       "authoritative": true,
       "needs_review": false
@@ -242,6 +269,15 @@
       "name": "Luxury Beauty Product Editor",
       "manifest": "gpts/manifests/luxury-beauty-product-editor/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-69536d8ca3d48191b971c52a1470f6cc-luxury-beauty-product-editor",
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
+    },
+    {
+      "gpt_id": "AA-GPT-000030",
+      "name": "Skincare Campaign Editor",
+      "manifest": "gpts/manifests/skincare-campaign-editor/manifest.json",
+      "live_gpt_url": "https://chatgpt.com/g/g-695369109a7c819191270450970d4728-skincare-campaign-editor",
       "status": "captured",
       "authoritative": true,
       "needs_review": false
@@ -418,6 +454,15 @@
       "needs_review": false
     },
     {
+      "gpt_id": "AA-GPT-000050",
+      "name": "Carter- BusinessCoach",
+      "manifest": "gpts/manifests/carter-businesscoach/manifest.json",
+      "live_gpt_url": "https://chatgpt.com/g/g-68ffd9b9914c81918393482b9a40026d-carter-businesscoach",
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
+    },
+    {
       "gpt_id": "AA-GPT-000051",
       "name": "CAMI – The Copywriting Expert",
       "manifest": "gpts/manifests/cami-the-copywriting-expert/manifest.json",
@@ -452,411 +497,365 @@
       "status": "captured",
       "authoritative": true,
       "needs_review": false
-    }
-  ],
-  "discovered_gpts": [
-    {
-      "gpt_id": "AA-GPT-000018",
-      "name": "Ethan- Creative Production Director",
-      "manifest": "gpts/manifests/ethan-creative-production-director/manifest.json",
-      "live_gpt_url": "https://chatgpt.com/g/g-69eba60fbff88191acfbb4051aeda705-ethan-creative-production-director",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
-    },
-    {
-      "gpt_id": "AA-GPT-000019",
-      "name": "Urban Romance Lyrical Studio",
-      "manifest": "gpts/manifests/urban-romance-lyrical-studio/manifest.json",
-      "live_gpt_url": "https://chatgpt.com/g/g-69e3228243ac81918fc68f8ffc181f57-urban-romance-lyrical-studio",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
-    },
-    {
-      "gpt_id": "AA-GPT-000024",
-      "name": "i-PRO Sales Intelligence",
-      "manifest": "gpts/manifests/i-pro-sales-intelligence-024/manifest.json",
-      "live_gpt_url": "https://chatgpt.com/g/g-69ab3505fe548191ab871cb41da2ae56",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
-    },
-    {
-      "gpt_id": "AA-GPT-000030",
-      "name": "Skincare Campaign Editor",
-      "manifest": "gpts/manifests/skincare-campaign-editor/manifest.json",
-      "live_gpt_url": "https://chatgpt.com/g/g-695369109a7c819191270450970d4728-skincare-campaign-editor",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
-    },
-    {
-      "gpt_id": "AA-GPT-000050",
-      "name": "Carter- BusinessCoach",
-      "manifest": "gpts/manifests/carter-businesscoach/manifest.json",
-      "live_gpt_url": "https://chatgpt.com/g/g-68ffd9b9914c81918393482b9a40026d-carter-businesscoach",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
     },
     {
       "gpt_id": "AA-GPT-000055",
       "name": "Madam AI Assistant",
       "manifest": "gpts/manifests/madam-ai-assistant/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-68972cd0b2b08191945d7807c9c13281-madam-ai-assistant",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000056",
       "name": "ClassSecure Quote Builder",
       "manifest": "gpts/manifests/classsecure-quote-builder/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-68951e6537d08191ab46f71b578d3ce6-classsecure-quote-builder",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000057",
       "name": "TanikaGPT-LMS Administrator Assistant",
       "manifest": "gpts/manifests/tanikagpt-lms-administrator-assistant/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-685ef7627a048191b1cfe4b656e991c1-tanikagpt-lms-administrator-assistant",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000058",
       "name": "GregGPT – AI Instructional Design Assistant",
       "manifest": "gpts/manifests/greggpt-ai-instructional-design-assistant/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-685ecd09b788819185d16c134d3d07e6-greggpt-ai-instructional-design-assistant",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000059",
       "name": "MichaelGPT – AI Technical Training Assistant",
       "manifest": "gpts/manifests/michaelgpt-ai-technical-training-assistant/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-685ec3d184ac8191a1e77fa141f54f69-michaelgpt-ai-technical-training-assistant",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000060",
       "name": "OmarGPT – AI Sales Training Assistant",
       "manifest": "gpts/manifests/omargpt-ai-sales-training-assistant/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-685c864476088191a01fddb927d6a74c-omargpt-ai-sales-training-assistant",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000061",
       "name": "SeanGPT – Global Tr. Analytics & Strategy Asst",
       "manifest": "gpts/manifests/seangpt-global-tr-analytics-strategy-asst/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-685c81d183788191ba88a703f8686eae-seangpt-global-tr-analytics-strategy-asst",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000062",
       "name": "AdrianGPT – Strategic Training Director Assistant",
       "manifest": "gpts/manifests/adriangpt-strategic-training-director-assistant/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-685c4b92be608191aadc88e6c59dd727-adriangpt-strategic-training-director-assistant",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000063",
       "name": "JoeyGPT – Strategic Training Manager Assistant",
       "manifest": "gpts/manifests/joeygpt-strategic-training-manager-assistant/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-685c3f80ae308191add91e7ba3381e64-joeygpt-strategic-training-manager-assistant",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000064",
       "name": "Viral Ad Copy Builder",
       "manifest": "gpts/manifests/viral-ad-copy-builder/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-68517c90b7bc8191bcd2ea3b38f68cd0-viral-ad-copy-builder",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000065",
       "name": "Story Vision Assistant",
       "manifest": "gpts/manifests/story-vision-assistant/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-684eddd0250c81918389e1e3617a1083-story-vision-assistant",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000066",
       "name": "AI Story Creator",
       "manifest": "gpts/manifests/ai-story-creator/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-684a9bda64608191a129f4e203fe37f0-ai-story-creator",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000067",
       "name": "FanaticTechs Consulting Assistant",
       "manifest": "gpts/manifests/fanatictechs-consulting-assistant/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-68452b35672c8191b91286c662a2c7d8-fanatictechs-consulting-assistant",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000068",
       "name": "FanaticBot – Marketing Concierge Assistant",
       "manifest": "gpts/manifests/fanaticbot-marketing-concierge-assistant/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-6845204c7e9c8191943bc9296967ee71-fanaticbot-marketing-concierge-assistant",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000069",
       "name": "Salon Suite Builder",
       "manifest": "gpts/manifests/salon-suite-builder/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-6830d045b02c8191a4f36125a4b8c9f9-salon-suite-builder",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000070",
       "name": "Sales Training Content Designer",
       "manifest": "gpts/manifests/sales-training-content-designer/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-6789300f8fac8191addf431c368f59c2-sales-training-content-designer",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000071",
       "name": "Character Conductor",
       "manifest": "gpts/manifests/character-conductor/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-z8ox5VMbd-character-conductor",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000072",
       "name": "Consistent Characters Remix",
       "manifest": "gpts/manifests/consistent-characters-remix/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-PEE1PQsqh-consistent-characters-remix",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000073",
       "name": "Character Consistency Creator",
       "manifest": "gpts/manifests/character-consistency-creator/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-QM5nhMcuq-character-consistency-creator",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000074",
       "name": "Finessed Avatars",
       "manifest": "gpts/manifests/finessed-avatars/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-K3jI4VIqs-finessed-avatars",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000075",
       "name": "Avatar Art Lab",
       "manifest": "gpts/manifests/avatar-art-lab/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-G0UuXF4j3-avatar-art-lab",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000076",
       "name": "Urban Vibes Designer",
       "manifest": "gpts/manifests/urban-vibes-designer/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-p34izpGgh-urban-vibes-designer",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000077",
       "name": "Maestro Master",
       "manifest": "gpts/manifests/maestro-master/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-bj8Q7AnLc-maestro-master",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000078",
       "name": "Children's Best Selling Author",
       "manifest": "gpts/manifests/children-s-best-selling-author/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-gA600KuyE-children-s-best-selling-author",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000079",
       "name": "Urban Novelist",
       "manifest": "gpts/manifests/urban-novelist/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-m5t3oOiqb-urban-novelist",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000080",
       "name": "Perfect Prompter",
       "manifest": "gpts/manifests/perfect-prompter/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-5ZxuhevMT-perfect-prompter",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000081",
       "name": "Naki- The Motivational Madam",
       "manifest": "gpts/manifests/naki-the-motivational-madam/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-TzkY0S2zK-naki-the-motivational-madam",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000082",
       "name": "Poetic Justice",
       "manifest": "gpts/manifests/poetic-justice/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-ybplYhL0q-poetic-justice",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000083",
       "name": "DEPIC",
       "manifest": "gpts/manifests/depic/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-JzZ36YTJW-depic",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000084",
       "name": "Handsome Men Generator",
       "manifest": "gpts/manifests/handsome-men-generator/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-9lyJC6YEl-handsome-men-generator",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000085",
       "name": "Portrait Designer",
       "manifest": "gpts/manifests/portrait-designer/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-w5Z2tm8Nt-portrait-designer",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000086",
       "name": "Adult Coloring Book",
       "manifest": "gpts/manifests/adult-coloring-book/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-S4d0gaIxU-adult-coloring-book",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000087",
       "name": "PoserGenius Airbrush",
       "manifest": "gpts/manifests/posergenius-airbrush/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-ltA4RdEjH-posergenius-airbrush",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000088",
       "name": "Perfect Oil",
       "manifest": "gpts/manifests/perfect-oil/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-2Z9YsNdXk-perfect-oil",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000089",
       "name": "High Fashion OIL IDG",
       "manifest": "gpts/manifests/high-fashion-oil-idg/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-yW0UL7Cwg-high-fashion-oil-idg",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000090",
       "name": "Airbrush IDGeneration",
       "manifest": "gpts/manifests/airbrush-idgeneration/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-JZPLP4FQz-airbrush-idgeneration",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000091",
       "name": "EDM",
       "manifest": "gpts/manifests/edm/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-uLwABkdzX-edm",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000092",
       "name": "Perfect Airbrush",
       "manifest": "gpts/manifests/perfect-airbrush/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-clpdflDrD-perfect-airbrush",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     },
     {
       "gpt_id": "AA-GPT-000093",
       "name": "OIL Chibi Muse",
       "manifest": "gpts/manifests/oil-chibi-muse/manifest.json",
       "live_gpt_url": "https://chatgpt.com/g/g-fpNLTEYgk-oil-chibi-muse",
-      "status": "discovered-unverified",
-      "authoritative": false,
-      "needs_review": true
+      "status": "captured",
+      "authoritative": true,
+      "needs_review": false
     }
   ],
+  "discovered_gpts": [],
   "inventory_status": {
-    "state": "captured-with-review-items",
+    "state": "captured",
     "total_count": 93,
-    "authoritative_count": 49,
-    "needs_review_count": 44,
-    "completeness": "partial"
+    "authoritative_count": 93,
+    "needs_review_count": 0,
+    "completeness": "complete"
   }
 }

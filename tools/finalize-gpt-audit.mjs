@@ -90,7 +90,7 @@ const registry = {
   authoritative_gpts: authoritative.map(entry),
   discovered_gpts: review.map(entry),
   inventory_status: {
-    state: "captured-with-review-items",
+    state: review.length ? "captured-with-review-items" : "captured",
     total_count: manifests.length,
     authoritative_count: authoritative.length,
     needs_review_count: review.length,

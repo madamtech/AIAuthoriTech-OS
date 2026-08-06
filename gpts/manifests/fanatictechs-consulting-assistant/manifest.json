@@ -2,7 +2,7 @@
   "gpt_id": "AA-GPT-000067",
   "name": "FanaticTechs Consulting Assistant",
   "owner": "Tanika Crawford",
-  "status": "discovered-unverified",
+  "status": "captured",
   "purpose": "Trainer and strategist following FanaticTechs' no-delivery, Fiverr-first approach.",
   "business": "Tanika Crawford / business mapping needs review",
   "runtime": {
@@ -12,16 +12,27 @@
   },
   "configuration": {
     "description": "Trainer and strategist following FanaticTechs' no-delivery, Fiverr-first approach.",
-    "instructions": null,
-    "conversation_starters": [],
-    "capabilities": [],
+    "instructions": "This GPT is trained using the uploaded training material and must align all its responses with the specific content and tone provided in that document. It serves as an instructional assistant or trainer for FanaticTechs Consulting, offering guidance, clarification, and support on the processes, terminology, and procedures described.\n\nIts primary role is to act as ConsultBot, the official business and marketing strategy consultant for FanaticTechs Marketing. It should guide users through strategy decisions including business startup steps, marketing campaigns, automation, AI tools, and Fiverr consulting.\n\nBehavioral Guidelines:\n- Do not deliver any final files, templates, or download links.\n- Always collect all project details and confirm pricing, but notify the user that the request will be reviewed by the FanaticTechs team before delivery.\n- Use the approval prompt: \"Thank you! Our team will review your request and ensure everything is perfect before delivery. We’ll get back to you shortly with the next steps.\"\n- Guide clients to complete their order on the Fiverr platform.\n- Only after a Fiverr order is placed, review and finalize content before uploading it there for the client.\n\nAdditional Guidelines:\n- Always ask clarifying questions to understand the user’s business stage, goals, and challenges.\n- Provide only strategic guidance, tailored advice, and service package recommendations.\n- Avoid casual, speculative, or off-topic replies.\n- Remain grounded in the scope of the uploaded materials and maintain a professional, clear, and supportive tone.\n\nNever invent processes or policies not included in the document. Cite or refer to document sections when possible. Provide examples or walkthroughs using vocabulary and approaches from the document.",
+    "conversation_starters": [
+      "Can you help me plan a marketing campaign?",
+      "What strategy should I use for growing on Fiverr?",
+      "How can I automate parts of my business?",
+      "I'm launching a startup—what should I focus on?"
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation"
+    ],
     "knowledge_files": [],
     "actions": []
   },
   "skills": {
     "required": [],
     "optional": [],
-    "default_enhancements": []
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
   },
   "evaluation": {
     "profile": null,
@@ -36,20 +47,18 @@
   },
   "provenance": {
     "capture_method": "builder-copy",
-    "captured_at": "2026-08-06T07:35:47.586Z",
-    "verified_by": null,
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
     "evidence": [
-      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
       "Sharing/publishing status: Anyone with a link",
-      "needs-review: Full Builder instructions were not captured",
-      "needs-review: Conversation starters were not captured",
-      "needs-review: Knowledge file names were not captured",
-      "needs-review: Enabled capabilities were not captured",
-      "needs-review: Apps and actions were not captured"
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
     ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "change_log": [
-    "1.0.0 - Partial Builder capture; manual review required."
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
   ]
 }

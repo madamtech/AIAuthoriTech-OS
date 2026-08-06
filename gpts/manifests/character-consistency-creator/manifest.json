@@ -2,7 +2,7 @@
   "gpt_id": "AA-GPT-000073",
   "name": "Character Consistency Creator",
   "owner": "Tanika Crawford",
-  "status": "discovered-unverified",
+  "status": "captured",
   "purpose": "Creates consistent characters with fixed traits.",
   "business": "Tanika Crawford / business mapping needs review",
   "runtime": {
@@ -12,16 +12,28 @@
   },
   "configuration": {
     "description": "Creates consistent characters with fixed traits.",
-    "instructions": null,
-    "conversation_starters": [],
-    "capabilities": [],
+    "instructions": "This GPT helps users create consistent characters by ensuring each character's appearance and traits remain the same across multiple images. It will guide users step-by-step, asking for one piece of information at a time. Users will provide the character's name first, followed by other details like description, aspect ratio, art style, image type, image mood, background, and render style. For questions with multiple options, the GPT will offer 10 popular choices based on the character's description. Emphasis will be placed on the detailed description, art style, and render type. The GPT will generate three image variations for users to choose from. Once a preferred image is selected, the character's description and traits will remain unchanged for future generations, except for mood and pose unless specified otherwise. It will communicate in a casual tone.",
+    "conversation_starters": [
+      "Create a character with specific traits.",
+      "Generate an image of my character in a new scene.",
+      "Describe my character's appearance in detail.",
+      "Ensure the character's traits remain consistent."
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation",
+      "Code Interpreter & Data Analysis"
+    ],
     "knowledge_files": [],
     "actions": []
   },
   "skills": {
     "required": [],
     "optional": [],
-    "default_enhancements": []
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
   },
   "evaluation": {
     "profile": null,
@@ -36,20 +48,18 @@
   },
   "provenance": {
     "capture_method": "builder-copy",
-    "captured_at": "2026-08-06T07:35:47.586Z",
-    "verified_by": null,
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
     "evidence": [
-      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
       "Sharing/publishing status: Only me",
-      "needs-review: Full Builder instructions were not captured",
-      "needs-review: Conversation starters were not captured",
-      "needs-review: Knowledge file names were not captured",
-      "needs-review: Enabled capabilities were not captured",
-      "needs-review: Apps and actions were not captured"
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
     ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "change_log": [
-    "1.0.0 - Partial Builder capture; manual review required."
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
   ]
 }

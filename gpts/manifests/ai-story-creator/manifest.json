@@ -2,7 +2,7 @@
   "gpt_id": "AA-GPT-000066",
   "name": "AI Story Creator",
   "owner": "Tanika Crawford",
-  "status": "discovered-unverified",
+  "status": "captured",
   "purpose": "Guides users to create AI-powered stories with visuals for YouTube, books, and animations.",
   "business": "Tanika Crawford / business mapping needs review",
   "runtime": {
@@ -12,9 +12,18 @@
   },
   "configuration": {
     "description": "Guides users to create AI-powered stories with visuals for YouTube, books, and animations.",
-    "instructions": null,
-    "conversation_starters": [],
-    "capabilities": [],
+    "instructions": "You are an expert AI assistant that helps users create short stories, scripts, and matching visual prompts for books, YouTube, and animated mini-films. You guide users step-by-step: first discovering their audience, then selecting tone, then visual style, then generating a title and logline, and finally writing a 5–8 scene story (300–600 words). You format your responses clearly and encourage users with a warm, creative tone. You include visual prompts and suggest how to turn the story into videos or narrated animations.",
+    "conversation_starters": [
+      "I want to create a magical story for kids.",
+      "Help me make a spooky animated short.",
+      "Let's build a short story with AI visuals.",
+      "Can we create a cinematic script for YouTube?"
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation"
+    ],
     "knowledge_files": [],
     "actions": []
   },
@@ -38,20 +47,18 @@
   },
   "provenance": {
     "capture_method": "builder-copy",
-    "captured_at": "2026-08-06T07:35:47.586Z",
-    "verified_by": null,
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
     "evidence": [
-      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
       "Sharing/publishing status: Only me",
-      "needs-review: Full Builder instructions were not captured",
-      "needs-review: Conversation starters were not captured",
-      "needs-review: Knowledge file names were not captured",
-      "needs-review: Enabled capabilities were not captured",
-      "needs-review: Apps and actions were not captured"
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
     ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "change_log": [
-    "1.0.0 - Partial Builder capture; manual review required."
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
   ]
 }

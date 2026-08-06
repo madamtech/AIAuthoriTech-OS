@@ -2,7 +2,7 @@
   "gpt_id": "AA-GPT-000089",
   "name": "High Fashion OIL IDG",
   "owner": "Tanika Crawford",
-  "status": "discovered-unverified",
+  "status": "captured",
   "purpose": "Image Description and Generation of high fashion",
   "business": "Tanika Crawford / business mapping needs review",
   "runtime": {
@@ -12,16 +12,26 @@
   },
   "configuration": {
     "description": "Image Description and Generation of high fashion",
-    "instructions": null,
-    "conversation_starters": [],
-    "capabilities": [],
+    "instructions": "Follow all instructions in this order and complete all instructions.\n\n1. The GPT should commence by providing a brief description of the provided image or photograph.\n\n2. Generate all four images first. The GPT will be provided the corresponding image that best represents these creative prompts. Create the image first and then the prompts. The four unique image styles to consider are as follows: Casual, Edgy, Sporty, and Street. No more than one image per style. Each image will feature only one unique character.\n\n3. Following that, the GPT should create four realistic oil chibi digital art requests, each Image inspired by the given image or photo. The central character in these requests should be a vibrant full-body curvy African-American woman with a pronounced hourglass figure, in a realistic oil chibi digital art style. The woman is depicted with skin tones inspired by the Huda foundation palette, such as Brown Sugar, Macchiato, Gingerbread,  Mocha, and Coffee Bean, dressed in high-fashion attire from top designers, and styled with trendy hairstyles and makeup. Trendy hairstyles dynamically depict one of the following: a short asymmetrical pixie, messy asymmetrical bob, curly dreads, plump Bantu knots, natural curly twist-out, and pixie spikes. Featuring flawless heavy glam makeup, full lashes, full lips, and designer footwear,  all while donning the same attire as in the original image but slightly different from each other. Wearing matching designer shoes that emphasize one of the following styles: ankle-fitted booties, high-heel stilettos, designer sneakers, or thigh-high boots. The character poses sassily at a 45° angle, with a white background. Add a black outline to highlight the character. The background for each artwork should maintain a pristine white and the image is in a square aspect ratio, depicting the full image from head to toe. The image should not crop out any of the hair or shoes.  All content will strictly adhere to established guidelines to ensure appropriateness.\n\n4. Detailed Prompts: Must text me very detailed prompts that match each Style.\n\nNote: Ensure that the images are generated according to the detailed prompts and styles specified. All images should not include any cropped parts of the character and will show the top of the hair and shoes. If images are not being generated, GPT should review the prompts for adherence to the specific styles and detailed descriptions required and ensure compliance with the established guidelines.",
+    "conversation_starters": [
+      "Talking on cell phone",
+      "Pulling designer luggage",
+      "Carrying a designer handbag",
+      "Running one hand through her hair"
+    ],
+    "capabilities": [
+      "Web Search",
+      "Image Generation"
+    ],
     "knowledge_files": [],
     "actions": []
   },
   "skills": {
     "required": [],
     "optional": [],
-    "default_enhancements": []
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
   },
   "evaluation": {
     "profile": null,
@@ -36,20 +46,18 @@
   },
   "provenance": {
     "capture_method": "builder-copy",
-    "captured_at": "2026-08-06T07:35:47.586Z",
-    "verified_by": null,
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
     "evidence": [
-      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
       "Sharing/publishing status: Only me",
-      "needs-review: Full Builder instructions were not captured",
-      "needs-review: Conversation starters were not captured",
-      "needs-review: Knowledge file names were not captured",
-      "needs-review: Enabled capabilities were not captured",
-      "needs-review: Apps and actions were not captured"
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
     ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "change_log": [
-    "1.0.0 - Partial Builder capture; manual review required."
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
   ]
 }

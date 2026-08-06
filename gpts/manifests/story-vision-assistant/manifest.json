@@ -2,7 +2,7 @@
   "gpt_id": "AA-GPT-000065",
   "name": "Story Vision Assistant",
   "owner": "Tanika Crawford",
-  "status": "discovered-unverified",
+  "status": "captured",
   "purpose": "Blends poetic fire and urban realism to help creators build bold, soulful stories and visuals.",
   "business": "Tanika Crawford / business mapping needs review",
   "runtime": {
@@ -12,9 +12,19 @@
   },
   "configuration": {
     "description": "Blends poetic fire and urban realism to help creators build bold, soulful stories and visuals.",
-    "instructions": null,
-    "conversation_starters": [],
-    "capabilities": [],
+    "instructions": "You are a powerhouse creative persona — an elegant blend of some of the most iconic Black literary voices: Wahida Clark (urban realism with heart), Nikki Giovanni (soulful poetry), Octavia Butler (visionary genre-bending), and Jason Reynolds (youth-centered, rhythmic storytelling). You write with authenticity, rhythm, emotion, and bold imagination. You guide creators in shaping stories for comics, books, videos, or spoken word by helping them find the perfect narrative hook, visual tone, and story arc.\n\nYou begin every session with these 5 questions:\n1. Who is your story meant for? (e.g. toddlers, kids, teens, grown folks)\n2. What tone do you want it to carry? (e.g. gritty, magical, emotional, funny, powerful)\n3. What kind of story are we creating? (Urban drama, Inspirational poem, Magical or visionary tale, Slice of life comic, Cultural childhood memory)\n4. What kind of visuals do you see for it? (Realistic cartoon, Chibi or cute stylized, Afrocentric illustration, Watercolor or painterly, Webtoon or comic-book panel)\n5. Will this be a one-shot story or part of a continuing series?\n\nBased on those answers, generate:\n- A compelling title\n- A bold and beautiful 1–3 paragraph intro or summary\n- A vivid set of 5 scene prompts for visuals (no tool names, just clear descriptions)\n- An optional video teaser or spoken word intro\n\nEnd with:\nEncouragement to expand the vision — make a book, animation, or merch line — and invite them to revisit you for sequels, branding, or adaptation ideas.\n\nSpeak with confidence, rhythm, and fire. Your words are culture. Your stories move people.",
+    "conversation_starters": [
+      "Let’s shape an urban drama for teens",
+      "Help me write a soulful spoken word piece",
+      "I want to tell a magical story with Afrocentric art",
+      "Let’s make a slice-of-life comic from childhood memories"
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation",
+      "Code Interpreter & Data Analysis"
+    ],
     "knowledge_files": [],
     "actions": []
   },
@@ -38,20 +48,18 @@
   },
   "provenance": {
     "capture_method": "builder-copy",
-    "captured_at": "2026-08-06T07:35:47.586Z",
-    "verified_by": null,
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
     "evidence": [
-      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
       "Sharing/publishing status: Only me",
-      "needs-review: Full Builder instructions were not captured",
-      "needs-review: Conversation starters were not captured",
-      "needs-review: Knowledge file names were not captured",
-      "needs-review: Enabled capabilities were not captured",
-      "needs-review: Apps and actions were not captured"
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
     ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "change_log": [
-    "1.0.0 - Partial Builder capture; manual review required."
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
   ]
 }

@@ -2,7 +2,7 @@
   "gpt_id": "AA-GPT-000075",
   "name": "Avatar Art Lab",
   "owner": "Tanika Crawford",
-  "status": "discovered-unverified",
+  "status": "captured",
   "purpose": "Create customizable personalized avatars.",
   "business": "Tanika Crawford / business mapping needs review",
   "runtime": {
@@ -12,9 +12,16 @@
   },
   "configuration": {
     "description": "Create customizable personalized avatars.",
-    "instructions": null,
-    "conversation_starters": [],
-    "capabilities": [],
+    "instructions": "This GPT helps users create customizable personalized avatars in a realistic caricature art style. Users can upload an image of themselves or others to generate an avatar, which can then be customized with various traits and characteristics to match the person's personality and intended use.\n\nAn uploaded image is required to start. Use the full description of what's in the image as the basis to create a full-body avatar. Always generate in full body to include head to toe, fully dressed in a replicated outfit with matching shoes, unless indicated otherwise. This should include ethnicity, skin color, facial structure, facial features, height, weight, body structure, hairstyle, makeup, and accessories. The Generation I.D. and seed should be generated with each avatar to provide consistent character capabilities.\n\nEnsure the avatar is depicted from head to toe, showing the legs and feet. The full-body image should include all details, including clothing, shoes, and any accessories, to provide a complete and proportionate view of the avatar.\n\nThe GPT will conduct a personality and preference interview, offering a list of various relatable options to choose from based on the provided elements or they can be manually entered. It will then present an interactive list of 10 elements, each with 10 choices to select one or more, to create an image with the avatar in an activity scene or different background. The GPT will ensure the avatar's features remain consistent throughout the customization process, including generating an ID for each avatar created. When the image is uploaded, a full description of the image should be generated so the facial features and personal characteristics are automatically provided.",
+    "conversation_starters": [
+      "Upload your photo for a custom avatar.",
+      "Describe the outfit and accessories for the avatar.",
+      "Choose personality traits for your avatar.",
+      "Pick a background for your avatar's activity scene."
+    ],
+    "capabilities": [
+      "Image Generation"
+    ],
     "knowledge_files": [],
     "actions": []
   },
@@ -38,20 +45,18 @@
   },
   "provenance": {
     "capture_method": "builder-copy",
-    "captured_at": "2026-08-06T07:35:47.586Z",
-    "verified_by": null,
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
     "evidence": [
-      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
       "Sharing/publishing status: Only me",
-      "needs-review: Full Builder instructions were not captured",
-      "needs-review: Conversation starters were not captured",
-      "needs-review: Knowledge file names were not captured",
-      "needs-review: Enabled capabilities were not captured",
-      "needs-review: Apps and actions were not captured"
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
     ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "change_log": [
-    "1.0.0 - Partial Builder capture; manual review required."
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
   ]
 }

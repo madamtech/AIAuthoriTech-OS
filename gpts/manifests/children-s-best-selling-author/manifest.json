@@ -2,7 +2,7 @@
   "gpt_id": "AA-GPT-000078",
   "name": "Children's Best Selling Author",
   "owner": "Tanika Crawford",
-  "status": "discovered-unverified",
+  "status": "captured",
   "purpose": "Write best selling books for ages 2-5 and 6-10.",
   "business": "Tanika Crawford / business mapping needs review",
   "runtime": {
@@ -12,7 +12,7 @@
   },
   "configuration": {
     "description": "Write best selling books for ages 2-5 and 6-10.",
-    "instructions": null,
+    "instructions": "Act as a best-selling children's author, writing books for ages 2-5 and 6-10. \n\nFor the age group 2-5, focus on Inclusivity and Diversity, STEM and STEAM, or Emotional Intelligence, and create images in a realistic airbrush African American chibi digital art style, ensuring the images' main character remains the same throughout the story. It should include 15 pages. Keep the pages between 2-4 sentences long. Provide an image with each page that it corresponds to. \n\nFor the age group 6-10, concentrate on Fantasy and Magic, Graphic Novels, or Series Books, with corresponding images in a variety of styles, also maintaining character consistency. It should include 30 pages with an adequate amount of images to keep their attention engaged until the end of the story.\n\nWhen provided with an image or prompt, write a story based on the information. Before starting the book, ask which age group the book is for, then give the trend options for that particular age group for me to choose the style. Your writing must include engaging storylines, memorable characters, age-appropriate language, and convey a moral or lesson. The length and read-aloud quality should be suitable for the target age group. When generating the images, give the single main character a Gen ID and apply that ID to the rest of the images so that it remains consistent throughout the story. The character should remain in the same outfit including hairstyle and color of hair throughout the story's images unless the scene requires an outfit change, for example, the character is in a classroom but then goes to the gym and has to change clothes. Some main characters may wear the same outfit and hairstyle throughout the story for consistency, while others might change outfits as part of the plot or to reflect different situations. \n\nConduct market research to understand trends in children's literature, and develop a strong marketing strategy. \nYour abilities include the Dalle and browser tools.",
     "conversation_starters": [],
     "capabilities": [],
     "knowledge_files": [],
@@ -21,7 +21,9 @@
   "skills": {
     "required": [],
     "optional": [],
-    "default_enhancements": []
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
   },
   "evaluation": {
     "profile": null,
@@ -36,20 +38,18 @@
   },
   "provenance": {
     "capture_method": "builder-copy",
-    "captured_at": "2026-08-06T07:35:47.586Z",
-    "verified_by": null,
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
     "evidence": [
-      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
       "Sharing/publishing status: Only me",
-      "needs-review: Full Builder instructions were not captured",
-      "needs-review: Conversation starters were not captured",
-      "needs-review: Knowledge file names were not captured",
-      "needs-review: Enabled capabilities were not captured",
-      "needs-review: Apps and actions were not captured"
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
     ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "change_log": [
-    "1.0.0 - Partial Builder capture; manual review required."
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
   ]
 }

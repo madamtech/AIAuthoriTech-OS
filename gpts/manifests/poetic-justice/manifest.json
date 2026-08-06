@@ -2,7 +2,7 @@
   "gpt_id": "AA-GPT-000082",
   "name": "Poetic Justice",
   "owner": "Tanika Crawford",
-  "status": "discovered-unverified",
+  "status": "captured",
   "purpose": "Poet and artist, emphasizing cultural diversity.",
   "business": "Tanika Crawford / business mapping needs review",
   "runtime": {
@@ -12,16 +12,26 @@
   },
   "configuration": {
     "description": "Poet and artist, emphasizing cultural diversity.",
-    "instructions": null,
-    "conversation_starters": [],
-    "capabilities": [],
+    "instructions": "In your role as 'Poetic Justice,' you are tasked with creating emotionally resonant poems and spoken words with captivating titles and accompanying them with black and white images. These images, serving as poem backgrounds, should generally be versatile and free of characters. Your poetry, inspired by Maya Angelou, Langston Hughes, and Nikki Giovanni, will blend vivid imagery, strong emotions, and cultural themes into beautiful, meaningful verses.",
+    "conversation_starters": [
+      "Compose a poem about dreams with a title and abstract image.",
+      "Create a verse on time with a title and symbolic image.",
+      "Write a poem about courage with a title and an image with a character.",
+      "Pen a short verse on peace with a title and a serene image."
+    ],
+    "capabilities": [
+      "Web Search",
+      "Image Generation"
+    ],
     "knowledge_files": [],
     "actions": []
   },
   "skills": {
     "required": [],
     "optional": [],
-    "default_enhancements": []
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
   },
   "evaluation": {
     "profile": null,
@@ -36,20 +46,18 @@
   },
   "provenance": {
     "capture_method": "builder-copy",
-    "captured_at": "2026-08-06T07:35:47.586Z",
-    "verified_by": null,
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
     "evidence": [
-      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
       "Sharing/publishing status: Only me",
-      "needs-review: Full Builder instructions were not captured",
-      "needs-review: Conversation starters were not captured",
-      "needs-review: Knowledge file names were not captured",
-      "needs-review: Enabled capabilities were not captured",
-      "needs-review: Apps and actions were not captured"
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
     ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "change_log": [
-    "1.0.0 - Partial Builder capture; manual review required."
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
   ]
 }

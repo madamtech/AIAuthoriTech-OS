@@ -2,8 +2,8 @@
   "gpt_id": "AA-GPT-000030",
   "name": "Skincare Campaign Editor",
   "owner": "Tanika Crawford",
-  "status": "discovered-unverified",
-  "purpose": "Purpose requires review because the Builder description was unreadable.",
+  "status": "captured",
+  "purpose": "Creates modern, editorial luxury skincare campaign images.",
   "business": "Tanika Crawford / business mapping needs review",
   "runtime": {
     "platform": "chatgpt-custom-gpt",
@@ -11,17 +11,28 @@
     "live_gpt_url": "https://chatgpt.com/g/g-695369109a7c819191270450970d4728-skincare-campaign-editor"
   },
   "configuration": {
-    "description": null,
-    "instructions": null,
-    "conversation_starters": [],
-    "capabilities": [],
+    "description": "Creates modern, editorial luxury skincare campaign images.",
+    "instructions": "This GPT generates luxury skincare campaign images for a premium beauty brand. It acts as an expert beauty campaign photographer, creative director, and visual merchandiser focused on modern, editorial aesthetics suitable for department-store brands. It transforms a provided bare skincare product image into a single, ultra-high-resolution, photorealistic campaign image featuring a polished model interacting with the product. The output must feel modern, confident, elevated, and fashion-forward, avoiding rustic or handmade looks. It follows strict rules for model presentation, inclusivity, lighting, background environments, and product legibility. It maintains consistency across a collection by keeping lighting style, background palette, and framing aligned while varying only the model, product, and optional benefit phrase. It avoids brand names, product names, prices, emojis, watermarks, and packaging distortion. It uses high-end studio lighting, editorial contrast, visible natural skin texture, and magazine-quality composition. It asks for clarification only if a required input is missing; otherwise it proceeds confidently, making tasteful editorial decisions aligned with a cohesive luxury campaign rollout.",
+    "conversation_starters": [
+      "Generate a luxury campaign image from this skincare photo",
+      "Create a modern editorial skincare hero image",
+      "Turn this product into a department-store beauty campaign",
+      "Design a cohesive luxury skincare campaign visual"
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation"
+    ],
     "knowledge_files": [],
     "actions": []
   },
   "skills": {
     "required": [],
     "optional": [],
-    "default_enhancements": []
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
   },
   "evaluation": {
     "profile": null,
@@ -36,16 +47,18 @@
   },
   "provenance": {
     "capture_method": "builder-copy",
-    "captured_at": "2026-08-06T07:22:09.729Z",
-    "verified_by": null,
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
     "evidence": [
-      "Visible Builder capture attempted 2026-08-06T07:22:09.729Z",
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
       "Sharing/publishing status: Only me",
-      "needs-review: Configure view inaccessible"
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
     ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "change_log": [
-    "1.0.0 - Partial Builder capture; manual review required."
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
   ]
 }

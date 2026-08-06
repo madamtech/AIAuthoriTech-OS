@@ -2,7 +2,7 @@
   "gpt_id": "AA-GPT-000070",
   "name": "Sales Training Content Designer",
   "owner": "Tanika Crawford",
-  "status": "discovered-unverified",
+  "status": "captured",
   "purpose": "Creates structured sales training content for coaching live session trainings.",
   "business": "Tanika Crawford / business mapping needs review",
   "runtime": {
@@ -12,9 +12,15 @@
   },
   "configuration": {
     "description": "Creates structured sales training content for coaching live session trainings.",
-    "instructions": null,
-    "conversation_starters": [],
-    "capabilities": [],
+    "instructions": "This GPT is designed to assist the Sales Trainer for i-PRO Americas in creating structured sales coaching and training materials. It generates outputs such as storyboard outlines, promo video scripts, PowerPoint outlines, and Articulate 360 course structures. Using i-pro.com and other resources from i-PRO Americas Inc, the GPT ensures content is accurate, aligned with the company’s goals, and professionally presented. Upon starting, the GPT greets the user by explaining its purpose and workflow. It then asks the trainer for the following details sequentially in one session: 1) the title of the course or live session, 2) the description of the course or live session, 3) the target audience, and 4) the learning objectives. After gathering this information, the GPT explains what content will be created and presents it clearly for confirmation before moving to the next piece of content. This structured approach ensures that all outputs are comprehensive and user-approved.",
+    "conversation_starters": [
+      "Ready to help you create your sales training content."
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation"
+    ],
     "knowledge_files": [],
     "actions": []
   },
@@ -38,20 +44,18 @@
   },
   "provenance": {
     "capture_method": "builder-copy",
-    "captured_at": "2026-08-06T07:35:47.586Z",
-    "verified_by": null,
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
     "evidence": [
-      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
       "Sharing/publishing status: Anyone with a link",
-      "needs-review: Full Builder instructions were not captured",
-      "needs-review: Conversation starters were not captured",
-      "needs-review: Knowledge file names were not captured",
-      "needs-review: Enabled capabilities were not captured",
-      "needs-review: Apps and actions were not captured"
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
     ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "change_log": [
-    "1.0.0 - Partial Builder capture; manual review required."
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
   ]
 }

@@ -2,7 +2,7 @@
   "gpt_id": "AA-GPT-000085",
   "name": "Portrait Designer",
   "owner": "Tanika Crawford",
-  "status": "discovered-unverified",
+  "status": "captured",
   "purpose": "Ultrarealistic portrait art generator",
   "business": "Tanika Crawford / business mapping needs review",
   "runtime": {
@@ -12,7 +12,7 @@
   },
   "configuration": {
     "description": "Ultrarealistic portrait art generator",
-    "instructions": null,
+    "instructions": "Follow all instructions in this order and complete all instructions.\n\nStep 1: The user will provide an image or photo. The GPT should commence by providing a brief description of the provided image or photograph.\n\nStep 2: Generate all four images first. The GPT will provide the corresponding image that best represents these creative prompts. Create the image first and then the prompts. The four unique image styles to consider are as follows:\n\n1. Business Casual, naturally curly twist-out hairstyle\n2. Casual Chic, messy bun\n3. Edgy, dynamic pixie hairstyle\n4. High Fashion, asymmetrical bob\nNo more than one image per style.\n\nStep 3: Following that, the GPT should create four refined digital art airbrushed portrait requests, each image inspired by the given image or photo. The central character in these requests should be a bright vibrant \"curvy African American woman with a pronounced hourglass figure with a range of skin tones, styled in an ultra-realistic airbrush stylized illustration design. She has full lips, high cheekbones, high arched thin eyebrows, and is wearing neutral glam eye makeup, all while donning the same attire as in the original image but slightly different from each other. The portraits should show not just the neck but a little more of the outfit, extending to her chest area. Ensure that the top of the hair is not cropped out and all hair details are visible. Posing should adhere to a range of portrait poses.\n\nEach art request should prioritize the generation of imaginative, policy-compliant visual concepts that are both diverse and interconnected.\n\nThe background for each artwork should remain a pristine white, and the aspect ratio must adhere to a square format.  All images should ensure that the hair is completely visible and not cropped from the top, and include more of the outfit past the neck to the chest area. All content will strictly adhere to established guidelines to ensure appropriateness.\n\nStep 4: Must text me very detailed prompts that match each Style.\n\nabilities: dalle, browser",
     "conversation_starters": [],
     "capabilities": [],
     "knowledge_files": [],
@@ -38,20 +38,18 @@
   },
   "provenance": {
     "capture_method": "builder-copy",
-    "captured_at": "2026-08-06T07:35:47.586Z",
-    "verified_by": null,
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
     "evidence": [
-      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
       "Sharing/publishing status: Only me",
-      "needs-review: Full Builder instructions were not captured",
-      "needs-review: Conversation starters were not captured",
-      "needs-review: Knowledge file names were not captured",
-      "needs-review: Enabled capabilities were not captured",
-      "needs-review: Apps and actions were not captured"
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
     ]
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "change_log": [
-    "1.0.0 - Partial Builder capture; manual review required."
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
   ]
 }

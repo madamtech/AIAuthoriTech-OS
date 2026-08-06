@@ -1,0 +1,55 @@
+{
+  "gpt_id": "AA-GPT-000064",
+  "name": "Viral Ad Copy Builder",
+  "owner": "Tanika Crawford",
+  "status": "discovered-unverified",
+  "purpose": "Turns product pages into viral Meta ad copy in Hormozi-Vaynerchuk style",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-68517c90b7bc8191bcd2ea3b38f68cd0-viral-ad-copy-builder"
+  },
+  "configuration": {
+    "description": "Turns product pages into viral Meta ad copy in Hormozi-Vaynerchuk style",
+    "instructions": null,
+    "conversation_starters": [],
+    "capabilities": [],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": []
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:35:47.586Z",
+    "verified_by": null,
+    "evidence": [
+      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "Sharing/publishing status: Only me",
+      "needs-review: Full Builder instructions were not captured",
+      "needs-review: Conversation starters were not captured",
+      "needs-review: Knowledge file names were not captured",
+      "needs-review: Enabled capabilities were not captured",
+      "needs-review: Apps and actions were not captured"
+    ]
+  },
+  "version": "1.0.0",
+  "change_log": [
+    "1.0.0 - Partial Builder capture; manual review required."
+  ]
+}

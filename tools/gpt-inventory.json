@@ -1,0 +1,963 @@
+[
+  {
+    "id": "g-6a40c1d6d0348191b8921e569477de44",
+    "index": 1,
+    "name": "Lone Star Scholar Prep",
+    "summary_lines": [
+      "Helps align STAAR, TEKS, PSAT 8/9 resources and create reliable visual prompts.",
+      "0 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6a40c1d6d0348191b8921e569477de44-lone-star-scholar-prep"
+  },
+  {
+    "id": "g-6a37034b3cf881919aec5a85e1d735f9",
+    "index": 2,
+    "name": "Universal FizzyPop Studio",
+    "summary_lines": [
+      "Build characters, stories, comics, videos, and visual worlds.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6a37034b3cf881919aec5a85e1d735f9"
+  },
+  {
+    "id": "g-6a32ee0a3abc81918cd52566a7920b6e",
+    "index": 3,
+    "name": "GlamBambu P1S Production",
+    "summary_lines": [
+      "Production-aware 3D print assistant optimized for the Bambu Lab P1S. Creates production-ready designs, OpenSCAD code, SVG workflows, AMS plans, vendor displays, packaging tools, custom accessories, and scalable manufacturing strategies.",
+      "10+ Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6a32ee0a3abc81918cd52566a7920b6e-glambambu-p1s-production"
+  },
+  {
+    "id": "g-6a26181479908191ac1bd9fcb714ec7c",
+    "index": 4,
+    "name": "Gavin- Cinematic Skit Director",
+    "summary_lines": [
+      "Transform memories, hidden truths, and emotional wounds into cinematic short skits. Create realistic characters, storyboards, scripts, director notes, and AI video prompts built around psychological tension, emotional realism, and cliffhangers that keep audiences wanting more.",
+      "1 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6a26181479908191ac1bd9fcb714ec7c-gavin-cinematic-skit-director"
+  },
+  {
+    "id": "g-6a20f8273e78819188444f655ff303bd",
+    "index": 5,
+    "name": "Eklektic Ender Studio",
+    "summary_lines": [
+      "Large-format 3D print planning for products, displays, accessories, and Ender 5 Plus workflows.",
+      "5 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6a20f8273e78819188444f655ff303bd-eklektic-ender-studio"
+  },
+  {
+    "id": "g-6a190c92367c819199d8ad7295ff0516",
+    "index": 6,
+    "name": "GlamForge Laser Studio",
+    "summary_lines": [
+      "Creative, production-ready xTool S1 40W guidance for laser projects from idea to finish.",
+      "4 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6a190c92367c819199d8ad7295ff0516-glamforge-laser-studio"
+  },
+  {
+    "id": "g-6a17e3de69b08191a639043e3a27f96f",
+    "index": 7,
+    "name": "GlamForge 3D Printer",
+    "summary_lines": [
+      "Production-aware 3D print assistant for product design, vendor displays, custom accessories, and manufacturing workflows.",
+      "10+ Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6a17e3de69b08191a639043e3a27f96f-glamforge-3d-printer"
+  },
+  {
+    "id": "g-6a0fc3856e1081919114af1b5aa9ac17",
+    "index": 8,
+    "name": "Stationery Suite",
+    "summary_lines": [
+      "Design boutique photo-inspired journals, stationery, and matching gift products.",
+      "2 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6a0fc3856e1081919114af1b5aa9ac17-stationery-suite"
+  },
+  {
+    "id": "g-6a0109fff28081918c9c440285518336",
+    "index": 9,
+    "name": "Monthly Sales Episodes",
+    "summary_lines": [
+      "Helps compress and optimize GPT instructions.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6a0109fff28081918c9c440285518336"
+  },
+  {
+    "id": "g-6a0009c3963c81918c16f42ce1435d08",
+    "index": 10,
+    "name": "Lyrical Hitmaker",
+    "summary_lines": [
+      "Cinematic Suno-ready songwriting with artist-behavior translation and visual rollout support.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6a0009c3963c81918c16f42ce1435d08-lyrical-hitmaker"
+  },
+  {
+    "id": "g-69ff2181f2c08191aa04b841f1cce9e6",
+    "index": 11,
+    "name": "Sportscast Director",
+    "summary_lines": [
+      "Cinematic sports-doc sales recognition videos.",
+      "1 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69ff2181f2c08191aa04b841f1cce9e6-sportscast-director"
+  },
+  {
+    "id": "g-69f7965ff63c8191ace8345dc0399384",
+    "index": 12,
+    "name": "Cinematic Realty Director",
+    "summary_lines": [
+      "Get a full cinematic luxury home walkthrough—image, scenes, video & motion prompts, all perfectly consistent.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69f7965ff63c8191ace8345dc0399384-cinematic-realty-director"
+  },
+  {
+    "id": "g-69f71b6e41b48191bfb41ea6ffc09cc2",
+    "index": 13,
+    "name": "Glamm Graffitee",
+    "summary_lines": [
+      "Creates bold glam graffiti prompts with pro-level presets, suggestions, and premium creative modes.",
+      "0 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69f71b6e41b48191bfb41ea6ffc09cc2-glamm-graffitee"
+  },
+  {
+    "id": "g-69f6c1515b548191b9299db16a64cde4",
+    "index": 14,
+    "name": "AI Cinematic Engineer",
+    "summary_lines": [
+      "Transforms ideas into concise, structured cinematic prompts and storyboards.",
+      "5 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69f6c1515b548191b9299db16a64cde4-ai-cinematic-engineer"
+  },
+  {
+    "id": "g-69f697e9788481919788dfd38e2ec1c9",
+    "index": 15,
+    "name": "Black Ops Architect",
+    "summary_lines": [
+      "Designs cinematic thriller stories with clear stakes, factions, twists, and usable scene-by-scene architecture.",
+      "1 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69f697e9788481919788dfd38e2ec1c9-black-ops-architect"
+  },
+  {
+    "id": "g-69f6944a02ec8191a47cb9dbea30d054",
+    "index": 16,
+    "name": "Za'ire | Situational Strategist",
+    "summary_lines": [
+      "Calm, strategic advisor for navigating conflict, pressure, and high-stakes decisions.",
+      "3 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69f6944a02ec8191a47cb9dbea30d054-za-ire-situational-strategist"
+  },
+  {
+    "id": "g-69ec25c8b3b88191bd54a754b7c452f6",
+    "index": 17,
+    "name": "Nakei Podcast Creative Director",
+    "summary_lines": [
+      "Structured, high-impact stylized podcast poster concept engine.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69ec25c8b3b88191bd54a754b7c452f6-nakei-podcast-creative-director"
+  },
+  {
+    "id": "g-69eba60fbff88191acfbb4051aeda705",
+    "index": 18,
+    "name": "Ethan- Creative Production Director",
+    "summary_lines": [
+      "Creates polished image prompts, captions, and optional short video prompts from defined styles.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69eba60fbff88191acfbb4051aeda705-ethan-creative-production-director"
+  },
+  {
+    "id": "g-69e3228243ac81918fc68f8ffc181f57",
+    "index": 19,
+    "name": "Urban Romance Lyrical Studio",
+    "summary_lines": [
+      "Chatman & Tra'Nae run a chart-ready AI R&B label crafting cinematic hits.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69e3228243ac81918fc68f8ffc181f57-urban-romance-lyrical-studio"
+  },
+  {
+    "id": "g-69c03b61357c819198c8b7bb71112ff0",
+    "index": 20,
+    "name": "Urban Romance Studio",
+    "summary_lines": [
+      "Creates cinematic Urban Romance Drama bundles with guided story setup.",
+      "6 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69c03b61357c819198c8b7bb71112ff0-urban-romance-studio"
+  },
+  {
+    "id": "g-69bc3f2aeee88191b8ba5ff741476e06",
+    "index": 21,
+    "name": "i-PRO Sales Governance Assistant",
+    "summary_lines": [
+      "Governed i-PRO Sales drafting, planning, summary, and review support.",
+      "10+ Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69bc3f2aeee88191b8ba5ff741476e06-i-pro-sales-governance-assistant"
+  },
+  {
+    "id": "g-69b77923f23881918bd7e3de9b14efbb",
+    "index": 22,
+    "name": "Cinematic Studio Director",
+    "summary_lines": [
+      "Creative director GPT that guides cinematic brand visuals with minimal questions.",
+      "5 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69b77923f23881918bd7e3de9b14efbb-cinematic-studio-director"
+  },
+  {
+    "id": "g-69b64a78c9448191b7459a245e480d56",
+    "index": 23,
+    "name": "LuxGlam Director",
+    "summary_lines": [
+      "Creative director that asks questions then generates luxury fashion images.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69b64a78c9448191b7459a245e480d56-luxglam-director"
+  },
+  {
+    "id": "g-69ab3505fe548191ab871cb41da2ae56",
+    "index": 24,
+    "name": "i-PRO Sales Intelligence",
+    "summary_lines": [
+      "Copilot that helps i-PRO reps write in their authentic sales voice with authority.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69ab3505fe548191ab871cb41da2ae56"
+  },
+  {
+    "id": "g-69a8642b00488191894b831a5cabaa5f",
+    "index": 25,
+    "name": "i-PRO Sales Intelligence",
+    "summary_lines": [
+      "Elite copilot that helps i-PRO reps write with authority and their authentic voice.",
+      "5 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69a8642b00488191894b831a5cabaa5f-i-pro-sales-intelligence"
+  },
+  {
+    "id": "g-69a85edaf9b88191871fa6c93152e346",
+    "index": 26,
+    "name": "Untitled",
+    "summary_lines": [
+      "Builds a personalized sales communication style for i‑PRO security professionals.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69a85edaf9b88191871fa6c93152e346"
+  },
+  {
+    "id": "g-695b219ebae48191bf2ded47f71d2ba7",
+    "index": 27,
+    "name": "Brand Advertiser",
+    "summary_lines": [
+      "Creates cinematic, identity-locked brand ad image prompts.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-695b219ebae48191bf2ded47f71d2ba7-brand-advertiser"
+  },
+  {
+    "id": "g-6957eff0188081919eb76c8ce14c58a5",
+    "index": 28,
+    "name": "Untitled",
+    "summary_lines": [
+      "Creates realistic New Year 2026 campaign images from real photos",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6957eff0188081919eb76c8ce14c58a5"
+  },
+  {
+    "id": "g-69536d8ca3d48191b971c52a1470f6cc",
+    "index": 29,
+    "name": "Luxury Beauty Product Editor",
+    "summary_lines": [
+      "Transforms bare product images into polished, editorial, luxury e-commerce visuals for Madam Allure.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69536d8ca3d48191b971c52a1470f6cc-luxury-beauty-product-editor"
+  },
+  {
+    "id": "g-695369109a7c819191270450970d4728",
+    "index": 30,
+    "name": "Skincare Campaign Editor",
+    "summary_lines": [
+      "Creates modern, editorial luxury skincare campaign images.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-695369109a7c819191270450970d4728-skincare-campaign-editor"
+  },
+  {
+    "id": "g-6945e097d1b8819183b1524989415cef",
+    "index": 31,
+    "name": "MonoLuxe Studio Artist",
+    "summary_lines": [
+      "Premium Luxe Art Concierge",
+      "10+ Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6945e097d1b8819183b1524989415cef-monoluxe-studio-artist"
+  },
+  {
+    "id": "g-69448b40f8708191b698a0b97ff25306",
+    "index": 32,
+    "name": "Dymin",
+    "summary_lines": [
+      "Government Grant Strategist",
+      "4 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69448b40f8708191b698a0b97ff25306-dymin"
+  },
+  {
+    "id": "g-69250664ff0481919c9ddf6c3b77c4a8",
+    "index": 33,
+    "name": "Coach K",
+    "summary_lines": [
+      "3 Step process to secure a grant: business scope, application, & proposal",
+      "10+ Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69250664ff0481919c9ddf6c3b77c4a8-coach-k"
+  },
+  {
+    "id": "g-6924b902039c81919fec2fb62a127bb4",
+    "index": 34,
+    "name": "Systems Doc Agent (N541512)",
+    "summary_lines": [
+      "Creates functional, government-ready system documentation with strict NAICS 541512 compliance.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6924b902039c81919fec2fb62a127bb4-systems-doc-agent-n541512"
+  },
+  {
+    "id": "g-6924ab5487848191bc9816cdd827e379",
+    "index": 35,
+    "name": "Software Doc Agent ( N541511)",
+    "summary_lines": [
+      "Creates formal government-ready software documentation using defined templates.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6924ab5487848191bc9816cdd827e379-software-doc-agent-n541511"
+  },
+  {
+    "id": "g-6924a3e980608191b9f6fcea27a3d246",
+    "index": 36,
+    "name": "HR Master Agent (N541612)",
+    "summary_lines": [
+      "Creates compliant, structured HR and training documentation for government use.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6924a3e980608191b9f6fcea27a3d246-hr-master-agent-n541612"
+  },
+  {
+    "id": "g-6924a07aef308191b7af8d3cc913d959",
+    "index": 37,
+    "name": "Master Admin Consultant (N541611)",
+    "summary_lines": [
+      "Government administrative consultant for NAICS 541611 documentation and workflows.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6924a07aef308191b7af8d3cc913d959-master-admin-consultant-n541611"
+  },
+  {
+    "id": "g-69223db0db148191b7b5f2e24f5ce40c",
+    "index": 38,
+    "name": "GovCon Strategist Pro",
+    "summary_lines": [
+      "Elite mentor guiding small businesses to win government contracts",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69223db0db148191b7b5f2e24f5ce40c-govcon-strategist-pro"
+  },
+  {
+    "id": "g-690e69bc6b488191820ab811bd9b53bb",
+    "index": 39,
+    "name": "Agency Architect- Full Build",
+    "summary_lines": [
+      "Guides consultants to build AI offers and ROI-backed proposals.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-690e69bc6b488191820ab811bd9b53bb-agency-architect-full-build"
+  },
+  {
+    "id": "g-690e262902a08191bc094aff6db5a756",
+    "index": 40,
+    "name": "PoeticPunch",
+    "summary_lines": [
+      "Writes soulful pieces after asking for the user’s topic, occasion, and desired tone.",
+      "9 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-690e262902a08191bc094aff6db5a756-poeticpunch"
+  },
+  {
+    "id": "g-690b65d0150c81919e5c1328c647c8a2",
+    "index": 41,
+    "name": "News Plug",
+    "summary_lines": [
+      "Turns news articles into thrilling YouTube scripts full of suspense and energy.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-690b65d0150c81919e5c1328c647c8a2-news-plug"
+  },
+  {
+    "id": "g-690948749e6481918f6a0d38643fbcb0",
+    "index": 42,
+    "name": "CREDIT DISPUTE LETTER GENERATOR",
+    "summary_lines": [
+      "Creates legally compliant FCRA credit dispute letters for bureaus or creditors.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-690948749e6481918f6a0d38643fbcb0-credit-dispute-letter-generator"
+  },
+  {
+    "id": "g-6909453e57808191996aceed47612432",
+    "index": 43,
+    "name": "FULL COMPREHENSIVE CREDIT REPAIR LETTER",
+    "summary_lines": [
+      "Generates legally accurate, professional credit dispute letters for legitimate inaccuracies.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6909453e57808191996aceed47612432-full-comprehensive-credit-repair-letter"
+  },
+  {
+    "id": "g-69085d6b16e081919a5388eff6f6be44",
+    "index": 44,
+    "name": "90-DAY BANK + CREDIT OPTIMIZER",
+    "summary_lines": [
+      "Builds a 90-day, data-driven plan to improve credit, reduce debt, and strengthen finances.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69085d6b16e081919a5388eff6f6be44-90-day-bank-credit-optimizer"
+  },
+  {
+    "id": "g-69085a79650c8191b9b0e104c4445a25",
+    "index": 45,
+    "name": "CHARGE-OFF DISPUTE SPECIALIST",
+    "summary_lines": [
+      "Generates FCRA-compliant dispute letters for inaccurate charge-offs.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69085a79650c8191b9b0e104c4445a25-charge-off-dispute-specialist"
+  },
+  {
+    "id": "g-69085a3d6bc881919f750c53b40d5a28",
+    "index": 46,
+    "name": "HARD INQUIRY REMOVAL SPECIALIST",
+    "summary_lines": [
+      "You are an expert in credit reporting compliance focused only on removing unauthorized or non-permissible purpose inquiries.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-69085a3d6bc881919f750c53b40d5a28-hard-inquiry-removal-specialist"
+  },
+  {
+    "id": "g-690859e1e42c8191ae88e99d8c4fd85a",
+    "index": 47,
+    "name": "COLLECTION ACCOUNT DISPUTE SPECIALIST",
+    "summary_lines": [
+      "Creates legally sound credit dispute letters under FCRA and FDCPA.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-690859e1e42c8191ae88e99d8c4fd85a-collection-account-dispute-specialist"
+  },
+  {
+    "id": "g-6908596f3bb881918da21cbc5cc2a95f",
+    "index": 48,
+    "name": "LATE PAYMENT DISPUTE LETTER SPECIALIST",
+    "summary_lines": [
+      "Creates professional FCRA-compliant dispute letters for inaccurate late payment reports.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6908596f3bb881918da21cbc5cc2a95f-late-payment-dispute-letter-specialist"
+  },
+  {
+    "id": "g-690858afd000819190fb5cb8714224fc",
+    "index": 49,
+    "name": "COMPREHENSIVE CREDIT REPAIR LETTER GENERATOR",
+    "summary_lines": [
+      "Generates legally precise, FCRA-compliant credit dispute letters.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-690858afd000819190fb5cb8714224fc-comprehensive-credit-repair-letter-generator"
+  },
+  {
+    "id": "g-68ffd9b9914c81918393482b9a40026d",
+    "index": 50,
+    "name": "Carter- BusinessCoach",
+    "summary_lines": [
+      "A results-driven business coach who helps entrepreneurs create clarity, systems, and growth.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-68ffd9b9914c81918393482b9a40026d-carter-businesscoach"
+  },
+  {
+    "id": "g-68ffd6e4e7608191889e7fb700992286",
+    "index": 51,
+    "name": "CAMI – The Copywriting Expert",
+    "summary_lines": [
+      "An elite copywriting and storytelling expert who writes human, high-converting copy.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-68ffd6e4e7608191889e7fb700992286-cami-the-copywriting-expert"
+  },
+  {
+    "id": "g-68ffd1f21c748191b5c22aca926a82a0",
+    "index": 52,
+    "name": "Deyja-SocialMedia Expert",
+    "summary_lines": [
+      "A viral content strategist and caption writer who crafts engaging, high-performing social posts.",
+      "10+ Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-68ffd1f21c748191b5c22aca926a82a0-deyja-socialmedia-expert"
+  },
+  {
+    "id": "g-68fa4d4034b08191b55bb5b59e08ce28",
+    "index": 53,
+    "name": "Sales Meeting Prep",
+    "summary_lines": [
+      "Generates daily AI-aligned meeting reports for AI AuthoriTech’s CEO.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-68fa4d4034b08191b55bb5b59e08ce28-sales-meeting-prep"
+  },
+  {
+    "id": "g-68c3a929b6148191b0fcc3ba1216ef4b",
+    "index": 54,
+    "name": "Str8Real Content Assistant",
+    "summary_lines": [
+      "Helps plan, script, and repurpose content for Str8Real with Sterling Crawford. Provides step-by-step instructions for podcast production, blogs, reels, and social media in a raw, uncut, authentic voice",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-68c3a929b6148191b0fcc3ba1216ef4b-str8real-content-assistant"
+  },
+  {
+    "id": "g-68972cd0b2b08191945d7807c9c13281",
+    "index": 55,
+    "name": "Madam AI Assistant",
+    "summary_lines": [
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-68972cd0b2b08191945d7807c9c13281-madam-ai-assistant"
+  },
+  {
+    "id": "g-68951e6537d08191ab46f71b578d3ce6",
+    "index": 56,
+    "name": "ClassSecure Quote Builder",
+    "summary_lines": [
+      "Guides users through discovery questions, recommends a model, and outputs visual ClassSecure quotes.",
+      "40+ Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-68951e6537d08191ab46f71b578d3ce6-classsecure-quote-builder"
+  },
+  {
+    "id": "g-685ef7627a048191b1cfe4b656e991c1",
+    "index": 57,
+    "name": "TanikaGPT-LMS Administrator Assistant",
+    "summary_lines": [
+      "LMS assistant-supports workflows, visuals, automation, and internal content.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-685ef7627a048191b1cfe4b656e991c1-tanikagpt-lms-administrator-assistant"
+  },
+  {
+    "id": "g-685ecd09b788819185d16c134d3d07e6",
+    "index": 58,
+    "name": "GregGPT – AI Instructional Design Assistant",
+    "summary_lines": [
+      "Helps Greg organize SME input into courses for Articulate 360 with clear, engaging visuals.",
+      "8 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-685ecd09b788819185d16c134d3d07e6-greggpt-ai-instructional-design-assistant"
+  },
+  {
+    "id": "g-685ec3d184ac8191a1e77fa141f54f69",
+    "index": 59,
+    "name": "MichaelGPT – AI Technical Training Assistant",
+    "summary_lines": [
+      "Helps Michael design training content, visuals, and LMS modules using Articulate 360",
+      "20+ Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-685ec3d184ac8191a1e77fa141f54f69-michaelgpt-ai-technical-training-assistant"
+  },
+  {
+    "id": "g-685c864476088191a01fddb927d6a74c",
+    "index": 60,
+    "name": "OmarGPT – AI Sales Training Assistant",
+    "summary_lines": [
+      "AI assistant for sales training built to match Omar’s structure, clarity, and sales focus.",
+      "8 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-685c864476088191a01fddb927d6a74c-omargpt-ai-sales-training-assistant"
+  },
+  {
+    "id": "g-685c81d183788191ba88a703f8686eae",
+    "index": 61,
+    "name": "SeanGPT – Global Tr. Analytics & Strategy Asst",
+    "summary_lines": [
+      "i-PRO training analytics and strategy assistant for global LMS and reporting tasks",
+      "70+ Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-685c81d183788191ba88a703f8686eae-seangpt-global-tr-analytics-strategy-asst"
+  },
+  {
+    "id": "g-685c4b92be608191aadc88e6c59dd727",
+    "index": 62,
+    "name": "AdrianGPT – Strategic Training Director Assistant",
+    "summary_lines": [
+      "Supports strategic training content for i-PRO with clarity, structure, and stakeholder alignment.",
+      "1 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-685c4b92be608191aadc88e6c59dd727-adriangpt-strategic-training-director-assistant"
+  },
+  {
+    "id": "g-685c3f80ae308191add91e7ba3381e64",
+    "index": 63,
+    "name": "JoeyGPT – Strategic Training Manager Assistant",
+    "summary_lines": [
+      "Expert training manager assistant for internal planning and strategic structuring tasks",
+      "20+ Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-685c3f80ae308191add91e7ba3381e64-joeygpt-strategic-training-manager-assistant"
+  },
+  {
+    "id": "g-68517c90b7bc8191bcd2ea3b38f68cd0",
+    "index": 64,
+    "name": "Viral Ad Copy Builder",
+    "summary_lines": [
+      "Turns product pages into viral Meta ad copy in Hormozi-Vaynerchuk style",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-68517c90b7bc8191bcd2ea3b38f68cd0-viral-ad-copy-builder"
+  },
+  {
+    "id": "g-684eddd0250c81918389e1e3617a1083",
+    "index": 65,
+    "name": "Story Vision Assistant",
+    "summary_lines": [
+      "Blends poetic fire and urban realism to help creators build bold, soulful stories and visuals.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-684eddd0250c81918389e1e3617a1083-story-vision-assistant"
+  },
+  {
+    "id": "g-684a9bda64608191a129f4e203fe37f0",
+    "index": 66,
+    "name": "AI Story Creator",
+    "summary_lines": [
+      "Guides users to create AI-powered stories with visuals for YouTube, books, and animations.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-684a9bda64608191a129f4e203fe37f0-ai-story-creator"
+  },
+  {
+    "id": "g-68452b35672c8191b91286c662a2c7d8",
+    "index": 67,
+    "name": "FanaticTechs Consulting Assistant",
+    "summary_lines": [
+      "Trainer and strategist following FanaticTechs' no-delivery, Fiverr-first approach.",
+      "1 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-68452b35672c8191b91286c662a2c7d8-fanatictechs-consulting-assistant"
+  },
+  {
+    "id": "g-6845204c7e9c8191943bc9296967ee71",
+    "index": 68,
+    "name": "FanaticBot – Marketing Concierge Assistant",
+    "summary_lines": [
+      "Marketing concierge to guide users to FanaticTechs' services and templates.",
+      "1 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6845204c7e9c8191943bc9296967ee71-fanaticbot-marketing-concierge-assistant"
+  },
+  {
+    "id": "g-6830d045b02c8191a4f36125a4b8c9f9",
+    "index": 69,
+    "name": "Salon Suite Builder",
+    "summary_lines": [
+      "Generates fully detailed salon suite business plans for print and launch.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6830d045b02c8191a4f36125a4b8c9f9-salon-suite-builder"
+  },
+  {
+    "id": "g-6789300f8fac8191addf431c368f59c2",
+    "index": 70,
+    "name": "Sales Training Content Designer",
+    "summary_lines": [
+      "Creates structured sales training content for coaching live session trainings.",
+      "7 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-6789300f8fac8191addf431c368f59c2-sales-training-content-designer"
+  },
+  {
+    "id": "g-z8ox5VMbd",
+    "index": 71,
+    "name": "Character Conductor",
+    "summary_lines": [
+      "Step-by-Step Guide for Creating Consistent Character Sheets with Detailed Options",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-z8ox5VMbd-character-conductor"
+  },
+  {
+    "id": "g-PEE1PQsqh",
+    "index": 72,
+    "name": "Consistent Characters Remix",
+    "summary_lines": [
+      "Creating characters with consistency for easy AI generation.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-PEE1PQsqh-consistent-characters-remix"
+  },
+  {
+    "id": "g-QM5nhMcuq",
+    "index": 73,
+    "name": "Character Consistency Creator",
+    "summary_lines": [
+      "Creates consistent characters with fixed traits.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-QM5nhMcuq-character-consistency-creator"
+  },
+  {
+    "id": "g-K3jI4VIqs",
+    "index": 74,
+    "name": "Finessed Avatars",
+    "summary_lines": [
+      "Designing customized avatars for personal interests",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-K3jI4VIqs-finessed-avatars"
+  },
+  {
+    "id": "g-G0UuXF4j3",
+    "index": 75,
+    "name": "Avatar Art Lab",
+    "summary_lines": [
+      "Create customizable personalized avatars.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-G0UuXF4j3-avatar-art-lab"
+  },
+  {
+    "id": "g-p34izpGgh",
+    "index": 76,
+    "name": "Urban Vibes Designer",
+    "summary_lines": [
+      "Creates vibrant urban scenes with African-American characters, promoting creativity and diversity.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-p34izpGgh-urban-vibes-designer"
+  },
+  {
+    "id": "g-bj8Q7AnLc",
+    "index": 77,
+    "name": "Maestro Master",
+    "summary_lines": [
+      "A maestro of visual alchemy, specializing in hyper-realistic image generation.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-bj8Q7AnLc-maestro-master"
+  },
+  {
+    "id": "g-gA600KuyE",
+    "index": 78,
+    "name": "Children's Best Selling Author",
+    "summary_lines": [
+      "Write best selling books for ages 2-5 and 6-10.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-gA600KuyE-children-s-best-selling-author"
+  },
+  {
+    "id": "g-m5t3oOiqb",
+    "index": 79,
+    "name": "Urban Novelist",
+    "summary_lines": [
+      "Best-selling urban fiction author.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-m5t3oOiqb-urban-novelist"
+  },
+  {
+    "id": "g-5ZxuhevMT",
+    "index": 80,
+    "name": "Perfect Prompter",
+    "summary_lines": [
+      "Guide to prompt the perfect image",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-5ZxuhevMT-perfect-prompter"
+  },
+  {
+    "id": "g-TzkY0S2zK",
+    "index": 81,
+    "name": "Naki- The Motivational Madam",
+    "summary_lines": [
+      "Naki helps users move through confusion, find clarity in moments of stuckness, and shape their skills, stories, and expertise into structured content that informs, teaches, and creates real impact.",
+      "9 Chats",
+      "Anyone with a link"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-TzkY0S2zK-naki-the-motivational-madam"
+  },
+  {
+    "id": "g-ybplYhL0q",
+    "index": 82,
+    "name": "Poetic Justice",
+    "summary_lines": [
+      "Poet and artist, emphasizing cultural diversity.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-ybplYhL0q-poetic-justice"
+  },
+  {
+    "id": "g-JzZ36YTJW",
+    "index": 83,
+    "name": "DEPIC",
+    "summary_lines": [
+      "Ethnicity Styler",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-JzZ36YTJW-depic"
+  },
+  {
+    "id": "g-9lyJC6YEl",
+    "index": 84,
+    "name": "Handsome Men Generator",
+    "summary_lines": [
+      "Creates Shadow-Free Stylish Men Images",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-9lyJC6YEl-handsome-men-generator"
+  },
+  {
+    "id": "g-w5Z2tm8Nt",
+    "index": 85,
+    "name": "Portrait Designer",
+    "summary_lines": [
+      "Ultrarealistic portrait art generator",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-w5Z2tm8Nt-portrait-designer"
+  },
+  {
+    "id": "g-S4d0gaIxU",
+    "index": 86,
+    "name": "Adult Coloring Book",
+    "summary_lines": [
+      "Creates 5 themed coloring pages per prompt",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-S4d0gaIxU-adult-coloring-book"
+  },
+  {
+    "id": "g-ltA4RdEjH",
+    "index": 87,
+    "name": "PoserGenius Airbrush",
+    "summary_lines": [
+      "Pose Generator",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-ltA4RdEjH-posergenius-airbrush"
+  },
+  {
+    "id": "g-2Z9YsNdXk",
+    "index": 88,
+    "name": "Perfect Oil",
+    "summary_lines": [
+      "Perfect Prompter for Oil",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-2Z9YsNdXk-perfect-oil"
+  },
+  {
+    "id": "g-yW0UL7Cwg",
+    "index": 89,
+    "name": "High Fashion OIL IDG",
+    "summary_lines": [
+      "Image Description and Generation of high fashion",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-yW0UL7Cwg-high-fashion-oil-idg"
+  },
+  {
+    "id": "g-JZPLP4FQz",
+    "index": 90,
+    "name": "Airbrush IDGeneration",
+    "summary_lines": [
+      "Image Description and Artwork Generation",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-JZPLP4FQz-airbrush-idgeneration"
+  },
+  {
+    "id": "g-uLwABkdzX",
+    "index": 91,
+    "name": "EDM",
+    "summary_lines": [
+      "Etsy product describer with a focus on creativity and precision.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-uLwABkdzX-edm"
+  },
+  {
+    "id": "g-clpdflDrD",
+    "index": 92,
+    "name": "Perfect Airbrush",
+    "summary_lines": [
+      "Guiding in creating perfect chibi-style images.",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-clpdflDrD-perfect-airbrush"
+  },
+  {
+    "id": "g-fpNLTEYgk",
+    "index": 93,
+    "name": "OIL Chibi Muse",
+    "summary_lines": [
+      "Realistic oil chibi art of curvy African American women",
+      "Only me"
+    ],
+    "visible_url": "https://chatgpt.com/g/g-fpNLTEYgk-oil-chibi-muse"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "gpt_id": "AA-GPT-000070",
+  "name": "Sales Training Content Designer",
+  "owner": "Tanika Crawford",
+  "status": "discovered-unverified",
+  "purpose": "Creates structured sales training content for coaching live session trainings.",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Anyone with a link",
+    "live_gpt_url": "https://chatgpt.com/g/g-6789300f8fac8191addf431c368f59c2-sales-training-content-designer"
+  },
+  "configuration": {
+    "description": "Creates structured sales training content for coaching live session trainings.",
+    "instructions": null,
+    "conversation_starters": [],
+    "capabilities": [],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:35:47.586Z",
+    "verified_by": null,
+    "evidence": [
+      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "Sharing/publishing status: Anyone with a link",
+      "needs-review: Full Builder instructions were not captured",
+      "needs-review: Conversation starters were not captured",
+      "needs-review: Knowledge file names were not captured",
+      "needs-review: Enabled capabilities were not captured",
+      "needs-review: Apps and actions were not captured"
+    ]
+  },
+  "version": "1.0.0",
+  "change_log": [
+    "1.0.0 - Partial Builder capture; manual review required."
+  ]
+}

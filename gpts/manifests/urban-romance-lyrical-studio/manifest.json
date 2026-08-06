@@ -1,0 +1,51 @@
+{
+  "gpt_id": "AA-GPT-000019",
+  "name": "Urban Romance Lyrical Studio",
+  "owner": "Tanika Crawford",
+  "status": "discovered-unverified",
+  "purpose": "Purpose requires review because the Builder description was unreadable.",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-69e3228243ac81918fc68f8ffc181f57-urban-romance-lyrical-studio"
+  },
+  "configuration": {
+    "description": null,
+    "instructions": null,
+    "conversation_starters": [],
+    "capabilities": [],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": []
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:21:21.993Z",
+    "verified_by": null,
+    "evidence": [
+      "Visible Builder capture attempted 2026-08-06T07:21:21.993Z",
+      "Sharing/publishing status: Only me",
+      "needs-review: Configure view inaccessible"
+    ]
+  },
+  "version": "1.0.0",
+  "change_log": [
+    "1.0.0 - Partial Builder capture; manual review required."
+  ]
+}

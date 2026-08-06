@@ -1,0 +1,51 @@
+{
+  "gpt_id": "AA-GPT-000030",
+  "name": "Skincare Campaign Editor",
+  "owner": "Tanika Crawford",
+  "status": "discovered-unverified",
+  "purpose": "Purpose requires review because the Builder description was unreadable.",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-695369109a7c819191270450970d4728-skincare-campaign-editor"
+  },
+  "configuration": {
+    "description": null,
+    "instructions": null,
+    "conversation_starters": [],
+    "capabilities": [],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": []
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:22:09.729Z",
+    "verified_by": null,
+    "evidence": [
+      "Visible Builder capture attempted 2026-08-06T07:22:09.729Z",
+      "Sharing/publishing status: Only me",
+      "needs-review: Configure view inaccessible"
+    ]
+  },
+  "version": "1.0.0",
+  "change_log": [
+    "1.0.0 - Partial Builder capture; manual review required."
+  ]
+}

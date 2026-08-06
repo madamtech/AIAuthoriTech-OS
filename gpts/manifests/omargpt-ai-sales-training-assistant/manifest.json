@@ -1,0 +1,55 @@
+{
+  "gpt_id": "AA-GPT-000060",
+  "name": "OmarGPT – AI Sales Training Assistant",
+  "owner": "Tanika Crawford",
+  "status": "discovered-unverified",
+  "purpose": "AI assistant for sales training built to match Omar’s structure, clarity, and sales focus.",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Anyone with a link",
+    "live_gpt_url": "https://chatgpt.com/g/g-685c864476088191a01fddb927d6a74c-omargpt-ai-sales-training-assistant"
+  },
+  "configuration": {
+    "description": "AI assistant for sales training built to match Omar’s structure, clarity, and sales focus.",
+    "instructions": null,
+    "conversation_starters": [],
+    "capabilities": [],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": []
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:35:47.586Z",
+    "verified_by": null,
+    "evidence": [
+      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "Sharing/publishing status: Anyone with a link",
+      "needs-review: Full Builder instructions were not captured",
+      "needs-review: Conversation starters were not captured",
+      "needs-review: Knowledge file names were not captured",
+      "needs-review: Enabled capabilities were not captured",
+      "needs-review: Apps and actions were not captured"
+    ]
+  },
+  "version": "1.0.0",
+  "change_log": [
+    "1.0.0 - Partial Builder capture; manual review required."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "gpt_id": "AA-GPT-000058",
+  "name": "GregGPT – AI Instructional Design Assistant",
+  "owner": "Tanika Crawford",
+  "status": "discovered-unverified",
+  "purpose": "Helps Greg organize SME input into courses for Articulate 360 with clear, engaging visuals.",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Anyone with a link",
+    "live_gpt_url": "https://chatgpt.com/g/g-685ecd09b788819185d16c134d3d07e6-greggpt-ai-instructional-design-assistant"
+  },
+  "configuration": {
+    "description": "Helps Greg organize SME input into courses for Articulate 360 with clear, engaging visuals.",
+    "instructions": null,
+    "conversation_starters": [],
+    "capabilities": [],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:35:47.586Z",
+    "verified_by": null,
+    "evidence": [
+      "Visible Builder capture attempted 2026-08-06T07:35:47.586Z",
+      "Sharing/publishing status: Anyone with a link",
+      "needs-review: Full Builder instructions were not captured",
+      "needs-review: Conversation starters were not captured",
+      "needs-review: Knowledge file names were not captured",
+      "needs-review: Enabled capabilities were not captured",
+      "needs-review: Apps and actions were not captured"
+    ]
+  },
+  "version": "1.0.0",
+  "change_log": [
+    "1.0.0 - Partial Builder capture; manual review required."
+  ]
+}

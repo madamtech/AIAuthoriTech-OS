@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-08-08",
+  "policy": "Only record GPT-to-SKILL links when the captured GPT configuration directly supports the capability. Never infer a mapping from the GPT name alone.",
+  "mappings": [
+    {
+      "gpt_id": "AA-GPT-000014",
+      "gpt_name": "AI Cinematic Engineer",
+      "verification_status": "verified",
+      "evidence": "Captured instructions explicitly require cinematic storyboards, character/spatial continuity, image prompts, video/motion prompts, camera movement, lighting, and optional sound design.",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000134",
+        "AA-SKL-000135"
+      ],
+      "optional_skills": [
+        "AA-SKL-000136"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000057",
+      "gpt_name": "TanikaGPT-LMS Administrator Assistant",
+      "verification_status": "verified",
+      "evidence": "Captured instructions explicitly require certification/course structure, enrollment and user lifecycle support, LMS notifications, SCORM compatibility, LMS workflow optimization, visual course assets, and training content QA.",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000002",
+        "LMS-SKL-000015",
+        "LMS-SKL-000018",
+        "LMS-SKL-000019",
+        "LMS-SKL-000026",
+        "LMS-SKL-000031"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000020",
+        "LMS-SKL-000028",
+        "LMS-SKL-000029"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    }
+  ]
+}

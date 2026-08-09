@@ -1,0 +1,2373 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-09",
+  "purpose": "Inventory GPTs saved under the Chrome GPTs bookmark tree while separating shared references from owned authoritative GPTs.",
+  "source_export": "bookmarks_8_9_26.html",
+  "scope": {
+    "owned_authoritative_gpts": 93,
+    "unique_bookmarked_gpt_ids": 115,
+    "already_owned_overlap": 13,
+    "new_shared_or_accessible_references": 102,
+    "wmccraney_new_references": 38
+  },
+  "governance": {
+    "authoritative": false,
+    "default_ownership": "shared-or-third-party-unverified",
+    "default_configuration_status": "not-captured",
+    "reuse_policy": "Reference-only until ownership or permission to reuse is established."
+  },
+  "records": [
+    {
+      "platform_gpt_id": "g-68b5ff9accec81919829489dfd2750e4",
+      "name": "Ad Content and Script Pro Bot",
+      "live_gpt_url": "https://chatgpt.com/g/g-68b5ff9accec81919829489dfd2750e4-ad-content-and-script-pro-bot",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69209cdfd0548191807437247fd7020a",
+      "name": "Ad Content and Script Profit Blueprint",
+      "live_gpt_url": "https://chatgpt.com/g/g-69209cdfd0548191807437247fd7020a-ad-content-and-script-profit-blueprint",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 3,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-699901e8251c8191a95076a18631adba",
+      "name": "Ai Avatar System",
+      "live_gpt_url": "https://chatgpt.com/g/g-699901e8251c8191a95076a18631adba-ai-avatar-system",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69bffc3f28cc81919531d24a6eddbf03",
+      "name": "AI GoldMine",
+      "live_gpt_url": "https://chatgpt.com/g/g-69bffc3f28cc81919531d24a6eddbf03-ai-goldmine",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-694492ad831081919907f1dc25d081c7",
+      "name": "Ai Opportunity Mapper",
+      "live_gpt_url": "https://chatgpt.com/g/g-694492ad831081919907f1dc25d081c7-ai-opportunity-mapper",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-694485b8d1cc81919f81bb38d320822e",
+      "name": "AI Opportunity Scout",
+      "live_gpt_url": "https://chatgpt.com/g/g-694485b8d1cc81919f81bb38d320822e-ai-opportunity-scout",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6932572a9cd08191bf1b2a79348ab936",
+      "name": "Beyond DBS Success Coach",
+      "live_gpt_url": "https://chatgpt.com/g/g-6932572a9cd08191bf1b2a79348ab936-beyond-dbs-success-coach",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-67faa4d4ab408191bfc4517b2c8b8aa1",
+      "name": "Business Model Clarity Coach",
+      "live_gpt_url": "https://chatgpt.com/g/g-67faa4d4ab408191bfc4517b2c8b8aa1-business-model-clarity-coach",
+      "source_folders": [
+        "GPTs",
+        "GPTs/GPT-Business"
+      ],
+      "bookmark_count": 3,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6824a376f2c08191b40d11ca193c8f6f",
+      "name": "Cassie the Case Study Professional",
+      "live_gpt_url": "https://chatgpt.com/g/g-6824a376f2c08191b40d11ca193c8f6f-cassie-the-case-study-professional",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-68244a67b9dc8191868e1dff87a4d884",
+      "name": "Client Proposal Architect",
+      "live_gpt_url": "https://chatgpt.com/g/g-68244a67b9dc8191868e1dff87a4d884-client-proposal-architect",
+      "source_folders": [
+        "GPTs",
+        "GPTs/GPT-Business"
+      ],
+      "bookmark_count": 3,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-Vrq0bIoCW",
+      "name": "Cody: Professional Copywriter",
+      "live_gpt_url": "https://chatgpt.com/g/g-Vrq0bIoCW-cody-professional-copywriter",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6824c557af388191b5a5eeb5796c9098",
+      "name": "Cold Outreach Architect 2.0",
+      "live_gpt_url": "https://chatgpt.com/g/g-6824c557af388191b5a5eeb5796c9098-cold-outreach-architect-2-0",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-681c8f509c00819192a9af49ecd22139",
+      "name": "Curriculum Licensing Strategist",
+      "live_gpt_url": "https://chatgpt.com/g/g-681c8f509c00819192a9af49ecd22139-curriculum-licensing-strategist",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69505a90c58c81918b1e39e55cbfc8e2",
+      "name": "ElevenLabs Emotion Creator",
+      "live_gpt_url": "https://chatgpt.com/g/g-69505a90c58c81918b1e39e55cbfc8e2-elevenlabs-emotion-creator",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-a4ZZxcNvf",
+      "name": "Frannie: Feedback Coach",
+      "live_gpt_url": "https://chatgpt.com/g/g-a4ZZxcNvf-frannie-feedback-coach",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-ETocXNXyS",
+      "name": "LinkReader Real-Time Enhanced with GET",
+      "live_gpt_url": "https://chatgpt.com/g/g-ETocXNXyS-linkreader-real-time-enhanced-with-get",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 3,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69334a0be3988191986401e0c28ae144",
+      "name": "LLM Picker & Connector Adviser",
+      "live_gpt_url": "https://chatgpt.com/g/g-69334a0be3988191986401e0c28ae144-llm-picker-connector-advisertm",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 4,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-677c00434c10819191b497c2d6243054",
+      "name": "Marva the Multiplier",
+      "live_gpt_url": "https://chatgpt.com/g/g-677c00434c10819191b497c2d6243054-marva-the-multiplier",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-68f87056d0788191b8ab79bfd5f749e9",
+      "name": "Nova – GPT Builder Assistant",
+      "live_gpt_url": "https://chatgpt.com/g/g-68f87056d0788191b8ab79bfd5f749e9-nova-gpt-builder-assistant",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6825d7b4f9508191a2be0842b985aece",
+      "name": "Objection Killer",
+      "live_gpt_url": "https://chatgpt.com/g/g-6825d7b4f9508191a2be0842b985aece-objection-killer",
+      "source_folders": [
+        "GPTs",
+        "GPTs/GPT-Business"
+      ],
+      "bookmark_count": 3,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-699223e1a0988191879cb57df48e461e",
+      "name": "One to Millions Customer Avatar Creator",
+      "live_gpt_url": "https://chatgpt.com/g/g-699223e1a0988191879cb57df48e461e-one-to-millions-customer-avatar-creator",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-699221fab8908191b782920922b3012f",
+      "name": "One to Millions Offer Creation GPT",
+      "live_gpt_url": "https://chatgpt.com/g/g-699221fab8908191b782920922b3012f-one-to-millions-offer-creation-gpt",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69921ddefcd0819181434afe81f82687",
+      "name": "One to Millions Webinar Outline GPT",
+      "live_gpt_url": "https://chatgpt.com/g/g-69921ddefcd0819181434afe81f82687-one-to-millions-webinar-outline-gpt",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-IYKMfVyF1",
+      "name": "Patty - Press Release Pro",
+      "live_gpt_url": "https://chatgpt.com/g/g-IYKMfVyF1-patty-press-release-pro",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-683e3a0b4e3081918b30be3a668eccc6",
+      "name": "Patty: Email Marketing Pro",
+      "live_gpt_url": "https://chatgpt.com/g/g-683e3a0b4e3081918b30be3a668eccc6-patty-email-marketing-pro",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6825a44eb6b48191b00454ac4bfbf6ba",
+      "name": "Sales Offer Strategist",
+      "live_gpt_url": "https://chatgpt.com/g/g-6825a44eb6b48191b00454ac4bfbf6ba-sales-offer-strategist",
+      "source_folders": [
+        "GPTs",
+        "GPTs/GPT-SalesMarketing"
+      ],
+      "bookmark_count": 3,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-683e4d6a3c2c8191bbe6582b1e0d9dc1",
+      "name": "Sandy - Graphic Design Prompt Writer",
+      "live_gpt_url": "https://chatgpt.com/g/g-683e4d6a3c2c8191bbe6582b1e0d9dc1-sandy-graphic-design-prompt-writer",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-68408714a1708191bdc3f957cbabed77",
+      "name": "Scout",
+      "live_gpt_url": "https://chatgpt.com/g/g-68408714a1708191bdc3f957cbabed77-scout",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6826de2ea3648191a3823b74ff30fcd7",
+      "name": "Social Media Expert",
+      "live_gpt_url": "https://chatgpt.com/g/g-6826de2ea3648191a3823b74ff30fcd7-social-media-expert",
+      "source_folders": [
+        "GPTs",
+        "GPTs/GPT-SocialMedia"
+      ],
+      "bookmark_count": 4,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6975289fe70881919aeb812017a43662",
+      "name": "The L.I.S.T.E.N. Bot",
+      "live_gpt_url": "https://chatgpt.com/g/g-6975289fe70881919aeb812017a43662-the-l-i-s-t-e-n-bot",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-X2z3W4Nr0",
+      "name": "Venture Visionary",
+      "live_gpt_url": "https://chatgpt.com/g/g-X2z3W4Nr0-venture-visionary",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-67ee71cfffd08191bcde01460f0837c8",
+      "name": "VisionAI - Video Maker GPT",
+      "live_gpt_url": "https://chatgpt.com/g/g-67ee71cfffd08191bcde01460f0837c8-visionai-video-maker-gpt",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69468c9550948191904f99c0a08bc065",
+      "name": "Work to Wealth Coach",
+      "live_gpt_url": "https://chatgpt.com/g/g-69468c9550948191904f99c0a08bc065-work-to-wealth-coach",
+      "source_folders": [
+        "GPTs"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-2azCVmXdy",
+      "name": "AI Humanizer",
+      "live_gpt_url": "https://chatgpt.com/g/g-2azCVmXdy-ai-humanizer",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-alKfVrz9K",
+      "name": "Canva",
+      "live_gpt_url": "https://chatgpt.com/g/g-alKfVrz9K-canva",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-gFFsdkfMC",
+      "name": "Cartoonize Yourself",
+      "live_gpt_url": "https://chatgpt.com/g/g-gFFsdkfMC-cartoonize-yourself",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-2DQzU5UZl",
+      "name": "Code Copilot",
+      "live_gpt_url": "https://chatgpt.com/g/g-2DQzU5UZl-code-copilot",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-IPhekPbYD",
+      "name": "Etsy DEO Expert",
+      "live_gpt_url": "https://chatgpt.com/g/g-IPhekPbYD-etsy-seo-expert",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-xGT2QvWZv",
+      "name": "POD Buddy",
+      "live_gpt_url": "https://chatgpt.com/g/g-xGT2QvWZv-pod-buddy",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-5QhhdsfDj",
+      "name": "Presentation & Diagram Generator by <ShowMe>",
+      "live_gpt_url": "https://chatgpt.com/g/g-5QhhdsfDj-presentation-diagram-generator-by-showme",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-kZ0eYXlJe",
+      "name": "Scholar GPT",
+      "live_gpt_url": "https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-NgAcklHd8",
+      "name": "SciSpace",
+      "live_gpt_url": "https://chatgpt.com/g/g-NgAcklHd8-scispace",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-cTqsEOE4C",
+      "name": "SellMeThisPen",
+      "live_gpt_url": "https://chatgpt.com/g/g-cTqsEOE4C-sellmethispen",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-yEkYAHnix",
+      "name": "The Justin Welsh Content Matrix GPT",
+      "live_gpt_url": "https://chatgpt.com/g/g-yEkYAHnix-the-justin-welsh-content-matrix-gpt",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-3FBdkwCgr",
+      "name": "UGC Buddy",
+      "live_gpt_url": "https://chatgpt.com/g/g-3FBdkwCgr-ugc-buddy",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-SKdgK3Apk",
+      "name": "User Persona Generator",
+      "live_gpt_url": "https://chatgpt.com/g/g-SKdgK3Apk-user-persona-generator",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-Hkqnd7mFT",
+      "name": "Video GPT by VEED - Instant & Free AI Video Maker",
+      "live_gpt_url": "https://chatgpt.com/g/g-Hkqnd7mFT-video-gpt-by-veed-instant-free-ai-video-maker",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-0S5FXLyFN",
+      "name": "Wolfram",
+      "live_gpt_url": "https://chatgpt.com/g/g-0S5FXLyFN-wolfram",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-B3hgivKK9",
+      "name": "Write For Me",
+      "live_gpt_url": "https://chatgpt.com/g/g-B3hgivKK9-write-for-me",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-GvcYCKPIH",
+      "name": "のYouTube Video Summarizer ✏️ のYouTube Unaffiliated",
+      "live_gpt_url": "https://chatgpt.com/g/g-GvcYCKPIH-noyoutube-video-summarizer-noyoutube-unaffiliated",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-tc0eHXdgb",
+      "name": "ロMidjourneyロ -- MJ Prompt Generator (V6)",
+      "live_gpt_url": "https://chatgpt.com/g/g-tc0eHXdgb-romidjourneyro-mj-prompt-generator-v6",
+      "source_folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-681cd5f9a6308191a43c5b133ce16887",
+      "name": "Client Onboarding Expert",
+      "live_gpt_url": "https://chatgpt.com/g/g-681cd5f9a6308191a43c5b133ce16887-client-onboarding-expert",
+      "source_folders": [
+        "GPTs/GPT-Business"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-68274eeb01d88191822e9fd3df496910",
+      "name": "Follow-Up Expert",
+      "live_gpt_url": "https://chatgpt.com/g/g-68274eeb01d88191822e9fd3df496910-follow-up-expert",
+      "source_folders": [
+        "GPTs/GPT-Business"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-68f592460d98819195691bd04e160f5d",
+      "name": "Limitless Growth Coach - Dr. Eve",
+      "live_gpt_url": "https://chatgpt.com/g/g-68f592460d98819195691bd04e160f5d-limitless-growth-coach-dr-eve",
+      "source_folders": [
+        "GPTs/GPT-Business"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-68f30158ca788191998eee7abc969c16",
+      "name": "Sam - FAQ Assistant",
+      "live_gpt_url": "https://chatgpt.com/g/g-68f30158ca788191998eee7abc969c16-sam-faq-assistant",
+      "source_folders": [
+        "GPTs/GPT-Business"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-68262e382870819198d83e5c60f52a08",
+      "name": "Ad Copy Agent 2.0",
+      "live_gpt_url": "https://chatgpt.com/g/g-68262e382870819198d83e5c60f52a08-ad-copy-agent-2-0",
+      "source_folders": [
+        "GPTs/GPT-SalesMarketing"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6826bb2b443081919fe2d0a0e2801698",
+      "name": "Email Marketing Expert 1.0",
+      "live_gpt_url": "https://chatgpt.com/g/g-6826bb2b443081919fe2d0a0e2801698-email-marketing-expert-1-0",
+      "source_folders": [
+        "GPTs/GPT-SalesMarketing"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6895ae187104819192bcf82340171cd8",
+      "name": "KC - Your Story-Driven Nurture Email AI Assistant",
+      "live_gpt_url": "https://chatgpt.com/g/g-6895ae187104819192bcf82340171cd8-kc-your-story-driven-nurture-email-ai-assistant",
+      "source_folders": [
+        "GPTs/GPT-SalesMarketing"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-68271f671be481919ee31734154c3862",
+      "name": "Landing Page Expert 1.0",
+      "live_gpt_url": "https://chatgpt.com/g/g-68271f671be481919ee31734154c3862-landing-page-expert-1-0",
+      "source_folders": [
+        "GPTs/GPT-SalesMarketing"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-VsqUgsiOL",
+      "name": "Voice Guide Level 1",
+      "live_gpt_url": "https://chatgpt.com/g/g-VsqUgsiOL-violet-the-voice-valued-guide-creator",
+      "source_folders": [
+        "GPTs/GPT-SalesMarketing",
+        "GPTs/GPT-SocialMedia"
+      ],
+      "bookmark_count": 4,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-68a9a3d65e288191b2786ad7ae135d7e",
+      "name": "My Digital Community Builder and Coach",
+      "live_gpt_url": "https://chatgpt.com/g/g-68a9a3d65e288191b2786ad7ae135d7e-my-digital-community-builder-and-coach",
+      "source_folders": [
+        "GPTs/GPT-SocialMedia"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-oyN074s4q",
+      "name": "Podcast Helper",
+      "live_gpt_url": "https://chatgpt.com/g/g-oyN074s4q-podcast-helper",
+      "source_folders": [
+        "GPTs/GPT-SocialMedia"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-681cdb50c8e48191bdf852de9b5b9bb8",
+      "name": "Viral Video Scriptwriter",
+      "live_gpt_url": "https://chatgpt.com/g/g-681cdb50c8e48191bdf852de9b5b9bb8-viral-video-scriptwriter",
+      "source_folders": [
+        "GPTs/GPT-SocialMedia"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-68b772bd62d0819194015d8c7d1d86e7",
+      "name": "🎤 Podcast Power Score",
+      "live_gpt_url": "https://chatgpt.com/g/g-68b772bd62d0819194015d8c7d1d86e7-podcast-power-score",
+      "source_folders": [
+        "GPTs/GPT-SocialMedia"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6997719cf8588191b655659ff7e5d470",
+      "name": "***🎬📰🔥Expert AI Video Storyboarder🔥📰🎬***",
+      "live_gpt_url": "https://chatgpt.com/g/g-6997719cf8588191b655659ff7e5d470-expert-ai-video-storyboarder",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6989fa80ad008191b2f9bae5a5d63b96",
+      "name": "*AI Influencer Model Creator for Social Media",
+      "live_gpt_url": "https://chatgpt.com/g/g-6989fa80ad008191b2f9bae5a5d63b96-ai-influencer-model-creator-for-social-media",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6988bc2ef9248191b573021d9a5b5d94",
+      "name": "*Award-Winning Hollywood Cinematographer Director",
+      "live_gpt_url": "https://chatgpt.com/g/g-6988bc2ef9248191b573021d9a5b5d94-award-winning-hollywood-cinematographer-director",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-697e5c2f481081919e1ee4d699ad9d5c",
+      "name": "*👀 ✍️ 🔥 🧠TTHooks & Seo🎯 💸 🛒 📊",
+      "live_gpt_url": "https://chatgpt.com/g/g-697e5c2f481081919e1ee4d699ad9d5c-tthooks-seo",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-697e1de3dce081919443ecf35d47105b",
+      "name": "*🧵 👖 ✨ Virtual Try-on 📸 🎯 🖼️",
+      "live_gpt_url": "https://chatgpt.com/g/g-697e1de3dce081919443ecf35d47105b-virtual-try-on",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a15e7935a908191b21cce70c9747dbb",
+      "name": "African American classic cartoon creator",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a15e7935a908191b21cce70c9747dbb-african-american-classic-cartoon-creator",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-68d4487d7e6c8191aace009a69b017f5",
+      "name": "AI Artist Builder",
+      "live_gpt_url": "https://chatgpt.com/g/g-68d4487d7e6c8191aace009a69b017f5-ai-artist-builder",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69f6b81248848191afb01f34b54200bd",
+      "name": "AI B-Roll & Reel Generator",
+      "live_gpt_url": "https://chatgpt.com/g/g-69f6b81248848191afb01f34b54200bd-ai-b-roll-reel-generator",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69f6191908488191a58e122caa3ff054",
+      "name": "AI Movie Poster & Trailer Prompt Generator",
+      "live_gpt_url": "https://chatgpt.com/g/g-69f6191908488191a58e122caa3ff054-ai-movie-poster-trailer-prompt-generator",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69fd245fc04c819190a1e76d65f4e419",
+      "name": "AI Music Questions",
+      "live_gpt_url": "https://chatgpt.com/g/g-69fd245fc04c819190a1e76d65f4e419-ai-music-questions",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a1215f364cc8191b5009ee9bc74a031",
+      "name": "Black Satin Empire",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a1215f364cc8191b5009ee9bc74a031-black-satin-empire",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a07e50a2b1481918ffca85656dc9ba9",
+      "name": "Business B-Roll Commercial",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a07e50a2b1481918ffca85656dc9ba9-business-b-roll-commercial",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69bd96ee524c81918d13fe8278d9d3db",
+      "name": "Cinematic leak like effect",
+      "live_gpt_url": "https://chatgpt.com/g/g-69bd96ee524c81918d13fe8278d9d3db-cinematic-leak-like-effect",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a13d70bda748191b0e24900f005737d",
+      "name": "Deco Delitez Luxe Topper Studio",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a13d70bda748191b0e24900f005737d-deco-delitez-luxe-topper-studio",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69fdf28987688191800797d8b7983707",
+      "name": "Elite cinematic video generator",
+      "live_gpt_url": "https://chatgpt.com/g/g-69fdf28987688191800797d8b7983707-elite-cinematic-video-generator",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69ef809016948191a01d40868ea466e0",
+      "name": "Expert, multi-platinum R&B lyricist",
+      "live_gpt_url": "https://chatgpt.com/g/g-69ef809016948191a01d40868ea466e0-expert-multi-platinum-r-b-lyricist",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a0aa44137c481918bed50c896f937fa",
+      "name": "FaithWear Studio",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a0aa44137c481918bed50c896f937fa-faithwear-studio-gpt",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a0a9252283481918c82337f7ce83ca6",
+      "name": "Gourmet Flavor Guide (copy)",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a0a9252283481918c82337f7ce83ca6-gourmet-flavor-guide-copy",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a110a136a3c8191ba04cca7528e8efc",
+      "name": "Junk Couture Studio",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a110a136a3c8191ba04cca7528e8efc-junk-couture-studio",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a2e369a01b08191a3cf64e41f556ab2",
+      "name": "K2 Print Coach",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a2e369a01b08191a3cf64e41f556ab2-k2-print-coach",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-68d0e974ad6c81919b3a3cab15703fac",
+      "name": "LaserCraft Pro",
+      "live_gpt_url": "https://chatgpt.com/g/g-68d0e974ad6c81919b3a3cab15703fac-lasercraft-pro",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a1202037d5c8191bb74dbfebf346459",
+      "name": "Luxury Estate Real Estate Image Sequence Generator",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a1202037d5c8191bb74dbfebf346459-luxury-estate-real-estate-image-sequence-generator",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a19a8642ad8819185f0dda1c9a95e87",
+      "name": "Mold & Muse Resin Designer",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a19a8642ad8819185f0dda1c9a95e87-mold-muse-resin-designer",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 1,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69c2e77cf1148191846628b4f15a1761",
+      "name": "SceneCraft Cinema",
+      "live_gpt_url": "https://chatgpt.com/g/g-69c2e77cf1148191846628b4f15a1761-scenecraft-cinema",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 4,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69f515c946e88191be582e7db3ba9773",
+      "name": "Second Take Studio",
+      "live_gpt_url": "https://chatgpt.com/g/g-69f515c946e88191be582e7db3ba9773-second-take-studio",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a0ab5525ba881918acbb01bb8e96e6c",
+      "name": "ShirtWrap Studio👕",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a0ab5525ba881918acbb01bb8e96e6c-shirtwrap-studio",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69f690c47d188191833e929cecb62407",
+      "name": "Universal Viral AI Movie Producer",
+      "live_gpt_url": "https://chatgpt.com/g/g-69f690c47d188191833e929cecb62407-universal-viral-ai-movie-producer",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69b40a9a726081919f266529ad778db2",
+      "name": "V2 multiple angle character reference sheet",
+      "live_gpt_url": "https://chatgpt.com/g/g-69b40a9a726081919f266529ad778db2-v2-multiple-angle-character-reference-sheet",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69fbb02ece6c8191b39767c57dfeb2a7",
+      "name": "✨ Esther’s Soft Life Affirmations",
+      "live_gpt_url": "https://chatgpt.com/g/g-69fbb02ece6c8191b39767c57dfeb2a7-esthers-soft-life-affirmations",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a13d4b7b13c8191bfb651db84a71de4",
+      "name": "🎀 Top It Off by Tessa",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a13d4b7b13c8191bfb651db84a71de4-top-it-off-by-tessa",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69a1a43a179c819187f8b2800125d6d4",
+      "name": "🎨🎭Perfect Character Consistency🎨🎭",
+      "live_gpt_url": "https://chatgpt.com/g/g-69a1a43a179c819187f8b2800125d6d4-perfect-character-consistency",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69f786dab3408191be5814aada6014ef",
+      "name": "🎬🔥AI Video Prompt Engineer in Timeline Prompting",
+      "live_gpt_url": "https://chatgpt.com/g/g-69f786dab3408191be5814aada6014ef-ai-video-prompt-engineer-in-timeline-prompting",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69d001fb68f88191b31c413214a34c8b",
+      "name": "🎭🎬🔥AI Filmmaker and Prompt Engineer🔥🎬🎭",
+      "live_gpt_url": "https://chatgpt.com/g/g-69d001fb68f88191b31c413214a34c8b-ai-filmmaker-and-prompt-engineer",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69aed7a75e3081919600fd5715bd1471",
+      "name": "🎭🎭Multi-Image Reference Processing🎭🎭",
+      "live_gpt_url": "https://chatgpt.com/g/g-69aed7a75e3081919600fd5715bd1471-multi-image-reference-processing",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-6a1f48ca84c0819185dc512ed7dd7608",
+      "name": "🎴🎴AI Video Stationery Creator🎴🎴",
+      "live_gpt_url": "https://chatgpt.com/g/g-6a1f48ca84c0819185dc512ed7dd7608-ai-video-stationery-creator",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69d14f0290e481918c3e98acc666d58f",
+      "name": "📒 The Pretty Character Creator 👩🏽‍💻 by Suga 💋",
+      "live_gpt_url": "https://chatgpt.com/g/g-69d14f0290e481918c3e98acc666d58f-the-pretty-character-creator-by-suga",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-697e35a491d88191aa8c6c7e7437208b",
+      "name": "🔥 ⚡ 👀 Ugc Output Motion Dialogue 🔥 ⚡ 👀",
+      "live_gpt_url": "https://chatgpt.com/g/g-697e35a491d88191aa8c6c7e7437208b-ugc-output-motion-dialogue",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    },
+    {
+      "platform_gpt_id": "g-69f44c4c19048191ae149aa818603d6c",
+      "name": "🧜🏽‍♀️ Make Me A Mermaid Coloring Book Studio 🖍️",
+      "live_gpt_url": "https://chatgpt.com/g/g-69f44c4c19048191ae149aa818603d6c-make-me-a-mermaid-coloring-book-studio",
+      "source_folders": [
+        "GPTs/WMcCraney"
+      ],
+      "bookmark_count": 2,
+      "access_status": "bookmarked-access-unverified",
+      "ownership_status": "shared-or-third-party-unverified",
+      "configuration_status": "not-captured",
+      "migration_status": "reference-only-pending-permission",
+      "repository_owned_gpt_id": null,
+      "source": {
+        "type": "chrome-bookmarks-export",
+        "file": "bookmarks_8_9_26.html",
+        "export_date": "2026-08-09"
+      },
+      "notes": [
+        "Bookmark proves a saved reference, not current access or reuse permission.",
+        "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization."
+      ]
+    }
+  ]
+}

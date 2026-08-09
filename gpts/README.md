@@ -5,7 +5,7 @@ This directory makes AIAuthoriTech-OS the governed source of truth for GPT confi
 ## Directory contract
 
 - `manifests/` contains one authoritative JSON manifest per verified GPT.
-- `discovered/` contains non-authoritative records for GPTs referenced in conversation, notes, screenshots, or other evidence but not yet captured from the live Builder.
+- `discovered/` contains non-authoritative records for GPTs referenced in conversation, notes, screenshots, bookmarks, or other evidence but not yet captured from the live Builder. Bookmarked shared GPTs remain reference-only until ownership and reuse permission are verified.
 - `imports/` contains one-time Builder capture records used to create or update manifests.
 - `deployment/` contains runtime-ready instruction packages and deployment notes.
 - `changelogs/` records version history for each GPT.

@@ -4,6 +4,7 @@
 
 - Design subject:
 - Intended blank or product:
+- Number of designs:
 - Dimensions/aspect ratio:
 - Style and audience:
 
@@ -20,21 +21,12 @@
 
 | No. | Concept | SVG | PNG | Notes |
 |---:|---|---|---|---|
-| 01 |  |  |  |  |
-| 02 |  |  |  |  |
-| 03 |  |  |  |  |
-| 04 |  |  |  |  |
-| 05 |  |  |  |  |
-| 06 |  |  |  |  |
-| 07 |  |  |  |  |
-| 08 |  |  |  |  |
-| 09 |  |  |  |  |
-| 10 |  |  |  |  |
+| [repeat one row per requested design] |  |  |  |  |
 
 ## Validation
 
-- [ ] Ten genuine SVG files
-- [ ] Ten matching transparent PNG files
+- [ ] Requested number of genuine SVG files
+- [ ] Same number of matching transparent PNG files
 - [ ] Exactly four named color groups in every SVG
 - [ ] No embedded raster images or unsupported effects
 - [ ] Representative files visually inspected

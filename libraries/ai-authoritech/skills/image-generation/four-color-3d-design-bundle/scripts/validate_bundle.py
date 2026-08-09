@@ -51,16 +51,19 @@ def validate_svg(path: Path) -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("bundle_directory", type=Path)
+    parser.add_argument("expected_count", type=int, nargs="?", default=10)
     args = parser.parse_args()
+    if args.expected_count < 1:
+        parser.error("expected_count must be at least 1")
     directory = args.bundle_directory
     svg_files = sorted(directory.glob("*.svg"))
     png_files = sorted(directory.glob("*.png"))
     errors: list[str] = []
 
-    if len(svg_files) != 10:
-        errors.append(f"expected 10 SVG files, found {len(svg_files)}")
-    if len(png_files) != 10:
-        errors.append(f"expected 10 PNG files, found {len(png_files)}")
+    if len(svg_files) != args.expected_count:
+        errors.append(f"expected {args.expected_count} SVG files, found {len(svg_files)}")
+    if len(png_files) != args.expected_count:
+        errors.append(f"expected {args.expected_count} PNG files, found {len(png_files)}")
     if {p.stem for p in svg_files} != {p.stem for p in png_files}:
         errors.append("SVG and PNG basenames do not match")
     for svg_file in svg_files:
@@ -71,7 +74,7 @@ def main() -> int:
         for error in errors:
             print(f"- {error}")
         return 1
-    print("Bundle validation passed: 10 SVGs, 10 matching PNGs, valid SVG structure.")
+    print(f"Bundle validation passed: {args.expected_count} SVGs, matching PNGs, valid SVG structure.")
     return 0
 
 

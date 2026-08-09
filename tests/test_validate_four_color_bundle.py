@@ -15,14 +15,14 @@ SCRIPT = (
 )
 
 
-def make_bundle(directory: Path) -> None:
+def make_bundle(directory: Path, count: int = 10) -> None:
     svg = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
 <g id="color-1"><path fill="#111111" d="M0 0h25v100H0z"/></g>
 <g id="color-2"><path fill="#333333" d="M25 0h25v100H25z"/></g>
 <g id="color-3"><path fill="#777777" d="M50 0h25v100H50z"/></g>
 <g id="color-4"><path fill="#FFFFFF" d="M75 0h25v100H75z"/></g>
 </svg>"""
-    for number in range(1, 11):
+    for number in range(1, count + 1):
         stem = f"{number:02d}-design"
         (directory / f"{stem}.svg").write_text(svg, encoding="utf-8")
         (directory / f"{stem}.png").write_bytes(b"PNG fixture")
@@ -31,6 +31,12 @@ def make_bundle(directory: Path) -> None:
 def test_valid_bundle_passes(tmp_path: Path) -> None:
     make_bundle(tmp_path)
     result = subprocess.run([sys.executable, str(SCRIPT), str(tmp_path)], capture_output=True, text=True)
+    assert result.returncode == 0, result.stdout + result.stderr
+
+
+def test_custom_bundle_count_passes(tmp_path: Path) -> None:
+    make_bundle(tmp_path, count=3)
+    result = subprocess.run([sys.executable, str(SCRIPT), str(tmp_path), "3"], capture_output=True, text=True)
     assert result.returncode == 0, result.stdout + result.stderr
 
 

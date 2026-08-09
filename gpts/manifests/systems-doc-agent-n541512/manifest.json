@@ -38,7 +38,19 @@
       "AA-SKL-000058",
       "AA-SKL-000063",
       "AA-SKL-000064",
-      "AA-SKL-000001"
+      "AA-SKL-000001",
+      "AA-SKL-000193",
+      "AA-SKL-000194",
+      "AA-SKL-000195",
+      "AA-SKL-000196",
+      "AA-SKL-000197",
+      "AA-SKL-000198",
+      "AA-SKL-000199",
+      "AA-SKL-000200",
+      "AA-SKL-000201",
+      "AA-SKL-000202",
+      "AA-SKL-000203",
+      "AA-SKL-000207"
     ],
     "optional": [
       "LMS-SKL-000001",
@@ -72,6 +84,7 @@
   "version": "1.0.0",
   "change_log": [
     "1.0.0 - Initial visible Builder configuration capture.",
-    "1.0.0 - Applied curated GPT-to-SKILL reconciliation decision."
+    "1.0.0 - Applied curated GPT-to-SKILL reconciliation decision.",
+    "1.0.0 - Reconciled against reusable Government Documentation skills."
   ]
 }

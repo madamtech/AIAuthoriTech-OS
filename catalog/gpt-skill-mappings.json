@@ -650,7 +650,7 @@
       "gpt_id": "AA-GPT-000034",
       "gpt_name": "Systems Doc Agent (N541512)",
       "verification_status": "verified",
-      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "evidence": "Verified against the captured Builder configuration and the governed Government Documentation skill family.",
       "required_skills": [
         "AA-SKL-000084",
         "AA-SKL-000077",
@@ -661,7 +661,19 @@
         "AA-SKL-000058",
         "AA-SKL-000063",
         "AA-SKL-000064",
-        "AA-SKL-000001"
+        "AA-SKL-000001",
+        "AA-SKL-000193",
+        "AA-SKL-000194",
+        "AA-SKL-000195",
+        "AA-SKL-000196",
+        "AA-SKL-000197",
+        "AA-SKL-000198",
+        "AA-SKL-000199",
+        "AA-SKL-000200",
+        "AA-SKL-000201",
+        "AA-SKL-000202",
+        "AA-SKL-000203",
+        "AA-SKL-000207"
       ],
       "optional_skills": [
         "LMS-SKL-000001",
@@ -676,7 +688,7 @@
       "gpt_id": "AA-GPT-000035",
       "gpt_name": "Software Doc Agent ( N541511)",
       "verification_status": "verified",
-      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "evidence": "Verified against the captured Builder configuration and the governed Government Documentation skill family.",
       "required_skills": [
         "AA-SKL-000084",
         "AA-SKL-000077",
@@ -686,10 +698,22 @@
         "AA-SKL-000057",
         "AA-SKL-000058",
         "AA-SKL-000067",
-        "AA-SKL-000074"
+        "AA-SKL-000074",
+        "AA-SKL-000193",
+        "AA-SKL-000194",
+        "AA-SKL-000195",
+        "AA-SKL-000196",
+        "AA-SKL-000197",
+        "AA-SKL-000198",
+        "AA-SKL-000199",
+        "AA-SKL-000201",
+        "AA-SKL-000203",
+        "AA-SKL-000207"
       ],
       "optional_skills": [
-        "LMS-SKL-000001"
+        "LMS-SKL-000001",
+        "AA-SKL-000200",
+        "AA-SKL-000202"
       ],
       "default_enhancements": [
         "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
@@ -720,7 +744,7 @@
       "gpt_id": "AA-GPT-000037",
       "gpt_name": "Master Admin Consultant (N541611)",
       "verification_status": "verified",
-      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "evidence": "Verified against the captured Builder configuration and the governed Government Documentation skill family.",
       "required_skills": [
         "AA-SKL-000002",
         "AA-SKL-000077",
@@ -730,11 +754,20 @@
         "AA-SKL-000086",
         "AA-SKL-000057",
         "AA-SKL-000064",
-        "AA-SKL-000010"
+        "AA-SKL-000010",
+        "AA-SKL-000195",
+        "AA-SKL-000197",
+        "AA-SKL-000203",
+        "AA-SKL-000204",
+        "AA-SKL-000205",
+        "AA-SKL-000206",
+        "AA-SKL-000207"
       ],
       "optional_skills": [
         "AA-SKL-000106",
-        "LMS-SKL-000001"
+        "LMS-SKL-000001",
+        "AA-SKL-000201",
+        "AA-SKL-000202"
       ],
       "default_enhancements": [
         "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"

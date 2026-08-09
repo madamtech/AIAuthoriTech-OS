@@ -23,7 +23,7 @@ jobs:
         run: python tools/reconcile_gpt_skill_candidates.py --write
       - name: Commit generated reports
         run: |
-          if git diff --quiet -- reports/gpt-skill-reconciliation-2026-08-08.json reports/gpt-skill-reconciliation-2026-08-08.md; then
+          if [ -z "$(git status --porcelain -- reports/gpt-skill-reconciliation-2026-08-08.json reports/gpt-skill-reconciliation-2026-08-08.md)" ]; then
             echo "No reconciliation changes"
             exit 0
           fi

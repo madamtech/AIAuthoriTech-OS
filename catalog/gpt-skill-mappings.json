@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-08",
+  "updated_at": "2026-08-09",
   "policy": "Only record GPT-to-SKILL links when the captured GPT configuration directly supports the capability. Never infer a mapping from the GPT name alone.",
   "mappings": [
     {
@@ -403,18 +403,25 @@
       "gpt_id": "AA-GPT-000021",
       "gpt_name": "i-PRO Sales Governance Assistant",
       "verification_status": "verified",
-      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "evidence": "Verified against the captured Builder configuration and the governed Sales Enablement skill family.",
       "required_skills": [
         "AA-SKL-000058",
         "AA-SKL-000063",
         "AA-SKL-000064",
         "AA-SKL-000085",
-        "AA-SKL-000086"
+        "AA-SKL-000086",
+        "AA-SKL-000183",
+        "AA-SKL-000184",
+        "AA-SKL-000186",
+        "AA-SKL-000192"
       ],
       "optional_skills": [
         "AA-SKL-000111",
         "AA-SKL-000121",
-        "AA-SKL-000126"
+        "AA-SKL-000126",
+        "AA-SKL-000181",
+        "AA-SKL-000182",
+        "AA-SKL-000185"
       ],
       "default_enhancements": [
         "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
@@ -464,17 +471,25 @@
       "gpt_id": "AA-GPT-000024",
       "gpt_name": "i-PRO Sales Intelligence",
       "verification_status": "verified",
-      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "evidence": "Verified against the captured Builder configuration and the governed Sales Enablement skill family.",
       "required_skills": [
         "AA-SKL-000111",
         "AA-SKL-000112",
         "AA-SKL-000126",
         "AA-SKL-000151",
         "AA-SKL-000150",
-        "AA-SKL-000142"
+        "AA-SKL-000142",
+        "AA-SKL-000181",
+        "AA-SKL-000182",
+        "AA-SKL-000185",
+        "AA-SKL-000186",
+        "AA-SKL-000187",
+        "AA-SKL-000188"
       ],
       "optional_skills": [
-        "AA-SKL-000138"
+        "AA-SKL-000138",
+        "AA-SKL-000183",
+        "AA-SKL-000192"
       ],
       "default_enhancements": [
         "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
@@ -484,17 +499,25 @@
       "gpt_id": "AA-GPT-000025",
       "gpt_name": "i-PRO Sales Intelligence",
       "verification_status": "verified",
-      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "evidence": "Verified against the captured Builder configuration and the governed Sales Enablement skill family.",
       "required_skills": [
         "AA-SKL-000111",
         "AA-SKL-000112",
         "AA-SKL-000126",
         "AA-SKL-000151",
         "AA-SKL-000150",
-        "AA-SKL-000142"
+        "AA-SKL-000142",
+        "AA-SKL-000181",
+        "AA-SKL-000182",
+        "AA-SKL-000185",
+        "AA-SKL-000186",
+        "AA-SKL-000187",
+        "AA-SKL-000188"
       ],
       "optional_skills": [
-        "AA-SKL-000138"
+        "AA-SKL-000138",
+        "AA-SKL-000183",
+        "AA-SKL-000192"
       ],
       "default_enhancements": [
         "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
@@ -504,14 +527,18 @@
       "gpt_id": "AA-GPT-000026",
       "gpt_name": "Untitled",
       "verification_status": "verified",
-      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "evidence": "Verified against the captured Builder configuration and the governed Sales Enablement skill family.",
       "required_skills": [
         "AA-SKL-000111",
         "AA-SKL-000112",
-        "AA-SKL-000151"
+        "AA-SKL-000151",
+        "AA-SKL-000187",
+        "AA-SKL-000188"
       ],
       "optional_skills": [
-        "AA-SKL-000142"
+        "AA-SKL-000142",
+        "AA-SKL-000181",
+        "AA-SKL-000185"
       ],
       "default_enhancements": [
         "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
@@ -1570,6 +1597,39 @@
         "AA-SKL-000174",
         "AA-SKL-000177",
         "AA-SKL-000179"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000053",
+      "gpt_name": "Sales Meeting Prep",
+      "verification_status": "verified",
+      "evidence": "Verified against the captured Builder configuration and the governed Sales Enablement skill family.",
+      "required_skills": [
+        "AA-SKL-000181",
+        "AA-SKL-000182"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000056",
+      "gpt_name": "ClassSecure Quote Builder",
+      "verification_status": "verified",
+      "evidence": "Verified against the captured Builder configuration and the governed Sales Enablement skill family.",
+      "required_skills": [
+        "AA-SKL-000189",
+        "AA-SKL-000190",
+        "AA-SKL-000191",
+        "AA-SKL-000192"
+      ],
+      "optional_skills": [
+        "AA-SKL-000151",
+        "AA-SKL-000186"
       ],
       "default_enhancements": [
         "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"

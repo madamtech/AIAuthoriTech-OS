@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-08",
+  "updated_at": "2026-08-09",
   "policy": "Every captured GPT receives an explicit reconciliation decision. Skill links are recorded only where the captured purpose or instructions directly support the capability. Empty mappings are intentional skill-gap decisions, not missing work.",
   "default_visual_enhancement": "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md",
   "decisions": [
@@ -338,20 +338,26 @@
     {
       "gpt_id": "AA-GPT-000021",
       "name": "i-PRO Sales Governance Assistant",
-      "decision": "partial-gap",
+      "decision": "verified",
       "required_skills": [
         "AA-SKL-000058",
         "AA-SKL-000063",
         "AA-SKL-000064",
         "AA-SKL-000085",
-        "AA-SKL-000086"
+        "AA-SKL-000086",
+        "AA-SKL-000183",
+        "AA-SKL-000184",
+        "AA-SKL-000186",
+        "AA-SKL-000192"
       ],
       "optional_skills": [
         "AA-SKL-000111",
         "AA-SKL-000121",
-        "AA-SKL-000126"
-      ],
-      "gap": "Manufacturer sales enablement, account health, partner review, retention/hunting planning, and governed product-positioning are not represented by a dedicated sales-enablement skill family."
+        "AA-SKL-000126",
+        "AA-SKL-000181",
+        "AA-SKL-000182",
+        "AA-SKL-000185"
+      ]
     },
     {
       "gpt_id": "AA-GPT-000022",
@@ -388,50 +394,67 @@
     {
       "gpt_id": "AA-GPT-000024",
       "name": "i-PRO Sales Intelligence",
-      "decision": "partial-gap",
+      "decision": "verified",
       "required_skills": [
         "AA-SKL-000111",
         "AA-SKL-000112",
         "AA-SKL-000126",
         "AA-SKL-000151",
         "AA-SKL-000150",
-        "AA-SKL-000142"
+        "AA-SKL-000142",
+        "AA-SKL-000181",
+        "AA-SKL-000182",
+        "AA-SKL-000185",
+        "AA-SKL-000186",
+        "AA-SKL-000187",
+        "AA-SKL-000188"
       ],
       "optional_skills": [
-        "AA-SKL-000138"
-      ],
-      "gap": "Rep-specific sales voice onboarding, objection handling, demo recap, account research, and security-sales strategy need dedicated sales enablement skills."
+        "AA-SKL-000138",
+        "AA-SKL-000183",
+        "AA-SKL-000192"
+      ]
     },
     {
       "gpt_id": "AA-GPT-000025",
       "name": "i-PRO Sales Intelligence",
-      "decision": "partial-gap",
+      "decision": "verified",
       "required_skills": [
         "AA-SKL-000111",
         "AA-SKL-000112",
         "AA-SKL-000126",
         "AA-SKL-000151",
         "AA-SKL-000150",
-        "AA-SKL-000142"
+        "AA-SKL-000142",
+        "AA-SKL-000181",
+        "AA-SKL-000182",
+        "AA-SKL-000185",
+        "AA-SKL-000186",
+        "AA-SKL-000187",
+        "AA-SKL-000188"
       ],
       "optional_skills": [
-        "AA-SKL-000138"
-      ],
-      "gap": "Rep-specific sales voice onboarding, objection handling, demo recap, account research, and security-sales strategy need dedicated sales enablement skills."
+        "AA-SKL-000138",
+        "AA-SKL-000183",
+        "AA-SKL-000192"
+      ]
     },
     {
       "gpt_id": "AA-GPT-000026",
       "name": "Untitled",
-      "decision": "partial-gap",
+      "decision": "verified",
       "required_skills": [
         "AA-SKL-000111",
         "AA-SKL-000112",
-        "AA-SKL-000151"
+        "AA-SKL-000151",
+        "AA-SKL-000187",
+        "AA-SKL-000188"
       ],
       "optional_skills": [
-        "AA-SKL-000142"
-      ],
-      "gap": "Personalized i-PRO sales communication modeling needs a dedicated sales enablement skill."
+        "AA-SKL-000142",
+        "AA-SKL-000181",
+        "AA-SKL-000185"
+      ]
     },
     {
       "gpt_id": "AA-GPT-000027",
@@ -810,10 +833,12 @@
     {
       "gpt_id": "AA-GPT-000053",
       "name": "Sales Meeting Prep",
-      "decision": "skill-gap",
-      "required_skills": [],
-      "optional_skills": [],
-      "gap": "Sales-call planning, discovery-question preparation, stakeholder research, and meeting strategy require dedicated sales enablement skills."
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000181",
+        "AA-SKL-000182"
+      ],
+      "optional_skills": []
     },
     {
       "gpt_id": "AA-GPT-000054",
@@ -851,12 +876,17 @@
     {
       "gpt_id": "AA-GPT-000056",
       "name": "ClassSecure Quote Builder",
-      "decision": "skill-gap",
-      "required_skills": [],
-      "optional_skills": [
-        "AA-SKL-000151"
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000189",
+        "AA-SKL-000190",
+        "AA-SKL-000191",
+        "AA-SKL-000192"
       ],
-      "gap": "Security solution quoting, bill-of-materials logic, pricing/quote controls, and ClassSecure-specific proposal assembly need dedicated quoting skills."
+      "optional_skills": [
+        "AA-SKL-000151",
+        "AA-SKL-000186"
+      ]
     },
     {
       "gpt_id": "AA-GPT-000057",

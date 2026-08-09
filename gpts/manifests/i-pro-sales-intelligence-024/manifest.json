@@ -34,10 +34,18 @@
       "AA-SKL-000126",
       "AA-SKL-000151",
       "AA-SKL-000150",
-      "AA-SKL-000142"
+      "AA-SKL-000142",
+      "AA-SKL-000181",
+      "AA-SKL-000182",
+      "AA-SKL-000185",
+      "AA-SKL-000186",
+      "AA-SKL-000187",
+      "AA-SKL-000188"
     ],
     "optional": [
-      "AA-SKL-000138"
+      "AA-SKL-000138",
+      "AA-SKL-000183",
+      "AA-SKL-000192"
     ],
     "default_enhancements": [
       "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
@@ -69,6 +77,7 @@
   "change_log": [
     "1.0.0 - Partial Builder capture; manual review required.",
     "1.0.1 - Completed all visible Builder configuration capture after browser permission update.",
-    "1.0.1 - Applied curated GPT-to-SKILL reconciliation decision."
+    "1.0.1 - Applied curated GPT-to-SKILL reconciliation decision.",
+    "1.0.0 - Reconciled against reusable Sales Enablement skills."
   ]
 }

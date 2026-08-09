@@ -54,6 +54,21 @@
       "depends_on": []
     },
     {
+      "sku": "CO-SKL-000005",
+      "asset_id": "core.bookmarked-gpt-router.v1",
+      "name": "Bookmarked GPT Router",
+      "asset_type": "SKL",
+      "business": "CO",
+      "library": "CORE",
+      "version": "1.0.0",
+      "status": "testing",
+      "maturity": 1,
+      "path": "libraries/core-os/skills/bookmarked-gpt-router",
+      "depends_on": [
+        "CO-SKL-000003"
+      ]
+    },
+    {
       "sku": "AA-SKL-000001",
       "asset_id": "ai-consulting.ai-readiness-assessment.v1",
       "name": "AI Readiness Assessment",

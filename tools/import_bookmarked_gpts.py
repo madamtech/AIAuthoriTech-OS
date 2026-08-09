@@ -119,10 +119,10 @@ def build_inventory(bookmarks: Path, registry: Path) -> tuple[dict, list[tuple[s
                 "live_gpt_url": canonical_url(items),
                 "source_folders": sorted({relative_folder(item["path"]) for item in items}),
                 "bookmark_count": len(items),
-                "access_status": "bookmarked-access-unverified",
-                "ownership_status": "shared-or-third-party-unverified",
+                "access_status": "authorized-for-use",
+                "ownership_status": "third-party-reuse-authorized-by-user",
                 "configuration_status": "not-captured",
-                "migration_status": "reference-only-pending-permission",
+                "migration_status": "authorized-adapter-ready",
                 "repository_owned_gpt_id": None,
                 "source": {
                     "type": "chrome-bookmarks-export",
@@ -130,8 +130,8 @@ def build_inventory(bookmarks: Path, registry: Path) -> tuple[dict, list[tuple[s
                     "export_date": "2026-08-09",
                 },
                 "notes": [
-                    "Bookmark proves a saved reference, not current access or reuse permission.",
-                    "Do not copy Builder instructions, knowledge files, or actions without confirmed authorization.",
+                    "User confirmed authorization to use and reuse every GPT in the selected bookmark folders on 2026-08-09.",
+                    "Configuration remains not-captured; do not claim behavioral equivalence to the source GPT.",
                 ],
             }
         )
@@ -152,9 +152,10 @@ def build_inventory(bookmarks: Path, registry: Path) -> tuple[dict, list[tuple[s
         },
         "governance": {
             "authoritative": False,
-            "default_ownership": "shared-or-third-party-unverified",
+            "default_ownership": "third-party-reuse-authorized-by-user",
             "default_configuration_status": "not-captured",
-            "reuse_policy": "Reference-only until ownership or permission to reuse is established.",
+            "reuse_policy": "Authorized for use and reusable adapter routing by the user on 2026-08-09.",
+            "authorization_evidence": "User statement in the Codex migration task on 2026-08-09.",
         },
         "records": records,
     }
@@ -175,7 +176,7 @@ def render_report(inventory: dict, overlaps: list[tuple[str, str, str]]) -> str:
         f'- New shared/access references logged: **{scope["new_shared_or_accessible_references"]}**',
         f'- New references under `GPTs/WMcCraney`: **{scope["wmccraney_new_references"]}**',
         "",
-        "Bookmarks establish a saved reference only. They do not prove current access, ownership, or permission to copy private configuration.",
+        "The user confirmed authorization to use and reuse all GPTs in the selected bookmark folders. Full Builder configurations remain uncaptured, so these entries support adapter routing without claiming source-equivalent behavior.",
         "",
         "## Folder counts",
         "",
@@ -196,8 +197,8 @@ def render_report(inventory: dict, overlaps: list[tuple[str, str, str]]) -> str:
         "",
         "- Verify that each link still opens for the user.",
         "- Identify the creator/owner where visible.",
-        "- Record explicit reuse permission before extracting private configuration.",
-        "- Map references to existing skills only after purpose and permission are verified.",
+        "- Capture visible purpose, inputs, and outputs before claiming behavioral equivalence.",
+        "- Map references to existing skills after purpose and overlap are verified.",
         "",
     ]
     return "\n".join(lines)
@@ -209,11 +210,13 @@ def main() -> None:
     parser.add_argument("--registry", type=Path, default=Path("registries/gpts.json"))
     parser.add_argument("--inventory", type=Path, default=Path("gpts/discovered/bookmarked-shared-gpts.json"))
     parser.add_argument("--report", type=Path, default=Path("reports/bookmarked-gpt-inventory-2026-08-09.md"))
+    parser.add_argument("--routing-catalog", type=Path, default=Path("libraries/core-os/skills/bookmarked-gpt-router/references/routing-catalog.json"))
     args = parser.parse_args()
     inventory, overlaps = build_inventory(args.bookmarks, args.registry)
     args.inventory.parent.mkdir(parents=True, exist_ok=True)
     args.inventory.write_text(json.dumps(inventory, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     args.report.write_text(render_report(inventory, overlaps), encoding="utf-8")
+    args.routing_catalog.write_text(json.dumps({"generated_at": inventory["generated_at"], "records": [{"name": item["name"], "platform_gpt_id": item["platform_gpt_id"], "url": item["live_gpt_url"], "folders": item["source_folders"]} for item in inventory["records"]]}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps(inventory["scope"], indent=2))
 
 

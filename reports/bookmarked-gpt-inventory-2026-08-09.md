@@ -8,7 +8,7 @@
 - New shared/access references logged: **102**
 - New references under `GPTs/WMcCraney`: **38**
 
-Bookmarks establish a saved reference only. They do not prove current access, ownership, or permission to copy private configuration.
+The user confirmed authorization to use and reuse all GPTs in the selected bookmark folders. Full Builder configurations remain uncaptured, so these entries support adapter routing without claiming source-equivalent behavior.
 
 ## Folder counts
 
@@ -150,5 +150,5 @@ Bookmarks establish a saved reference only. They do not prove current access, ow
 
 - Verify that each link still opens for the user.
 - Identify the creator/owner where visible.
-- Record explicit reuse permission before extracting private configuration.
-- Map references to existing skills only after purpose and permission are verified.
+- Capture visible purpose, inputs, and outputs before claiming behavioral equivalence.
+- Map references to existing skills after purpose and overlap are verified.

@@ -4,98 +4,1395 @@
   "policy": "Every captured GPT receives an explicit reconciliation decision. Skill links are recorded only where the captured purpose or instructions directly support the capability. Empty mappings are intentional skill-gap decisions, not missing work.",
   "default_visual_enhancement": "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md",
   "decisions": [
-    {"gpt_id":"AA-GPT-000001","name":"Lone Star Scholar Prep","decision":"partial-gap","required_skills":["LMS-SKL-000001","LMS-SKL-000031","AA-SKL-000138","AA-SKL-000150"],"optional_skills":["LMS-SKL-000032","AA-SKL-000169"],"gap":"STAAR/TEKS/PSAT-specific academic alignment and assessment-resource expertise is not represented by a dedicated skill."},
-    {"gpt_id":"AA-GPT-000002","name":"Universal FizzyPop Studio","decision":"verified","required_skills":["AA-SKL-000127","AA-SKL-000129","AA-SKL-000130","AA-SKL-000132","AA-SKL-000133","AA-SKL-000140","AA-SKL-000141","AA-SKL-000145","AA-SKL-000162","AA-SKL-000163"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000003","name":"GlamBambu P1S Production","decision":"verified","required_skills":["MA-SKL-000001","MA-SKL-000004","MA-SKL-000005","MA-SKL-000023","MA-SKL-000031","MA-SKL-000032"],"optional_skills":["MA-SKL-000003","MA-SKL-000021","AA-SKL-000153","AA-SKL-000154"]},
-    {"gpt_id":"AA-GPT-000004","name":"Gavin- Cinematic Skit Director","decision":"verified","required_skills":["AA-SKL-000127","AA-SKL-000128","AA-SKL-000129","AA-SKL-000130","AA-SKL-000131","AA-SKL-000132","AA-SKL-000133","AA-SKL-000134","AA-SKL-000135","AA-SKL-000145"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000005","name":"Eklektic Ender Studio","decision":"verified","required_skills":["MA-SKL-000001","MA-SKL-000004","MA-SKL-000005","MA-SKL-000023","MA-SKL-000031","MA-SKL-000032"],"optional_skills":["MA-SKL-000003","AA-SKL-000153","AA-SKL-000154"]},
-    {"gpt_id":"AA-GPT-000006","name":"GlamForge Laser Studio","decision":"verified","required_skills":["MA-SKL-000002","MA-SKL-000021","MA-SKL-000022","MA-SKL-000034"],"optional_skills":["MA-SKL-000003","MA-SKL-000035","AA-SKL-000155","AA-SKL-000165"]},
-    {"gpt_id":"AA-GPT-000007","name":"GlamForge 3D Printer","decision":"verified","required_skills":["MA-SKL-000001","MA-SKL-000004","MA-SKL-000005","MA-SKL-000023","MA-SKL-000031","MA-SKL-000032"],"optional_skills":["MA-SKL-000003","AA-SKL-000153","AA-SKL-000154"]},
-    {"gpt_id":"AA-GPT-000008","name":"Stationery Suite","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000142","AA-SKL-000144","AA-SKL-000155","AA-SKL-000157","AA-SKL-000158"],"optional_skills":["MA-SKL-000009","MA-SKL-000014","MA-SKL-000035"]},
-    {"gpt_id":"AA-GPT-000009","name":"Monthly Sales Episodes","decision":"verified","required_skills":["AA-SKL-000050","AA-SKL-000051","AA-SKL-000053"],"optional_skills":["AA-SKL-000052","AA-SKL-000056"]},
-    {"gpt_id":"AA-GPT-000010","name":"Lyrical Hitmaker","decision":"partial-gap","required_skills":["AA-SKL-000136","AA-SKL-000132","AA-SKL-000133","AA-SKL-000130"],"optional_skills":["AA-SKL-000127","AA-SKL-000135"],"gap":"Songwriting, lyric architecture, vocal-cadence design, and Suno-specific music production are not represented by dedicated reusable skills."},
-    {"gpt_id":"AA-GPT-000011","name":"Sportscast Director","decision":"verified","required_skills":["AA-SKL-000127","AA-SKL-000129","AA-SKL-000130","AA-SKL-000131","AA-SKL-000132","AA-SKL-000133","AA-SKL-000134","AA-SKL-000135"],"optional_skills":["AA-SKL-000136"]},
-    {"gpt_id":"AA-GPT-000012","name":"Cinematic Realty Director","decision":"verified","required_skills":["AA-SKL-000129","AA-SKL-000130","AA-SKL-000131","AA-SKL-000132","AA-SKL-000133","AA-SKL-000134","AA-SKL-000135","AA-SKL-000161"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000013","name":"Glamm Graffitee","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000144","AA-SKL-000149","AA-SKL-000155","AA-SKL-000158","AA-SKL-000166"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000014","name":"AI Cinematic Engineer","decision":"existing-verified","required_skills":["AA-SKL-000127","AA-SKL-000129","AA-SKL-000130","AA-SKL-000132","AA-SKL-000133","AA-SKL-000134","AA-SKL-000135"],"optional_skills":["AA-SKL-000136"]},
-    {"gpt_id":"AA-GPT-000015","name":"Black Ops Architect","decision":"verified","required_skills":["AA-SKL-000127","AA-SKL-000128","AA-SKL-000129","AA-SKL-000130","AA-SKL-000131"],"optional_skills":["AA-SKL-000135"]},
-    {"gpt_id":"AA-GPT-000016","name":"Za'ire | Situational Strategist","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Conflict navigation, pressure management, and high-stakes situational advising are not represented by a dedicated skill and should not be forced into AI consulting or government governance skills."},
-    {"gpt_id":"AA-GPT-000017","name":"Nakei Podcast Creative Director","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000144","AA-SKL-000149","AA-SKL-000158","AA-SKL-000164"],"optional_skills":["AA-SKL-000152"]},
-    {"gpt_id":"AA-GPT-000018","name":"Ethan- Creative Production Director","decision":"verified","required_skills":["AA-SKL-000132","AA-SKL-000133","AA-SKL-000138","AA-SKL-000139","AA-SKL-000144","AA-SKL-000147","AA-SKL-000149","AA-SKL-000164"],"optional_skills":["AA-SKL-000111","AA-SKL-000112"]},
-    {"gpt_id":"AA-GPT-000019","name":"Urban Romance Lyrical Studio","decision":"partial-gap","required_skills":["AA-SKL-000136","AA-SKL-000130","AA-SKL-000132","AA-SKL-000133","AA-SKL-000135"],"optional_skills":["AA-SKL-000127"],"gap":"R&B lyric writing, artist voice development, Suno performance cues, and music-label rollout logic require dedicated music skills."},
-    {"gpt_id":"AA-GPT-000020","name":"Urban Romance Studio","decision":"verified","required_skills":["AA-SKL-000127","AA-SKL-000128","AA-SKL-000129","AA-SKL-000130","AA-SKL-000131","AA-SKL-000132","AA-SKL-000133","AA-SKL-000135"],"optional_skills":["AA-SKL-000136"]},
-    {"gpt_id":"AA-GPT-000021","name":"i-PRO Sales Governance Assistant","decision":"partial-gap","required_skills":["AA-SKL-000058","AA-SKL-000063","AA-SKL-000064","AA-SKL-000085","AA-SKL-000086"],"optional_skills":["AA-SKL-000111","AA-SKL-000121","AA-SKL-000126"],"gap":"Manufacturer sales enablement, account health, partner review, retention/hunting planning, and governed product-positioning are not represented by a dedicated sales-enablement skill family."},
-    {"gpt_id":"AA-GPT-000022","name":"Cinematic Studio Director","decision":"verified","required_skills":["AA-SKL-000129","AA-SKL-000132","AA-SKL-000133","AA-SKL-000134","AA-SKL-000135","AA-SKL-000138","AA-SKL-000144","AA-SKL-000146","AA-SKL-000164"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000023","name":"LuxGlam Director","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000144","AA-SKL-000147","AA-SKL-000149","AA-SKL-000156","AA-SKL-000164"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000024","name":"i-PRO Sales Intelligence","decision":"partial-gap","required_skills":["AA-SKL-000111","AA-SKL-000112","AA-SKL-000126","AA-SKL-000151","AA-SKL-000150","AA-SKL-000142"],"optional_skills":["AA-SKL-000138"],"gap":"Rep-specific sales voice onboarding, objection handling, demo recap, account research, and security-sales strategy need dedicated sales enablement skills."},
-    {"gpt_id":"AA-GPT-000025","name":"i-PRO Sales Intelligence","decision":"partial-gap","required_skills":["AA-SKL-000111","AA-SKL-000112","AA-SKL-000126","AA-SKL-000151","AA-SKL-000150","AA-SKL-000142"],"optional_skills":["AA-SKL-000138"],"gap":"Rep-specific sales voice onboarding, objection handling, demo recap, account research, and security-sales strategy need dedicated sales enablement skills."},
-    {"gpt_id":"AA-GPT-000026","name":"Untitled","decision":"partial-gap","required_skills":["AA-SKL-000111","AA-SKL-000112","AA-SKL-000151"],"optional_skills":["AA-SKL-000142"],"gap":"Personalized i-PRO sales communication modeling needs a dedicated sales enablement skill."},
-    {"gpt_id":"AA-GPT-000027","name":"Brand Advertiser","decision":"verified","required_skills":["AA-SKL-000140","AA-SKL-000142","AA-SKL-000144","AA-SKL-000146","AA-SKL-000158","AA-SKL-000159","AA-SKL-000161"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000028","name":"Untitled","decision":"verified","required_skills":["AA-SKL-000142","AA-SKL-000146","AA-SKL-000159","AA-SKL-000160","AA-SKL-000161","AA-SKL-000166"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000029","name":"Luxury Beauty Product Editor","decision":"verified","required_skills":["AA-SKL-000142","AA-SKL-000144","AA-SKL-000147","AA-SKL-000149","AA-SKL-000152","AA-SKL-000159","AA-SKL-000160","AA-SKL-000164","AA-SKL-000165"],"optional_skills":["MA-SKL-000026"]},
-    {"gpt_id":"AA-GPT-000030","name":"Skincare Campaign Editor","decision":"verified","required_skills":["AA-SKL-000142","AA-SKL-000144","AA-SKL-000146","AA-SKL-000147","AA-SKL-000149","AA-SKL-000152","AA-SKL-000159","AA-SKL-000160","AA-SKL-000164"],"optional_skills":["MA-SKL-000026"]},
-    {"gpt_id":"AA-GPT-000031","name":"MonoLuxe Studio Artist","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000144","AA-SKL-000147","AA-SKL-000149","AA-SKL-000164","AA-SKL-000166"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000032","name":"Dymin","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Government grant audit, grant narrative development, funding-need analysis, sustainability, and grant evaluation need a dedicated grants skill family."},
-    {"gpt_id":"AA-GPT-000033","name":"Coach K","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Grant discovery, eligibility intake, grant proposal writing, budget justification, and funder alignment need a dedicated grants skill family."},
-    {"gpt_id":"AA-GPT-000034","name":"Systems Doc Agent (N541512)","decision":"partial-gap","required_skills":["AA-SKL-000084","AA-SKL-000077","AA-SKL-000079","AA-SKL-000085","AA-SKL-000086","AA-SKL-000057","AA-SKL-000058","AA-SKL-000063","AA-SKL-000064","AA-SKL-000001"],"optional_skills":["LMS-SKL-000001","AA-SKL-000094","AA-SKL-000106"],"gap":"Government functional requirements, BRD/FRD, functional system architecture, UAT, SOP, intake, and modernization documentation need a dedicated government documentation skill family."},
-    {"gpt_id":"AA-GPT-000035","name":"Software Doc Agent ( N541511)","decision":"partial-gap","required_skills":["AA-SKL-000084","AA-SKL-000077","AA-SKL-000079","AA-SKL-000085","AA-SKL-000086","AA-SKL-000057","AA-SKL-000058","AA-SKL-000067","AA-SKL-000074"],"optional_skills":["LMS-SKL-000001"],"gap":"Functional/software requirements, UAT, software SOP, intake, role-access, and nontechnical software documentation need dedicated reusable skills."},
-    {"gpt_id":"AA-GPT-000036","name":"HR Master Agent (N541612)","decision":"partial-gap","required_skills":["LMS-SKL-000001","LMS-SKL-000031","LMS-SKL-000040","AA-SKL-000084","AA-SKL-000086","AA-SKL-000057","AA-SKL-000064"],"optional_skills":["AA-SKL-000092"],"gap":"HR SOPs, job descriptions, competency models, skills matrices, workforce documentation, TNA, and HR communications need a dedicated HR documentation skill family."},
-    {"gpt_id":"AA-GPT-000037","name":"Master Admin Consultant (N541611)","decision":"partial-gap","required_skills":["AA-SKL-000002","AA-SKL-000077","AA-SKL-000079","AA-SKL-000084","AA-SKL-000085","AA-SKL-000086","AA-SKL-000057","AA-SKL-000064","AA-SKL-000010"],"optional_skills":["AA-SKL-000106","LMS-SKL-000001"],"gap":"Government administrative SOP, reporting, decision-matrix, routing/intake, meeting documentation, and audit-package skills need a dedicated administrative consulting family."},
-    {"gpt_id":"AA-GPT-000038","name":"GovCon Strategist Pro","decision":"partial-gap","required_skills":["AA-SKL-000087","AA-SKL-000089","AA-SKL-000090","AA-SKL-000093","AA-SKL-000094","AA-SKL-000096"],"optional_skills":["AA-SKL-000103","AA-SKL-000106"],"gap":"GovCon opportunity qualification, capture strategy, solicitation response, capability statement, and contracting-specific business development need dedicated GovCon skills."},
-    {"gpt_id":"AA-GPT-000039","name":"Agency Architect- Full Build","decision":"verified","required_skills":["AA-SKL-000001","AA-SKL-000002","AA-SKL-000003","AA-SKL-000004","AA-SKL-000005","AA-SKL-000008","AA-SKL-000009","AA-SKL-000010"],"optional_skills":["AA-SKL-000107","AA-SKL-000125"]},
-    {"gpt_id":"AA-GPT-000040","name":"PoeticPunch","decision":"partial-gap","required_skills":["AA-SKL-000138","AA-SKL-000155","AA-SKL-000157","AA-SKL-000158"],"optional_skills":["AA-SKL-000164"],"gap":"Poetry, spoken word, prayers, dedications, keepsake writing, and greeting-card copy need a dedicated creative-writing skill family."},
-    {"gpt_id":"AA-GPT-000041","name":"News Plug","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"News discovery, current-events briefing, source verification, and news-format writing are not represented by a dedicated reusable skill."},
-    {"gpt_id":"AA-GPT-000042","name":"CREDIT DISPUTE LETTER GENERATOR","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Consumer credit dispute analysis and compliant dispute-letter generation require a dedicated credit/consumer-finance skill family."},
-    {"gpt_id":"AA-GPT-000043","name":"FULL COMPREHENSIVE CREDIT REPAIR LETTER","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Comprehensive credit-repair correspondence requires a dedicated credit/consumer-finance skill family."},
-    {"gpt_id":"AA-GPT-000044","name":"90-DAY BANK + CREDIT OPTIMIZER","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Personal/business credit optimization and banking-readiness planning require a dedicated credit strategy skill family."},
-    {"gpt_id":"AA-GPT-000045","name":"CHARGE-OFF DISPUTE SPECIALIST","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Charge-off dispute workflows require a dedicated credit/consumer-finance skill family."},
-    {"gpt_id":"AA-GPT-000046","name":"HARD INQUIRY REMOVAL SPECIALIST","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Hard-inquiry dispute workflows require a dedicated credit/consumer-finance skill family."},
-    {"gpt_id":"AA-GPT-000047","name":"COLLECTION ACCOUNT DISPUTE SPECIALIST","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Collection-account dispute workflows require a dedicated credit/consumer-finance skill family."},
-    {"gpt_id":"AA-GPT-000048","name":"LATE PAYMENT DISPUTE LETTER SPECIALIST","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Late-payment dispute workflows require a dedicated credit/consumer-finance skill family."},
-    {"gpt_id":"AA-GPT-000049","name":"COMPREHENSIVE CREDIT REPAIR LETTER GENERATOR","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Credit-repair letter generation requires a dedicated credit/consumer-finance skill family."},
-    {"gpt_id":"AA-GPT-000050","name":"Carter- BusinessCoach","decision":"partial-gap","required_skills":["AA-SKL-000002","AA-SKL-000004","AA-SKL-000005","AA-SKL-000077"],"optional_skills":["AA-SKL-000008","AA-SKL-000010"],"gap":"General business coaching, accountability, founder decision support, and coaching-session logic are not represented by dedicated skills."},
-    {"gpt_id":"AA-GPT-000051","name":"CAMI – The Copywriting Expert","decision":"verified","required_skills":["AA-SKL-000107","AA-SKL-000108","AA-SKL-000111","AA-SKL-000113","AA-SKL-000117","AA-SKL-000118","AA-SKL-000125","AA-SKL-000126"],"optional_skills":["AA-SKL-000121"]},
-    {"gpt_id":"AA-GPT-000052","name":"Deyja-SocialMedia Expert","decision":"verified","required_skills":["AA-SKL-000107","AA-SKL-000108","AA-SKL-000111","AA-SKL-000112","AA-SKL-000115","AA-SKL-000124","AA-SKL-000125","AA-SKL-000126"],"optional_skills":["MA-SKL-000020"]},
-    {"gpt_id":"AA-GPT-000053","name":"Sales Meeting Prep","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Sales-call planning, discovery-question preparation, stakeholder research, and meeting strategy require dedicated sales enablement skills."},
-    {"gpt_id":"AA-GPT-000054","name":"Str8Real Content Assistant","decision":"verified","required_skills":["AA-SKL-000107","AA-SKL-000108","AA-SKL-000111","AA-SKL-000112","AA-SKL-000115","AA-SKL-000126"],"optional_skills":["MA-SKL-000020"]},
-    {"gpt_id":"AA-GPT-000055","name":"Madam AI Assistant","decision":"verified","required_skills":["AA-SKL-000107","AA-SKL-000111","AA-SKL-000117","AA-SKL-000118","AA-SKL-000119","AA-SKL-000125","AA-SKL-000126"],"optional_skills":["MA-SKL-000019"]},
-    {"gpt_id":"AA-GPT-000056","name":"ClassSecure Quote Builder","decision":"skill-gap","required_skills":[],"optional_skills":["AA-SKL-000151"],"gap":"Security solution quoting, bill-of-materials logic, pricing/quote controls, and ClassSecure-specific proposal assembly need dedicated quoting skills."},
-    {"gpt_id":"AA-GPT-000057","name":"TanikaGPT-LMS Administrator Assistant","decision":"existing-verified","required_skills":["LMS-SKL-000001","LMS-SKL-000002","LMS-SKL-000015","LMS-SKL-000018","LMS-SKL-000019","LMS-SKL-000026","LMS-SKL-000031"],"optional_skills":["LMS-SKL-000020","LMS-SKL-000028","LMS-SKL-000029"]},
-    {"gpt_id":"AA-GPT-000058","name":"GregGPT – AI Instructional Design Assistant","decision":"verified","required_skills":["LMS-SKL-000001","LMS-SKL-000005","LMS-SKL-000006","LMS-SKL-000008","LMS-SKL-000031","LMS-SKL-000032"],"optional_skills":["AA-SKL-000150","AA-SKL-000163"]},
-    {"gpt_id":"AA-GPT-000059","name":"MichaelGPT – AI Technical Training Assistant","decision":"verified","required_skills":["LMS-SKL-000001","LMS-SKL-000007","LMS-SKL-000008","LMS-SKL-000031"],"optional_skills":["LMS-SKL-000002","LMS-SKL-000028","AA-SKL-000150"]},
-    {"gpt_id":"AA-GPT-000060","name":"OmarGPT – AI Sales Training Assistant","decision":"verified","required_skills":["LMS-SKL-000001","LMS-SKL-000005","LMS-SKL-000006","LMS-SKL-000008","LMS-SKL-000031"],"optional_skills":["AA-SKL-000150"]},
-    {"gpt_id":"AA-GPT-000061","name":"SeanGPT – Global Tr. Analytics & Strategy Asst","decision":"verified","required_skills":["LMS-SKL-000009","LMS-SKL-000020","LMS-SKL-000028","LMS-SKL-000030","LMS-SKL-000040"],"optional_skills":["LMS-SKL-000034","LMS-SKL-000035"]},
-    {"gpt_id":"AA-GPT-000062","name":"AdrianGPT – Strategic Training Director Assistant","decision":"verified","required_skills":["LMS-SKL-000001","LMS-SKL-000020","LMS-SKL-000028","LMS-SKL-000029","LMS-SKL-000040"],"optional_skills":["LMS-SKL-000031"]},
-    {"gpt_id":"AA-GPT-000063","name":"JoeyGPT – Strategic Training Manager Assistant","decision":"verified","required_skills":["LMS-SKL-000001","LMS-SKL-000020","LMS-SKL-000028","LMS-SKL-000029","LMS-SKL-000040"],"optional_skills":["LMS-SKL-000006","LMS-SKL-000031"]},
-    {"gpt_id":"AA-GPT-000064","name":"Viral Ad Copy Builder","decision":"verified","required_skills":["AA-SKL-000107","AA-SKL-000111","AA-SKL-000113","AA-SKL-000117","AA-SKL-000125","AA-SKL-000126"],"optional_skills":["AA-SKL-000112"]},
-    {"gpt_id":"AA-GPT-000065","name":"Story Vision Assistant","decision":"verified","required_skills":["AA-SKL-000127","AA-SKL-000128","AA-SKL-000129","AA-SKL-000130","AA-SKL-000131","AA-SKL-000132","AA-SKL-000133"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000066","name":"AI Story Creator","decision":"verified","required_skills":["AA-SKL-000127","AA-SKL-000128","AA-SKL-000129","AA-SKL-000130","AA-SKL-000131","AA-SKL-000132","AA-SKL-000133"],"optional_skills":["AA-SKL-000135"]},
-    {"gpt_id":"AA-GPT-000067","name":"FanaticTechs Consulting Assistant","decision":"verified","required_skills":["AA-SKL-000001","AA-SKL-000002","AA-SKL-000003","AA-SKL-000004","AA-SKL-000005","AA-SKL-000008","AA-SKL-000009","AA-SKL-000010"],"optional_skills":["AA-SKL-000112"]},
-    {"gpt_id":"AA-GPT-000068","name":"FanaticBot – Marketing Concierge Assistant","decision":"verified","required_skills":["AA-SKL-000107","AA-SKL-000108","AA-SKL-000111","AA-SKL-000112","AA-SKL-000115","AA-SKL-000118","AA-SKL-000125","AA-SKL-000126"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000069","name":"Salon Suite Builder","decision":"partial-gap","required_skills":["AA-SKL-000107","AA-SKL-000111","AA-SKL-000112","AA-SKL-000122"],"optional_skills":["AA-SKL-000117","AA-SKL-000125"],"gap":"Salon-suite business planning, leasing/tenant operations, and salon-specific startup guidance need dedicated domain skills."},
-    {"gpt_id":"AA-GPT-000070","name":"Sales Training Content Designer","decision":"verified","required_skills":["LMS-SKL-000001","LMS-SKL-000005","LMS-SKL-000006","LMS-SKL-000008","LMS-SKL-000031"],"optional_skills":["AA-SKL-000150"]},
-    {"gpt_id":"AA-GPT-000071","name":"Character Conductor","decision":"verified","required_skills":["AA-SKL-000139","AA-SKL-000140","AA-SKL-000141","AA-SKL-000159","AA-SKL-000160","AA-SKL-000161","AA-SKL-000130"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000072","name":"Consistent Characters Remix","decision":"verified","required_skills":["AA-SKL-000140","AA-SKL-000141","AA-SKL-000159","AA-SKL-000160","AA-SKL-000161","AA-SKL-000166"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000073","name":"Character Consistency Creator","decision":"verified","required_skills":["AA-SKL-000140","AA-SKL-000141","AA-SKL-000159","AA-SKL-000160","AA-SKL-000161"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000074","name":"Finessed Avatars","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000140","AA-SKL-000147","AA-SKL-000149","AA-SKL-000164"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000075","name":"Avatar Art Lab","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000140","AA-SKL-000141","AA-SKL-000147","AA-SKL-000164"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000076","name":"Urban Vibes Designer","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000144","AA-SKL-000149","AA-SKL-000164","AA-SKL-000166"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000077","name":"Maestro Master","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000147","AA-SKL-000164","AA-SKL-000165","AA-SKL-000166"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000078","name":"Children's Best Selling Author","decision":"partial-gap","required_skills":["AA-SKL-000141","AA-SKL-000155","AA-SKL-000157"],"optional_skills":["AA-SKL-000167"],"gap":"Children's book ideation, manuscript writing, age-banding, page planning, and publishing guidance need dedicated authoring skills."},
-    {"gpt_id":"AA-GPT-000079","name":"Urban Novelist","decision":"partial-gap","required_skills":["AA-SKL-000127","AA-SKL-000128"],"optional_skills":["AA-SKL-000130"],"gap":"Long-form novel architecture, chapter development, prose drafting, character arcs, and manuscript continuity need dedicated fiction-writing skills."},
-    {"gpt_id":"AA-GPT-000080","name":"Perfect Prompter","decision":"verified","required_skills":["AA-SKL-000050","AA-SKL-000051","AA-SKL-000052","AA-SKL-000053","AA-SKL-000054"],"optional_skills":["AA-SKL-000055","AA-SKL-000056","AA-SKL-000167"]},
-    {"gpt_id":"AA-GPT-000081","name":"Naki- The Motivational Madam","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Motivational writing, affirmation development, reflective coaching, and encouragement frameworks need dedicated creative/coaching skills."},
-    {"gpt_id":"AA-GPT-000082","name":"Poetic Justice","decision":"skill-gap","required_skills":[],"optional_skills":[],"gap":"Poetry and spoken-word composition need dedicated creative-writing skills."},
-    {"gpt_id":"AA-GPT-000083","name":"DEPIC","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000140","AA-SKL-000159","AA-SKL-000160","AA-SKL-000166","AA-SKL-000171"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000084","name":"Handsome Men Generator","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000140","AA-SKL-000147","AA-SKL-000164"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000085","name":"Portrait Designer","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000140","AA-SKL-000141","AA-SKL-000147","AA-SKL-000164"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000086","name":"Adult Coloring Book","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000155","AA-SKL-000157","AA-SKL-000170"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000087","name":"PoserGenius Airbrush","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000140","AA-SKL-000147","AA-SKL-000159","AA-SKL-000164","AA-SKL-000166"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000088","name":"Perfect Oil","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000147","AA-SKL-000149","AA-SKL-000164","AA-SKL-000166"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000089","name":"High Fashion OIL IDG","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000140","AA-SKL-000149","AA-SKL-000156","AA-SKL-000164","AA-SKL-000166"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000090","name":"Airbrush IDGeneration","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000140","AA-SKL-000147","AA-SKL-000149","AA-SKL-000164","AA-SKL-000166"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000091","name":"EDM","decision":"verified","required_skills":["MA-SKL-000010"],"optional_skills":[],"preserve_visual_enhancement":false},
-    {"gpt_id":"AA-GPT-000092","name":"Perfect Airbrush","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000147","AA-SKL-000149","AA-SKL-000164","AA-SKL-000166"],"optional_skills":[]},
-    {"gpt_id":"AA-GPT-000093","name":"OIL Chibi Muse","decision":"verified","required_skills":["AA-SKL-000138","AA-SKL-000139","AA-SKL-000140","AA-SKL-000148","AA-SKL-000159","AA-SKL-000164","AA-SKL-000166"],"optional_skills":[]}
+    {
+      "gpt_id": "AA-GPT-000001",
+      "name": "Lone Star Scholar Prep",
+      "decision": "partial-gap",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000031",
+        "AA-SKL-000138",
+        "AA-SKL-000150"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000032",
+        "AA-SKL-000169"
+      ],
+      "gap": "STAAR/TEKS/PSAT-specific academic alignment and assessment-resource expertise is not represented by a dedicated skill."
+    },
+    {
+      "gpt_id": "AA-GPT-000002",
+      "name": "Universal FizzyPop Studio",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000140",
+        "AA-SKL-000141",
+        "AA-SKL-000145",
+        "AA-SKL-000162",
+        "AA-SKL-000163"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000003",
+      "name": "GlamBambu P1S Production",
+      "decision": "verified",
+      "required_skills": [
+        "MA-SKL-000001",
+        "MA-SKL-000004",
+        "MA-SKL-000005",
+        "MA-SKL-000023",
+        "MA-SKL-000031",
+        "MA-SKL-000032"
+      ],
+      "optional_skills": [
+        "MA-SKL-000003",
+        "MA-SKL-000021",
+        "AA-SKL-000153",
+        "AA-SKL-000154"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000004",
+      "name": "Gavin- Cinematic Skit Director",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000128",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000134",
+        "AA-SKL-000135",
+        "AA-SKL-000145"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000005",
+      "name": "Eklektic Ender Studio",
+      "decision": "verified",
+      "required_skills": [
+        "MA-SKL-000001",
+        "MA-SKL-000004",
+        "MA-SKL-000005",
+        "MA-SKL-000023",
+        "MA-SKL-000031",
+        "MA-SKL-000032"
+      ],
+      "optional_skills": [
+        "MA-SKL-000003",
+        "AA-SKL-000153",
+        "AA-SKL-000154"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000006",
+      "name": "GlamForge Laser Studio",
+      "decision": "verified",
+      "required_skills": [
+        "MA-SKL-000002",
+        "MA-SKL-000021",
+        "MA-SKL-000022",
+        "MA-SKL-000034"
+      ],
+      "optional_skills": [
+        "MA-SKL-000003",
+        "MA-SKL-000035",
+        "AA-SKL-000155",
+        "AA-SKL-000165"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000007",
+      "name": "GlamForge 3D Printer",
+      "decision": "verified",
+      "required_skills": [
+        "MA-SKL-000001",
+        "MA-SKL-000004",
+        "MA-SKL-000005",
+        "MA-SKL-000023",
+        "MA-SKL-000031",
+        "MA-SKL-000032"
+      ],
+      "optional_skills": [
+        "MA-SKL-000003",
+        "AA-SKL-000153",
+        "AA-SKL-000154"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000008",
+      "name": "Stationery Suite",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000142",
+        "AA-SKL-000144",
+        "AA-SKL-000155",
+        "AA-SKL-000157",
+        "AA-SKL-000158"
+      ],
+      "optional_skills": [
+        "MA-SKL-000009",
+        "MA-SKL-000014",
+        "MA-SKL-000035"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000009",
+      "name": "Monthly Sales Episodes",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000050",
+        "AA-SKL-000051",
+        "AA-SKL-000053"
+      ],
+      "optional_skills": [
+        "AA-SKL-000052",
+        "AA-SKL-000056"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000010",
+      "name": "Lyrical Hitmaker",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000136",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000130"
+      ],
+      "optional_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000135"
+      ],
+      "gap": "Songwriting, lyric architecture, vocal-cadence design, and Suno-specific music production are not represented by dedicated reusable skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000011",
+      "name": "Sportscast Director",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000134",
+        "AA-SKL-000135"
+      ],
+      "optional_skills": [
+        "AA-SKL-000136"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000012",
+      "name": "Cinematic Realty Director",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000134",
+        "AA-SKL-000135",
+        "AA-SKL-000161"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000013",
+      "name": "Glamm Graffitee",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000144",
+        "AA-SKL-000149",
+        "AA-SKL-000155",
+        "AA-SKL-000158",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000014",
+      "name": "AI Cinematic Engineer",
+      "decision": "existing-verified",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000134",
+        "AA-SKL-000135"
+      ],
+      "optional_skills": [
+        "AA-SKL-000136"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000015",
+      "name": "Black Ops Architect",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000128",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131"
+      ],
+      "optional_skills": [
+        "AA-SKL-000135"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000016",
+      "name": "Za'ire | Situational Strategist",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "Conflict navigation, pressure management, and high-stakes situational advising are not represented by a dedicated skill and should not be forced into AI consulting or government governance skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000017",
+      "name": "Nakei Podcast Creative Director",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000144",
+        "AA-SKL-000149",
+        "AA-SKL-000158",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": [
+        "AA-SKL-000152"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000018",
+      "name": "Ethan- Creative Production Director",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000144",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": [
+        "AA-SKL-000111",
+        "AA-SKL-000112"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000019",
+      "name": "Urban Romance Lyrical Studio",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000136",
+        "AA-SKL-000130",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000135"
+      ],
+      "optional_skills": [
+        "AA-SKL-000127"
+      ],
+      "gap": "R&B lyric writing, artist voice development, Suno performance cues, and music-label rollout logic require dedicated music skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000020",
+      "name": "Urban Romance Studio",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000128",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000135"
+      ],
+      "optional_skills": [
+        "AA-SKL-000136"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000021",
+      "name": "i-PRO Sales Governance Assistant",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000058",
+        "AA-SKL-000063",
+        "AA-SKL-000064",
+        "AA-SKL-000085",
+        "AA-SKL-000086"
+      ],
+      "optional_skills": [
+        "AA-SKL-000111",
+        "AA-SKL-000121",
+        "AA-SKL-000126"
+      ],
+      "gap": "Manufacturer sales enablement, account health, partner review, retention/hunting planning, and governed product-positioning are not represented by a dedicated sales-enablement skill family."
+    },
+    {
+      "gpt_id": "AA-GPT-000022",
+      "name": "Cinematic Studio Director",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000129",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000134",
+        "AA-SKL-000135",
+        "AA-SKL-000138",
+        "AA-SKL-000144",
+        "AA-SKL-000146",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000023",
+      "name": "LuxGlam Director",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000144",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000156",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000024",
+      "name": "i-PRO Sales Intelligence",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000126",
+        "AA-SKL-000151",
+        "AA-SKL-000150",
+        "AA-SKL-000142"
+      ],
+      "optional_skills": [
+        "AA-SKL-000138"
+      ],
+      "gap": "Rep-specific sales voice onboarding, objection handling, demo recap, account research, and security-sales strategy need dedicated sales enablement skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000025",
+      "name": "i-PRO Sales Intelligence",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000126",
+        "AA-SKL-000151",
+        "AA-SKL-000150",
+        "AA-SKL-000142"
+      ],
+      "optional_skills": [
+        "AA-SKL-000138"
+      ],
+      "gap": "Rep-specific sales voice onboarding, objection handling, demo recap, account research, and security-sales strategy need dedicated sales enablement skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000026",
+      "name": "Untitled",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000151"
+      ],
+      "optional_skills": [
+        "AA-SKL-000142"
+      ],
+      "gap": "Personalized i-PRO sales communication modeling needs a dedicated sales enablement skill."
+    },
+    {
+      "gpt_id": "AA-GPT-000027",
+      "name": "Brand Advertiser",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000140",
+        "AA-SKL-000142",
+        "AA-SKL-000144",
+        "AA-SKL-000146",
+        "AA-SKL-000158",
+        "AA-SKL-000159",
+        "AA-SKL-000161"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000028",
+      "name": "Untitled",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000142",
+        "AA-SKL-000146",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000161",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000029",
+      "name": "Luxury Beauty Product Editor",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000142",
+        "AA-SKL-000144",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000152",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000164",
+        "AA-SKL-000165"
+      ],
+      "optional_skills": [
+        "MA-SKL-000026"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000030",
+      "name": "Skincare Campaign Editor",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000142",
+        "AA-SKL-000144",
+        "AA-SKL-000146",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000152",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": [
+        "MA-SKL-000026"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000031",
+      "name": "MonoLuxe Studio Artist",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000144",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000032",
+      "name": "Dymin",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000174",
+        "AA-SKL-000175",
+        "AA-SKL-000176",
+        "AA-SKL-000177",
+        "AA-SKL-000178",
+        "AA-SKL-000179",
+        "AA-SKL-000180"
+      ],
+      "optional_skills": [
+        "AA-SKL-000173"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000033",
+      "name": "Coach K",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000173",
+        "AA-SKL-000175",
+        "AA-SKL-000176",
+        "AA-SKL-000178",
+        "AA-SKL-000180"
+      ],
+      "optional_skills": [
+        "AA-SKL-000174",
+        "AA-SKL-000177",
+        "AA-SKL-000179"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000034",
+      "name": "Systems Doc Agent (N541512)",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000084",
+        "AA-SKL-000077",
+        "AA-SKL-000079",
+        "AA-SKL-000085",
+        "AA-SKL-000086",
+        "AA-SKL-000057",
+        "AA-SKL-000058",
+        "AA-SKL-000063",
+        "AA-SKL-000064",
+        "AA-SKL-000001"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000001",
+        "AA-SKL-000094",
+        "AA-SKL-000106"
+      ],
+      "gap": "Government functional requirements, BRD/FRD, functional system architecture, UAT, SOP, intake, and modernization documentation need a dedicated government documentation skill family."
+    },
+    {
+      "gpt_id": "AA-GPT-000035",
+      "name": "Software Doc Agent ( N541511)",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000084",
+        "AA-SKL-000077",
+        "AA-SKL-000079",
+        "AA-SKL-000085",
+        "AA-SKL-000086",
+        "AA-SKL-000057",
+        "AA-SKL-000058",
+        "AA-SKL-000067",
+        "AA-SKL-000074"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000001"
+      ],
+      "gap": "Functional/software requirements, UAT, software SOP, intake, role-access, and nontechnical software documentation need dedicated reusable skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000036",
+      "name": "HR Master Agent (N541612)",
+      "decision": "partial-gap",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000031",
+        "LMS-SKL-000040",
+        "AA-SKL-000084",
+        "AA-SKL-000086",
+        "AA-SKL-000057",
+        "AA-SKL-000064"
+      ],
+      "optional_skills": [
+        "AA-SKL-000092"
+      ],
+      "gap": "HR SOPs, job descriptions, competency models, skills matrices, workforce documentation, TNA, and HR communications need a dedicated HR documentation skill family."
+    },
+    {
+      "gpt_id": "AA-GPT-000037",
+      "name": "Master Admin Consultant (N541611)",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000002",
+        "AA-SKL-000077",
+        "AA-SKL-000079",
+        "AA-SKL-000084",
+        "AA-SKL-000085",
+        "AA-SKL-000086",
+        "AA-SKL-000057",
+        "AA-SKL-000064",
+        "AA-SKL-000010"
+      ],
+      "optional_skills": [
+        "AA-SKL-000106",
+        "LMS-SKL-000001"
+      ],
+      "gap": "Government administrative SOP, reporting, decision-matrix, routing/intake, meeting documentation, and audit-package skills need a dedicated administrative consulting family."
+    },
+    {
+      "gpt_id": "AA-GPT-000038",
+      "name": "GovCon Strategist Pro",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000087",
+        "AA-SKL-000089",
+        "AA-SKL-000090",
+        "AA-SKL-000093",
+        "AA-SKL-000094",
+        "AA-SKL-000096"
+      ],
+      "optional_skills": [
+        "AA-SKL-000103",
+        "AA-SKL-000106"
+      ],
+      "gap": "GovCon opportunity qualification, capture strategy, solicitation response, capability statement, and contracting-specific business development need dedicated GovCon skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000039",
+      "name": "Agency Architect- Full Build",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000001",
+        "AA-SKL-000002",
+        "AA-SKL-000003",
+        "AA-SKL-000004",
+        "AA-SKL-000005",
+        "AA-SKL-000008",
+        "AA-SKL-000009",
+        "AA-SKL-000010"
+      ],
+      "optional_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000125"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000040",
+      "name": "PoeticPunch",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000155",
+        "AA-SKL-000157",
+        "AA-SKL-000158"
+      ],
+      "optional_skills": [
+        "AA-SKL-000164"
+      ],
+      "gap": "Poetry, spoken word, prayers, dedications, keepsake writing, and greeting-card copy need a dedicated creative-writing skill family."
+    },
+    {
+      "gpt_id": "AA-GPT-000041",
+      "name": "News Plug",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "News discovery, current-events briefing, source verification, and news-format writing are not represented by a dedicated reusable skill."
+    },
+    {
+      "gpt_id": "AA-GPT-000042",
+      "name": "CREDIT DISPUTE LETTER GENERATOR",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "Consumer credit dispute analysis and compliant dispute-letter generation require a dedicated credit/consumer-finance skill family."
+    },
+    {
+      "gpt_id": "AA-GPT-000043",
+      "name": "FULL COMPREHENSIVE CREDIT REPAIR LETTER",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "Comprehensive credit-repair correspondence requires a dedicated credit/consumer-finance skill family."
+    },
+    {
+      "gpt_id": "AA-GPT-000044",
+      "name": "90-DAY BANK + CREDIT OPTIMIZER",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "Personal/business credit optimization and banking-readiness planning require a dedicated credit strategy skill family."
+    },
+    {
+      "gpt_id": "AA-GPT-000045",
+      "name": "CHARGE-OFF DISPUTE SPECIALIST",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "Charge-off dispute workflows require a dedicated credit/consumer-finance skill family."
+    },
+    {
+      "gpt_id": "AA-GPT-000046",
+      "name": "HARD INQUIRY REMOVAL SPECIALIST",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "Hard-inquiry dispute workflows require a dedicated credit/consumer-finance skill family."
+    },
+    {
+      "gpt_id": "AA-GPT-000047",
+      "name": "COLLECTION ACCOUNT DISPUTE SPECIALIST",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "Collection-account dispute workflows require a dedicated credit/consumer-finance skill family."
+    },
+    {
+      "gpt_id": "AA-GPT-000048",
+      "name": "LATE PAYMENT DISPUTE LETTER SPECIALIST",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "Late-payment dispute workflows require a dedicated credit/consumer-finance skill family."
+    },
+    {
+      "gpt_id": "AA-GPT-000049",
+      "name": "COMPREHENSIVE CREDIT REPAIR LETTER GENERATOR",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "Credit-repair letter generation requires a dedicated credit/consumer-finance skill family."
+    },
+    {
+      "gpt_id": "AA-GPT-000050",
+      "name": "Carter- BusinessCoach",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000002",
+        "AA-SKL-000004",
+        "AA-SKL-000005",
+        "AA-SKL-000077"
+      ],
+      "optional_skills": [
+        "AA-SKL-000008",
+        "AA-SKL-000010"
+      ],
+      "gap": "General business coaching, accountability, founder decision support, and coaching-session logic are not represented by dedicated skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000051",
+      "name": "CAMI \u2013 The Copywriting Expert",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000108",
+        "AA-SKL-000111",
+        "AA-SKL-000113",
+        "AA-SKL-000117",
+        "AA-SKL-000118",
+        "AA-SKL-000125",
+        "AA-SKL-000126"
+      ],
+      "optional_skills": [
+        "AA-SKL-000121"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000052",
+      "name": "Deyja-SocialMedia Expert",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000108",
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000115",
+        "AA-SKL-000124",
+        "AA-SKL-000125",
+        "AA-SKL-000126"
+      ],
+      "optional_skills": [
+        "MA-SKL-000020"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000053",
+      "name": "Sales Meeting Prep",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "Sales-call planning, discovery-question preparation, stakeholder research, and meeting strategy require dedicated sales enablement skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000054",
+      "name": "Str8Real Content Assistant",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000108",
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000115",
+        "AA-SKL-000126"
+      ],
+      "optional_skills": [
+        "MA-SKL-000020"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000055",
+      "name": "Madam AI Assistant",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000111",
+        "AA-SKL-000117",
+        "AA-SKL-000118",
+        "AA-SKL-000119",
+        "AA-SKL-000125",
+        "AA-SKL-000126"
+      ],
+      "optional_skills": [
+        "MA-SKL-000019"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000056",
+      "name": "ClassSecure Quote Builder",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [
+        "AA-SKL-000151"
+      ],
+      "gap": "Security solution quoting, bill-of-materials logic, pricing/quote controls, and ClassSecure-specific proposal assembly need dedicated quoting skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000057",
+      "name": "TanikaGPT-LMS Administrator Assistant",
+      "decision": "existing-verified",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000002",
+        "LMS-SKL-000015",
+        "LMS-SKL-000018",
+        "LMS-SKL-000019",
+        "LMS-SKL-000026",
+        "LMS-SKL-000031"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000020",
+        "LMS-SKL-000028",
+        "LMS-SKL-000029"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000058",
+      "name": "GregGPT \u2013 AI Instructional Design Assistant",
+      "decision": "verified",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000005",
+        "LMS-SKL-000006",
+        "LMS-SKL-000008",
+        "LMS-SKL-000031",
+        "LMS-SKL-000032"
+      ],
+      "optional_skills": [
+        "AA-SKL-000150",
+        "AA-SKL-000163"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000059",
+      "name": "MichaelGPT \u2013 AI Technical Training Assistant",
+      "decision": "verified",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000007",
+        "LMS-SKL-000008",
+        "LMS-SKL-000031"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000002",
+        "LMS-SKL-000028",
+        "AA-SKL-000150"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000060",
+      "name": "OmarGPT \u2013 AI Sales Training Assistant",
+      "decision": "verified",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000005",
+        "LMS-SKL-000006",
+        "LMS-SKL-000008",
+        "LMS-SKL-000031"
+      ],
+      "optional_skills": [
+        "AA-SKL-000150"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000061",
+      "name": "SeanGPT \u2013 Global Tr. Analytics & Strategy Asst",
+      "decision": "verified",
+      "required_skills": [
+        "LMS-SKL-000009",
+        "LMS-SKL-000020",
+        "LMS-SKL-000028",
+        "LMS-SKL-000030",
+        "LMS-SKL-000040"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000034",
+        "LMS-SKL-000035"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000062",
+      "name": "AdrianGPT \u2013 Strategic Training Director Assistant",
+      "decision": "verified",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000020",
+        "LMS-SKL-000028",
+        "LMS-SKL-000029",
+        "LMS-SKL-000040"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000031"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000063",
+      "name": "JoeyGPT \u2013 Strategic Training Manager Assistant",
+      "decision": "verified",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000020",
+        "LMS-SKL-000028",
+        "LMS-SKL-000029",
+        "LMS-SKL-000040"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000006",
+        "LMS-SKL-000031"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000064",
+      "name": "Viral Ad Copy Builder",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000111",
+        "AA-SKL-000113",
+        "AA-SKL-000117",
+        "AA-SKL-000125",
+        "AA-SKL-000126"
+      ],
+      "optional_skills": [
+        "AA-SKL-000112"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000065",
+      "name": "Story Vision Assistant",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000128",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131",
+        "AA-SKL-000132",
+        "AA-SKL-000133"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000066",
+      "name": "AI Story Creator",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000128",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131",
+        "AA-SKL-000132",
+        "AA-SKL-000133"
+      ],
+      "optional_skills": [
+        "AA-SKL-000135"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000067",
+      "name": "FanaticTechs Consulting Assistant",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000001",
+        "AA-SKL-000002",
+        "AA-SKL-000003",
+        "AA-SKL-000004",
+        "AA-SKL-000005",
+        "AA-SKL-000008",
+        "AA-SKL-000009",
+        "AA-SKL-000010"
+      ],
+      "optional_skills": [
+        "AA-SKL-000112"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000068",
+      "name": "FanaticBot \u2013 Marketing Concierge Assistant",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000108",
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000115",
+        "AA-SKL-000118",
+        "AA-SKL-000125",
+        "AA-SKL-000126"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000069",
+      "name": "Salon Suite Builder",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000122"
+      ],
+      "optional_skills": [
+        "AA-SKL-000117",
+        "AA-SKL-000125"
+      ],
+      "gap": "Salon-suite business planning, leasing/tenant operations, and salon-specific startup guidance need dedicated domain skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000070",
+      "name": "Sales Training Content Designer",
+      "decision": "verified",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000005",
+        "LMS-SKL-000006",
+        "LMS-SKL-000008",
+        "LMS-SKL-000031"
+      ],
+      "optional_skills": [
+        "AA-SKL-000150"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000071",
+      "name": "Character Conductor",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000141",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000161",
+        "AA-SKL-000130"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000072",
+      "name": "Consistent Characters Remix",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000140",
+        "AA-SKL-000141",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000161",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000073",
+      "name": "Character Consistency Creator",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000140",
+        "AA-SKL-000141",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000161"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000074",
+      "name": "Finessed Avatars",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000075",
+      "name": "Avatar Art Lab",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000141",
+        "AA-SKL-000147",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000076",
+      "name": "Urban Vibes Designer",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000144",
+        "AA-SKL-000149",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000077",
+      "name": "Maestro Master",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000147",
+        "AA-SKL-000164",
+        "AA-SKL-000165",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000078",
+      "name": "Children's Best Selling Author",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000141",
+        "AA-SKL-000155",
+        "AA-SKL-000157"
+      ],
+      "optional_skills": [
+        "AA-SKL-000167"
+      ],
+      "gap": "Children's book ideation, manuscript writing, age-banding, page planning, and publishing guidance need dedicated authoring skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000079",
+      "name": "Urban Novelist",
+      "decision": "partial-gap",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000128"
+      ],
+      "optional_skills": [
+        "AA-SKL-000130"
+      ],
+      "gap": "Long-form novel architecture, chapter development, prose drafting, character arcs, and manuscript continuity need dedicated fiction-writing skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000080",
+      "name": "Perfect Prompter",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000050",
+        "AA-SKL-000051",
+        "AA-SKL-000052",
+        "AA-SKL-000053",
+        "AA-SKL-000054"
+      ],
+      "optional_skills": [
+        "AA-SKL-000055",
+        "AA-SKL-000056",
+        "AA-SKL-000167"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000081",
+      "name": "Naki- The Motivational Madam",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "Motivational writing, affirmation development, reflective coaching, and encouragement frameworks need dedicated creative/coaching skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000082",
+      "name": "Poetic Justice",
+      "decision": "skill-gap",
+      "required_skills": [],
+      "optional_skills": [],
+      "gap": "Poetry and spoken-word composition need dedicated creative-writing skills."
+    },
+    {
+      "gpt_id": "AA-GPT-000083",
+      "name": "DEPIC",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000140",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000166",
+        "AA-SKL-000171"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000084",
+      "name": "Handsome Men Generator",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000147",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000085",
+      "name": "Portrait Designer",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000141",
+        "AA-SKL-000147",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000086",
+      "name": "Adult Coloring Book",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000155",
+        "AA-SKL-000157",
+        "AA-SKL-000170"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000087",
+      "name": "PoserGenius Airbrush",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000147",
+        "AA-SKL-000159",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000088",
+      "name": "Perfect Oil",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000089",
+      "name": "High Fashion OIL IDG",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000149",
+        "AA-SKL-000156",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000090",
+      "name": "Airbrush IDGeneration",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000091",
+      "name": "EDM",
+      "decision": "verified",
+      "required_skills": [
+        "MA-SKL-000010"
+      ],
+      "optional_skills": [],
+      "preserve_visual_enhancement": false
+    },
+    {
+      "gpt_id": "AA-GPT-000092",
+      "name": "Perfect Airbrush",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": []
+    },
+    {
+      "gpt_id": "AA-GPT-000093",
+      "name": "OIL Chibi Muse",
+      "decision": "verified",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000148",
+        "AA-SKL-000159",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": []
+    }
   ]
 }

@@ -1,70 +1,115 @@
 {
   "schema_version": "1.0.0",
-  "assets": [
+  "generated_at": "2026-08-09",
+  "authoritative_sources": {
+    "assets": "catalog/assets.json",
+    "relationships": "catalog/relationships.json",
+    "gpt_skill_mappings": "catalog/gpt-skill-mappings.json",
+    "owned_gpts": "gpts/manifests",
+    "authorized_bookmarked_gpts": "gpts/discovered/bookmarked-shared-gpts.json"
+  },
+  "summary": {
+    "governed_assets": 286,
+    "assets_by_type": {
+      "AGT": 1,
+      "APP": 1,
+      "KNP": 1,
+      "SKL": 273,
+      "SOL": 5,
+      "WFL": 5
+    },
+    "assets_by_library": {
+      "AGNT": 13,
+      "APP": 32,
+      "AUTO": 12,
+      "BEAUTY": 12,
+      "BRAND": 31,
+      "CONS": 12,
+      "CORE": 5,
+      "CRM": 2,
+      "ECOM": 9,
+      "FLOW": 10,
+      "GOV": 20,
+      "GOVDOC": 15,
+      "GRANT": 8,
+      "IMG": 1,
+      "KNOW": 14,
+      "LASER": 4,
+      "LMS": 28,
+      "NET": 5,
+      "OPS": 13,
+      "PRINT": 7,
+      "PROMPT": 7,
+      "SALES": 12,
+      "VIDEO": 10,
+      "WDAY": 4
+    },
+    "relationships": 1790,
+    "evaluation_records": 300,
+    "maturity_records": 287,
+    "owned_gpt_manifests": 93,
+    "authorized_bookmarked_gpts": 102
+  },
+  "asset_index": [
     {
       "sku": "CO-SKL-000001",
       "asset_id": "core.skill-library-architect.v1",
       "name": "Skill Library Architect",
-      "asset_type": "SKL",
-      "business": "CO",
+      "type": "SKL",
       "library": "CORE",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/core-os/skills/skill-library-architect",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "CO-SKL-000002",
       "asset_id": "core.skill-quality-reviewer.v1",
       "name": "Skill Quality Reviewer",
-      "asset_type": "SKL",
-      "business": "CO",
+      "type": "SKL",
       "library": "CORE",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/core-os/skills/skill-quality-reviewer",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "CO-SKL-000003",
       "asset_id": "core.skill-router.v1",
       "name": "Skill Router",
-      "asset_type": "SKL",
-      "business": "CO",
+      "type": "SKL",
       "library": "CORE",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/core-os/skills/skill-router",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "CO-SKL-000004",
       "asset_id": "core.workflow-composer.v1",
       "name": "Workflow Composer",
-      "asset_type": "SKL",
-      "business": "CO",
+      "type": "SKL",
       "library": "CORE",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/core-os/skills/workflow-composer",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "CO-SKL-000005",
       "asset_id": "core.bookmarked-gpt-router.v1",
       "name": "Bookmarked GPT Router",
-      "asset_type": "SKL",
-      "business": "CO",
+      "type": "SKL",
       "library": "CORE",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/core-os/skills/bookmarked-gpt-router",
-      "depends_on": [
+      "dependencies": [
         "CO-SKL-000003"
       ]
     },
@@ -72,40 +117,37 @@
       "sku": "AA-SKL-000001",
       "asset_id": "ai-consulting.ai-readiness-assessment.v1",
       "name": "AI Readiness Assessment",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "CONS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/consulting/ai-readiness-assessment",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000002",
       "asset_id": "ai-consulting.workflow-discovery.v1",
       "name": "Workflow Discovery",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "CONS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/consulting/workflow-discovery",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000003",
       "asset_id": "ai-consulting.automation-opportunity-analysis.v1",
       "name": "Automation Opportunity Analysis",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "CONS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/consulting/automation-opportunity-analysis",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000002"
       ]
     },
@@ -113,14 +155,13 @@
       "sku": "AA-SKL-000004",
       "asset_id": "ai-consulting.ai-strategy-roadmap.v1",
       "name": "AI Strategy Roadmap",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "CONS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/consulting/ai-strategy-roadmap",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000001",
         "AA-SKL-000003"
       ]
@@ -129,14 +170,13 @@
       "sku": "AA-SKL-000005",
       "asset_id": "ai-consulting.ai-use-case-prioritizer.v1",
       "name": "AI Use Case Prioritizer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "CONS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/consulting/ai-use-case-prioritizer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000001",
         "AA-SKL-000003"
       ]
@@ -145,14 +185,13 @@
       "sku": "AA-SKL-000006",
       "asset_id": "ai-consulting.ai-governance-review.v1",
       "name": "AI Governance Review",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "CONS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/consulting/ai-governance-review",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000001"
       ]
     },
@@ -160,14 +199,13 @@
       "sku": "AA-SKL-000007",
       "asset_id": "ai-consulting.roi-calculator.v1",
       "name": "ROI Calculator",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "CONS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/consulting/roi-calculator",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000003"
       ]
     },
@@ -175,14 +213,13 @@
       "sku": "AA-SKL-000008",
       "asset_id": "ai-consulting.executive-proposal-builder.v1",
       "name": "Executive Proposal Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "CONS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/consulting/executive-proposal-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000004",
         "AA-SKL-000007"
       ]
@@ -191,14 +228,13 @@
       "sku": "AA-SKL-000009",
       "asset_id": "ai-consulting.statement-of-work-builder.v1",
       "name": "Statement of Work Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "CONS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/consulting/statement-of-work-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000008"
       ]
     },
@@ -206,14 +242,13 @@
       "sku": "AA-SKL-000010",
       "asset_id": "ai-consulting.implementation-planner.v1",
       "name": "Implementation Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "CONS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/consulting/implementation-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000004",
         "AA-SKL-000009"
       ]
@@ -222,14 +257,13 @@
       "sku": "AA-SKL-000011",
       "asset_id": "agent-engineering.agent-architect.v1",
       "name": "Agent Architect",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/agent-engineering/agent-architect",
-      "depends_on": [
+      "dependencies": [
         "CO-SKL-000003",
         "CO-SKL-000004"
       ]
@@ -238,14 +272,13 @@
       "sku": "AA-SKL-000012",
       "asset_id": "agent-engineering.agent-instruction-builder.v1",
       "name": "Agent Instruction Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/agent-engineering/agent-instruction-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000011"
       ]
     },
@@ -253,14 +286,13 @@
       "sku": "AA-SKL-000013",
       "asset_id": "knowledge-engineering.knowledge-base-builder.v1",
       "name": "Knowledge Base Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/knowledge-engineering/knowledge-base-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000011"
       ]
     },
@@ -268,14 +300,13 @@
       "sku": "AA-SKL-000014",
       "asset_id": "agent-engineering.agent-workflow-builder.v1",
       "name": "Agent Workflow Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/agent-engineering/agent-workflow-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000011",
         "CO-SKL-000004"
       ]
@@ -284,14 +315,13 @@
       "sku": "AA-SKL-000015",
       "asset_id": "agent-engineering.agent-qa-reviewer.v1",
       "name": "Agent QA Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/agent-engineering/agent-qa-reviewer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000011",
         "AA-SKL-000012",
         "AA-SKL-000013",
@@ -302,14 +332,13 @@
       "sku": "AA-SKL-000016",
       "asset_id": "agent-engineering.agent-deployment-planner.v1",
       "name": "Agent Deployment Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/agent-engineering/agent-deployment-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000011",
         "AA-SKL-000015"
       ]
@@ -318,14 +347,13 @@
       "sku": "AA-SKL-000017",
       "asset_id": "agent-engineering.agent-monitoring-and-optimization.v1",
       "name": "Agent Monitoring and Optimization",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/agent-engineering/agent-monitoring-and-optimization",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000015",
         "AA-SKL-000016"
       ]
@@ -334,14 +362,13 @@
       "sku": "AA-SKL-000018",
       "asset_id": "agent-engineering.multi-agent-system-designer.v1",
       "name": "Multi-Agent System Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/agent-engineering/multi-agent-system-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000011",
         "AA-SKL-000014"
       ]
@@ -350,14 +377,13 @@
       "sku": "AA-SKL-000019",
       "asset_id": "agent-engineering.agent-memory-architect.v1",
       "name": "Agent Memory Architect",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/agent-engineering/agent-memory-architect",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000011",
         "AA-SKL-000013"
       ]
@@ -366,14 +392,13 @@
       "sku": "AA-SKL-000020",
       "asset_id": "agent-engineering.agent-tool-integration-designer.v1",
       "name": "Agent Tool Integration Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/agent-engineering/agent-tool-integration-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000011",
         "AA-SKL-000014"
       ]
@@ -382,14 +407,13 @@
       "sku": "AA-SKL-000021",
       "asset_id": "agent-engineering.agent-marketplace-packager.v1",
       "name": "Agent Marketplace Packager",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/agent-engineering/agent-marketplace-packager",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000015",
         "AA-SKL-000016",
         "AA-SKL-000017"
@@ -399,27 +423,25 @@
       "sku": "AA-SKL-000022",
       "asset_id": "app-engineering.vibe-coding-solution-architect.v1",
       "name": "Vibe Coding Solution Architect",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/vibe-coding-solution-architect",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000023",
       "asset_id": "app-engineering.app-requirements-generator.v1",
       "name": "App Requirements Generator",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/app-requirements-generator",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000022"
       ]
     },
@@ -427,14 +449,13 @@
       "sku": "AA-SKL-000024",
       "asset_id": "app-engineering.ui-ux-prompt-builder.v1",
       "name": "UI/UX Prompt Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/ui-ux-prompt-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023"
       ]
     },
@@ -442,14 +463,13 @@
       "sku": "AA-SKL-000025",
       "asset_id": "app-engineering.database-designer.v1",
       "name": "Database Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/database-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023"
       ]
     },
@@ -457,14 +477,13 @@
       "sku": "AA-SKL-000026",
       "asset_id": "app-engineering.authentication-authorization-planner.v1",
       "name": "Authentication and Authorization Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/authentication-authorization-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023",
         "AA-SKL-000025"
       ]
@@ -473,14 +492,13 @@
       "sku": "AA-SKL-000027",
       "asset_id": "app-engineering.api-integration-builder.v1",
       "name": "API Integration Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/api-integration-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023",
         "AA-SKL-000026"
       ]
@@ -489,14 +507,13 @@
       "sku": "AA-SKL-000028",
       "asset_id": "app-engineering.app-testing-planner.v1",
       "name": "App Testing Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/app-testing-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023",
         "AA-SKL-000024",
         "AA-SKL-000025",
@@ -508,14 +525,13 @@
       "sku": "AA-SKL-000029",
       "asset_id": "app-engineering.app-deployment-planner.v1",
       "name": "App Deployment Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/app-deployment-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023",
         "AA-SKL-000025",
         "AA-SKL-000026",
@@ -527,14 +543,13 @@
       "sku": "AA-SKL-000030",
       "asset_id": "app-engineering.app-maintenance-planner.v1",
       "name": "App Maintenance Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/app-maintenance-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000028",
         "AA-SKL-000029"
       ]
@@ -543,14 +558,13 @@
       "sku": "AA-SKL-000031",
       "asset_id": "app-engineering.feature-prioritizer.v1",
       "name": "Feature Prioritizer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/feature-prioritizer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023",
         "AA-SKL-000030"
       ]
@@ -559,14 +573,13 @@
       "sku": "AA-SKL-000032",
       "asset_id": "app-engineering.release-planner.v1",
       "name": "Release Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/release-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000028",
         "AA-SKL-000029",
         "AA-SKL-000030",
@@ -577,14 +590,13 @@
       "sku": "AA-SKL-000033",
       "asset_id": "app-engineering.saas-architecture-planner.v1",
       "name": "SaaS Architecture Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/saas-architecture-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000022",
         "AA-SKL-000023",
         "AA-SKL-000025",
@@ -596,14 +608,13 @@
       "sku": "AA-SKL-000034",
       "asset_id": "app-engineering.client-portal-builder.v1",
       "name": "Client Portal Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/client-portal-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023",
         "AA-SKL-000024",
         "AA-SKL-000026",
@@ -615,14 +626,13 @@
       "sku": "AA-SKL-000035",
       "asset_id": "app-engineering.dashboard-designer.v1",
       "name": "Dashboard Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/dashboard-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023",
         "AA-SKL-000024",
         "AA-SKL-000025",
@@ -633,14 +643,13 @@
       "sku": "AA-SKL-000036",
       "asset_id": "app-engineering.membership-platform-builder.v1",
       "name": "Membership Platform Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/membership-platform-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023",
         "AA-SKL-000024",
         "AA-SKL-000026",
@@ -652,14 +661,13 @@
       "sku": "AA-SKL-000037",
       "asset_id": "app-engineering.knowledge-hub-builder.v1",
       "name": "Knowledge Hub Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/knowledge-hub-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000013",
         "AA-SKL-000023",
         "AA-SKL-000024",
@@ -671,14 +679,13 @@
       "sku": "AA-SKL-000038",
       "asset_id": "app-engineering.marketplace-builder.v1",
       "name": "Marketplace Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/marketplace-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023",
         "AA-SKL-000024",
         "AA-SKL-000026",
@@ -690,14 +697,13 @@
       "sku": "AA-SKL-000039",
       "asset_id": "app-engineering.internal-operations-app-builder.v1",
       "name": "Internal Operations App Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/internal-operations-app-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000002",
         "AA-SKL-000023",
         "AA-SKL-000024",
@@ -709,14 +715,13 @@
       "sku": "AA-SKL-000040",
       "asset_id": "app-engineering.mobile-app-planner.v1",
       "name": "Mobile App Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/mobile-app-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000022",
         "AA-SKL-000023",
         "AA-SKL-000024",
@@ -730,14 +735,13 @@
       "sku": "AA-SKL-000041",
       "asset_id": "app-engineering.desktop-app-planner.v1",
       "name": "Desktop App Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/desktop-app-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000022",
         "AA-SKL-000023",
         "AA-SKL-000024",
@@ -752,14 +756,13 @@
       "sku": "AA-SKL-000042",
       "asset_id": "app-engineering.prompt-to-app-converter.v1",
       "name": "Prompt-to-App Converter",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/prompt-to-app-converter",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000022",
         "AA-SKL-000023",
         "AA-SKL-000024",
@@ -777,14 +780,13 @@
       "sku": "AA-SKL-000043",
       "asset_id": "app-engineering.bug-investigation-assistant.v1",
       "name": "Bug Investigation Assistant",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/bug-investigation-assistant",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000028",
         "AA-SKL-000030"
       ]
@@ -793,14 +795,13 @@
       "sku": "AA-SKL-000044",
       "asset_id": "app-engineering.error-log-analyzer.v1",
       "name": "Error Log Analyzer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/error-log-analyzer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000030",
         "AA-SKL-000043"
       ]
@@ -809,14 +810,13 @@
       "sku": "AA-SKL-000045",
       "asset_id": "app-engineering.refactoring-advisor.v1",
       "name": "Refactoring Advisor",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/refactoring-advisor",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000028",
         "AA-SKL-000030",
         "AA-SKL-000043"
@@ -826,14 +826,13 @@
       "sku": "AA-SKL-000046",
       "asset_id": "app-engineering.production-readiness-reviewer.v1",
       "name": "Production Readiness Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/production-readiness-reviewer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000028",
         "AA-SKL-000029",
         "AA-SKL-000030",
@@ -844,14 +843,13 @@
       "sku": "AA-SKL-000047",
       "asset_id": "app-engineering.front-end-generator.v1",
       "name": "Front-End Generator",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/front-end-generator",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023",
         "AA-SKL-000024",
         "AA-SKL-000026",
@@ -864,14 +862,13 @@
       "sku": "AA-SKL-000048",
       "asset_id": "app-engineering.backend-architecture-planner.v1",
       "name": "Backend Architecture Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/backend-architecture-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000023",
         "AA-SKL-000025",
         "AA-SKL-000026",
@@ -886,14 +883,13 @@
       "sku": "AA-SKL-000049",
       "asset_id": "app-engineering.mcp-integration-planner.v1",
       "name": "MCP Integration Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/app-engineering/mcp-integration-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000020",
         "AA-SKL-000026",
         "AA-SKL-000027",
@@ -907,14 +903,13 @@
       "sku": "AA-SKL-000050",
       "asset_id": "prompt-engineering.prompt-architect.v1",
       "name": "Prompt Architect",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "PROMPT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/prompt-engineering/prompt-architect",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000012"
       ]
     },
@@ -922,14 +917,13 @@
       "sku": "AA-SKL-000051",
       "asset_id": "prompt-engineering.prompt-optimizer.v1",
       "name": "Prompt Optimizer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "PROMPT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/prompt-engineering/prompt-optimizer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000050"
       ]
     },
@@ -937,14 +931,13 @@
       "sku": "AA-SKL-000052",
       "asset_id": "prompt-engineering.prompt-tester.v1",
       "name": "Prompt Tester",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "PROMPT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/prompt-engineering/prompt-tester",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000050",
         "AA-SKL-000051"
       ]
@@ -953,14 +946,13 @@
       "sku": "AA-SKL-000053",
       "asset_id": "prompt-engineering.prompt-qa-reviewer.v1",
       "name": "Prompt QA Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "PROMPT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/prompt-engineering/prompt-qa-reviewer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000050",
         "AA-SKL-000051",
         "AA-SKL-000052"
@@ -970,14 +962,13 @@
       "sku": "AA-SKL-000054",
       "asset_id": "prompt-engineering.prompt-converter.v1",
       "name": "Prompt Converter",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "PROMPT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/prompt-engineering/prompt-converter",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000050",
         "AA-SKL-000052",
         "AA-SKL-000053"
@@ -987,14 +978,13 @@
       "sku": "AA-SKL-000055",
       "asset_id": "prompt-engineering.prompt-library-manager.v1",
       "name": "Prompt Library Manager",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "PROMPT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/prompt-engineering/prompt-library-manager",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000050",
         "AA-SKL-000053",
         "AA-SKL-000054"
@@ -1004,14 +994,13 @@
       "sku": "AA-SKL-000056",
       "asset_id": "prompt-engineering.prompt-version-manager.v1",
       "name": "Prompt Version Manager",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "PROMPT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/prompt-engineering/prompt-version-manager",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000052",
         "AA-SKL-000053",
         "AA-SKL-000054",
@@ -1022,14 +1011,13 @@
       "sku": "AA-SKL-000057",
       "asset_id": "knowledge-engineering.knowledge-extraction.v1",
       "name": "Knowledge Extraction",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/knowledge-engineering/knowledge-extraction",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000013"
       ]
     },
@@ -1037,14 +1025,13 @@
       "sku": "AA-SKL-000058",
       "asset_id": "knowledge-engineering.document-intelligence.v1",
       "name": "Document Intelligence",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/knowledge-engineering/document-intelligence",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000057"
       ]
     },
@@ -1052,14 +1039,13 @@
       "sku": "AA-SKL-000059",
       "asset_id": "knowledge-engineering.taxonomy-builder.v1",
       "name": "Taxonomy Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/knowledge-engineering/taxonomy-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000057"
       ]
     },
@@ -1067,14 +1053,13 @@
       "sku": "AA-SKL-000060",
       "asset_id": "knowledge-engineering.ontology-builder.v1",
       "name": "Ontology Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/knowledge-engineering/ontology-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000059"
       ]
     },
@@ -1082,14 +1067,13 @@
       "sku": "AA-SKL-000061",
       "asset_id": "knowledge-engineering.semantic-search-designer.v1",
       "name": "Semantic Search Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/knowledge-engineering/semantic-search-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000013",
         "AA-SKL-000057",
         "AA-SKL-000059"
@@ -1099,14 +1083,13 @@
       "sku": "AA-SKL-000062",
       "asset_id": "knowledge-engineering.rag-architect.v1",
       "name": "RAG Architect",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/knowledge-engineering/rag-architect",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000013",
         "AA-SKL-000061"
       ]
@@ -1115,14 +1098,13 @@
       "sku": "AA-SKL-000063",
       "asset_id": "knowledge-engineering.knowledge-quality-reviewer.v1",
       "name": "Knowledge Quality Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/knowledge-engineering/knowledge-quality-reviewer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000057",
         "AA-SKL-000058",
         "AA-SKL-000059",
@@ -1135,14 +1117,13 @@
       "sku": "AA-SKL-000064",
       "asset_id": "knowledge-engineering.knowledge-governance-manager.v1",
       "name": "Knowledge Governance Manager",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/knowledge-engineering/knowledge-governance-manager",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000013",
         "AA-SKL-000063"
       ]
@@ -1151,14 +1132,13 @@
       "sku": "AA-SKL-000065",
       "asset_id": "knowledge-engineering.knowledge-refresh-manager.v1",
       "name": "Knowledge Refresh Manager",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/knowledge-engineering/knowledge-refresh-manager",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000063",
         "AA-SKL-000064"
       ]
@@ -1167,14 +1147,13 @@
       "sku": "AA-SKL-000066",
       "asset_id": "knowledge-engineering.knowledge-migration-planner.v1",
       "name": "Knowledge Migration Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/knowledge-engineering/knowledge-migration-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000063",
         "AA-SKL-000064",
         "AA-SKL-000065"
@@ -1184,14 +1163,13 @@
       "sku": "AA-SKL-000067",
       "asset_id": "automation-engineering.automation-blueprint-builder.v1",
       "name": "Automation Blueprint Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AUTO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/automation-engineering/automation-blueprint-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000002",
         "AA-SKL-000003"
       ]
@@ -1200,14 +1178,13 @@
       "sku": "AA-SKL-000068",
       "asset_id": "automation-engineering.automation-architecture-designer.v1",
       "name": "Automation Architecture Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AUTO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/automation-engineering/automation-architecture-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000067"
       ]
     },
@@ -1215,14 +1192,13 @@
       "sku": "AA-SKL-000069",
       "asset_id": "automation-engineering.integration-planner.v1",
       "name": "Integration Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AUTO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/automation-engineering/integration-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000027",
         "AA-SKL-000068"
       ]
@@ -1231,14 +1207,13 @@
       "sku": "AA-SKL-000070",
       "asset_id": "automation-engineering.api-readiness-assessment.v1",
       "name": "API Readiness Assessment",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AUTO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/automation-engineering/api-readiness-assessment",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000069"
       ]
     },
@@ -1246,14 +1221,13 @@
       "sku": "AA-SKL-000071",
       "asset_id": "automation-engineering.automation-risk-analyzer.v1",
       "name": "Automation Risk Analyzer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AUTO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/automation-engineering/automation-risk-analyzer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000067",
         "AA-SKL-000068",
         "AA-SKL-000069"
@@ -1263,14 +1237,13 @@
       "sku": "AA-SKL-000072",
       "asset_id": "automation-engineering.automation-cost-estimator.v1",
       "name": "Automation Cost Estimator",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AUTO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/automation-engineering/automation-cost-estimator",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000067",
         "AA-SKL-000068",
         "AA-SKL-000069"
@@ -1280,14 +1253,13 @@
       "sku": "AA-SKL-000073",
       "asset_id": "automation-engineering.automation-prioritization-matrix.v1",
       "name": "Automation Prioritization Matrix",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AUTO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/automation-engineering/automation-prioritization-matrix",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000003",
         "AA-SKL-000070",
         "AA-SKL-000071",
@@ -1298,14 +1270,13 @@
       "sku": "AA-SKL-000074",
       "asset_id": "automation-engineering.workflow-automation-designer.v1",
       "name": "Workflow Automation Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AUTO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/automation-engineering/workflow-automation-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000067",
         "AA-SKL-000068",
         "AA-SKL-000069",
@@ -1316,14 +1287,13 @@
       "sku": "AA-SKL-000075",
       "asset_id": "automation-engineering.n8n-workflow-planner.v1",
       "name": "n8n Workflow Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AUTO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/automation-engineering/n8n-workflow-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000074"
       ]
     },
@@ -1331,14 +1301,13 @@
       "sku": "AA-SKL-000076",
       "asset_id": "automation-engineering.automation-error-handling-designer.v1",
       "name": "Automation Error Handling Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "AUTO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/automation-engineering/automation-error-handling-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000068",
         "AA-SKL-000074",
         "AA-SKL-000075"
@@ -1348,14 +1317,13 @@
       "sku": "AA-SKL-000077",
       "asset_id": "workflow-engineering.workflow-optimizer.v1",
       "name": "Workflow Optimizer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "FLOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/workflow-engineering/workflow-optimizer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000002"
       ]
     },
@@ -1363,14 +1331,13 @@
       "sku": "AA-SKL-000078",
       "asset_id": "workflow-engineering.workflow-simulator.v1",
       "name": "Workflow Simulator",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "FLOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/workflow-engineering/workflow-simulator",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000002",
         "AA-SKL-000077"
       ]
@@ -1379,14 +1346,13 @@
       "sku": "AA-SKL-000079",
       "asset_id": "workflow-engineering.workflow-validator.v1",
       "name": "Workflow Validator",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "FLOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/workflow-engineering/workflow-validator",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000002",
         "AA-SKL-000077",
         "AA-SKL-000078"
@@ -1396,14 +1362,13 @@
       "sku": "AA-SKL-000080",
       "asset_id": "workflow-engineering.human-in-the-loop-designer.v1",
       "name": "Human-in-the-Loop Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "FLOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/workflow-engineering/human-in-the-loop-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000079"
       ]
     },
@@ -1411,14 +1376,13 @@
       "sku": "AA-SKL-000081",
       "asset_id": "workflow-engineering.exception-flow-designer.v1",
       "name": "Exception Flow Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "FLOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/workflow-engineering/exception-flow-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000079",
         "AA-SKL-000080"
       ]
@@ -1427,14 +1391,13 @@
       "sku": "AA-SKL-000082",
       "asset_id": "workflow-engineering.approval-workflow-builder.v1",
       "name": "Approval Workflow Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "FLOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/workflow-engineering/approval-workflow-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000080",
         "AA-SKL-000081"
       ]
@@ -1443,14 +1406,13 @@
       "sku": "AA-SKL-000083",
       "asset_id": "workflow-engineering.workflow-metrics-builder.v1",
       "name": "Workflow Metrics Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "FLOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/workflow-engineering/workflow-metrics-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000002",
         "AA-SKL-000077"
       ]
@@ -1459,14 +1421,13 @@
       "sku": "AA-SKL-000084",
       "asset_id": "workflow-engineering.workflow-documentation-builder.v1",
       "name": "Workflow Documentation Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "FLOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/workflow-engineering/workflow-documentation-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000079",
         "AA-SKL-000081",
         "AA-SKL-000082",
@@ -1477,14 +1438,13 @@
       "sku": "AA-SKL-000085",
       "asset_id": "workflow-engineering.workflow-governance-reviewer.v1",
       "name": "Workflow Governance Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "FLOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/workflow-engineering/workflow-governance-reviewer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000079",
         "AA-SKL-000080",
         "AA-SKL-000081",
@@ -1497,14 +1457,13 @@
       "sku": "AA-SKL-000086",
       "asset_id": "workflow-engineering.process-standardization-reviewer.v1",
       "name": "Process Standardization Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "FLOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/workflow-engineering/process-standardization-reviewer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000077",
         "AA-SKL-000079",
         "AA-SKL-000083",
@@ -1515,27 +1474,25 @@
       "sku": "LMS-SKL-000001",
       "asset_id": "learning.course-blueprint-builder.v1",
       "name": "Course Blueprint Builder",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/course-blueprint-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "LMS-SKL-000002",
       "asset_id": "learning.certification-program-designer.v1",
       "name": "Certification Program Designer",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/certification-program-designer",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000001"
       ]
     },
@@ -1543,14 +1500,13 @@
       "sku": "LMS-SKL-000003",
       "asset_id": "learning.netexam-certification-builder.v1",
       "name": "NetExam Certification Builder",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "NET",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/netexam-certification-builder",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000002"
       ]
     },
@@ -1558,14 +1514,13 @@
       "sku": "LMS-SKL-000004",
       "asset_id": "learning.certification-renewal-manager.v1",
       "name": "Certification Renewal Manager",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/certification-renewal-manager",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000002",
         "LMS-SKL-000003"
       ]
@@ -1574,14 +1529,13 @@
       "sku": "LMS-SKL-000005",
       "asset_id": "learning.exam-builder.v1",
       "name": "Exam Builder",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/exam-builder",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000001",
         "LMS-SKL-000002"
       ]
@@ -1590,14 +1544,13 @@
       "sku": "LMS-SKL-000006",
       "asset_id": "learning.exam-qa-reviewer.v1",
       "name": "Exam QA Reviewer",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/exam-qa-reviewer",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000005"
       ]
     },
@@ -1605,27 +1558,25 @@
       "sku": "LMS-SKL-000007",
       "asset_id": "learning.scorm-validator.v1",
       "name": "SCORM Validator",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/scorm-validator",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "LMS-SKL-000008",
       "asset_id": "learning.learning-path-designer.v1",
       "name": "Learning Path Designer",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/learning-path-designer",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000001",
         "LMS-SKL-000002"
       ]
@@ -1634,27 +1585,25 @@
       "sku": "LMS-SKL-000009",
       "asset_id": "learning.lms-report-analyzer.v1",
       "name": "LMS Report Analyzer",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/lms-report-analyzer",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "LMS-SKL-000010",
       "asset_id": "learning.transcript-auditor.v1",
       "name": "Transcript Auditor",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/transcript-auditor",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000009"
       ]
     },
@@ -1662,14 +1611,13 @@
       "sku": "LMS-SKL-000011",
       "asset_id": "learning.workday-learning-configuration-planner.v1",
       "name": "Workday Learning Configuration Planner",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "WDAY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/workday-learning-configuration-planner",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000001",
         "LMS-SKL-000008"
       ]
@@ -1678,14 +1626,13 @@
       "sku": "LMS-SKL-000012",
       "asset_id": "learning.netexam-course-builder.v1",
       "name": "NetExam Course Builder",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "NET",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/netexam-course-builder",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000001",
         "LMS-SKL-000007"
       ]
@@ -1694,14 +1641,13 @@
       "sku": "LMS-SKL-000013",
       "asset_id": "learning.ilt-session-manager.v1",
       "name": "ILT Session Manager",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/ilt-session-manager",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000001"
       ]
     },
@@ -1709,14 +1655,13 @@
       "sku": "LMS-SKL-000014",
       "asset_id": "learning.certificate-generation-planner.v1",
       "name": "Certificate Generation Planner",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/certificate-generation-planner",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000002",
         "LMS-SKL-000004"
       ]
@@ -1725,14 +1670,13 @@
       "sku": "LMS-SKL-000015",
       "asset_id": "learning.lms-notification-designer.v1",
       "name": "LMS Notification Designer",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/lms-notification-designer",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000004",
         "LMS-SKL-000013"
       ]
@@ -1741,14 +1685,13 @@
       "sku": "LMS-SKL-000016",
       "asset_id": "learning.salesforce-learning-integration-planner.v1",
       "name": "Salesforce Learning Integration Planner",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "CRM",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/salesforce-learning-integration-planner",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000009",
         "LMS-SKL-000010"
       ]
@@ -1757,14 +1700,13 @@
       "sku": "LMS-SKL-000017",
       "asset_id": "learning.netexam-branch-manager.v1",
       "name": "NetExam Branch Manager",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "NET",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/netexam-branch-manager",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000003",
         "LMS-SKL-000012"
       ]
@@ -1773,14 +1715,13 @@
       "sku": "LMS-SKL-000018",
       "asset_id": "learning.learner-user-lifecycle-manager.v1",
       "name": "Learner User Lifecycle Manager",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/learner-user-lifecycle-manager",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000010",
         "LMS-SKL-000016",
         "LMS-SKL-000017"
@@ -1790,14 +1731,13 @@
       "sku": "LMS-SKL-000019",
       "asset_id": "learning.lms-catalog-manager.v1",
       "name": "LMS Catalog Manager",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/lms-catalog-manager",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000001",
         "LMS-SKL-000008",
         "LMS-SKL-000012"
@@ -1807,14 +1747,13 @@
       "sku": "LMS-SKL-000020",
       "asset_id": "learning.learning-analytics-designer.v1",
       "name": "Learning Analytics Designer",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/learning-analytics-designer",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000009",
         "LMS-SKL-000010"
       ]
@@ -1823,14 +1762,13 @@
       "sku": "LMS-SKL-000021",
       "asset_id": "learning.workday-learning-assignment-planner.v1",
       "name": "Workday Learning Assignment Planner",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "WDAY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/workday-learning-assignment-planner",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000011",
         "LMS-SKL-000018"
       ]
@@ -1839,14 +1777,13 @@
       "sku": "LMS-SKL-000022",
       "asset_id": "learning.workday-learning-campaign-manager.v1",
       "name": "Workday Learning Campaign Manager",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "WDAY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/workday-learning-campaign-manager",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000011",
         "LMS-SKL-000015",
         "LMS-SKL-000021"
@@ -1856,14 +1793,13 @@
       "sku": "LMS-SKL-000023",
       "asset_id": "learning.workday-learning-security-reviewer.v1",
       "name": "Workday Learning Security Reviewer",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "WDAY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/workday-learning-security-reviewer",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000011",
         "LMS-SKL-000018"
       ]
@@ -1872,14 +1808,13 @@
       "sku": "LMS-SKL-000024",
       "asset_id": "learning.netexam-exam-import-formatter.v1",
       "name": "NetExam Exam Import Formatter",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "NET",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/netexam-exam-import-formatter",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000005",
         "LMS-SKL-000006"
       ]
@@ -1888,14 +1823,13 @@
       "sku": "LMS-SKL-000025",
       "asset_id": "learning.netexam-reporting-specialist.v1",
       "name": "NetExam Reporting Specialist",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "NET",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/netexam-reporting-specialist",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000009",
         "LMS-SKL-000017"
       ]
@@ -1904,14 +1838,13 @@
       "sku": "LMS-SKL-000026",
       "asset_id": "learning.scorm-import-assistant.v1",
       "name": "SCORM Import Assistant",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/scorm-import-assistant",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000007",
         "LMS-SKL-000012"
       ]
@@ -1920,14 +1853,13 @@
       "sku": "LMS-SKL-000027",
       "asset_id": "learning.lms-migration-planner.v1",
       "name": "LMS Migration Planner",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/lms-migration-planner",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000010",
         "LMS-SKL-000016",
         "LMS-SKL-000018",
@@ -1938,14 +1870,13 @@
       "sku": "LMS-SKL-000028",
       "asset_id": "learning.lms-dashboard-designer.v1",
       "name": "LMS Dashboard Designer",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/lms-dashboard-designer",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000020",
         "LMS-SKL-000025"
       ]
@@ -1954,14 +1885,13 @@
       "sku": "LMS-SKL-000029",
       "asset_id": "learning.lms-governance-reviewer.v1",
       "name": "LMS Governance Reviewer",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/lms-governance-reviewer",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000018",
         "LMS-SKL-000019",
         "LMS-SKL-000023"
@@ -1971,14 +1901,13 @@
       "sku": "LMS-SKL-000030",
       "asset_id": "learning.learning-data-quality-auditor.v1",
       "name": "Learning Data Quality Auditor",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/learning-data-quality-auditor",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000009",
         "LMS-SKL-000010",
         "LMS-SKL-000016",
@@ -1989,14 +1918,13 @@
       "sku": "LMS-SKL-000031",
       "asset_id": "learning.learning-content-qa-reviewer.v1",
       "name": "Learning Content QA Reviewer",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/learning-content-qa-reviewer",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000001",
         "LMS-SKL-000007"
       ]
@@ -2005,14 +1933,13 @@
       "sku": "LMS-SKL-000032",
       "asset_id": "learning.learning-accessibility-reviewer.v1",
       "name": "Learning Accessibility Reviewer",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/learning-accessibility-reviewer",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000031"
       ]
     },
@@ -2020,14 +1947,13 @@
       "sku": "LMS-SKL-000033",
       "asset_id": "learning.learning-localization-manager.v1",
       "name": "Learning Localization Manager",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/learning-localization-manager",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000031",
         "LMS-SKL-000032"
       ]
@@ -2036,14 +1962,13 @@
       "sku": "LMS-SKL-000034",
       "asset_id": "learning.exam-performance-analyzer.v1",
       "name": "Exam Performance Analyzer",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/exam-performance-analyzer",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000005",
         "LMS-SKL-000006",
         "LMS-SKL-000009"
@@ -2053,14 +1978,13 @@
       "sku": "LMS-SKL-000035",
       "asset_id": "learning.certification-health-monitor.v1",
       "name": "Certification Health Monitor",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/certification-health-monitor",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000002",
         "LMS-SKL-000004",
         "LMS-SKL-000020"
@@ -2070,14 +1994,13 @@
       "sku": "LMS-SKL-000036",
       "asset_id": "learning.learning-audit-evidence-builder.v1",
       "name": "Learning Audit Evidence Builder",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/learning-audit-evidence-builder",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000010",
         "LMS-SKL-000029",
         "LMS-SKL-000030"
@@ -2087,14 +2010,13 @@
       "sku": "LMS-SKL-000037",
       "asset_id": "learning.lms-release-manager.v1",
       "name": "LMS Release Manager",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/lms-release-manager",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000026",
         "LMS-SKL-000029",
         "LMS-SKL-000031"
@@ -2104,14 +2026,13 @@
       "sku": "LMS-SKL-000038",
       "asset_id": "learning.learning-integration-monitor.v1",
       "name": "Learning Integration Monitor",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "CRM",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/learning-integration-monitor",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000016",
         "LMS-SKL-000030",
         "LMS-SKL-000037"
@@ -2121,14 +2042,13 @@
       "sku": "LMS-SKL-000039",
       "asset_id": "learning.learner-support-triage.v1",
       "name": "Learner Support Triage",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "LMS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/learner-support-triage",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000007",
         "LMS-SKL-000010",
         "LMS-SKL-000018",
@@ -2139,14 +2059,13 @@
       "sku": "LMS-SKL-000040",
       "asset_id": "learning.training-operations-planner.v1",
       "name": "Training Operations Planner",
-      "asset_type": "SKL",
-      "business": "LMS",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ipro-lms/skills/training-operations-planner",
-      "depends_on": [
+      "dependencies": [
         "LMS-SKL-000013",
         "LMS-SKL-000019",
         "LMS-SKL-000028",
@@ -2158,40 +2077,37 @@
       "sku": "MA-SKL-000001",
       "asset_id": "creative.three-d-print-project-planner.v1",
       "name": "3D Print Project Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "PRINT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/three-d-print-project-planner",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "MA-SKL-000002",
       "asset_id": "creative.laser-engraving-project-planner.v1",
       "name": "Laser Engraving Project Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "LASER",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/laser-engraving-project-planner",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "MA-SKL-000003",
       "asset_id": "creative.custom-product-designer.v1",
       "name": "Custom Product Designer",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/custom-product-designer",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000001",
         "MA-SKL-000002"
       ]
@@ -2200,14 +2116,13 @@
       "sku": "MA-SKL-000004",
       "asset_id": "creative.filament-material-advisor.v1",
       "name": "Filament Material Advisor",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "PRINT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/filament-material-advisor",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000001"
       ]
     },
@@ -2215,14 +2130,13 @@
       "sku": "MA-SKL-000005",
       "asset_id": "creative.print-production-optimizer.v1",
       "name": "Print Production Optimizer",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "PRINT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/print-production-optimizer",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000001",
         "MA-SKL-000004"
       ]
@@ -2231,14 +2145,13 @@
       "sku": "MA-SKL-000006",
       "asset_id": "business.product-cost-calculator.v1",
       "name": "Product Cost Calculator",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/product-cost-calculator",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000003",
         "MA-SKL-000005"
       ]
@@ -2247,14 +2160,13 @@
       "sku": "MA-SKL-000007",
       "asset_id": "business.product-catalog-builder.v1",
       "name": "Product Catalog Builder",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/product-catalog-builder",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000003",
         "MA-SKL-000006"
       ]
@@ -2263,14 +2175,13 @@
       "sku": "MA-SKL-000008",
       "asset_id": "business.custom-order-planner.v1",
       "name": "Custom Order Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/custom-order-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000003",
         "MA-SKL-000006"
       ]
@@ -2279,14 +2190,13 @@
       "sku": "MA-SKL-000009",
       "asset_id": "creative.packaging-designer.v1",
       "name": "Packaging Designer",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/packaging-designer",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000003",
         "MA-SKL-000006"
       ]
@@ -2295,14 +2205,13 @@
       "sku": "MA-SKL-000010",
       "asset_id": "business.ecommerce-listing-builder.v1",
       "name": "Ecommerce Listing Builder",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/ecommerce-listing-builder",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000007",
         "MA-SKL-000009"
       ]
@@ -2311,14 +2220,13 @@
       "sku": "MA-SKL-000011",
       "asset_id": "brand.luxury-collection-planner.v1",
       "name": "Luxury Collection Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/luxury-collection-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000003",
         "MA-SKL-000006",
         "MA-SKL-000007"
@@ -2328,14 +2236,13 @@
       "sku": "MA-SKL-000012",
       "asset_id": "beauty.fragrance-concept-designer.v1",
       "name": "Fragrance Concept Designer",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BEAUTY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/fragrance-concept-designer",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000011"
       ]
     },
@@ -2343,14 +2250,13 @@
       "sku": "MA-SKL-000013",
       "asset_id": "beauty.beauty-product-description-builder.v1",
       "name": "Beauty Product Description Builder",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BEAUTY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/beauty-product-description-builder",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000010",
         "MA-SKL-000012"
       ]
@@ -2359,14 +2265,13 @@
       "sku": "MA-SKL-000014",
       "asset_id": "brand.personalized-gift-planner.v1",
       "name": "Personalized Gift Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "ECOM",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/personalized-gift-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000008",
         "MA-SKL-000009"
       ]
@@ -2375,27 +2280,25 @@
       "sku": "MA-SKL-000015",
       "asset_id": "brand.brand-voice-builder.v1",
       "name": "Brand Voice Builder",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/brand-voice-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "MA-SKL-000016",
       "asset_id": "brand.luxury-collection-namer.v1",
       "name": "Luxury Collection Namer",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/luxury-collection-namer",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000011",
         "MA-SKL-000015"
       ]
@@ -2404,14 +2307,13 @@
       "sku": "MA-SKL-000017",
       "asset_id": "business.inventory-replenishment-planner.v1",
       "name": "Inventory Replenishment Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "ECOM",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/inventory-replenishment-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000006",
         "MA-SKL-000007"
       ]
@@ -2420,14 +2322,13 @@
       "sku": "MA-SKL-000018",
       "asset_id": "business.order-fulfillment-planner.v1",
       "name": "Order Fulfillment Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "ECOM",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/order-fulfillment-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000008",
         "MA-SKL-000009",
         "MA-SKL-000017"
@@ -2437,14 +2338,13 @@
       "sku": "MA-SKL-000019",
       "asset_id": "brand.product-launch-planner.v1",
       "name": "Product Launch Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/product-launch-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000010",
         "MA-SKL-000011",
         "MA-SKL-000017",
@@ -2455,14 +2355,13 @@
       "sku": "MA-SKL-000020",
       "asset_id": "brand.social-content-generator.v1",
       "name": "Social Content Generator",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/social-content-generator",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000013",
         "MA-SKL-000015",
         "MA-SKL-000019"
@@ -2472,14 +2371,13 @@
       "sku": "MA-SKL-000021",
       "asset_id": "creative.svg-production-planner.v1",
       "name": "SVG Production Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "LASER",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/svg-production-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000002"
       ]
     },
@@ -2487,14 +2385,13 @@
       "sku": "MA-SKL-000022",
       "asset_id": "creative.laser-settings-validator.v1",
       "name": "Laser Settings Validator",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "LASER",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/laser-settings-validator",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000002",
         "MA-SKL-000021"
       ]
@@ -2503,14 +2400,13 @@
       "sku": "MA-SKL-000023",
       "asset_id": "creative.three-d-print-quality-reviewer.v1",
       "name": "3D Print Quality Reviewer",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "PRINT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/three-d-print-quality-reviewer",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000001",
         "MA-SKL-000005"
       ]
@@ -2519,14 +2415,13 @@
       "sku": "MA-SKL-000024",
       "asset_id": "creative.maker-equipment-maintenance-planner.v1",
       "name": "Maker Equipment Maintenance Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/maker-equipment-maintenance-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000005",
         "MA-SKL-000022"
       ]
@@ -2535,14 +2430,13 @@
       "sku": "MA-SKL-000025",
       "asset_id": "business.supplier-sourcing-planner.v1",
       "name": "Supplier Sourcing Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/supplier-sourcing-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000006",
         "MA-SKL-000017"
       ]
@@ -2551,14 +2445,13 @@
       "sku": "MA-SKL-000026",
       "asset_id": "brand.product-photography-planner.v1",
       "name": "Product Photography Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/product-photography-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000007",
         "MA-SKL-000015"
       ]
@@ -2567,14 +2460,13 @@
       "sku": "MA-SKL-000027",
       "asset_id": "ecommerce.storefront-merchandising-planner.v1",
       "name": "Storefront Merchandising Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "ECOM",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/storefront-merchandising-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000007",
         "MA-SKL-000010",
         "MA-SKL-000017",
@@ -2585,14 +2477,13 @@
       "sku": "MA-SKL-000028",
       "asset_id": "ecommerce.customer-care-response-builder.v1",
       "name": "Customer Care Response Builder",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "ECOM",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/customer-care-response-builder",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000015",
         "MA-SKL-000018"
       ]
@@ -2601,14 +2492,13 @@
       "sku": "MA-SKL-000029",
       "asset_id": "ecommerce.returns-resolution-planner.v1",
       "name": "Returns Resolution Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "ECOM",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/returns-resolution-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000018",
         "MA-SKL-000028"
       ]
@@ -2617,14 +2507,13 @@
       "sku": "MA-SKL-000030",
       "asset_id": "business.maker-production-scheduler.v1",
       "name": "Maker Production Scheduler",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/maker-production-scheduler",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000005",
         "MA-SKL-000008",
         "MA-SKL-000018",
@@ -2635,14 +2524,13 @@
       "sku": "MA-SKL-000031",
       "asset_id": "creative.stl-production-planner.v1",
       "name": "STL Production Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "PRINT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/stl-production-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000001",
         "MA-SKL-000023"
       ]
@@ -2651,14 +2539,13 @@
       "sku": "MA-SKL-000032",
       "asset_id": "creative.slicer-profile-builder.v1",
       "name": "Slicer Profile Builder",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "PRINT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/slicer-profile-builder",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000004",
         "MA-SKL-000005",
         "MA-SKL-000031"
@@ -2668,14 +2555,13 @@
       "sku": "MA-SKL-000033",
       "asset_id": "creative.print-failure-diagnoser.v1",
       "name": "Print Failure Diagnoser",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "PRINT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/print-failure-diagnoser",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000023",
         "MA-SKL-000024",
         "MA-SKL-000032"
@@ -2685,14 +2571,13 @@
       "sku": "MA-SKL-000034",
       "asset_id": "creative.laser-layout-optimizer.v1",
       "name": "Laser Layout Optimizer",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "LASER",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/laser-layout-optimizer",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000021",
         "MA-SKL-000022"
       ]
@@ -2701,14 +2586,13 @@
       "sku": "MA-SKL-000035",
       "asset_id": "creative.personalization-layout-designer.v1",
       "name": "Personalization Layout Designer",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/personalization-layout-designer",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000003",
         "MA-SKL-000008",
         "MA-SKL-000021"
@@ -2718,14 +2602,13 @@
       "sku": "MA-SKL-000036",
       "asset_id": "business.materials-inventory-controller.v1",
       "name": "Materials Inventory Controller",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/materials-inventory-controller",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000017",
         "MA-SKL-000025"
       ]
@@ -2734,14 +2617,13 @@
       "sku": "MA-SKL-000037",
       "asset_id": "business.finished-product-inspector.v1",
       "name": "Finished Product Inspector",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/finished-product-inspector",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000023",
         "MA-SKL-000035"
       ]
@@ -2750,14 +2632,13 @@
       "sku": "MA-SKL-000038",
       "asset_id": "ecommerce.promotion-pricing-planner.v1",
       "name": "Promotion Pricing Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "ECOM",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/promotion-pricing-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000006",
         "MA-SKL-000017",
         "MA-SKL-000027"
@@ -2767,14 +2648,13 @@
       "sku": "MA-SKL-000039",
       "asset_id": "brand.email-campaign-builder.v1",
       "name": "Email Campaign Builder",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/email-campaign-builder",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000015",
         "MA-SKL-000019",
         "MA-SKL-000038"
@@ -2784,14 +2664,13 @@
       "sku": "MA-SKL-000040",
       "asset_id": "brand.holiday-collection-planner.v1",
       "name": "Holiday Collection Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/holiday-collection-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000011",
         "MA-SKL-000017",
         "MA-SKL-000019",
@@ -2802,14 +2681,13 @@
       "sku": "MA-SKL-000041",
       "asset_id": "beauty.skincare-concept-planner.v1",
       "name": "Skincare Concept Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BEAUTY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/skincare-concept-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000013"
       ]
     },
@@ -2817,14 +2695,13 @@
       "sku": "MA-SKL-000042",
       "asset_id": "beauty.body-care-concept-planner.v1",
       "name": "Body Care Concept Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BEAUTY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/body-care-concept-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000013"
       ]
     },
@@ -2832,14 +2709,13 @@
       "sku": "MA-SKL-000043",
       "asset_id": "beauty.cosmetic-labeling-brief-builder.v1",
       "name": "Cosmetic Labeling Brief Builder",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BEAUTY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/cosmetic-labeling-brief-builder",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000013",
         "MA-SKL-000041",
         "MA-SKL-000042"
@@ -2849,14 +2725,13 @@
       "sku": "MA-SKL-000044",
       "asset_id": "beauty.beauty-batch-production-planner.v1",
       "name": "Beauty Batch Production Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BEAUTY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/beauty-batch-production-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000025",
         "MA-SKL-000036",
         "MA-SKL-000043"
@@ -2866,14 +2741,13 @@
       "sku": "MA-SKL-000045",
       "asset_id": "brand.gift-box-designer.v1",
       "name": "Gift Box Designer",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/gift-box-designer",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000009",
         "MA-SKL-000014",
         "MA-SKL-000037"
@@ -2883,14 +2757,13 @@
       "sku": "MA-SKL-000046",
       "asset_id": "ecommerce.wholesale-pricing-planner.v1",
       "name": "Wholesale Pricing Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "ECOM",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/wholesale-pricing-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000006",
         "MA-SKL-000017",
         "MA-SKL-000025"
@@ -2900,14 +2773,13 @@
       "sku": "MA-SKL-000047",
       "asset_id": "business.supplier-performance-scorecard.v1",
       "name": "Supplier Performance Scorecard",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "OPS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/supplier-performance-scorecard",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000025",
         "MA-SKL-000036"
       ]
@@ -2916,14 +2788,13 @@
       "sku": "MA-SKL-000048",
       "asset_id": "ecommerce.customer-review-analyzer.v1",
       "name": "Customer Review Analyzer",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "ECOM",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/customer-review-analyzer",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000028",
         "MA-SKL-000029"
       ]
@@ -2932,14 +2803,13 @@
       "sku": "MA-SKL-000049",
       "asset_id": "brand.customer-retention-campaign-planner.v1",
       "name": "Customer Retention Campaign Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/customer-retention-campaign-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000039",
         "MA-SKL-000048"
       ]
@@ -2948,14 +2818,13 @@
       "sku": "MA-SKL-000050",
       "asset_id": "app.maker-dashboard-requirements-builder.v1",
       "name": "Maker Dashboard Requirements Builder",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/maker-dashboard-requirements-builder",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000017",
         "MA-SKL-000018",
         "MA-SKL-000030",
@@ -2967,14 +2836,13 @@
       "sku": "AA-SKL-000087",
       "asset_id": "government.public-sector-ai-readiness-assessor.v1",
       "name": "Public Sector AI Readiness Assessor",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/public-sector-ai-readiness-assessor",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000001"
       ]
     },
@@ -2982,14 +2850,13 @@
       "sku": "AA-SKL-000088",
       "asset_id": "government.public-sector-ai-governance-reviewer.v1",
       "name": "Public Sector AI Governance Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/public-sector-ai-governance-reviewer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000005",
         "AA-SKL-000013",
         "AA-SKL-000087"
@@ -2999,14 +2866,13 @@
       "sku": "AA-SKL-000089",
       "asset_id": "government.ai-procurement-requirements-builder.v1",
       "name": "AI Procurement Requirements Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/ai-procurement-requirements-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000008",
         "AA-SKL-000088"
       ]
@@ -3015,14 +2881,13 @@
       "sku": "AA-SKL-000090",
       "asset_id": "government.public-sector-ai-risk-assessor.v1",
       "name": "Public Sector AI Risk Assessor",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/public-sector-ai-risk-assessor",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000009",
         "AA-SKL-000088"
       ]
@@ -3031,14 +2896,13 @@
       "sku": "AA-SKL-000091",
       "asset_id": "government.government-data-readiness-assessor.v1",
       "name": "Government Data Readiness Assessor",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/government-data-readiness-assessor",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000057",
         "AA-SKL-000087",
         "AA-SKL-000090"
@@ -3048,14 +2912,13 @@
       "sku": "AA-SKL-000092",
       "asset_id": "government.public-sector-ai-workforce-planner.v1",
       "name": "Public Sector AI Workforce Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/public-sector-ai-workforce-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000007",
         "AA-SKL-000087"
       ]
@@ -3064,14 +2927,13 @@
       "sku": "AA-SKL-000093",
       "asset_id": "government.government-ai-use-case-prioritizer.v1",
       "name": "Government AI Use Case Prioritizer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/government-ai-use-case-prioritizer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000004",
         "AA-SKL-000090",
         "AA-SKL-000091"
@@ -3081,14 +2943,13 @@
       "sku": "AA-SKL-000094",
       "asset_id": "government.public-sector-ai-implementation-planner.v1",
       "name": "Public Sector AI Implementation Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/public-sector-ai-implementation-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000007",
         "AA-SKL-000089",
         "AA-SKL-000090",
@@ -3099,14 +2960,13 @@
       "sku": "AA-SKL-000095",
       "asset_id": "government.public-sector-stakeholder-engagement-planner.v1",
       "name": "Public Sector Stakeholder Engagement Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/public-sector-stakeholder-engagement-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000087",
         "AA-SKL-000090",
         "AA-SKL-000094"
@@ -3116,14 +2976,13 @@
       "sku": "AA-SKL-000096",
       "asset_id": "government.government-ai-executive-brief-builder.v1",
       "name": "Government AI Executive Brief Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/government-ai-executive-brief-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000087",
         "AA-SKL-000090",
         "AA-SKL-000093",
@@ -3134,14 +2993,13 @@
       "sku": "AA-SKL-000097",
       "asset_id": "government.government-ai-system-inventory-builder.v1",
       "name": "Government AI System Inventory Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/government-ai-system-inventory-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000088"
       ]
     },
@@ -3149,14 +3007,13 @@
       "sku": "AA-SKL-000098",
       "asset_id": "government.algorithmic-impact-assessment-builder.v1",
       "name": "Algorithmic Impact Assessment Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/algorithmic-impact-assessment-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000090",
         "AA-SKL-000091",
         "AA-SKL-000095",
@@ -3167,14 +3024,13 @@
       "sku": "AA-SKL-000099",
       "asset_id": "government.public-ai-transparency-notice-builder.v1",
       "name": "Public AI Transparency Notice Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/public-ai-transparency-notice-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000095",
         "AA-SKL-000097",
         "AA-SKL-000098"
@@ -3184,14 +3040,13 @@
       "sku": "AA-SKL-000100",
       "asset_id": "government.government-ai-incident-response-planner.v1",
       "name": "Government AI Incident Response Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/government-ai-incident-response-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000088",
         "AA-SKL-000090",
         "AA-SKL-000094"
@@ -3201,14 +3056,13 @@
       "sku": "AA-SKL-000101",
       "asset_id": "government.public-sector-ai-accessibility-reviewer.v1",
       "name": "Public Sector AI Accessibility Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/public-sector-ai-accessibility-reviewer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000094",
         "AA-SKL-000095",
         "AA-SKL-000098"
@@ -3218,14 +3072,13 @@
       "sku": "AA-SKL-000102",
       "asset_id": "government.government-ai-records-planner.v1",
       "name": "Government AI Records Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/government-ai-records-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000088",
         "AA-SKL-000097",
         "AA-SKL-000100"
@@ -3235,14 +3088,13 @@
       "sku": "AA-SKL-000103",
       "asset_id": "government.public-sector-ai-vendor-monitor.v1",
       "name": "Public Sector AI Vendor Monitor",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/public-sector-ai-vendor-monitor",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000089",
         "AA-SKL-000090",
         "AA-SKL-000100"
@@ -3252,14 +3104,13 @@
       "sku": "AA-SKL-000104",
       "asset_id": "government.government-ai-pilot-evaluator.v1",
       "name": "Government AI Pilot Evaluator",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/government-ai-pilot-evaluator",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000093",
         "AA-SKL-000094",
         "AA-SKL-000098",
@@ -3270,14 +3121,13 @@
       "sku": "AA-SKL-000105",
       "asset_id": "government.community-ai-impact-reviewer.v1",
       "name": "Community AI Impact Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/community-ai-impact-reviewer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000095",
         "AA-SKL-000098",
         "AA-SKL-000101"
@@ -3287,14 +3137,13 @@
       "sku": "AA-SKL-000106",
       "asset_id": "government.government-ai-audit-evidence-builder.v1",
       "name": "Government AI Audit Evidence Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOV",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government/government-ai-audit-evidence-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000097",
         "AA-SKL-000098",
         "AA-SKL-000100",
@@ -3306,27 +3155,25 @@
       "sku": "AA-SKL-000107",
       "asset_id": "marketing.content-strategy-builder.v1",
       "name": "Content Strategy Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/content-strategy-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000108",
       "asset_id": "marketing.content-repurposing-engine.v1",
       "name": "Content Repurposing Engine",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/content-repurposing-engine",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107"
       ]
     },
@@ -3334,14 +3181,13 @@
       "sku": "AA-SKL-000109",
       "asset_id": "marketing.website-messaging-auditor.v1",
       "name": "Website Messaging Auditor",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/website-messaging-auditor",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107"
       ]
     },
@@ -3349,14 +3195,13 @@
       "sku": "AA-SKL-000110",
       "asset_id": "marketing.seo-content-auditor.v1",
       "name": "SEO Content Auditor",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/seo-content-auditor",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107",
         "AA-SKL-000109"
       ]
@@ -3365,14 +3210,13 @@
       "sku": "AA-SKL-000111",
       "asset_id": "marketing.ai-brand-voice-builder.v1",
       "name": "AI Brand Voice Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/ai-brand-voice-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107"
       ]
     },
@@ -3380,14 +3224,13 @@
       "sku": "AA-SKL-000112",
       "asset_id": "marketing.business-social-content-generator.v1",
       "name": "Business Social Content Generator",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/business-social-content-generator",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107",
         "AA-SKL-000108",
         "AA-SKL-000111"
@@ -3397,14 +3240,13 @@
       "sku": "AA-SKL-000113",
       "asset_id": "marketing.cta-optimizer.v1",
       "name": "CTA Optimizer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/cta-optimizer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000109",
         "AA-SKL-000111"
       ]
@@ -3413,14 +3255,13 @@
       "sku": "AA-SKL-000114",
       "asset_id": "marketing.competitor-content-analyzer.v1",
       "name": "Competitor Content Analyzer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/competitor-content-analyzer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107",
         "AA-SKL-000109",
         "AA-SKL-000110"
@@ -3430,14 +3271,13 @@
       "sku": "AA-SKL-000115",
       "asset_id": "marketing.editorial-calendar-builder.v1",
       "name": "Editorial Calendar Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/editorial-calendar-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107",
         "AA-SKL-000108",
         "AA-SKL-000112"
@@ -3447,14 +3287,13 @@
       "sku": "AA-SKL-000116",
       "asset_id": "marketing.case-study-builder.v1",
       "name": "Case Study Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/case-study-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107",
         "AA-SKL-000111"
       ]
@@ -3463,14 +3302,13 @@
       "sku": "AA-SKL-000117",
       "asset_id": "marketing.landing-page-builder.v1",
       "name": "Landing Page Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/landing-page-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000109",
         "AA-SKL-000111",
         "AA-SKL-000113"
@@ -3480,14 +3318,13 @@
       "sku": "AA-SKL-000118",
       "asset_id": "marketing.email-sequence-builder.v1",
       "name": "Email Sequence Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/email-sequence-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107",
         "AA-SKL-000111",
         "AA-SKL-000113"
@@ -3497,14 +3334,13 @@
       "sku": "AA-SKL-000119",
       "asset_id": "marketing.lead-magnet-builder.v1",
       "name": "Lead Magnet Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/lead-magnet-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107",
         "AA-SKL-000111",
         "AA-SKL-000117"
@@ -3514,14 +3350,13 @@
       "sku": "AA-SKL-000120",
       "asset_id": "marketing.webinar-content-planner.v1",
       "name": "Webinar Content Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/webinar-content-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107",
         "AA-SKL-000111",
         "AA-SKL-000119"
@@ -3531,14 +3366,13 @@
       "sku": "AA-SKL-000121",
       "asset_id": "marketing.thought-leadership-builder.v1",
       "name": "Thought Leadership Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/thought-leadership-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107",
         "AA-SKL-000111",
         "AA-SKL-000114"
@@ -3548,14 +3382,13 @@
       "sku": "AA-SKL-000122",
       "asset_id": "marketing.business-newsletter-builder.v1",
       "name": "Business Newsletter Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/business-newsletter-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107",
         "AA-SKL-000108",
         "AA-SKL-000111"
@@ -3565,14 +3398,13 @@
       "sku": "AA-SKL-000123",
       "asset_id": "marketing.testimonial-evidence-builder.v1",
       "name": "Testimonial Evidence Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/testimonial-evidence-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000111",
         "AA-SKL-000116"
       ]
@@ -3581,14 +3413,13 @@
       "sku": "AA-SKL-000124",
       "asset_id": "marketing.content-performance-analyzer.v1",
       "name": "Content Performance Analyzer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/content-performance-analyzer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107",
         "AA-SKL-000110",
         "AA-SKL-000115"
@@ -3598,14 +3429,13 @@
       "sku": "AA-SKL-000125",
       "asset_id": "marketing.marketing-campaign-brief-builder.v1",
       "name": "Marketing Campaign Brief Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/marketing-campaign-brief-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000107",
         "AA-SKL-000111",
         "AA-SKL-000115",
@@ -3616,14 +3446,13 @@
       "sku": "AA-SKL-000126",
       "asset_id": "marketing.marketing-content-qa-reviewer.v1",
       "name": "Marketing Content QA Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "BRAND",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/content-marketing/marketing-content-qa-reviewer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000111",
         "AA-SKL-000125"
       ]
@@ -3632,27 +3461,25 @@
       "sku": "AA-SKL-000127",
       "asset_id": "cinematic.cinematic-story-builder.v1",
       "name": "Cinematic Story Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "VIDEO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/cinematic-production/cinematic-story-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000128",
       "asset_id": "cinematic.screenplay-builder.v1",
       "name": "Screenplay Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "VIDEO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/cinematic-production/screenplay-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000127"
       ]
     },
@@ -3660,14 +3487,13 @@
       "sku": "AA-SKL-000129",
       "asset_id": "cinematic.storyboard-director.v1",
       "name": "Storyboard Director",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "VIDEO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/cinematic-production/storyboard-director",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000128"
       ]
     },
@@ -3675,14 +3501,13 @@
       "sku": "AA-SKL-000130",
       "asset_id": "cinematic.character-continuity-manager.v1",
       "name": "Character Continuity Manager",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "VIDEO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/cinematic-production/character-continuity-manager",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000127",
         "AA-SKL-000128",
         "AA-SKL-000129"
@@ -3692,14 +3517,13 @@
       "sku": "AA-SKL-000131",
       "asset_id": "cinematic.cinematic-shot-list-builder.v1",
       "name": "Cinematic Shot List Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "VIDEO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/cinematic-production/cinematic-shot-list-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000128",
         "AA-SKL-000129",
         "AA-SKL-000130"
@@ -3709,14 +3533,13 @@
       "sku": "AA-SKL-000132",
       "asset_id": "cinematic.image-prompt-director.v1",
       "name": "Image Prompt Director",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "VIDEO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/cinematic-production/image-prompt-director",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000129",
         "AA-SKL-000130",
         "AA-SKL-000131"
@@ -3726,14 +3549,13 @@
       "sku": "AA-SKL-000133",
       "asset_id": "cinematic.video-prompt-director.v1",
       "name": "Video Prompt Director",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "VIDEO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/cinematic-production/video-prompt-director",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000129",
         "AA-SKL-000130",
         "AA-SKL-000131",
@@ -3744,14 +3566,13 @@
       "sku": "AA-SKL-000134",
       "asset_id": "cinematic.camera-movement-designer.v1",
       "name": "Camera Movement Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "VIDEO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/cinematic-production/camera-movement-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000129",
         "AA-SKL-000131"
       ]
@@ -3760,14 +3581,13 @@
       "sku": "AA-SKL-000135",
       "asset_id": "cinematic.cinematic-lighting-designer.v1",
       "name": "Cinematic Lighting Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "VIDEO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/cinematic-production/cinematic-lighting-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000129",
         "AA-SKL-000131",
         "AA-SKL-000134"
@@ -3777,14 +3597,13 @@
       "sku": "AA-SKL-000136",
       "asset_id": "cinematic.soundtrack-prompt-composer.v1",
       "name": "Soundtrack Prompt Composer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "VIDEO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/cinematic-production/soundtrack-prompt-composer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000127",
         "AA-SKL-000128",
         "AA-SKL-000129"
@@ -3794,14 +3613,13 @@
       "sku": "MA-SKL-000051",
       "asset_id": "beauty.natural-cosmetic-formula-architect.v1",
       "name": "Natural Cosmetic Formula Architect",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BEAUTY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/natural-cosmetic-formula-architect",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000041",
         "MA-SKL-000042",
         "MA-SKL-000043",
@@ -3812,14 +3630,13 @@
       "sku": "MA-SKL-000052",
       "asset_id": "beauty.anhydrous-body-care-formulator.v1",
       "name": "Anhydrous Body Care Formulator",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BEAUTY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/anhydrous-body-care-formulator",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000042",
         "MA-SKL-000044",
         "MA-SKL-000051"
@@ -3829,14 +3646,13 @@
       "sku": "MA-SKL-000053",
       "asset_id": "beauty.lotion-and-facial-care-formulator.v1",
       "name": "Lotion and Facial Care Formulator",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BEAUTY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/lotion-and-facial-care-formulator",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000041",
         "MA-SKL-000043",
         "MA-SKL-000044",
@@ -3847,14 +3663,13 @@
       "sku": "MA-SKL-000054",
       "asset_id": "beauty.bath-and-soap-formula-planner.v1",
       "name": "Bath and Soap Formula Planner",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BEAUTY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/bath-and-soap-formula-planner",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000042",
         "MA-SKL-000043",
         "MA-SKL-000044",
@@ -3865,14 +3680,13 @@
       "sku": "MA-SKL-000055",
       "asset_id": "beauty.fragrance-oil-formulator.v1",
       "name": "Fragrance Oil Formulator",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BEAUTY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/fragrance-oil-formulator",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000012",
         "MA-SKL-000043",
         "MA-SKL-000044",
@@ -3883,14 +3697,13 @@
       "sku": "MA-SKL-000056",
       "asset_id": "beauty.custom-cosmetic-order-formulator.v1",
       "name": "Custom Cosmetic Order Formulator",
-      "asset_type": "SKL",
-      "business": "MA",
+      "type": "SKL",
       "library": "BEAUTY",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/madamallure/skills/custom-cosmetic-order-formulator",
-      "depends_on": [
+      "dependencies": [
         "MA-SKL-000008",
         "MA-SKL-000051",
         "MA-SKL-000052",
@@ -3903,14 +3716,13 @@
       "sku": "AA-WFL-000001",
       "asset_id": "ai-consulting.ai-readiness-accelerator-delivery.v1",
       "name": "AI Readiness Accelerator Delivery Workflow",
-      "asset_type": "WFL",
-      "business": "AA",
+      "type": "WFL",
       "library": "CONS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/workflows/ai-readiness-accelerator-delivery",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000001",
         "AA-SKL-000002",
         "AA-SKL-000003",
@@ -3927,14 +3739,13 @@
       "sku": "AA-SOL-000001",
       "asset_id": "ai-consulting.ai-readiness-accelerator.v1",
       "name": "AI Readiness Accelerator Solution Pack",
-      "asset_type": "SOL",
-      "business": "AA",
+      "type": "SOL",
       "library": "CONS",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/solution-packs/ai-readiness-accelerator",
-      "depends_on": [
+      "dependencies": [
         "AA-WFL-000001",
         "AA-SKL-000001",
         "AA-SKL-000002",
@@ -3952,14 +3763,13 @@
       "sku": "AA-WFL-000002",
       "asset_id": "agent-engineering.agent-factory-delivery.v1",
       "name": "Agent Factory Delivery Workflow",
-      "asset_type": "WFL",
-      "business": "AA",
+      "type": "WFL",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/workflows/agent-factory-delivery",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000011",
         "AA-SKL-000012",
         "AA-SKL-000013",
@@ -3977,14 +3787,13 @@
       "sku": "AA-AGT-000001",
       "asset_id": "agent-engineering.agent-factory-orchestrator.v1",
       "name": "Agent Factory Orchestrator",
-      "asset_type": "AGT",
-      "business": "AA",
+      "type": "AGT",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/agents/agent-factory-orchestrator",
-      "depends_on": [
+      "dependencies": [
         "AA-WFL-000002",
         "AA-SKL-000011",
         "AA-SKL-000012",
@@ -4003,14 +3812,13 @@
       "sku": "AA-SOL-000002",
       "asset_id": "agent-engineering.agent-factory.v1",
       "name": "Agent Factory Solution Pack",
-      "asset_type": "SOL",
-      "business": "AA",
+      "type": "SOL",
       "library": "AGNT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/solution-packs/agent-factory",
-      "depends_on": [
+      "dependencies": [
         "AA-AGT-000001",
         "AA-WFL-000002",
         "AA-SKL-000011",
@@ -4030,14 +3838,13 @@
       "sku": "AA-WFL-000003",
       "asset_id": "app-engineering.vibe-coding-studio-delivery.v1",
       "name": "Vibe Coding Studio Delivery Workflow",
-      "asset_type": "WFL",
-      "business": "AA",
+      "type": "WFL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/workflows/vibe-coding-studio-delivery",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000022",
         "AA-SKL-000023",
         "AA-SKL-000024",
@@ -4072,14 +3879,13 @@
       "sku": "AA-APP-000001",
       "asset_id": "app-engineering.vibe-coding-studio.v1",
       "name": "Vibe Coding Studio",
-      "asset_type": "APP",
-      "business": "AA",
+      "type": "APP",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/apps/vibe-coding-studio",
-      "depends_on": [
+      "dependencies": [
         "AA-WFL-000003",
         "AA-SKL-000022",
         "AA-SKL-000023",
@@ -4115,14 +3921,13 @@
       "sku": "AA-SOL-000003",
       "asset_id": "app-engineering.vibe-coding-studio-solution-pack.v1",
       "name": "Vibe Coding Studio Solution Pack",
-      "asset_type": "SOL",
-      "business": "AA",
+      "type": "SOL",
       "library": "APP",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/solution-packs/vibe-coding-studio",
-      "depends_on": [
+      "dependencies": [
         "AA-APP-000001",
         "AA-WFL-000003",
         "AA-SKL-000022",
@@ -4159,14 +3964,13 @@
       "sku": "AA-WFL-000004",
       "asset_id": "knowledge-engineering.knowledge-rag-delivery.v1",
       "name": "Knowledge and RAG Delivery Workflow",
-      "asset_type": "WFL",
-      "business": "AA",
+      "type": "WFL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/workflows/knowledge-rag-delivery",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000013",
         "AA-SKL-000057",
         "AA-SKL-000058",
@@ -4184,14 +3988,13 @@
       "sku": "AA-KNP-000001",
       "asset_id": "knowledge-engineering.knowledge-rag-foundation.v1",
       "name": "Knowledge and RAG Foundation Pack",
-      "asset_type": "KNP",
-      "business": "AA",
+      "type": "KNP",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/knowledge-packs/knowledge-rag-foundation",
-      "depends_on": [
+      "dependencies": [
         "AA-WFL-000004",
         "AA-SKL-000013",
         "AA-SKL-000057",
@@ -4210,14 +4013,13 @@
       "sku": "AA-SOL-000004",
       "asset_id": "knowledge-engineering.knowledge-rag-accelerator.v1",
       "name": "Knowledge and RAG Accelerator Solution Pack",
-      "asset_type": "SOL",
-      "business": "AA",
+      "type": "SOL",
       "library": "KNOW",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/solution-packs/knowledge-rag-accelerator",
-      "depends_on": [
+      "dependencies": [
         "AA-KNP-000001",
         "AA-WFL-000004",
         "AA-SKL-000013",
@@ -4237,14 +4039,13 @@
       "sku": "AA-WFL-000005",
       "asset_id": "automation-engineering.workflow-automation-delivery.v1",
       "name": "Workflow and Automation Delivery Workflow",
-      "asset_type": "WFL",
-      "business": "AA",
+      "type": "WFL",
       "library": "AUTO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/workflows/workflow-automation-delivery",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000067",
         "AA-SKL-000068",
         "AA-SKL-000069",
@@ -4271,14 +4072,13 @@
       "sku": "AA-SOL-000005",
       "asset_id": "automation-engineering.workflow-automation-accelerator.v1",
       "name": "Workflow and Automation Accelerator Solution Pack",
-      "asset_type": "SOL",
-      "business": "AA",
+      "type": "SOL",
       "library": "AUTO",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/solution-packs/workflow-automation-accelerator",
-      "depends_on": [
+      "dependencies": [
         "AA-WFL-000005",
         "AA-SKL-000067",
         "AA-SKL-000068",
@@ -4306,14 +4106,13 @@
       "sku": "AA-SKL-000173",
       "asset_id": "grants.grant-opportunity-eligibility-assessor.v1",
       "name": "Grant Opportunity and Eligibility Assessor",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GRANT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-grants/grant-opportunity-eligibility-assessor",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000058"
       ]
     },
@@ -4321,14 +4120,13 @@
       "sku": "AA-SKL-000174",
       "asset_id": "grants.grant-readiness-audit.v1",
       "name": "Grant Readiness Auditor",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GRANT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-grants/grant-readiness-audit",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000173",
         "AA-SKL-000063"
       ]
@@ -4337,14 +4135,13 @@
       "sku": "AA-SKL-000175",
       "asset_id": "grants.grant-narrative-architect.v1",
       "name": "Grant Narrative Architect",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GRANT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-grants/grant-narrative-architect",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000173",
         "AA-SKL-000174"
       ]
@@ -4353,14 +4150,13 @@
       "sku": "AA-SKL-000176",
       "asset_id": "grants.grant-need-impact-builder.v1",
       "name": "Grant Need and Community Impact Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GRANT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-grants/grant-need-impact-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000174",
         "AA-SKL-000105"
       ]
@@ -4369,14 +4165,13 @@
       "sku": "AA-SKL-000177",
       "asset_id": "grants.grant-goals-outcomes-evaluation-designer.v1",
       "name": "Grant Goals, Outcomes, and Evaluation Designer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GRANT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-grants/grant-goals-outcomes-evaluation-designer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000174",
         "AA-SKL-000176"
       ]
@@ -4385,14 +4180,13 @@
       "sku": "AA-SKL-000178",
       "asset_id": "grants.grant-budget-narrative-builder.v1",
       "name": "Grant Budget Narrative Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GRANT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-grants/grant-budget-narrative-builder",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000173",
         "AA-SKL-000175"
       ]
@@ -4401,14 +4195,13 @@
       "sku": "AA-SKL-000179",
       "asset_id": "grants.grant-capacity-sustainability-planner.v1",
       "name": "Grant Capacity and Sustainability Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GRANT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-grants/grant-capacity-sustainability-planner",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000174",
         "AA-SKL-000175"
       ]
@@ -4417,14 +4210,13 @@
       "sku": "AA-SKL-000180",
       "asset_id": "grants.grant-proposal-qa-reviewer.v1",
       "name": "Grant Proposal QA Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GRANT",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-grants/grant-proposal-qa-reviewer",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000173",
         "AA-SKL-000175",
         "AA-SKL-000177",
@@ -4436,367 +4228,1469 @@
       "sku": "AA-SKL-000181",
       "asset_id": "sales-enablement.sales-meeting-strategy-planner.v1",
       "name": "Sales Meeting Strategy Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "SALES",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/sales-enablement/sales-meeting-strategy-planner",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000182",
       "asset_id": "sales-enablement.discovery-stakeholder-research-planner.v1",
       "name": "Discovery and Stakeholder Research Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "SALES",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/sales-enablement/discovery-stakeholder-research-planner",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000183",
       "asset_id": "sales-enablement.account-partner-health-reviewer.v1",
       "name": "Account and Partner Health Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "SALES",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/sales-enablement/account-partner-health-reviewer",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000184",
       "asset_id": "sales-enablement.renewal-expansion-planner.v1",
       "name": "Renewal and Expansion Planner",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "SALES",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/sales-enablement/renewal-expansion-planner",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000185",
       "asset_id": "sales-enablement.sales-objection-handling-coach.v1",
       "name": "Sales Objection Handling Coach",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "SALES",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/sales-enablement/sales-objection-handling-coach",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000186",
       "asset_id": "sales-enablement.security-solution-positioning-advisor.v1",
       "name": "Security Solution Positioning Advisor",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "SALES",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/sales-enablement/security-solution-positioning-advisor",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000187",
       "asset_id": "sales-enablement.sales-demo-recap-follow-up-builder.v1",
       "name": "Sales Demo Recap and Follow-Up Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "SALES",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/sales-enablement/sales-demo-recap-follow-up-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000188",
       "asset_id": "sales-enablement.sales-voice-communication-adapter.v1",
       "name": "Sales Voice and Communication Adapter",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "SALES",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/sales-enablement/sales-voice-communication-adapter",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000189",
       "asset_id": "sales-enablement.security-solution-bom-architect.v1",
       "name": "Security Solution BOM Architect",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "SALES",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/sales-enablement/security-solution-bom-architect",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000190",
       "asset_id": "sales-enablement.quote-pricing-approval-controller.v1",
       "name": "Quote Pricing and Approval Controller",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "SALES",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/sales-enablement/quote-pricing-approval-controller",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000191",
       "asset_id": "sales-enablement.security-solution-proposal-assembler.v1",
       "name": "Security Solution Proposal Assembler",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "SALES",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/sales-enablement/security-solution-proposal-assembler",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000192",
       "asset_id": "sales-enablement.sales-enablement-qa-reviewer.v1",
       "name": "Sales Enablement QA Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "SALES",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/sales-enablement/sales-enablement-qa-reviewer",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000193",
       "asset_id": "government-documentation.government-functional-requirements-builder.v1",
       "name": "Government Functional Requirements Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-functional-requirements-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000194",
       "asset_id": "government-documentation.government-business-requirements-builder.v1",
       "name": "Government Business Requirements Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-business-requirements-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000195",
       "asset_id": "government-documentation.government-functional-workflow-documenter.v1",
       "name": "Government Functional Workflow Documenter",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-functional-workflow-documenter",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000196",
       "asset_id": "government-documentation.government-use-case-user-story-builder.v1",
       "name": "Government Use Case and User Story Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-use-case-user-story-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000197",
       "asset_id": "government-documentation.government-functional-sop-user-guide-builder.v1",
       "name": "Government Functional SOP and User Guide Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-functional-sop-user-guide-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000198",
       "asset_id": "government-documentation.government-uat-script-acceptance-criteria-builder.v1",
       "name": "Government UAT Script and Acceptance Criteria Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-uat-script-acceptance-criteria-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000199",
       "asset_id": "government-documentation.government-data-element-role-access-inventory-builder.v1",
       "name": "Government Data Element and Role Access Inventory Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-data-element-role-access-inventory-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000200",
       "asset_id": "government-documentation.government-functional-integration-readiness-documenter.v1",
       "name": "Government Functional Integration Readiness Documenter",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-functional-integration-readiness-documenter",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000201",
       "asset_id": "government-documentation.government-system-impact-assessment-builder.v1",
       "name": "Government System Impact Assessment Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-system-impact-assessment-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000202",
       "asset_id": "government-documentation.government-modernization-adoption-roadmap-builder.v1",
       "name": "Government Modernization and Adoption Roadmap Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-modernization-adoption-roadmap-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000203",
       "asset_id": "government-documentation.government-intake-document-routing-builder.v1",
       "name": "Government Intake and Document Routing Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-intake-document-routing-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000204",
       "asset_id": "government-documentation.government-administrative-decision-matrix-builder.v1",
       "name": "Government Administrative Decision Matrix Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-administrative-decision-matrix-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000205",
       "asset_id": "government-documentation.government-meeting-action-record-builder.v1",
       "name": "Government Meeting and Action Record Builder",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-meeting-action-record-builder",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000206",
       "asset_id": "government-documentation.government-audit-support-package-assembler.v1",
       "name": "Government Audit Support Package Assembler",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-audit-support-package-assembler",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000207",
       "asset_id": "government-documentation.government-documentation-qa-reviewer.v1",
       "name": "Government Documentation QA Reviewer",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "GOVDOC",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-documentation-qa-reviewer",
-      "depends_on": []
+      "dependencies": []
     },
     {
       "sku": "AA-SKL-000208",
       "asset_id": "image-generation.gpt-visual-intelligence-enhancement.v1",
       "name": "GPT Visual Intelligence Enhancement",
-      "asset_type": "SKL",
-      "business": "AA",
+      "type": "SKL",
       "library": "IMG",
       "version": "1.0.0",
       "status": "testing",
       "maturity": 1,
       "path": "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement",
-      "depends_on": [
+      "dependencies": [
         "AA-SKL-000137"
       ]
+    }
+  ],
+  "authorized_gpt_adapters": [
+    {
+      "gpt_id": "g-68b5ff9accec81919829489dfd2750e4",
+      "name": "Ad Content and Script Pro Bot",
+      "url": "https://chatgpt.com/g/g-68b5ff9accec81919829489dfd2750e4-ad-content-and-script-pro-bot",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69209cdfd0548191807437247fd7020a",
+      "name": "Ad Content and Script Profit Blueprint",
+      "url": "https://chatgpt.com/g/g-69209cdfd0548191807437247fd7020a-ad-content-and-script-profit-blueprint",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-699901e8251c8191a95076a18631adba",
+      "name": "Ai Avatar System",
+      "url": "https://chatgpt.com/g/g-699901e8251c8191a95076a18631adba-ai-avatar-system",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69bffc3f28cc81919531d24a6eddbf03",
+      "name": "AI GoldMine",
+      "url": "https://chatgpt.com/g/g-69bffc3f28cc81919531d24a6eddbf03-ai-goldmine",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-694492ad831081919907f1dc25d081c7",
+      "name": "Ai Opportunity Mapper",
+      "url": "https://chatgpt.com/g/g-694492ad831081919907f1dc25d081c7-ai-opportunity-mapper",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-694485b8d1cc81919f81bb38d320822e",
+      "name": "AI Opportunity Scout",
+      "url": "https://chatgpt.com/g/g-694485b8d1cc81919f81bb38d320822e-ai-opportunity-scout",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6932572a9cd08191bf1b2a79348ab936",
+      "name": "Beyond DBS Success Coach",
+      "url": "https://chatgpt.com/g/g-6932572a9cd08191bf1b2a79348ab936-beyond-dbs-success-coach",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-67faa4d4ab408191bfc4517b2c8b8aa1",
+      "name": "Business Model Clarity Coach",
+      "url": "https://chatgpt.com/g/g-67faa4d4ab408191bfc4517b2c8b8aa1-business-model-clarity-coach",
+      "folders": [
+        "GPTs",
+        "GPTs/GPT-Business"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6824a376f2c08191b40d11ca193c8f6f",
+      "name": "Cassie the Case Study Professional",
+      "url": "https://chatgpt.com/g/g-6824a376f2c08191b40d11ca193c8f6f-cassie-the-case-study-professional",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-68244a67b9dc8191868e1dff87a4d884",
+      "name": "Client Proposal Architect",
+      "url": "https://chatgpt.com/g/g-68244a67b9dc8191868e1dff87a4d884-client-proposal-architect",
+      "folders": [
+        "GPTs",
+        "GPTs/GPT-Business"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-Vrq0bIoCW",
+      "name": "Cody: Professional Copywriter",
+      "url": "https://chatgpt.com/g/g-Vrq0bIoCW-cody-professional-copywriter",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6824c557af388191b5a5eeb5796c9098",
+      "name": "Cold Outreach Architect 2.0",
+      "url": "https://chatgpt.com/g/g-6824c557af388191b5a5eeb5796c9098-cold-outreach-architect-2-0",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-681c8f509c00819192a9af49ecd22139",
+      "name": "Curriculum Licensing Strategist",
+      "url": "https://chatgpt.com/g/g-681c8f509c00819192a9af49ecd22139-curriculum-licensing-strategist",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69505a90c58c81918b1e39e55cbfc8e2",
+      "name": "ElevenLabs Emotion Creator",
+      "url": "https://chatgpt.com/g/g-69505a90c58c81918b1e39e55cbfc8e2-elevenlabs-emotion-creator",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-a4ZZxcNvf",
+      "name": "Frannie: Feedback Coach",
+      "url": "https://chatgpt.com/g/g-a4ZZxcNvf-frannie-feedback-coach",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-ETocXNXyS",
+      "name": "LinkReader Real-Time Enhanced with GET",
+      "url": "https://chatgpt.com/g/g-ETocXNXyS-linkreader-real-time-enhanced-with-get",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69334a0be3988191986401e0c28ae144",
+      "name": "LLM Picker & Connector Adviser",
+      "url": "https://chatgpt.com/g/g-69334a0be3988191986401e0c28ae144-llm-picker-connector-advisertm",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-677c00434c10819191b497c2d6243054",
+      "name": "Marva the Multiplier",
+      "url": "https://chatgpt.com/g/g-677c00434c10819191b497c2d6243054-marva-the-multiplier",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-68f87056d0788191b8ab79bfd5f749e9",
+      "name": "Nova – GPT Builder Assistant",
+      "url": "https://chatgpt.com/g/g-68f87056d0788191b8ab79bfd5f749e9-nova-gpt-builder-assistant",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6825d7b4f9508191a2be0842b985aece",
+      "name": "Objection Killer",
+      "url": "https://chatgpt.com/g/g-6825d7b4f9508191a2be0842b985aece-objection-killer",
+      "folders": [
+        "GPTs",
+        "GPTs/GPT-Business"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-699223e1a0988191879cb57df48e461e",
+      "name": "One to Millions Customer Avatar Creator",
+      "url": "https://chatgpt.com/g/g-699223e1a0988191879cb57df48e461e-one-to-millions-customer-avatar-creator",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-699221fab8908191b782920922b3012f",
+      "name": "One to Millions Offer Creation GPT",
+      "url": "https://chatgpt.com/g/g-699221fab8908191b782920922b3012f-one-to-millions-offer-creation-gpt",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69921ddefcd0819181434afe81f82687",
+      "name": "One to Millions Webinar Outline GPT",
+      "url": "https://chatgpt.com/g/g-69921ddefcd0819181434afe81f82687-one-to-millions-webinar-outline-gpt",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-IYKMfVyF1",
+      "name": "Patty - Press Release Pro",
+      "url": "https://chatgpt.com/g/g-IYKMfVyF1-patty-press-release-pro",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-683e3a0b4e3081918b30be3a668eccc6",
+      "name": "Patty: Email Marketing Pro",
+      "url": "https://chatgpt.com/g/g-683e3a0b4e3081918b30be3a668eccc6-patty-email-marketing-pro",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6825a44eb6b48191b00454ac4bfbf6ba",
+      "name": "Sales Offer Strategist",
+      "url": "https://chatgpt.com/g/g-6825a44eb6b48191b00454ac4bfbf6ba-sales-offer-strategist",
+      "folders": [
+        "GPTs",
+        "GPTs/GPT-SalesMarketing"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-683e4d6a3c2c8191bbe6582b1e0d9dc1",
+      "name": "Sandy - Graphic Design Prompt Writer",
+      "url": "https://chatgpt.com/g/g-683e4d6a3c2c8191bbe6582b1e0d9dc1-sandy-graphic-design-prompt-writer",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-68408714a1708191bdc3f957cbabed77",
+      "name": "Scout",
+      "url": "https://chatgpt.com/g/g-68408714a1708191bdc3f957cbabed77-scout",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6826de2ea3648191a3823b74ff30fcd7",
+      "name": "Social Media Expert",
+      "url": "https://chatgpt.com/g/g-6826de2ea3648191a3823b74ff30fcd7-social-media-expert",
+      "folders": [
+        "GPTs",
+        "GPTs/GPT-SocialMedia"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6975289fe70881919aeb812017a43662",
+      "name": "The L.I.S.T.E.N. Bot",
+      "url": "https://chatgpt.com/g/g-6975289fe70881919aeb812017a43662-the-l-i-s-t-e-n-bot",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-X2z3W4Nr0",
+      "name": "Venture Visionary",
+      "url": "https://chatgpt.com/g/g-X2z3W4Nr0-venture-visionary",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-67ee71cfffd08191bcde01460f0837c8",
+      "name": "VisionAI - Video Maker GPT",
+      "url": "https://chatgpt.com/g/g-67ee71cfffd08191bcde01460f0837c8-visionai-video-maker-gpt",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69468c9550948191904f99c0a08bc065",
+      "name": "Work to Wealth Coach",
+      "url": "https://chatgpt.com/g/g-69468c9550948191904f99c0a08bc065-work-to-wealth-coach",
+      "folders": [
+        "GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-2azCVmXdy",
+      "name": "AI Humanizer",
+      "url": "https://chatgpt.com/g/g-2azCVmXdy-ai-humanizer",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-alKfVrz9K",
+      "name": "Canva",
+      "url": "https://chatgpt.com/g/g-alKfVrz9K-canva",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-gFFsdkfMC",
+      "name": "Cartoonize Yourself",
+      "url": "https://chatgpt.com/g/g-gFFsdkfMC-cartoonize-yourself",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-2DQzU5UZl",
+      "name": "Code Copilot",
+      "url": "https://chatgpt.com/g/g-2DQzU5UZl-code-copilot",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-IPhekPbYD",
+      "name": "Etsy DEO Expert",
+      "url": "https://chatgpt.com/g/g-IPhekPbYD-etsy-seo-expert",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-xGT2QvWZv",
+      "name": "POD Buddy",
+      "url": "https://chatgpt.com/g/g-xGT2QvWZv-pod-buddy",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-5QhhdsfDj",
+      "name": "Presentation & Diagram Generator by <ShowMe>",
+      "url": "https://chatgpt.com/g/g-5QhhdsfDj-presentation-diagram-generator-by-showme",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-kZ0eYXlJe",
+      "name": "Scholar GPT",
+      "url": "https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-NgAcklHd8",
+      "name": "SciSpace",
+      "url": "https://chatgpt.com/g/g-NgAcklHd8-scispace",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-cTqsEOE4C",
+      "name": "SellMeThisPen",
+      "url": "https://chatgpt.com/g/g-cTqsEOE4C-sellmethispen",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-yEkYAHnix",
+      "name": "The Justin Welsh Content Matrix GPT",
+      "url": "https://chatgpt.com/g/g-yEkYAHnix-the-justin-welsh-content-matrix-gpt",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-3FBdkwCgr",
+      "name": "UGC Buddy",
+      "url": "https://chatgpt.com/g/g-3FBdkwCgr-ugc-buddy",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-SKdgK3Apk",
+      "name": "User Persona Generator",
+      "url": "https://chatgpt.com/g/g-SKdgK3Apk-user-persona-generator",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-Hkqnd7mFT",
+      "name": "Video GPT by VEED - Instant & Free AI Video Maker",
+      "url": "https://chatgpt.com/g/g-Hkqnd7mFT-video-gpt-by-veed-instant-free-ai-video-maker",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-0S5FXLyFN",
+      "name": "Wolfram",
+      "url": "https://chatgpt.com/g/g-0S5FXLyFN-wolfram",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-B3hgivKK9",
+      "name": "Write For Me",
+      "url": "https://chatgpt.com/g/g-B3hgivKK9-write-for-me",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-GvcYCKPIH",
+      "name": "のYouTube Video Summarizer ✏️ のYouTube Unaffiliated",
+      "url": "https://chatgpt.com/g/g-GvcYCKPIH-noyoutube-video-summarizer-noyoutube-unaffiliated",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-tc0eHXdgb",
+      "name": "ロMidjourneyロ -- MJ Prompt Generator (V6)",
+      "url": "https://chatgpt.com/g/g-tc0eHXdgb-romidjourneyro-mj-prompt-generator-v6",
+      "folders": [
+        "GPTs/AIPOU GPTs"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-681cd5f9a6308191a43c5b133ce16887",
+      "name": "Client Onboarding Expert",
+      "url": "https://chatgpt.com/g/g-681cd5f9a6308191a43c5b133ce16887-client-onboarding-expert",
+      "folders": [
+        "GPTs/GPT-Business"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-68274eeb01d88191822e9fd3df496910",
+      "name": "Follow-Up Expert",
+      "url": "https://chatgpt.com/g/g-68274eeb01d88191822e9fd3df496910-follow-up-expert",
+      "folders": [
+        "GPTs/GPT-Business"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-68f592460d98819195691bd04e160f5d",
+      "name": "Limitless Growth Coach - Dr. Eve",
+      "url": "https://chatgpt.com/g/g-68f592460d98819195691bd04e160f5d-limitless-growth-coach-dr-eve",
+      "folders": [
+        "GPTs/GPT-Business"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-68f30158ca788191998eee7abc969c16",
+      "name": "Sam - FAQ Assistant",
+      "url": "https://chatgpt.com/g/g-68f30158ca788191998eee7abc969c16-sam-faq-assistant",
+      "folders": [
+        "GPTs/GPT-Business"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-68262e382870819198d83e5c60f52a08",
+      "name": "Ad Copy Agent 2.0",
+      "url": "https://chatgpt.com/g/g-68262e382870819198d83e5c60f52a08-ad-copy-agent-2-0",
+      "folders": [
+        "GPTs/GPT-SalesMarketing"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6826bb2b443081919fe2d0a0e2801698",
+      "name": "Email Marketing Expert 1.0",
+      "url": "https://chatgpt.com/g/g-6826bb2b443081919fe2d0a0e2801698-email-marketing-expert-1-0",
+      "folders": [
+        "GPTs/GPT-SalesMarketing"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6895ae187104819192bcf82340171cd8",
+      "name": "KC - Your Story-Driven Nurture Email AI Assistant",
+      "url": "https://chatgpt.com/g/g-6895ae187104819192bcf82340171cd8-kc-your-story-driven-nurture-email-ai-assistant",
+      "folders": [
+        "GPTs/GPT-SalesMarketing"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-68271f671be481919ee31734154c3862",
+      "name": "Landing Page Expert 1.0",
+      "url": "https://chatgpt.com/g/g-68271f671be481919ee31734154c3862-landing-page-expert-1-0",
+      "folders": [
+        "GPTs/GPT-SalesMarketing"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-VsqUgsiOL",
+      "name": "Voice Guide Level 1",
+      "url": "https://chatgpt.com/g/g-VsqUgsiOL-violet-the-voice-valued-guide-creator",
+      "folders": [
+        "GPTs/GPT-SalesMarketing",
+        "GPTs/GPT-SocialMedia"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-68a9a3d65e288191b2786ad7ae135d7e",
+      "name": "My Digital Community Builder and Coach",
+      "url": "https://chatgpt.com/g/g-68a9a3d65e288191b2786ad7ae135d7e-my-digital-community-builder-and-coach",
+      "folders": [
+        "GPTs/GPT-SocialMedia"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-oyN074s4q",
+      "name": "Podcast Helper",
+      "url": "https://chatgpt.com/g/g-oyN074s4q-podcast-helper",
+      "folders": [
+        "GPTs/GPT-SocialMedia"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-681cdb50c8e48191bdf852de9b5b9bb8",
+      "name": "Viral Video Scriptwriter",
+      "url": "https://chatgpt.com/g/g-681cdb50c8e48191bdf852de9b5b9bb8-viral-video-scriptwriter",
+      "folders": [
+        "GPTs/GPT-SocialMedia"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-68b772bd62d0819194015d8c7d1d86e7",
+      "name": "🎤 Podcast Power Score",
+      "url": "https://chatgpt.com/g/g-68b772bd62d0819194015d8c7d1d86e7-podcast-power-score",
+      "folders": [
+        "GPTs/GPT-SocialMedia"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6997719cf8588191b655659ff7e5d470",
+      "name": "***🎬📰🔥Expert AI Video Storyboarder🔥📰🎬***",
+      "url": "https://chatgpt.com/g/g-6997719cf8588191b655659ff7e5d470-expert-ai-video-storyboarder",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6989fa80ad008191b2f9bae5a5d63b96",
+      "name": "*AI Influencer Model Creator for Social Media",
+      "url": "https://chatgpt.com/g/g-6989fa80ad008191b2f9bae5a5d63b96-ai-influencer-model-creator-for-social-media",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6988bc2ef9248191b573021d9a5b5d94",
+      "name": "*Award-Winning Hollywood Cinematographer Director",
+      "url": "https://chatgpt.com/g/g-6988bc2ef9248191b573021d9a5b5d94-award-winning-hollywood-cinematographer-director",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-697e5c2f481081919e1ee4d699ad9d5c",
+      "name": "*👀 ✍️ 🔥 🧠TTHooks & Seo🎯 💸 🛒 📊",
+      "url": "https://chatgpt.com/g/g-697e5c2f481081919e1ee4d699ad9d5c-tthooks-seo",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-697e1de3dce081919443ecf35d47105b",
+      "name": "*🧵 👖 ✨ Virtual Try-on 📸 🎯 🖼️",
+      "url": "https://chatgpt.com/g/g-697e1de3dce081919443ecf35d47105b-virtual-try-on",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a15e7935a908191b21cce70c9747dbb",
+      "name": "African American classic cartoon creator",
+      "url": "https://chatgpt.com/g/g-6a15e7935a908191b21cce70c9747dbb-african-american-classic-cartoon-creator",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-68d4487d7e6c8191aace009a69b017f5",
+      "name": "AI Artist Builder",
+      "url": "https://chatgpt.com/g/g-68d4487d7e6c8191aace009a69b017f5-ai-artist-builder",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69f6b81248848191afb01f34b54200bd",
+      "name": "AI B-Roll & Reel Generator",
+      "url": "https://chatgpt.com/g/g-69f6b81248848191afb01f34b54200bd-ai-b-roll-reel-generator",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69f6191908488191a58e122caa3ff054",
+      "name": "AI Movie Poster & Trailer Prompt Generator",
+      "url": "https://chatgpt.com/g/g-69f6191908488191a58e122caa3ff054-ai-movie-poster-trailer-prompt-generator",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69fd245fc04c819190a1e76d65f4e419",
+      "name": "AI Music Questions",
+      "url": "https://chatgpt.com/g/g-69fd245fc04c819190a1e76d65f4e419-ai-music-questions",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a1215f364cc8191b5009ee9bc74a031",
+      "name": "Black Satin Empire",
+      "url": "https://chatgpt.com/g/g-6a1215f364cc8191b5009ee9bc74a031-black-satin-empire",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a07e50a2b1481918ffca85656dc9ba9",
+      "name": "Business B-Roll Commercial",
+      "url": "https://chatgpt.com/g/g-6a07e50a2b1481918ffca85656dc9ba9-business-b-roll-commercial",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69bd96ee524c81918d13fe8278d9d3db",
+      "name": "Cinematic leak like effect",
+      "url": "https://chatgpt.com/g/g-69bd96ee524c81918d13fe8278d9d3db-cinematic-leak-like-effect",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a13d70bda748191b0e24900f005737d",
+      "name": "Deco Delitez Luxe Topper Studio",
+      "url": "https://chatgpt.com/g/g-6a13d70bda748191b0e24900f005737d-deco-delitez-luxe-topper-studio",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69fdf28987688191800797d8b7983707",
+      "name": "Elite cinematic video generator",
+      "url": "https://chatgpt.com/g/g-69fdf28987688191800797d8b7983707-elite-cinematic-video-generator",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69ef809016948191a01d40868ea466e0",
+      "name": "Expert, multi-platinum R&B lyricist",
+      "url": "https://chatgpt.com/g/g-69ef809016948191a01d40868ea466e0-expert-multi-platinum-r-b-lyricist",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a0aa44137c481918bed50c896f937fa",
+      "name": "FaithWear Studio",
+      "url": "https://chatgpt.com/g/g-6a0aa44137c481918bed50c896f937fa-faithwear-studio-gpt",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a0a9252283481918c82337f7ce83ca6",
+      "name": "Gourmet Flavor Guide (copy)",
+      "url": "https://chatgpt.com/g/g-6a0a9252283481918c82337f7ce83ca6-gourmet-flavor-guide-copy",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a110a136a3c8191ba04cca7528e8efc",
+      "name": "Junk Couture Studio",
+      "url": "https://chatgpt.com/g/g-6a110a136a3c8191ba04cca7528e8efc-junk-couture-studio",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a2e369a01b08191a3cf64e41f556ab2",
+      "name": "K2 Print Coach",
+      "url": "https://chatgpt.com/g/g-6a2e369a01b08191a3cf64e41f556ab2-k2-print-coach",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-68d0e974ad6c81919b3a3cab15703fac",
+      "name": "LaserCraft Pro",
+      "url": "https://chatgpt.com/g/g-68d0e974ad6c81919b3a3cab15703fac-lasercraft-pro",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a1202037d5c8191bb74dbfebf346459",
+      "name": "Luxury Estate Real Estate Image Sequence Generator",
+      "url": "https://chatgpt.com/g/g-6a1202037d5c8191bb74dbfebf346459-luxury-estate-real-estate-image-sequence-generator",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a19a8642ad8819185f0dda1c9a95e87",
+      "name": "Mold & Muse Resin Designer",
+      "url": "https://chatgpt.com/g/g-6a19a8642ad8819185f0dda1c9a95e87-mold-muse-resin-designer",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69c2e77cf1148191846628b4f15a1761",
+      "name": "SceneCraft Cinema",
+      "url": "https://chatgpt.com/g/g-69c2e77cf1148191846628b4f15a1761-scenecraft-cinema",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69f515c946e88191be582e7db3ba9773",
+      "name": "Second Take Studio",
+      "url": "https://chatgpt.com/g/g-69f515c946e88191be582e7db3ba9773-second-take-studio",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a0ab5525ba881918acbb01bb8e96e6c",
+      "name": "ShirtWrap Studio👕",
+      "url": "https://chatgpt.com/g/g-6a0ab5525ba881918acbb01bb8e96e6c-shirtwrap-studio",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69f690c47d188191833e929cecb62407",
+      "name": "Universal Viral AI Movie Producer",
+      "url": "https://chatgpt.com/g/g-69f690c47d188191833e929cecb62407-universal-viral-ai-movie-producer",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69b40a9a726081919f266529ad778db2",
+      "name": "V2 multiple angle character reference sheet",
+      "url": "https://chatgpt.com/g/g-69b40a9a726081919f266529ad778db2-v2-multiple-angle-character-reference-sheet",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69fbb02ece6c8191b39767c57dfeb2a7",
+      "name": "✨ Esther’s Soft Life Affirmations",
+      "url": "https://chatgpt.com/g/g-69fbb02ece6c8191b39767c57dfeb2a7-esthers-soft-life-affirmations",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a13d4b7b13c8191bfb651db84a71de4",
+      "name": "🎀 Top It Off by Tessa",
+      "url": "https://chatgpt.com/g/g-6a13d4b7b13c8191bfb651db84a71de4-top-it-off-by-tessa",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69a1a43a179c819187f8b2800125d6d4",
+      "name": "🎨🎭Perfect Character Consistency🎨🎭",
+      "url": "https://chatgpt.com/g/g-69a1a43a179c819187f8b2800125d6d4-perfect-character-consistency",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69f786dab3408191be5814aada6014ef",
+      "name": "🎬🔥AI Video Prompt Engineer in Timeline Prompting",
+      "url": "https://chatgpt.com/g/g-69f786dab3408191be5814aada6014ef-ai-video-prompt-engineer-in-timeline-prompting",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69d001fb68f88191b31c413214a34c8b",
+      "name": "🎭🎬🔥AI Filmmaker and Prompt Engineer🔥🎬🎭",
+      "url": "https://chatgpt.com/g/g-69d001fb68f88191b31c413214a34c8b-ai-filmmaker-and-prompt-engineer",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69aed7a75e3081919600fd5715bd1471",
+      "name": "🎭🎭Multi-Image Reference Processing🎭🎭",
+      "url": "https://chatgpt.com/g/g-69aed7a75e3081919600fd5715bd1471-multi-image-reference-processing",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-6a1f48ca84c0819185dc512ed7dd7608",
+      "name": "🎴🎴AI Video Stationery Creator🎴🎴",
+      "url": "https://chatgpt.com/g/g-6a1f48ca84c0819185dc512ed7dd7608-ai-video-stationery-creator",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69d14f0290e481918c3e98acc666d58f",
+      "name": "📒 The Pretty Character Creator 👩🏽‍💻 by Suga 💋",
+      "url": "https://chatgpt.com/g/g-69d14f0290e481918c3e98acc666d58f-the-pretty-character-creator-by-suga",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-697e35a491d88191aa8c6c7e7437208b",
+      "name": "🔥 ⚡ 👀 Ugc Output Motion Dialogue 🔥 ⚡ 👀",
+      "url": "https://chatgpt.com/g/g-697e35a491d88191aa8c6c7e7437208b-ugc-output-motion-dialogue",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
+    },
+    {
+      "gpt_id": "g-69f44c4c19048191ae149aa818603d6c",
+      "name": "🧜🏽‍♀️ Make Me A Mermaid Coloring Book Studio 🖍️",
+      "url": "https://chatgpt.com/g/g-69f44c4c19048191ae149aa818603d6c-make-me-a-mermaid-coloring-book-studio",
+      "folders": [
+        "GPTs/WMcCraney"
+      ],
+      "access_status": "authorized-for-use",
+      "migration_status": "authorized-adapter-ready",
+      "configuration_status": "not-captured"
     }
   ]
 }

@@ -14,5 +14,8 @@ ID (`<library>.<slug>.v<major>`), semantic version, lifecycle status, and maturi
 - `schemas/` — machine-readable contracts
 - `tools/` — validation utilities
 - `docs/` — architecture decisions
+- `catalog/knowledge-index.json` — searchable cross-asset and authorized-GPT index
+- `reports/master-repository-completion-2026-08-09.md` — master-prompt status and exceptions
+- `docs/deployment/cross-platform.md` — ChatGPT, Codex, Claude, and Gemini guidance
 
 Run `python tools/validate_repository.py` from this directory.

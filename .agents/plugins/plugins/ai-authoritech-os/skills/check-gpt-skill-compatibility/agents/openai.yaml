@@ -1,0 +1,4 @@
+interface:
+  display_name: "GPT Skill Compatibility Check"
+  short_description: "Test whether a skill safely fits a selected GPT"
+  default_prompt: "Use $check-gpt-skill-compatibility to evaluate a skill before applying it to a live GPT."

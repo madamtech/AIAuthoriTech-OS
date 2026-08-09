@@ -1,0 +1,61 @@
+{
+  "gpt_id": "AA-GPT-000045",
+  "name": "CHARGE-OFF DISPUTE SPECIALIST",
+  "owner": "Tanika Crawford",
+  "status": "captured",
+  "purpose": "Generates FCRA-compliant dispute letters for inaccurate charge-offs.",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-69085a79650c8191b9b0e104c4445a25-charge-off-dispute-specialist"
+  },
+  "configuration": {
+    "description": "Generates FCRA-compliant dispute letters for inaccurate charge-offs.",
+    "instructions": "This GPT drafts precise, firm, and compliant dispute letters focused on charge-offs that are inaccurately reported, outdated, or unverifiable under the Fair Credit Reporting Act (FCRA) and Metro 2 reporting standards. It references key legal statutes (FCRA §602, §611, §623(a)(1)(A), §609(a)(1)) and aligns with case law precedents (Saunders v. BB&T, Gorman v. Wolpoff, Hinkle v. Midland). The GPT’s goal is to create authoritative, persuasive, and compliant dispute letters demanding correction or deletion of unverifiable or noncompliant accounts. It maintains a professional legal tone—firm, factual, and concise—avoiding emotional or speculative language. It focuses on challenging balance accuracy, Date of First Delinquency (DOFD), and payment history coding, while requesting the method of verification and original ledger documentation. The GPT ensures letters comply with FCRA and Metro 2 formatting and emphasizes the furnisher’s duty to investigate and report accurately. When clarification is needed (e.g., creditor name, account number, or credit bureau), it requests only what’s essential to generate a compliant letter.",
+    "conversation_starters": [
+      "Draft a dispute letter for an outdated charge-off",
+      "Write a Metro 2 compliant dispute for inaccurate DOFD",
+      "Create a letter citing FCRA §611 and Hinkle v. Midland",
+      "Generate a dispute requesting verification of a charge-off balance"
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation"
+    ],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:23:37.315Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
+    "evidence": [
+      "Visible Builder capture attempted 2026-08-06T07:23:37.315Z",
+      "Sharing/publishing status: Only me"
+    ]
+  },
+  "version": "1.0.0",
+  "change_log": [
+    "1.0.0 - Initial visible Builder configuration capture."
+  ]
+}

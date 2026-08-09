@@ -1,0 +1,4 @@
+interface:
+  display_name: "Controlled Style Fusion Director"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $controlled-style-fusion to create and validate this visual deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AIAuthoriTech GPT Router"
+  short_description: "Select and load any registered GPT configuration"
+  default_prompt: "Use $ai-authoritech-gpt-router to select the best registered GPT configuration for this request."

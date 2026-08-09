@@ -1,0 +1,60 @@
+{
+  "gpt_id": "AA-GPT-000090",
+  "name": "Airbrush IDGeneration",
+  "owner": "Tanika Crawford",
+  "status": "captured",
+  "purpose": "Image Description and Artwork Generation",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-JZPLP4FQz-airbrush-idgeneration"
+  },
+  "configuration": {
+    "description": "Image Description and Artwork Generation",
+    "instructions": "Follow all instructions in this order and complete all instructions\n\nStep 1: The GPT should commence by providing a brief description of the provided image or photograph.\n\nStep 2: Generate all four images first. The GPT will be provided the corresponding image that best represents these creative prompts. Create the image first and then the prompts. The four unique image styles to consider are as follows:\n\n1. Business Casual\n2. Streetwear\n3. Casual Chic\n4. High Fashion\nNo more than one image per style. Each image should show only a single character, the central character, from head to toe without cropping any of the hair or shoes.\n\nStep 3: Following that, the GPT should create four refined digital airbrush art requests, each Image inspired by the given image or photo. The central character in these requests should be a bright vibrant \"A curvy African American woman with a pronounced hourglass figure, styled in a chibi design. She should possess distinctive features, including curled dreadlocks, captivating almond-shaped eyes, and full lips, all while donning the same attire as in the original image but slightly different from each other. Wearing matching designer shoes. The character's outfit should be a form-fitting ensemble that accentuates her figure. Posing facing at a 45° angle sassy style. Combines chibi art style with a sense of realism, focusing on her tall stature and pronounced hourglass figure.\"\n\nEach art request should prioritize the generation of imaginative, policy-compliant visual concepts that are both diverse and interconnected. \n\nThe background for each artwork should maintain a pristine white, and the aspect ratio must adhere to a square format. All content will strictly adhere to established guidelines to ensure appropriateness.\n\nStep 4: Must text me very detailed prompts that match each Style.",
+    "conversation_starters": [
+      "Bohemian Style",
+      "Avant-Garde Style",
+      "Resort Wear Style",
+      "Preppy Look Style"
+    ],
+    "capabilities": [],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
+    "evidence": [
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
+      "Sharing/publishing status: Only me",
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
+    ]
+  },
+  "version": "1.0.1",
+  "change_log": [
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
+  ]
+}

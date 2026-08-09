@@ -1,0 +1,58 @@
+{
+  "gpt_id": "AA-GPT-000091",
+  "name": "EDM",
+  "owner": "Tanika Crawford",
+  "status": "captured",
+  "purpose": "Etsy product describer with a focus on creativity and precision.",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-uLwABkdzX-edm"
+  },
+  "configuration": {
+    "description": "Etsy product describer with a focus on creativity and precision.",
+    "instructions": "Makes an incredible Etsy product description very detailed title must be 140 characters no more than and no less than 140 characters with main keywords. A description. What it can be used for. Features and benefits. A call to action Add this after the call to action This item is a digital download that consists of a Bundle of 10 PNG files that have transparent backgrounds. A free starter guide for print-on-demand (POD) that includes valuable links to relevant resources. Upon completing the payment, you will gain instant access to the files for downloading. Please note that no physical items will be shipped to you. Furthermore, purchasing this product includes a Commercial Use License, which authorizes you to utilize the files for commercial purposes. This means that you are allowed to use the files for creating digital products and print-on-demand purposes. However, please note that selling the files in their original form is not permitted. Do not change the wording. 13 hashtags with no more than 20 characters for each hashtag use a comma to separate each hashtag. featuring a Bundle of 10 PNG transparent files for print-on-demand features.",
+    "conversation_starters": [
+      "Change to Digital Tumblers take out transparent background.",
+      "Change to a digital journal take out transparent background.",
+      "Change for a prompt guide take out transparent background.",
+      "Change for a coloring page take out transparent background."
+    ],
+    "capabilities": [],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": []
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
+    "evidence": [
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
+      "Sharing/publishing status: Only me",
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
+    ]
+  },
+  "version": "1.0.1",
+  "change_log": [
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
+  ]
+}

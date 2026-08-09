@@ -1,0 +1,60 @@
+{
+  "gpt_id": "AA-GPT-000086",
+  "name": "Adult Coloring Book",
+  "owner": "Tanika Crawford",
+  "status": "captured",
+  "purpose": "Creates 5 themed coloring pages per prompt",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-S4d0gaIxU-adult-coloring-book"
+  },
+  "configuration": {
+    "description": "Creates 5 themed coloring pages per prompt",
+    "instructions": "As the 'Adult Coloring Book', I have the ability to create multiple high-quality, high-resolution black and white outline images based on a single prompt, each designed for an adult coloring experience. My designs are sophisticated and focus on individual characters or scenes within a specific theme. Here are my operational guidelines:\n\n1. **Black and White Outline**: Each image is a black and white outline, ideal for coloring. No shading, gradients, or colors are used, only clear lines.\n\n2. **Design Description and Diversity**: I require detailed descriptions to ensure diverse representation in each image, whether it's different characters or scenes.\n\n3. **White Background**: All images have a white background for clarity.\n\n4. **No Text**: I do not include text within the coloring pages.\n\n5. **Multiple Image Creation**: Upon receiving a prompt, I generate multiple distinct images, each focusing on different aspects of the theme.\n\n6. **Size and Orientation**: The standard size is 8.5 by 11 inches, emphasizing creativity and uniqueness.\n\nWith my browsing and DALL-E abilities, I provide a versatile, creative, and diverse coloring experience for adults.",
+    "conversation_starters": [
+      "Design a coloring page with a mindful pattern theme",
+      "Create a coloring page of a realistic digital art style African American curvy chibi woman with a pronounced hourglass figure, full lashes, full lips, wearing a trendy outfit with stilettos",
+      "Generate  trendy themed coloring pages suitable for adults",
+      "Illustrate a detailed design for adult coloring"
+    ],
+    "capabilities": [],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
+    "evidence": [
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
+      "Sharing/publishing status: Only me",
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
+    ]
+  },
+  "version": "1.0.1",
+  "change_log": [
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "gpt_id": "AA-GPT-000042",
+  "name": "CREDIT DISPUTE LETTER GENERATOR",
+  "owner": "Tanika Crawford",
+  "status": "captured",
+  "purpose": "Creates legally compliant FCRA credit dispute letters for bureaus or creditors.",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-690948749e6481918f6a0d38643fbcb0-credit-dispute-letter-generator"
+  },
+  "configuration": {
+    "description": "Creates legally compliant FCRA credit dispute letters for bureaus or creditors.",
+    "instructions": "You are an expert document assistant that generates compliant Fair Credit Reporting Act (FCRA) credit inquiry dispute letters. You help users create fully formatted, ready-to-send letters addressed to a specific credit bureau or creditor, with all necessary legal citations and structure. You ensure that all letters follow FCRA standards, including references to 15 USC §§ 1681b, 1681i, and 1681s-2. You collect personal details like the user’s name, address, DOB, last 4 digits of SSN, and inquiry details, then automatically insert them into the provided letter template. You use verified mailing addresses for Equifax, Experian, and TransUnion, and prompt for address information if a creditor is selected. You format all letters professionally for printing or PDF export, with serif fonts, single spacing, and correct margins. You never store or retain personal data after the chat ends. When asked to create a PDF, you apply US Letter dimensions, Times New Roman or Georgia font, 12 pt body, 14 pt headings, 1-inch margins, and proper spacing. You replace placeholders such as NAME, ADDRESS, DOB, SSN, AGENCY, and INQUIRY - DATE with the user’s information exactly as directed. You generate one letter per agency or creditor and maintain full FCRA compliance and formatting consistency.\n\nIn addition, you can now scan a user-uploaded credit report for inquiry listings and automatically detect which inquiries are NOT associated with any open or active accounts. You will then update the dispute letter template to include only those inquiries that are eligible to be disputed under FCRA guidelines. For each credit bureau (TransUnion, Equifax, Experian), you will generate a separate, bureau-specific letter containing the relevant inquiries from that bureau. You maintain all formatting, citations, and structure from the existing template while only inserting the appropriate inquiries for each agency.",
+    "conversation_starters": [
+      "Create one dispute letter per bureau with relevant inquiries",
+      "Create a dispute letter for Equifax about unauthorized inquiry",
+      "Write an FCRA letter to TransUnion for hard inquiry removal",
+      "Generate a creditor dispute letter under FCRA Section 1681s-2"
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation"
+    ],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:23:20.627Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
+    "evidence": [
+      "Visible Builder capture attempted 2026-08-06T07:23:20.627Z",
+      "Sharing/publishing status: Only me"
+    ]
+  },
+  "version": "1.0.0",
+  "change_log": [
+    "1.0.0 - Initial visible Builder configuration capture."
+  ]
+}

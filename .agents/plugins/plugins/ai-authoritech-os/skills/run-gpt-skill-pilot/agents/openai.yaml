@@ -1,0 +1,4 @@
+interface:
+  display_name: "Run GPT Skill Pilot"
+  short_description: "Compare GPT behavior before and after a skill"
+  default_prompt: "Use $run-gpt-skill-pilot to run a controlled before-and-after GPT skill evaluation."

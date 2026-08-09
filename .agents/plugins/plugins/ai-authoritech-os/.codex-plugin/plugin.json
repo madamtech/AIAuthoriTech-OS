@@ -1,0 +1,27 @@
+{
+  "name": "ai-authoritech-os",
+  "version": "1.0.0",
+  "description": "Route, apply, test, and govern Tanika Crawford's captured Custom GPT configurations across ChatGPT and Codex.",
+  "author": {
+    "name": "MadamTech",
+    "url": "https://github.com/madamtech"
+  },
+  "homepage": "https://github.com/madamtech/AIAuthoriTech-OS",
+  "repository": "https://github.com/madamtech/AIAuthoriTech-OS",
+  "keywords": ["custom-gpts", "skills", "routing", "visual-intelligence", "governance"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AIAuthoriTech OS",
+    "shortDescription": "Recall and govern 93 Custom GPT configurations.",
+    "longDescription": "Select any captured Custom GPT by name, ID, or purpose; apply its authoritative configuration; route compatible skills; and run controlled compatibility checks and pilots before live deployment.",
+    "developerName": "MadamTech",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/madamtech/AIAuthoriTech-OS",
+    "defaultPrompt": [
+      "Select the best GPT configuration for this task.",
+      "Use a GPT by registry ID and list its skills.",
+      "Run a GPT skill compatibility check."
+    ]
+  }
+}

@@ -98,6 +98,11 @@ def main() -> None:
 
     bookmarks = load("gpts/discovered/bookmarked-shared-gpts.json")["records"]
     owned = list((ROOT / "gpts" / "manifests").rglob("manifest.json")) if (ROOT / "gpts" / "manifests").exists() else []
+    owned_manifests = [json.loads(path.read_text(encoding="utf-8")) for path in owned]
+    live_capture_path = ROOT / "work/live-chatgpt-owned-gpts-2026-08-09.json"
+    if live_capture_path.exists():
+        live_capture = json.loads(live_capture_path.read_text(encoding="utf-8"))
+        save("gpts/inventories/live-owned-gpts-2026-08-09.json", live_capture)
     evaluations = list((ROOT / "evaluations").rglob("*.json"))
     maturity = list((ROOT / "catalog" / "maturity").glob("*.json"))
     by_type = Counter(asset["asset_type"] for asset in assets)
@@ -153,6 +158,38 @@ def main() -> None:
     }
     save("catalog/knowledge-index.json", index)
 
+    knowledge_inventory = []
+    tool_action_inventory = []
+    for manifest in owned_manifests:
+        configuration = manifest["configuration"]
+        for knowledge_file in configuration.get("knowledge_files", []):
+            knowledge_inventory.append({
+                "gpt_id": manifest["gpt_id"],
+                "gpt_name": manifest["name"],
+                **knowledge_file,
+            })
+        tool_action_inventory.append({
+            "gpt_id": manifest["gpt_id"],
+            "gpt_name": manifest["name"],
+            "capabilities": configuration.get("capabilities", []),
+            "actions": configuration.get("actions", []),
+            "required_skills": manifest.get("skills", {}).get("required", []),
+            "optional_skills": manifest.get("skills", {}).get("optional", []),
+        })
+    save("gpts/inventories/knowledge-files.json", {
+        "schema_version": "1.0.0",
+        "generated_at": today,
+        "gpts_with_knowledge_files": len({item["gpt_id"] for item in knowledge_inventory}),
+        "knowledge_file_records": len(knowledge_inventory),
+        "records": knowledge_inventory,
+    })
+    save("gpts/inventories/tools-actions.json", {
+        "schema_version": "1.0.0",
+        "generated_at": today,
+        "gpt_records": len(tool_action_inventory),
+        "records": tool_action_inventory,
+    })
+
     report = f"""# Master Repository Completion Report
 
 Assessment date: {today}
@@ -166,10 +203,13 @@ Assessment date: {today}
 - GitHub and local repository discovery; the private existing repository was selected instead of creating a duplicate.
 - Catalog, relationship registry, schemas, evaluations, and maturity records inspected and validated.
 - Ninety-three owned GPT records preserved from the authoritative repository inventory.
+- Live authenticated `My GPTs` inspection independently confirmed all 93 platform IDs and names match the 93 repository manifests with no missing or extra records.
+- Portable Core OS package generation and executable bookmark-router tests were added.
 - 232 bookmark entries normalized to 115 unique platform GPT IDs; 13 overlap owned GPTs and 102 are new authorized adapters.
 - All 102 bookmarked GPTs are explicitly recorded as authorized for use; 38 originate in the `GPTs/WMcCraney` bookmark folder.
 - Governed reusable router skill `CO-SKL-000005` created for those adapters.
 - Searchable machine-readable knowledge index generated from authoritative catalog data.
+- Consolidated GPT knowledge-file and tool/action inventories generated from all 93 manifests.
 - Cross-platform deployment guidance created for ChatGPT, Codex, Claude, Gemini web, and Gemini CLI.
 - Repository structural validator and targeted secret-pattern scan executed.
 
@@ -183,6 +223,7 @@ Assessment date: {today}
 
 - Full ChatGPT Builder configuration and knowledge-file extraction for owned GPTs.
 - ChatGPT Skills account-area inventory and upload/install verification.
+- The ChatGPT Plugins/Skills page was reachable but did not expose a stable readable inventory during automation.
 - Claude, Gemini web, and Gemini CLI clean-runtime installation tests.
 
 ## Pending user or platform action
@@ -222,6 +263,9 @@ Assessment date: 2026-08-09
 - Authenticated GitHub access to the private repository of record.
 - Chrome bookmark export supplied by the user and parsed locally.
 - Logged-in ChatGPT page was user-opened, but automated Builder extraction was not reliable enough to claim configuration capture.
+- The authenticated `My GPTs` page was successfully enumerated and independently confirmed 93 owned GPTs.
+- The ChatGPT Plugins/Skills page opened but did not expose a stable readable inventory during automation; no account-level Skills inventory is claimed.
+- Gemini CLI was not installed in the available command environment, so extension runtime installation remains pending.
 
 ## Automatic actions
 

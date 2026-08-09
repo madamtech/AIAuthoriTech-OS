@@ -8,6 +8,9 @@ Assessment date: 2026-08-09
 - Authenticated GitHub access to the private repository of record.
 - Chrome bookmark export supplied by the user and parsed locally.
 - Logged-in ChatGPT page was user-opened, but automated Builder extraction was not reliable enough to claim configuration capture.
+- The authenticated `My GPTs` page was successfully enumerated and independently confirmed 93 owned GPTs.
+- The ChatGPT Plugins/Skills page opened but did not expose a stable readable inventory during automation; no account-level Skills inventory is claimed.
+- Gemini CLI was not installed in the available command environment, so extension runtime installation remains pending.
 
 ## Automatic actions
 

@@ -11,10 +11,13 @@ Assessment date: 2026-08-09
 - GitHub and local repository discovery; the private existing repository was selected instead of creating a duplicate.
 - Catalog, relationship registry, schemas, evaluations, and maturity records inspected and validated.
 - Ninety-three owned GPT records preserved from the authoritative repository inventory.
+- Live authenticated `My GPTs` inspection independently confirmed all 93 platform IDs and names match the 93 repository manifests with no missing or extra records.
+- Portable Core OS package generation and executable bookmark-router tests were added.
 - 232 bookmark entries normalized to 115 unique platform GPT IDs; 13 overlap owned GPTs and 102 are new authorized adapters.
 - All 102 bookmarked GPTs are explicitly recorded as authorized for use; 38 originate in the `GPTs/WMcCraney` bookmark folder.
 - Governed reusable router skill `CO-SKL-000005` created for those adapters.
 - Searchable machine-readable knowledge index generated from authoritative catalog data.
+- Consolidated GPT knowledge-file and tool/action inventories generated from all 93 manifests.
 - Cross-platform deployment guidance created for ChatGPT, Codex, Claude, Gemini web, and Gemini CLI.
 - Repository structural validator and targeted secret-pattern scan executed.
 
@@ -28,6 +31,7 @@ Assessment date: 2026-08-09
 
 - Full ChatGPT Builder configuration and knowledge-file extraction for owned GPTs.
 - ChatGPT Skills account-area inventory and upload/install verification.
+- The ChatGPT Plugins/Skills page was reachable but did not expose a stable readable inventory during automation.
 - Claude, Gemini web, and Gemini CLI clean-runtime installation tests.
 
 ## Pending user or platform action

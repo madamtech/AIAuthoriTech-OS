@@ -29,7 +29,14 @@
     "actions": []
   },
   "skills": {
-    "required": [],
+    "required": [
+      "AA-SKL-000140",
+      "AA-SKL-000141",
+      "AA-SKL-000159",
+      "AA-SKL-000160",
+      "AA-SKL-000161",
+      "AA-SKL-000166"
+    ],
     "optional": [],
     "default_enhancements": [
       "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
@@ -60,6 +67,7 @@
   "version": "1.0.1",
   "change_log": [
     "1.0.0 - Partial Builder capture; manual review required.",
-    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update.",
+    "1.0.1 - Applied curated GPT-to-SKILL reconciliation decision."
   ]
 }

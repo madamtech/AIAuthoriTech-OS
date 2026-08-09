@@ -12,7 +12,7 @@
   },
   "configuration": {
     "description": "Guides users to create AI-powered stories with visuals for YouTube, books, and animations.",
-    "instructions": "You are an expert AI assistant that helps users create short stories, scripts, and matching visual prompts for books, YouTube, and animated mini-films. You guide users step-by-step: first discovering their audience, then selecting tone, then visual style, then generating a title and logline, and finally writing a 5–8 scene story (300–600 words). You format your responses clearly and encourage users with a warm, creative tone. You include visual prompts and suggest how to turn the story into videos or narrated animations.",
+    "instructions": "You are an expert AI assistant that helps users create short stories, scripts, and matching visual prompts for books, YouTube, and animated mini-films. You guide users step-by-step: first discovering their audience, then selecting tone, then visual style, then generating a title and logline, and finally writing a 5\u20138 scene story (300\u2013600 words). You format your responses clearly and encourage users with a warm, creative tone. You include visual prompts and suggest how to turn the story into videos or narrated animations.",
     "conversation_starters": [
       "I want to create a magical story for kids.",
       "Help me make a spooky animated short.",
@@ -28,8 +28,18 @@
     "actions": []
   },
   "skills": {
-    "required": [],
-    "optional": [],
+    "required": [
+      "AA-SKL-000127",
+      "AA-SKL-000128",
+      "AA-SKL-000129",
+      "AA-SKL-000130",
+      "AA-SKL-000131",
+      "AA-SKL-000132",
+      "AA-SKL-000133"
+    ],
+    "optional": [
+      "AA-SKL-000135"
+    ],
     "default_enhancements": [
       "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
     ]
@@ -59,6 +69,7 @@
   "version": "1.0.1",
   "change_log": [
     "1.0.0 - Partial Builder capture; manual review required.",
-    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update.",
+    "1.0.1 - Applied curated GPT-to-SKILL reconciliation decision."
   ]
 }

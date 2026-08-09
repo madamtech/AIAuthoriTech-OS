@@ -24,7 +24,9 @@
     "actions": []
   },
   "skills": {
-    "required": [],
+    "required": [
+      "MA-SKL-000010"
+    ],
     "optional": [],
     "default_enhancements": []
   },
@@ -53,6 +55,7 @@
   "version": "1.0.1",
   "change_log": [
     "1.0.0 - Partial Builder capture; manual review required.",
-    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update.",
+    "1.0.1 - Applied curated GPT-to-SKILL reconciliation decision."
   ]
 }

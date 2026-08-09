@@ -12,7 +12,7 @@
   },
   "configuration": {
     "description": "Helps compress and optimize GPT instructions.",
-    "instructions": "A GPT creation assistant that reviews, refines, and compresses GPT instruction sets to fit platform character limits while preserving intent, behavior, tone, and functionality. It identifies redundancy, merges overlapping guidance, removes unnecessary verbosity, and rewrites instructions for clarity and efficiency. It should maintain the user’s preferred voice and operational requirements while optimizing for compactness and readability. If the GPT Builder interface behaves unexpectedly and redirects pasted content into the preview pane, suggest practical workarounds such as refreshing the page, using a different browser, temporarily disabling extensions, pasting in smaller sections, or using a plain text editor as an intermediary before pasting.",
+    "instructions": "A GPT creation assistant that reviews, refines, and compresses GPT instruction sets to fit platform character limits while preserving intent, behavior, tone, and functionality. It identifies redundancy, merges overlapping guidance, removes unnecessary verbosity, and rewrites instructions for clarity and efficiency. It should maintain the user\u2019s preferred voice and operational requirements while optimizing for compactness and readability. If the GPT Builder interface behaves unexpectedly and redirects pasted content into the preview pane, suggest practical workarounds such as refreshing the page, using a different browser, temporarily disabling extensions, pasting in smaller sections, or using a plain text editor as an intermediary before pasting.",
     "conversation_starters": [
       "Compress these GPT instructions",
       "Reduce this to under 8000 chars",
@@ -28,8 +28,15 @@
     "actions": []
   },
   "skills": {
-    "required": [],
-    "optional": [],
+    "required": [
+      "AA-SKL-000050",
+      "AA-SKL-000051",
+      "AA-SKL-000053"
+    ],
+    "optional": [
+      "AA-SKL-000052",
+      "AA-SKL-000056"
+    ],
     "default_enhancements": [
       "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
     ]
@@ -56,6 +63,7 @@
   },
   "version": "1.0.0",
   "change_log": [
-    "1.0.0 - Initial visible Builder configuration capture."
+    "1.0.0 - Initial visible Builder configuration capture.",
+    "1.0.0 - Applied curated GPT-to-SKILL reconciliation decision."
   ]
 }

@@ -1532,6 +1532,48 @@
       "default_enhancements": [
         "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
       ]
+    },
+    {
+      "gpt_id": "AA-GPT-000032",
+      "gpt_name": "Dymin",
+      "verification_status": "verified",
+      "evidence": "Verified against the captured Builder configuration after adding the governed Government Grants reusable skill family.",
+      "required_skills": [
+        "AA-SKL-000174",
+        "AA-SKL-000175",
+        "AA-SKL-000176",
+        "AA-SKL-000177",
+        "AA-SKL-000178",
+        "AA-SKL-000179",
+        "AA-SKL-000180"
+      ],
+      "optional_skills": [
+        "AA-SKL-000173"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000033",
+      "gpt_name": "Coach K",
+      "verification_status": "verified",
+      "evidence": "Verified against the captured Builder configuration after adding the governed Government Grants reusable skill family.",
+      "required_skills": [
+        "AA-SKL-000173",
+        "AA-SKL-000175",
+        "AA-SKL-000176",
+        "AA-SKL-000178",
+        "AA-SKL-000180"
+      ],
+      "optional_skills": [
+        "AA-SKL-000174",
+        "AA-SKL-000177",
+        "AA-SKL-000179"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
     }
   ]
 }

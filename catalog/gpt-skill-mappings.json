@@ -4,10 +4,282 @@
   "policy": "Only record GPT-to-SKILL links when the captured GPT configuration directly supports the capability. Never infer a mapping from the GPT name alone.",
   "mappings": [
     {
+      "gpt_id": "AA-GPT-000001",
+      "gpt_name": "Lone Star Scholar Prep",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000031",
+        "AA-SKL-000138",
+        "AA-SKL-000150"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000032",
+        "AA-SKL-000169"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000002",
+      "gpt_name": "Universal FizzyPop Studio",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000140",
+        "AA-SKL-000141",
+        "AA-SKL-000145",
+        "AA-SKL-000162",
+        "AA-SKL-000163"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000003",
+      "gpt_name": "GlamBambu P1S Production",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "MA-SKL-000001",
+        "MA-SKL-000004",
+        "MA-SKL-000005",
+        "MA-SKL-000023",
+        "MA-SKL-000031",
+        "MA-SKL-000032"
+      ],
+      "optional_skills": [
+        "MA-SKL-000003",
+        "MA-SKL-000021",
+        "AA-SKL-000153",
+        "AA-SKL-000154"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000004",
+      "gpt_name": "Gavin- Cinematic Skit Director",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000128",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000134",
+        "AA-SKL-000135",
+        "AA-SKL-000145"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000005",
+      "gpt_name": "Eklektic Ender Studio",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "MA-SKL-000001",
+        "MA-SKL-000004",
+        "MA-SKL-000005",
+        "MA-SKL-000023",
+        "MA-SKL-000031",
+        "MA-SKL-000032"
+      ],
+      "optional_skills": [
+        "MA-SKL-000003",
+        "AA-SKL-000153",
+        "AA-SKL-000154"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000006",
+      "gpt_name": "GlamForge Laser Studio",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "MA-SKL-000002",
+        "MA-SKL-000021",
+        "MA-SKL-000022",
+        "MA-SKL-000034"
+      ],
+      "optional_skills": [
+        "MA-SKL-000003",
+        "MA-SKL-000035",
+        "AA-SKL-000155",
+        "AA-SKL-000165"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000007",
+      "gpt_name": "GlamForge 3D Printer",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "MA-SKL-000001",
+        "MA-SKL-000004",
+        "MA-SKL-000005",
+        "MA-SKL-000023",
+        "MA-SKL-000031",
+        "MA-SKL-000032"
+      ],
+      "optional_skills": [
+        "MA-SKL-000003",
+        "AA-SKL-000153",
+        "AA-SKL-000154"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000008",
+      "gpt_name": "Stationery Suite",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000142",
+        "AA-SKL-000144",
+        "AA-SKL-000155",
+        "AA-SKL-000157",
+        "AA-SKL-000158"
+      ],
+      "optional_skills": [
+        "MA-SKL-000009",
+        "MA-SKL-000014",
+        "MA-SKL-000035"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000009",
+      "gpt_name": "Monthly Sales Episodes",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000050",
+        "AA-SKL-000051",
+        "AA-SKL-000053"
+      ],
+      "optional_skills": [
+        "AA-SKL-000052",
+        "AA-SKL-000056"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000010",
+      "gpt_name": "Lyrical Hitmaker",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000136",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000130"
+      ],
+      "optional_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000135"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000011",
+      "gpt_name": "Sportscast Director",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000134",
+        "AA-SKL-000135"
+      ],
+      "optional_skills": [
+        "AA-SKL-000136"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000012",
+      "gpt_name": "Cinematic Realty Director",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000134",
+        "AA-SKL-000135",
+        "AA-SKL-000161"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000013",
+      "gpt_name": "Glamm Graffitee",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000144",
+        "AA-SKL-000149",
+        "AA-SKL-000155",
+        "AA-SKL-000158",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
       "gpt_id": "AA-GPT-000014",
       "gpt_name": "AI Cinematic Engineer",
       "verification_status": "verified",
-      "evidence": "Captured instructions explicitly require cinematic storyboards, character/spatial continuity, image prompts, video/motion prompts, camera movement, lighting, and optional sound design.",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
       "required_skills": [
         "AA-SKL-000127",
         "AA-SKL-000129",
@@ -25,10 +297,593 @@
       ]
     },
     {
+      "gpt_id": "AA-GPT-000015",
+      "gpt_name": "Black Ops Architect",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000128",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131"
+      ],
+      "optional_skills": [
+        "AA-SKL-000135"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000017",
+      "gpt_name": "Nakei Podcast Creative Director",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000144",
+        "AA-SKL-000149",
+        "AA-SKL-000158",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": [
+        "AA-SKL-000152"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000018",
+      "gpt_name": "Ethan- Creative Production Director",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000144",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": [
+        "AA-SKL-000111",
+        "AA-SKL-000112"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000019",
+      "gpt_name": "Urban Romance Lyrical Studio",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000136",
+        "AA-SKL-000130",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000135"
+      ],
+      "optional_skills": [
+        "AA-SKL-000127"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000020",
+      "gpt_name": "Urban Romance Studio",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000128",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000135"
+      ],
+      "optional_skills": [
+        "AA-SKL-000136"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000021",
+      "gpt_name": "i-PRO Sales Governance Assistant",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000058",
+        "AA-SKL-000063",
+        "AA-SKL-000064",
+        "AA-SKL-000085",
+        "AA-SKL-000086"
+      ],
+      "optional_skills": [
+        "AA-SKL-000111",
+        "AA-SKL-000121",
+        "AA-SKL-000126"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000022",
+      "gpt_name": "Cinematic Studio Director",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000129",
+        "AA-SKL-000132",
+        "AA-SKL-000133",
+        "AA-SKL-000134",
+        "AA-SKL-000135",
+        "AA-SKL-000138",
+        "AA-SKL-000144",
+        "AA-SKL-000146",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000023",
+      "gpt_name": "LuxGlam Director",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000144",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000156",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000024",
+      "gpt_name": "i-PRO Sales Intelligence",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000126",
+        "AA-SKL-000151",
+        "AA-SKL-000150",
+        "AA-SKL-000142"
+      ],
+      "optional_skills": [
+        "AA-SKL-000138"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000025",
+      "gpt_name": "i-PRO Sales Intelligence",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000126",
+        "AA-SKL-000151",
+        "AA-SKL-000150",
+        "AA-SKL-000142"
+      ],
+      "optional_skills": [
+        "AA-SKL-000138"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000026",
+      "gpt_name": "Untitled",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000151"
+      ],
+      "optional_skills": [
+        "AA-SKL-000142"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000027",
+      "gpt_name": "Brand Advertiser",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000140",
+        "AA-SKL-000142",
+        "AA-SKL-000144",
+        "AA-SKL-000146",
+        "AA-SKL-000158",
+        "AA-SKL-000159",
+        "AA-SKL-000161"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000028",
+      "gpt_name": "Untitled",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000142",
+        "AA-SKL-000146",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000161",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000029",
+      "gpt_name": "Luxury Beauty Product Editor",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000142",
+        "AA-SKL-000144",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000152",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000164",
+        "AA-SKL-000165"
+      ],
+      "optional_skills": [
+        "MA-SKL-000026"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000030",
+      "gpt_name": "Skincare Campaign Editor",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000142",
+        "AA-SKL-000144",
+        "AA-SKL-000146",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000152",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": [
+        "MA-SKL-000026"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000031",
+      "gpt_name": "MonoLuxe Studio Artist",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000144",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000034",
+      "gpt_name": "Systems Doc Agent (N541512)",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000084",
+        "AA-SKL-000077",
+        "AA-SKL-000079",
+        "AA-SKL-000085",
+        "AA-SKL-000086",
+        "AA-SKL-000057",
+        "AA-SKL-000058",
+        "AA-SKL-000063",
+        "AA-SKL-000064",
+        "AA-SKL-000001"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000001",
+        "AA-SKL-000094",
+        "AA-SKL-000106"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000035",
+      "gpt_name": "Software Doc Agent ( N541511)",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000084",
+        "AA-SKL-000077",
+        "AA-SKL-000079",
+        "AA-SKL-000085",
+        "AA-SKL-000086",
+        "AA-SKL-000057",
+        "AA-SKL-000058",
+        "AA-SKL-000067",
+        "AA-SKL-000074"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000001"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000036",
+      "gpt_name": "HR Master Agent (N541612)",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000031",
+        "LMS-SKL-000040",
+        "AA-SKL-000084",
+        "AA-SKL-000086",
+        "AA-SKL-000057",
+        "AA-SKL-000064"
+      ],
+      "optional_skills": [
+        "AA-SKL-000092"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000037",
+      "gpt_name": "Master Admin Consultant (N541611)",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000002",
+        "AA-SKL-000077",
+        "AA-SKL-000079",
+        "AA-SKL-000084",
+        "AA-SKL-000085",
+        "AA-SKL-000086",
+        "AA-SKL-000057",
+        "AA-SKL-000064",
+        "AA-SKL-000010"
+      ],
+      "optional_skills": [
+        "AA-SKL-000106",
+        "LMS-SKL-000001"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000038",
+      "gpt_name": "GovCon Strategist Pro",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000087",
+        "AA-SKL-000089",
+        "AA-SKL-000090",
+        "AA-SKL-000093",
+        "AA-SKL-000094",
+        "AA-SKL-000096"
+      ],
+      "optional_skills": [
+        "AA-SKL-000103",
+        "AA-SKL-000106"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000039",
+      "gpt_name": "Agency Architect- Full Build",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000001",
+        "AA-SKL-000002",
+        "AA-SKL-000003",
+        "AA-SKL-000004",
+        "AA-SKL-000005",
+        "AA-SKL-000008",
+        "AA-SKL-000009",
+        "AA-SKL-000010"
+      ],
+      "optional_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000125"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000040",
+      "gpt_name": "PoeticPunch",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000155",
+        "AA-SKL-000157",
+        "AA-SKL-000158"
+      ],
+      "optional_skills": [
+        "AA-SKL-000164"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000050",
+      "gpt_name": "Carter- BusinessCoach",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000002",
+        "AA-SKL-000004",
+        "AA-SKL-000005",
+        "AA-SKL-000077"
+      ],
+      "optional_skills": [
+        "AA-SKL-000008",
+        "AA-SKL-000010"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000051",
+      "gpt_name": "CAMI \u2013 The Copywriting Expert",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000108",
+        "AA-SKL-000111",
+        "AA-SKL-000113",
+        "AA-SKL-000117",
+        "AA-SKL-000118",
+        "AA-SKL-000125",
+        "AA-SKL-000126"
+      ],
+      "optional_skills": [
+        "AA-SKL-000121"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000052",
+      "gpt_name": "Deyja-SocialMedia Expert",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000108",
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000115",
+        "AA-SKL-000124",
+        "AA-SKL-000125",
+        "AA-SKL-000126"
+      ],
+      "optional_skills": [
+        "MA-SKL-000020"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000054",
+      "gpt_name": "Str8Real Content Assistant",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000108",
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000115",
+        "AA-SKL-000126"
+      ],
+      "optional_skills": [
+        "MA-SKL-000020"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000055",
+      "gpt_name": "Madam AI Assistant",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000111",
+        "AA-SKL-000117",
+        "AA-SKL-000118",
+        "AA-SKL-000119",
+        "AA-SKL-000125",
+        "AA-SKL-000126"
+      ],
+      "optional_skills": [
+        "MA-SKL-000019"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
       "gpt_id": "AA-GPT-000057",
       "gpt_name": "TanikaGPT-LMS Administrator Assistant",
       "verification_status": "verified",
-      "evidence": "Captured instructions explicitly require certification/course structure, enrollment and user lifecycle support, LMS notifications, SCORM compatibility, LMS workflow optimization, visual course assets, and training content QA.",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
       "required_skills": [
         "LMS-SKL-000001",
         "LMS-SKL-000002",
@@ -43,6 +898,637 @@
         "LMS-SKL-000028",
         "LMS-SKL-000029"
       ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000058",
+      "gpt_name": "GregGPT \u2013 AI Instructional Design Assistant",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000005",
+        "LMS-SKL-000006",
+        "LMS-SKL-000008",
+        "LMS-SKL-000031",
+        "LMS-SKL-000032"
+      ],
+      "optional_skills": [
+        "AA-SKL-000150",
+        "AA-SKL-000163"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000059",
+      "gpt_name": "MichaelGPT \u2013 AI Technical Training Assistant",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000007",
+        "LMS-SKL-000008",
+        "LMS-SKL-000031"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000002",
+        "LMS-SKL-000028",
+        "AA-SKL-000150"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000060",
+      "gpt_name": "OmarGPT \u2013 AI Sales Training Assistant",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000005",
+        "LMS-SKL-000006",
+        "LMS-SKL-000008",
+        "LMS-SKL-000031"
+      ],
+      "optional_skills": [
+        "AA-SKL-000150"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000061",
+      "gpt_name": "SeanGPT \u2013 Global Tr. Analytics & Strategy Asst",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "LMS-SKL-000009",
+        "LMS-SKL-000020",
+        "LMS-SKL-000028",
+        "LMS-SKL-000030",
+        "LMS-SKL-000040"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000034",
+        "LMS-SKL-000035"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000062",
+      "gpt_name": "AdrianGPT \u2013 Strategic Training Director Assistant",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000020",
+        "LMS-SKL-000028",
+        "LMS-SKL-000029",
+        "LMS-SKL-000040"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000031"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000063",
+      "gpt_name": "JoeyGPT \u2013 Strategic Training Manager Assistant",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000020",
+        "LMS-SKL-000028",
+        "LMS-SKL-000029",
+        "LMS-SKL-000040"
+      ],
+      "optional_skills": [
+        "LMS-SKL-000006",
+        "LMS-SKL-000031"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000064",
+      "gpt_name": "Viral Ad Copy Builder",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000111",
+        "AA-SKL-000113",
+        "AA-SKL-000117",
+        "AA-SKL-000125",
+        "AA-SKL-000126"
+      ],
+      "optional_skills": [
+        "AA-SKL-000112"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000065",
+      "gpt_name": "Story Vision Assistant",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000128",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131",
+        "AA-SKL-000132",
+        "AA-SKL-000133"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000066",
+      "gpt_name": "AI Story Creator",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000128",
+        "AA-SKL-000129",
+        "AA-SKL-000130",
+        "AA-SKL-000131",
+        "AA-SKL-000132",
+        "AA-SKL-000133"
+      ],
+      "optional_skills": [
+        "AA-SKL-000135"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000067",
+      "gpt_name": "FanaticTechs Consulting Assistant",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000001",
+        "AA-SKL-000002",
+        "AA-SKL-000003",
+        "AA-SKL-000004",
+        "AA-SKL-000005",
+        "AA-SKL-000008",
+        "AA-SKL-000009",
+        "AA-SKL-000010"
+      ],
+      "optional_skills": [
+        "AA-SKL-000112"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000068",
+      "gpt_name": "FanaticBot \u2013 Marketing Concierge Assistant",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000108",
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000115",
+        "AA-SKL-000118",
+        "AA-SKL-000125",
+        "AA-SKL-000126"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000069",
+      "gpt_name": "Salon Suite Builder",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000107",
+        "AA-SKL-000111",
+        "AA-SKL-000112",
+        "AA-SKL-000122"
+      ],
+      "optional_skills": [
+        "AA-SKL-000117",
+        "AA-SKL-000125"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000070",
+      "gpt_name": "Sales Training Content Designer",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "LMS-SKL-000001",
+        "LMS-SKL-000005",
+        "LMS-SKL-000006",
+        "LMS-SKL-000008",
+        "LMS-SKL-000031"
+      ],
+      "optional_skills": [
+        "AA-SKL-000150"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000071",
+      "gpt_name": "Character Conductor",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000141",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000161",
+        "AA-SKL-000130"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000072",
+      "gpt_name": "Consistent Characters Remix",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000140",
+        "AA-SKL-000141",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000161",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000073",
+      "gpt_name": "Character Consistency Creator",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000140",
+        "AA-SKL-000141",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000161"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000074",
+      "gpt_name": "Finessed Avatars",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000075",
+      "gpt_name": "Avatar Art Lab",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000141",
+        "AA-SKL-000147",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000076",
+      "gpt_name": "Urban Vibes Designer",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000144",
+        "AA-SKL-000149",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000077",
+      "gpt_name": "Maestro Master",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000147",
+        "AA-SKL-000164",
+        "AA-SKL-000165",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000078",
+      "gpt_name": "Children's Best Selling Author",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000141",
+        "AA-SKL-000155",
+        "AA-SKL-000157"
+      ],
+      "optional_skills": [
+        "AA-SKL-000167"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000079",
+      "gpt_name": "Urban Novelist",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000127",
+        "AA-SKL-000128"
+      ],
+      "optional_skills": [
+        "AA-SKL-000130"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000080",
+      "gpt_name": "Perfect Prompter",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000050",
+        "AA-SKL-000051",
+        "AA-SKL-000052",
+        "AA-SKL-000053",
+        "AA-SKL-000054"
+      ],
+      "optional_skills": [
+        "AA-SKL-000055",
+        "AA-SKL-000056",
+        "AA-SKL-000167"
+      ],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000083",
+      "gpt_name": "DEPIC",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000140",
+        "AA-SKL-000159",
+        "AA-SKL-000160",
+        "AA-SKL-000166",
+        "AA-SKL-000171"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000084",
+      "gpt_name": "Handsome Men Generator",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000147",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000085",
+      "gpt_name": "Portrait Designer",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000141",
+        "AA-SKL-000147",
+        "AA-SKL-000164"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000086",
+      "gpt_name": "Adult Coloring Book",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000155",
+        "AA-SKL-000157",
+        "AA-SKL-000170"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000087",
+      "gpt_name": "PoserGenius Airbrush",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000147",
+        "AA-SKL-000159",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000088",
+      "gpt_name": "Perfect Oil",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000089",
+      "gpt_name": "High Fashion OIL IDG",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000149",
+        "AA-SKL-000156",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000090",
+      "gpt_name": "Airbrush IDGeneration",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000091",
+      "gpt_name": "EDM",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "MA-SKL-000010"
+      ],
+      "optional_skills": [],
+      "default_enhancements": []
+    },
+    {
+      "gpt_id": "AA-GPT-000092",
+      "gpt_name": "Perfect Airbrush",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000147",
+        "AA-SKL-000149",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": [],
+      "default_enhancements": [
+        "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+      ]
+    },
+    {
+      "gpt_id": "AA-GPT-000093",
+      "gpt_name": "OIL Chibi Muse",
+      "verification_status": "verified",
+      "evidence": "Curated reconciliation against the captured Builder configuration; only directly supported reusable capabilities are mapped.",
+      "required_skills": [
+        "AA-SKL-000138",
+        "AA-SKL-000139",
+        "AA-SKL-000140",
+        "AA-SKL-000148",
+        "AA-SKL-000159",
+        "AA-SKL-000164",
+        "AA-SKL-000166"
+      ],
+      "optional_skills": [],
       "default_enhancements": [
         "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
       ]

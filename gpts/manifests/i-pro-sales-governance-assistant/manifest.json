@@ -29,8 +29,18 @@
     "actions": []
   },
   "skills": {
-    "required": [],
-    "optional": [],
+    "required": [
+      "AA-SKL-000058",
+      "AA-SKL-000063",
+      "AA-SKL-000064",
+      "AA-SKL-000085",
+      "AA-SKL-000086"
+    ],
+    "optional": [
+      "AA-SKL-000111",
+      "AA-SKL-000121",
+      "AA-SKL-000126"
+    ],
     "default_enhancements": [
       "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
     ]
@@ -57,6 +67,7 @@
   },
   "version": "1.0.0",
   "change_log": [
-    "1.0.0 - Initial visible Builder configuration capture."
+    "1.0.0 - Initial visible Builder configuration capture.",
+    "1.0.0 - Applied curated GPT-to-SKILL reconciliation decision."
   ]
 }

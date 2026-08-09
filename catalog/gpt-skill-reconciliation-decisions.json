@@ -575,7 +575,7 @@
     {
       "gpt_id": "AA-GPT-000034",
       "name": "Systems Doc Agent (N541512)",
-      "decision": "partial-gap",
+      "decision": "verified",
       "required_skills": [
         "AA-SKL-000084",
         "AA-SKL-000077",
@@ -586,19 +586,30 @@
         "AA-SKL-000058",
         "AA-SKL-000063",
         "AA-SKL-000064",
-        "AA-SKL-000001"
+        "AA-SKL-000001",
+        "AA-SKL-000193",
+        "AA-SKL-000194",
+        "AA-SKL-000195",
+        "AA-SKL-000196",
+        "AA-SKL-000197",
+        "AA-SKL-000198",
+        "AA-SKL-000199",
+        "AA-SKL-000200",
+        "AA-SKL-000201",
+        "AA-SKL-000202",
+        "AA-SKL-000203",
+        "AA-SKL-000207"
       ],
       "optional_skills": [
         "LMS-SKL-000001",
         "AA-SKL-000094",
         "AA-SKL-000106"
-      ],
-      "gap": "Government functional requirements, BRD/FRD, functional system architecture, UAT, SOP, intake, and modernization documentation need a dedicated government documentation skill family."
+      ]
     },
     {
       "gpt_id": "AA-GPT-000035",
       "name": "Software Doc Agent ( N541511)",
-      "decision": "partial-gap",
+      "decision": "verified",
       "required_skills": [
         "AA-SKL-000084",
         "AA-SKL-000077",
@@ -608,12 +619,23 @@
         "AA-SKL-000057",
         "AA-SKL-000058",
         "AA-SKL-000067",
-        "AA-SKL-000074"
+        "AA-SKL-000074",
+        "AA-SKL-000193",
+        "AA-SKL-000194",
+        "AA-SKL-000195",
+        "AA-SKL-000196",
+        "AA-SKL-000197",
+        "AA-SKL-000198",
+        "AA-SKL-000199",
+        "AA-SKL-000201",
+        "AA-SKL-000203",
+        "AA-SKL-000207"
       ],
       "optional_skills": [
-        "LMS-SKL-000001"
-      ],
-      "gap": "Functional/software requirements, UAT, software SOP, intake, role-access, and nontechnical software documentation need dedicated reusable skills."
+        "LMS-SKL-000001",
+        "AA-SKL-000200",
+        "AA-SKL-000202"
+      ]
     },
     {
       "gpt_id": "AA-GPT-000036",
@@ -636,7 +658,7 @@
     {
       "gpt_id": "AA-GPT-000037",
       "name": "Master Admin Consultant (N541611)",
-      "decision": "partial-gap",
+      "decision": "verified",
       "required_skills": [
         "AA-SKL-000002",
         "AA-SKL-000077",
@@ -646,13 +668,21 @@
         "AA-SKL-000086",
         "AA-SKL-000057",
         "AA-SKL-000064",
-        "AA-SKL-000010"
+        "AA-SKL-000010",
+        "AA-SKL-000195",
+        "AA-SKL-000197",
+        "AA-SKL-000203",
+        "AA-SKL-000204",
+        "AA-SKL-000205",
+        "AA-SKL-000206",
+        "AA-SKL-000207"
       ],
       "optional_skills": [
         "AA-SKL-000106",
-        "LMS-SKL-000001"
-      ],
-      "gap": "Government administrative SOP, reporting, decision-matrix, routing/intake, meeting documentation, and audit-package skills need a dedicated administrative consulting family."
+        "LMS-SKL-000001",
+        "AA-SKL-000201",
+        "AA-SKL-000202"
+      ]
     },
     {
       "gpt_id": "AA-GPT-000038",

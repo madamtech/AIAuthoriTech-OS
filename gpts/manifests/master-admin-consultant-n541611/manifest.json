@@ -37,11 +37,20 @@
       "AA-SKL-000086",
       "AA-SKL-000057",
       "AA-SKL-000064",
-      "AA-SKL-000010"
+      "AA-SKL-000010",
+      "AA-SKL-000195",
+      "AA-SKL-000197",
+      "AA-SKL-000203",
+      "AA-SKL-000204",
+      "AA-SKL-000205",
+      "AA-SKL-000206",
+      "AA-SKL-000207"
     ],
     "optional": [
       "AA-SKL-000106",
-      "LMS-SKL-000001"
+      "LMS-SKL-000001",
+      "AA-SKL-000201",
+      "AA-SKL-000202"
     ],
     "default_enhancements": [
       "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
@@ -70,6 +79,7 @@
   "version": "1.0.0",
   "change_log": [
     "1.0.0 - Initial visible Builder configuration capture.",
-    "1.0.0 - Applied curated GPT-to-SKILL reconciliation decision."
+    "1.0.0 - Applied curated GPT-to-SKILL reconciliation decision.",
+    "1.0.0 - Reconciled against reusable Government Documentation skills."
   ]
 }

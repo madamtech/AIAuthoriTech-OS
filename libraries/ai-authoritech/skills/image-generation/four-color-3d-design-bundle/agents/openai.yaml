@@ -1,0 +1,4 @@
+interface:
+  display_name: "Four-Color 3D Design Bundle"
+  short_description: "Create ten slicer-ready four-color designs"
+  default_prompt: "Use $four-color-3d-design-bundle to create ten coordinated designs for my current project."

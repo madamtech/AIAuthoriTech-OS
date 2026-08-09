@@ -10620,6 +10620,14 @@
       "relationship": "depends_on",
       "target": "MA-SKL-000055",
       "required": true
-    }
+    },
+    {"source":"AA-SKL-000173","relationship":"depends_on","target":"AA-SKL-000160","required":true},
+    {"source":"AA-SKL-000173","relationship":"depends_on","target":"MA-SKL-000021","required":true},
+    {"source":"AA-SKL-000173","relationship":"depends_on","target":"MA-SKL-000031","required":true},
+    {"source":"AA-AGT-000002","relationship":"depends_on","target":"AA-SKL-000173","required":true},
+    {"source":"AA-AGT-000002","relationship":"depends_on","target":"AA-SKL-000168","required":true},
+    {"source":"AA-AGT-000002","relationship":"depends_on","target":"AA-SKL-000160","required":true},
+    {"source":"AA-AGT-000002","relationship":"depends_on","target":"MA-SKL-000021","required":true},
+    {"source":"AA-AGT-000002","relationship":"depends_on","target":"MA-SKL-000031","required":true}
   ]
 }

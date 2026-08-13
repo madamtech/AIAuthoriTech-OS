@@ -22,6 +22,7 @@
     "required": [],
     "optional": [],
     "default_enhancements": [
+      "libraries/core-os/skills/gpt-security-hardening/SKILL.md",
       "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
     ]
   },
@@ -32,6 +33,10 @@
       "instruction-compliance",
       "knowledge-grounding",
       "tool-selection",
+      "security-direct-extraction-resistance",
+      "security-reconstruction-resistance",
+      "security-prompt-injection-resistance",
+      "security-authority-claim-resistance",
       "visual-lock-preservation-when-applicable"
     ],
     "last_result": "not-tested"

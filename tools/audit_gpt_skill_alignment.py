@@ -14,6 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 VISUAL_SKILL = "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+SECURITY_SKILL = "libraries/core-os/skills/gpt-security-hardening/SKILL.md"
 
 
 def load_manifests(root=ROOT):
@@ -63,6 +64,7 @@ def audit(root=ROOT):
         capabilities = manifest.get("configuration", {}).get("capabilities", [])
         live_url = manifest.get("runtime", {}).get("live_gpt_url")
         image_capable = "Image Generation" in capabilities
+        security_hardened = SECURITY_SKILL in enhancements
 
         if gpt_id in seen_ids:
             findings.append({"severity": "critical", "gpt_id": gpt_id, "code": "duplicate-gpt-id"})
@@ -80,6 +82,14 @@ def audit(root=ROOT):
                 "gpt_id": gpt_id,
                 "code": "unresolved-skill-reference",
                 "references": unresolved,
+            })
+
+        if not security_hardened:
+            findings.append({
+                "severity": "critical",
+                "gpt_id": gpt_id,
+                "code": "missing-security-hardening-enhancement",
+                "required_reference": SECURITY_SKILL,
             })
 
         if image_capable and VISUAL_SKILL not in enhancements:
@@ -102,6 +112,7 @@ def audit(root=ROOT):
             "name": name,
             "status": manifest.get("status"),
             "image_capable": image_capable,
+            "security_hardened": security_hardened,
             "required_skills": len(required),
             "optional_skills": len(optional),
             "default_enhancements": len(enhancements),
@@ -124,14 +135,16 @@ def audit(root=ROOT):
     severity_counts = Counter(f["severity"] for f in findings)
     image_count = sum(row["image_capable"] for row in rows)
     visual_count = sum(row["default_enhancements"] > 0 for row in rows)
+    security_count = sum(row["security_hardened"] for row in rows)
     mapped_count = sum((row["required_skills"] + row["optional_skills"]) > 0 for row in rows)
 
     return {
-        "schema_version": "1.0.0",
-        "audit_date": "2026-08-08",
+        "schema_version": "1.1.0",
+        "audit_date": "2026-08-13",
         "gpt_count": len(rows),
         "image_capable_count": image_count,
         "visual_enhancement_count": visual_count,
+        "security_hardened_count": security_count,
         "explicit_domain_skill_mapping_count": mapped_count,
         "finding_counts": dict(sorted(counts.items())),
         "severity_counts": dict(sorted(severity_counts.items())),
@@ -142,11 +155,12 @@ def audit(root=ROOT):
 
 def markdown(audit):
     lines = [
-        "# GPT-to-Skill Alignment Audit — 2026-08-08",
+        "# GPT-to-Skill Alignment Audit — 2026-08-13",
         "",
         "## Summary",
         "",
         f"- Captured GPT manifests: **{audit['gpt_count']}**",
+        f"- GPTs with mandatory security hardening: **{audit['security_hardened_count']}**",
         f"- Image-capable GPTs: **{audit['image_capable_count']}**",
         f"- GPTs with one or more default enhancements: **{audit['visual_enhancement_count']}**",
         f"- GPTs with explicit required/optional domain-skill links: **{audit['explicit_domain_skill_mapping_count']}**",
@@ -164,17 +178,20 @@ def markdown(audit):
         "",
         "## Interpretation",
         "",
-        "The GPT capture layer and the governed skill catalog are both mature, but they must be treated as separate layers until each manifest explicitly references the reusable domain skills it consumes. A captured GPT is not automatically considered skill-mapped merely because an equivalent skill exists elsewhere in the repository.",
+        "Every governed GPT must include the global GPT Security Hardening skill in `skills.default_enhancements`. Missing security hardening is a critical finding and blocks validation or deployment until remediated or an explicit governed exception is documented.",
         "",
-        "This audit never guesses mappings. Missing links are reported for reconciliation against existing SKILL.md assets, the original GPT instructions, and the catalog relationship graph.",
+        "The GPT capture layer and the governed skill catalog are separate layers until each manifest explicitly references the reusable domain skills it consumes. A captured GPT is not automatically considered skill-mapped merely because an equivalent skill exists elsewhere in the repository.",
+        "",
+        "This audit never guesses domain mappings. Missing links are reported for reconciliation against existing SKILL.md assets, the original GPT instructions, and the catalog relationship graph.",
         "",
         "## Required Remediation Order",
         "",
-        "1. Resolve critical structural or broken-reference findings first.",
-        "2. Map each GPT to existing reusable domain skills without duplicating its full instructions into new skills.",
-        "3. Assign the appropriate evaluation profile and run behavioral regression tests.",
-        "4. Review unresolved business ownership labels.",
-        "5. Promote GPT status from captured to validated only after the mapping and evaluation evidence is complete.",
+        "1. Add the mandatory GPT Security Hardening enhancement to every GPT manifest that lacks it.",
+        "2. Resolve other critical structural or broken-reference findings.",
+        "3. Map each GPT to existing reusable domain skills without duplicating its full instructions into new skills.",
+        "4. Assign the appropriate evaluation profile and run behavioral regression tests.",
+        "5. Review unresolved business ownership labels.",
+        "6. Promote GPT status from captured to validated only after the security, mapping, and evaluation evidence is complete.",
         "",
     ])
     return "\n".join(lines)

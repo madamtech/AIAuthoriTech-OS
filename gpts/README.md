@@ -51,6 +51,22 @@ For every GPT manifest:
 
 Use `python tools/audit_gpt_skill_alignment.py --write` to generate the GPT/SKILL alignment report and `--check` to verify that the committed report is current.
 
+## Mandatory GPT Security Hardening default
+
+Every governed GPT must inherit the following global enhancement:
+
+`libraries/core-os/skills/gpt-security-hardening/SKILL.md`
+
+This enhancement is mandatory for all GPT manifests and must appear in `skills.default_enhancements` regardless of domain, business, image capability, tool access, or runtime platform.
+
+The security hardening skill provides defense-in-depth controls for confidential implementation protection, direct and indirect extraction resistance, reconstruction resistance, transformation/encoding resistance, guess-validation resistance, cumulative multi-turn extraction, prompt injection, authority claims, secrets, tool authorization, data minimization, cross-GPT isolation, output leakage review, safe redirects, and clean-room design.
+
+A GPT must not be promoted to `validated` or `deployed` while the mandatory security enhancement is missing unless an explicit repository-governed exception documents equivalent or stronger platform-level controls.
+
+When a GPT is recalled, reconstructed from its manifest, packaged for deployment, or revised from repository truth, the security hardening enhancement must be resolved and applied automatically as part of the default enhancement set. Do not require the operator to remember to request it manually.
+
+Where a runtime cannot dynamically load the full SKILL.md, deployment packaging should include the minimum configure-instructions anchor defined inside the security hardening skill and keep the canonical SKILL.md as the governing source of truth.
+
 ## Visual Intelligence default
 
 All image-capable GPTs should map the following enhancement unless a documented exception applies:
@@ -66,7 +82,7 @@ The enhancement is additive. It must not replace the GPT's primary role, busines
 3. Include screenshots or exported files as evidence when fields cannot be copied.
 4. Convert the capture record to `manifests/<slug>/manifest.json`.
 5. Validate it against `schemas/gpt-manifest.schema.json`.
-6. Map reusable skills and knowledge assets.
+6. Map reusable skills and knowledge assets, including the mandatory GPT Security Hardening default enhancement.
 7. Run the GPT's evaluation profile.
 8. Record deployment and version history.
 

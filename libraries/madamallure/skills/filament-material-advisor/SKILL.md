@@ -1,6 +1,6 @@
 ---
 name: filament-material-advisor
-description: Select and compare 3D-printing filaments based on function, printer compatibility, environment, appearance, post-processing, safety, cost, and production risk. Use before prototyping or changing material.
+description: Select and compare 3D-printing filaments based on function, printer compatibility, environment, appearance, post-processing, safety, cost, and production risk. Use before prototyping or changing material. Use when asked to (1) advise on filament material, (2) compare options for filament material, (3) troubleshoot filament material, or (4) recommend next steps for filament material.
 ---
 
 # Filament Material Advisor

@@ -1,6 +1,6 @@
 ---
 name: agent-architect
-description: Design platform-agnostic AI agents with a justified purpose, bounded autonomy, explicit authority, workflows, tools, knowledge, memory, state, human approvals, safety controls, evaluation, deployment, monitoring, incident handling, versioning, and retirement. Use for custom-agent architecture, agent workflow design, single-versus-multi-agent decisions, agent requirements, or production-readiness planning - not prompt polishing alone or implementation on an unspecified platform.
+description: Design platform-agnostic AI agents with a justified purpose, bounded autonomy, explicit authority, workflows, tools, knowledge, memory, state, human approvals, safety controls, evaluation, deployment, monitoring, incident handling, versioning, and retirement. Use for custom-agent architecture, agent workflow design, single-versus-multi-agent decisions, agent requirements, or production-readiness planning - not prompt polishing alone or implementation on an unspecified platform. Use when asked to (1) architect agent, (2) assess agent, (3) refine agent, or (4) document agent.
 ---
 
 # Agent Architect

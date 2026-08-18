@@ -1,0 +1,6 @@
+interface:
+  display_name: Grant Opportunity and Eligibility Assessor
+  short_description: Assess grant opportunity fit, eligibility, required...
+  default_prompt: Use $grant-opportunity-eligibility-assessor to assess grant opportunity
+    fit, eligibility, required evidence, deadlines, restrictions, and go/no-go readiness
+    using verified source material.

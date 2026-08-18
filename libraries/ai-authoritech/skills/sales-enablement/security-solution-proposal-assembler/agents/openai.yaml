@@ -1,0 +1,6 @@
+interface:
+  display_name: Security Solution Proposal Assembler
+  short_description: Assemble a clear customer- or partner-ready security...
+  default_prompt: Use $security-solution-proposal-assembler to assemble a clear customer-
+    or partner-ready security solution proposal from verified discovery, BOM, pricing,
+    recommendation logic, scope notes, alternates, and disclaimers.

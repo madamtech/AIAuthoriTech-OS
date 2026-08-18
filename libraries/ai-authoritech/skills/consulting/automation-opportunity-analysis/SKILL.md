@@ -1,6 +1,6 @@
 ---
 name: automation-opportunity-analysis
-description: Evaluate and prioritize automation opportunities from validated current-state workflows using evidence-backed value, feasibility, effort, data readiness, integration readiness, control, security, change, and operational-risk criteria. Use for automation portfolios, workflow improvement analysis, AI use-case screening, or deciding what to automate first—not for detailed solution architecture or automating an undocumented process.
+description: Evaluate and prioritize automation opportunities from validated current-state workflows using evidence-backed value, feasibility, effort, data readiness, integration readiness, control, security, change, and operational-risk criteria. Use for automation portfolios, workflow improvement analysis, AI use-case screening, or deciding what to automate first—not for detailed solution architecture or automating an undocumented process. Use when asked to (1) create automation opportunity analysis, (2) review automation opportunity analysis, (3) improve automation opportunity analysis, or (4) standardize automation opportunity analysis.
 ---
 
 # Automation Opportunity Analysis

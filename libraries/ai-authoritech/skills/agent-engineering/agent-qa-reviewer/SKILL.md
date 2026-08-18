@@ -1,6 +1,6 @@
 ---
 name: agent-qa-reviewer
-description: Independently evaluate an AI agent system against its approved architecture, instructions, knowledge, memory, tools, workflows, permissions, approvals, safety, security, reliability, performance, cost, observability, and operational controls. Use for pre-release QA, regression reviews, deployment gates, incident follow-up, or maturity assessment - not architecture design, implementation, or production approval without representative evidence.
+description: Independently evaluate an AI agent system against its approved architecture, instructions, knowledge, memory, tools, workflows, permissions, approvals, safety, security, reliability, performance, cost, observability, and operational controls. Use for pre-release QA, regression reviews, deployment gates, incident follow-up, or maturity assessment - not architecture design, implementation, or production approval without representative evidence. Use when asked to (1) review agent qa, (2) audit agent qa, (3) identify gaps in agent qa, or (4) recommend corrections to agent qa.
 ---
 
 # Agent QA Reviewer

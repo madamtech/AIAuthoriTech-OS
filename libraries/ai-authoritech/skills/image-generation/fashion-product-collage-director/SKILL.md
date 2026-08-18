@@ -1,6 +1,6 @@
 ---
 name: fashion-product-collage-director
-description: "Arrange supplied fashion products and outfits into clean advertisement-style collages without altering, duplicating, or omitting source items. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Arrange supplied fashion products and outfits into clean advertisement-style collages without altering, duplicating, or omitting source items. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) direct fashion product collage, (2) plan fashion product collage, (3) review fashion product collage, or (4) refine fashion product collage."
 ---
 # Fashion Product Collage Director
 

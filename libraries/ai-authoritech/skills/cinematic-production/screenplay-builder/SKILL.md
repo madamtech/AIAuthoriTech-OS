@@ -1,6 +1,6 @@
 ---
 name: screenplay-builder
-description: Convert an approved story, treatment, or beat sheet into a structured cinematic screenplay with scene headings, visual action, dialogue, pacing, transitions, and production awareness. Use for shorts, trailers, episodic scenes, branded films, and longer narrative scripts.
+description: Convert an approved story, treatment, or beat sheet into a structured cinematic screenplay with scene headings, visual action, dialogue, pacing, transitions, and production awareness. Use for shorts, trailers, episodic scenes, branded films, and longer narrative scripts. Use when asked to (1) build screenplay, (2) refine screenplay, (3) validate screenplay, or (4) standardize screenplay.
 ---
 
 # Screenplay Builder

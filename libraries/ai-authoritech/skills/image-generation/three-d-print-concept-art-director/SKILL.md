@@ -1,6 +1,6 @@
 ---
 name: three-d-print-concept-art-director
-description: "Design printable-object concepts that respect manufacturing constraints before CAD or sculpting begins. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Design printable-object concepts that respect manufacturing constraints before CAD or sculpting begins. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) direct three d print concept art, (2) plan three d print concept art, (3) review three d print concept art, or (4) refine three d print concept art."
 ---
 # 3D Print Concept Art Director
 

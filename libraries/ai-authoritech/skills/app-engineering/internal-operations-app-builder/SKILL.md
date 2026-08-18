@@ -1,6 +1,6 @@
 ---
 name: internal-operations-app-builder
-description: Convert validated internal workflows into build-ready operations-app specifications covering actors, work items, queues, states, assignments, approvals, service levels, exceptions, data ownership, integrations, automation, permissions, audit, dashboards, notifications, accessibility, migration, testing, deployment, and support. Use for case management, request intake, review queues, fulfillment, back-office administration, compliance operations, inventory workflows, or internal command centers - not to automate an unvalidated process, erase necessary controls, monitor employees covertly, or deploy without authorization.
+description: Convert validated internal workflows into build-ready operations-app specifications covering actors, work items, queues, states, assignments, approvals, service levels, exceptions, data ownership, integrations, automation, permissions, audit, dashboards, notifications, accessibility, migration, testing, deployment, and support. Use for case management, request intake, review queues, fulfillment, back-office administration, compliance operations, inventory workflows, or internal command centers - not to automate an unvalidated process, erase necessary controls, monitor employees covertly, or deploy without authorization. Use when asked to (1) build internal operations app, (2) refine internal operations app, (3) validate internal operations app, or (4) standardize internal operations app.
 ---
 
 # Internal Operations App Builder

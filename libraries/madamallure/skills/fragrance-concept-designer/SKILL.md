@@ -1,6 +1,6 @@
 ---
 name: fragrance-concept-designer
-description: Design fragrance product concepts with a clear audience, mood, note direction, format, story, packaging, and evaluation brief. Use before professional formulation, sourcing, safety review, and testing.
+description: Design fragrance product concepts with a clear audience, mood, note direction, format, story, packaging, and evaluation brief. Use before professional formulation, sourcing, safety review, and testing. Use when asked to (1) design fragrance concept, (2) revise fragrance concept, (3) compare options for fragrance concept, or (4) document specifications for fragrance concept.
 ---
 
 # Fragrance Concept Designer

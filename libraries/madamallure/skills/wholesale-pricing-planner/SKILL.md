@@ -1,6 +1,6 @@
 ---
 name: wholesale-pricing-planner
-description: Plan sustainable wholesale pricing using verified unit costs, labor, overhead, spoilage, fees, target and retailer margins, minimum orders, case packs, payment and freight terms, discounts, returns, lead times, and production capacity. Use before issuing wholesale price lists or binding quotes.
+description: Plan sustainable wholesale pricing using verified unit costs, labor, overhead, spoilage, fees, target and retailer margins, minimum orders, case packs, payment and freight terms, discounts, returns, lead times, and production capacity. Use before issuing wholesale price lists or binding quotes. Use when asked to (1) plan wholesale pricing, (2) revise wholesale pricing, (3) evaluate options for wholesale pricing, or (4) prepare implementation of wholesale pricing.
 ---
 
 # Wholesale Pricing Planner

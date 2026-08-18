@@ -1,6 +1,6 @@
 ---
 name: government-ai-incident-response-planner
-description: Plan government AI incident response for harmful outputs, discrimination, accessibility failures, privacy or security events, outages, drift, misuse, vendor failures, records issues, and control breakdowns. Use for authorized preparedness, exercises, or remediation. Do not conduct unauthorized investigations, disclose protected evidence, or return systems to service without accountable approval.
+description: Plan government AI incident response for harmful outputs, discrimination, accessibility failures, privacy or security events, outages, drift, misuse, vendor failures, records issues, and control breakdowns. Use for authorized preparedness, exercises, or remediation. Do not conduct unauthorized investigations, disclose protected evidence, or return systems to service without accountable approval. Use when asked to (1) plan government ai incident response, (2) revise government ai incident response, (3) evaluate options for government ai incident response, or (4) prepare implementation of government ai incident response.
 ---
 
 # Government AI Incident Response Planner

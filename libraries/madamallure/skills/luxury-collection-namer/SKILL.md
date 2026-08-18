@@ -1,6 +1,6 @@
 ---
 name: luxury-collection-namer
-description: Create distinctive, brand-aligned names for luxury products and collections using approved themes, audience, language, and naming constraints. Use when generating and screening naming directions before legal clearance.
+description: Create distinctive, brand-aligned names for luxury products and collections using approved themes, audience, language, and naming constraints. Use when generating and screening naming directions before legal clearance. Use when asked to (1) create luxury collection namer, (2) review luxury collection namer, (3) improve luxury collection namer, or (4) standardize luxury collection namer.
 ---
 
 # Luxury Collection Namer

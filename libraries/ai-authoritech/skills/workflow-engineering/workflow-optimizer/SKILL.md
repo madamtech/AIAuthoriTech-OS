@@ -1,6 +1,6 @@
 ---
 name: workflow-optimizer
-description: Redesign validated workflows to improve customer value, quality, cycle time, effort, capacity, controls, and resilience using evidence, root causes, constraints, and measurable experiments. Use after current-state discovery and before automation design. Do not optimize an unvalidated map, remove required controls, or claim benefits without baseline evidence.
+description: Redesign validated workflows to improve customer value, quality, cycle time, effort, capacity, controls, and resilience using evidence, root causes, constraints, and measurable experiments. Use after current-state discovery and before automation design. Do not optimize an unvalidated map, remove required controls, or claim benefits without baseline evidence. Use when asked to (1) optimize workflow, (2) diagnose workflow, (3) compare approaches for workflow, or (4) validate workflow.
 ---
 
 # Workflow Optimizer

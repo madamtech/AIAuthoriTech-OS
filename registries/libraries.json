@@ -19,5 +19,8 @@
   {"code":"GOV","name":"Government and Public Sector"},
   {"code":"OPS","name":"Business Operations"},
   {"code":"VIDEO","name":"Cinematic and Video Production"},
-  {"code":"IMG","name":"AI Image Generation and Visual Production"}
+  {"code":"IMG","name":"AI Image Generation and Visual Production"},
+  {"code":"GRANT","name":"Government Grants"},
+  {"code":"SALES","name":"Sales Enablement"},
+  {"code":"GOVDOC","name":"Government Documentation"}
 ]}

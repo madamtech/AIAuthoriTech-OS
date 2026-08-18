@@ -1,0 +1,7 @@
+interface:
+  display_name: Grant Narrative Architect
+  short_description: Architect a funder-aligned grant narrative from verified...
+  default_prompt: Use $grant-narrative-architect to architect a funder-aligned grant
+    narrative from verified applicant facts and solicitation requirements, covering
+    executive summary, organizational background, need, approach, outcomes, impact,
+    capacity, budget use, sustainability, and evaluation.

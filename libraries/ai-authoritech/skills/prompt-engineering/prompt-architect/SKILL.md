@@ -1,6 +1,6 @@
 ---
 name: prompt-architect
-description: Design governed, reusable, model- and platform-adaptable prompt contracts from approved tasks, policies, knowledge, tool authority, inputs, examples, and output needs. Define instruction layers, precedence, context assembly, variables, schemas, uncertainty behavior, tool boundaries, untrusted-content handling, safety controls, evaluation cases, versioning, and operational handoff. Use for production prompts, reusable prompt templates, AI features, assistants, classifiers, extractors, generators, and workflow steps - not to replace agent or application architecture, embed secrets or volatile knowledge, or claim quality without representative evaluation.
+description: Design governed, reusable, model- and platform-adaptable prompt contracts from approved tasks, policies, knowledge, tool authority, inputs, examples, and output needs. Define instruction layers, precedence, context assembly, variables, schemas, uncertainty behavior, tool boundaries, untrusted-content handling, safety controls, evaluation cases, versioning, and operational handoff. Use for production prompts, reusable prompt templates, AI features, assistants, classifiers, extractors, generators, and workflow steps - not to replace agent or application architecture, embed secrets or volatile knowledge, or claim quality without representative evaluation. Use when asked to (1) architect prompt, (2) assess prompt, (3) refine prompt, or (4) document prompt.
 ---
 
 # Prompt Architect

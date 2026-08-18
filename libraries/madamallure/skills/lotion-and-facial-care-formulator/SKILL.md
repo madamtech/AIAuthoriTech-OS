@@ -1,6 +1,6 @@
 ---
 name: lotion-and-facial-care-formulator
-description: Design percentage-based lotions, creams, emulsified body products, facial moisturizers, cleansers, masks, and related water-containing cosmetic formulas with controlled phases, pH targets, emulsification, preservation, botanical use, packaging, stability, and microbial testing. Use for MadamAllure lotion or facial-care formula development and reformulation - not medical treatment, sunscreen, sterile products, or production release without qualified safety and preservation evidence.
+description: Design percentage-based lotions, creams, emulsified body products, facial moisturizers, cleansers, masks, and related water-containing cosmetic formulas with controlled phases, pH targets, emulsification, preservation, botanical use, packaging, stability, and microbial testing. Use for MadamAllure lotion or facial-care formula development and reformulation - not medical treatment, sunscreen, sterile products, or production release without qualified safety and preservation evidence. Use when asked to (1) formulate lotion and facial care, (2) scale lotion and facial care, (3) revise lotion and facial care, or (4) troubleshoot lotion and facial care.
 ---
 
 # Lotion and Facial Care Formulator

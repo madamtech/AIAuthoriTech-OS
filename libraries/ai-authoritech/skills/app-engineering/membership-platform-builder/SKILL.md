@@ -1,6 +1,6 @@
 ---
 name: membership-platform-builder
-description: Create build-ready specifications for secure, accessible membership platforms covering audiences, member lifecycle, plans, entitlements, subscriptions, trials, onboarding, profiles, content, learning, events, community, moderation, notifications, support, analytics, retention, privacy, integrations, testing, deployment, and operations. Use for associations, paid communities, subscription content, professional networks, coaching programs, alumni groups, clubs, or hybrid memberships - not to invent policies, process raw payment credentials, provide tax advice, or deploy without authorization and verification.
+description: Create build-ready specifications for secure, accessible membership platforms covering audiences, member lifecycle, plans, entitlements, subscriptions, trials, onboarding, profiles, content, learning, events, community, moderation, notifications, support, analytics, retention, privacy, integrations, testing, deployment, and operations. Use for associations, paid communities, subscription content, professional networks, coaching programs, alumni groups, clubs, or hybrid memberships - not to invent policies, process raw payment credentials, provide tax advice, or deploy without authorization and verification. Use when asked to (1) build membership platform, (2) refine membership platform, (3) validate membership platform, or (4) standardize membership platform.
 ---
 
 # Membership Platform Builder

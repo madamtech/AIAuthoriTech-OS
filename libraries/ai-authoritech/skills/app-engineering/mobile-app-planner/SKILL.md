@@ -1,6 +1,6 @@
 ---
 name: mobile-app-planner
-description: Create build-ready plans for native, cross-platform, or installable mobile applications covering device journeys, platform choice, navigation, responsive and adaptive UX, accessibility, local storage, offline behavior, synchronization, permissions, sensors, notifications, deep links, security, privacy, performance, battery, testing, signing, store delivery, phased rollout, telemetry, updates, and support. Use for consumer, workforce, field, companion, or mobile-first apps - not to claim store approval, collect unnecessary device data, or deploy unsigned or unverified builds.
+description: Create build-ready plans for native, cross-platform, or installable mobile applications covering device journeys, platform choice, navigation, responsive and adaptive UX, accessibility, local storage, offline behavior, synchronization, permissions, sensors, notifications, deep links, security, privacy, performance, battery, testing, signing, store delivery, phased rollout, telemetry, updates, and support. Use for consumer, workforce, field, companion, or mobile-first apps - not to claim store approval, collect unnecessary device data, or deploy unsigned or unverified builds. Use when asked to (1) plan mobile app, (2) revise mobile app, (3) evaluate options for mobile app, or (4) prepare implementation of mobile app.
 ---
 
 # Mobile App Planner

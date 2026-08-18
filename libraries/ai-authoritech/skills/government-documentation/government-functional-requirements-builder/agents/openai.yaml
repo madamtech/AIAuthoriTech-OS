@@ -1,0 +1,7 @@
+interface:
+  display_name: Government Functional Requirements Builder
+  short_description: Create government-ready functional requirements documents...
+  default_prompt: Use $government-functional-requirements-builder to create government-ready
+    functional requirements documents that describe user-facing behavior, business
+    rules, roles, inputs, outputs, dependencies, and acceptance needs without drifting
+    into engineering design.

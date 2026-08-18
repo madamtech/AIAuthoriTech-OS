@@ -1,6 +1,6 @@
 ---
 name: exam-qa-reviewer
-description: Independently review an exam for blueprint coverage, answer validity, rationale and source support, clarity, cognitive alignment, fairness, accessibility, security, scoring, configuration, and platform readiness. Use after item development and before pilot or production release. Do not approve unsupported keys, conceal conflicts, or expose secure assessment content.
+description: Independently review an exam for blueprint coverage, answer validity, rationale and source support, clarity, cognitive alignment, fairness, accessibility, security, scoring, configuration, and platform readiness. Use after item development and before pilot or production release. Do not approve unsupported keys, conceal conflicts, or expose secure assessment content. Use when asked to (1) review exam qa, (2) audit exam qa, (3) identify gaps in exam qa, or (4) recommend corrections to exam qa.
 ---
 
 # Exam QA Reviewer

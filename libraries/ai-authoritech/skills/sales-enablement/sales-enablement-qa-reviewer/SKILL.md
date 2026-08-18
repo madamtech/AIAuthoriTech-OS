@@ -1,6 +1,6 @@
 ---
 name: sales-enablement-qa-reviewer
-description: Review sales briefs, meeting plans, account summaries, objection responses, quotes, proposals, and follow-ups for factual support, commercial governance, clarity, and readiness.
+description: Review sales briefs, meeting plans, account summaries, objection responses, quotes, proposals, and follow-ups for factual support, commercial governance, clarity, and readiness. Use when asked to (1) review sales enablement qa, (2) audit sales enablement qa, (3) identify gaps in sales enablement qa, or (4) recommend corrections to sales enablement qa.
 ---
 
 # Sales Enablement QA Reviewer

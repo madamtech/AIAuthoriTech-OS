@@ -1,6 +1,6 @@
 ---
 name: custom-product-designer
-description: Design personalized products that are desirable, manufacturable, cost-aware, and suitable for the intended use. Use when converting a customer idea into an approved product specification for 3D printing, laser work, crafting, or assembly.
+description: Design personalized products that are desirable, manufacturable, cost-aware, and suitable for the intended use. Use when converting a customer idea into an approved product specification for 3D printing, laser work, crafting, or assembly. Use when asked to (1) design custom product, (2) revise custom product, (3) compare options for custom product, or (4) document specifications for custom product.
 ---
 
 # Custom Product Designer

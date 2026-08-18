@@ -1,6 +1,6 @@
 ---
 name: app-testing-planner
-description: Create risk-based application test strategies, traceability matrices, environment and test-data plans, functional and nonfunctional coverage, automation boundaries, defect triage rules, release gates, and evidence requirements. Use when planning quality assurance for web, mobile, SaaS, internal, API-driven, AI-enabled, or vibe-coded applications before implementation, acceptance, migration, or release - not as proof that unexecuted tests passed or as a substitute for security, accessibility, privacy, or compliance specialists.
+description: Create risk-based application test strategies, traceability matrices, environment and test-data plans, functional and nonfunctional coverage, automation boundaries, defect triage rules, release gates, and evidence requirements. Use when planning quality assurance for web, mobile, SaaS, internal, API-driven, AI-enabled, or vibe-coded applications before implementation, acceptance, migration, or release - not as proof that unexecuted tests passed or as a substitute for security, accessibility, privacy, or compliance specialists. Use when asked to (1) plan app testing, (2) revise app testing, (3) evaluate options for app testing, or (4) prepare implementation of app testing.
 ---
 
 # App Testing Planner

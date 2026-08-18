@@ -1,0 +1,6 @@
+interface:
+  display_name: Discovery and Stakeholder Research Planner
+  short_description: Build role-aware discovery questions and stakeholder...
+  default_prompt: Use $discovery-and-stakeholder-research-planner to build role-aware
+    discovery questions and stakeholder research plans for sales opportunities without
+    presenting assumptions as customer facts.

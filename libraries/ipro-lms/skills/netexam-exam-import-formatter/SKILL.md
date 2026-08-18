@@ -1,6 +1,6 @@
 ---
 name: netexam-exam-import-formatter
-description: Convert approved exam items into a validated NetExam import package with supported fields, answer keys, rationales, categories, metadata, and encoding. Use after exam QA and before import into a NetExam environment.
+description: Convert approved exam items into a validated NetExam import package with supported fields, answer keys, rationales, categories, metadata, and encoding. Use after exam QA and before import into a NetExam environment. Use when asked to (1) create netexam exam import formatter, (2) review netexam exam import formatter, (3) improve netexam exam import formatter, or (4) standardize netexam exam import formatter.
 ---
 
 # NetExam Exam Import Formatter

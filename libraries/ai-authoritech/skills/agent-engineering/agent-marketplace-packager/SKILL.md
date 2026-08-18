@@ -1,6 +1,6 @@
 ---
 name: agent-marketplace-packager
-description: Convert a validated AI agent into a transparent, installable, supportable marketplace package with audience positioning, evidence-backed capability claims, prerequisites, dependencies, permissions, data and privacy disclosures, configuration, onboarding, evaluation evidence, licensing, pricing inputs, support, compatibility, release channels, updates, deprecation, and retirement. Use for internal catalogs, commercial marketplaces, client distribution, white-label packages, or solution bundles - not agent design, QA, deployment, legal approval, pricing authorization, or publishing without explicit permission.
+description: Convert a validated AI agent into a transparent, installable, supportable marketplace package with audience positioning, evidence-backed capability claims, prerequisites, dependencies, permissions, data and privacy disclosures, configuration, onboarding, evaluation evidence, licensing, pricing inputs, support, compatibility, release channels, updates, deprecation, and retirement. Use for internal catalogs, commercial marketplaces, client distribution, white-label packages, or solution bundles - not agent design, QA, deployment, legal approval, pricing authorization, or publishing without explicit permission. Use when asked to (1) create agent marketplace packager, (2) review agent marketplace packager, (3) improve agent marketplace packager, or (4) standardize agent marketplace packager.
 ---
 
 # Agent Marketplace Packager

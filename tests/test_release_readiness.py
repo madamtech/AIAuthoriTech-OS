@@ -14,10 +14,20 @@ class ReleaseReadinessTests(unittest.TestCase):
             data = json.loads(path.read_text(encoding="utf-8"))
             if isinstance(data, dict) and isinstance(data.get("assets"), list):
                 assets.extend(data["assets"])
-        evaluations = list((ROOT / "evaluations").rglob("*.json"))
-        maturity = list((ROOT / "catalog" / "maturity").glob("*.json"))
-        self.assertGreaterEqual(len(evaluations), len(assets))
-        self.assertEqual(len(maturity), len(assets))
+        evaluated_skus = {
+            json.loads(path.read_text(encoding="utf-8")).get("target_sku")
+            for path in (ROOT / "evaluations").rglob("*.json")
+        }
+        maturity_skus = {
+            json.loads(path.read_text(encoding="utf-8")).get("target_sku")
+            for path in (ROOT / "catalog" / "maturity").glob("*.json")
+        }
+        missing_evidence = sorted(
+            asset["sku"] for asset in assets if asset["asset_type"] == "SKL" and asset["sku"] not in evaluated_skus
+        )
+        self.assertEqual(missing_evidence, [], f"skills missing evaluation evidence: {missing_evidence}")
+        missing_decisions = sorted(asset["sku"] for asset in assets if asset["sku"] not in maturity_skus)
+        self.assertEqual(missing_decisions, [], f"assets missing maturity decisions: {missing_decisions}")
 
     def test_structural_audit_has_no_findings(self):
         audit = json.loads((ROOT / "reports" / "skill-catalog-audit.json").read_text(encoding="utf-8"))

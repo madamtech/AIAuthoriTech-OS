@@ -1,0 +1,7 @@
+interface:
+  display_name: Grant Proposal QA Reviewer
+  short_description: Review a grant application for requirement coverage,...
+  default_prompt: Use $grant-proposal-qa-reviewer to review a grant application for
+    requirement coverage, eligibility consistency, evidence quality, narrative coherence,
+    scoring alignment, budget traceability, outcomes logic, formatting limits, risk,
+    and submission readiness.

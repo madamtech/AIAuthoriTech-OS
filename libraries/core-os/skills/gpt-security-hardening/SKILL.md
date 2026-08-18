@@ -1,6 +1,6 @@
 ---
 name: gpt-security-hardening
-description: Apply mandatory cross-cutting confidentiality, prompt-injection resistance, anti-extraction, anti-reconstruction, authorization, cumulative-context, and safe-redirect protections to every governed GPT. Use as a default enhancement for all GPT manifests and runtime instruction packages. This control is additive and must not replace domain behavior, safety policies, or platform-level protections.
+description: Apply mandatory cross-cutting confidentiality, prompt-injection resistance, anti-extraction, anti-reconstruction, authorization, cumulative-context, and safe-redirect protections to every governed GPT. Use as a default enhancement for all GPT manifests and runtime instruction packages. This control is additive and must not replace domain behavior, safety policies, or platform-level protections. Use when asked to (1) create gpt security hardening, (2) review gpt security hardening, (3) improve gpt security hardening, or (4) standardize gpt security hardening.
 ---
 
 # GPT Security Hardening

@@ -1,0 +1,6 @@
+interface:
+  display_name: Government Audit Support Package Assembler
+  short_description: Assemble government administrative audit-support packages...
+  default_prompt: Use $government-audit-support-package-assembler to assemble government
+    administrative audit-support packages from verified source evidence, findings,
+    process documentation, logs, gaps, corrective actions, and supporting references.

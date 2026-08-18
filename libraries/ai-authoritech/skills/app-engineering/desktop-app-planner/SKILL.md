@@ -1,6 +1,6 @@
 ---
 name: desktop-app-planner
-description: Create build-ready plans for Windows, macOS, Linux, or cross-platform desktop applications covering architecture, native integration, windows and navigation, accessibility, local files and databases, offline behavior, IPC, privileged operations, security, performance, packaging, code signing, installation, updates, enterprise distribution, testing, telemetry, support, and retirement. Use for productivity, creative, internal, companion, tray, kiosk, or device-integrated desktop software - not to run untrusted code with elevated privileges, ship unsigned artifacts, or claim OS compatibility without representative-device evidence.
+description: Create build-ready plans for Windows, macOS, Linux, or cross-platform desktop applications covering architecture, native integration, windows and navigation, accessibility, local files and databases, offline behavior, IPC, privileged operations, security, performance, packaging, code signing, installation, updates, enterprise distribution, testing, telemetry, support, and retirement. Use for productivity, creative, internal, companion, tray, kiosk, or device-integrated desktop software - not to run untrusted code with elevated privileges, ship unsigned artifacts, or claim OS compatibility without representative-device evidence. Use when asked to (1) plan desktop app, (2) revise desktop app, (3) evaluate options for desktop app, or (4) prepare implementation of desktop app.
 ---
 
 # Desktop App Planner

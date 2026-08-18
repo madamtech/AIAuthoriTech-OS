@@ -1,0 +1,6 @@
+interface:
+  display_name: Government Use Case and User Story Builder
+  short_description: Convert government process and system needs into functional...
+  default_prompt: Use $government-use-case-and-user-story-builder to convert government
+    process and system needs into functional use cases and user stories with actors,
+    triggers, preconditions, flows, exceptions, outcomes, and acceptance context.

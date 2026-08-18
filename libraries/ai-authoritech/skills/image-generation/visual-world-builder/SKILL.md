@@ -1,6 +1,6 @@
 ---
 name: visual-world-builder
-description: "Create repeatable environments with consistent architecture, culture, technology, geography, palette, and physical rules. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Create repeatable environments with consistent architecture, culture, technology, geography, palette, and physical rules. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) build visual world, (2) refine visual world, (3) validate visual world, or (4) standardize visual world."
 ---
 # Visual World Builder
 

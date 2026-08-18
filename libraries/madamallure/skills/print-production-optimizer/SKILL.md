@@ -1,6 +1,6 @@
 ---
 name: print-production-optimizer
-description: Optimize repeatable 3D-print production for dimensional quality, surface finish, throughput, material use, labor, maintenance, yield, and controlled failure recovery. Use after a design has passed functional validation and a baseline printer, material batch, slicer profile, environment, measurement method, and acceptance threshold are available.
+description: Optimize repeatable 3D-print production for dimensional quality, surface finish, throughput, material use, labor, maintenance, yield, and controlled failure recovery. Use after a design has passed functional validation and a baseline printer, material batch, slicer profile, environment, measurement method, and acceptance threshold are available. Use when asked to (1) optimize print production, (2) diagnose print production, (3) compare approaches for print production, or (4) validate print production.
 ---
 
 # Print Production Optimizer

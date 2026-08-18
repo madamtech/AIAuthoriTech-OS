@@ -1,6 +1,6 @@
 ---
 name: agent-monitoring-and-optimization
-description: Design and operate evidence-driven production monitoring and controlled optimization for AI agents across business outcomes, task quality, safety, security, permissions, tool effects, workflows, knowledge, reliability, latency, cost, adoption, incidents, drift, and lifecycle health. Use for observability plans, service-level objectives, production reviews, incident follow-up, drift detection, experiment design, cost optimization, or continuous improvement - not initial architecture, deployment execution, or untested autonomous self-modification.
+description: Design and operate evidence-driven production monitoring and controlled optimization for AI agents across business outcomes, task quality, safety, security, permissions, tool effects, workflows, knowledge, reliability, latency, cost, adoption, incidents, drift, and lifecycle health. Use for observability plans, service-level objectives, production reviews, incident follow-up, drift detection, experiment design, cost optimization, or continuous improvement - not initial architecture, deployment execution, or untested autonomous self-modification. Use when asked to (1) create agent monitoring and optimization, (2) review agent monitoring and optimization, (3) improve agent monitoring and optimization, or (4) standardize agent monitoring and optimization.
 ---
 
 # Agent Monitoring and Optimization

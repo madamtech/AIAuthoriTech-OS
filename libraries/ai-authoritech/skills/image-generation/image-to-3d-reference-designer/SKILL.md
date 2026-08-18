@@ -1,6 +1,6 @@
 ---
 name: image-to-3d-reference-designer
-description: "Create images that are useful as modeling references for MakerLab, CAD, sculpting, or mesh generation rather than merely attractive concept art. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Create images that are useful as modeling references for MakerLab, CAD, sculpting, or mesh generation rather than merely attractive concept art. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) design image to 3d reference, (2) revise image to 3d reference, (3) compare options for image to 3d reference, or (4) document specifications for image to 3d reference."
 ---
 # Image-to-3D Reference Designer
 

@@ -1,6 +1,6 @@
 ---
 name: agent-workflow-builder
-description: Convert an approved agent architecture into durable, recoverable execution workflows with events, state, checkpoints, tool actions, approvals, resumability, concurrency, idempotency, retries, compensation, human and agent handoffs, completion evidence, and observability. Use for long-running agent workflows, tool-executing agents, human-in-the-loop orchestration, or multi-agent handoffs - not general business-process mapping or agent architecture.
+description: Convert an approved agent architecture into durable, recoverable execution workflows with events, state, checkpoints, tool actions, approvals, resumability, concurrency, idempotency, retries, compensation, human and agent handoffs, completion evidence, and observability. Use for long-running agent workflows, tool-executing agents, human-in-the-loop orchestration, or multi-agent handoffs - not general business-process mapping or agent architecture. Use when asked to (1) build agent workflow, (2) refine agent workflow, (3) validate agent workflow, or (4) standardize agent workflow.
 ---
 
 # Agent Workflow Builder

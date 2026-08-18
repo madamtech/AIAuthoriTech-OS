@@ -1,6 +1,6 @@
 ---
 name: mcp-integration-planner
-description: Design secure, version-aware Model Context Protocol integrations between AI hosts, clients, and servers covering capability selection, tools, resources, prompts, client features, lifecycle, transports, authorization, consent, schemas, identity, least privilege, data boundaries, side effects, progress, cancellation, errors, testing, observability, deployment, compatibility, and retirement. Use when exposing APIs, files, knowledge, workflows, or actions through MCP or connecting an application or agent to MCP servers - not to provision credentials, deploy unreviewed servers, expose generic privileged access, or assume draft protocol behavior is stable.
+description: Design secure, version-aware Model Context Protocol integrations between AI hosts, clients, and servers covering capability selection, tools, resources, prompts, client features, lifecycle, transports, authorization, consent, schemas, identity, least privilege, data boundaries, side effects, progress, cancellation, errors, testing, observability, deployment, compatibility, and retirement. Use when exposing APIs, files, knowledge, workflows, or actions through MCP or connecting an application or agent to MCP servers - not to provision credentials, deploy unreviewed servers, expose generic privileged access, or assume draft protocol behavior is stable. Use when asked to (1) plan mcp integration, (2) revise mcp integration, (3) evaluate options for mcp integration, or (4) prepare implementation of mcp integration.
 ---
 
 # MCP Integration Planner

@@ -1,6 +1,6 @@
 ---
 name: soundtrack-prompt-composer
-description: Compose original, production-ready prompts and cue briefs for cinematic soundtrack generation. Use when music must support story through emotional arc, timing, genre traits, instrumentation, tempo, rhythm, harmony, dynamics, structure, texture, transitions, and delivery constraints.
+description: Compose original, production-ready prompts and cue briefs for cinematic soundtrack generation. Use when music must support story through emotional arc, timing, genre traits, instrumentation, tempo, rhythm, harmony, dynamics, structure, texture, transitions, and delivery constraints. Use when asked to (1) create soundtrack prompt composer, (2) review soundtrack prompt composer, (3) improve soundtrack prompt composer, or (4) standardize soundtrack prompt composer.
 ---
 
 # Soundtrack Prompt Composer

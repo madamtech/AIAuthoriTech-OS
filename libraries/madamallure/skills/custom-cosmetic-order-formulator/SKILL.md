@@ -1,6 +1,6 @@
 ---
 name: custom-cosmetic-order-formulator
-description: Translate a MadamAllure custom body, bath, facial, lotion, soap, fragrance roll-on, or dry-oil request into a controlled formulation brief while screening intended use, allergies and sensitivities, natural-positioning preferences, fragrance limits, ingredient availability, packaging, testing, pricing, and approval. Use when adapting an approved base or developing a new custom formula - not medical personalization, allergy guarantees, one-off untested substitutions, or direct production without formula and safety review.
+description: Translate a MadamAllure custom body, bath, facial, lotion, soap, fragrance roll-on, or dry-oil request into a controlled formulation brief while screening intended use, allergies and sensitivities, natural-positioning preferences, fragrance limits, ingredient availability, packaging, testing, pricing, and approval. Use when adapting an approved base or developing a new custom formula - not medical personalization, allergy guarantees, one-off untested substitutions, or direct production without formula and safety review. Use when asked to (1) formulate custom cosmetic order, (2) scale custom cosmetic order, (3) revise custom cosmetic order, or (4) troubleshoot custom cosmetic order.
 ---
 
 # Custom Cosmetic Order Formulator

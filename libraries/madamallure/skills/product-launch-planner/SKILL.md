@@ -1,6 +1,6 @@
 ---
 name: product-launch-planner
-description: Plan coordinated MadamAllure product launches across readiness, production, inventory, pricing, content, ecommerce, marketing, fulfillment, support, and measurement. Use when launching a product, collection, or seasonal offer.
+description: Plan coordinated MadamAllure product launches across readiness, production, inventory, pricing, content, ecommerce, marketing, fulfillment, support, and measurement. Use when launching a product, collection, or seasonal offer. Use when asked to (1) plan product launch, (2) revise product launch, (3) evaluate options for product launch, or (4) prepare implementation of product launch.
 ---
 
 # Product Launch Planner

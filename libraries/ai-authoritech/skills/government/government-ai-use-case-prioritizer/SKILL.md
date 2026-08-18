@@ -1,6 +1,6 @@
 ---
 name: government-ai-use-case-prioritizer
-description: Prioritize government AI use cases using public value, mission fit, legal and policy authority, alternatives, feasibility, data readiness, safety, rights, equity, accessibility, cost, capacity, oversight, reversibility, and accountability. Use for evidence-based public-sector portfolios. Do not let weighted value override mandatory gates or treat missing evidence as low risk.
+description: Prioritize government AI use cases using public value, mission fit, legal and policy authority, alternatives, feasibility, data readiness, safety, rights, equity, accessibility, cost, capacity, oversight, reversibility, and accountability. Use for evidence-based public-sector portfolios. Do not let weighted value override mandatory gates or treat missing evidence as low risk. Use when asked to (1) create government ai use case prioritizer, (2) review government ai use case prioritizer, (3) improve government ai use case prioritizer, or (4) standardize government ai use case prioritizer.
 ---
 
 # Government AI Use Case Prioritizer

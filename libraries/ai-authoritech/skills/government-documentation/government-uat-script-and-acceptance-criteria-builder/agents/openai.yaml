@@ -1,0 +1,6 @@
+interface:
+  display_name: Government UAT Script and Acceptance Criteria Builder
+  short_description: Create functional user acceptance testing scripts,...
+  default_prompt: Use $government-uat-script-and-acceptance-criteria-builder to create
+    functional user acceptance testing scripts, scenarios, test data needs, expected
+    outcomes, traceability, and issue logging structures from approved requirements.

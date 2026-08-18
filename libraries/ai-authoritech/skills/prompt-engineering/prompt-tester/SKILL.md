@@ -1,6 +1,6 @@
 ---
 name: prompt-tester
-description: Design, execute, and report reproducible evaluations for canonical prompts and prompt candidates using representative datasets, deterministic assertions, calibrated rubrics, repeated runs, adversarial cases, segment analysis, and regression gates. Use to establish a prompt baseline, validate an optimization, compare versions or adapters, investigate failures, or decide whether a prompt can advance. Do not use to author the prompt contract, optimize from test leakage, or certify production readiness beyond the evidence tested.
+description: Design, execute, and report reproducible evaluations for canonical prompts and prompt candidates using representative datasets, deterministic assertions, calibrated rubrics, repeated runs, adversarial cases, segment analysis, and regression gates. Use to establish a prompt baseline, validate an optimization, compare versions or adapters, investigate failures, or decide whether a prompt can advance. Do not use to author the prompt contract, optimize from test leakage, or certify production readiness beyond the evidence tested. Use when asked to (1) create prompt tester, (2) review prompt tester, (3) improve prompt tester, or (4) standardize prompt tester.
 ---
 
 # Prompt Tester

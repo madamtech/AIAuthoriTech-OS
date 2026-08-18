@@ -1,0 +1,6 @@
+interface:
+  display_name: Sales Voice and Communication Adapter
+  short_description: Adapt sales communications to a defined representative,...
+  default_prompt: Use $sales-voice-and-communication-adapter to adapt sales communications
+    to a defined representative, audience, channel, and context while preserving factual
+    accuracy, governance, and the original business intent.

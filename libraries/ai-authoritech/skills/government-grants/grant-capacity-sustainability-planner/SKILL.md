@@ -1,6 +1,6 @@
 ---
 name: grant-capacity-sustainability-planner
-description: Build credible organizational-capacity and post-grant sustainability narratives using verified experience, systems, partnerships, staffing, revenue, adoption, and continuation strategies. Do not invent partners, commitments, certifications, funding pipelines, or organizational history.
+description: Build credible organizational-capacity and post-grant sustainability narratives using verified experience, systems, partnerships, staffing, revenue, adoption, and continuation strategies. Do not invent partners, commitments, certifications, funding pipelines, or organizational history. Use when asked to (1) plan grant capacity sustainability, (2) revise grant capacity sustainability, (3) evaluate options for grant capacity sustainability, or (4) prepare implementation of grant capacity sustainability.
 ---
 
 # Grant Capacity and Sustainability Planner

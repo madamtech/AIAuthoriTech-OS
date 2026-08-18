@@ -1,6 +1,6 @@
 ---
 name: government-ai-pilot-evaluator
-description: Independently evaluate government AI pilots against approved hypotheses, baselines, mission outcomes, safety, civil rights, equity, accessibility, privacy, security, operations, human workload, lifecycle cost, vendor performance, and governance gates. Use for scale, redesign, extension, limitation, or stop decisions. Do not generalize beyond the pilot population or let sunk cost override stop rules.
+description: Independently evaluate government AI pilots against approved hypotheses, baselines, mission outcomes, safety, civil rights, equity, accessibility, privacy, security, operations, human workload, lifecycle cost, vendor performance, and governance gates. Use for scale, redesign, extension, limitation, or stop decisions. Do not generalize beyond the pilot population or let sunk cost override stop rules. Use when asked to (1) create government ai pilot evaluator, (2) review government ai pilot evaluator, (3) improve government ai pilot evaluator, or (4) standardize government ai pilot evaluator.
 ---
 
 # Government AI Pilot Evaluator

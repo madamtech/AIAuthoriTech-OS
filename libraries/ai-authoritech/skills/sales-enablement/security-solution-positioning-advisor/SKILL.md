@@ -1,6 +1,6 @@
 ---
 name: security-solution-positioning-advisor
-description: Translate verified security requirements and approved product information into restrained solution positioning, comparisons, use cases, and sales talking points.
+description: Translate verified security requirements and approved product information into restrained solution positioning, comparisons, use cases, and sales talking points. Use when asked to (1) advise on security solution positioning, (2) compare options for security solution positioning, (3) troubleshoot security solution positioning, or (4) recommend next steps for security solution positioning.
 ---
 
 # Security Solution Positioning Advisor

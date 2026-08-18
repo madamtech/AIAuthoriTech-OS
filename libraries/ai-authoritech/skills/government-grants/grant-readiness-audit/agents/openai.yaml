@@ -1,0 +1,6 @@
+interface:
+  display_name: Grant Readiness Auditor
+  short_description: Run a structured grant-readiness audit across mission fit,...
+  default_prompt: Use $grant-readiness-audit to run a structured grant-readiness audit
+    across mission fit, organizational capacity, community need, outcomes, evidence,
+    partnerships, financial readiness, sustainability, evaluation, and documentation.

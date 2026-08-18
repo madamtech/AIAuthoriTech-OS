@@ -1,0 +1,6 @@
+interface:
+  display_name: Government Meeting and Action Record Builder
+  short_description: Convert government meetings, interviews, and working...
+  default_prompt: Use $government-meeting-and-action-record-builder to convert government
+    meetings, interviews, and working sessions into neutral summaries, decisions,
+    action items, owners, due dates, risks, open questions, and follow-up records.

@@ -1,6 +1,6 @@
 ---
 name: process-standardization-reviewer
-description: Determine which process elements should be standardized and which local, regulatory, customer, product, language, accessibility, or risk-driven variations must remain. Use across teams, regions, systems, or business units before consolidation or automation. Do not force uniformity that degrades outcomes, violates obligations, or hides legitimate differences.
+description: Determine which process elements should be standardized and which local, regulatory, customer, product, language, accessibility, or risk-driven variations must remain. Use across teams, regions, systems, or business units before consolidation or automation. Do not force uniformity that degrades outcomes, violates obligations, or hides legitimate differences. Use when asked to (1) review process standardization, (2) audit process standardization, (3) identify gaps in process standardization, or (4) recommend corrections to process standardization.
 ---
 
 # Process Standardization Reviewer

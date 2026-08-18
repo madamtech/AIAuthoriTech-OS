@@ -1,6 +1,6 @@
 ---
 name: certification-renewal-manager
-description: Define and operationalize certification renewal, expiration, grace, reinstatement, reminders, exceptions, and audit controls by translating approved policy into explicit dates, statuses, learner actions, communications, LMS behavior, monitoring, and test cases. Use for credential lifecycle design or remediation. Do not infer policy from system behavior or silently change credentials.
+description: Define and operationalize certification renewal, expiration, grace, reinstatement, reminders, exceptions, and audit controls by translating approved policy into explicit dates, statuses, learner actions, communications, LMS behavior, monitoring, and test cases. Use for credential lifecycle design or remediation. Do not infer policy from system behavior or silently change credentials. Use when asked to (1) manage certification renewal, (2) review certification renewal, (3) resolve issues in certification renewal, or (4) improve certification renewal.
 ---
 
 # Certification Renewal Manager

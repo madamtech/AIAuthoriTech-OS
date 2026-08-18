@@ -9,15 +9,15 @@ DECISIONS = ROOT / "catalog" / "gpt-skill-reconciliation-decisions.json"
 
 EXPECTED = {
     "AA-SKL-000181": "sales-meeting-strategy-planner",
-    "AA-SKL-000182": "discovery-stakeholder-research-planner",
-    "AA-SKL-000183": "account-partner-health-reviewer",
-    "AA-SKL-000184": "renewal-expansion-planner",
+    "AA-SKL-000182": "discovery-and-stakeholder-research-planner",
+    "AA-SKL-000183": "account-and-partner-health-reviewer",
+    "AA-SKL-000184": "renewal-and-expansion-planner",
     "AA-SKL-000185": "sales-objection-handling-coach",
     "AA-SKL-000186": "security-solution-positioning-advisor",
-    "AA-SKL-000187": "sales-demo-recap-follow-up-builder",
-    "AA-SKL-000188": "sales-voice-communication-adapter",
+    "AA-SKL-000187": "sales-demo-recap-and-follow-up-builder",
+    "AA-SKL-000188": "sales-voice-and-communication-adapter",
     "AA-SKL-000189": "security-solution-bom-architect",
-    "AA-SKL-000190": "quote-pricing-approval-controller",
+    "AA-SKL-000190": "quote-pricing-and-approval-controller",
     "AA-SKL-000191": "security-solution-proposal-assembler",
     "AA-SKL-000192": "sales-enablement-qa-reviewer",
 }

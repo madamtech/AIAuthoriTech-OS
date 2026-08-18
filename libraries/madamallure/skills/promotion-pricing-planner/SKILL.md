@@ -1,6 +1,6 @@
 ---
 name: promotion-pricing-planner
-description: Plan profitable promotions using product costs, margins, inventory, objectives, audience, channels, discount mechanics, and operational capacity. Use before publishing sales, bundles, coupons, or limited offers.
+description: Plan profitable promotions using product costs, margins, inventory, objectives, audience, channels, discount mechanics, and operational capacity. Use before publishing sales, bundles, coupons, or limited offers. Use when asked to (1) plan promotion pricing, (2) revise promotion pricing, (3) evaluate options for promotion pricing, or (4) prepare implementation of promotion pricing.
 ---
 
 # Promotion Pricing Planner

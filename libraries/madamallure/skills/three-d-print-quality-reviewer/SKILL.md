@@ -1,6 +1,6 @@
 ---
 name: three-d-print-quality-reviewer
-description: Review finished 3D prints for dimensional accuracy, strength indicators, surface quality, assembly, finish, and repeatability. Use before approving prototypes or production batches.
+description: Review finished 3D prints for dimensional accuracy, strength indicators, surface quality, assembly, finish, and repeatability. Use before approving prototypes or production batches. Use when asked to (1) review three d print quality, (2) audit three d print quality, (3) identify gaps in three d print quality, or (4) recommend corrections to three d print quality.
 ---
 
 # Three D Print Quality Reviewer

@@ -1,6 +1,6 @@
 ---
 name: grant-goals-outcomes-evaluation-designer
-description: Design grant goals, objectives, outputs, outcomes, indicators, baselines, targets, data collection, learning loops, and evaluation plans that are proportional to the project and supported by available capacity. Do not promise impossible outcomes or fabricate baselines.
+description: Design grant goals, objectives, outputs, outcomes, indicators, baselines, targets, data collection, learning loops, and evaluation plans that are proportional to the project and supported by available capacity. Do not promise impossible outcomes or fabricate baselines. Use when asked to (1) design grant goals outcomes evaluation, (2) revise grant goals outcomes evaluation, (3) compare options for grant goals outcomes evaluation, or (4) document specifications for grant goals outcomes evaluation.
 ---
 
 # Grant Goals, Outcomes, and Evaluation Designer

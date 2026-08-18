@@ -1,6 +1,6 @@
 ---
 name: automation-blueprint-builder
-description: Convert an approved current-state workflow and automation opportunity into an implementation-ready blueprint covering scope, triggers, steps, decisions, data, systems, controls, exceptions, human approvals, testing, operations, and acceptance. Use after workflow discovery and prioritization, before platform-specific implementation. Do not automate an unvalidated process or authorize external actions.
+description: Convert an approved current-state workflow and automation opportunity into an implementation-ready blueprint covering scope, triggers, steps, decisions, data, systems, controls, exceptions, human approvals, testing, operations, and acceptance. Use after workflow discovery and prioritization, before platform-specific implementation. Do not automate an unvalidated process or authorize external actions. Use when asked to (1) build automation blueprint, (2) refine automation blueprint, (3) validate automation blueprint, or (4) standardize automation blueprint.
 ---
 
 # Automation Blueprint Builder

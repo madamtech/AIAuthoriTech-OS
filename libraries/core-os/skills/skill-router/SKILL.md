@@ -1,6 +1,6 @@
 ---
 name: skill-router
-description: Select the smallest sufficient route for a request from registered skills, workflows, knowledge packs, tools, direct response, skill creation, skill review, human escalation, or unsupported outcomes. Use when capability selection is ambiguous, several assets may apply, a workflow may be required, or duplicate skill creation must be prevented. Do not use merely to execute an already unambiguous selected skill.
+description: Select the smallest sufficient route for a request from registered skills, workflows, knowledge packs, tools, direct response, skill creation, skill review, human escalation, or unsupported outcomes. Use when capability selection is ambiguous, several assets may apply, a workflow may be required, or duplicate skill creation must be prevented. Do not use merely to execute an already unambiguous selected skill. Use when asked to (1) create skill router, (2) review skill router, (3) improve skill router, or (4) standardize skill router.
 ---
 
 # Skill Router

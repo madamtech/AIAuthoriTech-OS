@@ -1,6 +1,6 @@
 ---
 name: laser-engraving-project-planner
-description: Plan safe laser engraving and cutting projects from artwork and material selection through test grids, production, finishing, and inspection. Use when preparing personalized or repeatable laser products.
+description: Plan safe laser engraving and cutting projects from artwork and material selection through test grids, production, finishing, and inspection. Use when preparing personalized or repeatable laser products. Use when asked to (1) plan laser engraving project, (2) revise laser engraving project, (3) evaluate options for laser engraving project, or (4) prepare implementation of laser engraving project.
 ---
 
 # Laser Engraving Project Planner

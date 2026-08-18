@@ -1,6 +1,6 @@
 ---
 name: character-bible-reference-sheet
-description: "Create a complete character specification that supports consistent generation, animation, illustration, campaign use, and future GPT workflows. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Create a complete character specification that supports consistent generation, animation, illustration, campaign use, and future GPT workflows. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create character bible reference sheet, (2) review character bible reference sheet, (3) improve character bible reference sheet, or (4) standardize character bible reference sheet."
 ---
 # Character Bible and Reference Sheet Designer
 

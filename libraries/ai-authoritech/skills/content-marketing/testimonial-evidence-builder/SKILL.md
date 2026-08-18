@@ -1,6 +1,6 @@
 ---
 name: testimonial-evidence-builder
-description: Create authorized testimonials from verified customer feedback while preserving meaning, attribution, permissions, and claims boundaries. Use for AI AuthoriTech or authorized client marketing work.
+description: Create authorized testimonials from verified customer feedback while preserving meaning, attribution, permissions, and claims boundaries. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) build testimonial evidence, (2) refine testimonial evidence, (3) validate testimonial evidence, or (4) standardize testimonial evidence.
 ---
 
 # Testimonial Evidence Builder

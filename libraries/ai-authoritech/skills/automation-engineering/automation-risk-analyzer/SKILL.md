@@ -1,6 +1,6 @@
 ---
 name: automation-risk-analyzer
-description: Analyze automation risks across business decisions, data, security, privacy, integrations, reliability, fraud, compliance, vendors, human oversight, operations, and change. Use during prioritization, architecture, implementation, release, or review to produce evidence-linked scenarios, controls, owners, residual risk, and acceptance decisions. Do not provide unsupported compliance certification.
+description: Analyze automation risks across business decisions, data, security, privacy, integrations, reliability, fraud, compliance, vendors, human oversight, operations, and change. Use during prioritization, architecture, implementation, release, or review to produce evidence-linked scenarios, controls, owners, residual risk, and acceptance decisions. Do not provide unsupported compliance certification. Use when asked to (1) analyze automation risk, (2) diagnose automation risk, (3) compare automation risk, or (4) summarize findings about automation risk.
 ---
 
 # Automation Risk Analyzer

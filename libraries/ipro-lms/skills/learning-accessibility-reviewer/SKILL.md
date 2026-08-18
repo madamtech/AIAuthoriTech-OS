@@ -1,6 +1,6 @@
 ---
 name: learning-accessibility-reviewer
-description: Review learning content and LMS experiences for accessible structure, keyboard use, focus, contrast, text alternatives, captions, transcripts, forms, timing, language, and assistive-technology compatibility. Use before release or when remediating accessibility barriers.
+description: Review learning content and LMS experiences for accessible structure, keyboard use, focus, contrast, text alternatives, captions, transcripts, forms, timing, language, and assistive-technology compatibility. Use before release or when remediating accessibility barriers. Use when asked to (1) review learning accessibility, (2) audit learning accessibility, (3) identify gaps in learning accessibility, or (4) recommend corrections to learning accessibility.
 ---
 
 # Learning Accessibility Reviewer

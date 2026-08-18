@@ -1,6 +1,6 @@
 ---
 name: prompt-library-manager
-description: Govern a reusable prompt library through canonical metadata, business SKUs, ownership, taxonomy, search terms, duplicate detection, dependencies, access classification, approval state, maturity, usage evidence, lifecycle review, and catalog integrity. Use when registering, inventorying, organizing, finding, consolidating, auditing, deprecating, or reporting on prompt assets and adapters. Do not author prompt behavior, mutate released versions, infer approval from presence in the catalog, or replace repository-level version control.
+description: Govern a reusable prompt library through canonical metadata, business SKUs, ownership, taxonomy, search terms, duplicate detection, dependencies, access classification, approval state, maturity, usage evidence, lifecycle review, and catalog integrity. Use when registering, inventorying, organizing, finding, consolidating, auditing, deprecating, or reporting on prompt assets and adapters. Do not author prompt behavior, mutate released versions, infer approval from presence in the catalog, or replace repository-level version control. Use when asked to (1) manage prompt library, (2) review prompt library, (3) resolve issues in prompt library, or (4) improve prompt library.
 ---
 
 # Prompt Library Manager

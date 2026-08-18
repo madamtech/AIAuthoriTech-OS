@@ -1,6 +1,6 @@
 ---
 name: logo-typography-fidelity
-description: "Protect exact logos, lettering, wordmarks, monograms, spelling, capitalization, and signature letterforms in generated or edited visuals. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Protect exact logos, lettering, wordmarks, monograms, spelling, capitalization, and signature letterforms in generated or edited visuals. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create logo typography fidelity, (2) review logo typography fidelity, (3) improve logo typography fidelity, or (4) standardize logo typography fidelity."
 ---
 # Logo and Typography Fidelity Controller
 

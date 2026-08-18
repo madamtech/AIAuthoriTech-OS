@@ -1,6 +1,6 @@
 ---
 name: marketplace-builder
-description: Create build-ready specifications for trusted multi-sided marketplaces covering participants, onboarding, verification, listings, catalog, search, matching, pricing, availability, transactions, fulfillment, payments and payouts, fees, refunds, disputes, reviews, moderation, fraud controls, support, analytics, compliance boundaries, integrations, testing, deployment, and operations. Use for product, service, talent, digital-asset, agent, app, skill, or B2B marketplaces - not to determine legal classification, custody funds directly, guarantee provider quality, or deploy without authorization and specialist review.
+description: Create build-ready specifications for trusted multi-sided marketplaces covering participants, onboarding, verification, listings, catalog, search, matching, pricing, availability, transactions, fulfillment, payments and payouts, fees, refunds, disputes, reviews, moderation, fraud controls, support, analytics, compliance boundaries, integrations, testing, deployment, and operations. Use for product, service, talent, digital-asset, agent, app, skill, or B2B marketplaces - not to determine legal classification, custody funds directly, guarantee provider quality, or deploy without authorization and specialist review. Use when asked to (1) build marketplace, (2) refine marketplace, (3) validate marketplace, or (4) standardize marketplace.
 ---
 
 # Marketplace Builder

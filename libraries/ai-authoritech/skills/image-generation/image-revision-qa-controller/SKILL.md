@@ -1,6 +1,6 @@
 ---
 name: image-revision-qa-controller
-description: "Turn feedback into precise correction passes and prevent repeated mistakes, regressions, and false claims of completion. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Turn feedback into precise correction passes and prevent repeated mistakes, regressions, and false claims of completion. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) control image revision qa, (2) reconcile image revision qa, (3) audit image revision qa, or (4) plan image revision qa."
 ---
 # Image Revision and QA Controller
 

@@ -1,6 +1,6 @@
 ---
 name: vibe-coding-solution-architect
-description: Convert an app or website idea into a build-ready, platform-neutral solution architecture and staged prompt-driven implementation plan covering users, outcomes, scope, UX, data, authentication, authorization, integrations, AI features, workflows, security, privacy, accessibility, testing, observability, deployment, portability, cost, and maintenance. Use before building with Lovable, Bolt, Replit, v0, Firebase Studio, Cursor, Windsurf, Claude Code, Codex, or similar AI coding tools - not for implementing unspecified requirements or treating generated code as production-ready without review.
+description: Convert an app or website idea into a build-ready, platform-neutral solution architecture and staged prompt-driven implementation plan covering users, outcomes, scope, UX, data, authentication, authorization, integrations, AI features, workflows, security, privacy, accessibility, testing, observability, deployment, portability, cost, and maintenance. Use before building with Lovable, Bolt, Replit, v0, Firebase Studio, Cursor, Windsurf, Claude Code, Codex, or similar AI coding tools - not for implementing unspecified requirements or treating generated code as production-ready without review. Use when asked to (1) architect vibe coding solution, (2) assess vibe coding solution, (3) refine vibe coding solution, or (4) document vibe coding solution.
 ---
 
 # Vibe Coding Solution Architect

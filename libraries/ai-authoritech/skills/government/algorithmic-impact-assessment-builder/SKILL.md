@@ -1,6 +1,6 @@
 ---
 name: algorithmic-impact-assessment-builder
-description: Build an evidence-based algorithmic impact assessment for proposed, piloted, deployed, or materially changed public-sector AI systems, covering authority, alternatives, affected people, rights, equity, accessibility, privacy, security, safety, transparency, oversight, recourse, vendors, and lifecycle. Use for authorized impact review. Do not certify legality, conceal uncertainty, or let system owners accept their own severe residual risks.
+description: Build an evidence-based algorithmic impact assessment for proposed, piloted, deployed, or materially changed public-sector AI systems, covering authority, alternatives, affected people, rights, equity, accessibility, privacy, security, safety, transparency, oversight, recourse, vendors, and lifecycle. Use for authorized impact review. Do not certify legality, conceal uncertainty, or let system owners accept their own severe residual risks. Use when asked to (1) build algorithmic impact assessment, (2) refine algorithmic impact assessment, (3) validate algorithmic impact assessment, or (4) standardize algorithmic impact assessment.
 ---
 
 # Algorithmic Impact Assessment Builder

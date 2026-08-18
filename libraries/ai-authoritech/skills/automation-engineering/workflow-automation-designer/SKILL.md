@@ -1,6 +1,6 @@
 ---
 name: workflow-automation-designer
-description: Translate a validated automation blueprint into an executable platform-neutral workflow design with triggers, nodes, state, branches, loops, approvals, integrations, retries, compensation, observability, tests, deployment, and support. Use before implementation in n8n or another orchestrator. Do not redesign the business process silently or bypass human authority.
+description: Translate a validated automation blueprint into an executable platform-neutral workflow design with triggers, nodes, state, branches, loops, approvals, integrations, retries, compensation, observability, tests, deployment, and support. Use before implementation in n8n or another orchestrator. Do not redesign the business process silently or bypass human authority. Use when asked to (1) design workflow automation, (2) revise workflow automation, (3) compare options for workflow automation, or (4) document specifications for workflow automation.
 ---
 
 # Workflow Automation Designer

@@ -1,6 +1,6 @@
 ---
 name: workflow-governance-reviewer
-description: Independently review workflow governance for purpose, ownership, decision rights, controls, data, access, documentation, metrics, changes, exceptions, incidents, vendors, continuity, evidence, and lifecycle. Use before release, material change, automation, audit response, or periodic recertification. Do not claim compliance from policy documents alone.
+description: Independently review workflow governance for purpose, ownership, decision rights, controls, data, access, documentation, metrics, changes, exceptions, incidents, vendors, continuity, evidence, and lifecycle. Use before release, material change, automation, audit response, or periodic recertification. Do not claim compliance from policy documents alone. Use when asked to (1) review workflow governance, (2) audit workflow governance, (3) identify gaps in workflow governance, or (4) recommend corrections to workflow governance.
 ---
 
 # Workflow Governance Reviewer

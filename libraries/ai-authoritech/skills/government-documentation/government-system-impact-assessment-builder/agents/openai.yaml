@@ -1,0 +1,7 @@
+interface:
+  display_name: Government System Impact Assessment Builder
+  short_description: Build functional system or process impact assessments...
+  default_prompt: Use $government-system-impact-assessment-builder to build functional
+    system or process impact assessments covering affected users, workflows, policies
+    supplied by the agency, data handling, training, operations, dependencies, risks,
+    and readiness actions.

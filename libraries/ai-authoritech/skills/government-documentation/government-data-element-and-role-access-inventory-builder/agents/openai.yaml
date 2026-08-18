@@ -1,0 +1,6 @@
+interface:
+  display_name: Government Data Element and Role Access Inventory Builder
+  short_description: Document administrative data elements and role-based access...
+  default_prompt: Use $government-data-element-and-role-access-inventory-builder to document
+    administrative data elements and role-based access needs at a functional level
+    without designing databases, identity systems, or security architecture.

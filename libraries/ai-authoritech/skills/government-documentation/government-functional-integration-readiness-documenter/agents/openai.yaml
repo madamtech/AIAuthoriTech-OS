@@ -1,0 +1,7 @@
+interface:
+  display_name: Government Functional Integration Readiness Documenter
+  short_description: Assess and document functional integration readiness through...
+  default_prompt: Use $government-functional-integration-readiness-documenter to assess
+    and document functional integration readiness through business interactions, information
+    exchanges, ownership, dependencies, constraints, and unresolved decisions without
+    producing technical integration design.

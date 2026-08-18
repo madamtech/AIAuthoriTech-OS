@@ -1,6 +1,6 @@
 ---
 name: government-ai-audit-evidence-builder
-description: Assemble traceable evidence for authorized audits or reviews of government AI systems, controls, decisions, vendors, and outcomes. Use for authorized government or public-institution AI governance and oversight work.
+description: Assemble traceable evidence for authorized audits or reviews of government AI systems, controls, decisions, vendors, and outcomes. Use for authorized government or public-institution AI governance and oversight work. Use when asked to (1) build government ai audit evidence, (2) refine government ai audit evidence, (3) validate government ai audit evidence, or (4) standardize government ai audit evidence.
 ---
 
 # Government Ai Audit Evidence Builder

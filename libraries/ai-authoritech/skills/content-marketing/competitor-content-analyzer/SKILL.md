@@ -1,6 +1,6 @@
 ---
 name: competitor-content-analyzer
-description: Analyze publicly available competitor content for positioning, audience, topics, formats, proof, distribution, gaps, and differentiation opportunities. Use for AI AuthoriTech or authorized client marketing work.
+description: Analyze publicly available competitor content for positioning, audience, topics, formats, proof, distribution, gaps, and differentiation opportunities. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) analyze competitor content, (2) diagnose competitor content, (3) compare competitor content, or (4) summarize findings about competitor content.
 ---
 
 # Competitor Content Analyzer

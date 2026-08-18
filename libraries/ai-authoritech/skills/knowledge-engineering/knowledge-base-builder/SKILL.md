@@ -1,6 +1,6 @@
 ---
 name: knowledge-base-builder
-description: Design governed, retrieval-ready knowledge bases for AI agents and applications by defining scope, source authority, ownership, permissions, provenance, taxonomy, metadata, content transformation, chunking, indexing, retrieval, citation, freshness, conflict resolution, evaluation, monitoring, and retirement. Use for RAG knowledge planning, agent knowledge packs, enterprise search collections, or migration from document dumps - not for agent instructions, unauthorized ingestion, or claiming source accuracy without validation.
+description: Design governed, retrieval-ready knowledge bases for AI agents and applications by defining scope, source authority, ownership, permissions, provenance, taxonomy, metadata, content transformation, chunking, indexing, retrieval, citation, freshness, conflict resolution, evaluation, monitoring, and retirement. Use for RAG knowledge planning, agent knowledge packs, enterprise search collections, or migration from document dumps - not for agent instructions, unauthorized ingestion, or claiming source accuracy without validation. Use when asked to (1) build knowledge base, (2) refine knowledge base, (3) validate knowledge base, or (4) standardize knowledge base.
 ---
 
 # Knowledge Base Builder

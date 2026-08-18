@@ -1,0 +1,6 @@
+interface:
+  display_name: Grant Need and Community Impact Builder
+  short_description: Build evidence-grounded grant problem statements,...
+  default_prompt: Use $grant-need-impact-builder to build evidence-grounded grant
+    problem statements, target-population narratives, need justification, community/public
+    value, and impact logic.

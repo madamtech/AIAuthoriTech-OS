@@ -1,6 +1,6 @@
 ---
 name: inventory-replenishment-planner
-description: Plan inventory replenishment for materials, packaging, components, and finished products using demand, lead time, safety stock, shelf life, capacity, and cash constraints. Use for purchasing and stock-risk decisions.
+description: Plan inventory replenishment for materials, packaging, components, and finished products using demand, lead time, safety stock, shelf life, capacity, and cash constraints. Use for purchasing and stock-risk decisions. Use when asked to (1) plan inventory replenishment, (2) revise inventory replenishment, (3) evaluate options for inventory replenishment, or (4) prepare implementation of inventory replenishment.
 ---
 
 # Inventory Replenishment Planner

@@ -1,6 +1,6 @@
 ---
 name: webinar-content-planner
-description: Plan educational webinars with clear outcomes, evidence, narrative, interaction, accessibility, promotion, delivery, and follow-up. Use for AI AuthoriTech or authorized client marketing work.
+description: Plan educational webinars with clear outcomes, evidence, narrative, interaction, accessibility, promotion, delivery, and follow-up. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) plan webinar content, (2) revise webinar content, (3) evaluate options for webinar content, or (4) prepare implementation of webinar content.
 ---
 
 # Webinar Content Planner

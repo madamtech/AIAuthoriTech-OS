@@ -1,6 +1,6 @@
 ---
 name: ui-ux-prompt-builder
-description: Translate approved product requirements, user journeys, brand guidance, content, and technical constraints into precise UI/UX prompts for AI design and coding tools, covering information architecture, layout, components, content hierarchy, interaction, responsive behavior, accessibility, realistic data, system states, validation, protected design decisions, and review criteria. Use for generating or revising websites, dashboards, portals, SaaS interfaces, mobile views, prototypes, or design systems - not requirements discovery, brand invention, production implementation, or replacing usability and accessibility validation.
+description: Translate approved product requirements, user journeys, brand guidance, content, and technical constraints into precise UI/UX prompts for AI design and coding tools, covering information architecture, layout, components, content hierarchy, interaction, responsive behavior, accessibility, realistic data, system states, validation, protected design decisions, and review criteria. Use for generating or revising websites, dashboards, portals, SaaS interfaces, mobile views, prototypes, or design systems - not requirements discovery, brand invention, production implementation, or replacing usability and accessibility validation. Use when asked to (1) build ui ux prompt, (2) refine ui ux prompt, (3) validate ui ux prompt, or (4) standardize ui ux prompt.
 ---
 
 # UI/UX Prompt Builder

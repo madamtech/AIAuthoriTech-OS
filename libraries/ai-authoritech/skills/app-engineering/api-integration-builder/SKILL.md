@@ -1,6 +1,6 @@
 ---
 name: api-integration-builder
-description: Design secure, reliable application-to-application integrations with explicit source-of-truth ownership, API and event contracts, authentication, authorization, field mapping, validation, idempotency, pagination, webhooks, ordering, rate limits, retries, partial success, reconciliation, observability, testing, versioning, migration, and recovery. Use for REST, GraphQL, webhooks, event streams, SaaS connectors, internal APIs, and data synchronization - not undocumented screen scraping, credential provisioning, production execution, or assuming third-party behavior without current documentation and tests.
+description: Design secure, reliable application-to-application integrations with explicit source-of-truth ownership, API and event contracts, authentication, authorization, field mapping, validation, idempotency, pagination, webhooks, ordering, rate limits, retries, partial success, reconciliation, observability, testing, versioning, migration, and recovery. Use for REST, GraphQL, webhooks, event streams, SaaS connectors, internal APIs, and data synchronization - not undocumented screen scraping, credential provisioning, production execution, or assuming third-party behavior without current documentation and tests. Use when asked to (1) build api integration, (2) refine api integration, (3) validate api integration, or (4) standardize api integration.
 ---
 
 # API Integration Builder

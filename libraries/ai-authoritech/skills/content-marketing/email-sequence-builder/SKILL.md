@@ -1,6 +1,6 @@
 ---
 name: email-sequence-builder
-description: Build permission-based email sequences aligned to audience lifecycle, value, offer, timing, brand voice, suppression, and measurement. Use for AI AuthoriTech or authorized client marketing work.
+description: Build permission-based email sequences aligned to audience lifecycle, value, offer, timing, brand voice, suppression, and measurement. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) build email sequence, (2) refine email sequence, (3) validate email sequence, or (4) standardize email sequence.
 ---
 
 # Email Sequence Builder

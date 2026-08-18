@@ -1,0 +1,51 @@
+{
+  "evaluation_id": "EV-20260817-AA-SKL-000178",
+  "target_sku": "AA-SKL-000178",
+  "target_version": "1.0.0",
+  "executed_at": "2026-08-17T00:00:00-05:00",
+  "evaluator": "deterministic skill package structural evaluation",
+  "test_cases": [
+    {
+      "id": "frontmatter-identity",
+      "scenario": "Validate the skill package identity and YAML frontmatter.",
+      "expected": "The folder name, frontmatter name, and description constraints agree.",
+      "observed": "Identity and frontmatter are valid.",
+      "status": "pass"
+    },
+    {
+      "id": "trigger-coverage",
+      "scenario": "Inspect automatic invocation metadata.",
+      "expected": "The description contains four numbered, purpose-aligned trigger contexts.",
+      "observed": "Four numbered trigger contexts are present.",
+      "status": "pass"
+    },
+    {
+      "id": "interface-metadata",
+      "scenario": "Validate the Codex UI metadata.",
+      "expected": "Display name, short description, and an explicit $skill default prompt are present.",
+      "observed": "UI metadata is complete and names the skill.",
+      "status": "pass"
+    },
+    {
+      "id": "resource-integrity",
+      "scenario": "Resolve local Markdown resources referenced by SKILL.md.",
+      "expected": "Every local linked resource exists within the skill package.",
+      "observed": "All local resource links resolve.",
+      "status": "pass"
+    },
+    {
+      "id": "catalog-identity",
+      "scenario": "Compare the catalog record with the skill package location and type.",
+      "expected": "Catalog path and asset classification match the package.",
+      "observed": "Catalog identity matches the package.",
+      "status": "pass"
+    }
+  ],
+  "result": "pass",
+  "critical_failures": [],
+  "evidence_files": [
+    "libraries/ai-authoritech/skills/government-grants/grant-budget-narrative-builder/SKILL.md",
+    "libraries/ai-authoritech/skills/government-grants/grant-budget-narrative-builder/agents/openai.yaml",
+    "catalog/assets.json"
+  ]
+}

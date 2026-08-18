@@ -1,0 +1,6 @@
+interface:
+  display_name: Grant Capacity and Sustainability Planner
+  short_description: Build credible organizational-capacity and post-grant...
+  default_prompt: Use $grant-capacity-sustainability-planner to build credible organizational-capacity
+    and post-grant sustainability narratives using verified experience, systems, partnerships,
+    staffing, revenue, adoption, and continuation strategies.

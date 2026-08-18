@@ -1,6 +1,6 @@
 ---
 name: material-surface-rendering
-description: "Render metals, plastics, glass, fabric, paper, skin, wood, stone, coatings, and printed surfaces with believable physical behavior. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Render metals, plastics, glass, fabric, paper, skin, wood, stone, coatings, and printed surfaces with believable physical behavior. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create material surface rendering, (2) review material surface rendering, (3) improve material surface rendering, or (4) standardize material surface rendering."
 ---
 # Material and Surface Rendering Specialist
 

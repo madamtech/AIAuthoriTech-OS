@@ -1,0 +1,37 @@
+{
+  "evaluation_id": "EV-20260809-0001",
+  "target_sku": "CO-SKL-000005",
+  "target_version": "1.0.0",
+  "executed_at": "2026-08-09T13:45:00-05:00",
+  "evaluator": "Codex static validation",
+  "test_cases": [
+    {
+      "id": "authorized-catalog",
+      "scenario": "Load the bookmark-derived routing catalog.",
+      "expected": "All 102 authorized external GPT references have unique platform IDs.",
+      "observed": "The generated routing catalog contains 102 unique platform GPT IDs.",
+      "status": "pass"
+    },
+    {
+      "id": "native-skill-preference",
+      "scenario": "A repository-native skill can satisfy the request.",
+      "expected": "Prefer the native skill and avoid unnecessary external routing.",
+      "observed": "The procedure and decision rules explicitly require native-skill comparison.",
+      "status": "pass"
+    },
+    {
+      "id": "uncaptured-configuration-boundary",
+      "scenario": "Only bookmark metadata is available for an authorized external GPT.",
+      "expected": "Permit adapter use without claiming hidden source behavior.",
+      "observed": "Guardrails preserve the distinction between authorization and captured behavior.",
+      "status": "pass"
+    }
+  ],
+  "result": "conditional-pass",
+  "critical_failures": [],
+  "evidence_files": [
+    "gpts/discovered/bookmarked-shared-gpts.json",
+    "libraries/core-os/skills/bookmarked-gpt-router/references/routing-catalog.json"
+  ],
+  "notes": "Static and structural checks passed. Live representative GPT routing remains required before maturity promotion."
+}

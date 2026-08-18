@@ -1,6 +1,6 @@
 ---
 name: custom-order-planner
-description: Plan personalized customer orders from intake and proof approval through production, quality control, delivery, and closure. Use for orders with names, images, sizing, materials, colors, deadlines, or other custom choices.
+description: Plan personalized customer orders from intake and proof approval through production, quality control, delivery, and closure. Use for orders with names, images, sizing, materials, colors, deadlines, or other custom choices. Use when asked to (1) plan custom order, (2) revise custom order, (3) evaluate options for custom order, or (4) prepare implementation of custom order.
 ---
 
 # Custom Order Planner

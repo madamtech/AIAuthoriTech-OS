@@ -1,6 +1,6 @@
 ---
 name: human-in-the-loop-designer
-description: Design meaningful human review, approval, intervention, override, escalation, and appeal within automated or AI-assisted workflows, including authority, evidence, workload, timing, interfaces, competence, audit, and effectiveness metrics. Use where risk or policy requires accountable judgment. Do not use ceremonial review or shift impossible monitoring burdens to people.
+description: Design meaningful human review, approval, intervention, override, escalation, and appeal within automated or AI-assisted workflows, including authority, evidence, workload, timing, interfaces, competence, audit, and effectiveness metrics. Use where risk or policy requires accountable judgment. Do not use ceremonial review or shift impossible monitoring burdens to people. Use when asked to (1) design human in the loop, (2) revise human in the loop, (3) compare options for human in the loop, or (4) document specifications for human in the loop.
 ---
 
 # Human-in-the-Loop Designer

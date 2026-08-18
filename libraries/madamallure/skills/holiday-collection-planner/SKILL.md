@@ -1,6 +1,6 @@
 ---
 name: holiday-collection-planner
-description: Plan seasonal and holiday MadamAllure collections across theme, assortment, customization, production, inventory, packaging, merchandising, marketing, and shipping cutoffs. Use for time-bound gift seasons.
+description: Plan seasonal and holiday MadamAllure collections across theme, assortment, customization, production, inventory, packaging, merchandising, marketing, and shipping cutoffs. Use for time-bound gift seasons. Use when asked to (1) plan holiday collection, (2) revise holiday collection, (3) evaluate options for holiday collection, or (4) prepare implementation of holiday collection.
 ---
 
 # Holiday Collection Planner

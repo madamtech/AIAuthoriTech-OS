@@ -1,6 +1,6 @@
 ---
 name: technical-instructional-visualizer
-description: "Create accurate visuals for training, procedures, interfaces, equipment, process explanation, and technical communication. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Create accurate visuals for training, procedures, interfaces, equipment, process explanation, and technical communication. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create technical instructional visualizer, (2) review technical instructional visualizer, (3) improve technical instructional visualizer, or (4) standardize technical instructional visualizer."
 ---
 # Technical and Instructional Visualizer
 

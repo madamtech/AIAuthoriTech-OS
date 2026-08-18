@@ -1,6 +1,6 @@
 ---
 name: public-sector-ai-implementation-planner
-description: Plan accountable public-sector AI implementation from approved use case through requirements, impact review, procurement, design, testing, pilot, deployment, monitoring, change, incident response, and retirement. Use for authorized government implementation planning. Do not authorize procurement or deployment, bypass mandatory gates, or treat plans as completed work.
+description: Plan accountable public-sector AI implementation from approved use case through requirements, impact review, procurement, design, testing, pilot, deployment, monitoring, change, incident response, and retirement. Use for authorized government implementation planning. Do not authorize procurement or deployment, bypass mandatory gates, or treat plans as completed work. Use when asked to (1) plan public sector ai implementation, (2) revise public sector ai implementation, (3) evaluate options for public sector ai implementation, or (4) prepare implementation of public sector ai implementation.
 ---
 
 # Public Sector AI Implementation Planner

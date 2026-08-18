@@ -1,6 +1,6 @@
 ---
 name: government-documentation-qa-reviewer
-description: Review government functional and administrative documents for template integrity, factual support, plain language, consistency, traceability, role accuracy, scope boundaries, missing information, and review readiness.
+description: Review government functional and administrative documents for template integrity, factual support, plain language, consistency, traceability, role accuracy, scope boundaries, missing information, and review readiness. Use when asked to (1) review government documentation qa, (2) audit government documentation qa, (3) identify gaps in government documentation qa, or (4) recommend corrections to government documentation qa.
 ---
 
 # Government Documentation QA Reviewer

@@ -1,6 +1,6 @@
 ---
 name: visual-asset-governance-manager
-description: "Control ownership, naming, versions, approvals, source references, brand use, lifecycle, and reuse of visual assets. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Control ownership, naming, versions, approvals, source references, brand use, lifecycle, and reuse of visual assets. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) manage visual asset governance, (2) review visual asset governance, (3) resolve issues in visual asset governance, or (4) improve visual asset governance."
 ---
 # Visual Asset Governance Manager
 

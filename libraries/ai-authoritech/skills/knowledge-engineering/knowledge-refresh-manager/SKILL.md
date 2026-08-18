@@ -1,6 +1,6 @@
 ---
 name: knowledge-refresh-manager
-description: Plan and control knowledge freshness through source monitoring, change detection, validity windows, risk-based refresh schedules, re-extraction, revalidation, reindexing, cache invalidation, consumer notification, and rollback. Use to prevent stale knowledge in bases, search, graphs, and RAG systems. Do not overwrite released knowledge without provenance, impact analysis, validation, and recovery.
+description: Plan and control knowledge freshness through source monitoring, change detection, validity windows, risk-based refresh schedules, re-extraction, revalidation, reindexing, cache invalidation, consumer notification, and rollback. Use to prevent stale knowledge in bases, search, graphs, and RAG systems. Do not overwrite released knowledge without provenance, impact analysis, validation, and recovery. Use when asked to (1) manage knowledge refresh, (2) review knowledge refresh, (3) resolve issues in knowledge refresh, or (4) improve knowledge refresh.
 ---
 
 # Knowledge Refresh Manager

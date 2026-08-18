@@ -1,6 +1,6 @@
 ---
 name: email-campaign-builder
-description: Build branded MadamAllure email campaigns with approved audience, offer, product facts, copy, design direction, links, accessibility, and measurement. Use for launches, seasonal promotions, education, and customer nurturing.
+description: Build branded MadamAllure email campaigns with approved audience, offer, product facts, copy, design direction, links, accessibility, and measurement. Use for launches, seasonal promotions, education, and customer nurturing. Use when asked to (1) build email campaign, (2) refine email campaign, (3) validate email campaign, or (4) standardize email campaign.
 ---
 
 # Email Campaign Builder

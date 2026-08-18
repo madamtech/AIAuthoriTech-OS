@@ -1,6 +1,6 @@
 ---
 name: roi-calculator
-description: Build evidence-backed, scenario-based business cases for AI, automation, and digital initiatives by modeling baseline economics, implementation and operating costs, adoption-adjusted benefits, cash-flow timing, risk, payback, ROI, NPV, break-even, and sensitivity. Use for investment comparisons, roadmap funding, pilot-to-production decisions, proposals, or benefits tracking - not accounting certification, tax advice, securities advice, or fabricated financial precision.
+description: Build evidence-backed, scenario-based business cases for AI, automation, and digital initiatives by modeling baseline economics, implementation and operating costs, adoption-adjusted benefits, cash-flow timing, risk, payback, ROI, NPV, break-even, and sensitivity. Use for investment comparisons, roadmap funding, pilot-to-production decisions, proposals, or benefits tracking - not accounting certification, tax advice, securities advice, or fabricated financial precision. Use when asked to (1) calculate roi, (2) compare roi, (3) forecast roi, or (4) verify roi.
 ---
 
 # ROI Calculator

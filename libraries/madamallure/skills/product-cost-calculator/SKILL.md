@@ -1,6 +1,6 @@
 ---
 name: product-cost-calculator
-description: Calculate full product cost and pricing inputs for handmade, customized, 3D-printed, laser-cut, beauty, or bundled products. Use when estimating quotes, margins, wholesale pricing, or launch viability.
+description: Calculate full product cost and pricing inputs for handmade, customized, 3D-printed, laser-cut, beauty, or bundled products. Use when estimating quotes, margins, wholesale pricing, or launch viability. Use when asked to (1) calculate product cost, (2) compare product cost, (3) forecast product cost, or (4) verify product cost.
 ---
 
 # Product Cost Calculator

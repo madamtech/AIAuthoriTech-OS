@@ -1,6 +1,6 @@
 ---
 name: cinematic-shot-list-builder
-description: Convert an approved screenplay and storyboard into a production-ready cinematic shot list covering narrative purpose, subject, framing, angle, lens intent, camera movement, lighting, audio, timing, continuity, and dependencies. Use for live action, animation, virtual production, or generative video planning.
+description: Convert an approved screenplay and storyboard into a production-ready cinematic shot list covering narrative purpose, subject, framing, angle, lens intent, camera movement, lighting, audio, timing, continuity, and dependencies. Use for live action, animation, virtual production, or generative video planning. Use when asked to (1) build cinematic shot list, (2) refine cinematic shot list, (3) validate cinematic shot list, or (4) standardize cinematic shot list.
 ---
 
 # Cinematic Shot List Builder

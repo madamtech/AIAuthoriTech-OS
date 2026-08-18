@@ -1,6 +1,6 @@
 ---
 name: client-portal-builder
-description: Create build-ready specifications and staged implementation plans for secure, accessible client portals covering tenant boundaries, onboarding, identity, permissions, dashboards, projects, tasks, documents, messages, approvals, billing views, support, notifications, integrations, audit, data lifecycle, responsive UX, testing, deployment, and operations. Use for consulting, agency, professional-services, customer-success, partner, or account portals - not to invent business processes, expose internal-only data, process live payments, or deploy without authorization and verification.
+description: Create build-ready specifications and staged implementation plans for secure, accessible client portals covering tenant boundaries, onboarding, identity, permissions, dashboards, projects, tasks, documents, messages, approvals, billing views, support, notifications, integrations, audit, data lifecycle, responsive UX, testing, deployment, and operations. Use for consulting, agency, professional-services, customer-success, partner, or account portals - not to invent business processes, expose internal-only data, process live payments, or deploy without authorization and verification. Use when asked to (1) build client portal, (2) refine client portal, (3) validate client portal, or (4) standardize client portal.
 ---
 
 # Client Portal Builder

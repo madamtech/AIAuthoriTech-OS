@@ -1,6 +1,6 @@
 ---
 name: automation-cost-estimator
-description: Estimate transparent lifecycle costs for automation discovery, design, licensing, development, integration, data, security, testing, migration, training, operations, support, incidents, vendors, scaling, and retirement. Use for budgets, option comparisons, ROI inputs, and approvals. Do not present uncertain estimates as commitments or omit ongoing and risk-adjusted costs.
+description: Estimate transparent lifecycle costs for automation discovery, design, licensing, development, integration, data, security, testing, migration, training, operations, support, incidents, vendors, scaling, and retirement. Use for budgets, option comparisons, ROI inputs, and approvals. Do not present uncertain estimates as commitments or omit ongoing and risk-adjusted costs. Use when asked to (1) create automation cost estimator, (2) review automation cost estimator, (3) improve automation cost estimator, or (4) standardize automation cost estimator.
 ---
 
 # Automation Cost Estimator

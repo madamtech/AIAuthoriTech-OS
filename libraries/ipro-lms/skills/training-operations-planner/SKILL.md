@@ -1,6 +1,6 @@
 ---
 name: training-operations-planner
-description: Plan recurring training operations across demand, calendars, instructors, content, systems, communications, support, reporting, risks, and continuous improvement. Use for monthly, quarterly, launch-period, or annual learning operations planning.
+description: Plan recurring training operations across demand, calendars, instructors, content, systems, communications, support, reporting, risks, and continuous improvement. Use for monthly, quarterly, launch-period, or annual learning operations planning. Use when asked to (1) plan training operations, (2) revise training operations, (3) evaluate options for training operations, or (4) prepare implementation of training operations.
 ---
 
 # Training Operations Planner

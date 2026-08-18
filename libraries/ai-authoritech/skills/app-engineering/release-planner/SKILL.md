@@ -1,6 +1,6 @@
 ---
 name: release-planner
-description: Convert a prioritized product backlog into governed, outcome-based releases with explicit scope, dependencies, capacity, forecasts, readiness gates, launch cohorts, communications, enablement, adoption, support, benefit measurement, contingency, and review decisions. Use for MVP planning, product increments, coordinated launches, beta or phased releases, roadmap commitments, and release replanning - not technical deployment commands, detailed requirements, effort guarantees, or claiming benefits before measurement.
+description: Convert a prioritized product backlog into governed, outcome-based releases with explicit scope, dependencies, capacity, forecasts, readiness gates, launch cohorts, communications, enablement, adoption, support, benefit measurement, contingency, and review decisions. Use for MVP planning, product increments, coordinated launches, beta or phased releases, roadmap commitments, and release replanning - not technical deployment commands, detailed requirements, effort guarantees, or claiming benefits before measurement. Use when asked to (1) plan release, (2) revise release, (3) evaluate options for release, or (4) prepare implementation of release.
 ---
 
 # Release Planner

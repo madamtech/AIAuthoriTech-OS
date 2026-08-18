@@ -1,6 +1,6 @@
 ---
 name: government-audit-support-package-assembler
-description: Assemble government administrative audit-support packages from verified source evidence, findings, process documentation, logs, gaps, corrective actions, and supporting references.
+description: Assemble government administrative audit-support packages from verified source evidence, findings, process documentation, logs, gaps, corrective actions, and supporting references. Use when asked to (1) create government audit support package assembler, (2) review government audit support package assembler, (3) improve government audit support package assembler, or (4) standardize government audit support package assembler.
 ---
 
 # Government Audit Support Package Assembler

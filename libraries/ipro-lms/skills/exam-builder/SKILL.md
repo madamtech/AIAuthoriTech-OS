@@ -1,6 +1,6 @@
 ---
 name: exam-builder
-description: Build a secure, blueprint-aligned exam package with defensible items, answer keys, rationales, objective and cognitive-level metadata, scoring configuration, source support, accessibility checks, and independent review requirements. Use after objectives and assessment specifications are approved. Do not invent facts, expose secure content, or set unapproved passing standards.
+description: Build a secure, blueprint-aligned exam package with defensible items, answer keys, rationales, objective and cognitive-level metadata, scoring configuration, source support, accessibility checks, and independent review requirements. Use after objectives and assessment specifications are approved. Do not invent facts, expose secure content, or set unapproved passing standards. Use when asked to (1) build exam, (2) refine exam, (3) validate exam, or (4) standardize exam.
 ---
 
 # Exam Builder

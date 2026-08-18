@@ -1,6 +1,6 @@
 ---
 name: workday-learning-campaign-manager
-description: Plan and govern Workday Learning campaigns, including audiences, content, timing, messaging, enrollment behavior, measurement, and closure. Use for targeted learning promotions or coordinated learning initiatives distinct from mandatory assignments.
+description: Plan and govern Workday Learning campaigns, including audiences, content, timing, messaging, enrollment behavior, measurement, and closure. Use for targeted learning promotions or coordinated learning initiatives distinct from mandatory assignments. Use when asked to (1) manage workday learning campaign, (2) review workday learning campaign, (3) resolve issues in workday learning campaign, or (4) improve workday learning campaign.
 ---
 
 # Workday Learning Campaign Manager

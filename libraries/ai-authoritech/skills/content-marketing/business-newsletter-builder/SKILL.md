@@ -1,6 +1,6 @@
 ---
 name: business-newsletter-builder
-description: Build valuable business newsletters with consistent editorial promise, curated or original insight, sections, voice, cadence, and measurement. Use for AI AuthoriTech or authorized client marketing work.
+description: Build valuable business newsletters with consistent editorial promise, curated or original insight, sections, voice, cadence, and measurement. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) build business newsletter, (2) refine business newsletter, (3) validate business newsletter, or (4) standardize business newsletter.
 ---
 
 # Business Newsletter Builder

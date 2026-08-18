@@ -1,6 +1,6 @@
 ---
 name: agent-tool-integration-designer
-description: Design safe, verifiable AI agent tool integrations with explicit capabilities, schemas, identity, least-privilege credentials, authorization, approvals, validation, idempotency, effect verification, rate and spend limits, failure recovery, auditability, testing, monitoring, and platform adapters. Use for APIs, MCP servers, SaaS connectors, databases, messaging, file systems, code execution, or physical-device tools - not agent architecture, workflow design, credential provisioning, or executing live integrations without authorization.
+description: Design safe, verifiable AI agent tool integrations with explicit capabilities, schemas, identity, least-privilege credentials, authorization, approvals, validation, idempotency, effect verification, rate and spend limits, failure recovery, auditability, testing, monitoring, and platform adapters. Use for APIs, MCP servers, SaaS connectors, databases, messaging, file systems, code execution, or physical-device tools - not agent architecture, workflow design, credential provisioning, or executing live integrations without authorization. Use when asked to (1) design agent tool integration, (2) revise agent tool integration, (3) compare options for agent tool integration, or (4) document specifications for agent tool integration.
 ---
 
 # Agent Tool Integration Designer

@@ -1,6 +1,6 @@
 ---
 name: knowledge-migration-planner
-description: Plan controlled migration of knowledge assets, metadata, taxonomies, ontologies, embeddings, indexes, permissions, provenance, versions, and consumers between repositories, platforms, schemas, or architectures. Use for knowledge-base consolidation, search or RAG replacement, vendor exit, replatforming, and schema evolution. Do not perform irreversible cutover without reconciliation, access validation, consumer testing, and rollback.
+description: Plan controlled migration of knowledge assets, metadata, taxonomies, ontologies, embeddings, indexes, permissions, provenance, versions, and consumers between repositories, platforms, schemas, or architectures. Use for knowledge-base consolidation, search or RAG replacement, vendor exit, replatforming, and schema evolution. Do not perform irreversible cutover without reconciliation, access validation, consumer testing, and rollback. Use when asked to (1) plan knowledge migration, (2) revise knowledge migration, (3) evaluate options for knowledge migration, or (4) prepare implementation of knowledge migration.
 ---
 
 # Knowledge Migration Planner

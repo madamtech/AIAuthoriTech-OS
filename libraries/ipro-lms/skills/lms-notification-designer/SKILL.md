@@ -1,6 +1,6 @@
 ---
 name: lms-notification-designer
-description: Design governed LMS notifications for enrollment, reminders, due dates, completions, expirations, cancellations, failures, and escalations. Use when defining message triggers, audiences, timing, templates, suppression, localization, and delivery validation.
+description: Design governed LMS notifications for enrollment, reminders, due dates, completions, expirations, cancellations, failures, and escalations. Use when defining message triggers, audiences, timing, templates, suppression, localization, and delivery validation. Use when asked to (1) design lms notification, (2) revise lms notification, (3) compare options for lms notification, or (4) document specifications for lms notification.
 ---
 
 # LMS Notification Designer

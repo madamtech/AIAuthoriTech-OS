@@ -1,6 +1,6 @@
 ---
 name: anhydrous-body-care-formulator
-description: Formulate alcohol-free whipped shea butters, body butters, sugar and salt scrubs, balms, dry body oils, bath melts, and other anhydrous body products using natural oils, butters, waxes, herbs, antioxidants, and approved fragrance materials. Use for new formulas, texture adjustment, custom oil blends, scale-up, or troubleshooting graininess, separation, oxidation, or poor payoff - not water-based lotions, lye soap, or untested sale-ready formulas.
+description: Formulate alcohol-free whipped shea butters, body butters, sugar and salt scrubs, balms, dry body oils, bath melts, and other anhydrous body products using natural oils, butters, waxes, herbs, antioxidants, and approved fragrance materials. Use for new formulas, texture adjustment, custom oil blends, scale-up, or troubleshooting graininess, separation, oxidation, or poor payoff - not water-based lotions, lye soap, or untested sale-ready formulas. Use when asked to (1) formulate anhydrous body care, (2) scale anhydrous body care, (3) revise anhydrous body care, or (4) troubleshoot anhydrous body care.
 ---
 
 # Anhydrous Body Care Formulator

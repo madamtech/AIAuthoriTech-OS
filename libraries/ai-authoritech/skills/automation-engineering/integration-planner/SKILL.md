@@ -1,6 +1,6 @@
 ---
 name: integration-planner
-description: Plan governed integrations between systems using explicit source ownership, data contracts, identifiers, mappings, transport, authentication, authorization, synchronization, errors, reconciliation, monitoring, and lifecycle controls. Use for API, webhook, event, file, database, and connector integrations. Do not invent undocumented interfaces or authorize data sharing.
+description: Plan governed integrations between systems using explicit source ownership, data contracts, identifiers, mappings, transport, authentication, authorization, synchronization, errors, reconciliation, monitoring, and lifecycle controls. Use for API, webhook, event, file, database, and connector integrations. Do not invent undocumented interfaces or authorize data sharing. Use when asked to (1) plan integration, (2) revise integration, (3) evaluate options for integration, or (4) prepare implementation of integration.
 ---
 
 # Integration Planner

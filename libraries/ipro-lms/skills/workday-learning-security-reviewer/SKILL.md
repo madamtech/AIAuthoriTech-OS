@@ -1,6 +1,6 @@
 ---
 name: workday-learning-security-reviewer
-description: Review Workday Learning security roles, domains, business-process access, audience visibility, administration, reporting, and segregation of duties. Use when validating least privilege or assessing a proposed learning configuration change.
+description: Review Workday Learning security roles, domains, business-process access, audience visibility, administration, reporting, and segregation of duties. Use when validating least privilege or assessing a proposed learning configuration change. Use when asked to (1) review workday learning security, (2) audit workday learning security, (3) identify gaps in workday learning security, or (4) recommend corrections to workday learning security.
 ---
 
 # Workday Learning Security Reviewer

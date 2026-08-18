@@ -1,6 +1,6 @@
 ---
 name: workflow-composer
-description: Design governed end-to-end workflows coordinating multiple registered skills, tools, people, decisions, shared state, validation gates, approvals, retries, recovery, and completion evidence. Use when asked to compose, orchestrate, or document a multi-stage process whose stages exchange state or require branching and control. Do not use for a single cohesive skill or to claim the designed workflow has been executed.
+description: Design governed end-to-end workflows coordinating multiple registered skills, tools, people, decisions, shared state, validation gates, approvals, retries, recovery, and completion evidence. Use when asked to compose, orchestrate, or document a multi-stage process whose stages exchange state or require branching and control. Do not use for a single cohesive skill or to claim the designed workflow has been executed. Use when asked to (1) create workflow composer, (2) review workflow composer, (3) improve workflow composer, or (4) standardize workflow composer.
 ---
 
 # Workflow Composer

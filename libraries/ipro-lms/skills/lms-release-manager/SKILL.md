@@ -1,6 +1,6 @@
 ---
 name: lms-release-manager
-description: Coordinate controlled LMS releases for configuration, content, integrations, reports, and operational changes. Use when planning deployment, approvals, testing, communications, rollback, monitoring, and closure across learning environments.
+description: Coordinate controlled LMS releases for configuration, content, integrations, reports, and operational changes. Use when planning deployment, approvals, testing, communications, rollback, monitoring, and closure across learning environments. Use when asked to (1) manage lms release, (2) review lms release, (3) resolve issues in lms release, or (4) improve lms release.
 ---
 
 # LMS Release Manager

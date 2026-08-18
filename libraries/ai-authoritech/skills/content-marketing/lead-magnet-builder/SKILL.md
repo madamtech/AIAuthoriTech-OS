@@ -1,6 +1,6 @@
 ---
 name: lead-magnet-builder
-description: Build useful lead magnets that solve a focused audience problem and support an ethical next step without withholding essential context. Use for AI AuthoriTech or authorized client marketing work.
+description: Build useful lead magnets that solve a focused audience problem and support an ethical next step without withholding essential context. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) build lead magnet, (2) refine lead magnet, (3) validate lead magnet, or (4) standardize lead magnet.
 ---
 
 # Lead Magnet Builder

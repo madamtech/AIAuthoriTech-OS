@@ -1,6 +1,6 @@
 ---
 name: cinematic-lighting-designer
-description: Design production-aware cinematic lighting plans that support story, subject, environment, camera, continuity, and visual style. Use to define motivated sources, key, fill, edge, practicals, direction, quality, color, contrast, exposure intent, transitions, and feasible alternatives.
+description: Design production-aware cinematic lighting plans that support story, subject, environment, camera, continuity, and visual style. Use to define motivated sources, key, fill, edge, practicals, direction, quality, color, contrast, exposure intent, transitions, and feasible alternatives. Use when asked to (1) design cinematic lighting, (2) revise cinematic lighting, (3) compare options for cinematic lighting, or (4) document specifications for cinematic lighting.
 ---
 
 # Cinematic Lighting Designer

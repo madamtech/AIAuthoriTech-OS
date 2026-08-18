@@ -1,6 +1,6 @@
 ---
 name: storefront-merchandising-planner
-description: Plan ecommerce storefront merchandising across collections, navigation, search, product order, bundles, promotions, and seasonal presentation. Use when organizing or refreshing MadamAllure shopping experiences.
+description: Plan ecommerce storefront merchandising across collections, navigation, search, product order, bundles, promotions, and seasonal presentation. Use when organizing or refreshing MadamAllure shopping experiences. Use when asked to (1) plan storefront merchandising, (2) revise storefront merchandising, (3) evaluate options for storefront merchandising, or (4) prepare implementation of storefront merchandising.
 ---
 
 # Storefront Merchandising Planner

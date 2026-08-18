@@ -1,6 +1,6 @@
 ---
 name: government-administrative-decision-matrix-builder
-description: Create government administrative decision matrices that compare defined options against verified criteria, constraints, risks, dependencies, and evidence without replacing authorized decision makers.
+description: Create government administrative decision matrices that compare defined options against verified criteria, constraints, risks, dependencies, and evidence without replacing authorized decision makers. Use when asked to (1) build government administrative decision matrix, (2) refine government administrative decision matrix, (3) validate government administrative decision matrix, or (4) standardize government administrative decision matrix.
 ---
 
 # Government Administrative Decision Matrix Builder

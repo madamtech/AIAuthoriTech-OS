@@ -1,6 +1,6 @@
 ---
 name: ai-brand-voice-builder
-description: Define a reusable business brand voice with positioning, personality, tone ranges, vocabulary, claims, examples, and quality controls. Use for AI AuthoriTech or client brands. Use for AI AuthoriTech or authorized client marketing work.
+description: Define a reusable business brand voice with positioning, personality, tone ranges, vocabulary, claims, examples, and quality controls. Use for AI AuthoriTech or client brands. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) build ai brand voice, (2) refine ai brand voice, (3) validate ai brand voice, or (4) standardize ai brand voice.
 ---
 
 # Ai Brand Voice Builder

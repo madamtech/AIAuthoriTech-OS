@@ -1,6 +1,6 @@
 ---
 name: supplier-sourcing-planner
-description: Evaluate suppliers for materials, packaging, components, finished goods, and services using quality, cost, lead time, capacity, risk, and ethical requirements. Use before purchasing or changing suppliers.
+description: Evaluate suppliers for materials, packaging, components, finished goods, and services using quality, cost, lead time, capacity, risk, and ethical requirements. Use before purchasing or changing suppliers. Use when asked to (1) plan supplier sourcing, (2) revise supplier sourcing, (3) evaluate options for supplier sourcing, or (4) prepare implementation of supplier sourcing.
 ---
 
 # Supplier Sourcing Planner

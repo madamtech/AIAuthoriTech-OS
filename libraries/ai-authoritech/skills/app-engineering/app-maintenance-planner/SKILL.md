@@ -1,6 +1,6 @@
 ---
 name: app-maintenance-planner
-description: Create sustainable application maintenance and lifecycle plans covering service ownership, support, observability, incidents, problems, vulnerabilities, dependencies, backups, data retention, capacity, cost, accessibility, reliability, technical debt, change management, continuity, vendor risk, documentation, and retirement. Use after an application is released or when stabilizing an inherited web, mobile, SaaS, internal, API-driven, AI-enabled, or vibe-coded product - not to perform unapproved production changes or replace security, privacy, legal, compliance, or incident-response authorities.
+description: Create sustainable application maintenance and lifecycle plans covering service ownership, support, observability, incidents, problems, vulnerabilities, dependencies, backups, data retention, capacity, cost, accessibility, reliability, technical debt, change management, continuity, vendor risk, documentation, and retirement. Use after an application is released or when stabilizing an inherited web, mobile, SaaS, internal, API-driven, AI-enabled, or vibe-coded product - not to perform unapproved production changes or replace security, privacy, legal, compliance, or incident-response authorities. Use when asked to (1) plan app maintenance, (2) revise app maintenance, (3) evaluate options for app maintenance, or (4) prepare implementation of app maintenance.
 ---
 
 # App Maintenance Planner

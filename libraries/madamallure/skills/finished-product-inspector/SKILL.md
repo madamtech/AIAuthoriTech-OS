@@ -1,6 +1,6 @@
 ---
 name: finished-product-inspector
-description: Inspect completed MadamAllure products against approved personalization, dimensions, appearance, function, finish, packaging, and order requirements. Use before shipment or inventory acceptance.
+description: Inspect completed MadamAllure products against approved personalization, dimensions, appearance, function, finish, packaging, and order requirements. Use before shipment or inventory acceptance. Use when asked to (1) create finished product inspector, (2) review finished product inspector, (3) improve finished product inspector, or (4) standardize finished product inspector.
 ---
 
 # Finished Product Inspector

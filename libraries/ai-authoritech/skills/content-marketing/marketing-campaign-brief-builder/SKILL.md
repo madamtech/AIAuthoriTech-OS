@@ -1,6 +1,6 @@
 ---
 name: marketing-campaign-brief-builder
-description: Build an aligned marketing campaign brief connecting audience insight, objective, offer, message, channels, assets, budget, timeline, owners, and measurement. Use for AI AuthoriTech or authorized client marketing work.
+description: Build an aligned marketing campaign brief connecting audience insight, objective, offer, message, channels, assets, budget, timeline, owners, and measurement. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) build marketing campaign brief, (2) refine marketing campaign brief, (3) validate marketing campaign brief, or (4) standardize marketing campaign brief.
 ---
 
 # Marketing Campaign Brief Builder

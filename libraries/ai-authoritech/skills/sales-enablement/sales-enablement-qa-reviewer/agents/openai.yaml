@@ -1,0 +1,6 @@
+interface:
+  display_name: Sales Enablement QA Reviewer
+  short_description: Review sales briefs, meeting plans, account summaries,...
+  default_prompt: Use $sales-enablement-qa-reviewer to review sales briefs, meeting
+    plans, account summaries, objection responses, quotes, proposals, and follow-ups
+    for factual support, commercial governance, clarity, and readiness.

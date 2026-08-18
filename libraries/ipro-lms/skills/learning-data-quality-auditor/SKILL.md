@@ -1,6 +1,6 @@
 ---
 name: learning-data-quality-auditor
-description: Audit learning data for completeness, validity, uniqueness, consistency, timeliness, lineage, and reconciliation across LMS, HR, CRM, content, and reporting systems. Use when learning records or analytics cannot be trusted or before migration and integration changes.
+description: Audit learning data for completeness, validity, uniqueness, consistency, timeliness, lineage, and reconciliation across LMS, HR, CRM, content, and reporting systems. Use when learning records or analytics cannot be trusted or before migration and integration changes. Use when asked to (1) create learning data quality auditor, (2) review learning data quality auditor, (3) improve learning data quality auditor, or (4) standardize learning data quality auditor.
 ---
 
 # Learning Data Quality Auditor

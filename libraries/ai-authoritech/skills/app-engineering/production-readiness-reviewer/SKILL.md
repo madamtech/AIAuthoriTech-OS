@@ -1,6 +1,6 @@
 ---
 name: production-readiness-reviewer
-description: Review whether a web, mobile, desktop, SaaS, internal, API, data, automation, AI-enabled, or vibe-coded application is ready for a bounded production release by verifying scope, ownership, test evidence, security, privacy, accessibility, performance, reliability, data migration, dependencies, observability, support, deployment, rollback, incident response, compliance, and approvals. Use before launch, major rollout, migration, or material change - not to deploy, waive risk, certify compliance, or call a release ready from plans, checklists, deadlines, or unexecuted tests.
+description: Review whether a web, mobile, desktop, SaaS, internal, API, data, automation, AI-enabled, or vibe-coded application is ready for a bounded production release by verifying scope, ownership, test evidence, security, privacy, accessibility, performance, reliability, data migration, dependencies, observability, support, deployment, rollback, incident response, compliance, and approvals. Use before launch, major rollout, migration, or material change - not to deploy, waive risk, certify compliance, or call a release ready from plans, checklists, deadlines, or unexecuted tests. Use when asked to (1) review production readiness, (2) audit production readiness, (3) identify gaps in production readiness, or (4) recommend corrections to production readiness.
 ---
 
 # Production Readiness Reviewer

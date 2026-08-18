@@ -1,0 +1,7 @@
+interface:
+  display_name: Government Modernization and Adoption Roadmap Builder
+  short_description: Create functional modernization and adoption roadmaps with...
+  default_prompt: Use $government-modernization-and-adoption-roadmap-builder to create
+    functional modernization and adoption roadmaps with phases, capabilities, process
+    changes, training, governance, dependencies, milestones, readiness criteria, and
+    decision gates.

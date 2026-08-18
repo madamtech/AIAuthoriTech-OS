@@ -1,6 +1,6 @@
 ---
 name: netexam-certification-builder
-description: Translate approved certification policy into a controlled NetExam build specification covering objects, settings, dependencies, branches, audiences, notifications, certificates, reporting, integrations, release controls, rollback, and test evidence. Use for authorized NetExam planning or QA. Do not invent policy, assume unsupported features, or change production without approval.
+description: Translate approved certification policy into a controlled NetExam build specification covering objects, settings, dependencies, branches, audiences, notifications, certificates, reporting, integrations, release controls, rollback, and test evidence. Use for authorized NetExam planning or QA. Do not invent policy, assume unsupported features, or change production without approval. Use when asked to (1) build netexam certification, (2) refine netexam certification, (3) validate netexam certification, or (4) standardize netexam certification.
 ---
 
 # NetExam Certification Builder

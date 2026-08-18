@@ -1,0 +1,6 @@
+interface:
+  display_name: Sales Demo Recap and Follow-Up Builder
+  short_description: Convert verified sales or product-demo notes into concise...
+  default_prompt: Use $sales-demo-recap-and-follow-up-builder to convert verified sales
+    or product-demo notes into concise recaps, customer follow-up, action items, unresolved
+    questions, and internal next steps.

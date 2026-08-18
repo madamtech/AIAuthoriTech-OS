@@ -1,6 +1,6 @@
 ---
 name: beauty-product-description-builder
-description: Write accurate, luxurious beauty product descriptions using verified ingredients, benefits, directions, size, warnings, and brand voice. Use for ecommerce, catalogs, packaging briefs, and campaigns.
+description: Write accurate, luxurious beauty product descriptions using verified ingredients, benefits, directions, size, warnings, and brand voice. Use for ecommerce, catalogs, packaging briefs, and campaigns. Use when asked to (1) build beauty product description, (2) refine beauty product description, (3) validate beauty product description, or (4) standardize beauty product description.
 ---
 
 # Beauty Product Description Builder

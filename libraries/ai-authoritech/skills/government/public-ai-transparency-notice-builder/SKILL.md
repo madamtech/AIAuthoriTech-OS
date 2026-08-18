@@ -1,6 +1,6 @@
 ---
 name: public-ai-transparency-notice-builder
-description: Draft accurate, understandable, accessible, and maintainable public notices explaining a government AI use, purpose, authority, decision role, data categories, human involvement, limitations, safeguards, retention, oversight, rights, contacts, and recourse. Use for authorized public transparency. Do not disclose protected details, overstate safeguards, claim consent or consensus, or publish facts not verified against operations.
+description: Draft accurate, understandable, accessible, and maintainable public notices explaining a government AI use, purpose, authority, decision role, data categories, human involvement, limitations, safeguards, retention, oversight, rights, contacts, and recourse. Use for authorized public transparency. Do not disclose protected details, overstate safeguards, claim consent or consensus, or publish facts not verified against operations. Use when asked to (1) build public ai transparency notice, (2) refine public ai transparency notice, (3) validate public ai transparency notice, or (4) standardize public ai transparency notice.
 ---
 
 # Public AI Transparency Notice Builder

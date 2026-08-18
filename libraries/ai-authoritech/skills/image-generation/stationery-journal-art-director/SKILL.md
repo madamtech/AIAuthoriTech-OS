@@ -1,6 +1,6 @@
 ---
 name: stationery-journal-art-director
-description: "Design printable notebook, journal, planner, card, and stationery interiors with correct physical dimensions and writing usability. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Design printable notebook, journal, planner, card, and stationery interiors with correct physical dimensions and writing usability. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) direct stationery journal art, (2) plan stationery journal art, (3) review stationery journal art, or (4) refine stationery journal art."
 ---
 # Stationery and Journal Page Art Director
 

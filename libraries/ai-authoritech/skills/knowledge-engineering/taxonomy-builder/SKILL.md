@@ -1,6 +1,6 @@
 ---
 name: taxonomy-builder
-description: Design and govern hierarchical or faceted classification systems with clear concepts, preferred labels, synonyms, definitions, scope notes, inclusion and exclusion rules, identifiers, mappings, and maintenance ownership. Use for content organization, metadata, navigation, reporting, routing, controlled vocabularies, and search filters. Do not force ontology-like relationships into a simple hierarchy or publish untested labels without stakeholder and corpus validation.
+description: Design and govern hierarchical or faceted classification systems with clear concepts, preferred labels, synonyms, definitions, scope notes, inclusion and exclusion rules, identifiers, mappings, and maintenance ownership. Use for content organization, metadata, navigation, reporting, routing, controlled vocabularies, and search filters. Do not force ontology-like relationships into a simple hierarchy or publish untested labels without stakeholder and corpus validation. Use when asked to (1) build taxonomy, (2) refine taxonomy, (3) validate taxonomy, or (4) standardize taxonomy.
 ---
 
 # Taxonomy Builder

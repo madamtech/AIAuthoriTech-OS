@@ -1,6 +1,6 @@
 ---
 name: printable-art-surface-pattern
-description: "Create artwork and repeat patterns suitable for physical printing, sublimation, vinyl, laser workflows, packaging, and 3D surface decoration. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Create artwork and repeat patterns suitable for physical printing, sublimation, vinyl, laser workflows, packaging, and 3D surface decoration. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create printable art surface pattern, (2) review printable art surface pattern, (3) improve printable art surface pattern, or (4) standardize printable art surface pattern."
 ---
 # Printable Artwork and Surface Pattern Designer
 

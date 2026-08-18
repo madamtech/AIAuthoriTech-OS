@@ -1,6 +1,6 @@
 ---
 name: personalized-gift-planner
-description: Plan personalized gifts and gift sets from recipient and occasion through product selection, customization, packaging, proof, cost, and delivery. Use for individual orders or repeatable gifting offers.
+description: Plan personalized gifts and gift sets from recipient and occasion through product selection, customization, packaging, proof, cost, and delivery. Use for individual orders or repeatable gifting offers. Use when asked to (1) plan personalized gift, (2) revise personalized gift, (3) evaluate options for personalized gift, or (4) prepare implementation of personalized gift.
 ---
 
 # Personalized Gift Planner

@@ -1,6 +1,6 @@
 ---
 name: print-failure-diagnoser
-description: Diagnose 3D-print failures using evidence from the model, slicer, material, machine, environment, and failure timing. Use for adhesion, warping, clogs, shifts, stringing, weak layers, dimensional, or surface defects.
+description: Diagnose 3D-print failures using evidence from the model, slicer, material, machine, environment, and failure timing. Use for adhesion, warping, clogs, shifts, stringing, weak layers, dimensional, or surface defects. Use when asked to (1) create print failure diagnoser, (2) review print failure diagnoser, (3) improve print failure diagnoser, or (4) standardize print failure diagnoser.
 ---
 
 # Print Failure Diagnoser

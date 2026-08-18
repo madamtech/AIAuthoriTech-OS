@@ -1,6 +1,6 @@
 ---
 name: brand-voice-builder
-description: Define a reusable MadamAllure brand voice with personality, principles, vocabulary, tone variations, prohibited patterns, and examples. Use when aligning product, ecommerce, email, social, packaging, and support communications.
+description: Define a reusable MadamAllure brand voice with personality, principles, vocabulary, tone variations, prohibited patterns, and examples. Use when aligning product, ecommerce, email, social, packaging, and support communications. Use when asked to (1) build brand voice, (2) refine brand voice, (3) validate brand voice, or (4) standardize brand voice.
 ---
 
 # Brand Voice Builder

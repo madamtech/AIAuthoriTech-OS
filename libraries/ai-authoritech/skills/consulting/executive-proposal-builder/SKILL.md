@@ -1,6 +1,6 @@
 ---
 name: executive-proposal-builder
-description: Create decision-ready executive proposals from approved discovery evidence, strategic priorities, solution scope, governance requirements, business-case assumptions, delivery options, and commercial inputs. Use for consulting proposals, internal investment proposals, phased engagement options, or executive approval packages - not binding legal terms, a detailed statement of work, or invented client facts, pricing, results, credentials, or commitments.
+description: Create decision-ready executive proposals from approved discovery evidence, strategic priorities, solution scope, governance requirements, business-case assumptions, delivery options, and commercial inputs. Use for consulting proposals, internal investment proposals, phased engagement options, or executive approval packages - not binding legal terms, a detailed statement of work, or invented client facts, pricing, results, credentials, or commitments. Use when asked to (1) build executive proposal, (2) refine executive proposal, (3) validate executive proposal, or (4) standardize executive proposal.
 ---
 
 # Executive Proposal Builder

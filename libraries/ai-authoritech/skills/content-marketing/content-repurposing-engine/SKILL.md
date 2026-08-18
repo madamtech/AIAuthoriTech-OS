@@ -1,6 +1,6 @@
 ---
 name: content-repurposing-engine
-description: Transform approved source material into accurate channel-specific assets while preserving meaning, attribution, brand voice, and factual boundaries. Use for AI AuthoriTech or authorized client marketing work.
+description: Transform approved source material into accurate channel-specific assets while preserving meaning, attribution, brand voice, and factual boundaries. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) create content repurposing engine, (2) review content repurposing engine, (3) improve content repurposing engine, or (4) standardize content repurposing engine.
 ---
 
 # Content Repurposing Engine

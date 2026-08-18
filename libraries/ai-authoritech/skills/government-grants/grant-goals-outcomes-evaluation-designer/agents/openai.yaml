@@ -1,0 +1,7 @@
+interface:
+  display_name: Grant Goals, Outcomes, and Evaluation Designer
+  short_description: Design grant goals, objectives, outputs, outcomes,...
+  default_prompt: Use $grant-goals-outcomes-evaluation-designer to design grant goals,
+    objectives, outputs, outcomes, indicators, baselines, targets, data collection,
+    learning loops, and evaluation plans that are proportional to the project and
+    supported by available capacity.

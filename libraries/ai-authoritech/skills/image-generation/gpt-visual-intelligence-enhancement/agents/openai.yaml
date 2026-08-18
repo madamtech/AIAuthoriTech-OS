@@ -1,0 +1,5 @@
+interface:
+  display_name: GPT Visual Intelligence Enhancement
+  short_description: Add an evaluation-led visual intelligence layer to an...
+  default_prompt: Use $gpt-visual-intelligence-enhancement to add an evaluation-led
+    visual intelligence layer to an existing GPT without replacing its domain expertise.

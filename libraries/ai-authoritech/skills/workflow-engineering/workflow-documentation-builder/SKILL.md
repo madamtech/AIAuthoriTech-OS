@@ -1,6 +1,6 @@
 ---
 name: workflow-documentation-builder
-description: Create controlled, audience-appropriate workflow documentation from validated specifications, including purpose, scope, roles, steps, decisions, data, systems, controls, exceptions, metrics, runbooks, diagrams, tests, ownership, and version history. Use for operational handoff, training, audit, implementation, and support. Do not document assumptions as approved reality.
+description: Create controlled, audience-appropriate workflow documentation from validated specifications, including purpose, scope, roles, steps, decisions, data, systems, controls, exceptions, metrics, runbooks, diagrams, tests, ownership, and version history. Use for operational handoff, training, audit, implementation, and support. Do not document assumptions as approved reality. Use when asked to (1) build workflow documentation, (2) refine workflow documentation, (3) validate workflow documentation, or (4) standardize workflow documentation.
 ---
 
 # Workflow Documentation Builder

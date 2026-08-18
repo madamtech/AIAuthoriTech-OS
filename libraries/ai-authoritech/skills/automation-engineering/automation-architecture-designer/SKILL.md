@@ -1,6 +1,6 @@
 ---
 name: automation-architecture-designer
-description: Design reliable, secure, observable automation architecture across orchestrators, queues, APIs, events, workers, data stores, identity, secrets, approvals, and recovery. Use when an automation blueprint requires technical component, deployment, scaling, availability, or integration decisions. Do not select technology without requirements or confuse architecture with deployed implementation.
+description: Design reliable, secure, observable automation architecture across orchestrators, queues, APIs, events, workers, data stores, identity, secrets, approvals, and recovery. Use when an automation blueprint requires technical component, deployment, scaling, availability, or integration decisions. Do not select technology without requirements or confuse architecture with deployed implementation. Use when asked to (1) design automation architecture, (2) revise automation architecture, (3) compare options for automation architecture, or (4) document specifications for automation architecture.
 ---
 
 # Automation Architecture Designer

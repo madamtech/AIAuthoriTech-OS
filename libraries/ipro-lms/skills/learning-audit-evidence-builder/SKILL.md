@@ -1,6 +1,6 @@
 ---
 name: learning-audit-evidence-builder
-description: Assemble traceable evidence for learning, certification, assignment, completion, access, change, and control audits. Use when responding to authorized internal, customer, regulatory, or quality reviews without altering source records.
+description: Assemble traceable evidence for learning, certification, assignment, completion, access, change, and control audits. Use when responding to authorized internal, customer, regulatory, or quality reviews without altering source records. Use when asked to (1) build learning audit evidence, (2) refine learning audit evidence, (3) validate learning audit evidence, or (4) standardize learning audit evidence.
 ---
 
 # Learning Audit Evidence Builder

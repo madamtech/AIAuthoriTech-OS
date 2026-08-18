@@ -1,6 +1,6 @@
 ---
 name: netexam-reporting-specialist
-description: Design, troubleshoot, and validate NetExam reports for learners, courses, exams, certifications, enrollments, branches, completions, and renewals. Use when report definitions, filters, joins, statuses, or totals require platform-specific analysis.
+description: Design, troubleshoot, and validate NetExam reports for learners, courses, exams, certifications, enrollments, branches, completions, and renewals. Use when report definitions, filters, joins, statuses, or totals require platform-specific analysis. Use when asked to (1) create netexam reporting specialist, (2) review netexam reporting specialist, (3) improve netexam reporting specialist, or (4) standardize netexam reporting specialist.
 ---
 
 # NetExam Reporting Specialist

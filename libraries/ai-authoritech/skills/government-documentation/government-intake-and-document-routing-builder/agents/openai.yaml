@@ -1,0 +1,7 @@
+interface:
+  display_name: Government Intake and Document Routing Builder
+  short_description: Design functional intake forms and document-routing...
+  default_prompt: Use $government-intake-and-document-routing-builder to design functional
+    intake forms and document-routing workflows for government administrative and
+    system processes using validated fields, roles, decisions, handoffs, status points,
+    and completion criteria.

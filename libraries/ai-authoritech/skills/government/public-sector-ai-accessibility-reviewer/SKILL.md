@@ -1,6 +1,6 @@
 ---
 name: public-sector-ai-accessibility-reviewer
-description: Review public-sector AI services for accessible interaction, content, conversational behavior, alternatives, support, procurement, and continuity across digital and non-digital channels. Use for authorized accessibility design, testing, acceptance, or recertification. Do not claim conformance from automated checks alone or treat a separate inferior channel as equivalent access.
+description: Review public-sector AI services for accessible interaction, content, conversational behavior, alternatives, support, procurement, and continuity across digital and non-digital channels. Use for authorized accessibility design, testing, acceptance, or recertification. Do not claim conformance from automated checks alone or treat a separate inferior channel as equivalent access. Use when asked to (1) review public sector ai accessibility, (2) audit public sector ai accessibility, (3) identify gaps in public sector ai accessibility, or (4) recommend corrections to public sector ai accessibility.
 ---
 
 # Public Sector AI Accessibility Reviewer

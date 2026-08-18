@@ -1,6 +1,6 @@
 ---
 name: product-photography-planner
-description: Plan luxury product photography with accurate representation, brand styling, required views, lighting, props, accessibility, and channel outputs. Use before a product or collection photoshoot.
+description: Plan luxury product photography with accurate representation, brand styling, required views, lighting, props, accessibility, and channel outputs. Use before a product or collection photoshoot. Use when asked to (1) plan product photography, (2) revise product photography, (3) evaluate options for product photography, or (4) prepare implementation of product photography.
 ---
 
 # Product Photography Planner

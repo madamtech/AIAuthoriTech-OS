@@ -1,6 +1,6 @@
 ---
 name: returns-resolution-planner
-description: Resolve returns, replacements, damage, defects, shipping issues, and personalization disputes using evidence, policy, cost, and customer-care considerations. Use when an order requires disposition and follow-through.
+description: Resolve returns, replacements, damage, defects, shipping issues, and personalization disputes using evidence, policy, cost, and customer-care considerations. Use when an order requires disposition and follow-through. Use when asked to (1) plan returns resolution, (2) revise returns resolution, (3) evaluate options for returns resolution, or (4) prepare implementation of returns resolution.
 ---
 
 # Returns Resolution Planner

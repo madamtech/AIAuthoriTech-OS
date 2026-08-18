@@ -1,6 +1,6 @@
 ---
 name: public-sector-ai-governance-reviewer
-description: Independently review public-sector AI governance covering authority, accountability, inventories, risk tiers, oversight, transparency, records, vendors, monitoring, incidents, lifecycle, and public recourse. Use for government governance design, predeployment review, or recertification. Do not claim legal compliance or operating effectiveness without qualified interpretation and tested evidence.
+description: Independently review public-sector AI governance covering authority, accountability, inventories, risk tiers, oversight, transparency, records, vendors, monitoring, incidents, lifecycle, and public recourse. Use for government governance design, predeployment review, or recertification. Do not claim legal compliance or operating effectiveness without qualified interpretation and tested evidence. Use when asked to (1) review public sector ai governance, (2) audit public sector ai governance, (3) identify gaps in public sector ai governance, or (4) recommend corrections to public sector ai governance.
 ---
 
 # Public Sector AI Governance Reviewer

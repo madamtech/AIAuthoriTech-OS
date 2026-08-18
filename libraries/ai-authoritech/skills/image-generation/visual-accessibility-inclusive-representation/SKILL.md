@@ -1,6 +1,6 @@
 ---
 name: visual-accessibility-inclusive-representation
-description: "Ensure visuals are perceivable, understandable, respectful, and representative across audiences and delivery contexts. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Ensure visuals are perceivable, understandable, respectful, and representative across audiences and delivery contexts. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create visual accessibility inclusive representation, (2) review visual accessibility inclusive representation, (3) improve visual accessibility inclusive representation, or (4) standardize visual accessibility inclusive representation."
 ---
 # Visual Accessibility and Inclusive Representation
 

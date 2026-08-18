@@ -1,6 +1,6 @@
 ---
 name: character-identity-lock
-description: "Preserve a character's recognizable identity across poses, outfits, scenes, formats, and generation sessions. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Preserve a character's recognizable identity across poses, outfits, scenes, formats, and generation sessions. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create character identity lock, (2) review character identity lock, (3) improve character identity lock, or (4) standardize character identity lock."
 ---
 # Character Identity Lock
 

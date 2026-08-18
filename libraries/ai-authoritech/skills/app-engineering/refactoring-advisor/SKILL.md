@@ -1,6 +1,6 @@
 ---
 name: refactoring-advisor
-description: Assess code and architecture for behavior-preserving refactoring opportunities, establish measurable baselines and characterization tests, identify coupling and ownership problems, rank changes by value and risk, define safe seams and migration stages, protect public contracts and data, and specify verification, rollout, rollback, and completion evidence. Use for web, mobile, desktop, API, data, automation, AI-enabled, legacy, or vibe-coded systems - not to rewrite working software for style alone, mix feature work into a refactor, or modify code when only advice or review was requested.
+description: Assess code and architecture for behavior-preserving refactoring opportunities, establish measurable baselines and characterization tests, identify coupling and ownership problems, rank changes by value and risk, define safe seams and migration stages, protect public contracts and data, and specify verification, rollout, rollback, and completion evidence. Use for web, mobile, desktop, API, data, automation, AI-enabled, legacy, or vibe-coded systems - not to rewrite working software for style alone, mix feature work into a refactor, or modify code when only advice or review was requested. Use when asked to (1) advise on refactoring, (2) compare options for refactoring, (3) troubleshoot refactoring, or (4) recommend next steps for refactoring.
 ---
 
 # Refactoring Advisor

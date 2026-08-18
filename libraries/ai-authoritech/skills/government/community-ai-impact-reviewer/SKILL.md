@@ -1,6 +1,6 @@
 ---
 name: community-ai-impact-reviewer
-description: Review how a public-sector AI proposal, pilot, or deployed system may affect communities, especially historically underserved or disproportionately impacted groups, through benefits, burdens, exclusion, surveillance, errors, accessibility, language, recourse, trust, and cumulative impacts. Use for authorized public-impact review. Do not substitute demographic assumptions for engagement or claim community consensus.
+description: Review how a public-sector AI proposal, pilot, or deployed system may affect communities, especially historically underserved or disproportionately impacted groups, through benefits, burdens, exclusion, surveillance, errors, accessibility, language, recourse, trust, and cumulative impacts. Use for authorized public-impact review. Do not substitute demographic assumptions for engagement or claim community consensus. Use when asked to (1) review community ai impact, (2) audit community ai impact, (3) identify gaps in community ai impact, or (4) recommend corrections to community ai impact.
 ---
 
 # Community AI Impact Reviewer

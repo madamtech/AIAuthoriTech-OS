@@ -1,0 +1,6 @@
+interface:
+  display_name: Security Solution BOM Architect
+  short_description: Translate validated security-system discovery inputs into a...
+  default_prompt: Use $security-solution-bom-architect to translate validated security-system
+    discovery inputs into a structured bill of materials using governed configuration
+    rules, quantities, dependencies, and source references.

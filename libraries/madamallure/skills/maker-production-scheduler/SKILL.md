@@ -1,6 +1,6 @@
 ---
 name: maker-production-scheduler
-description: Schedule 3D printing, laser, crafting, assembly, finishing, personalization, and packing work against capacity, dependencies, due dates, and maintenance. Use for daily and weekly MadamAllure production planning.
+description: Schedule 3D printing, laser, crafting, assembly, finishing, personalization, and packing work against capacity, dependencies, due dates, and maintenance. Use for daily and weekly MadamAllure production planning. Use when asked to (1) create maker production scheduler, (2) review maker production scheduler, (3) improve maker production scheduler, or (4) standardize maker production scheduler.
 ---
 
 # Maker Production Scheduler

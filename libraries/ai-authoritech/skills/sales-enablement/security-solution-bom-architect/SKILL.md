@@ -1,6 +1,6 @@
 ---
 name: security-solution-bom-architect
-description: Translate validated security-system discovery inputs into a structured bill of materials using governed configuration rules, quantities, dependencies, and source references.
+description: Translate validated security-system discovery inputs into a structured bill of materials using governed configuration rules, quantities, dependencies, and source references. Use when asked to (1) architect security solution bom, (2) assess security solution bom, (3) refine security solution bom, or (4) document security solution bom.
 ---
 
 # Security Solution BOM Architect

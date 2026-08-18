@@ -1,6 +1,6 @@
 ---
 name: agent-instruction-builder
-description: Convert an approved agent architecture into concise, platform-adaptable, testable instruction layers defining purpose, authority, precedence, workflow behavior, tool use, knowledge and memory boundaries, approvals, uncertainty, untrusted input, failure recovery, and output contracts. Use for system instructions, custom-agent configuration, agent prompt redesign, or instruction regression preparation - not agent architecture, knowledge-base construction, or evaluation execution.
+description: Convert an approved agent architecture into concise, platform-adaptable, testable instruction layers defining purpose, authority, precedence, workflow behavior, tool use, knowledge and memory boundaries, approvals, uncertainty, untrusted input, failure recovery, and output contracts. Use for system instructions, custom-agent configuration, agent prompt redesign, or instruction regression preparation - not agent architecture, knowledge-base construction, or evaluation execution. Use when asked to (1) build agent instruction, (2) refine agent instruction, (3) validate agent instruction, or (4) standardize agent instruction.
 ---
 
 # Agent Instruction Builder

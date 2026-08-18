@@ -1,6 +1,6 @@
 ---
 name: style-dna-builder
-description: "Turn a preferred visual style into a reusable, testable style system instead of a loose list of adjectives. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Turn a preferred visual style into a reusable, testable style system instead of a loose list of adjectives. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) build style dna, (2) refine style dna, (3) validate style dna, or (4) standardize style dna."
 ---
 # Style DNA Builder
 

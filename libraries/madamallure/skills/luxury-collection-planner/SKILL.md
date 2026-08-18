@@ -1,6 +1,6 @@
 ---
 name: luxury-collection-planner
-description: Plan cohesive luxury product collections across theme, audience, assortment, design language, pricing, packaging, production, and launch. Use when developing a seasonal or signature MadamAllure collection.
+description: Plan cohesive luxury product collections across theme, audience, assortment, design language, pricing, packaging, production, and launch. Use when developing a seasonal or signature MadamAllure collection. Use when asked to (1) plan luxury collection, (2) revise luxury collection, (3) evaluate options for luxury collection, or (4) prepare implementation of luxury collection.
 ---
 
 # Luxury Collection Planner

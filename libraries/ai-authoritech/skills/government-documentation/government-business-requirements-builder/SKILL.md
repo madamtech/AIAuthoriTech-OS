@@ -1,6 +1,6 @@
 ---
 name: government-business-requirements-builder
-description: Create structured business requirements documents covering mission need, objectives, stakeholders, scope, business rules, success measures, constraints, assumptions, and traceability.
+description: Create structured business requirements documents covering mission need, objectives, stakeholders, scope, business rules, success measures, constraints, assumptions, and traceability. Use when asked to (1) build government business requirements, (2) refine government business requirements, (3) validate government business requirements, or (4) standardize government business requirements.
 ---
 
 # Government Business Requirements Builder

@@ -1,6 +1,6 @@
 ---
 name: error-log-analyzer
-description: Analyze application, infrastructure, device, database, integration, security, job, and AI-system logs by preserving provenance, redacting sensitive data, normalizing timestamps and fields, grouping event signatures, correlating requests and state transitions, establishing baselines, detecting anomalies, reconstructing failure sequences, and producing evidence-backed findings and next queries. Use for incident triage, defect investigation, operational review, and observability improvement - not to treat logs as complete truth, infer causality from proximity alone, expose credentials or personal data, or change live systems without authorization.
+description: Analyze application, infrastructure, device, database, integration, security, job, and AI-system logs by preserving provenance, redacting sensitive data, normalizing timestamps and fields, grouping event signatures, correlating requests and state transitions, establishing baselines, detecting anomalies, reconstructing failure sequences, and producing evidence-backed findings and next queries. Use for incident triage, defect investigation, operational review, and observability improvement - not to treat logs as complete truth, infer causality from proximity alone, expose credentials or personal data, or change live systems without authorization. Use when asked to (1) analyze error log, (2) diagnose error log, (3) compare error log, or (4) summarize findings about error log.
 ---
 
 # Error Log Analyzer

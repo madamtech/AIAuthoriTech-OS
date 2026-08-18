@@ -1,6 +1,6 @@
 ---
 name: professional-editorial-realism
-description: "Create polished, credible, business-appropriate photorealistic visuals that retain natural human detail. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Create polished, credible, business-appropriate photorealistic visuals that retain natural human detail. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create professional editorial realism, (2) review professional editorial realism, (3) improve professional editorial realism, or (4) standardize professional editorial realism."
 ---
 # Professional Editorial Realism Director
 

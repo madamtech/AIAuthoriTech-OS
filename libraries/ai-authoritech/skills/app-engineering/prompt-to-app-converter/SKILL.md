@@ -1,6 +1,6 @@
 ---
 name: prompt-to-app-converter
-description: Convert an informal app request, product concept, copied prompt, notes, or prototype description into a traceable, platform-neutral app build packet with clarified outcomes, evidence, assumptions, scope, user journeys, requirements, data, access, interfaces, architecture constraints, vertical slices, bounded coding prompts, acceptance tests, verification gates, and change controls. Use before giving an idea to Lovable, Bolt, Replit, v0, Firebase Studio, Cursor, Windsurf, Claude Code, Codex, or another AI coding system - not to infer material business rules, credentials, production authority, or guaranteed feasibility from a vague prompt.
+description: Convert an informal app request, product concept, copied prompt, notes, or prototype description into a traceable, platform-neutral app build packet with clarified outcomes, evidence, assumptions, scope, user journeys, requirements, data, access, interfaces, architecture constraints, vertical slices, bounded coding prompts, acceptance tests, verification gates, and change controls. Use before giving an idea to Lovable, Bolt, Replit, v0, Firebase Studio, Cursor, Windsurf, Claude Code, Codex, or another AI coding system - not to infer material business rules, credentials, production authority, or guaranteed feasibility from a vague prompt. Use when asked to (1) create prompt to app converter, (2) review prompt to app converter, (3) improve prompt to app converter, or (4) standardize prompt to app converter.
 ---
 
 # Prompt-to-App Converter

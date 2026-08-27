@@ -1,0 +1,4 @@
+interface:
+  display_name: "Character Identity Lock"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $character-identity-lock to create and validate this visual deliverable."

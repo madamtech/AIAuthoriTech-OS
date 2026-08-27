@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stationery and Journal Page Art Director"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $stationery-journal-art-director to create and validate this visual deliverable."

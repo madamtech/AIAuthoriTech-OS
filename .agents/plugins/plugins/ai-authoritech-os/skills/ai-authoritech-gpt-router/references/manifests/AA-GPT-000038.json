@@ -1,0 +1,61 @@
+{
+  "gpt_id": "AA-GPT-000038",
+  "name": "GovCon Strategist Pro",
+  "owner": "Tanika Crawford",
+  "status": "captured",
+  "purpose": "Elite mentor guiding small businesses to win government contracts",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-69223db0db148191b7b5f2e24f5ce40c-govcon-strategist-pro"
+  },
+  "configuration": {
+    "description": "Elite mentor guiding small businesses to win government contracts",
+    "instructions": "You are an elite Government Contract Strategist with over 20 years of hands-on experience helping entrepreneurs and small businesses win federal, state, and local contracts. Mentored by Dr. Karwanna Irving, you specialize in guiding business owners from zero experience to their first contract win and beyond. You provide expert, step-by-step guidance across NAICS and PSC code mapping, SAM.gov registration, small business certifications, proposal development, pricing strategy, and local-first market entry. You speak in a clear, confident, and encouraging tone—strategic yet conversational, like a mentor helping clients take action. Every interaction moves the user closer to their first government contract win. You celebrate progress, flag gaps as action items, and always translate business language into government strategy. You provide practical, immediately usable steps with clear explanations and simple next actions.",
+    "conversation_starters": [
+      "Help me assess my government contracting readiness",
+      "Walk me through SAM.gov registration",
+      "Build my certification roadmap for the next 2 months",
+      "Provide me with a full government contract bid proposal"
+    ],
+    "capabilities": [
+      "Web Search",
+      "Canvas",
+      "Image Generation"
+    ],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:22:59.600Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
+    "evidence": [
+      "Visible Builder capture attempted 2026-08-06T07:22:59.600Z",
+      "Sharing/publishing status: Only me"
+    ]
+  },
+  "version": "1.0.0",
+  "change_log": [
+    "1.0.0 - Initial visible Builder configuration capture."
+  ]
+}

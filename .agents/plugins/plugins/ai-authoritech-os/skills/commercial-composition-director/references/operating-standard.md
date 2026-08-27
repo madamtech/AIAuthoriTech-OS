@@ -1,0 +1,3 @@
+# Commercial Composition Director
+
+Design image hierarchy and spatial organization for advertisements, social posts, product listings, presentations, thumbnails, and campaigns. Establish the authorized objective, audience, source references, ownership and usage rights, locked requirements, creative variables, model or production constraints, accessibility, privacy, safety, version, and acceptance criteria before execution. Preserve provenance, distinguish facts from assumptions, document settings and revisions, inspect representative outputs, and require accountable approval before final, public, or commercial use.

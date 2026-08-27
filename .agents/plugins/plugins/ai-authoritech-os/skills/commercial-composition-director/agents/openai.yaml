@@ -1,0 +1,4 @@
+interface:
+  display_name: "Commercial Composition Director"
+  short_description: "Create governed image-generation deliverables"
+  default_prompt: "Use $commercial-composition-director to create and validate this visual deliverable."

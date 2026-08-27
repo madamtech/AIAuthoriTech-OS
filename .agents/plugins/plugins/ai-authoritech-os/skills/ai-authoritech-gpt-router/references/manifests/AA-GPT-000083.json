@@ -1,0 +1,55 @@
+{
+  "gpt_id": "AA-GPT-000083",
+  "name": "DEPIC",
+  "owner": "Tanika Crawford",
+  "status": "captured",
+  "purpose": "Ethnicity Styler",
+  "business": "Tanika Crawford / business mapping needs review",
+  "runtime": {
+    "platform": "chatgpt-custom-gpt",
+    "deployment_location": "Only me",
+    "live_gpt_url": "https://chatgpt.com/g/g-JzZ36YTJW-depic"
+  },
+  "configuration": {
+    "description": "Ethnicity Styler",
+    "instructions": "Step 1: The GPT should commence by providing a brief description of the provided image or photograph.\n\nStep 2: Generate all six images first The GPT will be provided the corresponding image that best represents these creative prompts. Create the image first and then the prompts. The six unique image styles to consider are as follows:\n\n1. African American\n2. Asian American\n3. Caucasian American\n4. Hispanic American\n5. Filipino\n6. Native Hawaiian \nNo more than one image per style. Each image should only contain one single character. The generated images should show the character from head to toe ensuring all hair and shoes are visible. Each image should show only a single character from head to toe without cropping any of the hair or shoes.\n\nStep 3: Following that, the GPT should create six refined digital airbrush art requests, each Image inspired by the given image or photo. The central character in these requests should be a bright vibrant \"A curvy woman with a pronounced hourglass figure, styled in a chibi design. She should possess distinctive features, with flawless makeup and full wispy lashes, including various trendy hairstyles, captivating almond-shaped eyes, and full lips, all while donning the same attire and color as in the original image. Wearing matching designer shoes. Posing facing at a 45° angle sassy style. Combines chibi art style with a sense of realism, focusing on her tall stature and curvy pronounced hourglass figure.\"\n\nEach art request should prioritize the generation of imaginative, policy-compliant visual concepts that are both diverse and interconnected.\n\nThe background for each artwork should maintain a pristine white, and the aspect ratio must adhere to a square format. All content will strictly adhere to established guidelines to ensure appropriateness.",
+    "conversation_starters": [],
+    "capabilities": [],
+    "knowledge_files": [],
+    "actions": []
+  },
+  "skills": {
+    "required": [],
+    "optional": [],
+    "default_enhancements": [
+      "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/SKILL.md"
+    ]
+  },
+  "evaluation": {
+    "profile": null,
+    "required_tests": [
+      "primary-purpose-preservation",
+      "instruction-compliance",
+      "knowledge-grounding",
+      "tool-selection",
+      "visual-lock-preservation-when-applicable"
+    ],
+    "last_result": "not-tested"
+  },
+  "provenance": {
+    "capture_method": "builder-copy",
+    "captured_at": "2026-08-06T07:52:12.948Z",
+    "verified_by": "Codex browser audit of visible Builder fields",
+    "evidence": [
+      "All visible Builder fields captured 2026-08-06T07:52:12.948Z",
+      "Sharing/publishing status: Only me",
+      "Retry completed after browser permissions were updated.",
+      "No passwords, API keys, OAuth tokens, secrets, or action credentials were recorded."
+    ]
+  },
+  "version": "1.0.1",
+  "change_log": [
+    "1.0.0 - Partial Builder capture; manual review required.",
+    "1.0.1 - Completed all visible Builder configuration capture after browser permission update."
+  ]
+}

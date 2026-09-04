@@ -15,6 +15,7 @@ Canonical governed capability library for AI image generation in AI AuthoriTech 
 - `three-d-sculptural-collectibles-designer/` — statues, figurines, collectibles, display sculpture, mascots, abstract sculpture, and premium sculptural art.
 - `three-d-functional-accessories-designer/` — keychains, badge reels, backpack/NFC tags, charms, zipper pulls, name tags, and other compact functional accessories.
 - `three-d-premium-decor-lighting-designer/` — modern wall art, candle holders, lamp bases, sculptural lighting, tabletop sculpture, decorative vessels, and premium home/display pieces.
+- `parametric-lamp-interface-designer/` — measurement-driven base/neck/hardware/shade interface system for creating reusable lamp families and safe size variations without blindly scaling functional connections. Includes Profile A based on the Cardi bag lamp base, original neck, completed shade STL, and lithophane art direction.
 
 ## Standard 3D Printing Environment
 

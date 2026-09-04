@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "assets": [
+    {
+      "sku": "AA-SKL-000174",
+      "asset_id": "image-generation.three-d-print-production-router.v1",
+      "name": "3D Print Production Router",
+      "asset_type": "SKL",
+      "business": "AA",
+      "library": "IMG",
+      "version": "1.0.0",
+      "status": "testing",
+      "maturity": 2,
+      "path": "libraries/ai-authoritech/skills/image-generation/three-d-print-production-router",
+      "depends_on": ["AA-SKL-000154"]
+    },
+    {
+      "sku": "AA-SKL-000175",
+      "asset_id": "image-generation.three-d-product-batch-ideation-architect.v1",
+      "name": "3D Product Batch Ideation Architect",
+      "asset_type": "SKL",
+      "business": "AA",
+      "library": "IMG",
+      "version": "1.0.0",
+      "status": "testing",
+      "maturity": 2,
+      "path": "libraries/ai-authoritech/skills/image-generation/three-d-product-batch-ideation-architect",
+      "depends_on": ["AA-SKL-000153", "AA-SKL-000154", "AA-SKL-000174"]
+    },
+    {
+      "sku": "AA-SKL-000176",
+      "asset_id": "image-generation.three-d-sculptural-collectibles-designer.v1",
+      "name": "3D Sculptural Collectibles Designer",
+      "asset_type": "SKL",
+      "business": "AA",
+      "library": "IMG",
+      "version": "1.0.0",
+      "status": "testing",
+      "maturity": 2,
+      "path": "libraries/ai-authoritech/skills/image-generation/three-d-sculptural-collectibles-designer",
+      "depends_on": ["AA-SKL-000154", "AA-SKL-000174"]
+    },
+    {
+      "sku": "AA-SKL-000177",
+      "asset_id": "image-generation.three-d-functional-accessories-designer.v1",
+      "name": "3D Functional Accessories Designer",
+      "asset_type": "SKL",
+      "business": "AA",
+      "library": "IMG",
+      "version": "1.0.0",
+      "status": "testing",
+      "maturity": 2,
+      "path": "libraries/ai-authoritech/skills/image-generation/three-d-functional-accessories-designer",
+      "depends_on": ["AA-SKL-000154", "AA-SKL-000174"]
+    },
+    {
+      "sku": "AA-SKL-000178",
+      "asset_id": "image-generation.three-d-premium-decor-lighting-designer.v1",
+      "name": "3D Premium Decor and Lighting Designer",
+      "asset_type": "SKL",
+      "business": "AA",
+      "library": "IMG",
+      "version": "1.0.0",
+      "status": "testing",
+      "maturity": 2,
+      "path": "libraries/ai-authoritech/skills/image-generation/three-d-premium-decor-lighting-designer",
+      "depends_on": ["AA-SKL-000154", "AA-SKL-000174", "AA-SKL-000173"]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "assets": [
+    {
+      "sku": "AA-SKL-000173",
+      "asset_id": "image-generation.lithophane-image-art-director.v1",
+      "name": "Lithophane Image Art Director",
+      "asset_type": "SKL",
+      "business": "AA",
+      "library": "IMG",
+      "version": "1.0.0",
+      "status": "testing",
+      "maturity": 2,
+      "path": "libraries/ai-authoritech/skills/image-generation/lithophane-image-art-director",
+      "depends_on": []
+    }
+  ]
+}

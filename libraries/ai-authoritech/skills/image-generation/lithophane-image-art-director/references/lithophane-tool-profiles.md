@@ -1,19 +1,25 @@
 # Lithophane Tool Profiles
 
 ## Purpose
-Use this reference whenever the user wants to convert an approved source image into a printable lithophane model. The two primary tools are:
+Use this reference whenever the user wants to convert an approved source image into a printable lithophane model.
 
+The two primary lithophane-generation tools are:
 1. **ItsLitho** (`itslitho.com` / `tool.itslitho.com`)
 2. **MakerWorld MakerLab — Make My Lithophane** (`makerworld.com/makerlab/makeMyLithophane`)
 
-Treat image creation and lithophane-model generation as separate stages. First optimize the image; then give the user tool-specific model settings and slicer settings for the requested physical object.
+The user's two primary print environments are:
+1. **Bambu Lab P1S** using **Bambu Studio**
+2. **FlashForge Adventurer 5M** using **FlashForge Studio**
+
+Treat image creation, lithophane-model generation, and slicing as separate stages. First optimize the image; then generate the model in ItsLitho or MakerLab; then provide slicer settings for the selected approved printer.
 
 ## Required Intake Before Giving Final Settings
 Resolve as many of these as possible from the user's request and prior context:
 - tool: ItsLitho or MakerWorld MakerLab
 - object type: flat panel, framed artwork, lightbox, night light, lampshade, cylinder, arc, round lamp, bell, sphere, etc.
 - desired physical size in mm
-- printer model and nozzle diameter
+- printer: P1S or Adventurer 5M
+- nozzle diameter
 - filament type and color
 - light source and available internal clearance
 - whether a frame, slot, ledge, or mounting interface must fit an existing printed part
@@ -30,33 +36,28 @@ ItsLitho supports multiple model shapes including Plane, Cylinder, Sphere, Arc, 
 
 ## Default Monochrome Lithophane Starting Profile
 Use these as safe starting values when the user has not supplied a proven filament-specific profile:
-
 - **Minimum thickness:** 0.8 mm
 - **Maximum thickness:** 3.0–3.2 mm
 - **Resolution / mm per pixel:** 0.10 mm/px for high-detail work when practical
 - **Image mode:** grayscale for monochrome lithophanes
-- **Preview/model quality:** use a lower preview resolution only while editing; restore high/final quality before download
+- **Preview/model quality:** use lower preview resolution only while editing; restore high/final quality before download
 - **Frame:** only when the final object or holder needs one
 - **Angle:** 0° for a simple flat reinforced frame unless a specific frame design calls for an angled edge
 
-Do not blindly use 5 mm maximum thickness for every project. Some published ItsLitho projects use 5 mm for specific lightbox/frame designs, but 3.0–3.2 mm is a better general monochrome starting range for strong contrast with typical white PLA. Adjust for filament transmission and the actual lamp/frame design.
+Do not blindly use 5 mm maximum thickness for every project. Treat thicker profiles as project-specific and adjust for filament transmission and the actual lamp/frame design.
 
 ## Small Cute Lamp — Starter Profile
 When the user asks for a cute/small lamp and does not give dimensions, start around:
-
 - **Overall lithophane height:** 85–110 mm
 - **Diameter / width:** approximately 75–100 mm depending on shape
 - **Minimum thickness:** 0.8 mm
 - **Maximum thickness:** 3.0–3.2 mm
 - **Resolution:** 0.10 mm/px
-- **Shape:** choose Lamp, Cylinder, Arc, or another appropriate ItsLitho shape based on the user's design intent
+- **Shape:** choose Lamp, Cylinder, Arc, or another appropriate ItsLitho shape based on design intent
 - **Frame/base:** size to the actual LED puck, tea light, socket, or printed base; do not guess the mounting diameter if a specific light is being used
-
-For a cylindrical or lamp form, ensure the user's printer build volume can accommodate the full height and diameter.
 
 ## Flat Framed Artwork — Starter Profile
 For a flat image intended for a frame or backlit panel:
-
 - **Shape:** Plane
 - **Minimum thickness:** 0.8 mm
 - **Maximum thickness:** 3.0–3.2 mm
@@ -65,14 +66,12 @@ For a flat image intended for a frame or backlit panel:
 - **Frame thickness/depth:** derive from the receiving groove or holder dimensions
 - **Image crop:** match the exact physical aspect ratio before export
 
-A published framed ItsLitho example uses 0.8 mm minimum, 3.2 mm maximum, and a reinforcing frame; another square lightbox example uses 0.8 mm minimum, 5 mm maximum, 0.1 mm/px, and a 5 mm frame. Treat those as project-specific examples, not universal defaults.
-
 ---
 
 # MakerWorld MakerLab — Make My Lithophane
 
 ## Tool Scope
-MakerWorld MakerLab's **Make My Lithophane** is the primary MakerWorld lithophane generator. It is especially useful when the user wants a MakerWorld/Bambu-oriented workflow, including standard lithophane panels, compatible frames, lightboards, and CMYK/color workflows.
+MakerWorld MakerLab's **Make My Lithophane** is the primary MakerWorld lithophane generator. It is especially useful for standard lithophane panels, compatible frames, lightboards, and CMYK/color workflows.
 
 ## Model-Creation Guidance
 When using MakerLab:
@@ -83,61 +82,69 @@ When using MakerLab:
 - use the final generated model dimensions as the source of truth before slicing
 - if using a MakerWorld frame or lightbox model, follow that model's specified lithophane dimensions exactly
 
-## Monochrome Print Starting Profile
-For a typical Bambu-oriented monochrome lithophane:
-
+## Monochrome Starting Profile
 - **Filament:** white PLA or another tested translucent/light-colored PLA
-- **Layer height:** 0.10–0.12 mm for strong detail
-- **Infill:** 100% or effectively solid
-- **Walls:** enough to ensure the lithophane region is solid; published MakerWorld profiles commonly use 2–4 walls with 100% infill, while all-wall methods are also valid
-- **Supports:** normally none for a simple flat vertical lithophane; use only where the frame/base geometry requires them
-- **Speed:** slower visible-wall printing is preferred for detail; around 30–45 mm/s is a strong quality starting point for the lithophane itself
+- **Layer height:** 0.10–0.12 mm for strong detail with a 0.4 mm nozzle
+- **Infill/body:** fully solid; 100% infill or validated all-wall strategy
+- **Walls:** enough to ensure the lithophane region remains solid
+- **Supports:** normally none for a simple flat vertical lithophane; use only where frame/base geometry requires them
+- **Visible-detail speed:** approximately 30–45 mm/s as a quality-oriented starting range
 
-If the user is using a 0.2 mm nozzle for maximum detail, 0.04–0.08 mm layers may be appropriate but print time increases sharply. For a 0.4 mm nozzle, 0.10–0.12 mm is a practical high-detail starting range.
-
-## MakerWorld Frame / Lightboard Rule
-MakerWorld models often target specific physical inserts and LED backlight boards. Never assume a generic panel size when the user references a specific MakerWorld frame, lightbox, or lamp model. Resolve the model's required width, height, maximum thickness, slot depth, and lightboard size before recommending final values.
+For a 0.2 mm nozzle, finer layers may be appropriate but print time increases sharply. Do not assume a generic panel size for a specific MakerWorld frame or lightbox.
 
 ---
 
-# Slicer Settings — General Lithophane Baseline
+# General Lithophane Slicer Baseline
 
 Unless a tested printer/filament profile overrides these values, recommend:
+- **Layer height:** 0.10–0.12 mm with a 0.4 mm nozzle
+- **Body:** 100% / fully solid lithophane
+- **Visible-detail speed:** approximately 30–45 mm/s as a quality-first starting point
+- **Flat-panel orientation:** vertical/on edge when practical for image detail, stabilized as needed
+- **Seam:** back or least-visible edge
+- **Supports:** avoid on the image surface unless geometry requires them
+- **Filament:** white PLA is the standard monochrome starting material
+- **Temperature/flow:** use the tested/calibrated filament profile rather than universal numbers
 
-- **Layer height:** 0.10–0.12 mm
-- **Infill:** 100% / fully solid lithophane body
-- **Print speed:** approximately 30–45 mm/s for the lithophane detail region
-- **Orientation for a flat panel:** vertical/on edge when practical for best XY image detail; add brim/support stabilization as needed
-- **Seam:** place away from the image face or on the back/least-visible edge
-- **Filament:** white PLA is the standard monochrome starting material; silver/gray may also work, but thickness should be tuned to transmission
-- **Cooling and temperatures:** begin with the filament manufacturer's proven PLA profile, then tune only if print artifacts appear
-
-Do not give nozzle temperature, bed temperature, flow ratio, or pressure advance as universal lithophane constants; those depend on the actual filament and printer profile.
-
-## Bambu P1S Baseline
-When the user is printing on a Bambu Lab P1S with a 0.4 mm nozzle and standard white PLA:
-
-- 0.10–0.12 mm layer height
-- 100% infill or an all-wall strategy that produces a fully solid lithophane
-- slow the lithophane's visible/outer wall to roughly 30–45 mm/s
+## Bambu Lab P1S — Bambu Studio
+When printing on a **Bambu Lab P1S**:
+- use Bambu Studio terminology and controls
+- start at 0.10–0.12 mm layers with a 0.4 mm nozzle
+- keep the lithophane fully solid
+- slow visible/outer lithophane walls to roughly 30–45 mm/s when quality requires it
 - use a brim for tall thin vertical panels if stability requires it
 - place the seam on the back or least-visible edge
-- disable unnecessary supports on the image surface
+- disable unnecessary support on the image surface
+- preserve calibrated filament temperature, flow, and pressure settings
+- inspect solidity, seam placement, color/material assignment, and first-layer stability in Preview
 
-Treat these as starting values and preserve any previously calibrated filament-specific temperature/flow settings.
+## FlashForge Adventurer 5M — FlashForge Studio
+When printing on a **FlashForge Adventurer 5M**:
+- use FlashForge Studio terminology and controls
+- start at 0.10–0.12 mm layers with a 0.4 mm nozzle for high-detail monochrome work
+- keep the lithophane fully solid using the appropriate shell/infill strategy in FlashForge Studio
+- use approximately 30–45 mm/s as a quality-first visible-wall/detail starting range when the selected filament profile allows it
+- orient flat panels vertically/on edge when practical and stabilize tall narrow panels with brim/adhesion support when needed
+- place the seam on the back or least-visible edge where the slicer permits
+- avoid supports touching the image face unless the model requires them
+- preserve tested filament temperature and flow settings instead of copying Bambu values
+- inspect wall solidity, support contacts, small isolated features, and first-layer stability before printing
+
+## Cross-Printer Rule
+Do not copy every numeric field directly between Bambu Studio and FlashForge Studio. Preserve the same **quality intent**—fine layers, solid body, controlled visible-wall speed, protected image face, stable vertical orientation—and map that intent to the correct slicer controls.
 
 ---
 
 # Tool-Specific Response Contract
 
 When the user says, for example, **“I want to make a small lamp in ItsLitho”**, return the settings in this order:
-
 1. **Source image** — aspect ratio, orientation, image size, grayscale/color guidance
 2. **ItsLitho or MakerLab model settings** — shape, physical dimensions, min/max thickness, resolution, frame/base/interface values
 3. **Export** — STL/3MF or tool-supported format
-4. **Slicer settings** — printer/nozzle, layer height, walls/infill, orientation, speed, brim/support, seam
-5. **Lighting/fit check** — light-source clearance and heat/safety note
-6. **QA before printing** — preview contrast, wall solidity, dimensions, frame fit, and slice inspection
+4. **Printer / slicer selection** — P1S + Bambu Studio or Adventurer 5M + FlashForge Studio
+5. **Slicer settings** — nozzle, layer height, walls/infill, orientation, speed, brim/support, seam
+6. **Lighting/fit check** — light-source clearance and heat/safety note
+7. **QA before printing** — preview contrast, wall solidity, dimensions, frame fit, and slice inspection
 
 Always distinguish between **generator settings** and **slicer settings** so the user knows where each value belongs.
 

@@ -8,11 +8,11 @@
       "asset_type": "SKL",
       "business": "AA",
       "library": "IMG",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/image-generation/lithophane-image-art-director",
-      "depends_on": []
+      "depends_on": ["AA-SKL-000174"]
     }
   ]
 }

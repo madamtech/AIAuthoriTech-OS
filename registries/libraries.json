@@ -1,23 +1,100 @@
-{"libraries":[
-  {"code":"CORE","name":"Core Platform"},
-  {"code":"CONS","name":"AI Consulting"},
-  {"code":"AGNT","name":"Agent Engineering"},
-  {"code":"AUTO","name":"Automation Engineering"},
-  {"code":"APP","name":"App and Vibe Coding Engineering"},
-  {"code":"FLOW","name":"Workflow Engineering"},
-  {"code":"PROMPT","name":"Prompt Engineering"},
-  {"code":"KNOW","name":"Knowledge Engineering"},
-  {"code":"LMS","name":"Learning Systems"},
-  {"code":"NET","name":"NetExam"},
-  {"code":"WDAY","name":"Workday Learning"},
-  {"code":"CRM","name":"CRM and Salesforce"},
-  {"code":"PRINT","name":"3D Printing"},
-  {"code":"LASER","name":"Laser Engraving"},
-  {"code":"BRAND","name":"Branding and Marketing"},
-  {"code":"BEAUTY","name":"Beauty and Fragrance"},
-  {"code":"ECOM","name":"Ecommerce and Retail"},
-  {"code":"GOV","name":"Government and Public Sector"},
-  {"code":"OPS","name":"Business Operations"},
-  {"code":"VIDEO","name":"Cinematic and Video Production"},
-  {"code":"IMG","name":"AI Image Generation and Visual Production"}
-]}
+{
+  "libraries": [
+    {
+      "code": "CORE",
+      "name": "Core Platform"
+    },
+    {
+      "code": "CONS",
+      "name": "AI Consulting"
+    },
+    {
+      "code": "AGNT",
+      "name": "Agent Engineering"
+    },
+    {
+      "code": "AUTO",
+      "name": "Automation Engineering"
+    },
+    {
+      "code": "APP",
+      "name": "App and Vibe Coding Engineering"
+    },
+    {
+      "code": "FLOW",
+      "name": "Workflow Engineering"
+    },
+    {
+      "code": "PROMPT",
+      "name": "Prompt Engineering"
+    },
+    {
+      "code": "KNOW",
+      "name": "Knowledge Engineering"
+    },
+    {
+      "code": "LMS",
+      "name": "Learning Systems"
+    },
+    {
+      "code": "NET",
+      "name": "NetExam"
+    },
+    {
+      "code": "WDAY",
+      "name": "Workday Learning"
+    },
+    {
+      "code": "CRM",
+      "name": "CRM and Salesforce"
+    },
+    {
+      "code": "PRINT",
+      "name": "3D Printing"
+    },
+    {
+      "code": "LASER",
+      "name": "Laser Engraving"
+    },
+    {
+      "code": "BRAND",
+      "name": "Branding and Marketing"
+    },
+    {
+      "code": "BEAUTY",
+      "name": "Beauty and Fragrance"
+    },
+    {
+      "code": "ECOM",
+      "name": "Ecommerce and Retail"
+    },
+    {
+      "code": "GOV",
+      "name": "Government and Public Sector"
+    },
+    {
+      "code": "OPS",
+      "name": "Business Operations"
+    },
+    {
+      "code": "VIDEO",
+      "name": "Cinematic and Video Production"
+    },
+    {
+      "code": "IMG",
+      "name": "AI Image Generation and Visual Production"
+    },
+    {
+      "code": "GRANT",
+      "name": "Government Grants"
+    },
+    {
+      "code": "SALES",
+      "name": "Sales Enablement"
+    },
+    {
+      "code": "GOVDOC",
+      "name": "Government Documentation"
+    }
+  ]
+}

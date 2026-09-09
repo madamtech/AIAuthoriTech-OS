@@ -1,0 +1,17 @@
+{
+  "target_sku": "CO-SKL-000005",
+  "target_version": "1.0.0",
+  "from_level": 1,
+  "to_level": 2,
+  "requested_at": "2026-08-09T13:45:00-05:00",
+  "evidence": [
+    "EV-20260809-0001"
+  ],
+  "quality_gate": {
+    "structural_validation": true,
+    "behavioral_validation": false,
+    "critical_failures": 0
+  },
+  "approvals": [],
+  "decision": "changes-required"
+}

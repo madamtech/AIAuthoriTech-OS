@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bookmarked GPT Router"
+  short_description: "Route requests to authorized shared GPTs"
+  default_prompt: "Use $bookmarked-gpt-router to select an authorized bookmarked GPT for this request."

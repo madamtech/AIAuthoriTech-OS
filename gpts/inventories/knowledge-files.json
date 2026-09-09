@@ -1,0 +1,260 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-09",
+  "gpts_with_knowledge_files": 14,
+  "knowledge_file_records": 36,
+  "records": [
+    {
+      "gpt_id": "AA-GPT-000012",
+      "gpt_name": "Cinematic Realty Director",
+      "name": "AI Luxury Real Estate.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000005",
+      "gpt_name": "Eklektic Ender Studio",
+      "name": "EklecticEnder Knowledge.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000005",
+      "gpt_name": "Eklektic Ender Studio",
+      "name": "EKLEKTIC ENDER STUDIO KNOWLEDGE.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000004",
+      "gpt_name": "Gavin- Cinematic Skit Director",
+      "name": "CinematicSkits_Psychological.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000004",
+      "gpt_name": "Gavin- Cinematic Skit Director",
+      "name": "Gavin Production Level Upgrade.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000004",
+      "gpt_name": "Gavin- Cinematic Skit Director",
+      "name": "Gavin Gold Standards.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000003",
+      "gpt_name": "GlamBambu P1S Production",
+      "name": "04286cd4c40948fb8316284563f0ea05.pdf",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000003",
+      "gpt_name": "GlamBambu P1S Production",
+      "name": "dfc797b02cab4c92a73a95429875b922.pdf",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000003",
+      "gpt_name": "GlamBambu P1S Production",
+      "name": "GlamBambu P1S Production.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000003",
+      "gpt_name": "GlamBambu P1S Production",
+      "name": "GlamBambu P1S Production Playbook.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000007",
+      "gpt_name": "GlamForge 3D Printer",
+      "name": "GlamForge_3D_Printer_Custom_GPT_Instructions_UPDATED (1).md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000006",
+      "gpt_name": "GlamForge Laser Studio",
+      "name": "GlamForge_Laser_Studio_Full_Knowledge_Instructions_v3_Final_Gap_Upgrades.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000010",
+      "gpt_name": "Lyrical Hitmaker",
+      "name": "Lyrical_Hitmaker_Full_Knowledge_Instructions_REVISED.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000017",
+      "gpt_name": "Nakei Podcast Creative Director",
+      "name": "Headline_to_Scene_Knowledge_File_Upgraded.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000017",
+      "gpt_name": "Nakei Podcast Creative Director",
+      "name": "Headline_to_Scene_Frontend_Instructions_Upgraded.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000011",
+      "gpt_name": "Sportscast Director",
+      "name": "school_of_hard_knocks_custom_gpt_master_instructions.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000011",
+      "gpt_name": "Sportscast Director",
+      "name": "school_of_hard_knocks_custom_gpt_master_instructions (1).md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000008",
+      "gpt_name": "Stationery Suite",
+      "name": "stationery_suite_gpt_instructions.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000008",
+      "gpt_name": "Stationery Suite",
+      "name": "stationery_suite_compressed_configure_instructions.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000054",
+      "gpt_name": "Str8Real Content Assistant",
+      "name": "Str8Real Business Plan.docx",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000054",
+      "gpt_name": "Str8Real Content Assistant",
+      "name": "Document",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000054",
+      "gpt_name": "Str8Real Content Assistant",
+      "name": "Blog #1.docx",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000054",
+      "gpt_name": "Str8Real Content Assistant",
+      "name": "Blog 1 # Understanding the Essence of Identity.pdf",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000002",
+      "gpt_name": "Universal FizzyPop Studio",
+      "name": "Universal FizzyPop Studio Master Pr.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000002",
+      "gpt_name": "Universal FizzyPop Studio",
+      "name": "Cinematic Video Engine.pdf",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000002",
+      "gpt_name": "Universal FizzyPop Studio",
+      "name": "Universal FizzyPop Studio Output Templates.pdf",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000002",
+      "gpt_name": "Universal FizzyPop Studio",
+      "name": "FizzyPop Style DNA.pdf",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000002",
+      "gpt_name": "Universal FizzyPop Studio",
+      "name": "the-sparkle-door-method-super-easy-v1-7d4f96ea_c (1).pdf",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000020",
+      "gpt_name": "Urban Romance Studio",
+      "name": "Urban_Romance_Writing_System_Guide_Full.docx",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000020",
+      "gpt_name": "Urban Romance Studio",
+      "name": "Document",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000020",
+      "gpt_name": "Urban Romance Studio",
+      "name": "Main_GPT_Instructions_8K_Safe.docx",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000020",
+      "gpt_name": "Urban Romance Studio",
+      "name": "Director_Level_Video_and_Narration_Guide_Full.docx",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000020",
+      "gpt_name": "Urban Romance Studio",
+      "name": "Detailed_Urban_Story_Voice_Traits.docx",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000020",
+      "gpt_name": "Urban Romance Studio",
+      "name": "Urban_Visual_Style_Definitions_Full.docx",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000020",
+      "gpt_name": "Urban Romance Studio",
+      "name": "Urban_Romance_Master_System_Guide_Full.docx",
+      "repository_reference": null,
+      "verification_status": "verified"
+    },
+    {
+      "gpt_id": "AA-GPT-000016",
+      "gpt_name": "Za'ire | Situational Strategist",
+      "name": "transcript_to_trailer_few_shot_examples.md",
+      "repository_reference": null,
+      "verification_status": "verified"
+    }
+  ]
+}

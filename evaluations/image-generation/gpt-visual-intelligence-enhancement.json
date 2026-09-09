@@ -1,6 +1,5 @@
 {
   "evaluation_id": "EV-20260805-GPT-VISUAL-001",
-  "target": "gpt-visual-intelligence-enhancement",
   "target_version": "1.0.0",
   "executed_at": "2026-08-05T16:01:00-05:00",
   "evaluator": "repository architecture audit and static acceptance review",
@@ -53,5 +52,6 @@
     "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement/references/operating-standard.md",
     "registries/gpts.json",
     "docs/gpt-visual-intelligence-deployment.md"
-  ]
+  ],
+  "target_sku": "AA-SKL-000208"
 }

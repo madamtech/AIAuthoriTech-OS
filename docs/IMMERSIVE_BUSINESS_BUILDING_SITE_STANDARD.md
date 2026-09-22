@@ -670,3 +670,407 @@ Effective immediately for future ecosystem work:
 - Current: **Allure Fusions**
 
 Do not revert to the retired name unless explicitly instructed.
+
+## Planning and Brainstorming Playbook
+
+This section records the design-thinking process behind the ecosystem so future sites can be planned in the same way instead of jumping directly into page layouts.
+
+### 1. Start With the Business Experience, Not the Homepage
+
+Do not begin by asking:
+- What should the hero section say?
+- What pages should the navigation contain?
+- What stock image fits this business?
+
+Begin by asking:
+- If this business were a real upscale physical destination, what kind of building or suite would it occupy?
+- What would a visitor see first?
+- Who would greet them?
+- What would naturally happen after they entered?
+- Which services deserve their own room, station, studio, desk, gallery, bar, lab, or consultation area?
+- What would make this environment recognizable without reading the logo?
+
+The physical metaphor should emerge from the business itself.
+
+### 2. Define the Core Visitor Problem
+
+Before designing rooms, identify the main reason a visitor arrives.
+
+Document:
+- Who is arriving?
+- What are they trying to solve, buy, understand, create, evaluate, or improve?
+- What do they probably know already?
+- What might confuse them?
+- What language would they naturally use?
+- What decision should become easier by the time they leave?
+
+The site should be organized around the visitor's problem, not around internal business departments.
+
+### 3. Translate Services Into Spaces
+
+Take the service list and convert it into believable physical destinations.
+
+Examples:
+- Strategy service → Strategy Room
+- Fragrance discovery → Fragrance Bar
+- 3D modeling → Modeling Studio
+- LMS reporting → Reporting Center
+- Government process review → Modernization Lab
+- Custom project intake → Consultation Desk
+
+A room should exist only when it improves comprehension, interaction, discovery, or conversion.
+
+### 4. Establish the Building Archetype
+
+Choose one architectural archetype that best expresses the brand.
+
+Possible archetypes:
+- Executive innovation center
+- Luxury design atelier
+- Boutique headquarters
+- Corporate operations center
+- Civic innovation facility
+- Showroom
+- Gallery
+- Studio
+- Research center
+- Training center
+- Professional services suite
+
+Avoid mixing too many archetypes unless there is a clear reason.
+
+### 5. Establish the Arrival Story
+
+Plan the first 15–30 seconds of the experience.
+
+Define:
+- Exterior or entry sign
+- Door or entry transition
+- Lobby/reception appearance
+- Concierge or guide
+- Opening line
+- Directory or orientation device
+- First interactive question
+- Primary destination choices
+
+The arrival should make the visitor feel immediately placed inside the brand.
+
+### 6. Define the Signature Experience
+
+Every site needs one interaction people are likely to remember.
+
+Examples:
+- Crawford Creative Suites: concierge routing + elevator transport
+- AI AuthoriTech: process diagnosis and automation recommendation
+- Allure Fusions: concept builder that turns an idea into a dimensional project brief
+- Madam Allure: scent personality discovery
+- Learning Systems: learner journey or LMS health diagnostic
+- CivicAI: public-sector process modernization brief
+
+This signature experience should be useful, not just visually impressive.
+
+### 7. Define the Signature Movement
+
+Ask:
+- How does this environment move?
+- What visual transition belongs specifically to this business?
+- How does a visitor know they are changing areas?
+
+Examples:
+- Elevator movement
+- Glass doors opening
+- Model forming layer-by-layer
+- Soft boutique reveal
+- System boot sequence
+- Digital directory activation
+
+Movement should reinforce the concept.
+
+### 8. Define the Assistant Role Before Writing Dialogue
+
+Determine whether the assistant behaves like a:
+- Building concierge
+- Receptionist
+- Studio consultant
+- Innovation guide
+- Systems navigator
+- Beauty advisor
+- Civic guide
+
+Then define:
+- What the assistant knows
+- What it can recommend
+- What it can collect
+- What it should never claim
+- When it appears
+- When it stays out of the way
+- How it routes visitors
+- How its tone differs from the other sites
+
+### 9. Separate Shared DNA From Site-Specific DNA
+
+Before approving a concept, create two lists.
+
+Shared:
+- Upscale modern building
+- Premium finishes
+- Environmental navigation
+- Clear orientation
+- Human-centered guidance
+- Strong mobile adaptation
+- Contextual CTAs
+- Realistic commercial architecture
+
+Distinct:
+- Building archetype
+- Signature rooms
+- Lighting
+- Material palette
+- Concierge role
+- Primary interaction
+- Transition language
+- Emotional tone
+- Sound design
+- Spatial flow
+
+If the distinct list is weak, the concept is not ready.
+
+### 10. Run the "Clone Test"
+
+Ask:
+- Could I swap this site's logo with another ecosystem brand and still have the same site?
+- Are the room names generic?
+- Is the architecture too similar?
+- Is the assistant doing the same thing?
+- Is the main interaction reused without meaningful change?
+- Are the animations interchangeable?
+
+If yes, redesign until the site has its own identity.
+
+### 11. Run the "Decorated Webpage Test"
+
+Ask:
+- Is this actually an environment, or just sections placed over a background image?
+- Does the visitor move through meaningful spaces?
+- Are doors, signs, rooms, screens, and stations functional or decorative?
+- Does architecture help the visitor understand the business?
+- Would the experience still make sense if the decorative imagery were removed?
+
+If the environment is only visual decoration, the concept needs more structural thinking.
+
+### 12. Run the "Luxury vs. Gimmick" Test
+
+Upscale does not mean:
+- Too much gold
+- Excessive reflections
+- Constant animation
+- Fake marble everywhere
+- Giant logos
+- Flashy effects on every click
+
+Premium should come from:
+- Composition
+- Space
+- Lighting
+- Materials
+- Typography
+- Restraint
+- Clear interactions
+- Quality imagery
+- Purposeful transitions
+
+### 13. Plan the Complete Visitor Journey
+
+Map at least one primary flow:
+
+Arrival
+→ Orientation
+→ Problem/interest identification
+→ Relevant room
+→ Education
+→ Demonstration
+→ Personalized result
+→ Saved output
+→ Consultation/project request
+
+Also map:
+- Returning visitor flow
+- Direct-navigation flow
+- Mobile flow
+- Visitor who does not know what they need
+- Visitor who knows exactly what they need
+
+### 14. Brainstorm Rooms Before Cutting Them Down
+
+During ideation, generate more room concepts than needed.
+
+For each candidate room, document:
+- Name
+- Business purpose
+- Visitor purpose
+- Interaction
+- Information shown
+- Conversion opportunity
+- Whether it truly needs to be a separate room
+
+Then remove rooms that duplicate one another or exist only because the name sounds good.
+
+### 15. Document Rejected Directions
+
+Future designers should know what was intentionally rejected.
+
+Record:
+- Concepts that felt too generic
+- Concepts that looked too futuristic
+- Features that duplicated another site
+- Room ideas that did not support the visitor journey
+- Naming options that were retired
+- Visual approaches that conflicted with the brand
+
+This prevents future builds from accidentally reintroducing discarded ideas.
+
+### 16. Record Decisions as Locked, Flexible, or Experimental
+
+Use three statuses during planning.
+
+**LOCKED**
+A core decision that should not change without explicit direction.
+
+Examples:
+- Crawford Creative Suites is the master architectural model.
+- Allure Fusions is the current brand name.
+- Sites use upscale modern business architecture.
+- Each site must have a distinct identity.
+
+**FLEXIBLE**
+A preferred direction that may evolve during implementation.
+
+Examples:
+- Exact room arrangement
+- Specific lighting treatment
+- Precise animation timing
+- Secondary CTA wording
+
+**EXPERIMENTAL**
+A concept worth testing before committing.
+
+Examples:
+- Voice concierge
+- Advanced 3D movement
+- Session memory
+- Audio ambience
+- Persistent personalization
+
+### 17. Use a Site Planning Worksheet
+
+Before building a new immersive site, complete:
+
+**Business / Brand**
+- Name:
+- Core offer:
+- Audience:
+- Primary visitor problem:
+- Brand personality:
+- Desired emotional response:
+
+**Building Concept**
+- Architectural archetype:
+- Exterior identity:
+- Lobby/reception:
+- Main materials:
+- Lighting:
+- Signature architectural feature:
+
+**Visitor Journey**
+- Arrival:
+- First question:
+- Primary destinations:
+- Signature experience:
+- Conversion destination:
+- Return visitor behavior:
+
+**Environment**
+- Rooms/stations:
+- Navigation method:
+- Orientation system:
+- Signature transition:
+- Mobile interpretation:
+
+**Assistant**
+- Role:
+- Tone:
+- Knowledge:
+- Routing responsibilities:
+- Boundaries:
+
+**Differentiation**
+- What makes this site visually unique?
+- What makes it behaviorally unique?
+- What should never be copied from another site?
+- What should connect it to Crawford Creative Suites?
+
+**Content Integrity**
+- What information is confirmed?
+- What content requires real inventory/data?
+- What is demo-only?
+- What claims must not be invented?
+
+**Launch**
+- Lead capture:
+- Analytics:
+- Saved results:
+- Mobile:
+- Accessibility:
+- Performance:
+- SEO:
+
+### 18. Preserve the Brainstorming Trail
+
+For major site projects, keep a companion planning note containing:
+- Original idea
+- Early brainstorm
+- User feedback
+- Name changes
+- Rejected options
+- Approved concepts
+- Final room map
+- Final interaction map
+- Open questions
+- Later enhancements
+
+Do not overwrite the history with only the final specification.
+
+The purpose is to make future redesigns easier by preserving why decisions were made.
+
+### 19. Future Design Rule
+
+When creating a new site in this ecosystem, do not start from a blank creative brief.
+
+Start from:
+1. This standard
+2. Crawford Creative Suites as the master reference
+3. The specific business's existing brand and services
+4. Prior planning notes and rejected ideas
+5. The distinct-site test
+6. The visitor journey
+7. The reusable component library
+
+Then create the new architectural concept.
+
+### 20. Final Planning Principle
+
+The question is never only:
+
+"What should this website look like?"
+
+The better questions are:
+
+"What place has the visitor entered?"
+
+"What are they here to accomplish?"
+
+"How should the environment help them accomplish it?"
+
+"What makes this place unmistakably different from every other building in the ecosystem?"
+
+That thinking should guide all future immersive site planning.

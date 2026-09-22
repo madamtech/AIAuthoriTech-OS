@@ -4,6 +4,8 @@
 
 This standard defines the reusable design, structure, interaction, and architectural rules for Tanika Crawford's interactive website ecosystem.
 
+Use this standard together with `docs/SITE_BUILD_SKILL_WORKFLOW.md`. The standard defines what the ecosystem should be; the workflow defines the repeatable process for planning, building, testing, launching, and revising each site.
+
 Crawford Creative Suites is the master reference model.
 
 The goal is not to build ordinary websites with decorative backgrounds. Each site should feel like a real, upscale, modern business destination that visitors enter, explore, and interact with.

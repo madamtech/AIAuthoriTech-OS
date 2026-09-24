@@ -1,6 +1,6 @@
 ---
 name: ai-use-case-prioritizer
-description: Normalize, screen, compare, and rank a portfolio of AI use cases using evidence-backed strategic value, user value, AI suitability, data and operational readiness, feasibility, responsible-AI risk, measurement quality, and portfolio constraints. Use for AI idea backlogs, innovation funnels, executive portfolio decisions, pilot selection, or reprioritization—not broad non-AI automation analysis, detailed architecture, or final investment approval.
+description: Normalize, screen, compare, and rank a portfolio of AI use cases using evidence-backed strategic value, user value, AI suitability, data and operational readiness, feasibility, responsible-AI risk, measurement quality, and portfolio constraints. Use for AI idea backlogs, innovation funnels, executive portfolio decisions, pilot selection, or reprioritization—not broad non-AI automation analysis, detailed architecture, or final investment approval. Use when asked to (1) create ai use case prioritizer, (2) review ai use case prioritizer, (3) improve ai use case prioritizer, or (4) standardize ai use case prioritizer.
 ---
 
 # AI Use Case Prioritizer

@@ -1,6 +1,6 @@
 ---
 name: grant-narrative-architect
-description: Architect a funder-aligned grant narrative from verified applicant facts and solicitation requirements, covering executive summary, organizational background, need, approach, outcomes, impact, capacity, budget use, sustainability, and evaluation. Do not add unsupported facts or overwrite funder-required structure.
+description: Architect a funder-aligned grant narrative from verified applicant facts and solicitation requirements, covering executive summary, organizational background, need, approach, outcomes, impact, capacity, budget use, sustainability, and evaluation. Do not add unsupported facts or overwrite funder-required structure. Use when asked to (1) architect grant narrative, (2) assess grant narrative, (3) refine grant narrative, or (4) document grant narrative.
 ---
 
 # Grant Narrative Architect

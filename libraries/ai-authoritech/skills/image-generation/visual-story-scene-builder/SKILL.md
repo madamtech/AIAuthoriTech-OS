@@ -1,6 +1,6 @@
 ---
 name: visual-story-scene-builder
-description: "Convert a message or narrative beat into a visually readable scene with clear action, stakes, setting, and emotion. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Convert a message or narrative beat into a visually readable scene with clear action, stakes, setting, and emotion. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) build visual story scene, (2) refine visual story scene, (3) validate visual story scene, or (4) standardize visual story scene."
 ---
 # Visual Story Scene Builder
 

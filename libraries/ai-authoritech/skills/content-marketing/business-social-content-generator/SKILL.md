@@ -1,6 +1,6 @@
 ---
 name: business-social-content-generator
-description: Create credible channel-ready business social content from approved facts, strategy, brand voice, audience needs, and campaign goals. Use for AI AuthoriTech or authorized client marketing work.
+description: Create credible channel-ready business social content from approved facts, strategy, brand voice, audience needs, and campaign goals. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) generate business social content, (2) adapt business social content, (3) refine business social content, or (4) review business social content.
 ---
 
 # Business Social Content Generator

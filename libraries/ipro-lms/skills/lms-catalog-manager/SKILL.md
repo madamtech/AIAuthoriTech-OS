@@ -1,6 +1,6 @@
 ---
 name: lms-catalog-manager
-description: Govern LMS catalog taxonomy, metadata, ownership, audience visibility, versioning, publication, maintenance, retirement, and search quality. Use when organizing or cleaning a learning catalog or establishing repeatable content publishing controls.
+description: Govern LMS catalog taxonomy, metadata, ownership, audience visibility, versioning, publication, maintenance, retirement, and search quality. Use when organizing or cleaning a learning catalog or establishing repeatable content publishing controls. Use when asked to (1) manage lms catalog, (2) review lms catalog, (3) resolve issues in lms catalog, or (4) improve lms catalog.
 ---
 
 # LMS Catalog Manager

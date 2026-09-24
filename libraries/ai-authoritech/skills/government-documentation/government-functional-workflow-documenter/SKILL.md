@@ -1,6 +1,6 @@
 ---
 name: government-functional-workflow-documenter
-description: Document government workflows in plain functional language with triggers, roles, systems, steps, decisions, exceptions, outputs, pain points, and completion criteria.
+description: Document government workflows in plain functional language with triggers, roles, systems, steps, decisions, exceptions, outputs, pain points, and completion criteria. Use when asked to (1) create government functional workflow documenter, (2) review government functional workflow documenter, (3) improve government functional workflow documenter, or (4) standardize government functional workflow documenter.
 ---
 
 # Government Functional Workflow Documenter

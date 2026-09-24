@@ -1,6 +1,6 @@
 ---
 name: api-readiness-assessment
-description: Assess whether APIs can safely and reliably support a proposed automation by evaluating capability coverage, documentation, authentication, authorization, schemas, limits, consistency, errors, webhooks, environments, observability, support, security, and lifecycle. Use before committing to an API-based integration. Do not infer readiness from endpoint existence or vendor claims alone.
+description: Assess whether APIs can safely and reliably support a proposed automation by evaluating capability coverage, documentation, authentication, authorization, schemas, limits, consistency, errors, webhooks, environments, observability, support, security, and lifecycle. Use before committing to an API-based integration. Do not infer readiness from endpoint existence or vendor claims alone. Use when asked to (1) assess api readiness, (2) baseline api readiness, (3) identify gaps in api readiness, or (4) prioritize improvements to api readiness.
 ---
 
 # API Readiness Assessment

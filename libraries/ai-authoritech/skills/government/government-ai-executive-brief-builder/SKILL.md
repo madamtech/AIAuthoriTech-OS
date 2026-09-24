@@ -1,6 +1,6 @@
 ---
 name: government-ai-executive-brief-builder
-description: Build concise, decision-grade government AI executive briefs covering mission need, authority, evidence, alternatives, benefits, public impacts, risk, lifecycle cost, governance, dependencies, decisions, and next actions. Use for accountable executive review. Do not hide uncertainty, omit material dissent or blockers, disclose protected information, or present recommendations as authorization.
+description: Build concise, decision-grade government AI executive briefs covering mission need, authority, evidence, alternatives, benefits, public impacts, risk, lifecycle cost, governance, dependencies, decisions, and next actions. Use for accountable executive review. Do not hide uncertainty, omit material dissent or blockers, disclose protected information, or present recommendations as authorization. Use when asked to (1) build government ai executive brief, (2) refine government ai executive brief, (3) validate government ai executive brief, or (4) standardize government ai executive brief.
 ---
 
 # Government AI Executive Brief Builder

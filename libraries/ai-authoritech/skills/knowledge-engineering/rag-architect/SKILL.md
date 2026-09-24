@@ -1,6 +1,6 @@
 ---
 name: rag-architect
-description: Architect retrieval-augmented generation systems that produce grounded, access-controlled, cited answers from governed knowledge using measurable ingestion, retrieval, context assembly, generation, verification, and failure behavior. Use for enterprise assistants, question answering, research, and knowledge-grounded agents. Do not use RAG to replace missing governance, authorize actions, or guarantee truth beyond available evidence.
+description: Architect retrieval-augmented generation systems that produce grounded, access-controlled, cited answers from governed knowledge using measurable ingestion, retrieval, context assembly, generation, verification, and failure behavior. Use for enterprise assistants, question answering, research, and knowledge-grounded agents. Do not use RAG to replace missing governance, authorize actions, or guarantee truth beyond available evidence. Use when asked to (1) architect rag, (2) assess rag, (3) refine rag, or (4) document rag.
 ---
 
 # RAG Architect

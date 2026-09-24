@@ -1,6 +1,6 @@
 ---
 name: public-sector-ai-vendor-monitor
-description: Monitor public-sector AI vendors and subcontractors against contract, service, security, privacy, accessibility, performance, transparency, records, incident, support, change, portability, and exit obligations. Use for authorized contract oversight and renewal decisions. Do not treat vendor attestations as proof, alter contracts, disclose protected procurement information, or close findings without verified evidence.
+description: Monitor public-sector AI vendors and subcontractors against contract, service, security, privacy, accessibility, performance, transparency, records, incident, support, change, portability, and exit obligations. Use for authorized contract oversight and renewal decisions. Do not treat vendor attestations as proof, alter contracts, disclose protected procurement information, or close findings without verified evidence. Use when asked to (1) create public sector ai vendor monitor, (2) review public sector ai vendor monitor, (3) improve public sector ai vendor monitor, or (4) standardize public sector ai vendor monitor.
 ---
 
 # Public Sector AI Vendor Monitor

@@ -1,6 +1,6 @@
 ---
 name: salesforce-learning-integration-planner
-description: Plan Salesforce-to-LMS learning integrations by defining system ownership, identities, objects, field mappings, events, transformations, security, reconciliation, errors, and monitoring. Use for NetExam, Workday Learning, or other learning data exchanges involving Salesforce.
+description: Plan Salesforce-to-LMS learning integrations by defining system ownership, identities, objects, field mappings, events, transformations, security, reconciliation, errors, and monitoring. Use for NetExam, Workday Learning, or other learning data exchanges involving Salesforce. Use when asked to (1) plan salesforce learning integration, (2) revise salesforce learning integration, (3) evaluate options for salesforce learning integration, or (4) prepare implementation of salesforce learning integration.
 ---
 
 # Salesforce Learning Integration Planner

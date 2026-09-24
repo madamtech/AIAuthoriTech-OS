@@ -1,6 +1,6 @@
 ---
 name: learning-analytics-designer
-description: Design trustworthy learning analytics that connect operational learning data to defined business questions, outcomes, measures, dimensions, cohorts, privacy controls, and decision workflows. Use when creating KPI frameworks, dashboards, scorecards, or evaluation plans.
+description: Design trustworthy learning analytics that connect operational learning data to defined business questions, outcomes, measures, dimensions, cohorts, privacy controls, and decision workflows. Use when creating KPI frameworks, dashboards, scorecards, or evaluation plans. Use when asked to (1) design learning analytics, (2) revise learning analytics, (3) compare options for learning analytics, or (4) document specifications for learning analytics.
 ---
 
 # Learning Analytics Designer

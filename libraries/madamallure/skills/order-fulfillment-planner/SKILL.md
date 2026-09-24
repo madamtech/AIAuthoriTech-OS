@@ -1,6 +1,6 @@
 ---
 name: order-fulfillment-planner
-description: Design reliable order fulfillment from paid-order validation through picking, customization, quality control, packing, shipping, delivery exceptions, and closure. Use for standard and personalized MadamAllure orders.
+description: Design reliable order fulfillment from paid-order validation through picking, customization, quality control, packing, shipping, delivery exceptions, and closure. Use for standard and personalized MadamAllure orders. Use when asked to (1) plan order fulfillment, (2) revise order fulfillment, (3) evaluate options for order fulfillment, or (4) prepare implementation of order fulfillment.
 ---
 
 # Order Fulfillment Planner

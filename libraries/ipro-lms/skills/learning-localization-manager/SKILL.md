@@ -1,6 +1,6 @@
 ---
 name: learning-localization-manager
-description: Plan and govern localization of learning content, assessments, metadata, certificates, notifications, and LMS experiences across languages and regions. Use when preparing multilingual releases or maintaining translated learning assets.
+description: Plan and govern localization of learning content, assessments, metadata, certificates, notifications, and LMS experiences across languages and regions. Use when preparing multilingual releases or maintaining translated learning assets. Use when asked to (1) manage learning localization, (2) review learning localization, (3) resolve issues in learning localization, or (4) improve learning localization.
 ---
 
 # Learning Localization Manager

@@ -1,6 +1,6 @@
 ---
 name: public-sector-ai-workforce-planner
-description: Plan public-sector AI workforce roles, competencies, capacity, training, labor and change impacts, accountable oversight, vendor knowledge transfer, succession, and operating support. Use for agency AI portfolios, pilots, or scaled operations. Do not assume displacement benefits, bypass labor or HR obligations, or assign accountable authority to AI systems or vendors.
+description: Plan public-sector AI workforce roles, competencies, capacity, training, labor and change impacts, accountable oversight, vendor knowledge transfer, succession, and operating support. Use for agency AI portfolios, pilots, or scaled operations. Do not assume displacement benefits, bypass labor or HR obligations, or assign accountable authority to AI systems or vendors. Use when asked to (1) plan public sector ai workforce, (2) revise public sector ai workforce, (3) evaluate options for public sector ai workforce, or (4) prepare implementation of public sector ai workforce.
 ---
 
 # Public Sector AI Workforce Planner

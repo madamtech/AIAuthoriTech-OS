@@ -1,6 +1,6 @@
 ---
 name: content-performance-analyzer
-description: Analyze content performance using defined goals, attribution limits, audience, channel, funnel stage, quality, conversion, and cost evidence. Use for AI AuthoriTech or authorized client marketing work.
+description: Analyze content performance using defined goals, attribution limits, audience, channel, funnel stage, quality, conversion, and cost evidence. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) analyze content performance, (2) diagnose content performance, (3) compare content performance, or (4) summarize findings about content performance.
 ---
 
 # Content Performance Analyzer

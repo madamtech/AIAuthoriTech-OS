@@ -1,6 +1,6 @@
 ---
 name: ilt-session-manager
-description: Plan and operate instructor-led training sessions, including offerings, schedules, instructors, capacity, locations, rosters, waitlists, attendance, cancellations, completion, and communications. Use for classroom, virtual instructor-led, or hybrid learning operations.
+description: Plan and operate instructor-led training sessions, including offerings, schedules, instructors, capacity, locations, rosters, waitlists, attendance, cancellations, completion, and communications. Use for classroom, virtual instructor-led, or hybrid learning operations. Use when asked to (1) manage ilt session, (2) review ilt session, (3) resolve issues in ilt session, or (4) improve ilt session.
 ---
 
 # ILT Session Manager

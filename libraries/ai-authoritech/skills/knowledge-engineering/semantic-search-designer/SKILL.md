@@ -1,6 +1,6 @@
 ---
 name: semantic-search-designer
-description: Design and evaluate lexical, vector, hybrid, filtered, and reranked search systems over governed corpora, including query understanding, chunking, metadata, embeddings, access filtering, relevance judgments, latency, and observability. Use for enterprise search, knowledge hubs, retrieval layers, and RAG retrieval. Do not select retrieval technology without representative queries, authorization controls, and measured relevance.
+description: Design and evaluate lexical, vector, hybrid, filtered, and reranked search systems over governed corpora, including query understanding, chunking, metadata, embeddings, access filtering, relevance judgments, latency, and observability. Use for enterprise search, knowledge hubs, retrieval layers, and RAG retrieval. Do not select retrieval technology without representative queries, authorization controls, and measured relevance. Use when asked to (1) design semantic search, (2) revise semantic search, (3) compare options for semantic search, or (4) document specifications for semantic search.
 ---
 
 # Semantic Search Designer

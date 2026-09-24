@@ -1,6 +1,6 @@
 ---
 name: knowledge-quality-reviewer
-description: Independently review knowledge assets and corpora for provenance, authority, accuracy, completeness, consistency, freshness, granularity, findability, access compliance, representativeness, usability, and evidence integrity. Use before publishing, indexing, RAG ingestion, migration, release, or maturity promotion. Do not edit evidence in place or approve unsupported quality claims.
+description: Independently review knowledge assets and corpora for provenance, authority, accuracy, completeness, consistency, freshness, granularity, findability, access compliance, representativeness, usability, and evidence integrity. Use before publishing, indexing, RAG ingestion, migration, release, or maturity promotion. Do not edit evidence in place or approve unsupported quality claims. Use when asked to (1) review knowledge quality, (2) audit knowledge quality, (3) identify gaps in knowledge quality, or (4) recommend corrections to knowledge quality.
 ---
 
 # Knowledge Quality Reviewer

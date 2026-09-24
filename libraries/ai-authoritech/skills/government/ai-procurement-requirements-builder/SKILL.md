@@ -1,6 +1,6 @@
 ---
 name: ai-procurement-requirements-builder
-description: Build evidence-based public-sector AI procurement requirements for market research, solicitations, evaluations, contracts, acceptance, monitoring, remedies, portability, and exit. Use when agencies acquire AI products or services. Do not provide legal approval, favor vendors, expose protected procurement information, or treat vendor assertions as verified capability.
+description: Build evidence-based public-sector AI procurement requirements for market research, solicitations, evaluations, contracts, acceptance, monitoring, remedies, portability, and exit. Use when agencies acquire AI products or services. Do not provide legal approval, favor vendors, expose protected procurement information, or treat vendor assertions as verified capability. Use when asked to (1) build ai procurement requirements, (2) refine ai procurement requirements, (3) validate ai procurement requirements, or (4) standardize ai procurement requirements.
 ---
 
 # AI Procurement Requirements Builder

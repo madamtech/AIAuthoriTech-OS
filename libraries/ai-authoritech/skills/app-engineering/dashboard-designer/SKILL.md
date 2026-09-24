@@ -1,6 +1,6 @@
 ---
 name: dashboard-designer
-description: Create decision-focused dashboard specifications covering audiences, decisions, metric contracts, sources, freshness, targets, comparisons, filters, segments, visual encodings, drill paths, actions, alerts, permissions, accessibility, responsive behavior, data quality, performance, testing, and governance. Use for executive, operational, client, product, analytics, monitoring, or AI dashboards - not to invent metrics, conceal uncertainty, replace source-system reconciliation, or claim a visualized number is correct without validated lineage.
+description: Create decision-focused dashboard specifications covering audiences, decisions, metric contracts, sources, freshness, targets, comparisons, filters, segments, visual encodings, drill paths, actions, alerts, permissions, accessibility, responsive behavior, data quality, performance, testing, and governance. Use for executive, operational, client, product, analytics, monitoring, or AI dashboards - not to invent metrics, conceal uncertainty, replace source-system reconciliation, or claim a visualized number is correct without validated lineage. Use when asked to (1) design dashboard, (2) revise dashboard, (3) compare options for dashboard, or (4) document specifications for dashboard.
 ---
 
 # Dashboard Designer

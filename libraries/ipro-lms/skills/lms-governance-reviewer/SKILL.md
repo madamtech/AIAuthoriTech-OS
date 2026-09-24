@@ -1,6 +1,6 @@
 ---
 name: lms-governance-reviewer
-description: Review LMS governance across ownership, access, content, assignments, records, integrations, changes, vendors, privacy, reporting, continuity, and auditability. Use for health checks, control assessments, or governance improvement roadmaps.
+description: Review LMS governance across ownership, access, content, assignments, records, integrations, changes, vendors, privacy, reporting, continuity, and auditability. Use for health checks, control assessments, or governance improvement roadmaps. Use when asked to (1) review lms governance, (2) audit lms governance, (3) identify gaps in lms governance, or (4) recommend corrections to lms governance.
 ---
 
 # LMS Governance Reviewer

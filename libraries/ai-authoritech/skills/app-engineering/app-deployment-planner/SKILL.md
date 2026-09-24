@@ -1,6 +1,6 @@
 ---
 name: app-deployment-planner
-description: Design safe, repeatable application deployment and release plans covering environments, immutable artifacts, configuration and secrets, infrastructure and database changes, rollout strategy, approvals, observability, verification, rollback or forward-fix, incident response, audit evidence, and ownership. Use before releasing web, mobile, SaaS, internal, API-driven, AI-enabled, or vibe-coded applications - not to perform an unapproved production change, expose credentials, or claim a deployment succeeded without authoritative verification.
+description: Design safe, repeatable application deployment and release plans covering environments, immutable artifacts, configuration and secrets, infrastructure and database changes, rollout strategy, approvals, observability, verification, rollback or forward-fix, incident response, audit evidence, and ownership. Use before releasing web, mobile, SaaS, internal, API-driven, AI-enabled, or vibe-coded applications - not to perform an unapproved production change, expose credentials, or claim a deployment succeeded without authoritative verification. Use when asked to (1) plan app deployment, (2) revise app deployment, (3) evaluate options for app deployment, or (4) prepare implementation of app deployment.
 ---
 
 # App Deployment Planner

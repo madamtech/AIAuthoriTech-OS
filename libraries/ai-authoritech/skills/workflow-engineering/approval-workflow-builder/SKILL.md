@@ -1,6 +1,6 @@
 ---
 name: approval-workflow-builder
-description: Build governed approval workflows with clear decision rights, criteria, evidence, thresholds, segregation of duties, delegation, expiry, escalation, appeals, audit, and service levels. Use for financial, access, content, release, risk, policy, and exception approvals. Do not automate authority that has not been delegated or use approval as a substitute for effective controls.
+description: Build governed approval workflows with clear decision rights, criteria, evidence, thresholds, segregation of duties, delegation, expiry, escalation, appeals, audit, and service levels. Use for financial, access, content, release, risk, policy, and exception approvals. Do not automate authority that has not been delegated or use approval as a substitute for effective controls. Use when asked to (1) build approval workflow, (2) refine approval workflow, (3) validate approval workflow, or (4) standardize approval workflow.
 ---
 
 # Approval Workflow Builder

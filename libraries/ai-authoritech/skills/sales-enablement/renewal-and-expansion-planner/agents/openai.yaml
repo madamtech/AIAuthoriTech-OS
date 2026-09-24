@@ -1,0 +1,6 @@
+interface:
+  display_name: Renewal and Expansion Planner
+  short_description: Create evidence-based renewal, retention, refresh, and...
+  default_prompt: Use $renewal-and-expansion-planner to create evidence-based renewal,
+    retention, refresh, and expansion plans for existing accounts while keeping pricing,
+    commitments, and approvals governed.

@@ -1,6 +1,6 @@
 ---
 name: thought-leadership-builder
-description: Build credible thought-leadership content from original expertise, evidence, a defensible point of view, and audience relevance. Use for AI AuthoriTech or authorized client marketing work.
+description: Build credible thought-leadership content from original expertise, evidence, a defensible point of view, and audience relevance. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) build thought leadership, (2) refine thought leadership, (3) validate thought leadership, or (4) standardize thought leadership.
 ---
 
 # Thought Leadership Builder

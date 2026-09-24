@@ -1,6 +1,6 @@
 ---
 name: content-strategy-builder
-description: Build an evidence-based content strategy aligned to audience needs, business goals, positioning, channels, journey stages, resources, governance, and measurement. Use for AI AuthoriTech or authorized client marketing work.
+description: Build an evidence-based content strategy aligned to audience needs, business goals, positioning, channels, journey stages, resources, governance, and measurement. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) build content strategy, (2) refine content strategy, (3) validate content strategy, or (4) standardize content strategy.
 ---
 
 # Content Strategy Builder

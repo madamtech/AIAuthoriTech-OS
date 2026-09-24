@@ -1,6 +1,6 @@
 ---
 name: supplier-performance-scorecard
-description: Score suppliers using verified quality, delivery, cost, documentation, traceability, service, capacity, responsiveness, corrective-action, and risk evidence. Use for periodic supplier reviews, sourcing discussions, improvement plans, and human-reviewed qualification decisions.
+description: Score suppliers using verified quality, delivery, cost, documentation, traceability, service, capacity, responsiveness, corrective-action, and risk evidence. Use for periodic supplier reviews, sourcing discussions, improvement plans, and human-reviewed qualification decisions. Use when asked to (1) create supplier performance scorecard, (2) review supplier performance scorecard, (3) improve supplier performance scorecard, or (4) standardize supplier performance scorecard.
 ---
 
 # Supplier Performance Scorecard

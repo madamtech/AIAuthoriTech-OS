@@ -1,6 +1,6 @@
 ---
 name: stl-production-planner
-description: Prepare watertight, correctly scaled STL files for reliable 3D-print production. Use when validating mesh geometry, dimensions, tolerances, orientation, segmentation, and version readiness.
+description: Prepare watertight, correctly scaled STL files for reliable 3D-print production. Use when validating mesh geometry, dimensions, tolerances, orientation, segmentation, and version readiness. Use when asked to (1) plan stl production, (2) revise stl production, (3) evaluate options for stl production, or (4) prepare implementation of stl production.
 ---
 
 # Stl Production Planner

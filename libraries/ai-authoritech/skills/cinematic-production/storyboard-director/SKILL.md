@@ -1,6 +1,6 @@
 ---
 name: storyboard-director
-description: Translate an approved screenplay or scene treatment into a coherent storyboard plan with panels, composition, staging, action, camera intent, dialogue or voiceover, lighting, and continuity handoffs. Use before image generation, animatics, video prompting, or production planning.
+description: Translate an approved screenplay or scene treatment into a coherent storyboard plan with panels, composition, staging, action, camera intent, dialogue or voiceover, lighting, and continuity handoffs. Use before image generation, animatics, video prompting, or production planning. Use when asked to (1) direct storyboard, (2) plan storyboard, (3) review storyboard, or (4) refine storyboard.
 ---
 
 # Storyboard Director

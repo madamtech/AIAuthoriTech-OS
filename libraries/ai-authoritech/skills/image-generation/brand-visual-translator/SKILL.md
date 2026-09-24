@@ -1,6 +1,6 @@
 ---
 name: brand-visual-translator
-description: "Translate brand strategy, voice, audience, colors, and positioning into concrete image-generation decisions. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Translate brand strategy, voice, audience, colors, and positioning into concrete image-generation decisions. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create brand visual translator, (2) review brand visual translator, (3) improve brand visual translator, or (4) standardize brand visual translator."
 ---
 # Brand Visual Translator
 

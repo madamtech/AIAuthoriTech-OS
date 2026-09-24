@@ -1,6 +1,6 @@
 ---
 name: front-end-generator
-description: Convert approved application requirements, user journeys, design contracts, content, data contracts, and authorization rules into bounded front-end implementation packets and code changes covering semantic structure, components, routes, state, forms, responsive behavior, accessibility, localization, performance, security, analytics, tests, and verification. Use when implementing or planning a web, mobile-web, desktop-webview, portal, dashboard, SaaS, or vibe-coded interface - not to invent material product rules, enforce authorization only in the client, expose secrets, overwrite approved design, or claim production readiness from a visual preview.
+description: Convert approved application requirements, user journeys, design contracts, content, data contracts, and authorization rules into bounded front-end implementation packets and code changes covering semantic structure, components, routes, state, forms, responsive behavior, accessibility, localization, performance, security, analytics, tests, and verification. Use when implementing or planning a web, mobile-web, desktop-webview, portal, dashboard, SaaS, or vibe-coded interface - not to invent material product rules, enforce authorization only in the client, expose secrets, overwrite approved design, or claim production readiness from a visual preview. Use when asked to (1) generate front end, (2) adapt front end, (3) refine front end, or (4) review front end.
 ---
 
 # Front-End Generator

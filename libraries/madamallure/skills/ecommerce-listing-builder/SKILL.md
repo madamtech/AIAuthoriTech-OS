@@ -1,6 +1,6 @@
 ---
 name: ecommerce-listing-builder
-description: Create accurate, persuasive ecommerce listings for MadamAllure products with titles, descriptions, variants, personalization instructions, dimensions, materials, care, lead times, shipping, SEO, accessibility text, and policies. Use when preparing Shopify or marketplace product pages.
+description: Create accurate, persuasive ecommerce listings for MadamAllure products with titles, descriptions, variants, personalization instructions, dimensions, materials, care, lead times, shipping, SEO, accessibility text, and policies. Use when preparing Shopify or marketplace product pages. Use when asked to (1) build ecommerce listing, (2) refine ecommerce listing, (3) validate ecommerce listing, or (4) standardize ecommerce listing.
 ---
 
 # Ecommerce Listing Builder

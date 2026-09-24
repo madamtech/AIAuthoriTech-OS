@@ -1,6 +1,6 @@
 ---
 name: luxury-glam-art-director
-description: "Create refined luxury, beauty, fashion, gifting, and product visuals without tipping into clutter or imitation. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Create refined luxury, beauty, fashion, gifting, and product visuals without tipping into clutter or imitation. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) direct luxury glam art, (2) plan luxury glam art, (3) review luxury glam art, or (4) refine luxury glam art."
 ---
 # Luxury and Glam Art Director
 

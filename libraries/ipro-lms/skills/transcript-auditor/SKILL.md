@@ -1,6 +1,6 @@
 ---
 name: transcript-auditor
-description: Audit learner transcript records across authorized LMS and connected systems for identity, course and version, enrollment, attempts, status, dates, timezone, scores, credits, certificates, integrations, overrides, and source consistency. Use when records are disputed, missing, duplicated, stale, or migration-affected. Do not alter official records without approval, evidence preservation, and an audit trail.
+description: Audit learner transcript records across authorized LMS and connected systems for identity, course and version, enrollment, attempts, status, dates, timezone, scores, credits, certificates, integrations, overrides, and source consistency. Use when records are disputed, missing, duplicated, stale, or migration-affected. Do not alter official records without approval, evidence preservation, and an audit trail. Use when asked to (1) create transcript auditor, (2) review transcript auditor, (3) improve transcript auditor, or (4) standardize transcript auditor.
 ---
 
 # Transcript Auditor

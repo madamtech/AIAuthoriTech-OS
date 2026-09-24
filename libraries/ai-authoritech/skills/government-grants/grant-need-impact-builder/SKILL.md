@@ -1,6 +1,6 @@
 ---
 name: grant-need-impact-builder
-description: Build evidence-grounded grant problem statements, target-population narratives, need justification, community/public value, and impact logic. Use when a proposal must connect a documented problem to a credible intervention. Do not invent statistics or stereotype affected communities.
+description: Build evidence-grounded grant problem statements, target-population narratives, need justification, community/public value, and impact logic. Use when a proposal must connect a documented problem to a credible intervention. Do not invent statistics or stereotype affected communities. Use when asked to (1) build grant need impact, (2) refine grant need impact, (3) validate grant need impact, or (4) standardize grant need impact.
 ---
 
 # Grant Need and Community Impact Builder

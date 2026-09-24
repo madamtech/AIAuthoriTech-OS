@@ -1,0 +1,7 @@
+interface:
+  display_name: Government Administrative Decision Matrix Builder
+  short_description: Create government administrative decision matrices that...
+  default_prompt: Use $government-administrative-decision-matrix-builder to create
+    government administrative decision matrices that compare defined options against
+    verified criteria, constraints, risks, dependencies, and evidence without replacing
+    authorized decision makers.

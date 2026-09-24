@@ -1,6 +1,6 @@
 ---
 name: saas-architecture-planner
-description: Design provider-neutral SaaS architectures covering tenant and identity boundaries, isolation, provisioning, entitlements, plans, metering, billing interfaces, quotas, data lifecycle, integrations, extensibility, reliability, scaling, observability, support, compliance, unit economics, portability, and tenant retirement. Use for new multi-tenant products, SaaS migrations, enterprise-ready redesigns, platform reviews, or vibe-coded SaaS foundations - not detailed implementation, production provisioning, tax or accounting advice, or assuming shared infrastructure is safe without enforced isolation.
+description: Design provider-neutral SaaS architectures covering tenant and identity boundaries, isolation, provisioning, entitlements, plans, metering, billing interfaces, quotas, data lifecycle, integrations, extensibility, reliability, scaling, observability, support, compliance, unit economics, portability, and tenant retirement. Use for new multi-tenant products, SaaS migrations, enterprise-ready redesigns, platform reviews, or vibe-coded SaaS foundations - not detailed implementation, production provisioning, tax or accounting advice, or assuming shared infrastructure is safe without enforced isolation. Use when asked to (1) plan saas architecture, (2) revise saas architecture, (3) evaluate options for saas architecture, or (4) prepare implementation of saas architecture.
 ---
 
 # SaaS Architecture Planner

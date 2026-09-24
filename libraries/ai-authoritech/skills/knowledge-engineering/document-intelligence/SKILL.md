@@ -1,6 +1,6 @@
 ---
 name: document-intelligence
-description: Analyze complex document collections for structure, content, evidence, differences, obligations, decisions, entities, timelines, tables, and cross-document relationships with page- or section-level traceability. Use for document inventories, comparison, synthesis, evidence matrices, exception detection, and review queues. Do not provide unsupported legal conclusions, ignore inaccessible content, or collapse conflicting documents into one unqualified summary.
+description: Analyze complex document collections for structure, content, evidence, differences, obligations, decisions, entities, timelines, tables, and cross-document relationships with page- or section-level traceability. Use for document inventories, comparison, synthesis, evidence matrices, exception detection, and review queues. Do not provide unsupported legal conclusions, ignore inaccessible content, or collapse conflicting documents into one unqualified summary. Use when asked to (1) create document intelligence, (2) review document intelligence, (3) improve document intelligence, or (4) standardize document intelligence.
 ---
 
 # Document Intelligence

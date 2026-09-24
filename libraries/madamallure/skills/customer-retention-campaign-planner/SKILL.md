@@ -1,6 +1,6 @@
 ---
 name: customer-retention-campaign-planner
-description: Plan permission-based customer retention campaigns using validated lifecycle segments, purchase evidence, consent and suppression status, value, timing, offer economics, inventory, content, channels, frequency, holdouts, and measurement. Use for controlled re-engagement, loyalty, replenishment, and win-back programs.
+description: Plan permission-based customer retention campaigns using validated lifecycle segments, purchase evidence, consent and suppression status, value, timing, offer economics, inventory, content, channels, frequency, holdouts, and measurement. Use for controlled re-engagement, loyalty, replenishment, and win-back programs. Use when asked to (1) plan customer retention campaign, (2) revise customer retention campaign, (3) evaluate options for customer retention campaign, or (4) prepare implementation of customer retention campaign.
 ---
 
 # Customer Retention Campaign Planner

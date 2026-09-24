@@ -1,6 +1,6 @@
 ---
 name: lms-report-analyzer
-description: Analyze LMS reports by validating the business question, population, grain, definitions, security scope, filters, status semantics, joins, dates, timezones, refresh timing, data quality, and reconciliation evidence before interpreting metrics. Use for learning, certification, exam, transcript, adoption, or exception reporting. Do not infer causation or treat missing data as zero without evidence.
+description: Analyze LMS reports by validating the business question, population, grain, definitions, security scope, filters, status semantics, joins, dates, timezones, refresh timing, data quality, and reconciliation evidence before interpreting metrics. Use for learning, certification, exam, transcript, adoption, or exception reporting. Do not infer causation or treat missing data as zero without evidence. Use when asked to (1) analyze lms report, (2) diagnose lms report, (3) compare lms report, or (4) summarize findings about lms report.
 ---
 
 # LMS Report Analyzer

@@ -1,6 +1,6 @@
 ---
 name: government-functional-requirements-builder
-description: Create government-ready functional requirements documents that describe user-facing behavior, business rules, roles, inputs, outputs, dependencies, and acceptance needs without drifting into engineering design.
+description: Create government-ready functional requirements documents that describe user-facing behavior, business rules, roles, inputs, outputs, dependencies, and acceptance needs without drifting into engineering design. Use when asked to (1) build government functional requirements, (2) refine government functional requirements, (3) validate government functional requirements, or (4) standardize government functional requirements.
 ---
 
 # Government Functional Requirements Builder

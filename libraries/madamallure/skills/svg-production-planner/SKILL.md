@@ -1,6 +1,6 @@
 ---
 name: svg-production-planner
-description: Prepare production-ready SVG files for cutting, engraving, printing, or digital use. Use when artwork must be cleaned, sized, layered, and validated for a specific machine or workflow.
+description: Prepare production-ready SVG files for cutting, engraving, printing, or digital use. Use when artwork must be cleaned, sized, layered, and validated for a specific machine or workflow. Use when asked to (1) plan svg production, (2) revise svg production, (3) evaluate options for svg production, or (4) prepare implementation of svg production.
 ---
 
 # Svg Production Planner

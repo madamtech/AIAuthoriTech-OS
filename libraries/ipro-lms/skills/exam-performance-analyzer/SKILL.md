@@ -1,6 +1,6 @@
 ---
 name: exam-performance-analyzer
-description: Analyze exam and item performance using attempts, scores, item difficulty, discrimination, distractor behavior, timing, reliability, and subgroup evidence. Use after a sufficient administration period to identify quality issues without exposing secure items.
+description: Analyze exam and item performance using attempts, scores, item difficulty, discrimination, distractor behavior, timing, reliability, and subgroup evidence. Use after a sufficient administration period to identify quality issues without exposing secure items. Use when asked to (1) analyze exam performance, (2) diagnose exam performance, (3) compare exam performance, or (4) summarize findings about exam performance.
 ---
 
 # Exam Performance Analyzer

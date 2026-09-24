@@ -1,6 +1,6 @@
 ---
 name: bug-investigation-assistant
-description: Investigate reproducible or intermittent software defects by preserving evidence, defining expected and observed behavior, assessing impact, reproducing safely, narrowing the failing layer, comparing changes and environments, testing competing hypotheses, identifying the most supported causal chain, and specifying regression and verification needs. Use for web, mobile, desktop, API, data, integration, automation, AI-enabled, or vibe-coded application bugs - not to make unrequested fixes, experiment destructively in production, expose sensitive data, or present correlation as proven root cause.
+description: Investigate reproducible or intermittent software defects by preserving evidence, defining expected and observed behavior, assessing impact, reproducing safely, narrowing the failing layer, comparing changes and environments, testing competing hypotheses, identifying the most supported causal chain, and specifying regression and verification needs. Use for web, mobile, desktop, API, data, integration, automation, AI-enabled, or vibe-coded application bugs - not to make unrequested fixes, experiment destructively in production, expose sensitive data, or present correlation as proven root cause. Use when asked to (1) support bug investigation, (2) organize bug investigation, (3) review bug investigation, or (4) improve bug investigation.
 ---
 
 # Bug Investigation Assistant

@@ -1,6 +1,6 @@
 ---
 name: multi-agent-system-designer
-description: Determine whether multiple AI agents are justified and design a bounded multi-agent system with explicit roles, authority, routing, coordination, shared state, message contracts, handoffs, conflict resolution, human approvals, failure containment, evaluation, deployment, monitoring, and ownership. Use for orchestrator-worker systems, specialist agent teams, parallel agent workflows, reviewer patterns, or cross-domain coordination - not decorative agent personas, simple sequential workflows, or implementation on an unspecified platform.
+description: Determine whether multiple AI agents are justified and design a bounded multi-agent system with explicit roles, authority, routing, coordination, shared state, message contracts, handoffs, conflict resolution, human approvals, failure containment, evaluation, deployment, monitoring, and ownership. Use for orchestrator-worker systems, specialist agent teams, parallel agent workflows, reviewer patterns, or cross-domain coordination - not decorative agent personas, simple sequential workflows, or implementation on an unspecified platform. Use when asked to (1) design multi agent system, (2) revise multi agent system, (3) compare options for multi agent system, or (4) document specifications for multi agent system.
 ---
 
 # Multi-Agent System Designer

@@ -1,6 +1,6 @@
 ---
 name: multi-brand-visual-governance
-description: "Prevent visual contamination across AI AuthoriTech, i-PRO, MadamAllure, client brands, and personal projects while allowing approved shared systems. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Prevent visual contamination across AI AuthoriTech, i-PRO, MadamAllure, client brands, and personal projects while allowing approved shared systems. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create multi brand visual governance, (2) review multi brand visual governance, (3) improve multi brand visual governance, or (4) standardize multi brand visual governance."
 ---
 # Multi-Brand Visual Governance
 

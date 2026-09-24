@@ -1,6 +1,6 @@
 ---
 name: fragrance-oil-formulator
-description: Design alcohol-free fragrance oil roll-ons, perfume oils, aromatherapy-inspired cosmetic scent blends, and dry body oils using essential oils, fragrance oils, natural carrier oils, fractionated coconut oil, and explicitly disclosed optional diluents such as DPG or IPM. Use for scent blending, carrier selection, formula scaling, custom fragrance orders, and stability planning - not therapeutic aromatherapy claims, unrestricted essential-oil use, or production release without current IFRA and supplier evidence.
+description: Design alcohol-free fragrance oil roll-ons, perfume oils, aromatherapy-inspired cosmetic scent blends, and dry body oils using essential oils, fragrance oils, natural carrier oils, fractionated coconut oil, and explicitly disclosed optional diluents such as DPG or IPM. Use for scent blending, carrier selection, formula scaling, custom fragrance orders, and stability planning - not therapeutic aromatherapy claims, unrestricted essential-oil use, or production release without current IFRA and supplier evidence. Use when asked to (1) formulate fragrance oil, (2) scale fragrance oil, (3) revise fragrance oil, or (4) troubleshoot fragrance oil.
 ---
 
 # Fragrance Oil Formulator

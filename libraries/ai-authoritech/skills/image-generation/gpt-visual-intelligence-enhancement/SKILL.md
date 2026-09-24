@@ -1,6 +1,6 @@
 ---
 name: gpt-visual-intelligence-enhancement
-description: "Add an evaluation-led visual intelligence layer to an existing GPT without replacing its domain expertise. Use for image creation, image editing, branded visuals, thumbnails, product concepts, print-ready artwork, visual references for 3D production, and any request where the GPT must translate user intent into a controlled visual brief, route the correct image-generation skills, verify the result, and preserve explicit constraints through revision."
+description: "Add an evaluation-led visual intelligence layer to an existing GPT without replacing its domain expertise. Use for image creation, image editing, branded visuals, thumbnails, product concepts, print-ready artwork, visual references for 3D production, and any request where the GPT must translate user intent into a controlled visual brief, route the correct image-generation skills, verify the result, and preserve explicit constraints through revision. Use when asked to (1) create gpt visual intelligence enhancement, (2) review gpt visual intelligence enhancement, (3) improve gpt visual intelligence enhancement, or (4) standardize gpt visual intelligence enhancement."
 ---
 # GPT Visual Intelligence Enhancement
 

@@ -1,6 +1,6 @@
 ---
 name: app-requirements-generator
-description: Convert product ideas, discovery notes, workflows, stakeholder interviews, or existing-system evidence into testable application requirements, user stories, business rules, data and permission requirements, interface states, integrations, nonfunctional requirements, edge cases, acceptance criteria, traceability, dependencies, assumptions, and a prioritized release backlog. Use for websites, SaaS products, portals, dashboards, internal tools, mobile or desktop apps, and AI-enabled products - not solution architecture, UI design, implementation, or inventing material requirements without stakeholder validation.
+description: Convert product ideas, discovery notes, workflows, stakeholder interviews, or existing-system evidence into testable application requirements, user stories, business rules, data and permission requirements, interface states, integrations, nonfunctional requirements, edge cases, acceptance criteria, traceability, dependencies, assumptions, and a prioritized release backlog. Use for websites, SaaS products, portals, dashboards, internal tools, mobile or desktop apps, and AI-enabled products - not solution architecture, UI design, implementation, or inventing material requirements without stakeholder validation. Use when asked to (1) generate app requirements, (2) adapt app requirements, (3) refine app requirements, or (4) review app requirements.
 ---
 
 # App Requirements Generator

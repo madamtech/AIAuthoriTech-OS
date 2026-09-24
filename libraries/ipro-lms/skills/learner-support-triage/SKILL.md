@@ -1,6 +1,6 @@
 ---
 name: learner-support-triage
-description: Triage learner support cases involving access, enrollment, launch, completion, scores, transcripts, certificates, assignments, notifications, and training sessions. Use to diagnose, prioritize, resolve, or route LMS issues while preserving records and privacy.
+description: Triage learner support cases involving access, enrollment, launch, completion, scores, transcripts, certificates, assignments, notifications, and training sessions. Use to diagnose, prioritize, resolve, or route LMS issues while preserving records and privacy. Use when asked to (1) create learner support triage, (2) review learner support triage, (3) improve learner support triage, or (4) standardize learner support triage.
 ---
 
 # Learner Support Triage

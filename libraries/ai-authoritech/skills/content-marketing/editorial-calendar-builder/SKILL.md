@@ -1,6 +1,6 @@
 ---
 name: editorial-calendar-builder
-description: Build a capacity-aware editorial calendar connecting strategy, audiences, topics, formats, channels, owners, dependencies, approvals, distribution, reuse, and measurement. Use for AI AuthoriTech or authorized client marketing work.
+description: Build a capacity-aware editorial calendar connecting strategy, audiences, topics, formats, channels, owners, dependencies, approvals, distribution, reuse, and measurement. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) build editorial calendar, (2) refine editorial calendar, (3) validate editorial calendar, or (4) standardize editorial calendar.
 ---
 
 # Editorial Calendar Builder

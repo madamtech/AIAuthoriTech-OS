@@ -1,6 +1,6 @@
 ---
 name: netexam-branch-manager
-description: Govern NetExam branches, organizational hierarchies, audiences, visibility, administration, and inherited settings. Use when creating, restructuring, auditing, or troubleshooting branch-based access and catalog behavior.
+description: Govern NetExam branches, organizational hierarchies, audiences, visibility, administration, and inherited settings. Use when creating, restructuring, auditing, or troubleshooting branch-based access and catalog behavior. Use when asked to (1) manage netexam branch, (2) review netexam branch, (3) resolve issues in netexam branch, or (4) improve netexam branch.
 ---
 
 # NetExam Branch Manager

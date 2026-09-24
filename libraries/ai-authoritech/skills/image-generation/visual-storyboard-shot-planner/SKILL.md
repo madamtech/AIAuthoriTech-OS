@@ -1,6 +1,6 @@
 ---
 name: visual-storyboard-shot-planner
-description: "Plan a coherent visual sequence for video, campaigns, training, presentations, or narrative image sets. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Plan a coherent visual sequence for video, campaigns, training, presentations, or narrative image sets. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) plan visual storyboard shot, (2) revise visual storyboard shot, (3) evaluate options for visual storyboard shot, or (4) prepare implementation of visual storyboard shot."
 ---
 # Visual Storyboard and Shot Planner
 

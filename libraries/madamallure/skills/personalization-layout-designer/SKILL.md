@@ -1,6 +1,6 @@
 ---
 name: personalization-layout-designer
-description: Design accurate personalization layouts for names, monograms, dates, messages, and licensed images on dimensionally verified custom products. Use before customer proof approval and irreversible engraving, cutting, printing, or application, with exact-content and placement checks.
+description: Design accurate personalization layouts for names, monograms, dates, messages, and licensed images on dimensionally verified custom products. Use before customer proof approval and irreversible engraving, cutting, printing, or application, with exact-content and placement checks. Use when asked to (1) design personalization layout, (2) revise personalization layout, (3) compare options for personalization layout, or (4) document specifications for personalization layout.
 ---
 
 # Personalization Layout Designer

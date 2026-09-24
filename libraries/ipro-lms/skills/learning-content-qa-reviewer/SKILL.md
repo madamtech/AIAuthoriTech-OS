@@ -1,6 +1,6 @@
 ---
 name: learning-content-qa-reviewer
-description: Review digital and instructor-led learning content for objective alignment, factual accuracy, instructional clarity, functionality, consistency, accessibility readiness, and release quality. Use before LMS publication or after substantial content revisions.
+description: Review digital and instructor-led learning content for objective alignment, factual accuracy, instructional clarity, functionality, consistency, accessibility readiness, and release quality. Use before LMS publication or after substantial content revisions. Use when asked to (1) review learning content qa, (2) audit learning content qa, (3) identify gaps in learning content qa, or (4) recommend corrections to learning content qa.
 ---
 
 # Learning Content QA Reviewer

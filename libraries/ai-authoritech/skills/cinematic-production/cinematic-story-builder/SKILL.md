@@ -1,6 +1,6 @@
 ---
 name: cinematic-story-builder
-description: Develop an original cinematic concept into a production-aware story foundation containing a logline, premise, theme, world, characters, stakes, emotional arc, and structured beats. Use when a user needs story development before screenplay, storyboard, shot-list, or generation-prompt work.
+description: Develop an original cinematic concept into a production-aware story foundation containing a logline, premise, theme, world, characters, stakes, emotional arc, and structured beats. Use when a user needs story development before screenplay, storyboard, shot-list, or generation-prompt work. Use when asked to (1) build cinematic story, (2) refine cinematic story, (3) validate cinematic story, or (4) standardize cinematic story.
 ---
 
 # Cinematic Story Builder

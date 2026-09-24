@@ -1,6 +1,6 @@
 ---
 name: workday-learning-configuration-planner
-description: Plan governed Workday Learning configurations for content, campaigns, audiences, enrollment, completion, security, notifications, and reporting. Use when translating approved learning requirements into configuration specifications, test cases, and deployment controls.
+description: Plan governed Workday Learning configurations for content, campaigns, audiences, enrollment, completion, security, notifications, and reporting. Use when translating approved learning requirements into configuration specifications, test cases, and deployment controls. Use when asked to (1) plan workday learning configuration, (2) revise workday learning configuration, (3) evaluate options for workday learning configuration, or (4) prepare implementation of workday learning configuration.
 ---
 
 # Workday Learning Configuration Planner

@@ -1,6 +1,6 @@
 ---
 name: learning-integration-monitor
-description: Monitor LMS integrations for availability, freshness, completeness, duplicates, ordering, mapping failures, retries, reconciliation, and business impact. Use for HR, CRM, SSO, content, reporting, or certification data flows after deployment.
+description: Monitor LMS integrations for availability, freshness, completeness, duplicates, ordering, mapping failures, retries, reconciliation, and business impact. Use for HR, CRM, SSO, content, reporting, or certification data flows after deployment. Use when asked to (1) create learning integration monitor, (2) review learning integration monitor, (3) improve learning integration monitor, or (4) standardize learning integration monitor.
 ---
 
 # Learning Integration Monitor

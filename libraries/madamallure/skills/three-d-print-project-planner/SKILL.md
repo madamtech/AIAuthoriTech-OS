@@ -1,6 +1,6 @@
 ---
 name: three-d-print-project-planner
-description: Plan manufacturable 3D-print projects from requirements through slicing, testing, finishing, and release. Use when a custom product needs dimensions, material, printer, orientation, tolerances, supports, quality checks, and production documentation.
+description: Plan manufacturable 3D-print projects from requirements through slicing, testing, finishing, and release. Use when a custom product needs dimensions, material, printer, orientation, tolerances, supports, quality checks, and production documentation. Use when asked to (1) plan three d print project, (2) revise three d print project, (3) evaluate options for three d print project, or (4) prepare implementation of three d print project.
 ---
 
 # Three D Print Project Planner

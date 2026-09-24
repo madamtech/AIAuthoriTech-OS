@@ -1,6 +1,6 @@
 ---
 name: gift-box-designer
-description: Design curated luxury gift boxes with compatible products, presentation, transit protection, personalization, allergens, scent-transfer controls, cost, repeatable assembly, inspection, inventory, shipping, and fulfillment requirements. Use for custom orders, collections, and production-ready gift sets.
+description: Design curated luxury gift boxes with compatible products, presentation, transit protection, personalization, allergens, scent-transfer controls, cost, repeatable assembly, inspection, inventory, shipping, and fulfillment requirements. Use for custom orders, collections, and production-ready gift sets. Use when asked to (1) design gift box, (2) revise gift box, (3) compare options for gift box, or (4) document specifications for gift box.
 ---
 
 # Gift Box Designer

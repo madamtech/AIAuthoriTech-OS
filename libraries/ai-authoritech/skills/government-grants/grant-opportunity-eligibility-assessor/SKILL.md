@@ -1,6 +1,6 @@
 ---
 name: grant-opportunity-eligibility-assessor
-description: Assess grant opportunity fit, eligibility, required evidence, deadlines, restrictions, and go/no-go readiness using verified source material. Use before investing in a grant application. Do not invent eligibility, waive requirements, or treat a probable fit as confirmed awardability.
+description: Assess grant opportunity fit, eligibility, required evidence, deadlines, restrictions, and go/no-go readiness using verified source material. Use before investing in a grant application. Do not invent eligibility, waive requirements, or treat a probable fit as confirmed awardability. Use when asked to (1) assess grant opportunity eligibility, (2) baseline grant opportunity eligibility, (3) identify gaps in grant opportunity eligibility, or (4) prioritize improvements to grant opportunity eligibility.
 ---
 
 # Grant Opportunity and Eligibility Assessor

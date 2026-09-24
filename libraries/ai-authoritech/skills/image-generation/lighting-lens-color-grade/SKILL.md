@@ -1,6 +1,6 @@
 ---
 name: lighting-lens-color-grade
-description: "Control how light, optics, depth, and color shape realism, emotion, product fidelity, and continuity. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Control how light, optics, depth, and color shape realism, emotion, product fidelity, and continuity. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create lighting lens color grade, (2) review lighting lens color grade, (3) improve lighting lens color grade, or (4) standardize lighting lens color grade."
 ---
 # Lighting, Lens, and Color Grade Director
 

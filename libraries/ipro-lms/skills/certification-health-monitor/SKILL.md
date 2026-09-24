@@ -1,6 +1,6 @@
 ---
 name: certification-health-monitor
-description: Monitor certification program health across candidate flow, assessment, issuance, renewal, expiration, support, data quality, equity, and operational risk. Use for periodic program reviews and early detection of lifecycle failures.
+description: Monitor certification program health across candidate flow, assessment, issuance, renewal, expiration, support, data quality, equity, and operational risk. Use for periodic program reviews and early detection of lifecycle failures. Use when asked to (1) create certification health monitor, (2) review certification health monitor, (3) improve certification health monitor, or (4) standardize certification health monitor.
 ---
 
 # Certification Health Monitor

@@ -1,0 +1,6 @@
+interface:
+  display_name: Account and Partner Health Reviewer
+  short_description: Review customer or partner health using evidence,...
+  default_prompt: Use $account-and-partner-health-reviewer to review customer or partner
+    health using evidence, relationship signals, activity, risks, opportunities, and
+    unresolved questions for management-ready sales decisions.

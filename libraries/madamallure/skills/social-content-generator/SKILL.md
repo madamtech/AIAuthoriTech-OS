@@ -1,6 +1,6 @@
 ---
 name: social-content-generator
-description: Create channel-ready MadamAllure social content from approved product facts, brand voice, campaign goals, and media. Use for posts, captions, short-form video concepts, stories, carousels, and content calendars.
+description: Create channel-ready MadamAllure social content from approved product facts, brand voice, campaign goals, and media. Use for posts, captions, short-form video concepts, stories, carousels, and content calendars. Use when asked to (1) generate social content, (2) adapt social content, (3) refine social content, or (4) review social content.
 ---
 
 # Social Content Generator

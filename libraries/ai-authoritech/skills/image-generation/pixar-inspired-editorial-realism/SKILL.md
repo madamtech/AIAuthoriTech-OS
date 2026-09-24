@@ -1,6 +1,6 @@
 ---
 name: pixar-inspired-editorial-realism
-description: "Direct the user's primary stylized realism: cinematic editorial rendering with subtle animated refinement, expressive eyes, dimensional lighting, and believable human identity. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Direct the user's primary stylized realism: cinematic editorial rendering with subtle animated refinement, expressive eyes, dimensional lighting, and believable human identity. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create pixar inspired editorial realism, (2) review pixar inspired editorial realism, (3) improve pixar inspired editorial realism, or (4) standardize pixar inspired editorial realism."
 ---
 # Pixar-Inspired Editorial Realism Director
 

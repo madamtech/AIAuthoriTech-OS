@@ -1,6 +1,6 @@
 ---
 name: feature-prioritizer
-description: Normalize, compare, sequence, and recommend product features using evidence-backed user and business value, strategic alignment, necessity, risk reduction, learning value, reach, confidence, effort, time criticality, dependencies, operational burden, and portfolio capacity. Use for product backlogs, MVP definition, release slicing, roadmap tradeoffs, inherited feature lists, or reprioritization - not detailed requirements, estimation commitments, architecture, or final investment approval.
+description: Normalize, compare, sequence, and recommend product features using evidence-backed user and business value, strategic alignment, necessity, risk reduction, learning value, reach, confidence, effort, time criticality, dependencies, operational burden, and portfolio capacity. Use for product backlogs, MVP definition, release slicing, roadmap tradeoffs, inherited feature lists, or reprioritization - not detailed requirements, estimation commitments, architecture, or final investment approval. Use when asked to (1) create feature prioritizer, (2) review feature prioritizer, (3) improve feature prioritizer, or (4) standardize feature prioritizer.
 ---
 
 # Feature Prioritizer

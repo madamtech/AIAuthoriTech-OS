@@ -1,6 +1,6 @@
 ---
 name: body-care-concept-planner
-description: Plan evidence-aware body-care product concepts across format, audience, sensory profile, ingredient direction, packaging, intended use, claims boundaries, testing, and qualified formulation handoff. Use for early product development before creating or approving a production formula.
+description: Plan evidence-aware body-care product concepts across format, audience, sensory profile, ingredient direction, packaging, intended use, claims boundaries, testing, and qualified formulation handoff. Use for early product development before creating or approving a production formula. Use when asked to (1) plan body care concept, (2) revise body care concept, (3) evaluate options for body care concept, or (4) prepare implementation of body care concept.
 ---
 
 # Body Care Concept Planner

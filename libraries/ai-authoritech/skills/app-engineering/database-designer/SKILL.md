@@ -1,6 +1,6 @@
 ---
 name: database-designer
-description: Convert approved application requirements into a secure, governed, migration-ready database design covering entities, relationships, keys, constraints, tenancy, row-level authorization, transactions, concurrency, indexes, query patterns, audit history, retention, deletion, migrations, backups, recovery, performance, observability, testing, and provider-neutral implementation contracts. Use for new application schemas, SaaS multitenancy, database redesigns, migration planning, or AI-generated app backends - not executing production migrations, replacing data governance, or selecting a database without workload evidence.
+description: Convert approved application requirements into a secure, governed, migration-ready database design covering entities, relationships, keys, constraints, tenancy, row-level authorization, transactions, concurrency, indexes, query patterns, audit history, retention, deletion, migrations, backups, recovery, performance, observability, testing, and provider-neutral implementation contracts. Use for new application schemas, SaaS multitenancy, database redesigns, migration planning, or AI-generated app backends - not executing production migrations, replacing data governance, or selecting a database without workload evidence. Use when asked to (1) design database, (2) revise database, (3) compare options for database, or (4) document specifications for database.
 ---
 
 # Database Designer

@@ -1,6 +1,6 @@
 ---
 name: agent-memory-architect
-description: Design safe, governed AI agent memory by determining whether durable memory is necessary and defining memory types, schemas, consent, provenance, identity and tenant isolation, write and retrieval policies, confidence, retention, correction, deletion, security, evaluation, monitoring, migration, and retirement. Use for personalized agents, persistent assistants, long-running case context, episodic learning, or shared agent memory - not ordinary workflow state, authoritative knowledge bases, conversation summarization alone, or unrestricted storage of user data.
+description: Design safe, governed AI agent memory by determining whether durable memory is necessary and defining memory types, schemas, consent, provenance, identity and tenant isolation, write and retrieval policies, confidence, retention, correction, deletion, security, evaluation, monitoring, migration, and retirement. Use for personalized agents, persistent assistants, long-running case context, episodic learning, or shared agent memory - not ordinary workflow state, authoritative knowledge bases, conversation summarization alone, or unrestricted storage of user data. Use when asked to (1) architect agent memory, (2) assess agent memory, (3) refine agent memory, or (4) document agent memory.
 ---
 
 # Agent Memory Architect

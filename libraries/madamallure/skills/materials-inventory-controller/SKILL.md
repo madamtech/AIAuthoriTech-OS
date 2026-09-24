@@ -1,6 +1,6 @@
 ---
 name: materials-inventory-controller
-description: Control filament, sheet goods, blanks, packaging, beauty components, and consumables using units, lots, locations, reorder rules, and usage evidence. Use for inventory accuracy and shortage prevention.
+description: Control filament, sheet goods, blanks, packaging, beauty components, and consumables using units, lots, locations, reorder rules, and usage evidence. Use for inventory accuracy and shortage prevention. Use when asked to (1) control materials inventory, (2) reconcile materials inventory, (3) audit materials inventory, or (4) plan materials inventory.
 ---
 
 # Materials Inventory Controller

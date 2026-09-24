@@ -1,6 +1,6 @@
 ---
 name: seo-content-auditor
-description: Audit website content for search intent, topical coverage, quality, structure, metadata, internal linking, trust signals, duplication, accessibility, and conversion alignment. Use for AI AuthoriTech or authorized client marketing work.
+description: Audit website content for search intent, topical coverage, quality, structure, metadata, internal linking, trust signals, duplication, accessibility, and conversion alignment. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) create seo content auditor, (2) review seo content auditor, (3) improve seo content auditor, or (4) standardize seo content auditor.
 ---
 
 # Seo Content Auditor

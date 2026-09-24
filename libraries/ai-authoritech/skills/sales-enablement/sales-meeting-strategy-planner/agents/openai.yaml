@@ -1,0 +1,6 @@
+interface:
+  display_name: Sales Meeting Strategy Planner
+  short_description: Prepare evidence-grounded sales meetings with clear...
+  default_prompt: Use $sales-meeting-strategy-planner to prepare evidence-grounded
+    sales meetings with clear objectives, stakeholder hypotheses, discovery priorities,
+    decision paths, risks, and next-step goals.

@@ -1,6 +1,6 @@
 ---
 name: sales-objection-handling-coach
-description: Prepare accurate, non-manipulative objection handling for sales conversations using verified value, evidence, questions, and appropriate escalation paths.
+description: Prepare accurate, non-manipulative objection handling for sales conversations using verified value, evidence, questions, and appropriate escalation paths. Use when asked to (1) create sales objection handling coach, (2) review sales objection handling coach, (3) improve sales objection handling coach, or (4) standardize sales objection handling coach.
 ---
 
 # Sales Objection Handling Coach

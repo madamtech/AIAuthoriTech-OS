@@ -1,6 +1,6 @@
 ---
 name: lms-dashboard-designer
-description: Design role-based LMS dashboards with governed KPIs, filters, thresholds, drilldowns, accessibility, security, refresh behavior, and action ownership. Use when turning learning data into operational or executive decision views.
+description: Design role-based LMS dashboards with governed KPIs, filters, thresholds, drilldowns, accessibility, security, refresh behavior, and action ownership. Use when turning learning data into operational or executive decision views. Use when asked to (1) design lms dashboard, (2) revise lms dashboard, (3) compare options for lms dashboard, or (4) document specifications for lms dashboard.
 ---
 
 # LMS Dashboard Designer

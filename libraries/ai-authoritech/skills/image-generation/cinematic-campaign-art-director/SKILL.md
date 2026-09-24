@@ -1,6 +1,6 @@
 ---
 name: cinematic-campaign-art-director
-description: "Build high-impact campaign visuals with cinematic scale, controlled storytelling, and brand consistency. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Build high-impact campaign visuals with cinematic scale, controlled storytelling, and brand consistency. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) direct cinematic campaign art, (2) plan cinematic campaign art, (3) review cinematic campaign art, or (4) refine cinematic campaign art."
 ---
 # Cinematic Campaign Art Director
 

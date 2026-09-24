@@ -1,6 +1,6 @@
 ---
 name: product-catalog-builder
-description: Build a governed MadamAllure product catalog with stable SKUs, variants, specifications, costs, prices, media, inventory rules, and lifecycle status. Use when organizing products for ecommerce or internal operations.
+description: Build a governed MadamAllure product catalog with stable SKUs, variants, specifications, costs, prices, media, inventory rules, and lifecycle status. Use when organizing products for ecommerce or internal operations. Use when asked to (1) build product catalog, (2) refine product catalog, (3) validate product catalog, or (4) standardize product catalog.
 ---
 
 # Product Catalog Builder

@@ -1,6 +1,6 @@
 ---
 name: slicer-profile-builder
-description: Build and validate versioned slicer profiles for a specific printer, firmware, nozzle, build surface, material batch, model class, and quality target. Use when calibrating or standardizing repeatable 3D-print settings with measured acceptance evidence and a reversible baseline.
+description: Build and validate versioned slicer profiles for a specific printer, firmware, nozzle, build surface, material batch, model class, and quality target. Use when calibrating or standardizing repeatable 3D-print settings with measured acceptance evidence and a reversible baseline. Use when asked to (1) build slicer profile, (2) refine slicer profile, (3) validate slicer profile, or (4) standardize slicer profile.
 ---
 
 # Slicer Profile Builder

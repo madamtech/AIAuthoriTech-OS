@@ -1,6 +1,6 @@
 ---
 name: knowledge-hub-builder
-description: Create build-ready specifications for governed, searchable knowledge hubs covering audiences, information architecture, source authority, content types, taxonomy, metadata, publishing workflow, permissions, search, navigation, AI-assisted answers, citations, feedback, accessibility, analytics, freshness, localization, integrations, migration, testing, deployment, and operations. Use for help centers, documentation portals, internal knowledge sites, policy hubs, resource libraries, partner centers, or RAG-enabled discovery - not unauthorized ingestion, replacing source governance, or presenting generated answers without traceable evidence.
+description: Create build-ready specifications for governed, searchable knowledge hubs covering audiences, information architecture, source authority, content types, taxonomy, metadata, publishing workflow, permissions, search, navigation, AI-assisted answers, citations, feedback, accessibility, analytics, freshness, localization, integrations, migration, testing, deployment, and operations. Use for help centers, documentation portals, internal knowledge sites, policy hubs, resource libraries, partner centers, or RAG-enabled discovery - not unauthorized ingestion, replacing source governance, or presenting generated answers without traceable evidence. Use when asked to (1) build knowledge hub, (2) refine knowledge hub, (3) validate knowledge hub, or (4) standardize knowledge hub.
 ---
 
 # Knowledge Hub Builder

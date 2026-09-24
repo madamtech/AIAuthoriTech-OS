@@ -1,6 +1,6 @@
 ---
 name: statement-of-work-builder
-description: Convert an approved proposal, delivery approach, commercial inputs, and governing agreement into a precise review-ready statement of work defining objectives, scope, deliverables, acceptance, milestones, responsibilities, dependencies, assumptions, fees, change control, governance, and completion. Use for consulting or implementation SOW drafting and redlining preparation - not legal advice, contract approval, or invention of binding terms, pricing, warranties, service levels, remedies, or intellectual-property provisions.
+description: Convert an approved proposal, delivery approach, commercial inputs, and governing agreement into a precise review-ready statement of work defining objectives, scope, deliverables, acceptance, milestones, responsibilities, dependencies, assumptions, fees, change control, governance, and completion. Use for consulting or implementation SOW drafting and redlining preparation - not legal advice, contract approval, or invention of binding terms, pricing, warranties, service levels, remedies, or intellectual-property provisions. Use when asked to (1) build statement of work, (2) refine statement of work, (3) validate statement of work, or (4) standardize statement of work.
 ---
 
 # Statement of Work Builder

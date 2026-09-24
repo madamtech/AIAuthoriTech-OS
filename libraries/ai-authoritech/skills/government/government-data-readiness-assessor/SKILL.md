@@ -1,6 +1,6 @@
 ---
 name: government-data-readiness-assessor
-description: Assess government data readiness for AI using mission purpose, authority, minimization, quality, coverage, representativeness, lineage, access, privacy, security, records, interoperability, retention, deletion, and stewardship. Use before government AI analysis, training, retrieval, testing, or deployment. Do not infer permission from availability or expose protected data.
+description: Assess government data readiness for AI using mission purpose, authority, minimization, quality, coverage, representativeness, lineage, access, privacy, security, records, interoperability, retention, deletion, and stewardship. Use before government AI analysis, training, retrieval, testing, or deployment. Do not infer permission from availability or expose protected data. Use when asked to (1) assess government data readiness, (2) baseline government data readiness, (3) identify gaps in government data readiness, or (4) prioritize improvements to government data readiness.
 ---
 
 # Government Data Readiness Assessor

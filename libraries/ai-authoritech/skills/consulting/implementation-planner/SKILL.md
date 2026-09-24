@@ -1,6 +1,6 @@
 ---
 name: implementation-planner
-description: Convert an approved roadmap, initiative charter, proposal, or statement of work into an executable implementation plan covering workstreams, deliverables, dependencies, resources, environments, governance, testing, controls, adoption, cutover, rollback, support, and benefits realization. Use for delivery mobilization, pilot planning, production implementation, or phased rollout - not for inventing scope, changing contractual commitments, or replacing detailed specialist engineering plans.
+description: Convert an approved roadmap, initiative charter, proposal, or statement of work into an executable implementation plan covering workstreams, deliverables, dependencies, resources, environments, governance, testing, controls, adoption, cutover, rollback, support, and benefits realization. Use for delivery mobilization, pilot planning, production implementation, or phased rollout - not for inventing scope, changing contractual commitments, or replacing detailed specialist engineering plans. Use when asked to (1) plan implementation, (2) revise implementation, (3) evaluate options for implementation, or (4) prepare implementation of implementation.
 ---
 
 # Implementation Planner

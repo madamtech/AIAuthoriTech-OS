@@ -1,6 +1,6 @@
 ---
 name: government-ai-system-inventory-builder
-description: Build and maintain a governed inventory of government AI systems and uses, including authority, owners, vendors, data, decisions, affected populations, risk tiers, controls, incidents, contracts, status, and lifecycle evidence. Use for authorized oversight, reporting, discovery, or recertification. Do not publish sensitive entries, infer completeness, or silently exclude shadow or vendor-provided uses.
+description: Build and maintain a governed inventory of government AI systems and uses, including authority, owners, vendors, data, decisions, affected populations, risk tiers, controls, incidents, contracts, status, and lifecycle evidence. Use for authorized oversight, reporting, discovery, or recertification. Do not publish sensitive entries, infer completeness, or silently exclude shadow or vendor-provided uses. Use when asked to (1) build government ai system inventory, (2) refine government ai system inventory, (3) validate government ai system inventory, or (4) standardize government ai system inventory.
 ---
 
 # Government AI System Inventory Builder

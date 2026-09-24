@@ -1,6 +1,6 @@
 ---
 name: cosmetic-labeling-brief-builder
-description: Prepare structured cosmetic labeling briefs from verified formulas, ingredient declarations, packaging, business identity, claims evidence, warnings, traceability, and market information. Use before artwork approval, printing, or qualified regulatory and legal review.
+description: Prepare structured cosmetic labeling briefs from verified formulas, ingredient declarations, packaging, business identity, claims evidence, warnings, traceability, and market information. Use before artwork approval, printing, or qualified regulatory and legal review. Use when asked to (1) build cosmetic labeling brief, (2) refine cosmetic labeling brief, (3) validate cosmetic labeling brief, or (4) standardize cosmetic labeling brief.
 ---
 
 # Cosmetic Labeling Brief Builder

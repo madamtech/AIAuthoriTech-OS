@@ -1,6 +1,6 @@
 ---
 name: authentication-authorization-planner
-description: Design secure, usable, provider-neutral application identity and access controls covering identity providers, registration, verification, sign-in, MFA, sessions, recovery, invitations, organizations, roles, resource-level authorization, service identities, privileged administration, tenant isolation, audit, abuse controls, testing, migration, and incident response. Use for websites, SaaS products, portals, internal tools, APIs, and AI-enabled apps - not credential provisioning, legal identity proofing decisions, production configuration, or relying on client-side visibility as authorization.
+description: Design secure, usable, provider-neutral application identity and access controls covering identity providers, registration, verification, sign-in, MFA, sessions, recovery, invitations, organizations, roles, resource-level authorization, service identities, privileged administration, tenant isolation, audit, abuse controls, testing, migration, and incident response. Use for websites, SaaS products, portals, internal tools, APIs, and AI-enabled apps - not credential provisioning, legal identity proofing decisions, production configuration, or relying on client-side visibility as authorization. Use when asked to (1) plan authentication authorization, (2) revise authentication authorization, (3) evaluate options for authentication authorization, or (4) prepare implementation of authentication authorization.
 ---
 
 # Authentication and Authorization Planner

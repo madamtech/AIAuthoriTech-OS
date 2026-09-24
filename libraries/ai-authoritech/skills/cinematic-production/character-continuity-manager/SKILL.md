@@ -1,6 +1,6 @@
 ---
 name: character-continuity-manager
-description: Create and enforce character identity locks across stories, scenes, storyboard panels, image prompts, and video prompts. Use to define appearance, proportions, wardrobe, props, behavior, emotional states, and intentional state changes while detecting unauthorized visual drift.
+description: Create and enforce character identity locks across stories, scenes, storyboard panels, image prompts, and video prompts. Use to define appearance, proportions, wardrobe, props, behavior, emotional states, and intentional state changes while detecting unauthorized visual drift. Use when asked to (1) manage character continuity, (2) review character continuity, (3) resolve issues in character continuity, or (4) improve character continuity.
 ---
 
 # Character Continuity Manager

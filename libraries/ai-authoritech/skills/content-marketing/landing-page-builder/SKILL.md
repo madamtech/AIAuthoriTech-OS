@@ -1,6 +1,6 @@
 ---
 name: landing-page-builder
-description: Build conversion-focused landing-page messaging and structure from verified audience, offer, proof, traffic, and action requirements. Use for AI AuthoriTech or authorized client marketing work.
+description: Build conversion-focused landing-page messaging and structure from verified audience, offer, proof, traffic, and action requirements. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) build landing page, (2) refine landing page, (3) validate landing page, or (4) standardize landing page.
 ---
 
 # Landing Page Builder

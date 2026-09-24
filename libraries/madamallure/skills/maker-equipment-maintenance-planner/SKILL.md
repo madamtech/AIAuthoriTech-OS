@@ -1,6 +1,6 @@
 ---
 name: maker-equipment-maintenance-planner
-description: Plan preventive maintenance for 3D printers, laser equipment, ventilation, tools, and supporting maker systems. Use to establish safe recurring care, inspections, records, and downtime.
+description: Plan preventive maintenance for 3D printers, laser equipment, ventilation, tools, and supporting maker systems. Use to establish safe recurring care, inspections, records, and downtime. Use when asked to (1) plan maker equipment maintenance, (2) revise maker equipment maintenance, (3) evaluate options for maker equipment maintenance, or (4) prepare implementation of maker equipment maintenance.
 ---
 
 # Maker Equipment Maintenance Planner

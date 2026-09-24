@@ -1,6 +1,6 @@
 ---
 name: workflow-discovery
-description: Elicit, document, and validate how a current-state business process actually operates, including triggers, actors, systems, decisions, handoffs, exceptions, timing, pain points, root causes, controls, and evidence gaps. Use for current-state mapping, process interviews, automation-discovery preparation, or conflicting workflow accounts—not future-state design.
+description: Elicit, document, and validate how a current-state business process actually operates, including triggers, actors, systems, decisions, handoffs, exceptions, timing, pain points, root causes, controls, and evidence gaps. Use for current-state mapping, process interviews, automation-discovery preparation, or conflicting workflow accounts—not future-state design. Use when asked to (1) create workflow discovery, (2) review workflow discovery, (3) improve workflow discovery, or (4) standardize workflow discovery.
 ---
 
 # Workflow Discovery

@@ -1,6 +1,6 @@
 ---
 name: natural-cosmetic-formula-architect
-description: Design percentage-based, alcohol-free cosmetic formula briefs using natural oils, butters, waxes, herbs, clays, salts, sugars, hydrosols, and other approved materials while documenting function, supplier limits, preservation, safety, testing, labeling, and scale-up. Use for new MadamAllure body, bath, facial, lotion, soap, fragrance-oil, or botanical product formulas and reformulation - not medical treatment claims, unverified production release, or unsafe ingredient substitution.
+description: Design percentage-based, alcohol-free cosmetic formula briefs using natural oils, butters, waxes, herbs, clays, salts, sugars, hydrosols, and other approved materials while documenting function, supplier limits, preservation, safety, testing, labeling, and scale-up. Use for new MadamAllure body, bath, facial, lotion, soap, fragrance-oil, or botanical product formulas and reformulation - not medical treatment claims, unverified production release, or unsafe ingredient substitution. Use when asked to (1) architect natural cosmetic formula, (2) assess natural cosmetic formula, (3) refine natural cosmetic formula, or (4) document natural cosmetic formula.
 ---
 
 # Natural Cosmetic Formula Architect

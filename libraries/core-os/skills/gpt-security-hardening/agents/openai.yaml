@@ -1,0 +1,6 @@
+interface:
+  display_name: GPT Security Hardening
+  short_description: Apply mandatory cross-cutting confidentiality,...
+  default_prompt: Use $gpt-security-hardening to apply mandatory cross-cutting confidentiality,
+    prompt-injection resistance, anti-extraction, anti-reconstruction, authorization,
+    cumulative-context, and safe-redirect protections to every governed GPT.

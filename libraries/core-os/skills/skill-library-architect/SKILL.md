@@ -1,6 +1,6 @@
 ---
 name: skill-library-architect
-description: Create or substantially redesign governed Codex skill packages from a capability idea, repeated process, SOP, prompt, or existing asset. Use when asked to build a reusable skill, convert expertise into a skill, standardize a skill folder, split or merge skill scope, or resolve a proposed skill that overlaps the existing catalog. Do not use for workflows, agents, apps, templates, or knowledge packs that should remain first-class assets.
+description: Create or substantially redesign governed Codex skill packages from a capability idea, repeated process, SOP, prompt, or existing asset. Use when asked to build a reusable skill, convert expertise into a skill, standardize a skill folder, split or merge skill scope, or resolve a proposed skill that overlaps the existing catalog. Do not use for workflows, agents, apps, templates, or knowledge packs that should remain first-class assets. Use when asked to (1) architect skill library, (2) assess skill library, (3) refine skill library, or (4) document skill library.
 ---
 
 # Skill Library Architect

@@ -1,6 +1,6 @@
 ---
 name: commercial-composition-director
-description: "Design image hierarchy and spatial organization for advertisements, social posts, product listings, presentations, thumbnails, and campaigns. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Design image hierarchy and spatial organization for advertisements, social posts, product listings, presentations, thumbnails, and campaigns. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) direct commercial composition, (2) plan commercial composition, (3) review commercial composition, or (4) refine commercial composition."
 ---
 # Commercial Composition Director
 

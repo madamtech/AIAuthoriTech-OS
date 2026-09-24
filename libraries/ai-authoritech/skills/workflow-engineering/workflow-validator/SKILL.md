@@ -1,6 +1,6 @@
 ---
 name: workflow-validator
-description: Independently validate workflow specifications for completeness, reachability, ownership, decisions, handoffs, exceptions, controls, data, timing, metrics, authorization, testability, and stakeholder agreement. Use before automation, implementation, release, or governance approval. Do not edit the reviewed workflow in place or certify untested operations.
+description: Independently validate workflow specifications for completeness, reachability, ownership, decisions, handoffs, exceptions, controls, data, timing, metrics, authorization, testability, and stakeholder agreement. Use before automation, implementation, release, or governance approval. Do not edit the reviewed workflow in place or certify untested operations. Use when asked to (1) create workflow validator, (2) review workflow validator, (3) improve workflow validator, or (4) standardize workflow validator.
 ---
 
 # Workflow Validator

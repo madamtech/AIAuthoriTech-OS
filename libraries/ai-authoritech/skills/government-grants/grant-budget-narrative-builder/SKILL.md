@@ -1,6 +1,6 @@
 ---
 name: grant-budget-narrative-builder
-description: Build a traceable grant use-of-funds plan and budget narrative that connects requested costs to project activities, allowability constraints, timing, and expected outputs. Use with a user-supplied or approved budget. Do not invent prices, indirect rates, salaries, match commitments, or allowability determinations.
+description: Build a traceable grant use-of-funds plan and budget narrative that connects requested costs to project activities, allowability constraints, timing, and expected outputs. Use with a user-supplied or approved budget. Do not invent prices, indirect rates, salaries, match commitments, or allowability determinations. Use when asked to (1) build grant budget narrative, (2) refine grant budget narrative, (3) validate grant budget narrative, or (4) standardize grant budget narrative.
 ---
 
 # Grant Budget Narrative Builder

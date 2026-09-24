@@ -1,6 +1,6 @@
 ---
 name: public-sector-ai-readiness-assessor
-description: Assess public-sector AI readiness across mission, statutory authority, leadership, services, processes, data, technology, governance, security, privacy, records, procurement, workforce, accessibility, civil rights, public trust, oversight, and measurement. Use for evidence-based government readiness reviews and phased roadmaps. Do not provide legal certification, authorize procurement or deployment, or expose protected information.
+description: Assess public-sector AI readiness across mission, statutory authority, leadership, services, processes, data, technology, governance, security, privacy, records, procurement, workforce, accessibility, civil rights, public trust, oversight, and measurement. Use for evidence-based government readiness reviews and phased roadmaps. Do not provide legal certification, authorize procurement or deployment, or expose protected information. Use when asked to (1) assess public sector ai readiness, (2) baseline public sector ai readiness, (3) identify gaps in public sector ai readiness, or (4) prioritize improvements to public sector ai readiness.
 ---
 
 # Public Sector AI Readiness Assessor

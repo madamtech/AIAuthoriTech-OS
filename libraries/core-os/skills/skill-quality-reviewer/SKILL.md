@@ -1,6 +1,6 @@
 ---
 name: skill-quality-reviewer
-description: Independently review a Codex skill package for trigger precision, scope cohesion, procedural completeness, resources, safety, testability, metadata consistency, catalog integrity, and release readiness. Use when asked to audit, score, approve, reject, compare, or prescribe revisions for a skill before registration, maturity promotion, or release. Do not silently implement repairs unless the user also authorizes changes.
+description: Independently review a Codex skill package for trigger precision, scope cohesion, procedural completeness, resources, safety, testability, metadata consistency, catalog integrity, and release readiness. Use when asked to audit, score, approve, reject, compare, or prescribe revisions for a skill before registration, maturity promotion, or release. Do not silently implement repairs unless the user also authorizes changes. Use when asked to (1) review skill quality, (2) audit skill quality, (3) identify gaps in skill quality, or (4) recommend corrections to skill quality.
 ---
 
 # Skill Quality Reviewer

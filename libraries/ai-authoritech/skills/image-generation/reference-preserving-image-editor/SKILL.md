@@ -1,6 +1,6 @@
 ---
 name: reference-preserving-image-editor
-description: "Modify only requested elements while protecting every approved feature of the source image. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Modify only requested elements while protecting every approved feature of the source image. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create reference preserving image editor, (2) review reference preserving image editor, (3) improve reference preserving image editor, or (4) standardize reference preserving image editor."
 ---
 # Reference-Preserving Image Editor
 

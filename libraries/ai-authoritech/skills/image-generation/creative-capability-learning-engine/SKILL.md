@@ -1,6 +1,6 @@
 ---
 name: creative-capability-learning-engine
-description: "Continuously improve the image-generation system by capturing approved patterns, rejected patterns, model behavior, revision language, and reusable production knowledge. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Continuously improve the image-generation system by capturing approved patterns, rejected patterns, model behavior, revision language, and reusable production knowledge. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create creative capability learning engine, (2) review creative capability learning engine, (3) improve creative capability learning engine, or (4) standardize creative capability learning engine."
 ---
 # Creative Capability Learning Engine
 

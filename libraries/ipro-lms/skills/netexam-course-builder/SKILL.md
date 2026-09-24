@@ -1,6 +1,6 @@
 ---
 name: netexam-course-builder
-description: Translate an approved course blueprint and source content into a NetExam course build specification covering objects, files, settings, enrollment, completion, visibility, certificates, reporting, and QA. Use before configuring or releasing NetExam learning content.
+description: Translate an approved course blueprint and source content into a NetExam course build specification covering objects, files, settings, enrollment, completion, visibility, certificates, reporting, and QA. Use before configuring or releasing NetExam learning content. Use when asked to (1) build netexam course, (2) refine netexam course, (3) validate netexam course, or (4) standardize netexam course.
 ---
 
 # NetExam Course Builder

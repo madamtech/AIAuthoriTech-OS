@@ -1,6 +1,6 @@
 ---
 name: government-system-impact-assessment-builder
-description: Build functional system or process impact assessments covering affected users, workflows, policies supplied by the agency, data handling, training, operations, dependencies, risks, and readiness actions.
+description: Build functional system or process impact assessments covering affected users, workflows, policies supplied by the agency, data handling, training, operations, dependencies, risks, and readiness actions. Use when asked to (1) build government system impact assessment, (2) refine government system impact assessment, (3) validate government system impact assessment, or (4) standardize government system impact assessment.
 ---
 
 # Government System Impact Assessment Builder

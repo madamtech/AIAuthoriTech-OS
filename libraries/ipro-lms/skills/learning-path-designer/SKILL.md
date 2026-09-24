@@ -1,6 +1,6 @@
 ---
 name: learning-path-designer
-description: Design role- and competency-based learning paths with entry states, prerequisites, sequencing, placement, branching, equivalencies, remediation, completion evidence, accessibility, governance, and LMS implementation rules. Use when multiple assets must form a coherent learner journey. Do not create circular dependencies or treat recommendations as mandatory policy.
+description: Design role- and competency-based learning paths with entry states, prerequisites, sequencing, placement, branching, equivalencies, remediation, completion evidence, accessibility, governance, and LMS implementation rules. Use when multiple assets must form a coherent learner journey. Do not create circular dependencies or treat recommendations as mandatory policy. Use when asked to (1) design learning path, (2) revise learning path, (3) compare options for learning path, or (4) document specifications for learning path.
 ---
 
 # Learning Path Designer

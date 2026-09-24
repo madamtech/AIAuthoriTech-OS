@@ -1,0 +1,6 @@
+interface:
+  display_name: Security Solution Positioning Advisor
+  short_description: Translate verified security requirements and approved...
+  default_prompt: Use $security-solution-positioning-advisor to translate verified
+    security requirements and approved product information into restrained solution
+    positioning, comparisons, use cases, and sales talking points.

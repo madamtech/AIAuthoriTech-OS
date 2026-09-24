@@ -1,6 +1,6 @@
 ---
 name: customer-care-response-builder
-description: Draft empathetic, accurate MadamAllure customer responses for order, personalization, shipping, product, care, delay, and complaint questions. Use after verifying order facts and applicable policies.
+description: Draft empathetic, accurate MadamAllure customer responses for order, personalization, shipping, product, care, delay, and complaint questions. Use after verifying order facts and applicable policies. Use when asked to (1) build customer care response, (2) refine customer care response, (3) validate customer care response, or (4) standardize customer care response.
 ---
 
 # Customer Care Response Builder

@@ -1,6 +1,6 @@
 ---
 name: skincare-concept-planner
-description: Plan evidence-aware skincare product concepts with audience, format, sensory goals, ingredient direction, packaging, claims boundaries, testing, and professional formulation handoff.
+description: Plan evidence-aware skincare product concepts with audience, format, sensory goals, ingredient direction, packaging, claims boundaries, testing, and professional formulation handoff. Use when asked to (1) plan skincare concept, (2) revise skincare concept, (3) evaluate options for skincare concept, or (4) prepare implementation of skincare concept.
 ---
 
 # Skincare Concept Planner

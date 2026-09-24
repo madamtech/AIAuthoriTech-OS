@@ -1,6 +1,6 @@
 ---
 name: government-ai-records-planner
-description: Plan records management for government AI inputs, outputs, prompts, decisions, approvals, models, tests, incidents, monitoring, contracts, notices, and communications across agency and vendor systems. Use for authorized records design, migration, audit, or retirement. Do not invent retention schedules, destroy records under hold, or assume vendor storage satisfies agency obligations.
+description: Plan records management for government AI inputs, outputs, prompts, decisions, approvals, models, tests, incidents, monitoring, contracts, notices, and communications across agency and vendor systems. Use for authorized records design, migration, audit, or retirement. Do not invent retention schedules, destroy records under hold, or assume vendor storage satisfies agency obligations. Use when asked to (1) plan government ai records, (2) revise government ai records, (3) evaluate options for government ai records, or (4) prepare implementation of government ai records.
 ---
 
 # Government AI Records Planner

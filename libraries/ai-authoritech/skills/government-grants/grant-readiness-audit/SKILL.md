@@ -1,6 +1,6 @@
 ---
 name: grant-readiness-audit
-description: Run a structured grant-readiness audit across mission fit, organizational capacity, community need, outcomes, evidence, partnerships, financial readiness, sustainability, evaluation, and documentation. Use to determine what must be strengthened before drafting. Do not fabricate capacity, partnerships, outcomes, or prior performance.
+description: Run a structured grant-readiness audit across mission fit, organizational capacity, community need, outcomes, evidence, partnerships, financial readiness, sustainability, evaluation, and documentation. Use to determine what must be strengthened before drafting. Do not fabricate capacity, partnerships, outcomes, or prior performance. Use when asked to (1) create grant readiness audit, (2) review grant readiness audit, (3) improve grant readiness audit, or (4) standardize grant readiness audit.
 ---
 
 # Grant Readiness Auditor

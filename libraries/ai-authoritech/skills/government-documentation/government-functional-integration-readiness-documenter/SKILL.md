@@ -1,6 +1,6 @@
 ---
 name: government-functional-integration-readiness-documenter
-description: Assess and document functional integration readiness through business interactions, information exchanges, ownership, dependencies, constraints, and unresolved decisions without producing technical integration design.
+description: Assess and document functional integration readiness through business interactions, information exchanges, ownership, dependencies, constraints, and unresolved decisions without producing technical integration design. Use when asked to (1) create government functional integration readiness documenter, (2) review government functional integration readiness documenter, (3) improve government functional integration readiness documenter, or (4) standardize government functional integration readiness documenter.
 ---
 
 # Government Functional Integration Readiness Documenter

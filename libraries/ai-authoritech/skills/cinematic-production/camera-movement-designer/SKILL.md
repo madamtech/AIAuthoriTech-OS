@@ -1,6 +1,6 @@
 ---
 name: camera-movement-designer
-description: Design story-motivated camera movement for cinematic shots, including static framing, pans, tilts, dollies, trucks, cranes, orbits, handheld motion, and virtual moves. Use when a shot needs a precise start, path, speed, focus behavior, end state, emotional purpose, and feasible execution.
+description: Design story-motivated camera movement for cinematic shots, including static framing, pans, tilts, dollies, trucks, cranes, orbits, handheld motion, and virtual moves. Use when a shot needs a precise start, path, speed, focus behavior, end state, emotional purpose, and feasible execution. Use when asked to (1) design camera movement, (2) revise camera movement, (3) compare options for camera movement, or (4) document specifications for camera movement.
 ---
 
 # Camera Movement Designer

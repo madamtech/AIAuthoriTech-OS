@@ -1,6 +1,6 @@
 ---
 name: course-blueprint-builder
-description: Design an implementation-ready course blueprint that aligns verified business needs, learner profiles, measurable outcomes, assessment evidence, content sequence, delivery, accessibility, and LMS configuration. Use before course production or when redesigning training. Do not invent policy, technical content, platform capabilities, or stakeholder approval.
+description: Design an implementation-ready course blueprint that aligns verified business needs, learner profiles, measurable outcomes, assessment evidence, content sequence, delivery, accessibility, and LMS configuration. Use before course production or when redesigning training. Do not invent policy, technical content, platform capabilities, or stakeholder approval. Use when asked to (1) build course blueprint, (2) refine course blueprint, (3) validate course blueprint, or (4) standardize course blueprint.
 ---
 
 # Course Blueprint Builder

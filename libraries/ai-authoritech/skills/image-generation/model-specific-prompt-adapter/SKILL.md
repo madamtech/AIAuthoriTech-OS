@@ -1,6 +1,6 @@
 ---
 name: model-specific-prompt-adapter
-description: "Translate a model-neutral visual specification into the syntax, structure, constraints, and iteration strategy best suited to a specific generation or editing model. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Translate a model-neutral visual specification into the syntax, structure, constraints, and iteration strategy best suited to a specific generation or editing model. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create model specific prompt adapter, (2) review model specific prompt adapter, (3) improve model specific prompt adapter, or (4) standardize model specific prompt adapter."
 ---
 # Model-Specific Prompt Adapter
 

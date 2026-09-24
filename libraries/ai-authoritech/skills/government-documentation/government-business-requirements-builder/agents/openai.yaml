@@ -1,0 +1,6 @@
+interface:
+  display_name: Government Business Requirements Builder
+  short_description: Create structured business requirements documents covering...
+  default_prompt: Use $government-business-requirements-builder to create structured
+    business requirements documents covering mission need, objectives, stakeholders,
+    scope, business rules, success measures, constraints, assumptions, and traceability.

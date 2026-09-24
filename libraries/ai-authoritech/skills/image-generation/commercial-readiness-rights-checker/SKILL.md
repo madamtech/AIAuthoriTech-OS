@@ -1,6 +1,6 @@
 ---
 name: commercial-readiness-rights-checker
-description: "Assess whether a visual is safe and ready for client delivery, advertising, ecommerce, publication, marketplace distribution, or resale. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Assess whether a visual is safe and ready for client delivery, advertising, ecommerce, publication, marketplace distribution, or resale. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create commercial readiness rights checker, (2) review commercial readiness rights checker, (3) improve commercial readiness rights checker, or (4) standardize commercial readiness rights checker."
 ---
 # Commercial Readiness and Rights Checker
 

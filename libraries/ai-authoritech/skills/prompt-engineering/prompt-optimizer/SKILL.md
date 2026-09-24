@@ -1,6 +1,6 @@
 ---
 name: prompt-optimizer
-description: Diagnose and improve existing production prompts through baseline measurement, failure classification, controlled candidate changes, representative evaluation, regression testing, and versioned rollout. Use when a prompt underperforms on quality, reliability, safety, format adherence, cost, latency, or portability and the task and authority contract already exist. Do not use to invent the original prompt architecture, mask product or retrieval defects, or approve an untested rewrite.
+description: Diagnose and improve existing production prompts through baseline measurement, failure classification, controlled candidate changes, representative evaluation, regression testing, and versioned rollout. Use when a prompt underperforms on quality, reliability, safety, format adherence, cost, latency, or portability and the task and authority contract already exist. Do not use to invent the original prompt architecture, mask product or retrieval defects, or approve an untested rewrite. Use when asked to (1) optimize prompt, (2) diagnose prompt, (3) compare approaches for prompt, or (4) validate prompt.
 ---
 
 # Prompt Optimizer

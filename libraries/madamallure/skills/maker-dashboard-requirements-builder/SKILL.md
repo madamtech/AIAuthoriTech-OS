@@ -1,6 +1,6 @@
 ---
 name: maker-dashboard-requirements-builder
-description: Define testable requirements for a MadamAllure maker dashboard covering users, decisions, orders, production, machines, materials, quality, inventory, fulfillment, costs, alerts, authoritative data sources, access roles, privacy, acceptance, monitoring, and change control.
+description: Define testable requirements for a MadamAllure maker dashboard covering users, decisions, orders, production, machines, materials, quality, inventory, fulfillment, costs, alerts, authoritative data sources, access roles, privacy, acceptance, monitoring, and change control. Use when asked to (1) build maker dashboard requirements, (2) refine maker dashboard requirements, (3) validate maker dashboard requirements, or (4) standardize maker dashboard requirements.
 ---
 
 # Maker Dashboard Requirements Builder

@@ -1,6 +1,6 @@
 ---
 name: prompt-version-manager
-description: Govern immutable prompt and adapter versions through semantic change classification, dependency and consumer impact analysis, compatibility ranges, release channels, migration, staged rollout, monitoring, rollback, deprecation, and audit history. Use when proposing, approving, releasing, reverting, superseding, or retiring a prompt version or when a model, tool, schema, policy, knowledge interface, or platform change may invalidate compatibility. Do not author prompt behavior, overwrite released artifacts, or treat a repository commit alone as a governed release.
+description: Govern immutable prompt and adapter versions through semantic change classification, dependency and consumer impact analysis, compatibility ranges, release channels, migration, staged rollout, monitoring, rollback, deprecation, and audit history. Use when proposing, approving, releasing, reverting, superseding, or retiring a prompt version or when a model, tool, schema, policy, knowledge interface, or platform change may invalidate compatibility. Do not author prompt behavior, overwrite released artifacts, or treat a repository commit alone as a governed release. Use when asked to (1) manage prompt version, (2) review prompt version, (3) resolve issues in prompt version, or (4) improve prompt version.
 ---
 
 # Prompt Version Manager

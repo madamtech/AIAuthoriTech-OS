@@ -1,6 +1,6 @@
 ---
 name: sales-meeting-strategy-planner
-description: Prepare evidence-grounded sales meetings with clear objectives, stakeholder hypotheses, discovery priorities, decision paths, risks, and next-step goals.
+description: Prepare evidence-grounded sales meetings with clear objectives, stakeholder hypotheses, discovery priorities, decision paths, risks, and next-step goals. Use when asked to (1) plan sales meeting strategy, (2) revise sales meeting strategy, (3) evaluate options for sales meeting strategy, or (4) prepare implementation of sales meeting strategy.
 ---
 
 # Sales Meeting Strategy Planner

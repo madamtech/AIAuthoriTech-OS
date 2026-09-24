@@ -1,6 +1,6 @@
 ---
 name: ai-readiness-assessment
-description: Assess an organization's evidence-backed readiness to adopt, govern, implement, and scale AI; identify blockers and suitable opportunities; and produce a prioritized action plan. Use for AI readiness reviews, consulting discovery, maturity baselines, pre-implementation assessments, or reassessments—not legal certification or detailed process mapping.
+description: Assess an organization's evidence-backed readiness to adopt, govern, implement, and scale AI; identify blockers and suitable opportunities; and produce a prioritized action plan. Use for AI readiness reviews, consulting discovery, maturity baselines, pre-implementation assessments, or reassessments—not legal certification or detailed process mapping. Use when asked to (1) assess ai readiness, (2) baseline ai readiness, (3) identify gaps in ai readiness, or (4) prioritize improvements to ai readiness.
 ---
 
 # AI Readiness Assessment

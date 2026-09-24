@@ -1,6 +1,6 @@
 ---
 name: agent-deployment-planner
-description: Convert an approved AI agent release candidate into a controlled, platform-aware deployment plan covering artifacts, environments, configuration, secrets, data migration, access, rollout, verification, monitoring, incident response, rollback, ownership, and post-release review. Use for first releases, upgrades, migrations, staged rollouts, production cutovers, or deployment-readiness reviews - not agent architecture, implementation, QA execution, or production deployment without explicit authorization.
+description: Convert an approved AI agent release candidate into a controlled, platform-aware deployment plan covering artifacts, environments, configuration, secrets, data migration, access, rollout, verification, monitoring, incident response, rollback, ownership, and post-release review. Use for first releases, upgrades, migrations, staged rollouts, production cutovers, or deployment-readiness reviews - not agent architecture, implementation, QA execution, or production deployment without explicit authorization. Use when asked to (1) plan agent deployment, (2) revise agent deployment, (3) evaluate options for agent deployment, or (4) prepare implementation of agent deployment.
 ---
 
 # Agent Deployment Planner

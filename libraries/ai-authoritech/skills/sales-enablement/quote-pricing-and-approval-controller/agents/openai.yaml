@@ -1,0 +1,6 @@
+interface:
+  display_name: Quote Pricing and Approval Controller
+  short_description: Calculate governed quote pricing from approved source data...
+  default_prompt: Use $quote-pricing-and-approval-controller to calculate governed quote
+    pricing from approved source data and formulas while preserving price-list provenance,
+    renewal logic, approval boundaries, and calculation transparency.

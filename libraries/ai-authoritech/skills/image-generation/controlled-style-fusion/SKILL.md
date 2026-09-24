@@ -1,6 +1,6 @@
 ---
 name: controlled-style-fusion
-description: "Combine approved visual styles intentionally while preserving identity, brand, readability, and a clear dominant style. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Combine approved visual styles intentionally while preserving identity, brand, readability, and a clear dominant style. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create controlled style fusion, (2) review controlled style fusion, (3) improve controlled style fusion, or (4) standardize controlled style fusion."
 ---
 # Controlled Style Fusion Director
 

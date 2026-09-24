@@ -1,6 +1,6 @@
 ---
 name: website-messaging-auditor
-description: Audit website messaging for audience clarity, positioning, value proposition, proof, information hierarchy, objections, calls to action, consistency, and conversion readiness. Use for AI AuthoriTech or authorized client marketing work.
+description: Audit website messaging for audience clarity, positioning, value proposition, proof, information hierarchy, objections, calls to action, consistency, and conversion readiness. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) create website messaging auditor, (2) review website messaging auditor, (3) improve website messaging auditor, or (4) standardize website messaging auditor.
 ---
 
 # Website Messaging Auditor

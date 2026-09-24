@@ -1,6 +1,6 @@
 ---
 name: creative-gpt-workflow-architect
-description: "Design GPT instructions and interaction flows that reliably execute visual skills, collect dynamic choices, preserve static locks, and produce generation-ready prompts. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Design GPT instructions and interaction flows that reliably execute visual skills, collect dynamic choices, preserve static locks, and produce generation-ready prompts. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) architect creative gpt workflow, (2) assess creative gpt workflow, (3) refine creative gpt workflow, or (4) document creative gpt workflow."
 ---
 # Creative GPT Workflow Architect
 

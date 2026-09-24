@@ -1,6 +1,6 @@
 ---
 name: learner-user-lifecycle-manager
-description: Design and audit learner identity and access lifecycle across hiring, provisioning, updates, leave, rehire, termination, external users, merges, and archival. Use when LMS accounts, audiences, assignments, or records depend on HR, CRM, SSO, or manual identity processes.
+description: Design and audit learner identity and access lifecycle across hiring, provisioning, updates, leave, rehire, termination, external users, merges, and archival. Use when LMS accounts, audiences, assignments, or records depend on HR, CRM, SSO, or manual identity processes. Use when asked to (1) manage learner user lifecycle, (2) review learner user lifecycle, (3) resolve issues in learner user lifecycle, or (4) improve learner user lifecycle.
 ---
 
 # Learner User Lifecycle Manager

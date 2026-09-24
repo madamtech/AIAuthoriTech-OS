@@ -1,6 +1,6 @@
 ---
 name: case-study-builder
-description: Build evidence-based customer case studies from authorized interviews, records, metrics, approvals, and brand requirements without inventing outcomes. Use for AI AuthoriTech or authorized client marketing work.
+description: Build evidence-based customer case studies from authorized interviews, records, metrics, approvals, and brand requirements without inventing outcomes. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) build case study, (2) refine case study, (3) validate case study, or (4) standardize case study.
 ---
 
 # Case Study Builder

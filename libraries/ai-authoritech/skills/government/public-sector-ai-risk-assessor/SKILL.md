@@ -1,6 +1,6 @@
 ---
 name: public-sector-ai-risk-assessor
-description: Assess public-sector AI risks across mission, safety, civil rights, equity, accessibility, privacy, security, reliability, transparency, records, operations, vendors, workforce, public trust, contestability, and redress. Use for government use-case, pilot, deployment, or periodic risk decisions. Do not certify legality, average away severe harms, or accept risk without human authority.
+description: Assess public-sector AI risks across mission, safety, civil rights, equity, accessibility, privacy, security, reliability, transparency, records, operations, vendors, workforce, public trust, contestability, and redress. Use for government use-case, pilot, deployment, or periodic risk decisions. Do not certify legality, average away severe harms, or accept risk without human authority. Use when asked to (1) assess public sector ai risk, (2) baseline public sector ai risk, (3) identify gaps in public sector ai risk, or (4) prioritize improvements to public sector ai risk.
 ---
 
 # Public Sector AI Risk Assessor

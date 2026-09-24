@@ -1,6 +1,6 @@
 ---
 name: marketing-content-qa-reviewer
-description: Review marketing content for factual accuracy, audience fit, brand voice, clarity, consistency, accessibility, claims, links, formatting, and publication readiness. Use for AI AuthoriTech or authorized client marketing work.
+description: Review marketing content for factual accuracy, audience fit, brand voice, clarity, consistency, accessibility, claims, links, formatting, and publication readiness. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) review marketing content qa, (2) audit marketing content qa, (3) identify gaps in marketing content qa, or (4) recommend corrections to marketing content qa.
 ---
 
 # Marketing Content Qa Reviewer

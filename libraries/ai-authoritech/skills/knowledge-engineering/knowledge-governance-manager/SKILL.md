@@ -1,6 +1,6 @@
 ---
 name: knowledge-governance-manager
-description: Establish and operate knowledge governance for ownership, stewardship, authority, access, privacy, licensing, consent, retention, deletion, lifecycle, quality gates, change control, incidents, and auditability across knowledge bases, graphs, search, and RAG systems. Use when defining policies, roles, controls, approvals, or governance reviews. Do not substitute policy text for technical enforcement or legal review.
+description: Establish and operate knowledge governance for ownership, stewardship, authority, access, privacy, licensing, consent, retention, deletion, lifecycle, quality gates, change control, incidents, and auditability across knowledge bases, graphs, search, and RAG systems. Use when defining policies, roles, controls, approvals, or governance reviews. Do not substitute policy text for technical enforcement or legal review. Use when asked to (1) manage knowledge governance, (2) review knowledge governance, (3) resolve issues in knowledge governance, or (4) improve knowledge governance.
 ---
 
 # Knowledge Governance Manager

@@ -1,6 +1,6 @@
 ---
 name: bath-and-soap-formula-planner
-description: Plan percentage-based bath bombs, moisturizing bath truffles, bath melts, salts, and natural soap formulas with product-specific chemistry, moisture control, fragrance limits, colorant suitability, lye-calculation verification, process controls, cure or dry time, testing, packaging, and labeling handoff. Use for MadamAllure bath-product and true-soap development - not casual lye improvisation, therapeutic claims, or sale-ready approval without verified calculations and testing.
+description: Plan percentage-based bath bombs, moisturizing bath truffles, bath melts, salts, and natural soap formulas with product-specific chemistry, moisture control, fragrance limits, colorant suitability, lye-calculation verification, process controls, cure or dry time, testing, packaging, and labeling handoff. Use for MadamAllure bath-product and true-soap development - not casual lye improvisation, therapeutic claims, or sale-ready approval without verified calculations and testing. Use when asked to (1) plan bath and soap formula, (2) revise bath and soap formula, (3) evaluate options for bath and soap formula, or (4) prepare implementation of bath and soap formula.
 ---
 
 # Bath and Soap Formula Planner

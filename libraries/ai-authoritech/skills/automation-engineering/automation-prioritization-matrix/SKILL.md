@@ -1,6 +1,6 @@
 ---
 name: automation-prioritization-matrix
-description: Rank automation opportunities using transparent evidence for strategic value, user benefit, volume, effort, cost, feasibility, data and API readiness, risk, controls, change capacity, dependencies, and time to value. Use to create a sequenced portfolio rather than select projects by enthusiasm. Do not hide critical blockers inside weighted averages.
+description: Rank automation opportunities using transparent evidence for strategic value, user benefit, volume, effort, cost, feasibility, data and API readiness, risk, controls, change capacity, dependencies, and time to value. Use to create a sequenced portfolio rather than select projects by enthusiasm. Do not hide critical blockers inside weighted averages. Use when asked to (1) create automation prioritization matrix, (2) review automation prioritization matrix, (3) improve automation prioritization matrix, or (4) standardize automation prioritization matrix.
 ---
 
 # Automation Prioritization Matrix

@@ -1,6 +1,6 @@
 ---
 name: personalized-capability-framework
-description: "Orchestrate the complete visual-production system around the creator's established brands, prompting habits, reference standards, GPT workflows, revision language, and commercial goals. This is the required entry skill for ambiguous or multi-skill visual requests. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Orchestrate the complete visual-production system around the creator's established brands, prompting habits, reference standards, GPT workflows, revision language, and commercial goals. This is the required entry skill for ambiguous or multi-skill visual requests. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create personalized capability framework, (2) review personalized capability framework, (3) improve personalized capability framework, or (4) standardize personalized capability framework."
 ---
 # Personalized Image Generation Capability Framework
 

@@ -1,6 +1,6 @@
 ---
 name: laser-settings-validator
-description: Validate laser settings for a known machine and material through controlled tests and documented quality evidence. Use before approving engraving or cutting settings for production.
+description: Validate laser settings for a known machine and material through controlled tests and documented quality evidence. Use before approving engraving or cutting settings for production. Use when asked to (1) create laser settings validator, (2) review laser settings validator, (3) improve laser settings validator, or (4) standardize laser settings validator.
 ---
 
 # Laser Settings Validator

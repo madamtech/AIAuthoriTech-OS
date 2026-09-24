@@ -1,6 +1,6 @@
 ---
 name: prompt-qa-reviewer
-description: Independently review a prompt package for contract completeness, instruction integrity, authority and trust boundaries, test adequacy, evidence quality, adapter compatibility, operational controls, and release readiness. Use after prompt architecture and testing, before approval, rollout, marketplace packaging, or a material version promotion. Return evidence-linked defects and an approve, approve-with-conditions, reject, or inconclusive verdict. Do not author the prompt, execute the primary test suite, or approve based on documentation alone.
+description: Independently review a prompt package for contract completeness, instruction integrity, authority and trust boundaries, test adequacy, evidence quality, adapter compatibility, operational controls, and release readiness. Use after prompt architecture and testing, before approval, rollout, marketplace packaging, or a material version promotion. Return evidence-linked defects and an approve, approve-with-conditions, reject, or inconclusive verdict. Do not author the prompt, execute the primary test suite, or approve based on documentation alone. Use when asked to (1) review prompt qa, (2) audit prompt qa, (3) identify gaps in prompt qa, or (4) recommend corrections to prompt qa.
 ---
 
 # Prompt QA Reviewer

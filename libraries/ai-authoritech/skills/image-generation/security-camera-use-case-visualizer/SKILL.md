@@ -1,6 +1,6 @@
 ---
 name: security-camera-use-case-visualizer
-description: "Place security cameras and related technology in believable customer environments so benefits and coverage are visually understandable. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Place security cameras and related technology in believable customer environments so benefits and coverage are visually understandable. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create security camera use case visualizer, (2) review security camera use case visualizer, (3) improve security camera use case visualizer, or (4) standardize security camera use case visualizer."
 ---
 # Security Camera Use-Case Visualizer
 

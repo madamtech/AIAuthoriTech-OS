@@ -1,6 +1,6 @@
 ---
 name: image-prompt-director
-description: Turn approved storyboard panels and visual locks into clear, consistent cinematic image-generation prompts. Use when prompts need controlled identity, composition, camera intent, environment, lighting, palette, texture, aspect ratio, exclusions, and cross-image continuity.
+description: Turn approved storyboard panels and visual locks into clear, consistent cinematic image-generation prompts. Use when prompts need controlled identity, composition, camera intent, environment, lighting, palette, texture, aspect ratio, exclusions, and cross-image continuity. Use when asked to (1) direct image prompt, (2) plan image prompt, (3) review image prompt, or (4) refine image prompt.
 ---
 
 # Image Prompt Director

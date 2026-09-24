@@ -1,6 +1,6 @@
 ---
 name: packaging-designer
-description: Plan protective, attractive, brand-consistent packaging for MadamAllure products. Use when selecting packaging structure, inserts, labels, presentation, shipping protection, and unboxing details.
+description: Plan protective, attractive, brand-consistent packaging for MadamAllure products. Use when selecting packaging structure, inserts, labels, presentation, shipping protection, and unboxing details. Use when asked to (1) design packaging, (2) revise packaging, (3) compare options for packaging, or (4) document specifications for packaging.
 ---
 
 # Packaging Designer

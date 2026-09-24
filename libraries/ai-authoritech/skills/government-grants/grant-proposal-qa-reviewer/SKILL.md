@@ -1,6 +1,6 @@
 ---
 name: grant-proposal-qa-reviewer
-description: Review a grant application for requirement coverage, eligibility consistency, evidence quality, narrative coherence, scoring alignment, budget traceability, outcomes logic, formatting limits, risk, and submission readiness. Use before final human review. Do not certify compliance or predict an award.
+description: Review a grant application for requirement coverage, eligibility consistency, evidence quality, narrative coherence, scoring alignment, budget traceability, outcomes logic, formatting limits, risk, and submission readiness. Use before final human review. Do not certify compliance or predict an award. Use when asked to (1) review grant proposal qa, (2) audit grant proposal qa, (3) identify gaps in grant proposal qa, or (4) recommend corrections to grant proposal qa.
 ---
 
 # Grant Proposal QA Reviewer

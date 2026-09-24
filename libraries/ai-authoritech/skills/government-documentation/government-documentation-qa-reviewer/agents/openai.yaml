@@ -1,0 +1,7 @@
+interface:
+  display_name: Government Documentation QA Reviewer
+  short_description: Review government functional and administrative documents...
+  default_prompt: Use $government-documentation-qa-reviewer to review government functional
+    and administrative documents for template integrity, factual support, plain language,
+    consistency, traceability, role accuracy, scope boundaries, missing information,
+    and review readiness.

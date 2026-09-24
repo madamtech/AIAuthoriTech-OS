@@ -1,6 +1,6 @@
 ---
 name: laser-layout-optimizer
-description: Optimize laser cutting and engraving layouts for material yield, grain, defects, kerf, heat accumulation, operation order, part stability, traceability, and safe production. Use when nesting verified artwork on sheets or fixtures after material and fire controls are confirmed.
+description: Optimize laser cutting and engraving layouts for material yield, grain, defects, kerf, heat accumulation, operation order, part stability, traceability, and safe production. Use when nesting verified artwork on sheets or fixtures after material and fire controls are confirmed. Use when asked to (1) optimize laser layout, (2) diagnose laser layout, (3) compare approaches for laser layout, or (4) validate laser layout.
 ---
 
 # Laser Layout Optimizer

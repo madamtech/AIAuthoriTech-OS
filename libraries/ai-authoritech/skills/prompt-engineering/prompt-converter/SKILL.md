@@ -1,6 +1,6 @@
 ---
 name: prompt-converter
-description: Convert an approved canonical prompt contract into versioned model-, API-, agent-, workflow-, or platform-specific adapters while preserving task semantics, instruction authority, variables, tool permissions, output schemas, safety controls, uncertainty behavior, and observable acceptance criteria. Use when migrating or porting prompts across providers, models, SDKs, structured-output modes, custom-agent builders, or automation platforms. Do not translate an undefined prompt, silently redesign behavior, claim universal portability, or approve an adapter without equivalence testing.
+description: Convert an approved canonical prompt contract into versioned model-, API-, agent-, workflow-, or platform-specific adapters while preserving task semantics, instruction authority, variables, tool permissions, output schemas, safety controls, uncertainty behavior, and observable acceptance criteria. Use when migrating or porting prompts across providers, models, SDKs, structured-output modes, custom-agent builders, or automation platforms. Do not translate an undefined prompt, silently redesign behavior, claim universal portability, or approve an adapter without equivalence testing. Use when asked to (1) create prompt converter, (2) review prompt converter, (3) improve prompt converter, or (4) standardize prompt converter.
 ---
 
 # Prompt Converter

@@ -1,6 +1,6 @@
 ---
 name: certificate-generation-planner
-description: Design accurate, controlled learning certificate generation using approved eligibility, fields, branding, identifiers, dates, validity, delivery, and reissue rules. Use when creating or revising course, certification, or continuing-education certificates.
+description: Design accurate, controlled learning certificate generation using approved eligibility, fields, branding, identifiers, dates, validity, delivery, and reissue rules. Use when creating or revising course, certification, or continuing-education certificates. Use when asked to (1) plan certificate generation, (2) revise certificate generation, (3) evaluate options for certificate generation, or (4) prepare implementation of certificate generation.
 ---
 
 # Certificate Generation Planner

@@ -1,6 +1,6 @@
 ---
 name: customer-review-analyzer
-description: Analyze authorized customer reviews and feedback for recurring product, fulfillment, service, quality, safety, preference, and expectation themes while protecting personal data and reporting coverage limits. Use to prioritize evidence-based product, content, and operational improvements.
+description: Analyze authorized customer reviews and feedback for recurring product, fulfillment, service, quality, safety, preference, and expectation themes while protecting personal data and reporting coverage limits. Use to prioritize evidence-based product, content, and operational improvements. Use when asked to (1) analyze customer review, (2) diagnose customer review, (3) compare customer review, or (4) summarize findings about customer review.
 ---
 
 # Customer Review Analyzer

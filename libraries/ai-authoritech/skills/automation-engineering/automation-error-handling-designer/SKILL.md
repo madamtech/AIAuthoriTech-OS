@@ -1,6 +1,6 @@
 ---
 name: automation-error-handling-designer
-description: Design failure classification, detection, bounded retries, backoff, timeouts, circuit breaking, compensation, dead-letter handling, replay, reconciliation, escalation, user communication, and incident recovery for automations. Use to make workflow failures safe, observable, and recoverable. Do not use generic retry-all behavior or conceal partial completion.
+description: Design failure classification, detection, bounded retries, backoff, timeouts, circuit breaking, compensation, dead-letter handling, replay, reconciliation, escalation, user communication, and incident recovery for automations. Use to make workflow failures safe, observable, and recoverable. Do not use generic retry-all behavior or conceal partial completion. Use when asked to (1) design automation error handling, (2) revise automation error handling, (3) compare options for automation error handling, or (4) document specifications for automation error handling.
 ---
 
 # Automation Error Handling Designer

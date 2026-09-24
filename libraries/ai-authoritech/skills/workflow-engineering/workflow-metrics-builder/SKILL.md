@@ -1,6 +1,6 @@
 ---
 name: workflow-metrics-builder
-description: Define decision-ready workflow metrics for outcomes, demand, quality, cycle and wait time, throughput, capacity, queues, rework, exceptions, controls, user experience, cost, and equity with exact formulas, sources, owners, segments, thresholds, and action rules. Use before dashboards or optimization. Do not create vanity metrics or incentives that reward harmful gaming.
+description: Define decision-ready workflow metrics for outcomes, demand, quality, cycle and wait time, throughput, capacity, queues, rework, exceptions, controls, user experience, cost, and equity with exact formulas, sources, owners, segments, thresholds, and action rules. Use before dashboards or optimization. Do not create vanity metrics or incentives that reward harmful gaming. Use when asked to (1) build workflow metrics, (2) refine workflow metrics, (3) validate workflow metrics, or (4) standardize workflow metrics.
 ---
 
 # Workflow Metrics Builder

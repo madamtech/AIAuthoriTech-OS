@@ -1,6 +1,6 @@
 ---
 name: ontology-builder
-description: Model a governed domain through formal concepts, properties, relationships, constraints, axioms, identifiers, provenance, and mappings suitable for knowledge graphs, reasoning, interoperability, or semantic data integration. Use when a taxonomy cannot express required relationship semantics or validation rules. Do not create formal complexity without competency questions, source evidence, maintainers, and validation.
+description: Model a governed domain through formal concepts, properties, relationships, constraints, axioms, identifiers, provenance, and mappings suitable for knowledge graphs, reasoning, interoperability, or semantic data integration. Use when a taxonomy cannot express required relationship semantics or validation rules. Do not create formal complexity without competency questions, source evidence, maintainers, and validation. Use when asked to (1) build ontology, (2) refine ontology, (3) validate ontology, or (4) standardize ontology.
 ---
 
 # Ontology Builder

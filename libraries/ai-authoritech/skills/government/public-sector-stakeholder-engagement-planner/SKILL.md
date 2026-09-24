@@ -1,6 +1,6 @@
 ---
 name: public-sector-stakeholder-engagement-planner
-description: Plan inclusive public-sector AI engagement with employees, leadership, oversight bodies, labor representatives, communities, affected groups, advocates, vendors, and the public. Use when engagement must inform government AI design or decisions. Do not claim consensus, use ceremonial consultation, expose participants, or promise influence beyond actual authority.
+description: Plan inclusive public-sector AI engagement with employees, leadership, oversight bodies, labor representatives, communities, affected groups, advocates, vendors, and the public. Use when engagement must inform government AI design or decisions. Do not claim consensus, use ceremonial consultation, expose participants, or promise influence beyond actual authority. Use when asked to (1) plan public sector stakeholder engagement, (2) revise public sector stakeholder engagement, (3) evaluate options for public sector stakeholder engagement, or (4) prepare implementation of public sector stakeholder engagement.
 ---
 
 # Public Sector Stakeholder Engagement Planner

@@ -1,6 +1,6 @@
 ---
 name: video-prompt-director
-description: Convert approved storyboard shots and visual locks into cinematic video-generation prompts with a defined start state, temporal action, camera motion, environmental motion, lighting, continuity, duration, and output constraints. Use for text-to-video or image-to-video planning.
+description: Convert approved storyboard shots and visual locks into cinematic video-generation prompts with a defined start state, temporal action, camera motion, environmental motion, lighting, continuity, duration, and output constraints. Use for text-to-video or image-to-video planning. Use when asked to (1) direct video prompt, (2) plan video prompt, (3) review video prompt, or (4) refine video prompt.
 ---
 
 # Video Prompt Director

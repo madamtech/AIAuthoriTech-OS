@@ -1,6 +1,6 @@
 ---
 name: exception-flow-designer
-description: Design complete exception paths for business and technical workflows, covering detection, classification, ownership, containment, correction, compensation, escalation, communication, reconciliation, closure, and learning. Use when happy-path maps omit recoverable, disputed, unusual, or failed cases. Do not label foreseeable recurring work as an undocumented exception.
+description: Design complete exception paths for business and technical workflows, covering detection, classification, ownership, containment, correction, compensation, escalation, communication, reconciliation, closure, and learning. Use when happy-path maps omit recoverable, disputed, unusual, or failed cases. Do not label foreseeable recurring work as an undocumented exception. Use when asked to (1) design exception flow, (2) revise exception flow, (3) compare options for exception flow, or (4) document specifications for exception flow.
 ---
 
 # Exception Flow Designer

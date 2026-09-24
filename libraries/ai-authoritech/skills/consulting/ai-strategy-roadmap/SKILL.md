@@ -1,6 +1,6 @@
 ---
 name: ai-strategy-roadmap
-description: Convert AI readiness findings, validated workflows, prioritized opportunities, organizational goals, constraints, and risk requirements into an executable phased AI strategy roadmap with outcomes, capability foundations, initiatives, ownership, governance gates, measures, dependencies, and investment assumptions. Use for AI strategy engagements, executive roadmaps, portfolio sequencing, or annual AI planning—not detailed solution architecture, project plans, or unsupported technology wish lists.
+description: Convert AI readiness findings, validated workflows, prioritized opportunities, organizational goals, constraints, and risk requirements into an executable phased AI strategy roadmap with outcomes, capability foundations, initiatives, ownership, governance gates, measures, dependencies, and investment assumptions. Use for AI strategy engagements, executive roadmaps, portfolio sequencing, or annual AI planning—not detailed solution architecture, project plans, or unsupported technology wish lists. Use when asked to (1) create ai strategy roadmap, (2) review ai strategy roadmap, (3) improve ai strategy roadmap, or (4) standardize ai strategy roadmap.
 ---
 
 # AI Strategy Roadmap

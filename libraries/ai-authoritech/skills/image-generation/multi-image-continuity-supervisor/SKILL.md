@@ -1,6 +1,6 @@
 ---
 name: multi-image-continuity-supervisor
-description: "Maintain identity, wardrobe, props, environment, color, scale, and story state across a sequence or campaign. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Maintain identity, wardrobe, props, environment, color, scale, and story state across a sequence or campaign. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) create multi image continuity supervisor, (2) review multi image continuity supervisor, (3) improve multi image continuity supervisor, or (4) standardize multi image continuity supervisor."
 ---
 # Multi-Image Continuity Supervisor
 

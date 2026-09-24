@@ -1,6 +1,6 @@
 ---
 name: scorm-validator
-description: Validate a SCORM package's archive structure, manifest, resources, launch behavior, runtime API communication, completion, success, score, bookmarking, resume, termination, browser behavior, and LMS records. Use before release or when tracking fails. Do not expose proprietary content, modify source without approval, or confuse successful import with valid runtime behavior.
+description: Validate a SCORM package's archive structure, manifest, resources, launch behavior, runtime API communication, completion, success, score, bookmarking, resume, termination, browser behavior, and LMS records. Use before release or when tracking fails. Do not expose proprietary content, modify source without approval, or confuse successful import with valid runtime behavior. Use when asked to (1) create scorm validator, (2) review scorm validator, (3) improve scorm validator, or (4) standardize scorm validator.
 ---
 
 # SCORM Validator

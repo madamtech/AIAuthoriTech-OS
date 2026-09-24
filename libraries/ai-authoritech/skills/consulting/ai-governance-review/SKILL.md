@@ -1,6 +1,6 @@
 ---
 name: ai-governance-review
-description: Assess whether an organization has effective, evidenced governance for AI inventory, accountability, risk classification, approval, data, security, privacy, human oversight, testing, transparency, vendor management, monitoring, incidents, change, retirement, and training. Use for governance gap reviews, control design assessments, pre-deployment gates, internal audits, or remediation planning—not legal certification or a substitute for qualified legal, privacy, security, or compliance advice.
+description: Assess whether an organization has effective, evidenced governance for AI inventory, accountability, risk classification, approval, data, security, privacy, human oversight, testing, transparency, vendor management, monitoring, incidents, change, retirement, and training. Use for governance gap reviews, control design assessments, pre-deployment gates, internal audits, or remediation planning—not legal certification or a substitute for qualified legal, privacy, security, or compliance advice. Use when asked to (1) create ai governance review, (2) review ai governance review, (3) improve ai governance review, or (4) standardize ai governance review.
 ---
 
 # AI Governance Review

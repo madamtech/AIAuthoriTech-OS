@@ -1,6 +1,6 @@
 ---
 name: security-solution-proposal-assembler
-description: Assemble a clear customer- or partner-ready security solution proposal from verified discovery, BOM, pricing, recommendation logic, scope notes, alternates, and disclaimers.
+description: Assemble a clear customer- or partner-ready security solution proposal from verified discovery, BOM, pricing, recommendation logic, scope notes, alternates, and disclaimers. Use when asked to (1) create security solution proposal assembler, (2) review security solution proposal assembler, (3) improve security solution proposal assembler, or (4) standardize security solution proposal assembler.
 ---
 
 # Security Solution Proposal Assembler

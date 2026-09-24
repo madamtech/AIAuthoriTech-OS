@@ -1,6 +1,6 @@
 ---
 name: lms-migration-planner
-description: Plan controlled migrations of LMS users, content, enrollments, completions, transcripts, certifications, structures, and integrations. Use when moving between learning platforms, consolidating tenants, or performing major learning-data conversions.
+description: Plan controlled migrations of LMS users, content, enrollments, completions, transcripts, certifications, structures, and integrations. Use when moving between learning platforms, consolidating tenants, or performing major learning-data conversions. Use when asked to (1) plan lms migration, (2) revise lms migration, (3) evaluate options for lms migration, or (4) prepare implementation of lms migration.
 ---
 
 # LMS Migration Planner

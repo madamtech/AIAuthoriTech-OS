@@ -1,0 +1,6 @@
+interface:
+  display_name: Government Functional Workflow Documenter
+  short_description: Document government workflows in plain functional language...
+  default_prompt: Use $government-functional-workflow-documenter to document government
+    workflows in plain functional language with triggers, roles, systems, steps, decisions,
+    exceptions, outputs, pain points, and completion criteria.

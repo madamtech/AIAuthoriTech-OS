@@ -1,6 +1,6 @@
 ---
 name: workflow-simulator
-description: Simulate workflow demand, queues, capacity, branching, resources, timing, failures, rework, service levels, and proposed changes using explicit distributions and scenarios. Use to compare designs and stress assumptions before implementation. Do not present a model as a forecast without calibration, uncertainty, and validation.
+description: Simulate workflow demand, queues, capacity, branching, resources, timing, failures, rework, service levels, and proposed changes using explicit distributions and scenarios. Use to compare designs and stress assumptions before implementation. Do not present a model as a forecast without calibration, uncertainty, and validation. Use when asked to (1) create workflow simulator, (2) review workflow simulator, (3) improve workflow simulator, or (4) standardize workflow simulator.
 ---
 
 # Workflow Simulator

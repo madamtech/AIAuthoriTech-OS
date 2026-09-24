@@ -1,6 +1,6 @@
 ---
 name: certification-program-designer
-description: Design a governed certification program covering credential claims, competencies, eligibility, assessment evidence, passing rules, attempts, validity, renewal, accommodations, security, records, and accountable approvals. Use when establishing or redesigning a credential. Do not invent legal, accreditation, HR, policy, or platform requirements.
+description: Design a governed certification program covering credential claims, competencies, eligibility, assessment evidence, passing rules, attempts, validity, renewal, accommodations, security, records, and accountable approvals. Use when establishing or redesigning a credential. Do not invent legal, accreditation, HR, policy, or platform requirements. Use when asked to (1) design certification program, (2) revise certification program, (3) compare options for certification program, or (4) document specifications for certification program.
 ---
 
 # Certification Program Designer

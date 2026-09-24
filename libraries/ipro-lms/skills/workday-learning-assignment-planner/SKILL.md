@@ -1,6 +1,6 @@
 ---
 name: workday-learning-assignment-planner
-description: Design controlled Workday Learning assignments using approved audiences, content, due dates, recurrence, exemptions, notifications, and completion rules. Use when planning mandatory or targeted learning assignments before tenant configuration.
+description: Design controlled Workday Learning assignments using approved audiences, content, due dates, recurrence, exemptions, notifications, and completion rules. Use when planning mandatory or targeted learning assignments before tenant configuration. Use when asked to (1) plan workday learning assignment, (2) revise workday learning assignment, (3) evaluate options for workday learning assignment, or (4) prepare implementation of workday learning assignment.
 ---
 
 # Workday Learning Assignment Planner

@@ -1,6 +1,6 @@
 ---
 name: n8n-workflow-planner
-description: Map an approved platform-neutral automation design into a production-ready n8n implementation plan covering triggers, nodes, expressions, credentials, sub-workflows, queues, executions, errors, tests, deployment, scaling, and operations. Use when n8n is the selected orchestrator. Do not claim node availability or product behavior without verifying the target n8n version and deployment.
+description: Map an approved platform-neutral automation design into a production-ready n8n implementation plan covering triggers, nodes, expressions, credentials, sub-workflows, queues, executions, errors, tests, deployment, scaling, and operations. Use when n8n is the selected orchestrator. Do not claim node availability or product behavior without verifying the target n8n version and deployment. Use when asked to (1) plan n8n workflow, (2) revise n8n workflow, (3) evaluate options for n8n workflow, or (4) prepare implementation of n8n workflow.
 ---
 
 # n8n Workflow Planner

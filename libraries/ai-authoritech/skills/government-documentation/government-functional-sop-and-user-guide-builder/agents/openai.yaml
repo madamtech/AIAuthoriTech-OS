@@ -1,0 +1,6 @@
+interface:
+  display_name: Government Functional SOP and User Guide Builder
+  short_description: Create functional SOPs and user guides for government...
+  default_prompt: Use $government-functional-sop-and-user-guide-builder to create functional
+    SOPs and user guides for government operations using verified steps, roles, prerequisites,
+    decision points, completion criteria, references, and review boundaries.

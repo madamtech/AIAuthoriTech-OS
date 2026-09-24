@@ -1,6 +1,6 @@
 ---
 name: product-render-mockup-director
-description: "Produce accurate, market-ready product renders and contextual mockups while preserving geometry, count, color, finish, branding, and functional details. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Produce accurate, market-ready product renders and contextual mockups while preserving geometry, count, color, finish, branding, and functional details. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) direct product render mockup, (2) plan product render mockup, (3) review product render mockup, or (4) refine product render mockup."
 ---
 # Product Render and Mockup Director
 

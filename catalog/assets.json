@@ -4432,7 +4432,7 @@
     },
     {
       "sku": "AA-SKL-000182",
-      "asset_id": "sales-enablement.discovery-stakeholder-research-planner.v1",
+      "asset_id": "sales-enablement.discovery-and-stakeholder-research-planner.v1",
       "name": "Discovery and Stakeholder Research Planner",
       "asset_type": "SKL",
       "business": "AA",
@@ -4440,12 +4440,12 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/sales-enablement/discovery-stakeholder-research-planner",
+      "path": "libraries/ai-authoritech/skills/sales-enablement/discovery-and-stakeholder-research-planner",
       "depends_on": []
     },
     {
       "sku": "AA-SKL-000183",
-      "asset_id": "sales-enablement.account-partner-health-reviewer.v1",
+      "asset_id": "sales-enablement.account-and-partner-health-reviewer.v1",
       "name": "Account and Partner Health Reviewer",
       "asset_type": "SKL",
       "business": "AA",
@@ -4453,12 +4453,12 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/sales-enablement/account-partner-health-reviewer",
+      "path": "libraries/ai-authoritech/skills/sales-enablement/account-and-partner-health-reviewer",
       "depends_on": []
     },
     {
       "sku": "AA-SKL-000184",
-      "asset_id": "sales-enablement.renewal-expansion-planner.v1",
+      "asset_id": "sales-enablement.renewal-and-expansion-planner.v1",
       "name": "Renewal and Expansion Planner",
       "asset_type": "SKL",
       "business": "AA",
@@ -4466,7 +4466,7 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/sales-enablement/renewal-expansion-planner",
+      "path": "libraries/ai-authoritech/skills/sales-enablement/renewal-and-expansion-planner",
       "depends_on": []
     },
     {
@@ -4497,7 +4497,7 @@
     },
     {
       "sku": "AA-SKL-000187",
-      "asset_id": "sales-enablement.sales-demo-recap-follow-up-builder.v1",
+      "asset_id": "sales-enablement.sales-demo-recap-and-follow-up-builder.v1",
       "name": "Sales Demo Recap and Follow-Up Builder",
       "asset_type": "SKL",
       "business": "AA",
@@ -4505,12 +4505,12 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/sales-enablement/sales-demo-recap-follow-up-builder",
+      "path": "libraries/ai-authoritech/skills/sales-enablement/sales-demo-recap-and-follow-up-builder",
       "depends_on": []
     },
     {
       "sku": "AA-SKL-000188",
-      "asset_id": "sales-enablement.sales-voice-communication-adapter.v1",
+      "asset_id": "sales-enablement.sales-voice-and-communication-adapter.v1",
       "name": "Sales Voice and Communication Adapter",
       "asset_type": "SKL",
       "business": "AA",
@@ -4518,7 +4518,7 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/sales-enablement/sales-voice-communication-adapter",
+      "path": "libraries/ai-authoritech/skills/sales-enablement/sales-voice-and-communication-adapter",
       "depends_on": []
     },
     {
@@ -4536,7 +4536,7 @@
     },
     {
       "sku": "AA-SKL-000190",
-      "asset_id": "sales-enablement.quote-pricing-approval-controller.v1",
+      "asset_id": "sales-enablement.quote-pricing-and-approval-controller.v1",
       "name": "Quote Pricing and Approval Controller",
       "asset_type": "SKL",
       "business": "AA",
@@ -4544,7 +4544,7 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/sales-enablement/quote-pricing-approval-controller",
+      "path": "libraries/ai-authoritech/skills/sales-enablement/quote-pricing-and-approval-controller",
       "depends_on": []
     },
     {
@@ -4614,7 +4614,7 @@
     },
     {
       "sku": "AA-SKL-000196",
-      "asset_id": "government-documentation.government-use-case-user-story-builder.v1",
+      "asset_id": "government-documentation.government-use-case-and-user-story-builder.v1",
       "name": "Government Use Case and User Story Builder",
       "asset_type": "SKL",
       "business": "AA",
@@ -4622,12 +4622,12 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/government-documentation/government-use-case-user-story-builder",
+      "path": "libraries/ai-authoritech/skills/government-documentation/government-use-case-and-user-story-builder",
       "depends_on": []
     },
     {
       "sku": "AA-SKL-000197",
-      "asset_id": "government-documentation.government-functional-sop-user-guide-builder.v1",
+      "asset_id": "government-documentation.government-functional-sop-and-user-guide-builder.v1",
       "name": "Government Functional SOP and User Guide Builder",
       "asset_type": "SKL",
       "business": "AA",
@@ -4635,12 +4635,12 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/government-documentation/government-functional-sop-user-guide-builder",
+      "path": "libraries/ai-authoritech/skills/government-documentation/government-functional-sop-and-user-guide-builder",
       "depends_on": []
     },
     {
       "sku": "AA-SKL-000198",
-      "asset_id": "government-documentation.government-uat-script-acceptance-criteria-builder.v1",
+      "asset_id": "government-documentation.government-uat-script-and-acceptance-criteria-builder.v1",
       "name": "Government UAT Script and Acceptance Criteria Builder",
       "asset_type": "SKL",
       "business": "AA",
@@ -4648,12 +4648,12 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/government-documentation/government-uat-script-acceptance-criteria-builder",
+      "path": "libraries/ai-authoritech/skills/government-documentation/government-uat-script-and-acceptance-criteria-builder",
       "depends_on": []
     },
     {
       "sku": "AA-SKL-000199",
-      "asset_id": "government-documentation.government-data-element-role-access-inventory-builder.v1",
+      "asset_id": "government-documentation.government-data-element-and-role-access-inventory-builder.v1",
       "name": "Government Data Element and Role Access Inventory Builder",
       "asset_type": "SKL",
       "business": "AA",
@@ -4661,7 +4661,7 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/government-documentation/government-data-element-role-access-inventory-builder",
+      "path": "libraries/ai-authoritech/skills/government-documentation/government-data-element-and-role-access-inventory-builder",
       "depends_on": []
     },
     {
@@ -4692,7 +4692,7 @@
     },
     {
       "sku": "AA-SKL-000202",
-      "asset_id": "government-documentation.government-modernization-adoption-roadmap-builder.v1",
+      "asset_id": "government-documentation.government-modernization-and-adoption-roadmap-builder.v1",
       "name": "Government Modernization and Adoption Roadmap Builder",
       "asset_type": "SKL",
       "business": "AA",
@@ -4700,12 +4700,12 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/government-documentation/government-modernization-adoption-roadmap-builder",
+      "path": "libraries/ai-authoritech/skills/government-documentation/government-modernization-and-adoption-roadmap-builder",
       "depends_on": []
     },
     {
       "sku": "AA-SKL-000203",
-      "asset_id": "government-documentation.government-intake-document-routing-builder.v1",
+      "asset_id": "government-documentation.government-intake-and-document-routing-builder.v1",
       "name": "Government Intake and Document Routing Builder",
       "asset_type": "SKL",
       "business": "AA",
@@ -4713,7 +4713,7 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/government-documentation/government-intake-document-routing-builder",
+      "path": "libraries/ai-authoritech/skills/government-documentation/government-intake-and-document-routing-builder",
       "depends_on": []
     },
     {
@@ -4731,7 +4731,7 @@
     },
     {
       "sku": "AA-SKL-000205",
-      "asset_id": "government-documentation.government-meeting-action-record-builder.v1",
+      "asset_id": "government-documentation.government-meeting-and-action-record-builder.v1",
       "name": "Government Meeting and Action Record Builder",
       "asset_type": "SKL",
       "business": "AA",
@@ -4739,7 +4739,7 @@
       "version": "1.0.0",
       "status": "testing",
       "maturity": 2,
-      "path": "libraries/ai-authoritech/skills/government-documentation/government-meeting-action-record-builder",
+      "path": "libraries/ai-authoritech/skills/government-documentation/government-meeting-and-action-record-builder",
       "depends_on": []
     },
     {
@@ -4766,6 +4766,32 @@
       "status": "testing",
       "maturity": 2,
       "path": "libraries/ai-authoritech/skills/government-documentation/government-documentation-qa-reviewer",
+      "depends_on": []
+    },
+    {
+      "sku": "AA-SKL-000208",
+      "asset_id": "image-generation.gpt-visual-intelligence-enhancement.v1",
+      "name": "GPT Visual Intelligence Enhancement",
+      "asset_type": "SKL",
+      "business": "AA",
+      "library": "IMG",
+      "version": "1.0.0",
+      "status": "testing",
+      "maturity": 2,
+      "path": "libraries/ai-authoritech/skills/image-generation/gpt-visual-intelligence-enhancement",
+      "depends_on": []
+    },
+    {
+      "sku": "CO-SKL-000005",
+      "asset_id": "core.gpt-security-hardening.v1",
+      "name": "GPT Security Hardening",
+      "asset_type": "SKL",
+      "business": "CO",
+      "library": "CORE",
+      "version": "1.0.0",
+      "status": "testing",
+      "maturity": 2,
+      "path": "libraries/core-os/skills/gpt-security-hardening",
       "depends_on": []
     }
   ]

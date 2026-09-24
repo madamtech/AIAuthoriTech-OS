@@ -1,6 +1,6 @@
 ---
 name: beauty-batch-production-planner
-description: Plan controlled small-batch beauty production using approved master formulas, verified scaling, batch records, sanitation, raw-material and lot traceability, process limits, in-process quality checks, packaging, deviation handling, quarantine, and authorized release controls.
+description: Plan controlled small-batch beauty production using approved master formulas, verified scaling, batch records, sanitation, raw-material and lot traceability, process limits, in-process quality checks, packaging, deviation handling, quarantine, and authorized release controls. Use when asked to (1) plan beauty batch production, (2) revise beauty batch production, (3) evaluate options for beauty batch production, or (4) prepare implementation of beauty batch production.
 ---
 
 # Beauty Batch Production Planner

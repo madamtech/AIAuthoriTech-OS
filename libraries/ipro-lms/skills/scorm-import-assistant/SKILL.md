@@ -1,6 +1,6 @@
 ---
 name: scorm-import-assistant
-description: Plan and verify SCORM imports into an LMS by checking package readiness, version, metadata, launch settings, completion logic, replacement behavior, and post-import tracking. Use after package validation and before learner release.
+description: Plan and verify SCORM imports into an LMS by checking package readiness, version, metadata, launch settings, completion logic, replacement behavior, and post-import tracking. Use after package validation and before learner release. Use when asked to (1) support scorm import, (2) organize scorm import, (3) review scorm import, or (4) improve scorm import.
 ---
 
 # SCORM Import Assistant

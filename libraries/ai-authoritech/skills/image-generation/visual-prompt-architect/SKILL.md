@@ -1,6 +1,6 @@
 ---
 name: visual-prompt-architect
-description: "Convert intent, references, brand rules, and technical constraints into a complete image-generation specification that minimizes ambiguity and revision waste. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output."
+description: "Convert intent, references, brand rules, and technical constraints into a complete image-generation specification that minimizes ambiguity and revision waste. Use when creating, reviewing, revising, governing, or validating image-generation work that needs explicit inputs, constraints, rights, continuity, quality checks, recovery handling, and a reusable production-ready output. Use when asked to (1) architect visual prompt, (2) assess visual prompt, (3) refine visual prompt, or (4) document visual prompt."
 ---
 # Visual Prompt Architect
 

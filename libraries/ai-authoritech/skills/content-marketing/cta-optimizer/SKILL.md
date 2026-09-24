@@ -1,6 +1,6 @@
 ---
 name: cta-optimizer
-description: Optimize calls to action by aligning user intent, value, friction, placement, wording, destination, proof, and measurement. Use for websites, landing pages, emails, and campaigns. Use for AI AuthoriTech or authorized client marketing work.
+description: Optimize calls to action by aligning user intent, value, friction, placement, wording, destination, proof, and measurement. Use for websites, landing pages, emails, and campaigns. Use for AI AuthoriTech or authorized client marketing work. Use when asked to (1) optimize cta, (2) diagnose cta, (3) compare approaches for cta, or (4) validate cta.
 ---
 
 # Cta Optimizer
